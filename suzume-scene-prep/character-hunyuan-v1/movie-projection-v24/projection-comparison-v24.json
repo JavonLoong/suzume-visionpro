@@ -1,0 +1,100 @@
+{
+  "rows": [
+    {
+      "name": "left_shoulder",
+      "beforePixels": 3.618230498557272,
+      "afterPixels": 7.367166583674562
+    },
+    {
+      "name": "right_shoulder",
+      "beforePixels": 18.501744788002068,
+      "afterPixels": 12.824208523393574
+    },
+    {
+      "name": "waist",
+      "beforePixels": 11.145541996420882,
+      "afterPixels": 22.820349784286165
+    },
+    {
+      "name": "left_hem",
+      "beforePixels": 22.221050894663588,
+      "afterPixels": 14.77945453145489
+    },
+    {
+      "name": "right_hem",
+      "beforePixels": 6.109884674314389,
+      "afterPixels": 40.49470520706811
+    },
+    {
+      "name": "left_shoe",
+      "beforePixels": 65.71580349194983,
+      "afterPixels": 48.40248394572593
+    },
+    {
+      "name": "right_shoe",
+      "beforePixels": 75.66423467952711,
+      "afterPixels": 37.92987591852431
+    },
+    {
+      "name": "left_hand_tip",
+      "beforePixels": 0.7169824359276502,
+      "afterPixels": 37.95374933057321
+    },
+    {
+      "name": "header left",
+      "beforePixels": 80.5472054155744,
+      "afterPixels": 24.89086938162555
+    },
+    {
+      "name": "header right",
+      "beforePixels": 66.92533531864137,
+      "afterPixels": 8.23595758057622
+    },
+    {
+      "name": "sill left",
+      "beforePixels": 17.958010180362788,
+      "afterPixels": 11.418829649886414
+    },
+    {
+      "name": "sill right",
+      "beforePixels": 31.80853941710504,
+      "afterPixels": 28.370748955597154
+    },
+    {
+      "name": "bay 13 arcade base",
+      "beforePixels": 2.0837479753139405,
+      "afterPixels": 4.9204709590932225
+    },
+    {
+      "name": "bay 15 arcade base",
+      "beforePixels": 92.93213388014419,
+      "afterPixels": 4.220504125088496
+    },
+    {
+      "name": "bay 13 upper roof",
+      "beforePixels": 1.2826485080678367,
+      "afterPixels": 3.4229381719322873
+    },
+    {
+      "name": "bay 15 upper roof",
+      "beforePixels": 146.97882491781115,
+      "afterPixels": 7.231603947017447
+    },
+    {
+      "name": "bay 13 water contact",
+      "beforePixels": 48.74627575716977,
+      "afterPixels": 6.553932429670567
+    },
+    {
+      "name": "bay 16 water contact",
+      "beforePixels": 36.03582709989837,
+      "afterPixels": 3.8610227168596793
+    }
+  ],
+  "foregroundMeanBefore": 33.4110469825872,
+  "foregroundMeanAfter": 24.624033282698843,
+  "selectedArchitectureMeanBefore": 54.67657635640088,
+  "selectedArchitectureMeanAfter": 5.035078724943617,
+  "notAWholeSceneFidelityScore": true,
+  "oneToOneComplete": false
+}

@@ -1,0 +1,245 @@
+{
+  "method": "Median RGB in manually selected shirt, skirt and hair regions, projected by the existing reference camera fit. This measures only local color and is not a one-to-one or all-view score.",
+  "variants": [
+    {
+      "file": "native-pose-front-v17.png",
+      "regions": {
+        "shirt": {
+          "medianRGB": [
+            96.5,
+            98.0,
+            112.0
+          ],
+          "targetRGB": [
+            198.0,
+            192.5,
+            190.0
+          ],
+          "RGBDistance": 159.11159605760983,
+          "samplePixels": 484
+        },
+        "skirt": {
+          "medianRGB": [
+            25.0,
+            29.0,
+            27.0
+          ],
+          "targetRGB": [
+            96.0,
+            105.0,
+            78.0
+          ],
+          "RGBDistance": 115.83609109426992,
+          "samplePixels": 1334
+        },
+        "hair": {
+          "medianRGB": [
+            10.0,
+            7.0,
+            9.5
+          ],
+          "targetRGB": [
+            77.0,
+            55.0,
+            57.0
+          ],
+          "RGBDistance": 95.12754595804519,
+          "samplePixels": 374
+        }
+      },
+      "meanRGBDistance": 123.35841103664164
+    },
+    {
+      "file": "portal-light-candidate.png",
+      "regions": {
+        "shirt": {
+          "medianRGB": [
+            196.0,
+            194.0,
+            192.0
+          ],
+          "targetRGB": [
+            198.0,
+            192.5,
+            190.0
+          ],
+          "RGBDistance": 3.2015621187164243,
+          "samplePixels": 484
+        },
+        "skirt": {
+          "medianRGB": [
+            115.0,
+            120.0,
+            98.0
+          ],
+          "targetRGB": [
+            96.0,
+            105.0,
+            78.0
+          ],
+          "RGBDistance": 31.400636936215164,
+          "samplePixels": 1334
+        },
+        "hair": {
+          "medianRGB": [
+            66.0,
+            55.0,
+            51.0
+          ],
+          "targetRGB": [
+            77.0,
+            55.0,
+            57.0
+          ],
+          "RGBDistance": 12.529964086141668,
+          "samplePixels": 374
+        }
+      },
+      "meanRGBDistance": 15.71072104702442
+    },
+    {
+      "file": "aperture-light-15.png",
+      "regions": {
+        "shirt": {
+          "medianRGB": [
+            196.0,
+            194.0,
+            193.0
+          ],
+          "targetRGB": [
+            198.0,
+            192.5,
+            190.0
+          ],
+          "RGBDistance": 3.905124837953327,
+          "samplePixels": 484
+        },
+        "skirt": {
+          "medianRGB": [
+            115.0,
+            120.0,
+            98.0
+          ],
+          "targetRGB": [
+            96.0,
+            105.0,
+            78.0
+          ],
+          "RGBDistance": 31.400636936215164,
+          "samplePixels": 1334
+        },
+        "hair": {
+          "medianRGB": [
+            66.0,
+            56.0,
+            51.0
+          ],
+          "targetRGB": [
+            77.0,
+            55.0,
+            57.0
+          ],
+          "RGBDistance": 12.569805089976535,
+          "samplePixels": 374
+        }
+      },
+      "meanRGBDistance": 15.958522288048341
+    },
+    {
+      "file": "aperture-light-30.png",
+      "regions": {
+        "shirt": {
+          "medianRGB": [
+            215.0,
+            214.0,
+            212.0
+          ],
+          "targetRGB": [
+            198.0,
+            192.5,
+            190.0
+          ],
+          "RGBDistance": 35.14612354157995,
+          "samplePixels": 484
+        },
+        "skirt": {
+          "medianRGB": [
+            149.0,
+            152.0,
+            130.0
+          ],
+          "targetRGB": [
+            96.0,
+            105.0,
+            78.0
+          ],
+          "RGBDistance": 87.87491109526086,
+          "samplePixels": 1334
+        },
+        "hair": {
+          "medianRGB": [
+            96.0,
+            81.5,
+            74.0
+          ],
+          "targetRGB": [
+            77.0,
+            55.0,
+            57.0
+          ],
+          "RGBDistance": 36.77295201639379,
+          "samplePixels": 374
+        }
+      },
+      "meanRGBDistance": 53.26466221774486
+    },
+    {
+      "file": "aperture-light-50.png",
+      "regions": {
+        "shirt": {
+          "medianRGB": [
+            227.0,
+            226.0,
+            224.0
+          ],
+          "targetRGB": [
+            198.0,
+            192.5,
+            190.0
+          ],
+          "RGBDistance": 55.85024619462299,
+          "samplePixels": 484
+        },
+        "skirt": {
+          "medianRGB": [
+            172.0,
+            174.0,
+            156.0
+          ],
+          "targetRGB": [
+            96.0,
+            105.0,
+            78.0
+          ],
+          "RGBDistance": 128.9224573144648,
+          "samplePixels": 1334
+        },
+        "hair": {
+          "medianRGB": [
+            120.0,
+            103.0,
+            97.0
+          ],
+          "targetRGB": [
+            77.0,
+            55.0,
+            57.0
+          ],
+          "RGBDistance": 75.8485332752058,
+          "samplePixels": 374
+        }
+      },
+      "meanRGBDistance": 86.87374559476454
+    }
+  ]
+}

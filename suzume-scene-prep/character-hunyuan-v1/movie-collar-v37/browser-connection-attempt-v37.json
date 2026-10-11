@@ -1,0 +1,8 @@
+{
+  "checkedAt": "2026-10-10T03:08:24.072965+00:00",
+  "availableBrowserInventory": "Edge extension present, inventory request failed; existing IAB scene tab found.",
+  "iabSceneTab": "3",
+  "failure": "Timed out running CDP command Emulation.setFocusEmulationEnabled for tab 3",
+  "browserRuntimeVerified": false,
+  "nativeRenderAndExportUnaffected": true
+}

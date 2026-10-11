@@ -1,0 +1,12 @@
+门前植物与旧物重建 v51
+
+完整模型：Suzume_dual_scene_foreground_v51.blend。主文件 suzume-full-scene.blend 已同步。
+Blender 场景：Official poster courtyard v38（第 1 帧海报）、Daytime circular hotel（第 72 帧电影）、Night meadow through the door（异世界）。
+
+新增较细的枝叶、草叶、攀附藤蔓、残椅与较低的空心管道和回弯。新增 32 个封闭实体组，包含 2,108 片小叶与 126 根草叶。移除了局部 256 片粗大叶子和旧箱形杂物/旧管道的 706 个三角形，其余 4,187 片原有叶子的变换、颜色保持一致。
+人物、脚部间隙、独立头模、门两侧分割和异世界场景沿用 v37，不在此次修改范围内。
+
+海报网页：http://127.0.0.1:8931/viewer/poster-v51.html
+电影网页：http://127.0.0.1:8931/viewer/candidate-v37.html
+
+已检查正面、局部和侧面原生渲染及网页几何数据。地面条带和碎石、植物精确分布/颜色、旧物破损及隐藏结构仍需校准，整体尚未达到一比一。浏览器实际 GPU 显示仍待验证。

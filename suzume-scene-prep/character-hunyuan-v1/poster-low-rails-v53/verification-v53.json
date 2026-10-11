@@ -1,0 +1,526 @@
+{
+  "revision": 53,
+  "nativeSha256": "436a97857da27ee66d68b501b46abace9c50187898cfce77acc84e11d9953b1f",
+  "sourceNativeSha256": "7fca0fbb45409d9d17bc6700881e70978ed6748fe35d21c2fe94ff9a1d7d1b4b",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "allExistingVegetationPreservedExactly": true,
+  "sharedNodeGroupsPreserved": true,
+  "allPackedImageBytesPreserved": true,
+  "packedImageCount": 23,
+  "unchangedOriginalFacePositionsAndUVsPreserved": true,
+  "changedOriginalMeshes": [
+    {
+      "key": "debris0",
+      "name": "Brick and masonry debris solid mesh.002",
+      "removedTriangles": 12,
+      "finalTriangles": 432
+    },
+    {
+      "key": "debris1",
+      "name": "Brick and masonry debris solid mesh.003",
+      "removedTriangles": 72,
+      "finalTriangles": 804
+    }
+  ],
+  "addedSolids": [
+    {
+      "name": "Poster low frame upper back rail v53",
+      "kind": "frame",
+      "triangles": 640,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0023719962962881046,
+      "maximumVertexErrorMeters": 9.534521474563462e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame short lower back rail v53",
+      "kind": "frame",
+      "triangles": 288,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008712245923503012,
+      "maximumVertexErrorMeters": 9.478417979380538e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame lower front rail v53",
+      "kind": "frame",
+      "triangles": 512,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0020667213314806,
+      "maximumVertexErrorMeters": 9.487207037750522e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame sagging inner rail v53",
+      "kind": "frame",
+      "triangles": 240,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005369365228363262,
+      "maximumVertexErrorMeters": 9.457714860161559e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame bent right outer frame v53",
+      "kind": "frame",
+      "triangles": 400,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0024854694014075566,
+      "maximumVertexErrorMeters": 9.474072264481492e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame bent right inner frame v53",
+      "kind": "frame",
+      "triangles": 304,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0015187208444158015,
+      "maximumVertexErrorMeters": 9.52871094028751e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame front damaged upright v53",
+      "kind": "frame",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0003734888539334902,
+      "maximumVertexErrorMeters": 9.431542977722529e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame left rear grounded leg v53",
+      "kind": "leg",
+      "triangles": 400,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0014685738387411988,
+      "maximumVertexErrorMeters": 9.453173817064453e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame left rear foot shoe v53",
+      "kind": "shoe",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 7.46997067665258e-05,
+      "maximumVertexErrorMeters": 9.02958984028146e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame middle rear grounded leg v53",
+      "kind": "leg",
+      "triangles": 272,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.000998668128155522,
+      "maximumVertexErrorMeters": 7.789697278326457e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame middle rear foot shoe v53",
+      "kind": "shoe",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 7.470035146148299e-05,
+      "maximumVertexErrorMeters": 8.917138671904468e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame left front grounded leg v53",
+      "kind": "leg",
+      "triangles": 224,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005628474733235102,
+      "maximumVertexErrorMeters": 7.600341795921395e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame left front foot shoe v53",
+      "kind": "shoe",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 7.469906862876533e-05,
+      "maximumVertexErrorMeters": 6.89765624173333e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame middle front grounded leg v53",
+      "kind": "leg",
+      "triangles": 208,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005200339832443107,
+      "maximumVertexErrorMeters": 7.350732431632423e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame middle front foot shoe v53",
+      "kind": "shoe",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 7.469970676624457e-05,
+      "maximumVertexErrorMeters": 8.540234368581423e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame right outer grounded leg v53",
+      "kind": "leg",
+      "triangles": 96,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0003378874470786688,
+      "maximumVertexErrorMeters": 9.248974599529447e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame right outer foot shoe v53",
+      "kind": "shoe",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 7.469893119196354e-05,
+      "maximumVertexErrorMeters": 8.758251937024397e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame right inner grounded leg v53",
+      "kind": "leg",
+      "triangles": 144,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0004891285834803851,
+      "maximumVertexErrorMeters": 8.654150391862458e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame right inner foot shoe v53",
+      "kind": "shoe",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 7.470098961022162e-05,
+      "maximumVertexErrorMeters": 9.144873054367508e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame broken board 0 v53",
+      "kind": "board",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01307890413232901,
+      "maximumVertexErrorMeters": 4.426904283150179e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame broken board 1 v53",
+      "kind": "board",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0048397834077390685,
+      "maximumVertexErrorMeters": 9.033398420399408e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame broken board 2 v53",
+      "kind": "board",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004546917533089884,
+      "maximumVertexErrorMeters": 7.887841810827467e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster low frame broken board 3 v53",
+      "kind": "board",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0032039645916417704,
+      "maximumVertexErrorMeters": 9.053759768562486e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe exposed strap 0 v53",
+      "kind": "pipe strap",
+      "triangles": 260,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007315062483488786,
+      "maximumVertexErrorMeters": 9.417480484330554e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support upright 0 v53",
+      "kind": "pipe support",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006985752453298336,
+      "maximumVertexErrorMeters": 8.757128888703392e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support foot 0 v53",
+      "kind": "shoe",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00021559965380574977,
+      "maximumVertexErrorMeters": 8.494531265057503e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support bolt 0 0.515 v53",
+      "kind": "bolt",
+      "triangles": 24,
+      "nonManifoldEdges": 0,
+      "signedVolume": 5.658673887180832e-06,
+      "maximumVertexErrorMeters": 2.3720092734436093e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support bolt 0 0.300 v53",
+      "kind": "bolt",
+      "triangles": 24,
+      "nonManifoldEdges": 0,
+      "signedVolume": 5.658665035872474e-06,
+      "maximumVertexErrorMeters": 2.3720092734436093e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe exposed strap 1 v53",
+      "kind": "pipe strap",
+      "triangles": 260,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007315051374875581,
+      "maximumVertexErrorMeters": 9.454882814452503e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support upright 1 v53",
+      "kind": "pipe support",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007014367596076135,
+      "maximumVertexErrorMeters": 9.333398445221519e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support foot 1 v53",
+      "kind": "shoe",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00021560081669106296,
+      "maximumVertexErrorMeters": 7.247412092681316e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support bolt 1 0.515 v53",
+      "kind": "bolt",
+      "triangles": 24,
+      "nonManifoldEdges": 0,
+      "signedVolume": 5.658673887286758e-06,
+      "maximumVertexErrorMeters": 7.039990244095407e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support bolt 1 0.300 v53",
+      "kind": "bolt",
+      "triangles": 24,
+      "nonManifoldEdges": 0,
+      "signedVolume": 5.658665035904024e-06,
+      "maximumVertexErrorMeters": 7.039990244095407e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe exposed strap 2 v53",
+      "kind": "pipe strap",
+      "triangles": 260,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007315106908992747,
+      "maximumVertexErrorMeters": 9.376953116202458e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support upright 2 v53",
+      "kind": "pipe support",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006993199885382733,
+      "maximumVertexErrorMeters": 8.548925798379514e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support foot 2 v53",
+      "kind": "shoe",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00021559883945249217,
+      "maximumVertexErrorMeters": 8.711523449278502e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support bolt 2 0.515 v53",
+      "kind": "bolt",
+      "triangles": 24,
+      "nonManifoldEdges": 0,
+      "signedVolume": 5.658679068612775e-06,
+      "maximumVertexErrorMeters": 2.28887939712763e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe support bolt 2 0.300 v53",
+      "kind": "bolt",
+      "triangles": 24,
+      "nonManifoldEdges": 0,
+      "signedVolume": 5.658670217076355e-06,
+      "maximumVertexErrorMeters": 2.28887939712763e-07,
+      "vertexColorsPreserved": true
+    }
+  ],
+  "groundContacts": [
+    {
+      "kind": "frame",
+      "point": [
+        -14.682354460358377,
+        17.416169664827137,
+        0.06416541797765249
+      ],
+      "groundZ": 0.06316554546356201,
+      "gapMeters": 0.0009998725140904774
+    },
+    {
+      "kind": "frame",
+      "point": [
+        -13.667953605735299,
+        18.19785195943632,
+        0.0880258456268953
+      ],
+      "groundZ": 0.08702579140663147,
+      "gapMeters": 0.0010000542202638352
+    },
+    {
+      "kind": "frame",
+      "point": [
+        -14.540828579291954,
+        17.14648985357165,
+        0.03615706423007819
+      ],
+      "groundZ": 0.035157084465026855,
+      "gapMeters": 0.0009999797650513328
+    },
+    {
+      "kind": "frame",
+      "point": [
+        -13.542467754327134,
+        17.91581193857364,
+        0.06161767959188871
+      ],
+      "groundZ": 0.06061762571334839,
+      "gapMeters": 0.0010000538785403246
+    },
+    {
+      "kind": "frame",
+      "point": [
+        -12.162085594667385,
+        18.46190601236355,
+        0.10043174136959179
+      ],
+      "groundZ": 0.09943178296089172,
+      "gapMeters": 0.000999958408700069
+    },
+    {
+      "kind": "frame",
+      "point": [
+        -12.248046225044368,
+        17.878058020770005,
+        0.0791603239211072
+      ],
+      "groundZ": 0.0781603455543518,
+      "gapMeters": 0.0009999783667553885
+    },
+    {
+      "kind": "pipe",
+      "point": [
+        -7.37358830820295,
+        21.099437748119783,
+        0.14387634708540636
+      ],
+      "groundZ": 0.14287632703781128,
+      "gapMeters": 0.001000020047595085
+    },
+    {
+      "kind": "pipe",
+      "point": [
+        -6.681033354404082,
+        21.326113467273018,
+        0.14184637665380959
+      ],
+      "groundZ": 0.1408463418483734,
+      "gapMeters": 0.001000034805436173
+    },
+    {
+      "kind": "pipe",
+      "point": [
+        -6.025002728499036,
+        21.54083464296872,
+        0.14333831957792187
+      ],
+      "groundZ": 0.1423383355140686,
+      "gapMeters": 0.0009999840638532653
+    }
+  ],
+  "pipeStrapContacts": [
+    {
+      "name": "Poster pipe exposed strap 0 v53",
+      "gapMeters": -0.0009995935033657588,
+      "pipeSurfaceNative": [
+        -7.384164333343506,
+        21.131752014160156,
+        0.40505531430244446
+      ]
+    },
+    {
+      "name": "Poster pipe exposed strap 1 v53",
+      "gapMeters": -0.000999445175693836,
+      "pipeSurfaceNative": [
+        -6.691609859466553,
+        21.358427047729492,
+        0.40505531430244446
+      ]
+    },
+    {
+      "name": "Poster pipe exposed strap 2 v53",
+      "gapMeters": -0.0009995935033657588,
+      "pipeSurfaceNative": [
+        -6.035578727722168,
+        21.573148727416992,
+        0.40505531430244446
+      ]
+    }
+  ],
+  "centerlineProjectionChecks": [
+    {
+      "name": "upper back rail",
+      "maximumProjectionErrorPixels708": 3.548310486323203e-05
+    },
+    {
+      "name": "short lower back rail",
+      "maximumProjectionErrorPixels708": 3.234015075292973e-05
+    },
+    {
+      "name": "lower front rail",
+      "maximumProjectionErrorPixels708": 3.550310792732603e-05
+    },
+    {
+      "name": "sagging inner rail",
+      "maximumProjectionErrorPixels708": 3.233118928847034e-05
+    },
+    {
+      "name": "bent right outer frame",
+      "maximumProjectionErrorPixels708": 2.9632339945351305e-05
+    },
+    {
+      "name": "bent right inner frame",
+      "maximumProjectionErrorPixels708": 2.964568996333128e-05
+    },
+    {
+      "name": "front damaged upright",
+      "maximumProjectionErrorPixels708": 3.408314628217113e-05
+    }
+  ],
+  "hiddenDepthAndFixtureIdentityInferred": true,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

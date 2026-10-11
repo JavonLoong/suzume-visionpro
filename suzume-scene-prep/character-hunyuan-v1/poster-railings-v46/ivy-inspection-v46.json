@@ -1,0 +1,323 @@
+[
+  {
+    "name": "Individual three-dimensional ivy leaves.001",
+    "type": "MESH",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "modifiers": [
+      {
+        "name": "Linked modeled elements",
+        "type": "NODES",
+        "nodes": [
+          {
+            "name": "Group Input",
+            "type": "NodeGroupInput",
+            "inputs": {},
+            "object": null
+          },
+          {
+            "name": "Group Output",
+            "type": "NodeGroupOutput",
+            "inputs": {},
+            "object": null
+          },
+          {
+            "name": "Object Info",
+            "type": "GeometryNodeObjectInfo",
+            "inputs": {
+              "Object": "<bpy_struct, Object(\"Individual three-dimensional ivy leaves prototype.001\") at 0x000001F8EA4EF920>",
+              "As Instance": "True"
+            },
+            "object": null
+          },
+          {
+            "name": "Instance on Points",
+            "type": "GeometryNodeInstanceOnPoints",
+            "inputs": {
+              "Selection": "True",
+              "Pick Instance": "False",
+              "Instance Index": "0",
+              "Rotation": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>",
+              "Scale": "<Vector (1.0000, 1.0000, 1.0000)>"
+            },
+            "object": null
+          },
+          {
+            "name": "Named Attribute",
+            "type": "GeometryNodeInputNamedAttribute",
+            "inputs": {
+              "Name": "instance_rotation"
+            },
+            "object": null
+          },
+          {
+            "name": "Named Attribute.001",
+            "type": "GeometryNodeInputNamedAttribute",
+            "inputs": {
+              "Name": "instance_scale"
+            },
+            "object": null
+          },
+          {
+            "name": "Realize Instances",
+            "type": "GeometryNodeRealizeInstances",
+            "inputs": {
+              "Selection": "True",
+              "Realize All": "True",
+              "Depth": "0"
+            },
+            "object": null
+          }
+        ],
+        "links": [
+          [
+            "Group Input",
+            "Geometry",
+            "Instance on Points",
+            "Points"
+          ],
+          [
+            "Object Info",
+            "Geometry",
+            "Instance on Points",
+            "Instance"
+          ],
+          [
+            "Named Attribute",
+            "Attribute",
+            "Instance on Points",
+            "Rotation"
+          ],
+          [
+            "Named Attribute.001",
+            "Attribute",
+            "Instance on Points",
+            "Scale"
+          ],
+          [
+            "Instance on Points",
+            "Instances",
+            "Realize Instances",
+            "Geometry"
+          ],
+          [
+            "Realize Instances",
+            "Geometry",
+            "Group Output",
+            "Geometry"
+          ]
+        ],
+        "mutedNodes": [
+          "Realize Instances"
+        ]
+      }
+    ],
+    "vertices": 4443,
+    "materials": [],
+    "attributes": [
+      {
+        "name": "instance_color",
+        "domain": "POINT",
+        "type": "FLOAT_COLOR",
+        "length": 4443
+      },
+      {
+        "name": "position",
+        "domain": "POINT",
+        "type": "FLOAT_VECTOR",
+        "length": 4443
+      },
+      {
+        "name": "instance_rotation",
+        "domain": "POINT",
+        "type": "FLOAT_VECTOR",
+        "length": 4443
+      },
+      {
+        "name": "instance_scale",
+        "domain": "POINT",
+        "type": "FLOAT_VECTOR",
+        "length": 4443
+      },
+      {
+        "name": ".select_vert",
+        "domain": "POINT",
+        "type": "BOOLEAN",
+        "length": 4443
+      },
+      {
+        "name": "sharp_face",
+        "domain": "FACE",
+        "type": "BOOLEAN",
+        "length": 0
+      }
+    ],
+    "bounds": [
+      [
+        -23.391942977905273,
+        0.0797823965549469,
+        -23.49095916748047
+      ],
+      [
+        23.4375,
+        6.912201404571533,
+        20.57958221435547
+      ]
+    ],
+    "instanceColorRange": [
+      [
+        0.007607217878103256,
+        0.03582639619708061,
+        0.004099143203347921,
+        1.0
+      ],
+      [
+        0.17810776829719543,
+        0.34701237082481384,
+        0.04431098699569702,
+        1.0
+      ]
+    ],
+    "evaluatedVertices": 0,
+    "evaluatedColors": []
+  },
+  {
+    "name": "Individual three-dimensional ivy leaves prototype.001",
+    "type": "MESH",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "modifiers": [],
+    "vertices": 10,
+    "materials": [
+      "Individual three-dimensional ivy leaves vertex pigments.001"
+    ],
+    "attributes": [
+      {
+        "name": "position",
+        "domain": "POINT",
+        "type": "FLOAT_VECTOR",
+        "length": 10
+      },
+      {
+        "name": ".select_vert",
+        "domain": "POINT",
+        "type": "BOOLEAN",
+        "length": 10
+      },
+      {
+        "name": ".edge_verts",
+        "domain": "EDGE",
+        "type": "INT32_2D",
+        "length": 17
+      },
+      {
+        "name": ".select_edge",
+        "domain": "EDGE",
+        "type": "INT32_2D",
+        "length": 17
+      },
+      {
+        "name": "sharp_edge",
+        "domain": "EDGE",
+        "type": "BOOLEAN",
+        "length": 17
+      },
+      {
+        "name": ".select_poly",
+        "domain": "FACE",
+        "type": "BOOLEAN",
+        "length": 8
+      },
+      {
+        "name": "sharp_face",
+        "domain": "FACE",
+        "type": "BOOLEAN",
+        "length": 8
+      },
+      {
+        "name": ".corner_vert",
+        "domain": "CORNER",
+        "type": "INT",
+        "length": 24
+      },
+      {
+        "name": ".corner_edge",
+        "domain": "CORNER",
+        "type": "INT",
+        "length": 24
+      },
+      {
+        "name": "custom_normal",
+        "domain": "CORNER",
+        "type": "INT16_2D",
+        "length": 24
+      },
+      {
+        "name": "UVMap",
+        "domain": "CORNER",
+        "type": "FLOAT2",
+        "length": 24
+      }
+    ],
+    "bounds": [
+      [
+        -0.07000000029802322,
+        -0.05999999865889549,
+        0.0
+      ],
+      [
+        0.07999999821186066,
+        0.11999999731779099,
+        0.0
+      ]
+    ]
+  }
+]

@@ -1,0 +1,408 @@
+{
+  "sourceSha256": "478a0aa3a14eaadde0bbe9353a08574dbf204a282a2f66a93c093d76c2c1e438",
+  "scene": "Official poster courtyard v38",
+  "waterObject": "Live planar reflective shallow water.001",
+  "waterMaterial": "Live planar reflective shallow water.001",
+  "waterBounds": [
+    [
+      -29.0,
+      29.0
+    ],
+    [
+      -29.0,
+      29.0
+    ],
+    [
+      0.04999654367566109,
+      0.05000345781445503
+    ]
+  ],
+  "waterVertices": 130,
+  "nodes": [
+    {
+      "name": "Wave time",
+      "type": "VALUE",
+      "operation": null,
+      "inputs": {}
+    },
+    {
+      "name": "MULTIPLY",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "MULTIPLY.001",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "ADD",
+      "type": "MATH",
+      "operation": "ADD",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "MULTIPLY.002",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "ADD.001",
+      "type": "MATH",
+      "operation": "ADD",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "SINE",
+      "type": "MATH",
+      "operation": "SINE",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "Wave height 1",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "MULTIPLY.003",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "MULTIPLY.004",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "ADD.002",
+      "type": "MATH",
+      "operation": "ADD",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "MULTIPLY.005",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "ADD.003",
+      "type": "MATH",
+      "operation": "ADD",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "SINE.001",
+      "type": "MATH",
+      "operation": "SINE",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "Wave height 2",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "ADD.004",
+      "type": "MATH",
+      "operation": "ADD",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "MULTIPLY.006",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "MULTIPLY.007",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "ADD.005",
+      "type": "MATH",
+      "operation": "ADD",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "MULTIPLY.008",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "ADD.006",
+      "type": "MATH",
+      "operation": "ADD",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "SINE.002",
+      "type": "MATH",
+      "operation": "SINE",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "Wave height 3",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "ADD.007",
+      "type": "MATH",
+      "operation": "ADD",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "Millimeter water ripples",
+      "type": "BUMP",
+      "operation": null,
+      "inputs": {
+        "Strength": 1.0,
+        "Distance": 1.0,
+        "Filter Width": 0.10000000149011612,
+        "Height": {
+          "link": "ADD.007:Value"
+        },
+        "Normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Tinted water reflection",
+      "type": "BSDF_PRINCIPLED",
+      "operation": null,
+      "inputs": {
+        "Base Color": [
+          0.6100000143051147,
+          0.8600000143051147,
+          1.0,
+          1.0
+        ],
+        "Metallic": 1.0,
+        "Roughness": 0.03700000047683716,
+        "IOR": 1.5,
+        "Alpha": 1.0,
+        "Normal": {
+          "link": "Millimeter water ripples:Normal"
+        },
+        "Weight": 0.0,
+        "Diffuse Roughness": 0.0,
+        "Subsurface Weight": 0.0,
+        "Subsurface Radius": [
+          1.0,
+          0.20000000298023224,
+          0.10000000149011612
+        ],
+        "Subsurface Scale": 0.05000000074505806,
+        "Subsurface IOR": 1.399999976158142,
+        "Subsurface Anisotropy": 0.0,
+        "Specular IOR Level": 0.5,
+        "Specular Tint": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Anisotropic": 0.0,
+        "Anisotropic Rotation": 0.0,
+        "Tangent": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Transmission Weight": 0.0,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746,
+        "Coat IOR": 1.5,
+        "Coat Tint": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Coat Normal": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Sheen Weight": 0.0,
+        "Sheen Roughness": 0.5,
+        "Sheen Tint": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Emission Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Emission Strength": 0.0,
+        "Thin Film Thickness": 0.0,
+        "Thin Film IOR": 1.3300000429153442
+      }
+    },
+    {
+      "name": "Shallow blue green transmission",
+      "type": "BSDF_REFRACTION",
+      "operation": null,
+      "inputs": {
+        "Color": [
+          0.33000001311302185,
+          0.6299999952316284,
+          0.7200000286102295,
+          1.0
+        ],
+        "Roughness": 0.05999999865889549,
+        "IOR": 1.3329999446868896,
+        "Normal": {
+          "link": "Millimeter water ripples:Normal"
+        },
+        "Weight": 0.0
+      }
+    },
+    {
+      "name": "ABSOLUTE",
+      "type": "MATH",
+      "operation": "ABSOLUTE",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "SUBTRACT",
+      "type": "MATH",
+      "operation": "SUBTRACT",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "POWER",
+      "type": "MATH",
+      "operation": "POWER",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "MULTIPLY.009",
+      "type": "MATH",
+      "operation": "MULTIPLY",
+      "inputs": {
+        "Value": 0.5
+      }
+    },
+    {
+      "name": "Artistic reflection balance",
+      "type": "MATH",
+      "operation": "ADD",
+      "inputs": {
+        "Value": 0.5
+      }
+    }
+  ],
+  "camera": {
+    "matrixWorld": [
+      [
+        0.9996620416641235,
+        0.005007914267480373,
+        0.025510160252451897,
+        0.4561338424682617
+      ],
+      [
+        0.025997066870331764,
+        -0.19256873428821564,
+        -0.9809390306472778,
+        -17.539655685424805
+      ],
+      [
+        5.149667359205523e-10,
+        0.9812707304954529,
+        -0.19263383746147156,
+        1.75
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 29.95703125,
+    "sensorHeight": 36.0,
+    "exposure": 0.800000011920929
+  },
+  "floorObjects": [
+    "Flooded polygon flagstones and broken slabs solid mesh.007",
+    "Flooded polygon flagstones and broken slabs solid mesh.008",
+    "Flooded polygon flagstones and broken slabs solid mesh.009",
+    "Flooded polygon flagstones and broken slabs solid mesh.010",
+    "Flooded polygon flagstones and broken slabs solid mesh.011",
+    "Flooded polygon flagstones and broken slabs solid mesh.012",
+    "Flooded polygon flagstones and broken slabs solid mesh.013",
+    "Live planar reflective shallow water.001"
+  ]
+}

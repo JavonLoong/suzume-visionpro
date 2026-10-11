@@ -1,0 +1,62 @@
+{
+  "revision": 22,
+  "changedRoofParts": [
+    {
+      "part": "Upper cornice v21",
+      "oldDepth": 0.7,
+      "newDepth": 0.3,
+      "oldCenter": 0.08,
+      "newCenter": 0.025
+    },
+    {
+      "part": "Upper wall shadow course v21",
+      "oldDepth": 0.55,
+      "newDepth": 0.2,
+      "oldCenter": 0.035,
+      "newCenter": 0.025
+    },
+    {
+      "part": "Roof slab v21",
+      "oldFrontProjection": 0.355,
+      "newFrontProjection": 0.12,
+      "backRetained": -4.595
+    }
+  ],
+  "wallGeometryHash": "13c64683de7f39fe843f1119caab0d28d0bd535473b727c3aed46a4f9b870803",
+  "wallAndWindowGeometryPreserved": true,
+  "materials": {
+    "Circular ruined hotel with exterior entrance solid mesh.017": "Movie pale plaster v22",
+    "Circular ruined hotel with exterior entrance solid mesh.008": "Movie warm stone trim v22",
+    "Circular ruined hotel with exterior entrance solid mesh.014": "Movie shaded glazing v22",
+    "Circular ruined hotel with exterior entrance solid mesh.011": "Movie aged window frame v22"
+  },
+  "fillLight": {
+    "type": "AREA",
+    "powerWatts": 4800,
+    "dimensions": [
+      11,
+      10
+    ],
+    "position": [
+      20.031475067138672,
+      24.039920806884766,
+      12.392974853515625
+    ],
+    "target": [
+      24.105073928833008,
+      30.619873046875,
+      9.552698135375977
+    ],
+    "color": [
+      1.0,
+      0.8999999761581421,
+      0.7200000286102295
+    ]
+  },
+  "foregroundOnBackSideOfEmitter": true,
+  "oneToOneComplete": false,
+  "upperPlasterSunBlockerAfter": null,
+  "visualReviewPending": false,
+  "visualReview": "visual-review-v22.json",
+  "finalColorEvidence": "final-color-comparison-v22.json"
+}

@@ -1,0 +1,28 @@
+{
+  "revision": 24,
+  "frontReviewed": true,
+  "obliqueReviewed": true,
+  "obliqueFindings": [
+    "The curved facade, room side walls, roof levels, rooftop tanks and sheds remain coherent from the oblique camera; this is still a complete 3D environment.",
+    "Rectangular and arched openings retain their recess and wall thickness from the side.",
+    "The steelwork has an overly broad wood-like surface, some foliage is poorly attached, the water is excessively reflective, and pipes do not yet run continuously across all bays."
+  ],
+  "reference": "reference-opening-50525.jpg",
+  "frontFindings": [
+    "The upper arcade now continues across the left and central bays at a much more consistent image height.",
+    "The inherited triple courtyard scale has been removed; the physical ring remains complete and the water contact is closer to the observed height.",
+    "The initially inherited triple tree instance scale was corrected before this final front render.",
+    "The distant night hill was lowered continuously with its vegetation, while the first 12 units of ground remain unchanged. The sky is visible again through the opening.",
+    "The door silhouette and shoe projections improve in the aggregate, but left hand, waist and right hem landmarks regress under the new camera. Their three-dimensional pose still needs refinement.",
+    "Steel members remain misplaced, the foundation is too bulky, the night clouds look like horizontal bands, and reflective water still dominates the image differently from the reference."
+  ],
+  "remaining": [
+    "按新镜头重新校准残存钢架的立柱、拱肋与折断位置，目前有横梁穿过参照中应为空的背景区域。",
+    "连续管道、临水台基、门基砖石和铺石形状仍与电影参照不同。",
+    "门内远景虽已重新露出天空，但云层仍呈明显横带，需按当前电影帧重建空间形状和颜色。",
+    "人物左手、腰线和右裙摆的投影在新镜头下出现偏差；后续姿态修正仍须保持脚部安全间隙和穿门连续性。",
+    "人物脸型、发丝、握门细节，以及墙面污迹、藤叶贴合和水面反射仍需精修。",
+    "网页几何、镜头、脚本和资源可核验，但浏览器连接超时，实际渲染与交互仍待复测。"
+  ],
+  "oneToOneComplete": false
+}

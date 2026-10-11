@@ -1,0 +1,24 @@
+{
+  "revision": 21,
+  "role": "movie facade comparison candidate",
+  "nativeFile": "movie-windows-v21/Suzume_scene_movie_windows_v21.blend",
+  "nativeSha256": "829a210b385aa662e34a22fc2bd04ee5eef5eef62d93922d302f5d4db455d5c9",
+  "rebuiltBay": 16,
+  "newEditableObjects": 72,
+  "actualRectangularAndCircularWallOpenings": true,
+  "originalBodyHeadFootAndPortalVerified": true,
+  "nativeFrontAndObliqueReviewed": true,
+  "stableNativeRemainsRevision": 19,
+  "browserDefaultRemainsRevision": 17,
+  "browserCandidate": "viewer/candidate-v21.html",
+  "browserSyntaxAndHttpVerified": true,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false,
+  "remaining": [
+    "新立面偏暗、偏绿，檐口投影和墙面材质需按电影参照校准。",
+    "左侧立面、门后窗型、拱廊和残存钢架仍有结构差异。",
+    "庭院绝对尺寸、临水台基、钢架基座和藤叶位置仍为推定，尚未达到一比一。",
+    "水面反射、昼夜云层以及人物脸型、发丝和握门姿态仍需精修。",
+    "网页已做脚本和本地服务检查，浏览器运行及交互效果尚待复测。"
+  ]
+}

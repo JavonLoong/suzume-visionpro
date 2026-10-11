@@ -1,0 +1,14 @@
+{
+  "revision": 47,
+  "nativeSha256": "ca7dd4afaf662e113a6601ed355b0c25fe5246d6cff60bafabe9ac2f6ce8b340",
+  "threeRevision": "128",
+  "inlineScriptsParsed": 1,
+  "triangles": 128,
+  "closedSolids": 4,
+  "positionsNormalsMaterialAssignmentsMatchNativeExactly": true,
+  "previousSceneAndIvyPreserved": true,
+  "newMaterialParametersMatchNativeSpec": true,
+  "browserRuntimeVerified": false,
+  "browserMaterialsApproximate": true,
+  "scope": "Actual Three.js mesh construction and source parsing in Node. Browser GPU execution is still unverified."
+}

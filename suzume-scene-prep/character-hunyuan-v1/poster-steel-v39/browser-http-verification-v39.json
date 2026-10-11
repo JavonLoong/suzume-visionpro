@@ -1,0 +1,39 @@
+{
+  "resources": [
+    {
+      "path": "viewer/poster-v39.html",
+      "sha256": "c94da6d2c3cb5bdb13b2042bc06cc55b4a3fb52d81e10f0a3cb2833920bfd3b0"
+    },
+    {
+      "path": "poster-steel-v39/browser-steel-v39.json",
+      "sha256": "0682182fc39de013b30f0ee7a62a357dc9db126bec53ae39607077774f0136c5"
+    },
+    {
+      "path": "poster-steel-v39/steel-v39.bin",
+      "sha256": "6e8ac4df20be6e509a7934711263ac28a5eacdb2bc881d0e9d38cffae644ae35"
+    },
+    {
+      "path": "poster-steel-v39/Suzume_dual_scene_steel_v39.blend",
+      "sha256": "478a0aa3a14eaadde0bbe9353a08574dbf204a282a2f66a93c093d76c2c1e438"
+    }
+  ],
+  "sourceFragmentCheck": [
+    {
+      "mesh": "mesh0",
+      "remainingVerticesInUnobservedUpperRightPatch": 0
+    },
+    {
+      "mesh": "mesh1",
+      "remainingVerticesInUnobservedUpperRightPatch": 0
+    },
+    {
+      "mesh": "mesh2",
+      "remainingVerticesInUnobservedUpperRightPatch": 0
+    },
+    {
+      "mesh": "mesh3",
+      "remainingVerticesInUnobservedUpperRightPatch": 0
+    }
+  ],
+  "browserRuntimeVerified": false
+}

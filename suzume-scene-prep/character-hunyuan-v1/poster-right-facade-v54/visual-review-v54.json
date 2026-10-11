@@ -1,0 +1,51 @@
+{
+  "revision": 54,
+  "nativeSha256": "d405c34fe691c40542fa1483386b75b942d5c47903667bd097e0b217baad341d",
+  "frontReviewed": true,
+  "detailReviewed": true,
+  "obliqueReviewed": true,
+  "obliqueDetailReviewed": true,
+  "referenceComparisonReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The right lower storey now contains a partly hidden arched entrance, a narrow arched window, a double rectangular window group and a triple rectangular window group. Seven separate wall apertures, recessed solid glazing, divided window frames, transoms, sills and hoods replace the prior generic opening layout in bays 17-19.",
+    "The entrance fanlight has concentric rails and radial dividers. Two solid door leaves include lower panels, stile/rail geometry, narrow diamond-like grille segments and pull handles. Three treads meet the lowered interior floor; a closed foundation supports the lowest tread. Door pose and unseen portions remain inferred.",
+    "The first double-window transom includes a small solid fan rim, recessed disc and five blades. Facade piers and capitals have depth, with small recessed-looking dark groove strips; fine weathering remains approximate.",
+    "The initial native render exposed a wide blurred stripe through the rightmost window. It came from an early foreground-steel exclusion mask, rather than from the new wall geometry. A new isolated surface atlas restores 13175 visible source pixels in this mistakenly excluded region using the same color grading. All pixels outside the patch are unchanged, and original materials/images are preserved.",
+    "Fifteen original mesh buckets were trimmed. The old bay-17 floor slab contributed 232 removed triangles; 16180 boundary-candidate triangles were clipped against the explicit replacement volumes, producing 2131 retained fragments. Every unaffected original triangle position and UV is preserved after saving and reopening.",
+    "195 closed solids contain 24900 new triangles. Saved/reopened coordinates, manifold edges and positive volume were verified. Forty-two probes verify unobstructed structural openings; nine verify the new interior floor height and nine verify the lowest-tread foundation contact.",
+    "The full front, cropped detail, close oblique, full opposite-side oblique and equal-resolution reference/before/after comparison were inspected. This is an incremental reconstruction, not a one-to-one result. The still-generic right upper arcade, large foreground leaves, equipment boxes, umbrella and retaining band remain visibly different.",
+    "Movie and night scenes, shared node groups and unaffected poster geometry/materials/camera/lighting remain unchanged. The 23 existing packed images retain their bytes; the restored right atlas is one additional packed image.",
+    "The actual Three.js chain through v54 was run in Node. Fifteen prior geometry buckets are replaced by eighteen exported buckets. Native positions, normals and UVs match the exported data, previous geometry/material instances and all surviving original ivy matrices/colors remain unchanged, and the new right paint uses an isolated texture. Thirty-five HTTP resources match local bytes. Browser/GPU display remains unverified; the latest actual connection attempt was the v53 timeout."
+  ],
+  "remaining": [
+    "Rebuild the right upper arcade and its panel/cornice profile. This area still has generic black arch voids and simplified columns that differ clearly from the reference.",
+    "Correct the right foreground: the two tilted old equipment units, oversized regular umbrella, large ivy leaves, straight raised bank and random debris differ from the reference. Reconstruct the observed broken umbrella, foliage clumps and low wet ground.",
+    "Refine the new right door/window construction: broken glass silhouettes, precise grille offsets, door-leaf pose and hardware, facade wear and hidden room depth. Fixed reference colors on solid glazing still approximate reflection behavior.",
+    "Refine the broken low frame paint, corrosion, short board damage and concealed connections. Its identity is ambiguous in the single reference, and its depth and rear structure remain inferred.",
+    "Refine wet sediment coloration, small edge erosion, submerged fragments and stone facets/moss. The new bank is dimensionally closer but too smooth and uniform; hidden stone depth is inferred.",
+    "Refine foliage color, branching, density and exact climbing paths. Lower stems now meet the ground, but source vegetation distribution and plant material appearance remain approximate.",
+    "Refine chair frame/seat wear, pipe corrosion and bends, strap weathering and nearby fragments. The chair interpretation and concealed construction remain inferred from one partly occluded view.",
+    "Refine the new window panes and grilles: broken-glass boundaries, view-dependent reflection, sealing/bead detail, door hardware, worn stair edges and subtle facade moldings. Hidden construction remains inferred.",
+    "Refine the remaining arch groups around the courtyard, gray infill and glazing behavior, hidden rooms, and cornice seam/weathering detail. The new reference-facing group is an incremental geometric improvement; no single source image establishes its hidden construction.",
+    "Refine the two thin foreground hanger tips against the source. The first current modeled tip is approximately five pixels from the newly inspected source tip and the second roughly three pixels at 708x1000. Their photograph traces have now been removed from the wall atlas, exposing the remaining geometry alignment error.",
+    "Add better view-dependent glazing reflections and concealed frame/room detail. The new glass is a solid pane with fixed reference surface color; masked portions and unobserved construction remain inferred.",
+    "Refine the fascia surface wear, small joints and transitions. The main left black band has been corrected with solid facing, but the inferred hidden section and uniform finish are not an exact architectural reconstruction.",
+    "Match distinct ivy clumps and hanging trails. Left roof leaf size and native colors are improved, but leaf placement, other rooftop leaf sizes and vine stems remain approximate.",
+    "Refine railing paint variation and end supports, equipment weathering, tank shading, pipe bends and inferred hidden equipment surfaces.",
+    "Refine pale steel edges, corrosion and irregular damage; rebuilt steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water, steel and railing materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false,
+  "reviewedImageSha256": {
+    "poster-front-v54.png": "058e62bcbe8b8d3406ab7345a677fa39e4199035935ac015f37998d2fb2e7706",
+    "right-facade-detail-v54.png": "c98a611c4ab628779508306d49d6951edf75e0186c28fdef9b9e455cece02c60",
+    "poster-oblique-v54.png": "277e98ec983fc60ced0236c1b9590c8661b9c90241b52f4539739d8188cd18d4",
+    "right-facade-oblique-detail-v54.png": "d969cc1fc9ba5344cf599ce741d4e25597fc5226f5ca15fe24b807f451207fc4",
+    "right-facade-comparison-v54.png": "b0ca639dee1060286a81541b266fd31fa2bcb8894c484ccdbd018d6cb83eb2e3"
+  }
+}

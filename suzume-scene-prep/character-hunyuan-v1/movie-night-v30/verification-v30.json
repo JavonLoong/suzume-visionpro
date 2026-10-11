@@ -1,0 +1,20 @@
+{
+  "revision": 30,
+  "freshReopenVerified": true,
+  "preservedDayMeshes": 2362,
+  "preservedMaterialGraphs": 99,
+  "characterHeadFeetAndPortalPreserved": true,
+  "cameraAndDayLightingPreserved": true,
+  "closedSpatialCloudVolumes": 10,
+  "cloudMeshesAndTransformsVerified": true,
+  "referenceImageUsedInSkyOrClouds": false,
+  "waterRevisionPreserved": 29,
+  "doorLightByFrame": {
+    "1": 0.0,
+    "24": 0.0,
+    "72": 15.0,
+    "120": 15.0
+  },
+  "nativeNightExposure": 0.8,
+  "oneToOneComplete": false
+}

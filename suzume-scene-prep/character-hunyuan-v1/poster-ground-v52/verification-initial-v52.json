@@ -1,0 +1,728 @@
+{
+  "revision": 52,
+  "nativeSha256": "884e7f320c03a6264ff6b9f86cc640c1c222f8bb366751fbafd3cbbd8549011f",
+  "sourceNativeSha256": "01726e6771ec7ba31008c64487b2c73a4d70c567eceaea34116191f50902b074",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "allVegetationPreservedExactly": true,
+  "sharedNodeGroupsPreserved": true,
+  "allPackedImageBytesPreserved": true,
+  "packedImageCount": 23,
+  "unchangedOriginalFacePositionsAndUVsPreserved": true,
+  "changedOriginalMeshes": [
+    {
+      "key": "mesh8",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "removedTriangles": 172,
+      "finalTriangles": 102611
+    },
+    {
+      "key": "mesh9",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "removedTriangles": 65,
+      "finalTriangles": 1831
+    },
+    {
+      "key": "mesh18",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "removedTriangles": 321,
+      "finalTriangles": 19131
+    },
+    {
+      "key": "extra1",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.008",
+      "removedTriangles": 36,
+      "finalTriangles": 7376
+    },
+    {
+      "key": "extra2",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.009",
+      "removedTriangles": 12,
+      "finalTriangles": 8276
+    },
+    {
+      "key": "extra3",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.010",
+      "removedTriangles": 12,
+      "finalTriangles": 7592
+    },
+    {
+      "key": "extra4",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.011",
+      "removedTriangles": 36,
+      "finalTriangles": 7472
+    },
+    {
+      "key": "extra6",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.013",
+      "removedTriangles": 12,
+      "finalTriangles": 7568
+    }
+  ],
+  "addedSolids": [
+    {
+      "name": "Poster retained rear floor bay 13 v52",
+      "kind": "rear floor",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 21.837650866930403,
+      "maximumVertexErrorMeters": 7.279882829891449e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster retained rear floor bay 15 v52",
+      "kind": "rear floor",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 24.274286463294718,
+      "maximumVertexErrorMeters": 7.173535152560362e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster retained rear floor bay 16 v52",
+      "kind": "rear floor",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 27.532831785881836,
+      "maximumVertexErrorMeters": 3.340527356954226e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster irregular shallow shoreline v52",
+      "kind": "shoreline",
+      "triangles": 9178,
+      "nonManifoldEdges": 0,
+      "signedVolume": 25.496944339246944,
+      "maximumVertexErrorMeters": 9.531494136183483e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 0 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.11362342900265962,
+      "maximumVertexErrorMeters": 9.50092772455946e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 1 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.12629713813020546,
+      "maximumVertexErrorMeters": 8.474609387576493e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 2 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.1196861974736218,
+      "maximumVertexErrorMeters": 9.473681643612508e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 3 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.12405951547903758,
+      "maximumVertexErrorMeters": 9.511962879571456e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 4 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.053005532829264075,
+      "maximumVertexErrorMeters": 9.158886733473537e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 5 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.053005647035903485,
+      "maximumVertexErrorMeters": 9.249316406112484e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 6 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.05300562717711109,
+      "maximumVertexErrorMeters": 9.535888665368475e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 7 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.05300564170767004,
+      "maximumVertexErrorMeters": 7.874072274205446e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 8 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.12030587802060133,
+      "maximumVertexErrorMeters": 9.346044933522535e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 9 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.11908506685696992,
+      "maximumVertexErrorMeters": 9.321679677043448e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 10 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.11754099628824723,
+      "maximumVertexErrorMeters": 9.297314456091499e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 11 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.05300560765238489,
+      "maximumVertexErrorMeters": 9.158593741176446e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 12 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.1266416565115534,
+      "maximumVertexErrorMeters": 9.43359374616648e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed left small shard v52",
+      "kind": "rock",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01175278113217176,
+      "maximumVertexErrorMeters": 9.264355469440488e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed low left stone v52",
+      "kind": "rock",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.027879486656592248,
+      "maximumVertexErrorMeters": 7.273242204064445e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed entrance broken slab v52",
+      "kind": "rock",
+      "triangles": 24,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.18109455036042255,
+      "maximumVertexErrorMeters": 9.074414073495518e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed chair front stone v52",
+      "kind": "rock",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0749608624533064,
+      "maximumVertexErrorMeters": 8.345068351900409e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed pipe small fragment v52",
+      "kind": "rock",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.006817531292564488,
+      "maximumVertexErrorMeters": 4.727417000083278e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed right isolated stone v52",
+      "kind": "rock",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.007130374043849027,
+      "maximumVertexErrorMeters": 3.863793942571192e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster left outer splayed I-column footing v44",
+      "kind": "chipped support",
+      "triangles": 44,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.16713909721673612,
+      "maximumVertexErrorMeters": 4.756542963946231e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster left middle bowed I-column footing v44",
+      "kind": "chipped support",
+      "triangles": 44,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.11677013313076949,
+      "maximumVertexErrorMeters": 9.501074202944437e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster left back I-column footing v44",
+      "kind": "chipped support",
+      "triangles": 44,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09926114716117516,
+      "maximumVertexErrorMeters": 9.505468767656566e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair landing stone v51",
+      "kind": "chipped support",
+      "triangles": 44,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.16407278912154127,
+      "maximumVertexErrorMeters": 9.504492197720538e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 0 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001039392570722518,
+      "maximumVertexErrorMeters": 8.696484385950498e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 1 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0023022507609972466,
+      "maximumVertexErrorMeters": 8.716455077717455e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 2 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004346381669954862,
+      "maximumVertexErrorMeters": 9.402978520256511e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 3 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009015010138939718,
+      "maximumVertexErrorMeters": 9.523925790233534e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 4 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005317318079630651,
+      "maximumVertexErrorMeters": 4.616894528908233e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 5 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006146979571732738,
+      "maximumVertexErrorMeters": 9.526464843645499e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 6 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002864034189395421,
+      "maximumVertexErrorMeters": 8.187060558384474e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 7 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002801097638621297,
+      "maximumVertexErrorMeters": 9.262695321865522e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 8 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001675319316452678,
+      "maximumVertexErrorMeters": 7.742578134184441e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 9 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0026234927987291955,
+      "maximumVertexErrorMeters": 9.041357422745477e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 10 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0033574601759563394,
+      "maximumVertexErrorMeters": 9.236474625140545e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 11 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001298637071106716,
+      "maximumVertexErrorMeters": 9.204150401842526e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 12 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002670702888661461,
+      "maximumVertexErrorMeters": 7.715478531622466e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 13 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0030552497791226964,
+      "maximumVertexErrorMeters": 7.338183607430437e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 14 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011528375701584243,
+      "maximumVertexErrorMeters": 7.433056623540324e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 15 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0032378373930374016,
+      "maximumVertexErrorMeters": 9.136669909537432e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 16 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0023862054570046726,
+      "maximumVertexErrorMeters": 8.062353522575449e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 17 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0030655311845490044,
+      "maximumVertexErrorMeters": 9.188330061249417e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 18 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0026342026580375155,
+      "maximumVertexErrorMeters": 9.370556632859461e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 19 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011364158435382722,
+      "maximumVertexErrorMeters": 9.479150406832559e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 20 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0024810941758957906,
+      "maximumVertexErrorMeters": 8.87250976688847e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 21 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0038616370922182827,
+      "maximumVertexErrorMeters": 8.742968766739523e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 22 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0025483504109990035,
+      "maximumVertexErrorMeters": 8.628271501720519e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 23 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.003010941817144567,
+      "maximumVertexErrorMeters": 6.115478505819283e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 24 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004197461220617461,
+      "maximumVertexErrorMeters": 9.212792981827533e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 25 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007605621726271255,
+      "maximumVertexErrorMeters": 9.253808599396507e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 26 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018679111558533787,
+      "maximumVertexErrorMeters": 9.349267564573438e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 27 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018074105862261741,
+      "maximumVertexErrorMeters": 9.069873030398412e-07,
+      "vertexColorsPreserved": true
+    }
+  ],
+  "chairSupportContacts": [
+    {
+      "leg": -1,
+      "end": -2,
+      "point": [
+        -9.8711576461792,
+        20.22163200378418,
+        0.3477276563644409
+      ],
+      "supportZ": 0.3477276563644409,
+      "gapMeters": 0.0
+    },
+    {
+      "leg": -1,
+      "end": -1,
+      "point": [
+        -10.173161506652832,
+        20.78589630126953,
+        0.3477276563644409
+      ],
+      "supportZ": 0.3477276563644409,
+      "gapMeters": 0.0
+    },
+    {
+      "leg": 1,
+      "end": -2,
+      "point": [
+        -9.359793663024902,
+        20.495323181152344,
+        0.3477276563644409
+      ],
+      "supportZ": 0.3477276563644409,
+      "gapMeters": 0.0
+    },
+    {
+      "leg": 1,
+      "end": -1,
+      "point": [
+        -9.661797523498535,
+        21.059587478637695,
+        0.3477276563644409
+      ],
+      "supportZ": 0.3477276563644409,
+      "gapMeters": 0.0
+    }
+  ],
+  "rootGroundProbes": [
+    {
+      "root": [
+        -14.372582017168941,
+        17.402384019782502,
+        0.22480147584917343
+      ],
+      "groundZ": 0.22180145978927612,
+      "gapMeters": 0.0030000160598973036
+    },
+    {
+      "root": [
+        -13.05380807997355,
+        18.418611709851554,
+        0.3063668890711233
+      ],
+      "groundZ": 0.3033669590950012,
+      "gapMeters": 0.0029999299761220843
+    },
+    {
+      "root": [
+        -12.228228681042484,
+        19.51018313116802,
+        0.2638207372397374
+      ],
+      "groundZ": 0.26082074642181396,
+      "gapMeters": 0.002999990817923459
+    },
+    {
+      "root": [
+        -11.739549933398491,
+        19.896497167786535,
+        0.2919676266040372
+      ],
+      "groundZ": 0.2889676094055176,
+      "gapMeters": 0.003000017198519611
+    },
+    {
+      "root": [
+        -7.665624501270393,
+        20.624008575429507,
+        0.1
+      ],
+      "groundZ": 0.2029627561569214,
+      "gapMeters": -0.10296275615692138
+    },
+    {
+      "root": [
+        -6.3000244316018845,
+        20.807924041593317,
+        0.1
+      ],
+      "groundZ": 0.11520415544509888,
+      "gapMeters": -0.015204155445098871
+    },
+    {
+      "root": [
+        -5.695533519166873,
+        21.237260376680027,
+        0.1
+      ],
+      "groundZ": 0.13723650574684143,
+      "gapMeters": -0.037236505746841425
+    },
+    {
+      "root": [
+        -3.9605744260419424,
+        21.65593674967085,
+        0.1
+      ],
+      "groundZ": 0.13861441612243652,
+      "gapMeters": -0.03861441612243652
+    },
+    {
+      "root": [
+        -8.350953698706176,
+        20.610138138035197,
+        0.26781014667507974
+      ],
+      "groundZ": 0.26481014490127563,
+      "gapMeters": 0.0030000017738041063
+    },
+    {
+      "root": [
+        -7.6757022177830425,
+        20.83115036848413,
+        0.2599528438401806
+      ],
+      "groundZ": 0.2569528818130493,
+      "gapMeters": 0.0029999620271312644
+    },
+    {
+      "root": [
+        -6.821503067328946,
+        21.11073281268898,
+        0.2500132856221724
+      ],
+      "groundZ": 0.24701321125030518,
+      "gapMeters": 0.003000074371867223
+    },
+    {
+      "root": [
+        -5.861787024094144,
+        21.424851314173736,
+        0.1
+      ],
+      "groundZ": 0.13230910897254944,
+      "gapMeters": -0.03230910897254943
+    },
+    {
+      "root": [
+        -13.890760976871723,
+        17.331807697954304,
+        0.3085862225782321
+      ],
+      "groundZ": 0.30558621883392334,
+      "gapMeters": 0.0030000037443087546
+    }
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

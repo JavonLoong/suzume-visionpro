@@ -1,0 +1,109 @@
+{
+  "revision": 53,
+  "nativeSha256": "436a97857da27ee66d68b501b46abace9c50187898cfce77acc84e11d9953b1f",
+  "targets": [
+    {
+      "key": "debris0",
+      "originalName": "Brick and masonry debris solid mesh",
+      "originalVertexCount": 1332
+    },
+    {
+      "key": "debris1",
+      "originalName": "Brick and masonry debris solid mesh",
+      "originalVertexCount": 2628
+    }
+  ],
+  "buckets": [
+    {
+      "key": "debris0",
+      "byteOffset": 0,
+      "byteLength": 62208,
+      "vertexCount": 1296,
+      "sourceObjects": [
+        "Brick and masonry debris solid mesh.002"
+      ],
+      "reuseTargetMaterial": "debris0"
+    },
+    {
+      "key": "debris1",
+      "byteOffset": 62208,
+      "byteLength": 115776,
+      "vertexCount": 2412,
+      "sourceObjects": [
+        "Brick and masonry debris solid mesh.003"
+      ],
+      "reuseTargetMaterial": "debris1"
+    },
+    {
+      "key": "new0",
+      "byteOffset": 177984,
+      "byteLength": 523008,
+      "vertexCount": 10896,
+      "sourceObjects": [
+        "Poster low frame upper back rail v53",
+        "Poster low frame short lower back rail v53",
+        "Poster low frame lower front rail v53",
+        "Poster low frame bent right outer frame v53",
+        "Poster low frame bent right inner frame v53",
+        "Poster low frame left rear grounded leg v53",
+        "Poster low frame middle rear grounded leg v53",
+        "Poster low frame left front grounded leg v53",
+        "Poster low frame middle front grounded leg v53",
+        "Poster low frame right outer grounded leg v53",
+        "Poster low frame right inner grounded leg v53",
+        "Poster pipe support bolt 0 0.515 v53",
+        "Poster pipe support bolt 0 0.300 v53",
+        "Poster pipe support bolt 1 0.515 v53",
+        "Poster pipe support bolt 1 0.300 v53",
+        "Poster pipe support bolt 2 0.515 v53",
+        "Poster pipe support bolt 2 0.300 v53"
+      ],
+      "fixtureMaterialIndex": 0
+    },
+    {
+      "key": "new1",
+      "byteOffset": 700992,
+      "byteLength": 195264,
+      "vertexCount": 4068,
+      "sourceObjects": [
+        "Poster low frame sagging inner rail v53",
+        "Poster low frame front damaged upright v53",
+        "Poster low frame left rear foot shoe v53",
+        "Poster low frame middle rear foot shoe v53",
+        "Poster low frame left front foot shoe v53",
+        "Poster low frame middle front foot shoe v53",
+        "Poster low frame right outer foot shoe v53",
+        "Poster low frame right inner foot shoe v53",
+        "Poster pipe exposed strap 0 v53",
+        "Poster pipe support upright 0 v53",
+        "Poster pipe support foot 0 v53",
+        "Poster pipe exposed strap 1 v53",
+        "Poster pipe support upright 1 v53",
+        "Poster pipe support foot 1 v53",
+        "Poster pipe exposed strap 2 v53",
+        "Poster pipe support upright 2 v53",
+        "Poster pipe support foot 2 v53"
+      ],
+      "fixtureMaterialIndex": 1
+    },
+    {
+      "key": "new2",
+      "byteOffset": 896256,
+      "byteLength": 6912,
+      "vertexCount": 144,
+      "sourceObjects": [
+        "Poster low frame broken board 0 v53",
+        "Poster low frame broken board 1 v53",
+        "Poster low frame broken board 2 v53",
+        "Poster low frame broken board 3 v53"
+      ],
+      "fixtureMaterialIndex": 2
+    }
+  ],
+  "strideFloats": 12,
+  "triangles": 6272,
+  "binarySha256": "4cff1cc64aaf501f308a6551439c54a13072e1c4d99b3b8afbd80408f32768bf",
+  "closedSolids": 38,
+  "browserRuntimeVerified": false,
+  "browserMaterialsApproximate": true
+}

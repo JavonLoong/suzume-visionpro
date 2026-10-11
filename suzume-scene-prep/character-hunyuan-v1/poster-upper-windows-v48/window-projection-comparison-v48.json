@@ -1,0 +1,143 @@
+{
+  "scope": "Twelve manually observed corners of three fully visible upper window openings at 708x1000; the partly visible left window and hidden depth are excluded. These local anchors do not prove whole-scene fidelity.",
+  "manualMeasurementUncertaintyPixels": 1.5,
+  "maximumPixelError": 0.5183644628130084,
+  "windows": [
+    {
+      "window": 1,
+      "manuallyObservedImageCorners": [
+        [
+          53,
+          564.5
+        ],
+        [
+          77,
+          566
+        ],
+        [
+          77,
+          578
+        ],
+        [
+          53,
+          576.2
+        ]
+      ],
+      "modeledOpeningImageCorners": [
+        [
+          53.461653724851715,
+          564.3893308813356
+        ],
+        [
+          77.32105863884141,
+          566.0041467468947
+        ],
+        [
+          76.55232616705706,
+          577.964995042621
+        ],
+        [
+          52.6127398666365,
+          576.5445740927794
+        ]
+      ],
+      "cornerPixelErrors": [
+        0.4747334151873258,
+        0.32108541711592187,
+        0.449040318616188,
+        0.5183644628130084
+      ]
+    },
+    {
+      "window": 2,
+      "manuallyObservedImageCorners": [
+        [
+          82.5,
+          566.4
+        ],
+        [
+          106,
+          567.55
+        ],
+        [
+          106,
+          580
+        ],
+        [
+          82.5,
+          578.5
+        ]
+      ],
+      "modeledOpeningImageCorners": [
+        [
+          82.91662295160972,
+          566.3828571992965
+        ],
+        [
+          106.30943511214298,
+          567.6195092150645
+        ],
+        [
+          105.60755942047535,
+          579.8227879735194
+        ],
+        [
+          82.13850868090577,
+          578.7406684643503
+        ]
+      ],
+      "cornerPixelErrors": [
+        0.4169754901957167,
+        0.3171460540599872,
+        0.4305969238011191,
+        0.4342778874329269
+      ]
+    },
+    {
+      "window": 3,
+      "manuallyObservedImageCorners": [
+        [
+          110.5,
+          568
+        ],
+        [
+          134,
+          569.1
+        ],
+        [
+          134,
+          581.3
+        ],
+        [
+          110.5,
+          580
+        ]
+      ],
+      "modeledOpeningImageCorners": [
+        [
+          110.86952754826928,
+          567.9536908583699
+        ],
+        [
+          134.27490520986004,
+          569.1096687343621
+        ],
+        [
+          133.65578483273183,
+          581.2483492665996
+        ],
+        [
+          110.17603121358695,
+          580.2383827766137
+        ]
+      ],
+      "cornerPixelErrors": [
+        0.3724179715432896,
+        0.27507518759851074,
+        0.3480687857855893,
+        0.402221484702125
+      ]
+    }
+  ],
+  "oneToOneComplete": false
+}

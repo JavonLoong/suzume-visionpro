@@ -1,0 +1,66 @@
+{
+  "revision": 32,
+  "sha256": "025aa9a33f12e1525065a188fc87dac4a5a7a167a72a51ecda8290ccef7cebf4",
+  "reopened": true,
+  "dimensionsInvariantAtFiveAngles": true,
+  "dayNightDoorMatricesMatch": true,
+  "characterPartition": [
+    {
+      "name": "Suzume Hunyuan textured surface",
+      "sharedGeometry": true,
+      "dayHalf": "courtyard",
+      "nightHalf": "otherworld",
+      "planeY": 0.0719999149441719
+    },
+    {
+      "name": "Suzume independent Hunyuan head",
+      "sharedGeometry": true,
+      "dayHalf": "courtyard",
+      "nightHalf": "otherworld",
+      "planeY": 0.0719999149441719
+    },
+    {
+      "name": "Left gold hairpin",
+      "sharedGeometry": true,
+      "dayHalf": "courtyard",
+      "nightHalf": "otherworld",
+      "planeY": 0.0719999149441719
+    },
+    {
+      "name": "Left red hairpin diagonal",
+      "sharedGeometry": true,
+      "dayHalf": "courtyard",
+      "nightHalf": "otherworld",
+      "planeY": 0.0719999149441719
+    },
+    {
+      "name": "Left red hairpin crossbar",
+      "sharedGeometry": true,
+      "dayHalf": "courtyard",
+      "nightHalf": "otherworld",
+      "planeY": 0.0719999149441719
+    }
+  ],
+  "feet": {
+    "L": {
+      "minimumClearance": 0.00899996638298034,
+      "minimumSoleZ": 0.2034619152545929,
+      "maximumChange": 0.0
+    },
+    "R": {
+      "minimumClearance": 0.00899989366531373,
+      "minimumSoleZ": 0.2481023073196411,
+      "maximumChange": 0.0
+    }
+  },
+  "headGeometryPreserved": true,
+  "partTriangles": {
+    "Suzume Hunyuan textured surface — baked v32": 408817,
+    "Suzume independent Hunyuan head — baked v32": 342148,
+    "Left gold hairpin — baked v32": 96,
+    "Left red hairpin diagonal — baked v32": 96,
+    "Left red hairpin crossbar — baked v32": 96
+  },
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

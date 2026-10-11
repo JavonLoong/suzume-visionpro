@@ -1,0 +1,294 @@
+{
+  "revision": 41,
+  "nativeSha256": "06d79ae053a89f7671d26f878aab1a81eee2d4269e44c5a043781f66e7afb9aa",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "otherPosterGeometryAndColorsMaterialsCameraLightingPreserved": true,
+  "waterRevision40Preserved": true,
+  "changedCloudCount": 28,
+  "clouds": [
+    {
+      "name": "Distant reference closed cloud 0.001",
+      "vertices": 217053,
+      "triangles": 434102,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 3.9676512508620583,
+      "minimumLocalTriangleArea": 7.105427357601002e-14,
+      "maxWorldVertexErrorMeters": 7.62939453125e-06,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 1.001",
+      "vertices": 166461,
+      "triangles": 332894,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 3.9225188531264017,
+      "minimumLocalTriangleArea": 4.261842885978223e-13,
+      "maxWorldVertexErrorMeters": 7.62939453125e-06,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 2.001",
+      "vertices": 167566,
+      "triangles": 335128,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 10.120774050614518,
+      "minimumLocalTriangleArea": 1.318944953254686e-13,
+      "maxWorldVertexErrorMeters": 3.814697265625e-06,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 3.001",
+      "vertices": 19105,
+      "triangles": 38206,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 9.292941931469688,
+      "minimumLocalTriangleArea": 2.5380086920989697e-11,
+      "maxWorldVertexErrorMeters": 1.9073486328125e-06,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 4.001",
+      "vertices": 16826,
+      "triangles": 33648,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 9.808505381233958,
+      "minimumLocalTriangleArea": 8.644417646974656e-12,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 5.001",
+      "vertices": 14858,
+      "triangles": 29712,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 2.885598994743453,
+      "minimumLocalTriangleArea": 1.5180218193577844e-11,
+      "maxWorldVertexErrorMeters": 3.814697265625e-06,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 6.001",
+      "vertices": 12674,
+      "triangles": 25344,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 4.249172659831738,
+      "minimumLocalTriangleArea": 2.521161057700283e-11,
+      "maxWorldVertexErrorMeters": 1.9073486328125e-06,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 7.001",
+      "vertices": 9510,
+      "triangles": 19016,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 6.245471577231762,
+      "minimumLocalTriangleArea": 1.5751998594382144e-09,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 8.001",
+      "vertices": 3428,
+      "triangles": 6852,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 22.702779993985033,
+      "minimumLocalTriangleArea": 2.2896210793987848e-07,
+      "maxWorldVertexErrorMeters": 9.5367431640625e-07,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 9.001",
+      "vertices": 3420,
+      "triangles": 6836,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 70.23627227853265,
+      "minimumLocalTriangleArea": 2.4984743163258827e-07,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 10.001",
+      "vertices": 3254,
+      "triangles": 6504,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 36.41442863301454,
+      "minimumLocalTriangleArea": 2.2281536615764708e-08,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 11.001",
+      "vertices": 2460,
+      "triangles": 4916,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 47.57526981309866,
+      "minimumLocalTriangleArea": 4.692027033570412e-08,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 12.001",
+      "vertices": 2408,
+      "triangles": 4812,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 3.487361486113854,
+      "minimumLocalTriangleArea": 3.646268709189826e-08,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 13.001",
+      "vertices": 1948,
+      "triangles": 3884,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 11.36893939184546,
+      "minimumLocalTriangleArea": 7.270806889891901e-08,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 14.001",
+      "vertices": 2362,
+      "triangles": 4720,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 150.0814232022819,
+      "minimumLocalTriangleArea": 3.026611068435159e-07,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 15.001",
+      "vertices": 2118,
+      "triangles": 4232,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 21.83213963365033,
+      "minimumLocalTriangleArea": 5.27780684933532e-07,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 16.001",
+      "vertices": 1758,
+      "triangles": 3512,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 18.579196024128365,
+      "minimumLocalTriangleArea": 3.726433828177278e-09,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 17.001",
+      "vertices": 1618,
+      "triangles": 3232,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 38.47260157132041,
+      "minimumLocalTriangleArea": 1.984802082688475e-07,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 18.001",
+      "vertices": 1508,
+      "triangles": 3012,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 41.54148393963936,
+      "minimumLocalTriangleArea": 3.050683119454334e-07,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 19.001",
+      "vertices": 1514,
+      "triangles": 3024,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 30.781053700009817,
+      "minimumLocalTriangleArea": 3.4284846073262543e-09,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 20.001",
+      "vertices": 1242,
+      "triangles": 2480,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 76.03136909360781,
+      "minimumLocalTriangleArea": 1.653894514674903e-07,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 21.001",
+      "vertices": 1156,
+      "triangles": 2308,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 61.152749305465996,
+      "minimumLocalTriangleArea": 6.837973387519014e-08,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 22.001",
+      "vertices": 1048,
+      "triangles": 2092,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 26.563356138148546,
+      "minimumLocalTriangleArea": 5.697159721762546e-08,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 23.001",
+      "vertices": 1024,
+      "triangles": 2044,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 33.98813406117817,
+      "minimumLocalTriangleArea": 1.1257174037382356e-06,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 24.001",
+      "vertices": 824,
+      "triangles": 1644,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 75.77464503167703,
+      "minimumLocalTriangleArea": 1.2121905683670775e-06,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 25.001",
+      "vertices": 796,
+      "triangles": 1588,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 47.1351101197232,
+      "minimumLocalTriangleArea": 3.876391119206346e-08,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 26.001",
+      "vertices": 664,
+      "triangles": 1324,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 58.2236065304516,
+      "minimumLocalTriangleArea": 3.5363618167139066e-07,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    },
+    {
+      "name": "Distant reference closed cloud 27.001",
+      "vertices": 550,
+      "triangles": 1096,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 155.4490178744246,
+      "minimumLocalTriangleArea": 1.8732706053015136e-07,
+      "maxWorldVertexErrorMeters": 0.0,
+      "pigmentsMatchSource": true
+    }
+  ],
+  "browserGeometryExportedFromFreshNative": true,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

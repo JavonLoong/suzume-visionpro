@@ -1,0 +1,1094 @@
+{
+  "revision": 42,
+  "nativeSha256": "f1359f25cd0f11caa6c598c7b8d2afe12aed02ef7254cdf7c60caf9b0def9a2c",
+  "binarySha256": "60a58debf8e1b14a65639d31a6a23cd7548c79dfb1bc3e56a3512469481f4f66",
+  "replaces": [
+    "Distant reference closed cloud 0",
+    "Distant reference closed cloud 1",
+    "Distant reference closed cloud 2",
+    "Distant reference closed cloud 3",
+    "Distant reference closed cloud 4",
+    "Distant reference closed cloud 5",
+    "Distant reference closed cloud 6",
+    "Distant reference closed cloud 7",
+    "Distant reference closed cloud 8",
+    "Distant reference closed cloud 9",
+    "Distant reference closed cloud 10",
+    "Distant reference closed cloud 11",
+    "Distant reference closed cloud 12",
+    "Distant reference closed cloud 13",
+    "Distant reference closed cloud 14",
+    "Distant reference closed cloud 15",
+    "Distant reference closed cloud 16",
+    "Distant reference closed cloud 17",
+    "Distant reference closed cloud 18",
+    "Distant reference closed cloud 19",
+    "Distant reference closed cloud 20",
+    "Distant reference closed cloud 21",
+    "Distant reference closed cloud 22",
+    "Distant reference closed cloud 23",
+    "Distant reference closed cloud 24",
+    "Distant reference closed cloud 25",
+    "Distant reference closed cloud 26",
+    "Distant reference closed cloud 27"
+  ],
+  "clouds": [
+    {
+      "name": "Distant reference closed cloud 0",
+      "vertices": 217053,
+      "triangles": 434102,
+      "matrix": [
+        13.342473030090332,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -5.832180249853991e-07,
+        13.342473030090332,
+        0.0,
+        0.0,
+        -13.342473030090332,
+        -5.832180249853991e-07,
+        0.0,
+        -59.226009368896484,
+        60.1898193359375,
+        -218.0636749267578,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 0,
+        "byteLength": 2604636
+      },
+      "normals": {
+        "byteOffset": 2604636,
+        "byteLength": 2604636
+      },
+      "colors": {
+        "byteOffset": 5209272,
+        "byteLength": 2604636
+      },
+      "indices": {
+        "byteOffset": 7813908,
+        "byteLength": 5209224
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 2",
+      "vertices": 167566,
+      "triangles": 335128,
+      "matrix": [
+        10.37125015258789,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.533417552465835e-07,
+        10.37125015258789,
+        0.0,
+        0.0,
+        -10.37125015258789,
+        -4.533417552465835e-07,
+        0.0,
+        58.43907165527344,
+        66.39149475097656,
+        -226.18931579589844,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 13023132,
+        "byteLength": 2010792
+      },
+      "normals": {
+        "byteOffset": 15033924,
+        "byteLength": 2010792
+      },
+      "colors": {
+        "byteOffset": 17044716,
+        "byteLength": 2010792
+      },
+      "indices": {
+        "byteOffset": 19055508,
+        "byteLength": 4021536
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 4",
+      "vertices": 16826,
+      "triangles": 33648,
+      "matrix": [
+        3.372159004211426,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.4740174947291962e-07,
+        3.372159004211426,
+        0.0,
+        0.0,
+        -3.372159004211426,
+        -1.4740174947291962e-07,
+        0.0,
+        -57.654598236083984,
+        46.23851013183594,
+        -231.42857360839844,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 23077044,
+        "byteLength": 201912
+      },
+      "normals": {
+        "byteOffset": 23278956,
+        "byteLength": 201912
+      },
+      "colors": {
+        "byteOffset": 23480868,
+        "byteLength": 201912
+      },
+      "indices": {
+        "byteOffset": 23682780,
+        "byteLength": 403776
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 5",
+      "vertices": 14858,
+      "triangles": 29712,
+      "matrix": [
+        4.493631839752197,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.9642288862087298e-07,
+        4.493631839752197,
+        0.0,
+        0.0,
+        -4.493631839752197,
+        -1.9642288862087298e-07,
+        0.0,
+        32.53950119018555,
+        50.445159912109375,
+        -235.7405242919922,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 24086556,
+        "byteLength": 178296
+      },
+      "normals": {
+        "byteOffset": 24264852,
+        "byteLength": 178296
+      },
+      "colors": {
+        "byteOffset": 24443148,
+        "byteLength": 178296
+      },
+      "indices": {
+        "byteOffset": 24621444,
+        "byteLength": 356544
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 6",
+      "vertices": 12674,
+      "triangles": 25344,
+      "matrix": [
+        3.6829710006713867,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.6098778132800362e-07,
+        3.6829710006713867,
+        0.0,
+        0.0,
+        -3.6829710006713867,
+        -1.6098778132800362e-07,
+        0.0,
+        27.5577392578125,
+        93.69309997558594,
+        -229.41871643066406,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 24977988,
+        "byteLength": 152088
+      },
+      "normals": {
+        "byteOffset": 25130076,
+        "byteLength": 152088
+      },
+      "colors": {
+        "byteOffset": 25282164,
+        "byteLength": 152088
+      },
+      "indices": {
+        "byteOffset": 25434252,
+        "byteLength": 304128
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 7",
+      "vertices": 9510,
+      "triangles": 19016,
+      "matrix": [
+        2.994023084640503,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.3087290540170216e-07,
+        2.994023084640503,
+        0.0,
+        0.0,
+        -2.994023084640503,
+        -1.3087290540170216e-07,
+        0.0,
+        93.80361938476562,
+        86.8756103515625,
+        -235.0284881591797,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 25738380,
+        "byteLength": 114120
+      },
+      "normals": {
+        "byteOffset": 25852500,
+        "byteLength": 114120
+      },
+      "colors": {
+        "byteOffset": 25966620,
+        "byteLength": 114120
+      },
+      "indices": {
+        "byteOffset": 26080740,
+        "byteLength": 228192
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 8",
+      "vertices": 3428,
+      "triangles": 6852,
+      "matrix": [
+        1.2719390392303467,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -5.559822113809787e-08,
+        1.2719390392303467,
+        0.0,
+        0.0,
+        -1.2719390392303467,
+        -5.559822113809787e-08,
+        0.0,
+        17.449960708618164,
+        69.8005142211914,
+        -238.85394287109375,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 26308932,
+        "byteLength": 41136
+      },
+      "normals": {
+        "byteOffset": 26350068,
+        "byteLength": 41136
+      },
+      "colors": {
+        "byteOffset": 26391204,
+        "byteLength": 41136
+      },
+      "indices": {
+        "byteOffset": 26432340,
+        "byteLength": 82224
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 9",
+      "vertices": 3420,
+      "triangles": 6836,
+      "matrix": [
+        0.9047110080718994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.9546172558857506e-08,
+        0.9047110080718994,
+        0.0,
+        0.0,
+        -0.9047110080718994,
+        -3.9546172558857506e-08,
+        0.0,
+        -66.21942138671875,
+        59.173980712890625,
+        -241.23806762695312,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 26514564,
+        "byteLength": 41040
+      },
+      "normals": {
+        "byteOffset": 26555604,
+        "byteLength": 41040
+      },
+      "colors": {
+        "byteOffset": 26596644,
+        "byteLength": 41040
+      },
+      "indices": {
+        "byteOffset": 26637684,
+        "byteLength": 82032
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 10",
+      "vertices": 3254,
+      "triangles": 6504,
+      "matrix": [
+        0.9779149889945984,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.2746020056938505e-08,
+        0.9779149889945984,
+        0.0,
+        0.0,
+        -0.9779149889945984,
+        -4.2746020056938505e-08,
+        0.0,
+        -112.88851165771484,
+        44.669410705566406,
+        -245.00718688964844,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 26719716,
+        "byteLength": 39048
+      },
+      "normals": {
+        "byteOffset": 26758764,
+        "byteLength": 39048
+      },
+      "colors": {
+        "byteOffset": 26797812,
+        "byteLength": 39048
+      },
+      "indices": {
+        "byteOffset": 26836860,
+        "byteLength": 78048
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 11",
+      "vertices": 2460,
+      "triangles": 4916,
+      "matrix": [
+        0.926813006401062,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.05122833058158e-08,
+        0.926813006401062,
+        0.0,
+        0.0,
+        -0.926813006401062,
+        -4.05122833058158e-08,
+        0.0,
+        -55.67293930053711,
+        59.13718032836914,
+        -246.39988708496094,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 26914908,
+        "byteLength": 29520
+      },
+      "normals": {
+        "byteOffset": 26944428,
+        "byteLength": 29520
+      },
+      "colors": {
+        "byteOffset": 26973948,
+        "byteLength": 29520
+      },
+      "indices": {
+        "byteOffset": 27003468,
+        "byteLength": 58992
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 12",
+      "vertices": 2408,
+      "triangles": 4812,
+      "matrix": [
+        1.7463699579238892,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -7.633625642711195e-08,
+        1.7463699579238892,
+        0.0,
+        0.0,
+        -1.7463699579238892,
+        -7.633625642711195e-08,
+        0.0,
+        95.53443908691406,
+        98.69522857666016,
+        -245.15003967285156,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 27062460,
+        "byteLength": 28896
+      },
+      "normals": {
+        "byteOffset": 27091356,
+        "byteLength": 28896
+      },
+      "colors": {
+        "byteOffset": 27120252,
+        "byteLength": 28896
+      },
+      "indices": {
+        "byteOffset": 27149148,
+        "byteLength": 57744
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 13",
+      "vertices": 1948,
+      "triangles": 3884,
+      "matrix": [
+        1.1308590173721313,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.943141718172228e-08,
+        1.1308590173721313,
+        0.0,
+        0.0,
+        -1.1308590173721313,
+        -4.943141718172228e-08,
+        0.0,
+        99.03885650634766,
+        61.70960998535156,
+        -254.70538330078125,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 27206892,
+        "byteLength": 23376
+      },
+      "normals": {
+        "byteOffset": 27230268,
+        "byteLength": 23376
+      },
+      "colors": {
+        "byteOffset": 27253644,
+        "byteLength": 23376
+      },
+      "indices": {
+        "byteOffset": 27277020,
+        "byteLength": 46608
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 14",
+      "vertices": 2362,
+      "triangles": 4720,
+      "matrix": [
+        0.644773006439209,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.818392275116821e-08,
+        0.644773006439209,
+        0.0,
+        0.0,
+        -0.644773006439209,
+        -2.818392275116821e-08,
+        0.0,
+        -83.216796875,
+        48.54623031616211,
+        -255.18203735351562,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 27323628,
+        "byteLength": 28344
+      },
+      "normals": {
+        "byteOffset": 27351972,
+        "byteLength": 28344
+      },
+      "colors": {
+        "byteOffset": 27380316,
+        "byteLength": 28344
+      },
+      "indices": {
+        "byteOffset": 27408660,
+        "byteLength": 56640
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 15",
+      "vertices": 2118,
+      "triangles": 4232,
+      "matrix": [
+        1.0209770202636719,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.4628322370954265e-08,
+        1.0209770202636719,
+        0.0,
+        0.0,
+        -1.0209770202636719,
+        -4.4628322370954265e-08,
+        0.0,
+        68.64018249511719,
+        94.90316772460938,
+        -252.43670654296875,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 27465300,
+        "byteLength": 25416
+      },
+      "normals": {
+        "byteOffset": 27490716,
+        "byteLength": 25416
+      },
+      "colors": {
+        "byteOffset": 27516132,
+        "byteLength": 25416
+      },
+      "indices": {
+        "byteOffset": 27541548,
+        "byteLength": 50784
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 16",
+      "vertices": 1758,
+      "triangles": 3512,
+      "matrix": [
+        1.0284429788589478,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.49546710967752e-08,
+        1.0284429788589478,
+        0.0,
+        0.0,
+        -1.0284429788589478,
+        -4.49546710967752e-08,
+        0.0,
+        58.02185821533203,
+        91.78541564941406,
+        -255.15318298339844,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 27592332,
+        "byteLength": 21096
+      },
+      "normals": {
+        "byteOffset": 27613428,
+        "byteLength": 21096
+      },
+      "colors": {
+        "byteOffset": 27634524,
+        "byteLength": 21096
+      },
+      "indices": {
+        "byteOffset": 27655620,
+        "byteLength": 42144
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 17",
+      "vertices": 1618,
+      "triangles": 3232,
+      "matrix": [
+        0.7762669920921326,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.393170899812503e-08,
+        0.7762669920921326,
+        0.0,
+        0.0,
+        -0.7762669920921326,
+        -3.393170899812503e-08,
+        0.0,
+        50.8468017578125,
+        88.3788070678711,
+        -258.19012451171875,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 27697764,
+        "byteLength": 19416
+      },
+      "normals": {
+        "byteOffset": 27717180,
+        "byteLength": 19416
+      },
+      "colors": {
+        "byteOffset": 27736596,
+        "byteLength": 19416
+      },
+      "indices": {
+        "byteOffset": 27756012,
+        "byteLength": 38784
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 18",
+      "vertices": 1508,
+      "triangles": 3012,
+      "matrix": [
+        0.7172530293464661,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.1352126228512134e-08,
+        0.7172530293464661,
+        0.0,
+        0.0,
+        -0.7172530293464661,
+        -3.1352126228512134e-08,
+        0.0,
+        -97.37159729003906,
+        98.72383880615234,
+        -254.4935760498047,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 27794796,
+        "byteLength": 18096
+      },
+      "normals": {
+        "byteOffset": 27812892,
+        "byteLength": 18096
+      },
+      "colors": {
+        "byteOffset": 27830988,
+        "byteLength": 18096
+      },
+      "indices": {
+        "byteOffset": 27849084,
+        "byteLength": 36144
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 19",
+      "vertices": 1514,
+      "triangles": 3024,
+      "matrix": [
+        0.8570299744606018,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.7461969526475514e-08,
+        0.8570299744606018,
+        0.0,
+        0.0,
+        -0.8570299744606018,
+        -3.7461969526475514e-08,
+        0.0,
+        -30.321529388427734,
+        31.684612274169922,
+        -272.0076904296875,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 27885228,
+        "byteLength": 18168
+      },
+      "normals": {
+        "byteOffset": 27903396,
+        "byteLength": 18168
+      },
+      "colors": {
+        "byteOffset": 27921564,
+        "byteLength": 18168
+      },
+      "indices": {
+        "byteOffset": 27939732,
+        "byteLength": 36288
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 20",
+      "vertices": 1242,
+      "triangles": 2480,
+      "matrix": [
+        0.6020600199699402,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.63168793424029e-08,
+        0.6020600199699402,
+        0.0,
+        0.0,
+        -0.6020600199699402,
+        -2.63168793424029e-08,
+        0.0,
+        -87.5634994506836,
+        46.39934158325195,
+        -270.07891845703125,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 27976020,
+        "byteLength": 14904
+      },
+      "normals": {
+        "byteOffset": 27990924,
+        "byteLength": 14904
+      },
+      "colors": {
+        "byteOffset": 28005828,
+        "byteLength": 14904
+      },
+      "indices": {
+        "byteOffset": 28020732,
+        "byteLength": 29760
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 21",
+      "vertices": 1156,
+      "triangles": 2308,
+      "matrix": [
+        0.5635709762573242,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.463447046352485e-08,
+        0.5635709762573242,
+        0.0,
+        0.0,
+        -0.5635709762573242,
+        -2.463447046352485e-08,
+        0.0,
+        -17.588520050048828,
+        96.3962173461914,
+        -264.5525817871094,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 28050492,
+        "byteLength": 13872
+      },
+      "normals": {
+        "byteOffset": 28064364,
+        "byteLength": 13872
+      },
+      "colors": {
+        "byteOffset": 28078236,
+        "byteLength": 13872
+      },
+      "indices": {
+        "byteOffset": 28092108,
+        "byteLength": 27696
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 22",
+      "vertices": 1048,
+      "triangles": 2092,
+      "matrix": [
+        0.7309880256652832,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.195250286580631e-08,
+        0.7309880256652832,
+        0.0,
+        0.0,
+        -0.7309880256652832,
+        -3.195250286580631e-08,
+        0.0,
+        -33.69329833984375,
+        37.455291748046875,
+        -278.1806335449219,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 28119804,
+        "byteLength": 12576
+      },
+      "normals": {
+        "byteOffset": 28132380,
+        "byteLength": 12576
+      },
+      "colors": {
+        "byteOffset": 28144956,
+        "byteLength": 12576
+      },
+      "indices": {
+        "byteOffset": 28157532,
+        "byteLength": 25104
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 23",
+      "vertices": 1024,
+      "triangles": 2044,
+      "matrix": [
+        0.6461870074272156,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.8245731087395143e-08,
+        0.6461870074272156,
+        0.0,
+        0.0,
+        -0.6461870074272156,
+        -2.8245731087395143e-08,
+        0.0,
+        -115.58812713623047,
+        99.53889465332031,
+        -266.2768859863281,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 28182636,
+        "byteLength": 12288
+      },
+      "normals": {
+        "byteOffset": 28194924,
+        "byteLength": 12288
+      },
+      "colors": {
+        "byteOffset": 28207212,
+        "byteLength": 12288
+      },
+      "indices": {
+        "byteOffset": 28219500,
+        "byteLength": 24528
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 24",
+      "vertices": 824,
+      "triangles": 1644,
+      "matrix": [
+        0.5089460015296936,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.2246736008924017e-08,
+        0.5089460015296936,
+        0.0,
+        0.0,
+        -0.5089460015296936,
+        -2.2246736008924017e-08,
+        0.0,
+        -99.94599914550781,
+        99.4106216430664,
+        -269.2111511230469,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 28244028,
+        "byteLength": 9888
+      },
+      "normals": {
+        "byteOffset": 28253916,
+        "byteLength": 9888
+      },
+      "colors": {
+        "byteOffset": 28263804,
+        "byteLength": 9888
+      },
+      "indices": {
+        "byteOffset": 28273692,
+        "byteLength": 19728
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 25",
+      "vertices": 796,
+      "triangles": 1588,
+      "matrix": [
+        0.5705230236053467,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.493835360439789e-08,
+        0.5705230236053467,
+        0.0,
+        0.0,
+        -0.5705230236053467,
+        -2.493835360439789e-08,
+        0.0,
+        21.06900978088379,
+        90.12554168701172,
+        -276.5575256347656,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 28293420,
+        "byteLength": 9552
+      },
+      "normals": {
+        "byteOffset": 28302972,
+        "byteLength": 9552
+      },
+      "colors": {
+        "byteOffset": 28312524,
+        "byteLength": 9552
+      },
+      "indices": {
+        "byteOffset": 28322076,
+        "byteLength": 19056
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 26",
+      "vertices": 664,
+      "triangles": 1324,
+      "matrix": [
+        0.4758929908275604,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.080194327902518e-08,
+        0.4758929908275604,
+        0.0,
+        0.0,
+        -0.4758929908275604,
+        -2.080194327902518e-08,
+        0.0,
+        -91.6992416381836,
+        43.68958282470703,
+        -285.1448974609375,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 28341132,
+        "byteLength": 7968
+      },
+      "normals": {
+        "byteOffset": 28349100,
+        "byteLength": 7968
+      },
+      "colors": {
+        "byteOffset": 28357068,
+        "byteLength": 7968
+      },
+      "indices": {
+        "byteOffset": 28365036,
+        "byteLength": 15888
+      }
+    },
+    {
+      "name": "Distant reference closed cloud 27",
+      "vertices": 550,
+      "triangles": 1096,
+      "matrix": [
+        0.3371630012989044,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.473786248595843e-08,
+        0.3371630012989044,
+        0.0,
+        0.0,
+        -0.3371630012989044,
+        -1.473786248595843e-08,
+        0.0,
+        12.711199760437012,
+        113.2164077758789,
+        -276.6923828125,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 28380924,
+        "byteLength": 6600
+      },
+      "normals": {
+        "byteOffset": 28387524,
+        "byteLength": 6600
+      },
+      "colors": {
+        "byteOffset": 28394124,
+        "byteLength": 6600
+      },
+      "indices": {
+        "byteOffset": 28400724,
+        "byteLength": 13152
+      }
+    },
+    {
+      "name": "Restored central horizon cloud bank v42",
+      "vertices": 198996,
+      "triangles": 397964,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        47.17409133911133,
+        40.15301513671875,
+        -228.95350646972656,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 28413876,
+        "byteLength": 2387952
+      },
+      "normals": {
+        "byteOffset": 30801828,
+        "byteLength": 2387952
+      },
+      "colors": {
+        "byteOffset": 33189780,
+        "byteLength": 2387952
+      },
+      "indices": {
+        "byteOffset": 35577732,
+        "byteLength": 4775568
+      }
+    }
+  ],
+  "vertices": 672583,
+  "triangles": 1345026,
+  "coordinates": "Native local mesh axes converted to Three.js with corresponding object matrices. Float32 positions, normals and linear RGB; UInt32 indices.",
+  "browserRuntimeVerified": false
+}

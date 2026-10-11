@@ -1,0 +1,12 @@
+独立头部重建：已生成并接入 v17
+
+front / left / back / right.png 是根据电影参照生成的四视图，不是官方正交设定图。
+内置浏览器与 Chrome 控制连接未恢复，改用腾讯官方 Hunyuan3D-2mv 公开 API。带贴图接口报 PyMeshLabException；单独几何体接口成功，实际 GLB 已保留。
+Suzume-head-Hunyuan2mv-original.glb：云端原始几何体。
+Suzume-head-candidate.glb：清理、着色并增加实体发卡的独立头模。
+new-head-colored-candidate.blend：独立头模可编辑源文件。
+../Suzume_character_head_v17.blend：接回 20 骨骼人物的版本。
+../Suzume_scene_Hunyuan_v17.blend：已保留脚部修复与庭院/异世界裁分的完整场景。
+
+head-socket-preparation.blend 与 head-socket-v16.blend 只包含旧头的接合准备，不是新头模。
+脸型、发丝和多视图颜色映射仍有近似，尚未一比一。

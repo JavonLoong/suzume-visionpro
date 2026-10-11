@@ -1,0 +1,101 @@
+{
+  "stage": "independent_head_generated_and_integrated_v17",
+  "headModelSubmitted": true,
+  "headModelGenerated": true,
+  "headModelIntegrated": true,
+  "hunyuanSubmissionsThisStage": 2,
+  "imageTool": "built-in image_gen",
+  "imageGenerationCalls": 6,
+  "views": {
+    "front": {
+      "file": "front.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1562952,
+      "sha256": "bf8937e7c4e9f2365aff2ceb0942d1129b0cd7be4bef4fcfe5a62ff73b14a521",
+      "foregroundBounds": [
+        297,
+        64,
+        942,
+        1208
+      ]
+    },
+    "left": {
+      "file": "left.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1507361,
+      "sha256": "9d93b5f6c3a658f426117cbc9c6d899773479190a4cdd264ebd32256b9833306",
+      "foregroundBounds": [
+        247,
+        39,
+        1070,
+        1156
+      ]
+    },
+    "back": {
+      "file": "back.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1495494,
+      "sha256": "1742624a8140a2cc69dc4115c3d59124daf8f3bab382bc5a91c5fc373ddabcf2",
+      "foregroundBounds": [
+        310,
+        48,
+        898,
+        1209
+      ]
+    },
+    "right": {
+      "file": "right.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1490898,
+      "sha256": "8d5a9edc81865e92c67541ee20db6113bb188a3dd376652930ca5f25b2c51631",
+      "foregroundBounds": [
+        158,
+        40,
+        994,
+        1159
+      ]
+    }
+  },
+  "prompts": "prompts.json",
+  "attachmentGuide": "attachment-guide-v16.json",
+  "attachmentFile": "head-socket-v16.blend",
+  "attachmentNote": "These are OLD-head preparation files. The integrated new head is in the v17 character and full scene.",
+  "viewConsistency": "Asymmetric left-only pins and centered ponytail visually checked. Side/front face landmark heights still vary; inspect model against official film references.",
+  "browserBlocker": "The original site and browser-control connection remain unavailable. Generation was completed through Tencent official public Gradio API. Current web runtime has not been rechecked.",
+  "oneToOneComplete": false,
+  "commercialWebsite31SubmissionsThisStage": 0,
+  "publicOfficial2mvSubmissions": 2,
+  "successfulHeadGenerations": 1,
+  "provider": "Tencent official Hunyuan3D-2mv Turbo public Space",
+  "providerUrl": "https://huggingface.co/spaces/tencent/Hunyuan3D-2mv",
+  "sourceMesh": "Suzume-head-Hunyuan2mv-original.glb",
+  "sourceMeshSha256": "cd48e774a9e4c5b28cc7bfc8b2be72d9fc01b978469963cef96d903d54396db4",
+  "displayHead": "Suzume-head-candidate.glb",
+  "headEditableFile": "new-head-colored-candidate.blend",
+  "characterEditableFile": "../Suzume_character_head_v17.blend",
+  "fullScene": "../Suzume_scene_Hunyuan_v17.blend",
+  "cloudTextureAttempt": "First generation_all call failed with PyMeshLabException; the shape-only call completed and returned a real GLB.",
+  "colorMethod": "Local four-view projected vertex colors and separately modeled left-only hairpins.",
+  "nativeVerification": "verification-v17.json",
+  "alternateHeadCandidate": {
+    "revision": 18,
+    "method": "Reference-driven mathematical head; not a new Hunyuan generation",
+    "viewer": "../viewer/candidate-v18.html",
+    "defaultStillV17": true,
+    "nativeVerified": true,
+    "browserRuntimeVerified": false,
+    "oneToOneComplete": false
+  }
+}

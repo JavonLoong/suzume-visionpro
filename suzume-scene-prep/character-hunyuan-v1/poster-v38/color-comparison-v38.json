@@ -1,0 +1,302 @@
+{
+  "revision": 38,
+  "reference": "reference-official.jpg",
+  "sourceImageUnmodified": true,
+  "patches": [
+    {
+      "name": "clear sky upper center",
+      "referenceBox354x500": [
+        147,
+        15,
+        168,
+        30
+      ],
+      "medianRGB255": {
+        "reference": [
+          44.0,
+          111.0,
+          175.0
+        ],
+        "previousPosterNative": [
+          80.0,
+          136.0,
+          180.0
+        ],
+        "movieEnvironmentAtPosterCamera": [
+          76.0,
+          137.0,
+          204.0
+        ],
+        "posterV38": [
+          60.0,
+          121.0,
+          182.0
+        ]
+      },
+      "meanAbsoluteChannelError255": {
+        "previousPosterNative": 22.0,
+        "movieEnvironmentAtPosterCamera": 29.0,
+        "posterV38": 11.0
+      }
+    },
+    {
+      "name": "clear sky middle left",
+      "referenceBox354x500": [
+        116,
+        92,
+        137,
+        112
+      ],
+      "medianRGB255": {
+        "reference": [
+          61.0,
+          125.0,
+          190.0
+        ],
+        "previousPosterNative": [
+          101.0,
+          147.0,
+          184.0
+        ],
+        "movieEnvironmentAtPosterCamera": [
+          96.0,
+          147.0,
+          208.0
+        ],
+        "posterV38": [
+          76.0,
+          135.0,
+          192.0
+        ]
+      },
+      "meanAbsoluteChannelError255": {
+        "previousPosterNative": 22.666666666666668,
+        "movieEnvironmentAtPosterCamera": 25.0,
+        "posterV38": 9.0
+      }
+    },
+    {
+      "name": "clear sky center gap",
+      "referenceBox354x500": [
+        128,
+        136,
+        147,
+        151
+      ],
+      "medianRGB255": {
+        "reference": [
+          69.0,
+          140.0,
+          201.0
+        ],
+        "previousPosterNative": [
+          110.0,
+          153.0,
+          187.0
+        ],
+        "movieEnvironmentAtPosterCamera": [
+          105.0,
+          153.0,
+          210.0
+        ],
+        "posterV38": [
+          84.0,
+          143.0,
+          199.0
+        ]
+      },
+      "meanAbsoluteChannelError255": {
+        "previousPosterNative": 22.666666666666668,
+        "movieEnvironmentAtPosterCamera": 19.333333333333332,
+        "posterV38": 6.666666666666667
+      }
+    },
+    {
+      "name": "cloud upper left shade",
+      "referenceBox354x500": [
+        16,
+        12,
+        33,
+        28
+      ],
+      "medianRGB255": {
+        "reference": [
+          111.0,
+          149.5,
+          191.0
+        ],
+        "previousPosterNative": [
+          149.0,
+          174.0,
+          196.0
+        ],
+        "movieEnvironmentAtPosterCamera": [
+          149.0,
+          174.0,
+          196.0
+        ],
+        "posterV38": [
+          110.0,
+          150.0,
+          192.0
+        ]
+      },
+      "meanAbsoluteChannelError255": {
+        "previousPosterNative": 22.5,
+        "movieEnvironmentAtPosterCamera": 22.5,
+        "posterV38": 0.8333333333333334
+      }
+    },
+    {
+      "name": "cloud left highlight",
+      "referenceBox354x500": [
+        24,
+        104,
+        39,
+        116
+      ],
+      "medianRGB255": {
+        "reference": [
+          193.0,
+          208.0,
+          228.0
+        ],
+        "previousPosterNative": [
+          197.0,
+          201.0,
+          207.0
+        ],
+        "movieEnvironmentAtPosterCamera": [
+          197.0,
+          201.0,
+          207.0
+        ],
+        "posterV38": [
+          201.0,
+          212.0,
+          230.0
+        ]
+      },
+      "meanAbsoluteChannelError255": {
+        "previousPosterNative": 10.666666666666666,
+        "movieEnvironmentAtPosterCamera": 10.666666666666666,
+        "posterV38": 4.666666666666667
+      }
+    },
+    {
+      "name": "cloud left underside",
+      "referenceBox354x500": [
+        19,
+        122,
+        38,
+        136
+      ],
+      "medianRGB255": {
+        "reference": [
+          131.5,
+          172.0,
+          214.0
+        ],
+        "previousPosterNative": [
+          168.0,
+          186.0,
+          203.0
+        ],
+        "movieEnvironmentAtPosterCamera": [
+          168.0,
+          187.0,
+          204.0
+        ],
+        "posterV38": [
+          134.0,
+          174.0,
+          214.0
+        ]
+      },
+      "meanAbsoluteChannelError255": {
+        "previousPosterNative": 20.5,
+        "movieEnvironmentAtPosterCamera": 20.5,
+        "posterV38": 1.5
+      }
+    },
+    {
+      "name": "cloud right highlight",
+      "referenceBox354x500": [
+        280,
+        66,
+        296,
+        82
+      ],
+      "medianRGB255": {
+        "reference": [
+          104.0,
+          146.0,
+          189.0
+        ],
+        "previousPosterNative": [
+          88.0,
+          140.0,
+          182.0
+        ],
+        "movieEnvironmentAtPosterCamera": [
+          86.0,
+          141.0,
+          205.0
+        ],
+        "posterV38": [
+          67.0,
+          126.0,
+          185.0
+        ]
+      },
+      "meanAbsoluteChannelError255": {
+        "previousPosterNative": 9.666666666666666,
+        "movieEnvironmentAtPosterCamera": 13.0,
+        "posterV38": 20.333333333333332
+      }
+    },
+    {
+      "name": "cloud right underside",
+      "referenceBox354x500": [
+        309,
+        107,
+        330,
+        119
+      ],
+      "medianRGB255": {
+        "reference": [
+          111.0,
+          145.0,
+          183.0
+        ],
+        "previousPosterNative": [
+          146.0,
+          170.0,
+          192.0
+        ],
+        "movieEnvironmentAtPosterCamera": [
+          146.0,
+          170.0,
+          192.0
+        ],
+        "posterV38": [
+          107.0,
+          144.0,
+          183.0
+        ]
+      },
+      "meanAbsoluteChannelError255": {
+        "previousPosterNative": 23.0,
+        "movieEnvironmentAtPosterCamera": 23.0,
+        "posterV38": 1.6666666666666667
+      }
+    }
+  ],
+  "meanPatchColorError255": {
+    "previousPosterNative": 19.208333333333336,
+    "movieEnvironmentAtPosterCamera": 20.375,
+    "posterV38": 6.958333333333334
+  },
+  "scope": "Eight fixed unobscured sky/cloud color patches. Does not measure architecture, cloud outlines, water, 3D depth or full-scene similarity.",
+  "oneToOneComplete": false
+}

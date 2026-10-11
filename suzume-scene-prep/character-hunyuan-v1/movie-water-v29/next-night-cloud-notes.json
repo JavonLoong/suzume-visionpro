@@ -1,0 +1,20 @@
+{
+  "scope": "Source-code diagnosis only; inspect the actual saved candidate's night objects and materials before editing.",
+  "sources": [
+    "../integrate_projection_v24.py",
+    "C:/Users/15410/.codex/visualizations/2026/10/09/01a11f38-1f1d-7dc0-912a-5e87b1c5f103/native_night_v12.py",
+    "C:/Users/15410/.codex/visualizations/2026/10/09/01a11f38-1f1d-7dc0-912a-5e87b1c5f103/night-world.js"
+  ],
+  "findings": [
+    "v24 multiplies all ten cloud-bank local Y positions and Y scales by 0.25. Native Y is height before the Three-to-Blender root transform.",
+    "The original cloud banks already have narrow half-heights of 2.1 to 5.8 m, against horizontal half-widths of 80 to 125 m. The extra height compression is a strong candidate explanation for the visible horizontal bars.",
+    "Native v12 uses closed box volumes, an ellipsoidal Generated-coordinate density envelope and a small Noise perturbation. The browser shader has larger sinusoidal wind displacement that the native shader does not reproduce.",
+    "The bright-bank palette is display RGB 0.60, 0.61, 0.65. Native emission uses its linearized color multiplied by density times 0.9; the current gray banks need direct comparison with the darker blue-gray movie clouds.",
+    "Native sky v12 has bright pink/blue horizon colors, starting at display RGB 0.60, 0.40, 0.39 and 0.35, 0.51, 0.65. The narrow movie camera sees low elevations dominated by those colors, whereas the movie door reference shows a darker blue night sky.",
+    "The native cloud scattering Color socket is assigned the source display RGB directly, while its Emission Color is explicitly linearized. Check whether this mismatch contributes to the excessive brightness before choosing new values.",
+    "A useful first geometry trial is retaining the lowered bank centers while restoring enough of the original thickness, then adding modest slant and wind displacement. Do not globally reset the near meadow or the portal placement.",
+    "The saved scene's actual volume colors, density, emission, world transforms and sky image must be re-read. The source files alone do not prove those exact values still apply."
+  ],
+  "nextAction": "Render a cropped portal view from the current movie camera, then rebuild bank thickness, slanted wisps and color as actual spatial volumes while preserving near-door meadow, character partition and door continuation.",
+  "changesPerformed": false
+}

@@ -1,0 +1,12 @@
+{
+  "revision": 39,
+  "threeVersion": "128",
+  "inlineScriptsParsed": 1,
+  "buckets": 8,
+  "triangles": 65964,
+  "positionsNormalsUVVerifiedExactly": true,
+  "originalMaterialsPreserved": true,
+  "unrelatedSceneObjectsPreserved": true,
+  "scope": "Pure geometry import and script parsing using Three.js. No browser or GPU execution.",
+  "browserRuntimeVerified": false
+}

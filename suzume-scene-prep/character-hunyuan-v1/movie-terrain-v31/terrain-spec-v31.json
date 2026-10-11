@@ -1,0 +1,298 @@
+{
+  "revision": 31,
+  "slope": 0.024,
+  "ridgeWidth": 25,
+  "crestX": [
+    -55,
+    -11.683134163760242,
+    -10.306589585528492,
+    -8.73300397460717,
+    -7.160032706601178,
+    0.7039057482730386,
+    2.2761286339415516,
+    4.241262537172249,
+    5.813560932456492,
+    55
+  ],
+  "crestZ": [
+    -0.15489156407519575,
+    -0.15489156407519575,
+    -0.11722224786174015,
+    0.022211911217650378,
+    0.03486284641073529,
+    0.556609509919733,
+    0.7828918977728785,
+    0.8800539426272211,
+    0.8334837816534346,
+    0.8334837816534346
+  ],
+  "outerRadius": 510,
+  "angularSegments": 512,
+  "radialSegments": 36,
+  "unchangedNearRadius": 85,
+  "fullyAdjustedRadius": 105,
+  "manualSkylineAnchors": [
+    [
+      975.0,
+      623.0
+    ],
+    [
+      1010.0,
+      622.0
+    ],
+    [
+      1050.0,
+      618.0
+    ],
+    [
+      1090.0,
+      617.0
+    ],
+    [
+      1290.0,
+      604.0
+    ],
+    [
+      1330.0,
+      598.0
+    ],
+    [
+      1380.0,
+      595.0
+    ],
+    [
+      1420.0,
+      596.0
+    ]
+  ],
+  "referenceCamera": {
+    "lensMm": 86.54434612692005,
+    "distance": 11.7300315454759,
+    "cameraX": 0.15354844661181763,
+    "cameraZ": 2.8782074998654252,
+    "pitch": 0.07098138634927482,
+    "courtyardX": 0.06987433711729285,
+    "courtyardY": 2.468481461225616,
+    "windowSill": 1.6900559610458885,
+    "arcadeBase": 5.329656385323066,
+    "highRoof": 7.331622841915744,
+    "lowRoof": 5.269525045032644,
+    "edge12": -0.6550226268157784,
+    "edge13": -0.4200226268157784,
+    "edge14": -0.15040402205052789,
+    "edge15": 0.06531638800593045,
+    "edge16": 0.25546756757609357,
+    "edge17": 0.495473647951517
+  },
+  "geometryBeyondVisibleFrame": "inferred",
+  "oneToOneComplete": false,
+  "skylineFit": [
+    {
+      "pixel": [
+        975.0,
+        623.0
+      ],
+      "projectedY": 623.0,
+      "limitingTerrainPoint": [
+        -11.730865883602767,
+        145.63201778765983,
+        -0.19589635707826267
+      ]
+    },
+    {
+      "pixel": [
+        1010.0,
+        622.0
+      ],
+      "projectedY": 622.0,
+      "limitingTerrainPoint": [
+        -10.316940011760018,
+        145.1550861589772,
+        -0.14726123346716502
+      ]
+    },
+    {
+      "pixel": [
+        1050.0,
+        618.0
+      ],
+      "projectedY": 618.0,
+      "limitingTerrainPoint": [
+        -8.71475541936944,
+        144.6781545302946,
+        0.018716767158036534
+      ]
+    },
+    {
+      "pixel": [
+        1090.0,
+        617.0
+      ],
+      "projectedY": 617.0,
+      "limitingTerrainPoint": [
+        -7.13388658765685,
+        144.4396887159533,
+        0.06220835417240975
+      ]
+    },
+    {
+      "pixel": [
+        1290.0,
+        604.0
+      ],
+      "projectedY": 604.0,
+      "limitingTerrainPoint": [
+        0.6985887263427919,
+        143.48582545858812,
+        0.584889710080287
+      ]
+    },
+    {
+      "pixel": [
+        1330.0,
+        598.0
+      ],
+      "projectedY": 598.0000000000002,
+      "limitingTerrainPoint": [
+        2.2523927892029714,
+        143.2473596442468,
+        0.8212751052956331
+      ]
+    },
+    {
+      "pixel": [
+        1380.0,
+        595.0
+      ],
+      "projectedY": 595.0000000000005,
+      "limitingTerrainPoint": [
+        4.1831125277144094,
+        142.77042801556422,
+        0.9436593054943019
+      ]
+    },
+    {
+      "pixel": [
+        1420.0,
+        596.0
+      ],
+      "projectedY": 596.0,
+      "limitingTerrainPoint": [
+        5.733044102685202,
+        142.77042801556422,
+        0.9049759680545093
+      ]
+    }
+  ],
+  "fitNote": "Numerical height-field projection of manually annotated visible skyline. Native triangulation, occlusion and rendered appearance still require inspection.",
+  "fogColorDisplay": [
+    39,
+    37,
+    60
+  ],
+  "fogColorLinear": [
+    0.015984270821337226,
+    0.01244715800610603,
+    0.03094206018597406
+  ],
+  "fogDensity": 0.045,
+  "fogEmissionGain": 1.2,
+  "fogVolumes": [
+    {
+      "name": "near low violet mist",
+      "center": [
+        0,
+        72,
+        0.55
+      ],
+      "halfSize": [
+        125,
+        30,
+        1.1
+      ],
+      "seed": 2.3,
+      "weight": 1.0
+    },
+    {
+      "name": "distant low violet mist",
+      "center": [
+        0,
+        146,
+        0.25
+      ],
+      "halfSize": [
+        160,
+        48,
+        1.5
+      ],
+      "seed": 7.4,
+      "weight": 0.55
+    }
+  ],
+  "geometryCounts": {
+    "groundVertices": 40401,
+    "extensionVertices": 37888,
+    "extensionTriangles": 75776
+  },
+  "fogLateralX": [
+    -7,
+    4
+  ],
+  "fogLateralGain": [
+    0.244,
+    0.956
+  ],
+  "fogLeftDisplay": [
+    22,
+    23,
+    70
+  ],
+  "fogRightDisplay": [
+    37,
+    32,
+    62
+  ],
+  "fogLeftLinear": [
+    0.008221034891564897,
+    0.003957460448628309,
+    0.04074424667467102
+  ],
+  "fogRightLinear": [
+    0.014953493012859753,
+    0.009276574492430892,
+    0.0328037156267193
+  ],
+  "mistTrialEvidence": {
+    "referenceLeftMedian": [
+      19,
+      15,
+      33
+    ],
+    "referenceRightMedian": [
+      26,
+      22,
+      43
+    ],
+    "weakLeftMedian": [
+      22,
+      19,
+      29
+    ],
+    "weakRightMedian": [
+      17,
+      14,
+      26
+    ],
+    "uniformDenseLeftMedian": [
+      31,
+      29,
+      47
+    ],
+    "uniformDenseRightMedian": [
+      28,
+      26,
+      44
+    ],
+    "note": "Final lateral density and color variation is an inferred spatial light field. Full rendering must still be reviewed."
+  }
+}

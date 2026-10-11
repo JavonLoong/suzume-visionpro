@@ -1,0 +1,50 @@
+{
+  "revision": 23,
+  "scope": "Three manually selected character color patches, not a whole-scene comparison.",
+  "regions": [
+    {
+      "region": "shirt",
+      "before": [
+        196.0,
+        194.0,
+        192.0
+      ],
+      "after": [
+        196.0,
+        194.0,
+        192.0
+      ],
+      "maxChannelMedianChange": 0.0
+    },
+    {
+      "region": "skirt",
+      "before": [
+        115.0,
+        120.0,
+        98.0
+      ],
+      "after": [
+        115.0,
+        120.0,
+        98.0
+      ],
+      "maxChannelMedianChange": 0.0
+    },
+    {
+      "region": "hair",
+      "before": [
+        66.0,
+        55.0,
+        50.5
+      ],
+      "after": [
+        66.0,
+        56.0,
+        51.0
+      ],
+      "maxChannelMedianChange": 1.0
+    }
+  ],
+  "geometryAndPortalEvidence": "verification-v23.json",
+  "oneToOneComplete": false
+}

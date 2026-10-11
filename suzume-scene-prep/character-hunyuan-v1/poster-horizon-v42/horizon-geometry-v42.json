@@ -1,0 +1,144 @@
+{
+  "revision": 42,
+  "sourceNativeSha256": "06d79ae053a89f7671d26f878aab1a81eee2d4269e44c5a043781f66e7afb9aa",
+  "name": "Restored central horizon cloud bank v42",
+  "replaces": [
+    "Distant reference closed cloud 1.001",
+    "Distant reference closed cloud 3.001"
+  ],
+  "vertices": 198996,
+  "triangles": 397964,
+  "closed": true,
+  "signedWorldVolume": 6712.0505633934035,
+  "parts": [
+    {
+      "vertices": 192424,
+      "triangles": 384844,
+      "closed": true,
+      "volume": 6663.199357290231,
+      "projectionBounds708": [
+        [
+          237.1303655421439,
+          479.3640980230232
+        ],
+        [
+          707.9943554133686,
+          576.7891209524709
+        ]
+      ]
+    },
+    {
+      "vertices": 5030,
+      "triangles": 10056,
+      "closed": true,
+      "volume": 41.039074218481765,
+      "projectionBounds708": [
+        [
+          413.0592063496483,
+          563.2187520312133
+        ],
+        [
+          475.2939532657787,
+          578.9650920838563
+        ]
+      ]
+    },
+    {
+      "vertices": 662,
+      "triangles": 1320,
+      "closed": true,
+      "volume": 4.058038682248291,
+      "projectionBounds708": [
+        [
+          413.81962027104436,
+          549.8095060537444
+        ],
+        [
+          424.94306661986104,
+          555.7817985621062
+        ]
+      ]
+    },
+    {
+      "vertices": 216,
+      "triangles": 428,
+      "closed": true,
+      "volume": 0.8924758522691908,
+      "projectionBounds708": [
+        [
+          426.02304771239756,
+          550.0491339516633
+        ],
+        [
+          429.9854177865629,
+          553.9516614263858
+        ]
+      ]
+    },
+    {
+      "vertices": 386,
+      "triangles": 768,
+      "closed": true,
+      "volume": 1.9172499228235533,
+      "projectionBounds708": [
+        [
+          482.06522567523353,
+          573.0758081015379
+        ],
+        [
+          489.9418094248243,
+          577.9526985949236
+        ]
+      ]
+    },
+    {
+      "vertices": 200,
+      "triangles": 396,
+      "closed": true,
+      "volume": 0.7656690151719469,
+      "projectionBounds708": [
+        [
+          493.05650276013375,
+          573.0663466711163
+        ],
+        [
+          496.9862770780014,
+          576.9336551641226
+        ]
+      ]
+    },
+    {
+      "vertices": 78,
+      "triangles": 152,
+      "closed": true,
+      "volume": 0.17869841217909865,
+      "projectionBounds708": [
+        [
+          628.6887388919457,
+          558.7028180892167
+        ],
+        [
+          631.3117784334697,
+          561.2971781140099
+        ]
+      ]
+    }
+  ],
+  "continuousPartSpansFormerGap": true,
+  "sourceBounds708": [
+    238,
+    481,
+    470,
+    98
+  ],
+  "recoveredPureSkyProbePixels": 1061,
+  "depthLeftMeters": 252.2,
+  "depthRightMeters": 247.4,
+  "depthInterpolationScreenRange": [
+    297,
+    411
+  ],
+  "unknownDepthInferred": true,
+  "sourceMaskLimitations": "Inherited segmentation and foreground inpainting are approximate; the recovered probe is above the door, and the cropped mask bottom was excluded.",
+  "oneToOneComplete": false
+}

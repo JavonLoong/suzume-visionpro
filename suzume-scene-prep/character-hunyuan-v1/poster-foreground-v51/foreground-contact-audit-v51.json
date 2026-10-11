@@ -1,0 +1,31 @@
+{
+  "revision": 51,
+  "nativeSha256": "01726e6771ec7ba31008c64487b2c73a4d70c567eceaea34116191f50902b074",
+  "chairLegSupportContacts": [
+    {
+      "name": "Poster chair leg frame -1 v51",
+      "minimumZ": 0.34099352,
+      "supportTopZ": 0.34772767,
+      "contactOverlapMeters": 0.006734149999999994
+    },
+    {
+      "name": "Poster chair leg frame 1 v51",
+      "minimumZ": 0.34099352,
+      "supportTopZ": 0.34772767,
+      "contactOverlapMeters": 0.006734149999999994
+    }
+  ],
+  "newLeaves": 2108,
+  "newGrassBlades": 126,
+  "addedTriangles": 110324,
+  "oldPropTrianglesRemoved": 706,
+  "selectedLargeLeavesRemoved": 256,
+  "sourceComparisonCrop708": [
+    0,
+    600,
+    300,
+    705
+  ],
+  "scope": "Chair support overlap and matched image crops. Hidden construction and vegetation depth remain inferred; these checks do not establish complete visual fidelity.",
+  "oneToOneComplete": false
+}

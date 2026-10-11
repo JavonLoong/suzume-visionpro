@@ -1,0 +1,12 @@
+左侧檐口剖面校准 v47
+
+完整模型：Suzume_dual_scene_fascia_v47.blend。主文件 suzume-full-scene.blend 已同步。
+Blender 场景：Official poster courtyard v38（第 1 帧海报）、Daytime circular hotel（第 72 帧电影）、Night meadow through the door（异世界）。
+
+左侧四个开间补入封闭的檐口剖面，包含立面、斜面与下部滴水边，共 128 个三角形。所有分段均与原顶板相交，三个相邻接点已检查。原屋顶、栏杆、设备和植物保留。
+主视图、局部与侧向渲染已核对。网页几何使用原生模型坐标、法线与材质分配，但网页环境光和表面风化仍有近似；实际浏览器 GPU 显示未验证。
+
+海报网页：http://127.0.0.1:8931/viewer/poster-v47.html
+电影网页：http://127.0.0.1:8931/viewer/candidate-v37.html
+
+整体仍未达到一比一。建筑门窗与立面层次、植物分布、风化、云水细节、人物表情与颈部衔接及异世界继续校准。

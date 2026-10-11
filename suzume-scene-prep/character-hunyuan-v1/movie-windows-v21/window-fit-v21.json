@@ -1,0 +1,121 @@
+{
+  "revision": 21,
+  "reference": "reference-opening-50525.jpg",
+  "referenceDimensions": [
+    2552,
+    1656
+  ],
+  "bayIndex": 16,
+  "angle": -0.10529100000000001,
+  "edges": [
+    -0.217486,
+    0.006904
+  ],
+  "chordRadius": 23.352249397711542,
+  "bayWidth": 5.2841091083636424,
+  "rectangle": {
+    "x": -0.9778247696261593,
+    "bottom": 1.5022416752185144,
+    "width": 2.1480828024634993,
+    "height": 2.4564724094635584
+  },
+  "oculus": {
+    "x": 1.3240476849740104,
+    "centerY": 3.3910497325465316,
+    "radiusX": 0.402735153631693,
+    "radiusY": 0.5529363329582573
+  },
+  "rectangleTargets": [
+    [
+      1960,
+      444
+    ],
+    [
+      2230,
+      444
+    ],
+    [
+      2230,
+      674
+    ],
+    [
+      1960,
+      674
+    ]
+  ],
+  "rectangleProjected": [
+    [
+      1960.6268101105013,
+      447.92210904228523
+    ],
+    [
+      2230.7379250392987,
+      440.16754870570486
+    ],
+    [
+      2229.1346985085847,
+      672.5451088760815
+    ],
+    [
+      1959.5009585116786,
+      675.4771078915696
+    ]
+  ],
+  "oculusTargets": [
+    [
+      2390,
+      437
+    ],
+    [
+      2443,
+      490
+    ],
+    [
+      2390,
+      543
+    ],
+    [
+      2337,
+      490
+    ]
+  ],
+  "oculusProjected": [
+    [
+      2390.320438661322,
+      436.99851649362824
+    ],
+    [
+      2443.0734097026584,
+      488.70809065988317
+    ],
+    [
+      2389.466956670283,
+      542.991637813943
+    ],
+    [
+      2337.1391285489217,
+      491.3122113257995
+    ]
+  ],
+  "rectangleMeanErrorPixels": 2.7816559494445925,
+  "oculusMeanErrorPixels": 0.8667776687422016,
+  "notes": [
+    "Manual image annotations, not official dimensions.",
+    "Oculus profile compensates for the inherited vertical facade scale; the finished opening is close to circular in world space.",
+    "This local fit is not a whole-image fidelity score."
+  ],
+  "oneToOneComplete": false,
+  "roofY": 5.684010125011929,
+  "roofTargetY": 277,
+  "roofProjected": [
+    2219.5082961606895,
+    277.0000000000002
+  ],
+  "drainpipe": {
+    "x": 0.356427469954339,
+    "bottom": 0.66,
+    "top": 4.92,
+    "radius": 0.038,
+    "front": 0.47
+  }
+}

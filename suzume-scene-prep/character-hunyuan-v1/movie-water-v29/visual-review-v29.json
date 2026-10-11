@@ -1,0 +1,26 @@
+{
+  "revision": 29,
+  "frontReviewed": true,
+  "obliqueReviewed": true,
+  "reviewedImages": ["movie-front-v29.png", "movie-left-oblique-v29.png"],
+  "comparedWith": ["../movie-surfaces-v28/movie-front-v28.png", "../movie-surfaces-v28/movie-left-oblique-v28.png", "../movie-surfaces-v28/reference-opening.jpg"],
+  "observations": [
+    "The previous sharp window-grid mirror reflection is substantially softened. The foreground right water is now blue-gray rather than a bright white reflection occupying the entire region.",
+    "The left middle water is brighter and bluer, closer to the reference. Near-left paving remains too cyan and its red component is too low.",
+    "The existing submerged stone contours are visible in the front view. The oblique view confirms full floor depth, broken slabs and shadows from the physical steelwork.",
+    "The clearer water reveals overly dark fragments and a more regular paving layout than the reference. Stone sizes, outlines and staining still require direct calibration.",
+    "The water surface remains too uniform in places and lacks the reference's clustered bright glints. The procedural algae is subtle and does not reproduce the reference's detailed green seams.",
+    "The reference water color diagnostic covers four manually chosen patches only. It does not prove full-scene fidelity or exact reflection geometry."
+  ],
+  "remaining": [
+    "优先重建门内夜云：当前灰色横带过薄、过亮，夜空和云体走向与电影参照不符；先核对实际云体节点及世界坐标。",
+    "水面反射、透射和水底可见性已改善，但近处石板偏蓝，水面缺少成簇波光；原有石板尺寸、排列、深色断板及藻类细节尚未逐块校准。",
+    "人物左手、腰线、右裙摆与握门动作仍有投影偏差；脸型、发丝及门基砖石需继续精修，并保留脚部间隙与跨门连续性。",
+    "实体墙面部分檐口仍偏亮，遮挡区和侧面存在明暗接缝，个别窗边投影有错位。",
+    "岸台、后方管线、屋顶和钢架的隐藏部分仍含推定；另一幅关门海报场景尚未完成一比一核对。",
+    "网页水面程序、参数、脚本和资源已检查；实际 WebGL 显示、旋转交互、GPU 着色器编译和跨引擎外观一致性仍未验证。"
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false
+}

@@ -1,0 +1,14 @@
+地平线层云重建 v43
+
+完整模型：Suzume_dual_scene_lower_clouds_v43.blend。主文件 suzume-full-scene.blend 已同步。
+Blender 场景：Official poster courtyard v38（第 1 帧海报）、Daytime circular hotel（第 72 帧电影）、Night meadow through the door（异世界）。
+
+在 v42 的基础上新增三组封闭云体，补回旧分割遗漏的灰蓝色低云。原有庭院、门、水面、钢架、云层与电影人物均保留。
+每组云是一个封闭的实体。纵深约 282、312、345 米，截面前后厚度随云团变化；隐蔽部分和背面由数学方法推定。
+表面为固定顶点颜色。门、藤蔓、钢架和屋顶区域排除后才取样参照颜色，不使用朝向相机的云卡片。
+
+海报网页：http://127.0.0.1:8931/viewer/poster-v43.html
+电影网页：http://127.0.0.1:8931/viewer/candidate-v37.html
+几何和资源已通过检查，浏览器实际 GPU 显示仍未验证。大体积云网格增加了模型和网页资源大小。
+
+整体尚未达到一比一。低云局部形状仍偏平顺；左侧钢架、建筑轮廓、屋顶设备、石板、人物神态和颈胸衔接、异世界仍需继续校准。

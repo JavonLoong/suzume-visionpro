@@ -1,0 +1,377 @@
+{
+  "revision": 45,
+  "sourceNativeSha256": "0015d1aba946addbbcd9d05a7922e720fb15c773c3ae4300566eb812b1f886c1",
+  "nativeSha256": "934df5dbec658241e56773fa0d15bfd221358c624120e609b7603a1b936075ba",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "sharedNodeGroupsPreserved": true,
+  "retainedOriginalFacadeCoordinatesPreserved": true,
+  "changedOriginalMeshes": [
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.019",
+      "removedTriangles": 1120,
+      "retainedTriangles": 8372,
+      "retainedColorAttributes": []
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.025",
+      "removedTriangles": 408,
+      "retainedTriangles": 1320,
+      "retainedColorAttributes": []
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "removedTriangles": 989,
+      "retainedTriangles": 117374,
+      "retainedColorAttributes": []
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.029",
+      "removedTriangles": 36,
+      "retainedTriangles": 1262,
+      "retainedColorAttributes": []
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "removedTriangles": 7,
+      "retainedTriangles": 39680,
+      "retainedColorAttributes": []
+    }
+  ],
+  "addedAssemblies": [
+    {
+      "name": "Poster rooftop left service house v45",
+      "triangles": 984,
+      "parts": 25,
+      "nonManifoldEdges": 0,
+      "signedVolume": 10.638354381699449,
+      "maximumVertexErrorMeters": 9.499511719468501e-07,
+      "roofSupportProbes": [
+        {
+          "bottom": [
+            -14.64732551574707,
+            19.375652313232422,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -13.244450569152832,
+            22.302553176879883,
+            6.465000152587891
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -13.590252876281738,
+            20.00904083251953,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -14.213149070739746,
+            19.510204315185547,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -14.234766006469727,
+            19.4854793548584,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -13.953973770141602,
+            19.694181442260742,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -13.960331916809082,
+            19.661962509155273,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -12.450777053833008,
+            21.823509216308594,
+            6.510000228881836
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -12.341699600219727,
+            21.72814178466797,
+            6.510000228881836
+          ],
+          "roofTopZ": 6.600000858306885
+        }
+      ]
+    },
+    {
+      "name": "Poster rooftop right service house v45",
+      "triangles": 984,
+      "parts": 25,
+      "nonManifoldEdges": 0,
+      "signedVolume": 10.168820085211271,
+      "maximumVertexErrorMeters": 9.519042976080527e-07,
+      "roofSupportProbes": [
+        {
+          "bottom": [
+            -8.780896186828613,
+            22.642465591430664,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -6.7726006507873535,
+            25.076780319213867,
+            6.465000152587891
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -7.6459760665893555,
+            22.9476261138916,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -8.352429389953613,
+            22.645729064941406,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -8.379941940307617,
+            22.627796173095703,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -8.053067207336426,
+            22.75251007080078,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -8.067926406860352,
+            22.723222732543945,
+            6.5
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -6.131911277770996,
+            24.3798828125,
+            6.510000228881836
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -6.05279016494751,
+            24.25850486755371,
+            6.510000228881836
+          ],
+          "roofTopZ": 6.600000858306885
+        }
+      ]
+    },
+    {
+      "name": "Poster rooftop central water tank v45",
+      "triangles": 3648,
+      "parts": 19,
+      "nonManifoldEdges": 0,
+      "signedVolume": 3.8968329432714377,
+      "maximumVertexErrorMeters": 9.529101561156494e-07,
+      "roofSupportProbes": [
+        {
+          "bottom": [
+            -9.813739776611328,
+            22.754995346069336,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -10.443674087524414,
+            23.180269241333008,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -11.115680694580078,
+            22.825191497802734,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -11.119311332702637,
+            22.065149307250977,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -10.450726509094238,
+            21.70366859436035,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -9.81675910949707,
+            22.122905731201172,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -10.594245910644531,
+            21.441190719604492,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -10.592891693115234,
+            21.433544158935547,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -10.266621589660645,
+            21.577678680419922,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        }
+      ]
+    },
+    {
+      "name": "Poster rooftop partly visible left water tank v45",
+      "triangles": 2304,
+      "parts": 5,
+      "nonManifoldEdges": 0,
+      "signedVolume": 2.544218005557615,
+      "maximumVertexErrorMeters": 9.516748029625433e-07,
+      "roofSupportProbes": [
+        {
+          "bottom": [
+            -15.672986030578613,
+            19.192758560180664,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -16.132429122924805,
+            19.423940658569336,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -16.620773315429688,
+            19.262535095214844,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -16.851953506469727,
+            18.80309295654297,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -16.690549850463867,
+            18.314748764038086,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -16.231107711791992,
+            18.083568572998047,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -15.74276351928711,
+            18.244972229003906,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -15.511581420898438,
+            18.70441436767578,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        },
+        {
+          "bottom": [
+            -16.1817684173584,
+            18.753753662109375,
+            6.519999980926514
+          ],
+          "roofTopZ": 6.600000858306885
+        }
+      ]
+    }
+  ],
+  "roofSupportsVerified": true,
+  "posterObjectCount": 275,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

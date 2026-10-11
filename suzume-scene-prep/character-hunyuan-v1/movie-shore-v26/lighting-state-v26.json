@@ -1,0 +1,201 @@
+{
+  "scene": "Daytime circular hotel",
+  "viewTransform": "AgX",
+  "exposure": 0.800000011920929,
+  "look": "None",
+  "lights": [
+    {
+      "name": "DirectionalLight",
+      "type": "SUN",
+      "location": [
+        -21.0,
+        32.0,
+        16.0
+      ],
+      "rotation": [
+        1.1748493909835815,
+        6.25718712399248e-08,
+        -2.5608363151550293
+      ],
+      "power": 3.200000047683716,
+      "color": [
+        1.0,
+        0.9490196108818054,
+        0.8509804010391235
+      ],
+      "size": null,
+      "sizeY": null,
+      "angle": 0.009180432185530663
+    },
+    {
+      "name": "HemisphereLight",
+      "type": "POINT",
+      "location": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "power": 0.0,
+      "color": [
+        0.6666666865348816,
+        0.8117647171020508,
+        0.9607843160629272
+      ],
+      "size": null,
+      "sizeY": null,
+      "angle": null
+    },
+    {
+      "name": "AmbientLight",
+      "type": "POINT",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "power": 0.0,
+      "color": [
+        0.4627451002597809,
+        0.5843137502670288,
+        0.658823549747467
+      ],
+      "size": null,
+      "sizeY": null,
+      "angle": null
+    },
+    {
+      "name": "PointLight",
+      "type": "POINT",
+      "location": [
+        0.0,
+        1.600000023841858,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "power": 0.0,
+      "color": [
+        0.4588235318660736,
+        0.5411764979362488,
+        0.8352941274642944
+      ],
+      "size": null,
+      "sizeY": null,
+      "angle": null
+    },
+    {
+      "name": "Soft courtyard fill on the movie facade v22",
+      "type": "AREA",
+      "location": [
+        5.416876316070557,
+        16.033695220947266,
+        6.8249993324279785
+      ],
+      "rotation": [
+        1.2277724742889404,
+        -1.0526321148063289e-08,
+        -0.37547075748443604
+      ],
+      "power": 6250.0,
+      "color": [
+        1.0,
+        0.8999999761581421,
+        0.7200000286102295
+      ],
+      "size": 13.75,
+      "sizeY": 11.25,
+      "angle": null
+    },
+    {
+      "name": "Cool courtyard fill on the left facade v23",
+      "type": "AREA",
+      "location": [
+        -5.869667053222656,
+        21.659385681152344,
+        4.900000095367432
+      ],
+      "rotation": [
+        1.1583858728408813,
+        -1.3778717722345846e-08,
+        0.2852134704589844
+      ],
+      "power": 64.0,
+      "color": [
+        0.44999998807907104,
+        0.2800000011920929,
+        1.0
+      ],
+      "size": 7.0,
+      "sizeY": 5.0,
+      "angle": null
+    },
+    {
+      "name": "Localized sunlight around the arched window v23",
+      "type": "SPOT",
+      "location": [
+        -3.422683000564575,
+        22.37685775756836,
+        5.0
+      ],
+      "rotation": [
+        0.968508780002594,
+        1.015955319871864e-09,
+        0.2852134108543396
+      ],
+      "power": 1200.0,
+      "color": [
+        1.0,
+        0.7799999713897705,
+        0.7200000286102295
+      ],
+      "size": null,
+      "sizeY": null,
+      "angle": null
+    }
+  ],
+  "worldNodes": [
+    {
+      "name": "Background",
+      "type": "BACKGROUND",
+      "inputs": {
+        "Color": [
+          0.3400000035762787,
+          0.5099999904632568,
+          0.7400000095367432,
+          1.0
+        ],
+        "Strength": 0.699999988079071,
+        "Weight": 0.0
+      }
+    },
+    {
+      "name": "World Output",
+      "type": "OUTPUT_WORLD",
+      "inputs": {}
+    },
+    {
+      "name": "Environment Texture",
+      "type": "TEX_ENVIRONMENT",
+      "inputs": {
+        "Vector": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}

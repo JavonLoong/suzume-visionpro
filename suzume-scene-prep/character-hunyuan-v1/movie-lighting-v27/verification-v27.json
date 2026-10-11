@@ -1,0 +1,16 @@
+{
+  "revision": 27,
+  "freshReopenVerified": true,
+  "allDayMeshesUnchanged": 2362,
+  "characterFeetHeadAndPortalPreserved": true,
+  "cameraUnchanged": true,
+  "worldSpaceLightPositionsDirectionsPowersAndColorsVerified": true,
+  "separateCameraAndGlossySkyShaderVerified": true,
+  "doorLightPowerByFrame": {
+    "1": 0.0,
+    "24": 0.0,
+    "72": 15.0,
+    "120": 15.0
+  },
+  "oneToOneComplete": false
+}

@@ -1,0 +1,40 @@
+name: VisionProPortal
+options:
+  bundleIdPrefix: com.javonloong
+  deploymentTarget:
+    visionOS: "2.0"
+  createIntermediateGroups: true
+targets:
+  VisionProPortal:
+    type: application
+    platform: visionOS
+    deploymentTarget: "2.0"
+    sources:
+      - path: VisionProPortal
+        excludes:
+          - Info.plist
+          - Resources
+    resources:
+      - path: VisionProPortal/Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.javonloong.SuzumePortal
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "7"
+        MARKETING_VERSION: "0.2"
+        CURRENT_PROJECT_VERSION: 2
+    info:
+      path: VisionProPortal/Info.plist
+      properties:
+        CFBundleDisplayName: 铃芽之旅·梦幻门
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+        UILaunchScreen: {}
+schemes:
+  VisionProPortal:
+    build:
+      targets:
+        VisionProPortal: all
+    run:
+      config: Debug

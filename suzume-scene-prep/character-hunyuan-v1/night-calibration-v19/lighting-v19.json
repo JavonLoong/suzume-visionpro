@@ -1,0 +1,21 @@
+{
+  "revision": 19,
+  "change": "Localized doorway illumination in the spatial night realm",
+  "powerWatts": 15.0,
+  "emitterDimensions": [
+    1.55,
+    3.15
+  ],
+  "position": [
+    0.0,
+    -0.18000000715255737,
+    1.7799999713897705
+  ],
+  "doorOpenDriver": "15.0*min(max(opening,0),1)",
+  "bodyWorldVerticesHash": "bda994f4f36c980ac7e48122ea45f395ce5defbd723d5c82f514aeca5561de47",
+  "characterAndFeetUnchanged": true,
+  "plantGeometryAndColorsUnchanged": true,
+  "oneToOneComplete": false,
+  "technicalReference": "https://docs.blender.org/manual/zh-hans/5.0/render/shader_nodes/shader/ray_portal.html",
+  "limits": "Area emitter approximates incident courtyard light. Film lighting and cloud shapes still require visual calibration."
+}

@@ -1,0 +1,4443 @@
+{
+  "sourceSha256": "1e025d2625cd64438c0771350cba86541b5016da0a1cf9655334a7b1fe50536e",
+  "scene": "Daytime circular hotel",
+  "objects": [
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh",
+      "vertices": 288,
+      "polygons": 96,
+      "bboxMin": [
+        -28.0,
+        -28.0,
+        -0.220001220703125
+      ],
+      "bboxMax": [
+        28.0,
+        28.0,
+        -0.2199987769126892
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Flooded polygon flagstones and broken slabs solid mesh",
+          "properties": {},
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Base Color",
+                  "value": [
+                    0.02955683507025242,
+                    0.07036009430885315,
+                    0.07036009430885315,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Roughness",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 4,
+                  "name": "Alpha",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 5,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 6,
+                  "name": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 7,
+                  "name": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 8,
+                  "name": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 9,
+                  "name": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 10,
+                  "name": "Subsurface Scale",
+                  "value": 0.05000000074505806,
+                  "linked": false
+                },
+                {
+                  "index": 11,
+                  "name": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "index": 12,
+                  "name": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 13,
+                  "name": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 14,
+                  "name": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 15,
+                  "name": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 16,
+                  "name": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 17,
+                  "name": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 18,
+                  "name": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 19,
+                  "name": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 20,
+                  "name": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "index": 21,
+                  "name": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 22,
+                  "name": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 23,
+                  "name": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 24,
+                  "name": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 25,
+                  "name": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 26,
+                  "name": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 27,
+                  "name": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 28,
+                  "name": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 29,
+                  "name": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 30,
+                  "name": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 2,
+                  "name": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.001",
+      "vertices": 22236,
+      "polygons": 7412,
+      "bboxMin": [
+        -27.061866760253906,
+        -26.92771339416504,
+        -0.20498116314411163
+      ],
+      "bboxMax": [
+        26.724773406982422,
+        26.701696395874023,
+        0.3946940004825592
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Flooded polygon flagstones and broken slabs solid mesh.001",
+          "properties": {},
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Base Color",
+                  "value": [
+                    0.13563333451747894,
+                    0.18116424977779388,
+                    0.17144110798835754,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Roughness",
+                  "value": 0.9800000190734863,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 4,
+                  "name": "Alpha",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 5,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 6,
+                  "name": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 7,
+                  "name": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 8,
+                  "name": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 9,
+                  "name": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 10,
+                  "name": "Subsurface Scale",
+                  "value": 0.05000000074505806,
+                  "linked": false
+                },
+                {
+                  "index": 11,
+                  "name": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "index": 12,
+                  "name": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 13,
+                  "name": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 14,
+                  "name": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 15,
+                  "name": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 16,
+                  "name": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 17,
+                  "name": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 18,
+                  "name": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 19,
+                  "name": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 20,
+                  "name": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "index": 21,
+                  "name": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 22,
+                  "name": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 23,
+                  "name": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 24,
+                  "name": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 25,
+                  "name": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 26,
+                  "name": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 27,
+                  "name": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 28,
+                  "name": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 29,
+                  "name": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 30,
+                  "name": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 2,
+                  "name": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "model-texture-EBD27D7D-8282-40D9-83C5-45320AB3FF99.png"
+            },
+            {
+              "name": "Mix (Legacy)",
+              "type": "ShaderNodeMixRGB",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Factor",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Color1",
+                  "value": [
+                    0.13563333451747894,
+                    0.18116424977779388,
+                    0.17144110798835754,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Color2",
+                  "value": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "image": null
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Mix (Legacy)",
+              "Color2"
+            ],
+            [
+              "Mix (Legacy)",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.002",
+      "vertices": 24864,
+      "polygons": 8288,
+      "bboxMin": [
+        -26.403886795043945,
+        -25.67635154724121,
+        -0.2230408638715744
+      ],
+      "bboxMax": [
+        26.810239791870117,
+        26.76595115661621,
+        0.34527847170829773
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Flooded polygon flagstones and broken slabs solid mesh.002",
+          "properties": {},
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Base Color",
+                  "value": [
+                    0.08650045841932297,
+                    0.1384316086769104,
+                    0.13563333451747894,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Roughness",
+                  "value": 0.9800000190734863,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 4,
+                  "name": "Alpha",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 5,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 6,
+                  "name": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 7,
+                  "name": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 8,
+                  "name": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 9,
+                  "name": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 10,
+                  "name": "Subsurface Scale",
+                  "value": 0.05000000074505806,
+                  "linked": false
+                },
+                {
+                  "index": 11,
+                  "name": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "index": 12,
+                  "name": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 13,
+                  "name": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 14,
+                  "name": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 15,
+                  "name": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 16,
+                  "name": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 17,
+                  "name": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 18,
+                  "name": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 19,
+                  "name": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 20,
+                  "name": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "index": 21,
+                  "name": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 22,
+                  "name": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 23,
+                  "name": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 24,
+                  "name": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 25,
+                  "name": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 26,
+                  "name": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 27,
+                  "name": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 28,
+                  "name": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 29,
+                  "name": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 30,
+                  "name": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 2,
+                  "name": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "model-texture-EBD27D7D-8282-40D9-83C5-45320AB3FF99.png"
+            },
+            {
+              "name": "Mix (Legacy)",
+              "type": "ShaderNodeMixRGB",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Factor",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Color1",
+                  "value": [
+                    0.08650045841932297,
+                    0.1384316086769104,
+                    0.13563333451747894,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Color2",
+                  "value": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "image": null
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Mix (Legacy)",
+              "Color2"
+            ],
+            [
+              "Mix (Legacy)",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.003",
+      "vertices": 22812,
+      "polygons": 7604,
+      "bboxMin": [
+        -26.864456176757812,
+        -26.755434036254883,
+        -0.20495197176933289
+      ],
+      "bboxMax": [
+        26.49887466430664,
+        26.87908935546875,
+        0.333690345287323
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Flooded polygon flagstones and broken slabs solid mesh.003",
+          "properties": {},
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Base Color",
+                  "value": [
+                    0.13013647496700287,
+                    0.17464740574359894,
+                    0.14702726900577545,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Roughness",
+                  "value": 0.9800000190734863,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 4,
+                  "name": "Alpha",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 5,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 6,
+                  "name": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 7,
+                  "name": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 8,
+                  "name": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 9,
+                  "name": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 10,
+                  "name": "Subsurface Scale",
+                  "value": 0.05000000074505806,
+                  "linked": false
+                },
+                {
+                  "index": 11,
+                  "name": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "index": 12,
+                  "name": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 13,
+                  "name": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 14,
+                  "name": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 15,
+                  "name": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 16,
+                  "name": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 17,
+                  "name": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 18,
+                  "name": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 19,
+                  "name": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 20,
+                  "name": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "index": 21,
+                  "name": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 22,
+                  "name": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 23,
+                  "name": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 24,
+                  "name": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 25,
+                  "name": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 26,
+                  "name": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 27,
+                  "name": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 28,
+                  "name": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 29,
+                  "name": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 30,
+                  "name": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 2,
+                  "name": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "model-texture-EBD27D7D-8282-40D9-83C5-45320AB3FF99.png"
+            },
+            {
+              "name": "Mix (Legacy)",
+              "type": "ShaderNodeMixRGB",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Factor",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Color1",
+                  "value": [
+                    0.13013647496700287,
+                    0.17464740574359894,
+                    0.14702726900577545,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Color2",
+                  "value": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "image": null
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Mix (Legacy)",
+              "Color2"
+            ],
+            [
+              "Mix (Legacy)",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.004",
+      "vertices": 22524,
+      "polygons": 7508,
+      "bboxMin": [
+        -26.705989837646484,
+        -26.972501754760742,
+        -0.2888232171535492
+      ],
+      "bboxMax": [
+        26.969823837280273,
+        25.90792465209961,
+        0.40819501876831055
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Flooded polygon flagstones and broken slabs solid mesh.004",
+          "properties": {},
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Base Color",
+                  "value": [
+                    0.11697066575288773,
+                    0.18116424977779388,
+                    0.16513219475746155,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Roughness",
+                  "value": 0.9800000190734863,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 4,
+                  "name": "Alpha",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 5,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 6,
+                  "name": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 7,
+                  "name": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 8,
+                  "name": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 9,
+                  "name": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 10,
+                  "name": "Subsurface Scale",
+                  "value": 0.05000000074505806,
+                  "linked": false
+                },
+                {
+                  "index": 11,
+                  "name": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "index": 12,
+                  "name": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 13,
+                  "name": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 14,
+                  "name": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 15,
+                  "name": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 16,
+                  "name": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 17,
+                  "name": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 18,
+                  "name": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 19,
+                  "name": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 20,
+                  "name": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "index": 21,
+                  "name": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 22,
+                  "name": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 23,
+                  "name": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 24,
+                  "name": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 25,
+                  "name": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 26,
+                  "name": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 27,
+                  "name": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 28,
+                  "name": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 29,
+                  "name": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 30,
+                  "name": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 2,
+                  "name": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "model-texture-EBD27D7D-8282-40D9-83C5-45320AB3FF99.png"
+            },
+            {
+              "name": "Mix (Legacy)",
+              "type": "ShaderNodeMixRGB",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Factor",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Color1",
+                  "value": [
+                    0.11697066575288773,
+                    0.18116424977779388,
+                    0.16513219475746155,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Color2",
+                  "value": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "image": null
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Mix (Legacy)",
+              "Color2"
+            ],
+            [
+              "Mix (Legacy)",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.005",
+      "vertices": 23268,
+      "polygons": 7756,
+      "bboxMin": [
+        -26.513978958129883,
+        -26.462434768676758,
+        -0.20819878578186035
+      ],
+      "bboxMax": [
+        26.150930404663086,
+        27.16278648376465,
+        0.33563897013664246
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Flooded polygon flagstones and broken slabs solid mesh.005",
+          "properties": {},
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Base Color",
+                  "value": [
+                    0.16202937066555023,
+                    0.2158605009317398,
+                    0.19120168685913086,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Roughness",
+                  "value": 0.9800000190734863,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 4,
+                  "name": "Alpha",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 5,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 6,
+                  "name": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 7,
+                  "name": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 8,
+                  "name": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 9,
+                  "name": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 10,
+                  "name": "Subsurface Scale",
+                  "value": 0.05000000074505806,
+                  "linked": false
+                },
+                {
+                  "index": 11,
+                  "name": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "index": 12,
+                  "name": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 13,
+                  "name": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 14,
+                  "name": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 15,
+                  "name": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 16,
+                  "name": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 17,
+                  "name": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 18,
+                  "name": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 19,
+                  "name": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 20,
+                  "name": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "index": 21,
+                  "name": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 22,
+                  "name": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 23,
+                  "name": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 24,
+                  "name": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 25,
+                  "name": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 26,
+                  "name": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 27,
+                  "name": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 28,
+                  "name": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 29,
+                  "name": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 30,
+                  "name": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 2,
+                  "name": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "model-texture-EBD27D7D-8282-40D9-83C5-45320AB3FF99.png"
+            },
+            {
+              "name": "Mix (Legacy)",
+              "type": "ShaderNodeMixRGB",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Factor",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Color1",
+                  "value": [
+                    0.16202937066555023,
+                    0.2158605009317398,
+                    0.19120168685913086,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Color2",
+                  "value": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "image": null
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Mix (Legacy)",
+              "Color2"
+            ],
+            [
+              "Mix (Legacy)",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.006",
+      "vertices": 22740,
+      "polygons": 7580,
+      "bboxMin": [
+        -26.235706329345703,
+        -25.206253051757812,
+        -0.20495985448360443
+      ],
+      "bboxMax": [
+        26.658021926879883,
+        25.66271209716797,
+        0.3928496241569519
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Flooded polygon flagstones and broken slabs solid mesh.006",
+          "properties": {},
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Base Color",
+                  "value": [
+                    0.07618538290262222,
+                    0.12213877588510513,
+                    0.12477181851863861,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Roughness",
+                  "value": 0.9800000190734863,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 4,
+                  "name": "Alpha",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 5,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 6,
+                  "name": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 7,
+                  "name": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 8,
+                  "name": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 9,
+                  "name": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 10,
+                  "name": "Subsurface Scale",
+                  "value": 0.05000000074505806,
+                  "linked": false
+                },
+                {
+                  "index": 11,
+                  "name": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "index": 12,
+                  "name": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 13,
+                  "name": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 14,
+                  "name": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 15,
+                  "name": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 16,
+                  "name": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 17,
+                  "name": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 18,
+                  "name": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 19,
+                  "name": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 20,
+                  "name": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "index": 21,
+                  "name": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 22,
+                  "name": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 23,
+                  "name": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 24,
+                  "name": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 25,
+                  "name": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 26,
+                  "name": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 27,
+                  "name": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 28,
+                  "name": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 29,
+                  "name": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 30,
+                  "name": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 2,
+                  "name": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "model-texture-EBD27D7D-8282-40D9-83C5-45320AB3FF99.png"
+            },
+            {
+              "name": "Mix (Legacy)",
+              "type": "ShaderNodeMixRGB",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Factor",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Color1",
+                  "value": [
+                    0.07618538290262222,
+                    0.12213877588510513,
+                    0.12477181851863861,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Color2",
+                  "value": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "image": null
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Mix (Legacy)",
+              "Color2"
+            ],
+            [
+              "Mix (Legacy)",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Live planar reflective shallow water",
+      "vertices": 130,
+      "polygons": 128,
+      "bboxMin": [
+        -38.47734832763672,
+        -36.07874298095703,
+        0.04999890550971031
+      ],
+      "bboxMax": [
+        38.61709976196289,
+        41.01570510864258,
+        0.05000109598040581
+      ],
+      "matrix": [
+        [
+          0.9060552716255188,
+          0.4231593608856201,
+          -2.69143356490531e-08,
+          0.0698743388056755
+        ],
+        [
+          -0.4231593608856201,
+          0.9060552716255188,
+          -4.106453843633062e-09,
+          2.4684815406799316
+        ],
+        [
+          2.2648192654628474e-08,
+          1.510972680307532e-08,
+          1.0,
+          0.05000000074505806
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Live planar reflective shallow water",
+          "properties": {
+            "water_revision": "v11",
+            "world_space_waves": true,
+            "reflection_balance": [
+              0.6500000001999306,
+              0.1500000264327999
+            ],
+            "wave_amplitudes_m": [
+              0.0018,
+              0.00065,
+              0.00022
+            ]
+          },
+          "nodes": [
+            {
+              "name": "World position and view",
+              "type": "ShaderNodeNewGeometry",
+              "operation": null,
+              "inputs": [],
+              "image": null
+            },
+            {
+              "name": "World coordinates",
+              "type": "ShaderNodeSeparateXYZ",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Wave time",
+              "type": "ShaderNodeValue",
+              "operation": null,
+              "inputs": [],
+              "image": null
+            },
+            {
+              "name": "MULTIPLY",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": -7.300000190734863,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "MULTIPLY.001",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.800000011920929,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "ADD",
+              "type": "ShaderNodeMath",
+              "operation": "ADD",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "MULTIPLY.002",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.6000000238418579,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "ADD.001",
+              "type": "ShaderNodeMath",
+              "operation": "ADD",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "SINE",
+              "type": "ShaderNodeMath",
+              "operation": "SINE",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Wave height 1",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.0017999999690800905,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "MULTIPLY.003",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": -15.100000381469727,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "MULTIPLY.004",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": -1.350000023841858,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "ADD.002",
+              "type": "ShaderNodeMath",
+              "operation": "ADD",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "MULTIPLY.005",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": -0.49000000953674316,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "ADD.003",
+              "type": "ShaderNodeMath",
+              "operation": "ADD",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "SINE.001",
+              "type": "ShaderNodeMath",
+              "operation": "SINE",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Wave height 2",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.0006500000017695129,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "ADD.004",
+              "type": "ShaderNodeMath",
+              "operation": "ADD",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "MULTIPLY.006",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": -28.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "MULTIPLY.007",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 3.200000047683716,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "ADD.005",
+              "type": "ShaderNodeMath",
+              "operation": "ADD",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "MULTIPLY.008",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.800000011920929,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "ADD.006",
+              "type": "ShaderNodeMath",
+              "operation": "ADD",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "SINE.002",
+              "type": "ShaderNodeMath",
+              "operation": "SINE",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Wave height 3",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.00022000000171829015,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "ADD.007",
+              "type": "ShaderNodeMath",
+              "operation": "ADD",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Millimeter water ripples",
+              "type": "ShaderNodeBump",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Strength",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Distance",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Filter Width",
+                  "value": 0.10000000149011612,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Height",
+                  "value": 1.0,
+                  "linked": true
+                },
+                {
+                  "index": 4,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Tinted water reflection",
+              "type": "ShaderNodeBsdfPrincipled",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Base Color",
+                  "value": [
+                    0.6100000143051147,
+                    0.8600000143051147,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Metallic",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Roughness",
+                  "value": 0.03700000047683716,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 4,
+                  "name": "Alpha",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 5,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "index": 6,
+                  "name": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 7,
+                  "name": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 8,
+                  "name": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 9,
+                  "name": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 10,
+                  "name": "Subsurface Scale",
+                  "value": 0.05000000074505806,
+                  "linked": false
+                },
+                {
+                  "index": 11,
+                  "name": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "index": 12,
+                  "name": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 13,
+                  "name": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 14,
+                  "name": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 15,
+                  "name": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 16,
+                  "name": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 17,
+                  "name": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 18,
+                  "name": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 19,
+                  "name": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 20,
+                  "name": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "index": 21,
+                  "name": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 22,
+                  "name": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 23,
+                  "name": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 24,
+                  "name": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 25,
+                  "name": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 26,
+                  "name": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 27,
+                  "name": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 28,
+                  "name": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 29,
+                  "name": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 30,
+                  "name": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Shallow blue green transmission",
+              "type": "ShaderNodeBsdfRefraction",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Color",
+                  "value": [
+                    0.33000001311302185,
+                    0.6299999952316284,
+                    0.7200000286102295,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Roughness",
+                  "value": 0.05999999865889549,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "IOR",
+                  "value": 1.3329999446868896,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "index": 4,
+                  "name": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "View cosine",
+              "type": "ShaderNodeVectorMath",
+              "operation": "DOT_PRODUCT",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Scale",
+                  "value": 1.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "ABSOLUTE",
+              "type": "ShaderNodeMath",
+              "operation": "ABSOLUTE",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "SUBTRACT",
+              "type": "ShaderNodeMath",
+              "operation": "SUBTRACT",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "POWER",
+              "type": "ShaderNodeMath",
+              "operation": "POWER",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 3.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "MULTIPLY.009",
+              "type": "ShaderNodeMath",
+              "operation": "MULTIPLY",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.15000002086162567,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Artistic reflection balance",
+              "type": "ShaderNodeMath",
+              "operation": "ADD",
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Value",
+                  "value": 0.6499999761581421,
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": true
+                },
+                {
+                  "index": 2,
+                  "name": "Value",
+                  "value": 0.5,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Reflection and transmission",
+              "type": "ShaderNodeMixShader",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Factor",
+                  "value": 0.5,
+                  "linked": true
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Water surface",
+              "type": "ShaderNodeOutputMaterial",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 2,
+                  "name": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            }
+          ],
+          "links": [
+            [
+              "World position and view",
+              "Position",
+              "World coordinates",
+              "Vector"
+            ],
+            [
+              "World coordinates",
+              "Y",
+              "MULTIPLY",
+              "Value"
+            ],
+            [
+              "World coordinates",
+              "X",
+              "MULTIPLY.001",
+              "Value"
+            ],
+            [
+              "MULTIPLY",
+              "Value",
+              "ADD",
+              "Value"
+            ],
+            [
+              "MULTIPLY.001",
+              "Value",
+              "ADD",
+              "Value"
+            ],
+            [
+              "Wave time",
+              "Value",
+              "MULTIPLY.002",
+              "Value"
+            ],
+            [
+              "ADD",
+              "Value",
+              "ADD.001",
+              "Value"
+            ],
+            [
+              "MULTIPLY.002",
+              "Value",
+              "ADD.001",
+              "Value"
+            ],
+            [
+              "ADD.001",
+              "Value",
+              "SINE",
+              "Value"
+            ],
+            [
+              "SINE",
+              "Value",
+              "Wave height 1",
+              "Value"
+            ],
+            [
+              "World coordinates",
+              "Y",
+              "MULTIPLY.003",
+              "Value"
+            ],
+            [
+              "World coordinates",
+              "X",
+              "MULTIPLY.004",
+              "Value"
+            ],
+            [
+              "MULTIPLY.003",
+              "Value",
+              "ADD.002",
+              "Value"
+            ],
+            [
+              "MULTIPLY.004",
+              "Value",
+              "ADD.002",
+              "Value"
+            ],
+            [
+              "Wave time",
+              "Value",
+              "MULTIPLY.005",
+              "Value"
+            ],
+            [
+              "ADD.002",
+              "Value",
+              "ADD.003",
+              "Value"
+            ],
+            [
+              "MULTIPLY.005",
+              "Value",
+              "ADD.003",
+              "Value"
+            ],
+            [
+              "ADD.003",
+              "Value",
+              "SINE.001",
+              "Value"
+            ],
+            [
+              "SINE.001",
+              "Value",
+              "Wave height 2",
+              "Value"
+            ],
+            [
+              "Wave height 1",
+              "Value",
+              "ADD.004",
+              "Value"
+            ],
+            [
+              "Wave height 2",
+              "Value",
+              "ADD.004",
+              "Value"
+            ],
+            [
+              "World coordinates",
+              "Y",
+              "MULTIPLY.006",
+              "Value"
+            ],
+            [
+              "World coordinates",
+              "X",
+              "MULTIPLY.007",
+              "Value"
+            ],
+            [
+              "MULTIPLY.006",
+              "Value",
+              "ADD.005",
+              "Value"
+            ],
+            [
+              "MULTIPLY.007",
+              "Value",
+              "ADD.005",
+              "Value"
+            ],
+            [
+              "Wave time",
+              "Value",
+              "MULTIPLY.008",
+              "Value"
+            ],
+            [
+              "ADD.005",
+              "Value",
+              "ADD.006",
+              "Value"
+            ],
+            [
+              "MULTIPLY.008",
+              "Value",
+              "ADD.006",
+              "Value"
+            ],
+            [
+              "ADD.006",
+              "Value",
+              "SINE.002",
+              "Value"
+            ],
+            [
+              "SINE.002",
+              "Value",
+              "Wave height 3",
+              "Value"
+            ],
+            [
+              "ADD.004",
+              "Value",
+              "ADD.007",
+              "Value"
+            ],
+            [
+              "Wave height 3",
+              "Value",
+              "ADD.007",
+              "Value"
+            ],
+            [
+              "ADD.007",
+              "Value",
+              "Millimeter water ripples",
+              "Height"
+            ],
+            [
+              "Millimeter water ripples",
+              "Normal",
+              "Tinted water reflection",
+              "Normal"
+            ],
+            [
+              "Millimeter water ripples",
+              "Normal",
+              "Shallow blue green transmission",
+              "Normal"
+            ],
+            [
+              "World position and view",
+              "Incoming",
+              "View cosine",
+              "Vector"
+            ],
+            [
+              "Millimeter water ripples",
+              "Normal",
+              "View cosine",
+              "Vector"
+            ],
+            [
+              "View cosine",
+              "Value",
+              "ABSOLUTE",
+              "Value"
+            ],
+            [
+              "ABSOLUTE",
+              "Value",
+              "SUBTRACT",
+              "Value"
+            ],
+            [
+              "SUBTRACT",
+              "Value",
+              "POWER",
+              "Value"
+            ],
+            [
+              "POWER",
+              "Value",
+              "MULTIPLY.009",
+              "Value"
+            ],
+            [
+              "MULTIPLY.009",
+              "Value",
+              "Artistic reflection balance",
+              "Value"
+            ],
+            [
+              "Artistic reflection balance",
+              "Value",
+              "Reflection and transmission",
+              "Factor"
+            ],
+            [
+              "Shallow blue green transmission",
+              "BSDF",
+              "Reflection and transmission",
+              "Shader"
+            ],
+            [
+              "Tinted water reflection",
+              "BSDF",
+              "Reflection and transmission",
+              "Shader"
+            ],
+            [
+              "Reflection and transmission",
+              "Shader",
+              "Water surface",
+              "Surface"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Movie courtyard continuous basin bed",
+      "vertices": 288,
+      "polygons": 96,
+      "bboxMin": [
+        -33.3388786315918,
+        -30.940269470214844,
+        -0.26000306010246277
+      ],
+      "bboxMax": [
+        33.47862243652344,
+        35.87723159790039,
+        -0.2599969208240509
+      ],
+      "matrix": [
+        [
+          2.9282803535461426,
+          -2.2091754203756864e-08,
+          -0.6520543694496155,
+          15.851103782653809
+        ],
+        [
+          -0.6520543694496155,
+          -6.971734478611324e-08,
+          -2.9282803535461426,
+          -38.9495849609375
+        ],
+        [
+          1.9231352510473698e-08,
+          1.0,
+          -2.1855697696082643e-07,
+          -0.03999999910593033
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Flooded polygon flagstones and broken slabs solid mesh",
+          "properties": {},
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 0,
+                  "name": "Base Color",
+                  "value": [
+                    0.02955683507025242,
+                    0.07036009430885315,
+                    0.07036009430885315,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 1,
+                  "name": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 2,
+                  "name": "Roughness",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 4,
+                  "name": "Alpha",
+                  "value": 1.0,
+                  "linked": false
+                },
+                {
+                  "index": 5,
+                  "name": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 6,
+                  "name": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 7,
+                  "name": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 8,
+                  "name": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 9,
+                  "name": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 10,
+                  "name": "Subsurface Scale",
+                  "value": 0.05000000074505806,
+                  "linked": false
+                },
+                {
+                  "index": 11,
+                  "name": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "index": 12,
+                  "name": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 13,
+                  "name": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 14,
+                  "name": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 15,
+                  "name": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 16,
+                  "name": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 17,
+                  "name": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 18,
+                  "name": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 19,
+                  "name": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 20,
+                  "name": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "index": 21,
+                  "name": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "index": 22,
+                  "name": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 23,
+                  "name": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 24,
+                  "name": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 25,
+                  "name": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "index": 26,
+                  "name": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 27,
+                  "name": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 28,
+                  "name": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 29,
+                  "name": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "index": 30,
+                  "name": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ],
+              "image": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "operation": null,
+              "inputs": [
+                {
+                  "index": 2,
+                  "name": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "index": 3,
+                  "name": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ],
+              "image": null
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cameraPosition": [
+    0.1535484492778778,
+    -11.730031967163086,
+    2.8782074451446533
+  ],
+  "renderEngine": "CYCLES",
+  "device": "CPU",
+  "oneToOneComplete": false
+}

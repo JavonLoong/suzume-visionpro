@@ -1,0 +1,29 @@
+{
+  "revision": 17,
+  "freshReopenVerified": true,
+  "sharedDayNightGeometryAndRig": true,
+  "complementaryPortalMaterials": true,
+  "preserved20BoneRig": true,
+  "preservedV16ProportionShapeKey": true,
+  "originalPackedBodyTextures": 3,
+  "newParts": [
+    {
+      "name": "Suzume independent Hunyuan head",
+      "triangles": 342148
+    },
+    {
+      "name": "Left gold hairpin",
+      "triangles": 192
+    },
+    {
+      "name": "Left red hairpin diagonal",
+      "triangles": 192
+    },
+    {
+      "name": "Left red hairpin crossbar",
+      "triangles": 192
+    }
+  ],
+  "backRender": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\native-pose-back-v17.png",
+  "oneToOneComplete": false
+}

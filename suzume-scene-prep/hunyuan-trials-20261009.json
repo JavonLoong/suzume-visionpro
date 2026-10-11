@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-09",
+  "creditsBefore": 19,
+  "creditsAfter": 13,
+  "newSubmissions": 6,
+  "trials": [
+    {
+      "mode": "世界生成/图生场景",
+      "input": "references/official_front.jpg",
+      "status": "已提交；出现空间漫游预览入口，资源加载失败，未验证还原度"
+    },
+    {
+      "mode": "图生3D/整景",
+      "input": "references/official_front.jpg",
+      "candidates": 1,
+      "status": "成品缩略图已验证；保留门与背景关系，但拉伸严重"
+    },
+    {
+      "mode": "文生3D/白门",
+      "candidates": 4,
+      "faces": 500000,
+      "status": "成品已验证；候选可修正，GLB下载两次超时，未确认导出"
+    },
+    {
+      "mode": "文生3D/建筑立面",
+      "candidates": 4,
+      "status": "生成完整小楼，非预期平直立面模块，需要重做"
+    },
+    {
+      "mode": "文生3D/钢架",
+      "candidates": 4,
+      "status": "生成圆顶亭子，非预期残架模块，需要重做"
+    },
+    {
+      "mode": "文生3D/整景",
+      "candidates": 4,
+      "status": "成品已验证；多个池体微缩场景，非一比一还原"
+    }
+  ],
+  "notCompleted": [
+    "图生分件试验",
+    "模型文件可靠导出",
+    "统一尺度和拼接",
+    "原图世界预览质量核验"
+  ]
+}

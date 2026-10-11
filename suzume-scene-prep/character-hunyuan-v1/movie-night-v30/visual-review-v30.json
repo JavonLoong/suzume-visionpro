@@ -1,0 +1,30 @@
+{
+  "revision": 30,
+  "frontReviewed": true,
+  "nightObliqueReviewed": true,
+  "reviewedImages": ["trial-layered-v30.png", "trial-denser-v30.png", "shape-filaments-v30.png", "shape-broken-v30.png", "movie-front-v30.png", "night-oblique-v30.png"],
+  "nightWideViewFindings": [
+    "The broader night view renders the same spatial banks, with a visible meadow and a continuous enclosing sky.",
+    "The camera is shifted 18 meters sideways and uses a wider lens; this is a shallow oblique inspection, not a full 360-degree visual validation.",
+    "The cloud grouping is still sparse in the wide view, some filaments look repetitive, and the dark horizontal terrain cutoff remains prominent.",
+    "Full cloud depth is supported by the closed volume and transform audit; this single image alone does not prove every viewing angle."
+  ],
+  "frontFindings": [
+    "The portal sky is now dark blue-violet rather than bright gray.",
+    "The main bank has a slanted, irregular silhouette and lower blue wisps; the previous straight stripe appearance is reduced.",
+    "Cloud edges are still coarser and more scalloped than the softly painted reference.",
+    "The meadow still has a hard distant boundary below the sky; no ground or fog change was included.",
+    "Door, character silhouette and courtyard remain visually consistent with v29. Geometry and material checks support preservation."
+  ],
+  "colorEvidence": "Selected patch medians: left sky reference [29,19,66], current [28,21,65]; main left cloud reference [82,76,82], current [79,75,82]. Patch means and the right cloud still differ; this is not a global similarity metric.",
+  "remaining": [
+    "Replace the finite meadow edge with inferred distant terrain and shallow blue-violet haze, preserving the near-door ground and plants.",
+    "Refine cloud silhouettes, thinner wisps and far-side cloud continuity against the available references.",
+    "Refine the character pose, ponytail and fine face/hair details while preserving shoe clearance and portal partition.",
+    "Refine water glints, paving geometry and the remaining courtyard surface seams.",
+    "Calibrate the separate closed-door poster scene and inspect hidden geometry from multiple angles.",
+    "Verify the current viewer in a responsive browser; shader construction and HTTP checks do not prove GPU output or visual equivalence."
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

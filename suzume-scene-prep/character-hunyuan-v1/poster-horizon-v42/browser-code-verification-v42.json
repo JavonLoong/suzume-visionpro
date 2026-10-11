@@ -1,0 +1,18 @@
+{
+  "revision": 42,
+  "threeRevision": "128",
+  "inlineScriptsParsed": 1,
+  "removedClouds": 28,
+  "loadedClouds": 27,
+  "triangles": 1345026,
+  "positionsNormalsColorsAndIndicesMatchExportExactly": true,
+  "nativeWorldProbeMaximumErrorMeters": 0.000003718787638717913,
+  "worldTransformsVerified": true,
+  "originalMaterialsPreserved": true,
+  "mainCloudGeometriesUntouched": true,
+  "surroundingCloudGeometriesUntouched": true,
+  "inspectionGeometryReferencesUpdated": true,
+  "onlyFinalCloudPayloadRequested": true,
+  "scope": "Actual Three.js mesh import and JavaScript parsing in Node. No browser or GPU execution.",
+  "browserRuntimeVerified": false
+}

@@ -1,0 +1,12 @@
+{
+  "reopened": true,
+  "partition": {
+    "courtyardVertices": 5731,
+    "otherworldVertices": 292297,
+    "totalVertices": 298028,
+    "gateY": 0.0719999149441719
+  },
+  "render": "D:\\\u865a\u62dfC\u76d8\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\native-partition-back-v15.png",
+  "samples": 12,
+  "denoising": false
+}

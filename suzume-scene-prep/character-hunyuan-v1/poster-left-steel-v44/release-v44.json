@@ -1,0 +1,25 @@
+{
+  "revision": 44,
+  "nativeFile": "poster-left-steel-v44/Suzume_dual_scene_left_steel_v44.blend",
+  "nativeSha256": "0015d1aba946addbbcd9d05a7922e720fb15c773c3ae4300566eb812b1f886c1",
+  "primaryNativeAlias": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene.blend",
+  "posterScene": "Official poster courtyard v38",
+  "movieScene": "Daytime circular hotel",
+  "nightScene": "Night meadow through the door",
+  "movieRevision37Preserved": true,
+  "addedClosedLeftSteelMembers": 20,
+  "verifiedPhysicalJoints": 27,
+  "posterBrowser": "http://127.0.0.1:8931/viewer/poster-v44.html",
+  "movieBrowser": "http://127.0.0.1:8931/viewer/candidate-v37.html",
+  "browserRuntimeVerified": false,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Align facade openings, rooftop equipment, parapet silhouette, ivy and shore debris. Inspect existing facade geometry before using it as an attachment target.",
+    "Refine pale steel edges, corrosion, irregular damage and connection details; left columns remain smoother and cleaner than the reference.",
+    "Refine lower-cloud ridge contours, pale gaps, hidden shapes and back lighting; some hidden banks remain too regular. Refine the five dominant clouds and other faint fragments.",
+    "Align submerged poster stone outlines and major water glints; reduce angular straightness from oblique views and tune reflected facade detail.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate water and steel materials with native rendering."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "revision": 33,
+  "meshChecks": [
+    {
+      "part": "Suzume independent Hunyuan head",
+      "exportedVertices": 171025,
+      "nativeVertices": 171025,
+      "maximumExportDistance": 1.888722967134995e-07,
+      "maximumNativeDistance": 1.888722967134995e-07
+    },
+    {
+      "part": "Suzume Hunyuan textured surface",
+      "exportedVertices": 241992,
+      "nativeVertices": 241846,
+      "maximumExportDistance": 0.0,
+      "maximumNativeDistance": 0.0
+    }
+  ],
+  "httpResourcesVerified": [
+    "viewer/candidate-v33.html",
+    "viewer/character-v33/suzume-posed-v33.gltf",
+    "viewer/character-v33/suzume-posed-v33.glb",
+    "viewer/character-v33/suzume-posed-v33.bin",
+    "viewer/character-v33/texture-0.png",
+    "viewer/character-v33/texture-1.png",
+    "viewer/character-v33/texture-2.png"
+  ],
+  "inlineSyntaxVerified": true,
+  "rigidDoorAndDepthAwareNightPathsRetained": true,
+  "browserRuntimeVerified": false
+}

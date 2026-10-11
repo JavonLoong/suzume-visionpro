@@ -1,0 +1,8 @@
+{
+  "basis": "Visual inspection of the front movie reference 50525, the wider close door reference 50528, and the v30/v31 night renders",
+  "remainingSkyDifference": "The narrow front portal is dark blue-violet, but the wider 50528 reference reveals a brighter pink-gray horizon to the left and prominent stars. The v30 sky field currently clamps to dark colors outside the narrow calibrated direction.",
+  "proposedNextWork": "Preserve the calibrated narrow forward sky. Use a continuous directional radiance field to restore the wider off-axis sunset colors, and derive a separate close door camera from 50528 before fitting its bright stars. Do not replace the sky with a camera-facing reference sheet.",
+  "terrainProgress": "v31 adds continuous inferred far terrain and spatial low mist. The left mist patch remains slightly bright, and distant vegetation/detail is still sparse.",
+  "otherHighImpactGap": "The full scene still needs character silhouette and clothing detail calibration, finer water glints and paving, and completion of the closed-door poster scene.",
+  "oneToOneComplete": false
+}

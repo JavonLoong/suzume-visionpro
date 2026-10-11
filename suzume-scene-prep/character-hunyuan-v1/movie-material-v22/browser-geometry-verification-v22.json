@@ -1,0 +1,26 @@
+{
+  "revision": 22,
+  "libraryRevision": "128",
+  "ltcTexturesInitialized": true,
+  "nativeRoofGeometryMatches": true,
+  "roof": [
+    {
+      "part": "Upper cornice",
+      "vertices": 36,
+      "maximumNativeDifference": 0.0000032031994230408145
+    },
+    {
+      "part": "Upper wall shadow course",
+      "vertices": 36,
+      "maximumNativeDifference": 0.000002727381808398377
+    },
+    {
+      "part": "Roof slab",
+      "vertices": 36,
+      "maximumNativeDifference": 0.000004702105254494882
+    }
+  ],
+  "wallGeometryPreserved": true,
+  "clonedPlasterDoesNotModifyOtherBays": true,
+  "browserRuntimeVerified": false
+}

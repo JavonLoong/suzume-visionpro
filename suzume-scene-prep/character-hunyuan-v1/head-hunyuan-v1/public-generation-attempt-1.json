@@ -1,0 +1,28 @@
+{
+  "provider": "Tencent official Hunyuan3D-2mv public Space",
+  "url": "https://huggingface.co/spaces/tencent/Hunyuan3D-2mv",
+  "api": "/generation_all",
+  "model": "2mv Turbo",
+  "inputs": [
+    "front.png",
+    "back.png",
+    "left.png",
+    "right.png"
+  ],
+  "steps": 10,
+  "octree_resolution": 384,
+  "seed": 901010,
+  "stage": "failed",
+  "startedAt": "2026-10-09T16:10:06.337029+00:00",
+  "commercialWebsite31Submitted": false,
+  "modelGenerated": false,
+  "remoteStatus": {
+    "code": "Status.STARTING",
+    "rank": null,
+    "queue_size": null,
+    "eta": null,
+    "success": null
+  },
+  "errorType": "AppError",
+  "error": "'PyMeshLabException'"
+}

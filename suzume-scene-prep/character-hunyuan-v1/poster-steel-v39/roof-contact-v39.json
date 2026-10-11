@@ -1,0 +1,23 @@
+{
+  "revision": 39,
+  "nativeSha256": "478a0aa3a14eaadde0bbe9353a08574dbf204a282a2f66a93c093d76c2c1e438",
+  "outerRibPhysicallyIntersectsRoof": true,
+  "method": "Segment/triangle intersection on actual reopened native mesh triangles, after BVH candidate filtering.",
+  "contacts": [
+    {
+      "roofObject": "Circular ruined hotel with exterior entrance solid mesh.021",
+      "ribTriangle": 36,
+      "roofTriangle": 581
+    },
+    {
+      "roofObject": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "ribTriangle": 108,
+      "roofTriangle": 74344
+    },
+    {
+      "roofObject": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "ribTriangle": 3830,
+      "roofTriangle": 39132
+    }
+  ]
+}

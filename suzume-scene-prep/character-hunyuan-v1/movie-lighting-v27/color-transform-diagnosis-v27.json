@@ -1,0 +1,141 @@
+{
+  "library": "OpenColorIO 2.6.0",
+  "dependencyLocation": "color-pipeline-deps",
+  "config": "C:\\Program Files\\Blender Foundation\\Blender 5.0\\5.0\\datafiles\\colormanagement\\config.ocio",
+  "configSha256": "caf3f5c7f43d1c73290ab9405bbfb561dfb76e00adc4ac214e9d58290b56a60d",
+  "view": "AgX",
+  "display": "sRGB",
+  "sceneLinear": "Linear Rec.709",
+  "exposure": 0.8,
+  "scope": "Only selected RGB values. No scene, material or image was changed. This is preparatory color mathematics, not a validated scene appearance.",
+  "samples": [
+    {
+      "patch": "left shaded wall",
+      "targetSrgb255": [
+        88.0,
+        94.0,
+        124.0
+      ],
+      "inverseSceneLinear": [
+        0.0600348533160581,
+        0.06164123100255858,
+        0.11558913379527141
+      ],
+      "allChannelsNonnegative": true,
+      "mathematicalRoundtripMaxError255": 0.07611227035522583,
+      "nonnegativeClampedMaxError255": 0.07611227035522583
+    },
+    {
+      "patch": "right lit wall",
+      "targetSrgb255": [
+        198.0,
+        182.0,
+        178.0
+      ],
+      "inverseSceneLinear": [
+        0.5914514647493516,
+        0.3837185770926701,
+        0.3455058316048335
+      ],
+      "allChannelsNonnegative": true,
+      "mathematicalRoundtripMaxError255": 0.023623883724208095,
+      "nonnegativeClampedMaxError255": 0.023623883724208095
+    },
+    {
+      "patch": "left lower rust pipe",
+      "targetSrgb255": [
+        53.0,
+        41.0,
+        41.0
+      ],
+      "inverseSceneLinear": [
+        0.025602375325402153,
+        0.01644108127988228,
+        0.016663378971232656
+      ],
+      "allChannelsNonnegative": true,
+      "mathematicalRoundtripMaxError255": 0.055588573217389,
+      "nonnegativeClampedMaxError255": 0.055588573217389
+    },
+    {
+      "patch": "right lower rust pipe",
+      "targetSrgb255": [
+        113.5,
+        84.0,
+        69.0
+      ],
+      "inverseSceneLinear": [
+        0.09815501755818043,
+        0.054885573009590974,
+        0.03866182550864731
+      ],
+      "allChannelsNonnegative": true,
+      "mathematicalRoundtripMaxError255": 0.06519013643265459,
+      "nonnegativeClampedMaxError255": 0.06519013643265459
+    },
+    {
+      "patch": "right bank slab",
+      "targetSrgb255": [
+        104.0,
+        117.0,
+        112.0
+      ],
+      "inverseSceneLinear": [
+        0.07993384733279488,
+        0.10369575370913339,
+        0.09356925257055457
+      ],
+      "allChannelsNonnegative": true,
+      "mathematicalRoundtripMaxError255": 0.00700542330741738,
+      "nonnegativeClampedMaxError255": 0.00700542330741738
+    },
+    {
+      "patch": "character white blouse",
+      "targetSrgb255": [
+        144.0,
+        154.0,
+        169.0
+      ],
+      "inverseSceneLinear": [
+        0.16513312196402252,
+        0.19827814080292946,
+        0.2798464675574042
+      ],
+      "allChannelsNonnegative": true,
+      "mathematicalRoundtripMaxError255": 0.040679037570962584,
+      "nonnegativeClampedMaxError255": 0.040679037570962584
+    },
+    {
+      "patch": "left white door frame",
+      "targetSrgb255": [
+        189.0,
+        182.0,
+        188.0
+      ],
+      "inverseSceneLinear": [
+        0.46838779146301784,
+        0.37692291253320453,
+        0.4511124861892247
+      ],
+      "allChannelsNonnegative": true,
+      "mathematicalRoundtripMaxError255": 0.05522257089614069,
+      "nonnegativeClampedMaxError255": 0.05522257089614069
+    },
+    {
+      "patch": "clear sky",
+      "targetSrgb255": [
+        111.0,
+        178.0,
+        234.0
+      ],
+      "inverseSceneLinear": [
+        -0.09946489134200946,
+        0.32423378946035825,
+        1.4865281293838277
+      ],
+      "allChannelsNonnegative": false,
+      "mathematicalRoundtripMaxError255": 0.2797495722770671,
+      "nonnegativeClampedMaxError255": 26.338918447494503
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "revision": 55,
+  "nativeSha256": "d0928992e11245a530630597987eabcc3daa085a7cb8c3e296a769c1b94a50ae",
+  "primaryAliasMatches": true,
+  "statusAndGalleryPointToV55": true,
+  "downloadAndPreviewResources": [
+    "index.html",
+    "status.json",
+    "viewer/poster-v55.html",
+    "poster-right-arches-v55/poster-front-v55.png",
+    "poster-right-arches-v55/right-arches-comparison-v55.png",
+    "poster-right-arches-v55/release-v55.json"
+  ],
+  "browserDefaultRevision": 17,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

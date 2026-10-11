@@ -1,0 +1,244 @@
+{
+  "revision": 48,
+  "nativeSha256": "c51a6b4680ec62ee46f04c02e5a6c12b015b63356dd07ed0ebf090c8a9962725",
+  "buckets": [
+    {
+      "key": "mesh10",
+      "byteOffset": 0,
+      "byteLength": 113376,
+      "vertexCount": 3543,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.029"
+      ],
+      "materialSource": "mesh10",
+      "previousLocation": "v46",
+      "originalVertexCount": 3894
+    },
+    {
+      "key": "mesh11",
+      "byteOffset": 113376,
+      "byteLength": 1621344,
+      "vertexCount": 50667,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.030"
+      ],
+      "materialSource": "mesh11",
+      "previousLocation": "v46",
+      "originalVertexCount": 54438
+    },
+    {
+      "key": "mesh12",
+      "byteOffset": 1734720,
+      "byteLength": 19584,
+      "vertexCount": 612,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.031"
+      ],
+      "materialSource": "mesh12",
+      "previousLocation": "original",
+      "originalVertexCount": 738
+    },
+    {
+      "key": "mesh16",
+      "byteOffset": 1754304,
+      "byteLength": 52992,
+      "vertexCount": 1656,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.035"
+      ],
+      "materialSource": "mesh16",
+      "previousLocation": "original",
+      "originalVertexCount": 1716
+    },
+    {
+      "key": "mesh18",
+      "byteOffset": 1807296,
+      "byteLength": 3665664,
+      "vertexCount": 114552,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.037"
+      ],
+      "materialSource": "mesh18",
+      "previousLocation": "v46",
+      "originalVertexCount": 119061,
+      "materialOverrideNewIndex": 4
+    },
+    {
+      "key": "mesh8",
+      "byteOffset": 5472960,
+      "byteLength": 11277696,
+      "vertexCount": 352428,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.027"
+      ],
+      "materialSource": "mesh8",
+      "previousLocation": "v46",
+      "originalVertexCount": 355089
+    },
+    {
+      "key": "mesh9",
+      "byteOffset": 16750656,
+      "byteLength": 197952,
+      "vertexCount": 6186,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.028"
+      ],
+      "materialSource": "mesh9",
+      "previousLocation": "original",
+      "originalVertexCount": 6198
+    },
+    {
+      "key": "new0",
+      "byteOffset": 16948608,
+      "byteLength": 228864,
+      "vertexCount": 7152,
+      "sourceObjects": [
+        "Poster upper-storey divider bay 13 lower v48",
+        "Poster upper-storey divider bay 13 roof contact v48",
+        "Poster upper-storey divider bay 14 lower v48",
+        "Poster upper-storey divider bay 14 roof contact v48",
+        "Poster corrected clerestory wall bay 13 v48",
+        "Poster corrected clerestory wall bay 14 v48",
+        "Poster observed upper window 0 bay 13 upper frame v48",
+        "Poster observed upper window 0 bay 13 lower frame v48",
+        "Poster observed upper window 0 bay 13 left jamb v48",
+        "Poster observed upper window 0 bay 13 right jamb v48",
+        "Poster observed upper window 0 bay 13 solid glazing v48",
+        "Poster observed upper window 1 bay 13 upper frame v48",
+        "Poster observed upper window 1 bay 13 lower frame v48",
+        "Poster observed upper window 1 bay 13 left jamb v48",
+        "Poster observed upper window 1 bay 13 right jamb v48",
+        "Poster observed upper window 1 bay 13 solid glazing v48",
+        "Poster observed upper window 2 bay 13 upper frame v48",
+        "Poster observed upper window 2 bay 13 lower frame v48",
+        "Poster observed upper window 2 bay 13 left jamb v48",
+        "Poster observed upper window 2 bay 13 solid glazing v48",
+        "Poster observed upper window 2 bay 14 upper frame v48",
+        "Poster observed upper window 2 bay 14 lower frame v48",
+        "Poster observed upper window 2 bay 14 right jamb v48",
+        "Poster observed upper window 2 bay 14 solid glazing v48",
+        "Poster observed upper window 3 bay 14 upper frame v48",
+        "Poster observed upper window 3 bay 14 lower frame v48",
+        "Poster observed upper window 3 bay 14 left jamb v48",
+        "Poster observed upper window 3 bay 14 right jamb v48",
+        "Poster observed upper window 3 bay 14 solid glazing v48",
+        "Poster observed upper window 0 central mullion v48",
+        "Poster observed upper window 1 central mullion v48",
+        "Poster observed upper window 2 central mullion v48",
+        "Poster observed upper window 3 central mullion v48"
+      ],
+      "newMaterialIndex": 0
+    },
+    {
+      "key": "new1",
+      "byteOffset": 17177472,
+      "byteLength": 612864,
+      "vertexCount": 19152,
+      "sourceObjects": [
+        "Poster corrected clerestory wall bay 13 v48",
+        "Poster corrected clerestory wall bay 14 v48",
+        "Poster observed upper window 0 bay 13 upper frame v48",
+        "Poster observed upper window 0 bay 13 lower frame v48",
+        "Poster observed upper window 0 bay 13 left jamb v48",
+        "Poster observed upper window 0 bay 13 right jamb v48",
+        "Poster observed upper window 1 bay 13 upper frame v48",
+        "Poster observed upper window 1 bay 13 lower frame v48",
+        "Poster observed upper window 1 bay 13 left jamb v48",
+        "Poster observed upper window 1 bay 13 right jamb v48",
+        "Poster observed upper window 2 bay 13 upper frame v48",
+        "Poster observed upper window 2 bay 13 lower frame v48",
+        "Poster observed upper window 2 bay 13 left jamb v48",
+        "Poster observed upper window 2 bay 14 upper frame v48",
+        "Poster observed upper window 2 bay 14 lower frame v48",
+        "Poster observed upper window 2 bay 14 right jamb v48",
+        "Poster observed upper window 3 bay 14 upper frame v48",
+        "Poster observed upper window 3 bay 14 lower frame v48",
+        "Poster observed upper window 3 bay 14 left jamb v48",
+        "Poster observed upper window 3 bay 14 right jamb v48",
+        "Poster observed upper window 0 central mullion v48",
+        "Poster observed upper window 1 central mullion v48",
+        "Poster observed upper window 2 central mullion v48",
+        "Poster observed upper window 3 central mullion v48"
+      ],
+      "newMaterialIndex": 1
+    },
+    {
+      "key": "new2",
+      "byteOffset": 17790336,
+      "byteLength": 76800,
+      "vertexCount": 2400,
+      "sourceObjects": [
+        "Poster observed upper window 0 bay 13 solid glazing v48",
+        "Poster observed upper window 1 bay 13 solid glazing v48",
+        "Poster observed upper window 2 bay 13 solid glazing v48",
+        "Poster observed upper window 2 bay 14 solid glazing v48",
+        "Poster observed upper window 3 bay 14 solid glazing v48"
+      ],
+      "newMaterialIndex": 2
+    },
+    {
+      "key": "new3",
+      "byteOffset": 17867136,
+      "byteLength": 61440,
+      "vertexCount": 1920,
+      "sourceObjects": [
+        "Poster upper-storey divider bay 13 lower v48",
+        "Poster upper-storey divider bay 13 roof contact v48",
+        "Poster upper-storey divider bay 14 lower v48",
+        "Poster upper-storey divider bay 14 roof contact v48"
+      ],
+      "newMaterialIndex": 3
+    }
+  ],
+  "strideFloats": 8,
+  "triangles": 186756,
+  "binarySha256": "4f9edb451da4064623056289f0c1b79348c0117359ac4c58a70d9a5135eb20ab",
+  "atlasFile": "upper-facade-pigments-v48.png",
+  "atlasSha256": "7c2bd2eb3d6f8b703bfce8283690581ab683d0034e85c9894f810ad6a4cece64",
+  "cleanAtlasFile": "clean-facade-pigments-v48.png",
+  "cleanAtlasSha256": "fda84b04aabad3d6ad74f7faaad99e7db16097afdce3f47db12b1e8d6c1f04cc",
+  "newMaterials": [
+    {
+      "index": 0,
+      "kind": "clonePaint",
+      "source": "mesh18",
+      "textureFile": "upper-facade-pigments-v48.png"
+    },
+    {
+      "index": 1,
+      "kind": "standard",
+      "linearRGB": [
+        0.23,
+        0.27,
+        0.29
+      ],
+      "roughness": 0.87,
+      "metalness": 0.08
+    },
+    {
+      "index": 2,
+      "kind": "standard",
+      "linearRGB": [
+        0.1,
+        0.17,
+        0.23
+      ],
+      "roughness": 0.24,
+      "metalness": 0.2
+    },
+    {
+      "index": 3,
+      "kind": "reuse",
+      "source": "mesh16"
+    },
+    {
+      "index": 4,
+      "kind": "clonePaint",
+      "source": "mesh18",
+      "textureFile": "clean-facade-pigments-v48.png"
+    }
+  ],
+  "closedSolids": 33,
+  "browserRuntimeVerified": false,
+  "browserMaterialsApproximate": true
+}

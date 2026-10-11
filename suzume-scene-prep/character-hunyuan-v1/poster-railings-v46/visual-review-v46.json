@@ -1,0 +1,37 @@
+{
+  "revision": 46,
+  "nativeSha256": "f377b44edfb7287e25476dab31deca102a610521333d5d20e319d54c00521c2c",
+  "frontReviewed": true,
+  "railingDetailReviewed": true,
+  "referenceComparisonReviewed": true,
+  "obliqueReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The left roof railing now follows the lower observed top edge and has much finer vertical spacing. Existing roof and cornice height were retained after the close reference comparison showed that most of the height error belonged to the top rail.",
+    "The 52..104 pixel interval at 708 by 1000 gives a median bright-bar spacing of approximately 1.35 pixels in both the enlarged reference and reconstruction. This is a local density observation affected by paint, lighting and sampling, not proof of whole-scene fidelity.",
+    "Four solid railing assemblies contain 267 uprights and 400 closed parts. Every upright base reaches the original roof/cornice, and all three adjacent bay connections have intersecting geometry.",
+    "The large black leaf silhouettes were not just a paint choice: the original poster ivy had Realize Instances muted, leaving no realized mesh color attribute. A separate poster-only node group now realizes the 4443 leaf instances, and all 44430 resulting vertices carry nonzero color data. Original shared node groups and movie/night scene states remain unchanged.",
+    "352 leaves near the left roof were scaled to 32 percent of their prior size. Their existing positions and colors remain unchanged; all other leaf scales are preserved. The final detail now shows small green leaves instead of oversized black silhouettes. Reference clump placement and trailing stems are still not exact.",
+    "The final front shows the restored foliage colors throughout the poster courtyard and improved left railing. The deep dark fascia beneath the roof, some cornice levels, facade openings, right roof equipment and plant distribution still visibly differ from the reference.",
+    "The detail is an unchanged copy of the final trial from this exact native SHA. Full front and oblique views were freshly rendered from the same saved file. The final oblique view shows the continuous roof railing, intact courtyard depth and green foliage without the prior black leaf masses; hidden details remain approximations.",
+    "Browser geometry, normals, UVs and leaf matrices pass checks using the actual saved original scene export. The 352 edited matrices match the native result; all other leaf matrices and colors are preserved. Actual browser/GPU display is still unverified."
+  ],
+  "remaining": [
+    "Reconstruct the left roof fascia/cornice and upper facade profiles. The dark band beneath the cornice is too deep/dark compared with the reference; distinguish the projecting roof slab, wall and trim before replacing geometry or materials.",
+    "Align facade window and arch openings, their relief, parapet silhouette, right rooftop equipment and ground debris. Resolve mismatches between fixed pigment details and modeled openings.",
+    "Match distinct ivy clumps and hanging trails. Left roof leaf size and native colors are improved, but leaf placement, other rooftop leaf sizes and vine stems remain approximate.",
+    "Refine railing paint variation and end supports, equipment weathering, tank shading, pipe bends and inferred hidden equipment surfaces.",
+    "Refine pale steel edges, corrosion and irregular damage; rebuilt steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water, steel and railing materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false,
+  "reviewedImageSha256": {
+    "poster-front-v46.png": "d1f311caf0354c263681a84b1bb65bea3bcb5c9978b5c52d97ab7b4f76278505",
+    "railing-detail-v46.png": "31dde676f6101938a01c98cfb05df330f270bf158f15b5dc56663c486ea89a49",
+    "poster-oblique-v46.png": "54dac969da278d478ebf683227e32ba93e19626db6b5a095b656cb766ef44dd0"
+  }
+}

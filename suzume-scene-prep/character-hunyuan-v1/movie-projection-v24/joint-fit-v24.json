@@ -1,0 +1,692 @@
+{
+  "revision": 24,
+  "reference": "reference-opening-50525.jpg",
+  "dimensions": [
+    2552,
+    1656
+  ],
+  "parameters": {
+    "lensMm": 86.54434612692005,
+    "distance": 11.7300315454759,
+    "cameraX": 0.15354844661181763,
+    "cameraZ": 2.8782074998654252,
+    "pitch": 0.07098138634927482,
+    "courtyardX": 0.06987433711729285,
+    "courtyardY": 2.468481461225616,
+    "windowSill": 1.6900559610458885,
+    "arcadeBase": 5.329656385323066,
+    "highRoof": 7.331622841915744,
+    "lowRoof": 5.269525045032644,
+    "edge12": -0.6550226268157784,
+    "edge13": -0.4200226268157784,
+    "edge14": -0.15040402205052789,
+    "edge15": 0.06531638800593045,
+    "edge16": 0.25546756757609357,
+    "edge17": 0.495473647951517
+  },
+  "parameterVector": [
+    86.54434612692005,
+    11.7300315454759,
+    0.15354844661181763,
+    2.8782074998654252,
+    0.07098138634927482,
+    0.06987433711729285,
+    2.468481461225616,
+    1.6900559610458885,
+    5.329656385323066,
+    7.331622841915744,
+    5.269525045032644,
+    -0.6550226268157784,
+    -0.4200226268157784,
+    -0.15040402205052789,
+    0.06531638800593045,
+    0.25546756757609357,
+    0.495473647951517
+  ],
+  "radius": 23.5,
+  "observations": [
+    {
+      "name": "left_shoulder",
+      "world": [
+        -0.3721133768558502,
+        0.6811866164207458,
+        2.4137039184570312
+      ],
+      "target": [
+        1114,
+        691
+      ],
+      "sigma": 22,
+      "projected": [
+        1107.4109315357132,
+        694.2953482736355
+      ],
+      "errorPixels": 7.367166583674562
+    },
+    {
+      "name": "right_shoulder",
+      "world": [
+        0.07621467113494873,
+        0.6680748462677002,
+        2.4189834594726562
+      ],
+      "target": [
+        1245,
+        704
+      ],
+      "sigma": 22,
+      "projected": [
+        1251.1707767607795,
+        692.7580322709899
+      ],
+      "errorPixels": 12.824208523393574
+    },
+    {
+      "name": "waist",
+      "world": [
+        -0.12690995633602142,
+        0.36213770508766174,
+        1.89797842502594
+      ],
+      "target": [
+        1172,
+        848
+      ],
+      "sigma": 22,
+      "projected": [
+        1183.9635583882618,
+        867.4330037556683
+      ],
+      "errorPixels": 22.820349784286165
+    },
+    {
+      "name": "left_hem",
+      "world": [
+        -0.41157037019729614,
+        0.23035210371017456,
+        1.0481977462768555
+      ],
+      "target": [
+        1092,
+        1136
+      ],
+      "sigma": 22,
+      "projected": [
+        1089.4535171093012,
+        1150.5584237173782
+      ],
+      "errorPixels": 14.77945453145489
+    },
+    {
+      "name": "right_hem",
+      "world": [
+        0.15278056263923645,
+        0.4679885804653168,
+        1.0195327997207642
+      ],
+      "target": [
+        1262,
+        1110
+      ],
+      "sigma": 22,
+      "projected": [
+        1275.7514476148674,
+        1148.0883031691214
+      ],
+      "errorPixels": 40.49470520706811
+    },
+    {
+      "name": "left_shoe",
+      "world": [
+        -0.28812646865844727,
+        -0.07121068239212036,
+        0.23571684956550598
+      ],
+      "target": [
+        1114,
+        1484
+      ],
+      "sigma": 22,
+      "projected": [
+        1127.2021318035718,
+        1437.4327994404068
+      ],
+      "errorPixels": 48.40248394572593
+    },
+    {
+      "name": "right_shoe",
+      "world": [
+        -0.00896543264389038,
+        0.2160128355026245,
+        0.28031134605407715
+      ],
+      "target": [
+        1215,
+        1439
+      ],
+      "sigma": 22,
+      "projected": [
+        1222.5319835420694,
+        1401.8254830412466
+      ],
+      "errorPixels": 37.92987591852431
+    },
+    {
+      "name": "left_hand_tip",
+      "world": [
+        -0.5536583662033081,
+        0.564731240272522,
+        1.217596411705017
+      ],
+      "target": [
+        1056,
+        1043
+      ],
+      "sigma": 22,
+      "projected": [
+        1048.612273510009,
+        1080.227793186772
+      ],
+      "errorPixels": 37.95374933057321
+    },
+    {
+      "name": "header left",
+      "world": [
+        -0.93341,
+        -0.161,
+        3.8125
+      ],
+      "target": [
+        923,
+        226
+      ],
+      "sigma": 18,
+      "projected": [
+        898.8550079467822,
+        219.95229487134236
+      ],
+      "errorPixels": 24.89086938162555
+    },
+    {
+      "name": "header right",
+      "world": [
+        0.93341,
+        -0.161,
+        3.8125
+      ],
+      "target": [
+        1541,
+        226
+      ],
+      "sigma": 18,
+      "projected": [
+        1546.5907298222915,
+        219.95229487134236
+      ],
+      "errorPixels": 8.23595758057622
+    },
+    {
+      "name": "sill left",
+      "world": [
+        -0.86737,
+        -0.13,
+        0.2
+      ],
+      "target": [
+        919,
+        1454
+      ],
+      "sigma": 18,
+      "projected": [
+        930.4172722729622,
+        1453.811414692585
+      ],
+      "errorPixels": 11.418829649886414
+    },
+    {
+      "name": "sill right",
+      "world": [
+        0.86737,
+        -0.13,
+        0.2
+      ],
+      "target": [
+        1546,
+        1454
+      ],
+      "sigma": 18,
+      "projected": [
+        1517.6298778310113,
+        1453.811414692585
+      ],
+      "errorPixels": 28.370748955597154
+    },
+    {
+      "name": "pier 13",
+      "target": [
+        195,
+        null
+      ],
+      "sigma": 10,
+      "projected": [
+        195.02174550340078,
+        598.5561990210562
+      ],
+      "errorPixels": 0.021745503400779853
+    },
+    {
+      "name": "pier 14",
+      "target": [
+        892,
+        null
+      ],
+      "sigma": 10,
+      "projected": [
+        892.0026165305733,
+        596.0130401763525
+      ],
+      "errorPixels": 0.002616530573277487
+    },
+    {
+      "name": "pier 15",
+      "target": [
+        1430,
+        null
+      ],
+      "sigma": 40,
+      "projected": [
+        1429.5931301760288,
+        595.7214082837211
+      ],
+      "errorPixels": 0.4068698239711921
+    },
+    {
+      "name": "pier 16",
+      "target": [
+        1908,
+        null
+      ],
+      "sigma": 10,
+      "projected": [
+        1908.048765864939,
+        596.7001052204748
+      ],
+      "errorPixels": 0.048765864939014136
+    },
+    {
+      "name": "pier 17",
+      "target": [
+        2544,
+        null
+      ],
+      "sigma": 20,
+      "projected": [
+        2543.9203036783038,
+        599.7593889867602
+      ],
+      "errorPixels": 0.07969632169624674
+    },
+    {
+      "name": "bay 13 window sill at 259",
+      "target": [
+        null,
+        674
+      ],
+      "sigma": 10,
+      "projected": [
+        259.0,
+        677.3939081764173
+      ],
+      "errorPixels": 3.3939081764173125
+    },
+    {
+      "name": "bay 13 window top at 259",
+      "target": [
+        null,
+        441
+      ],
+      "sigma": 10,
+      "projected": [
+        259.0000000000001,
+        438.4172415726184
+      ],
+      "errorPixels": 2.5827584273815773
+    },
+    {
+      "name": "bay 13 window sill at 420",
+      "target": [
+        null,
+        674
+      ],
+      "sigma": 10,
+      "projected": [
+        420.0000000000002,
+        675.9362178243898
+      ],
+      "errorPixels": 1.9362178243898143
+    },
+    {
+      "name": "bay 13 window top at 420",
+      "target": [
+        null,
+        441
+      ],
+      "sigma": 10,
+      "projected": [
+        420.0000000000001,
+        439.589646666201
+      ],
+      "errorPixels": 1.4103533337989802
+    },
+    {
+      "name": "bay 13 window sill at 470",
+      "target": [
+        null,
+        674
+      ],
+      "sigma": 10,
+      "projected": [
+        470.0000000000002,
+        675.4835189573006
+      ],
+      "errorPixels": 1.4835189573005891
+    },
+    {
+      "name": "bay 13 window top at 470",
+      "target": [
+        null,
+        441
+      ],
+      "sigma": 10,
+      "projected": [
+        470.0000000000001,
+        439.95374762694104
+      ],
+      "errorPixels": 1.0462523730589623
+    },
+    {
+      "name": "bay 13 window sill at 648",
+      "target": [
+        null,
+        674
+      ],
+      "sigma": 10,
+      "projected": [
+        648.0,
+        673.8719109904627
+      ],
+      "errorPixels": 0.12808900953734792
+    },
+    {
+      "name": "bay 13 window top at 648",
+      "target": [
+        null,
+        441
+      ],
+      "sigma": 10,
+      "projected": [
+        648.0000000000001,
+        441.2499470471753
+      ],
+      "errorPixels": 0.24994704717528293
+    },
+    {
+      "name": "bay 15 window sill at 1509",
+      "target": [
+        null,
+        674
+      ],
+      "sigma": 10,
+      "projected": [
+        1509.0,
+        671.339472630025
+      ],
+      "errorPixels": 2.660527369974943
+    },
+    {
+      "name": "bay 15 window top at 1509",
+      "target": [
+        null,
+        440
+      ],
+      "sigma": 10,
+      "projected": [
+        1509.0,
+        443.28032243622647
+      ],
+      "errorPixels": 3.28032243622647
+    },
+    {
+      "name": "bay 15 window sill at 1668",
+      "target": [
+        null,
+        674
+      ],
+      "sigma": 10,
+      "projected": [
+        1668.0,
+        672.1464871596481
+      ],
+      "errorPixels": 1.8535128403518684
+    },
+    {
+      "name": "bay 15 window top at 1668",
+      "target": [
+        null,
+        440
+      ],
+      "sigma": 10,
+      "projected": [
+        1668.0,
+        442.6312079888652
+      ],
+      "errorPixels": 2.631207988865185
+    },
+    {
+      "name": "bay 15 window sill at 1700",
+      "target": [
+        null,
+        674
+      ],
+      "sigma": 10,
+      "projected": [
+        1700.0,
+        672.3089051781888
+      ],
+      "errorPixels": 1.691094821811248
+    },
+    {
+      "name": "bay 15 window top at 1700",
+      "target": [
+        null,
+        440
+      ],
+      "sigma": 10,
+      "projected": [
+        1700.0,
+        442.50056860323275
+      ],
+      "errorPixels": 2.5005686032327503
+    },
+    {
+      "name": "bay 15 window sill at 1858",
+      "target": [
+        null,
+        674
+      ],
+      "sigma": 10,
+      "projected": [
+        1858.0,
+        673.1108441447325
+      ],
+      "errorPixels": 0.8891558552675178
+    },
+    {
+      "name": "bay 15 window top at 1858",
+      "target": [
+        null,
+        440
+      ],
+      "sigma": 10,
+      "projected": [
+        1857.9999999999998,
+        441.8555366366726
+      ],
+      "errorPixels": 1.855536636672582
+    },
+    {
+      "name": "bay 16 window sill at 1960",
+      "target": [
+        null,
+        674
+      ],
+      "sigma": 10,
+      "projected": [
+        1960.0,
+        673.9910016562574
+      ],
+      "errorPixels": 0.008998343742632642
+    },
+    {
+      "name": "bay 16 window top at 1960",
+      "target": [
+        null,
+        444
+      ],
+      "sigma": 10,
+      "projected": [
+        1960.0,
+        441.162036876435
+      ],
+      "errorPixels": 2.8379631235649754
+    },
+    {
+      "name": "bay 16 window sill at 2230",
+      "target": [
+        null,
+        674
+      ],
+      "sigma": 10,
+      "projected": [
+        2230.0,
+        677.2143839549797
+      ],
+      "errorPixels": 3.2143839549796667
+    },
+    {
+      "name": "bay 16 window top at 2230",
+      "target": [
+        null,
+        444
+      ],
+      "sigma": 10,
+      "projected": [
+        2230.0,
+        438.56970089115975
+      ],
+      "errorPixels": 5.430299108840245
+    },
+    {
+      "name": "bay 13 arcade base",
+      "target": [
+        null,
+        270
+      ],
+      "sigma": 15,
+      "projected": [
+        530.0000000000003,
+        274.9204709590932
+      ],
+      "errorPixels": 4.9204709590932225
+    },
+    {
+      "name": "bay 15 arcade base",
+      "target": [
+        null,
+        285
+      ],
+      "sigma": 15,
+      "projected": [
+        1660.0,
+        280.7794958749115
+      ],
+      "errorPixels": 4.220504125088496
+    },
+    {
+      "name": "bay 13 upper roof",
+      "target": [
+        null,
+        56
+      ],
+      "sigma": 20,
+      "projected": [
+        530.0000000000001,
+        52.57706182806771
+      ],
+      "errorPixels": 3.4229381719322873
+    },
+    {
+      "name": "bay 15 upper roof",
+      "target": [
+        null,
+        56
+      ],
+      "sigma": 25,
+      "projected": [
+        1660.0,
+        63.23160394701745
+      ],
+      "errorPixels": 7.231603947017447
+    },
+    {
+      "name": "bay 16 lower roof",
+      "target": [
+        null,
+        277
+      ],
+      "sigma": 15,
+      "projected": [
+        2230.0,
+        277.00000435115953
+      ],
+      "errorPixels": 4.3511595322343055e-06
+    },
+    {
+      "name": "bay 13 water contact",
+      "target": [
+        null,
+        860
+      ],
+      "sigma": 18,
+      "projected": [
+        530.0000000000002,
+        853.4460675703294
+      ],
+      "errorPixels": 6.553932429670567
+    },
+    {
+      "name": "bay 16 water contact",
+      "target": [
+        null,
+        855
+      ],
+      "sigma": 18,
+      "projected": [
+        2230.0,
+        858.8610227168597
+      ],
+      "errorPixels": 3.8610227168596793
+    }
+  ],
+  "foregroundMeanError": 24.624033282698843,
+  "backgroundMeanError": 2.2454620930622404,
+  "solverSuccess": true,
+  "oneToOneComplete": false,
+  "assumptions": [
+    "Circle radius 23.5 and common window height 2.14 set the architectural scale.",
+    "Door corners and other landmarks are manually annotated; image reconstruction remains ambiguous.",
+    "Camera has no roll or horizontal yaw; the courtyard is free to translate and its bay spans can change.",
+    "Independent head is excluded from superseded v16 landmark data."
+  ],
+  "validationStatus": "Projection fit only; no claim of render improvement until candidate reviewed."
+}

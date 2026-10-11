@@ -1,0 +1,33 @@
+{
+  "revision": 42,
+  "image": "horizon-trial-v42.png",
+  "probeIn708Frame": {
+    "x": [
+      297,
+      411
+    ],
+    "y": [
+      535,
+      559
+    ]
+  },
+  "beforeRGBMeanAbsoluteError255": 32.402290448343074,
+  "afterRGBMeanAbsoluteError255": 25.95260721247563,
+  "referenceMeanRGB255": [
+    143.4769736842104,
+    170.390716374265,
+    190.53947368421427
+  ],
+  "beforeMeanRGB255": [
+    149.57492690057893,
+    191.72441520467802,
+    232.29276315790437
+  ],
+  "afterMeanRGB255": [
+    158.41593567250683,
+    191.35307017543803,
+    223.09393274854702
+  ],
+  "scope": "Only the fixed unobscured sky rectangle above the door; includes both cloud and surrounding sky. Does not measure full-scene likeness or inferred depth.",
+  "oneToOneComplete": false
+}

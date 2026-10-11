@@ -1,0 +1,16 @@
+{
+  "revision": 43,
+  "nativeSha256": "23cec288419994ad8bb8768d786b33b27064cb1f33d061e9de62ad66656e2b7e",
+  "threeRevision": "128",
+  "inlineScriptsParsed": 1,
+  "addedClouds": 3,
+  "triangles": 1591136,
+  "positionsNormalsColorsAndIndicesMatchExportExactly": true,
+  "nativeWorldProbeMaximumErrorMeters": 0.000006377487693498551,
+  "worldTransformsVerified": true,
+  "existingCloudObjectsGeometriesMatricesPreserved": true,
+  "originalMaterialReused": true,
+  "cloudInspectionReferencesUpdated": true,
+  "scope": "Three.js geometry loading in Node and inline script parsing. No browser or GPU execution.",
+  "browserRuntimeVerified": false
+}

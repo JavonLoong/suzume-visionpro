@@ -1,0 +1,1372 @@
+{
+  "camera": {
+    "name": "Door front camera",
+    "position": [
+      0.18000000715255737,
+      -4.039797782897949,
+      1.9803993701934814
+    ],
+    "rotation": [
+      1.5607963800430298,
+      -0.0,
+      0.0
+    ],
+    "lens": 30.0,
+    "sensorFit": "VERTICAL",
+    "sensorHeight": 36.0,
+    "sensorWidth": 36.0,
+    "shiftX": 0.0,
+    "shiftY": 0.0,
+    "resolution": [
+      800,
+      520
+    ]
+  },
+  "objects": [
+    {
+      "name": "DirectionalLight",
+      "type": "LIGHT",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": null,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        -21.0,
+        -16.000001907348633,
+        32.0
+      ],
+      "bounds": [],
+      "materials": []
+    },
+    {
+      "name": "HemisphereLight",
+      "type": "LIGHT",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": null,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        -4.371138828673793e-08,
+        1.0
+      ],
+      "bounds": [],
+      "materials": []
+    },
+    {
+      "name": "AmbientLight",
+      "type": "LIGHT",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": null,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [],
+      "materials": []
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 28476,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -22.839746475219727,
+          24.124753952026367
+        ],
+        [
+          -20.58779525756836,
+          24.720401763916016
+        ],
+        [
+          -0.8410273790359497,
+          8.340001106262207
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.001",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 4860,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -22.53951644897461,
+          22.591917037963867
+        ],
+        [
+          -16.82588768005371,
+          22.71864891052246
+        ],
+        [
+          1.6780335903167725,
+          6.521807670593262
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.001"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.002",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 2880,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -28.06684112548828,
+          28.06684112548828
+        ],
+        [
+          -17.517457962036133,
+          28.166362762451172
+        ],
+        [
+          0.7999992370605469,
+          6.400001525878906
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.002"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.003",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 7776,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -23.06133270263672,
+          23.06133270263672
+        ],
+        [
+          -14.780451774597168,
+          23.1621150970459
+        ],
+        [
+          0.33257147669792175,
+          4.195001125335693
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.003"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.004",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 2304,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -22.706174850463867,
+          22.866840362548828
+        ],
+        [
+          -13.699572563171387,
+          22.41721534729004
+        ],
+        [
+          0.4299994111061096,
+          0.8900009393692017
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.004"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.005",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 288,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -22.703086853027344,
+          22.703086853027344
+        ],
+        [
+          -4.627337455749512,
+          23.1030330657959
+        ],
+        [
+          1.4615997076034546,
+          1.6356009244918823
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.005"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.006",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 5184,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -22.71910285949707,
+          24.7540225982666
+        ],
+        [
+          -6.063222408294678,
+          23.062538146972656
+        ],
+        [
+          0.15764877200126648,
+          8.061600685119629
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.006"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.007",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 72,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -16.37880516052246,
+          18.073644638061523
+        ],
+        [
+          -15.579541206359863,
+          20.2828369140625
+        ],
+        [
+          -0.8362348079681396,
+          2.506448745727539
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.007"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.008",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 355089,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -27.984182357788086,
+          27.984182357788086
+        ],
+        [
+          -27.286840438842773,
+          28.124664306640625
+        ],
+        [
+          -0.04500119388103485,
+          8.235000610351562
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.008"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.009",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 6198,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -27.91918182373047,
+          27.91918182373047
+        ],
+        [
+          -24.74625015258789,
+          28.059253692626953
+        ],
+        [
+          -0.22000107169151306,
+          5.667501449584961
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.009"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.010",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 3894,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -27.990015029907227,
+          28.021841049194336
+        ],
+        [
+          -20.928186416625977,
+          25.245018005371094
+        ],
+        [
+          -9.14800068585464e-07,
+          8.120000839233398
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.010"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.011",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 54438,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -23.447834014892578,
+          23.411840438842773
+        ],
+        [
+          -20.77299690246582,
+          23.48208999633789
+        ],
+        [
+          0.2640117108821869,
+          7.26400089263916
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.011"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.012",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 738,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -18.214641571044922,
+          18.18412971496582
+        ],
+        [
+          -20.751319885253906,
+          19.785371780395508
+        ],
+        [
+          0.8799991011619568,
+          6.280001163482666
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.012"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.013",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 7080,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -28.021841049194336,
+          27.990015029907227
+        ],
+        [
+          -20.928186416625977,
+          28.12509536743164
+        ],
+        [
+          -9.14800068585464e-07,
+          7.145001411437988
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.013"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.014",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 4641,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -23.536840438842773,
+          23.5068416595459
+        ],
+        [
+          -14.676159858703613,
+          23.575504302978516
+        ],
+        [
+          0.9899993538856506,
+          5.360001087188721
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.014"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.015",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 1758,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -22.97823143005371,
+          22.97823143005371
+        ],
+        [
+          -12.899651527404785,
+          23.283288955688477
+        ],
+        [
+          0.3978433310985565,
+          2.2620010375976562
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.015"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.016",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 1716,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -24.831802368164062,
+          -4.875366687774658
+        ],
+        [
+          10.807709693908691,
+          27.471675872802734
+        ],
+        [
+          4.7241999823199876e-07,
+          7.145001411437988
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.016"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.017",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 2070,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          3.267885684967041,
+          27.990015029907227
+        ],
+        [
+          2.145869493484497,
+          27.840486526489258
+        ],
+        [
+          9.379894549965684e-08,
+          6.485001564025879
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.017"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.018",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 119061,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -15.724712371826172,
+          14.7543363571167
+        ],
+        [
+          17.08100128173828,
+          23.362642288208008
+        ],
+        [
+          0.469800740480423,
+          7.260001182556152
+        ]
+      ],
+      "materials": [
+        "Reference-calibrated facade surface pigments"
+      ]
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 64308,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -20.35409927368164,
+          20.364933013916016
+        ],
+        [
+          -20.36774253845215,
+          20.038450241088867
+        ],
+        [
+          0.23499910533428192,
+          16.681100845336914
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh"
+      ]
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.001",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 63468,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -20.333717346191406,
+          20.333717346191406
+        ],
+        [
+          -20.4049072265625,
+          19.890056610107422
+        ],
+        [
+          0.23499910533428192,
+          16.647348403930664
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.004"
+      ]
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.002",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 936,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -20.44274139404297,
+          20.44274139404297
+        ],
+        [
+          -20.44274139404297,
+          19.914535522460938
+        ],
+        [
+          0.23499910533428192,
+          0.46500086784362793
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.009"
+      ]
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.003",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 1728,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -20.3183650970459,
+          19.63567352294922
+        ],
+        [
+          -19.28812599182129,
+          14.448434829711914
+        ],
+        [
+          3.0499989986419678,
+          3.3500006198883057
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.006"
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 288,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -28.0,
+          28.0
+        ],
+        [
+          -28.0,
+          28.0
+        ],
+        [
+          -0.220001220703125,
+          -0.2199987769126892
+        ]
+      ],
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh"
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.001",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 22236,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -27.061866760253906,
+          26.724773406982422
+        ],
+        [
+          -26.92771339416504,
+          26.701696395874023
+        ],
+        [
+          -0.20498116314411163,
+          0.3946940004825592
+        ]
+      ],
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.001"
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.002",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 24864,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -26.403886795043945,
+          26.810239791870117
+        ],
+        [
+          -25.67635154724121,
+          26.76595115661621
+        ],
+        [
+          -0.2230408638715744,
+          0.34527847170829773
+        ]
+      ],
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.002"
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.003",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 22812,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -26.864456176757812,
+          26.49887466430664
+        ],
+        [
+          -26.755434036254883,
+          26.87908935546875
+        ],
+        [
+          -0.20495197176933289,
+          0.333690345287323
+        ]
+      ],
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.003"
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.004",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 22524,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -26.705989837646484,
+          26.969823837280273
+        ],
+        [
+          -26.972501754760742,
+          25.90792465209961
+        ],
+        [
+          -0.2888232171535492,
+          0.40819501876831055
+        ]
+      ],
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.004"
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.005",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 23268,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -26.513978958129883,
+          26.150930404663086
+        ],
+        [
+          -26.462434768676758,
+          27.16278648376465
+        ],
+        [
+          -0.20819878578186035,
+          0.33563897013664246
+        ]
+      ],
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.005"
+      ]
+    },
+    {
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.006",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 22740,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -26.235706329345703,
+          26.658021926879883
+        ],
+        [
+          -25.206253051757812,
+          25.66271209716797
+        ],
+        [
+          -0.20495985448360443,
+          0.3928496241569519
+        ]
+      ],
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.006"
+      ]
+    },
+    {
+      "name": "Brick and masonry debris solid mesh",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 1332,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -21.261106491088867,
+          22.08009147644043
+        ],
+        [
+          -20.44536018371582,
+          21.972511291503906
+        ],
+        [
+          -0.08562110364437103,
+          0.20560525357723236
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.009"
+      ]
+    },
+    {
+      "name": "Brick and masonry debris solid mesh.001",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 2628,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -22.16956329345703,
+          21.108434677124023
+        ],
+        [
+          -22.81429100036621,
+          19.379291534423828
+        ],
+        [
+          -0.08220811188220978,
+          0.2272857427597046
+        ]
+      ],
+      "materials": [
+        "Brick and masonry debris solid mesh"
+      ]
+    },
+    {
+      "name": "Individual three-dimensional ivy leaves",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 4443,
+      "modifiers": [
+        "NODES"
+      ],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -23.391942977905273,
+          23.4375
+        ],
+        [
+          -20.57958221435547,
+          23.49095916748047
+        ],
+        [
+          0.07978149503469467,
+          6.91220235824585
+        ]
+      ],
+      "materials": []
+    },
+    {
+      "name": "Branching tree crowns surrounding the ruined hotel",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 720,
+      "modifiers": [
+        "NODES"
+      ],
+      "hide": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -110.21102142333984,
+          108.78256225585938
+        ],
+        [
+          -108.33561706542969,
+          111.65668487548828
+        ],
+        [
+          0.7298791408538818,
+          11.443662643432617
+        ]
+      ],
+      "materials": []
+    },
+    {
+      "name": "PointLight",
+      "type": "LIGHT",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": null,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        -0.5000000596046448,
+        1.600000023841858
+      ],
+      "bounds": [],
+      "materials": []
+    },
+    {
+      "name": "Live planar reflective shallow water",
+      "type": "MESH",
+      "parent": "Scene axes \u2014 meters",
+      "vertices": 130,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.0,
+        -2.1855695031547384e-09,
+        0.05000000074505806
+      ],
+      "bounds": [
+        [
+          -29.0,
+          29.0
+        ],
+        [
+          -29.0,
+          29.0
+        ],
+        [
+          0.04999654367566109,
+          0.05000345781445503
+        ]
+      ],
+      "materials": [
+        "Live planar reflective shallow water"
+      ]
+    },
+    {
+      "name": "Reference camera",
+      "type": "CAMERA",
+      "parent": null,
+      "vertices": null,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.4561338424682617,
+        -17.539655685424805,
+        1.75
+      ],
+      "bounds": [],
+      "materials": []
+    },
+    {
+      "name": "Door front camera",
+      "type": "CAMERA",
+      "parent": null,
+      "vertices": null,
+      "modifiers": [],
+      "hide": false,
+      "location": [
+        0.18000000715255737,
+        -4.039797782897949,
+        1.9803993701934814
+      ],
+      "bounds": [],
+      "materials": []
+    },
+    {
+      "name": "Individual three-dimensional ivy leaves prototype",
+      "type": "MESH",
+      "parent": null,
+      "vertices": 10,
+      "modifiers": [],
+      "hide": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -0.07000000029802322,
+          0.07999999821186066
+        ],
+        [
+          -0.05999999865889549,
+          0.11999999731779099
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "materials": [
+        "Individual three-dimensional ivy leaves vertex pigments"
+      ]
+    },
+    {
+      "name": "Branching tree crowns surrounding the ruined hotel prototype",
+      "type": "MESH",
+      "parent": null,
+      "vertices": 6000,
+      "modifiers": [],
+      "hide": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -0.9161132574081421,
+          1.0848710536956787
+        ],
+        [
+          -0.15756797790527344,
+          1.4532381296157837
+        ],
+        [
+          -0.9747328162193298,
+          0.9756991863250732
+        ]
+      ],
+      "materials": [
+        "Branching tree crowns surrounding the ruined hotel vertex pigments"
+      ]
+    }
+  ],
+  "actualProjectionCheck": [
+    {
+      "name": "pier 13",
+      "blenderUV": [
+        230.04731929302216,
+        787.0165758132935
+      ],
+      "fitUV": [
+        231.81291744243686,
+        787.0165308924211
+      ]
+    },
+    {
+      "name": "pier 14",
+      "blenderUV": [
+        533.1383664608002,
+        789.917721748352
+      ],
+      "fitUV": [
+        534.3922351758733,
+        789.9176449924046
+      ]
+    },
+    {
+      "name": "pier 15 behind door, inferred",
+      "blenderUV": [
+        753.2305116653442,
+        791.5246438980103
+      ],
+      "fitUV": [
+        754.1129125702854,
+        791.5245827219854
+      ]
+    },
+    {
+      "name": "pier 16",
+      "blenderUV": [
+        1006.983235836029,
+        792.7369422912598
+      ],
+      "fitUV": [
+        1007.4372742073258,
+        792.7368398202423
+      ]
+    },
+    {
+      "name": "pier 17",
+      "blenderUV": [
+        1275.108477115631,
+        793.1679883003235
+      ],
+      "fitUV": [
+        1275.1099964849639,
+        793.1679090022773
+      ]
+    },
+    {
+      "name": "left arched window crown",
+      "blenderUV": [
+        466.5085152387619,
+        732.2432327270508
+      ],
+      "fitUV": [
+        467.87488987393976,
+        732.243120986367
+      ]
+    },
+    {
+      "name": "left arched window sill",
+      "blenderUV": [
+        467.2534030675888,
+        859.330244064331
+      ],
+      "fitUV": [
+        468.6186177171637,
+        859.3301734293974
+      ]
+    },
+    {
+      "name": "left arched window left jamb",
+      "blenderUV": [
+        432.2797634601593,
+        800.9870266914368
+      ],
+      "fitUV": [
+        433.7039343255566,
+        800.9869947658275
+      ]
+    },
+    {
+      "name": "left arched window right jamb",
+      "blenderUV": [
+        500.64755952358246,
+        801.3295340538025
+      ],
+      "fitUV": [
+        501.9563178598903,
+        801.3294589267122
+      ]
+    },
+    {
+      "name": "left rectangular window top left",
+      "blenderUV": [
+        235.49397879838943,
+        724.9709229469299
+      ],
+      "fitUV": [
+        237.25029686401922,
+        724.9708164949601
+      ]
+    },
+    {
+      "name": "left rectangular window bottom right",
+      "blenderUV": [
+        378.4026747941971,
+        860.8709349632263
+      ],
+      "fitUV": [
+        379.91778574355646,
+        860.8708336812483
+      ]
+    },
+    {
+      "name": "arcade lower cornice",
+      "blenderUV": [
+        389.243971824646,
+        649.6156511306763
+      ],
+      "fitUV": [
+        390.74075939668114,
+        649.6155962441389
+      ]
+    },
+    {
+      "name": "left upper cornice",
+      "blenderUV": [
+        388.5158922672272,
+        536.1810622215271
+      ],
+      "fitUV": [
+        390.0140007501037,
+        536.1810361541077
+      ]
+    }
+  ]
+}

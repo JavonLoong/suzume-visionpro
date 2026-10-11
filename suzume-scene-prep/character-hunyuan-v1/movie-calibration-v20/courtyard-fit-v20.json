@@ -1,0 +1,521 @@
+{
+  "revision": 20,
+  "reference": "reference-opening-50525.jpg",
+  "dimensions": [
+    2552,
+    1656
+  ],
+  "method": "Robust least squares on manual facade landmarks. Foreground camera and geometry are fixed.",
+  "parameters": {
+    "yaw": 0.21910032505574306,
+    "translateX": 5.403701236732173,
+    "translateY": -15.67639473149218,
+    "heightScale": 0.7889657430319029,
+    "heightOffset": 1.9798086109214437
+  },
+  "before": [
+    {
+      "name": "pier 13",
+      "angle": -0.745387,
+      "radius": 23.5,
+      "localX": 0,
+      "height": 2.4,
+      "target": [
+        195,
+        null
+      ],
+      "weight": 1,
+      "projected": [
+        231.81291744243686,
+        787.0165308924211
+      ],
+      "errorPixels": 36.812917442436856,
+      "depth": 21.302935261819567
+    },
+    {
+      "name": "pier 14",
+      "angle": -0.567705,
+      "radius": 23.5,
+      "localX": 0,
+      "height": 2.4,
+      "target": [
+        892,
+        null
+      ],
+      "weight": 1,
+      "projected": [
+        534.3922351758733,
+        789.9176449924046
+      ],
+      "errorPixels": 357.60776482412666,
+      "depth": 23.848133891770093
+    },
+    {
+      "name": "pier 15 behind door, inferred",
+      "angle": -0.415142,
+      "radius": 23.5,
+      "localX": 0,
+      "height": 2.4,
+      "target": [
+        1430,
+        null
+      ],
+      "weight": 0.35,
+      "projected": [
+        754.1129125702854,
+        791.5245827219854
+      ],
+      "errorPixels": 675.8870874297146,
+      "depth": 25.53821276124761
+    },
+    {
+      "name": "pier 16",
+      "angle": -0.217486,
+      "radius": 23.5,
+      "localX": 0,
+      "height": 2.4,
+      "target": [
+        1908,
+        null
+      ],
+      "weight": 1,
+      "projected": [
+        1007.4372742073258,
+        792.7368398202423
+      ],
+      "errorPixels": 900.5627257926742,
+      "depth": 26.980663126945686
+    },
+    {
+      "name": "pier 17",
+      "angle": 0.006904,
+      "radius": 23.5,
+      "localX": 0,
+      "height": 2.4,
+      "target": [
+        2544,
+        null
+      ],
+      "weight": 0.65,
+      "projected": [
+        1275.1099964849639,
+        793.1679090022773
+      ],
+      "errorPixels": 1268.8900035150361,
+      "depth": 27.53366505039752
+    },
+    {
+      "name": "left arched window crown",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 1.0899294780457396,
+      "height": 3.36,
+      "target": [
+        758,
+        450
+      ],
+      "weight": 1,
+      "projected": [
+        467.87488987393976,
+        732.243120986367
+      ],
+      "errorPixels": 404.7638309802193,
+      "depth": 23.231177605735635
+    },
+    {
+      "name": "left arched window sill",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 1.0899294780457396,
+      "height": 1.22,
+      "target": [
+        758,
+        674
+      ],
+      "weight": 1,
+      "projected": [
+        468.6186177171637,
+        859.3301734293974
+      ],
+      "errorPixels": 343.6405936371539,
+      "depth": 23.25257724907075
+    },
+    {
+      "name": "left arched window left jamb",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 0.5899294780457396,
+      "height": 2.2,
+      "target": [
+        702,
+        568
+      ],
+      "weight": 1,
+      "projected": [
+        433.7039343255566,
+        800.9869947658275
+      ],
+      "errorPixels": 355.3388785179536,
+      "depth": 22.93760038841159
+    },
+    {
+      "name": "left arched window right jamb",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 1.5899294780457396,
+      "height": 2.2,
+      "target": [
+        814,
+        568
+      ],
+      "weight": 1,
+      "projected": [
+        501.9563178598903,
+        801.3294589267122
+      ],
+      "errorPixels": 389.63302730465506,
+      "depth": 23.547954436394946
+    },
+    {
+      "name": "left rectangular window top left",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": -2.0121774979305957,
+      "height": 3.36,
+      "target": [
+        259,
+        441
+      ],
+      "weight": 1,
+      "projected": [
+        237.25029686401922,
+        724.9708164949601
+      ],
+      "errorPixels": 284.80251790901985,
+      "depth": 21.337794055671075
+    },
+    {
+      "name": "left rectangular window bottom right",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": -0.167681458160883,
+      "height": 1.22,
+      "target": [
+        648,
+        674
+      ],
+      "weight": 1,
+      "projected": [
+        379.91778574355646,
+        860.8708336812483
+      ],
+      "errorPixels": 326.78552917986207,
+      "depth": 22.4849893233689
+    },
+    {
+      "name": "arcade lower cornice",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 0,
+      "height": 4.67,
+      "target": [
+        null,
+        285
+      ],
+      "weight": 1,
+      "projected": [
+        390.74075939668114,
+        649.6155962441389
+      ],
+      "errorPixels": 364.61559624413894,
+      "depth": 22.552834955126272
+    },
+    {
+      "name": "left upper cornice",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 0,
+      "height": 6.52,
+      "target": [
+        null,
+        56
+      ],
+      "weight": 1,
+      "projected": [
+        390.0140007501037,
+        536.1810361541077
+      ],
+      "errorPixels": 480.1810361541077,
+      "depth": 22.534335263458065
+    }
+  ],
+  "after": [
+    {
+      "name": "pier 13",
+      "angle": -0.745387,
+      "radius": 23.5,
+      "localX": 0,
+      "height": 2.4,
+      "target": [
+        195,
+        null
+      ],
+      "weight": 1,
+      "projected": [
+        227.7839440097648,
+        512.6787935782662
+      ],
+      "errorPixels": 32.78394400976481,
+      "depth": 8.66398084297717
+    },
+    {
+      "name": "pier 14",
+      "angle": -0.567705,
+      "radius": 23.5,
+      "localX": 0,
+      "height": 2.4,
+      "target": [
+        892,
+        null
+      ],
+      "weight": 1,
+      "projected": [
+        905.070961176368,
+        563.7430121403054
+      ],
+      "errorPixels": 13.070961176367973,
+      "depth": 10.430432750605043
+    },
+    {
+      "name": "pier 15 behind door, inferred",
+      "angle": -0.415142,
+      "radius": 23.5,
+      "localX": 0,
+      "height": 2.4,
+      "target": [
+        1430,
+        null
+      ],
+      "weight": 0.35,
+      "projected": [
+        1354.2639338581766,
+        584.918941404114
+      ],
+      "errorPixels": 75.73606614182336,
+      "depth": 11.393768102519173
+    },
+    {
+      "name": "pier 16",
+      "angle": -0.217486,
+      "radius": 23.5,
+      "localX": 0,
+      "height": 2.4,
+      "target": [
+        1908,
+        null
+      ],
+      "weight": 1,
+      "projected": [
+        1889.0658460221125,
+        593.6319159712723
+      ],
+      "errorPixels": 18.93415397788749,
+      "depth": 11.843850530286097
+    },
+    {
+      "name": "pier 17",
+      "angle": 0.006904,
+      "radius": 23.5,
+      "localX": 0,
+      "height": 2.4,
+      "target": [
+        2544,
+        null
+      ],
+      "weight": 0.65,
+      "projected": [
+        2563.1609952806657,
+        581.9123825993643
+      ],
+      "errorPixels": 19.160995280665702,
+      "depth": 11.246295318427473
+    },
+    {
+      "name": "left arched window crown",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 1.0899294780457396,
+      "height": 3.36,
+      "target": [
+        758,
+        450
+      ],
+      "weight": 1,
+      "projected": [
+        764.7815938818428,
+        448.4838985101144
+      ],
+      "errorPixels": 6.948998439047257,
+      "depth": 10.00133337343451
+    },
+    {
+      "name": "left arched window sill",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 1.0899294780457396,
+      "height": 1.22,
+      "target": [
+        758,
+        674
+      ],
+      "weight": 1,
+      "projected": [
+        765.6431443659808,
+        681.68554873753
+      ],
+      "errorPixels": 10.839064313683751,
+      "depth": 10.018216958939018
+    },
+    {
+      "name": "left arched window left jamb",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 0.5899294780457396,
+      "height": 2.2,
+      "target": [
+        702,
+        568
+      ],
+      "weight": 1,
+      "projected": [
+        690.421974481338,
+        569.81927879255
+      ],
+      "errorPixels": 11.720087467071682,
+      "depth": 9.798682290009046
+    },
+    {
+      "name": "left arched window right jamb",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 1.5899294780457396,
+      "height": 2.2,
+      "target": [
+        814,
+        568
+      ],
+      "weight": 1,
+      "projected": [
+        836.9751637365881,
+        579.9462592527245
+      ],
+      "errorPixels": 25.895390687462896,
+      "depth": 10.222288157033086
+    },
+    {
+      "name": "left rectangular window top left",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": -2.0121774979305957,
+      "height": 3.36,
+      "target": [
+        259,
+        441
+      ],
+      "weight": 1,
+      "projected": [
+        241.07458212973188,
+        393.16426176863826
+      ],
+      "errorPixels": 51.08403329772515,
+      "depth": 8.687262658274738
+    },
+    {
+      "name": "left rectangular window bottom right",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": -0.167681458160883,
+      "height": 1.22,
+      "target": [
+        648,
+        674
+      ],
+      "weight": 1,
+      "projected": [
+        571.2445043519253,
+        674.2431927738672
+      ],
+      "errorPixels": 76.755880914148,
+      "depth": 9.485485587928299
+    },
+    {
+      "name": "arcade lower cornice",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 0,
+      "height": 4.67,
+      "target": [
+        null,
+        285
+      ],
+      "weight": 1,
+      "projected": [
+        596.4811727200802,
+        280.6861724775533
+      ],
+      "errorPixels": 4.3138275224466724,
+      "depth": 9.529297572914828
+    },
+    {
+      "name": "left upper cornice",
+      "angle": -0.6565460000000001,
+      "radius": 23.4073214826693,
+      "localX": 0,
+      "height": 6.52,
+      "target": [
+        null,
+        56
+      ],
+      "weight": 1,
+      "projected": [
+        595.4387858260998,
+        68.16062745857369
+      ],
+      "errorPixels": 12.160627458573686,
+      "depth": 9.51470194993196
+    }
+  ],
+  "meanAnchorErrorBefore": 476.1170391485461,
+  "meanAnchorErrorAfter": 27.6464638989745,
+  "oneToOneComplete": false,
+  "limitations": [
+    "Landmark annotations are manual and partially occluded.",
+    "A global placement cannot correct every window proportion or bay type.",
+    "Rendered and all-angle review is still required.",
+    "Absolute architectural size is inferred from an animated reference; foreground and background may not share a physical camera. The depth fit gives a very large courtyard and requires orbit review."
+  ],
+  "unconstrainedDepthScaleRejected": 6.176863204724321,
+  "depthScale": 2.9999999999976525,
+  "depthScaleCenter": [
+    0.18,
+    -4.0397980016833275,
+    1.9803993266700333
+  ],
+  "waterContactAnchors": [
+    {
+      "angle": -0.6565460000000001,
+      "radius": 22.9073214826693,
+      "targetY": 860
+    },
+    {
+      "angle": -0.10529100000000001,
+      "radius": 22.852249397711542,
+      "targetY": 855
+    }
+  ],
+  "waterContactResidualPixels": [
+    51.5745154819366,
+    39.39210600295769
+  ],
+  "dimensionsInferred": true
+}

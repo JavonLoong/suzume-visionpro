@@ -1,0 +1,11 @@
+{
+  "revision": 37,
+  "changedUVVertices": 837,
+  "selectedClothVertices": 849,
+  "unresolvedCandidateVertices": [],
+  "baseColorImage": "D:\\\u865a\u62dfC\u76d8\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\viewer\\character-v36\\texture-1.png",
+  "originalImageSha256": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7",
+  "texturePixelsUnchanged": true,
+  "method": "Move only UV samples in the 17 mm cloth edge band to nearby clean fabric in the same atlas chart; front bare-skin segment is excluded.",
+  "neckChestSkinTriangles": 229
+}

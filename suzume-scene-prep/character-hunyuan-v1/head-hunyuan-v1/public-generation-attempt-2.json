@@ -1,0 +1,30 @@
+{
+  "provider": "Tencent official Hunyuan3D-2mv public Space",
+  "url": "https://huggingface.co/spaces/tencent/Hunyuan3D-2mv",
+  "api": "/shape_generation",
+  "model": "2mv Turbo",
+  "inputs": [
+    "front.png",
+    "back.png",
+    "left.png",
+    "right.png"
+  ],
+  "steps": 10,
+  "octree_resolution": 384,
+  "seed": 901010,
+  "stage": "completed",
+  "startedAt": "2026-10-09T16:12:32.746760+00:00",
+  "commercialWebsite31Submitted": false,
+  "modelGenerated": true,
+  "remoteStatus": {
+    "code": "Status.FINISHED",
+    "rank": null,
+    "queue_size": null,
+    "eta": null,
+    "success": true
+  },
+  "files": [
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\head-hunyuan-v1\\public-api-output\\cd48e774a9e4c5b28cc7bfc8b2be72d9fc01b978469963cef96d903d54396db4\\white_mesh.glb"
+  ],
+  "completedAt": "2026-10-09T16:13:22.732016+00:00"
+}

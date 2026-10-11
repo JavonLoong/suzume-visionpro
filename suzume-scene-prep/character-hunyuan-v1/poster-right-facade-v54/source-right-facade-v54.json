@@ -1,0 +1,201 @@
+{
+  "sourceNativeSha256": "436a97857da27ee66d68b501b46abace9c50187898cfce77acc84e11d9953b1f",
+  "objects": [
+    {
+      "key": "mesh0",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.019",
+      "vertices": 23508,
+      "triangles": 7836,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.018"
+      ]
+    },
+    {
+      "key": "mesh1",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.020",
+      "vertices": 4710,
+      "triangles": 1570,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.019"
+      ]
+    },
+    {
+      "key": "mesh2",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.021",
+      "vertices": 2880,
+      "triangles": 960,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.020"
+      ]
+    },
+    {
+      "key": "mesh3",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.022",
+      "vertices": 6336,
+      "triangles": 2112,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.021"
+      ]
+    },
+    {
+      "key": "mesh4",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.023",
+      "vertices": 2016,
+      "triangles": 672,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.022"
+      ]
+    },
+    {
+      "key": "mesh5",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.024",
+      "vertices": 216,
+      "triangles": 72,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.023"
+      ]
+    },
+    {
+      "key": "mesh6",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.025",
+      "vertices": 3888,
+      "triangles": 1296,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.024"
+      ]
+    },
+    {
+      "key": "mesh7",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.026",
+      "vertices": 72,
+      "triangles": 24,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.025"
+      ]
+    },
+    {
+      "key": "mesh8",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "vertices": 307833,
+      "triangles": 102611,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.026"
+      ]
+    },
+    {
+      "key": "mesh9",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "vertices": 5493,
+      "triangles": 1831,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.027"
+      ]
+    },
+    {
+      "key": "mesh10",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.029",
+      "vertices": 3333,
+      "triangles": 1111,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.028"
+      ]
+    },
+    {
+      "key": "mesh11",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.030",
+      "vertices": 44190,
+      "triangles": 14730,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.029"
+      ]
+    },
+    {
+      "key": "mesh12",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.031",
+      "vertices": 612,
+      "triangles": 204,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.030"
+      ]
+    },
+    {
+      "key": "mesh13",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.032",
+      "vertices": 7173,
+      "triangles": 2391,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.031"
+      ]
+    },
+    {
+      "key": "mesh14",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.033",
+      "vertices": 4506,
+      "triangles": 1502,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.032"
+      ]
+    },
+    {
+      "key": "mesh15",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.034",
+      "vertices": 1338,
+      "triangles": 446,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.033"
+      ]
+    },
+    {
+      "key": "mesh16",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.035",
+      "vertices": 1068,
+      "triangles": 356,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.034"
+      ]
+    },
+    {
+      "key": "mesh17",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.036",
+      "vertices": 2070,
+      "triangles": 690,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.035"
+      ]
+    },
+    {
+      "key": "mesh18",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "vertices": 57393,
+      "triangles": 19131,
+      "materials": [
+        "Reference facade with foreground rods removed v48"
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      0.4561338424682617,
+      -17.539655685424805,
+      1.75
+    ],
+    "rotation": [
+      [
+        0.9996620416641235,
+        0.005007914267480373,
+        0.025510160252451897
+      ],
+      [
+        0.025997066870331764,
+        -0.19256873428821564,
+        -0.9809390306472778
+      ],
+      [
+        5.149667359205523e-10,
+        0.9812707304954529,
+        -0.19263383746147156
+      ]
+    ],
+    "focalPixels": 832.1397569444445
+  }
+}

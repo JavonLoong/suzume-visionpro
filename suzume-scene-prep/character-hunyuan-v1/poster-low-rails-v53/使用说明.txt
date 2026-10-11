@@ -1,0 +1,13 @@
+残缺低框架与管道支架 v53
+
+完整模型：Suzume_dual_scene_low_rails_v53.blend。主文件 suzume-full-scene.blend 已同步。
+Blender 场景：Official poster courtyard v38（第 1 帧海报）、Daytime circular hotel（第 72 帧电影）、Night meadow through the door（异世界）。
+
+新增 38 组封闭实体，包括左侧低框架、弯曲金属边、破损短板、支脚与横管夹带和支架，共 5,036 个三角形。七块不对应参照的旧砖块已移除。
+九处支脚位置已与实际地面核对；三个夹带内壁接触原有横管。其余建筑、植物、材质和灯光保留。
+人物、脚部间隙、独立头模、门两侧分割和异世界场景沿用 v37。
+
+海报网页：http://127.0.0.1:8931/viewer/poster-v53.html
+电影网页：http://127.0.0.1:8931/viewer/candidate-v37.html
+
+已检查原生正面、局部和侧面渲染及网页几何数据。框架身份与隐藏结构依据可见线索推定；锈蚀、湿痕、苔藓、植物和建筑/人物细节仍在校准，整体尚未达到一比一。浏览器连接超时，实际 GPU 显示待验证。

@@ -1,0 +1,68 @@
+{
+  "source": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\poster-right-bow-v56\\Suzume_dual_scene_right_bow_v56.blend",
+  "sourceSHA256": "3dd43cd0153cf25492f279474dac52098d40eff0c20ae6878a6a5bf8806bb0e1",
+  "sourceScene": "Night meadow through the door",
+  "aperture": {
+    "sourceWidth": 1.423009991645813,
+    "sourceHeight": 3.399999976158142,
+    "sourceThreshold": [
+      0.0,
+      0.0719999149441719,
+      0.21999990940093994
+    ],
+    "width": 0.8789179421797776,
+    "height": 2.1,
+    "uniformScale": 0.6176470631546628,
+    "origin": "threshold centre",
+    "upAxis": "Y",
+    "viewIntoWorld": "-Z"
+  },
+  "vegetation": [
+    {
+      "source": "Individual meadow flowers",
+      "sourceInstances": 26000,
+      "exportedInstances": 2500,
+      "vertices": 262500,
+      "selection": "700 nearest, remainder deterministic seed 56; source side behind doorway only"
+    },
+    {
+      "source": "Modeled flower stems",
+      "sourceInstances": 26000,
+      "exportedInstances": 2500,
+      "vertices": 85000,
+      "selection": "700 nearest, remainder deterministic seed 56; source side behind doorway only"
+    },
+    {
+      "source": "Spatial grass blades",
+      "sourceInstances": 42000,
+      "exportedInstances": 5000,
+      "vertices": 180000,
+      "selection": "700 nearest, remainder deterministic seed 56; source side behind doorway only"
+    }
+  ],
+  "files": {
+    "DreamWorld.usdz": {
+      "bytes": 35900075,
+      "sha256": "68058754aa8cda3af06de6cdf71664128c95f0a0bc712bc875b5e1f5bd0d4efe",
+      "triangles": 378100,
+      "objects": 7
+    },
+    "DoorFrame.usdz": {
+      "bytes": 692963,
+      "sha256": "642ace38b3e4467be5eee0686f47a1b4f4d8ecb6f764e4f07edd5b761f5aa1d8",
+      "triangles": 964,
+      "objects": 6
+    },
+    "DoorLeaf.usdz": {
+      "bytes": 924605,
+      "sha256": "31773ad1e891cabe02fde3eff65c84eb9311c5c92b30324effda17c3a9961034",
+      "triangles": 3372,
+      "objects": 7
+    }
+  },
+  "limitations": [
+    "Distant procedural clouds and sky are baked to a panorama; ground, flowers, grass, stars and door remain geometry.",
+    "Low volumetric mist and clipped/rigged character fragments are excluded.",
+    "Manual alignment only. No device build, tracking or performance validation on this Windows host."
+  ]
+}

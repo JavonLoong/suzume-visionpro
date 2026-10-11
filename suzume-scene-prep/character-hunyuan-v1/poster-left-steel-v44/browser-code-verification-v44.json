@@ -1,0 +1,16 @@
+{
+  "revision": 44,
+  "nativeSha256": "0015d1aba946addbbcd9d05a7922e720fb15c773c3ae4300566eb812b1f886c1",
+  "threeRevision": "128",
+  "inlineScriptsParsed": 1,
+  "triangles": 89956,
+  "buckets": 12,
+  "positionsNormalsUVsMatchNativeExportExactly": true,
+  "originalMaterialsReused": true,
+  "approximateNewMaterialsMatchSpec": true,
+  "unrelatedSceneObjectsPreserved": true,
+  "onlyCurrentSteelPayloadRequested": true,
+  "browserRuntimeVerified": false,
+  "browserMaterialsApproximate": true,
+  "scope": "Actual Three.js geometry construction and JavaScript parsing in Node. No browser or GPU execution."
+}

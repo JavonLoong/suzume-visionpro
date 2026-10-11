@@ -1,0 +1,30 @@
+{
+  "revision": 37,
+  "sourceSha256": "48bf5b98c22c32cfc1c562f10004dc07cf36c63e45100ed99bf02e42e9ec54ad",
+  "bodyBeforeHash": "ea99c207add1dd15e7d1048586720b462e59fdbc2e1b02a3379c3738522e2bf6",
+  "bodyHash": "4a81ac89d3ea4715b33e86e5fc83241b01246a2edf347dc3d78198fabbed10c2",
+  "headBeforeHash": "7c0507ed5e88665fb6bbc6106172c29df77235ed1c1792c167b2c6ae3cd26ad2",
+  "headHash": "4653e69c4973d873c853d23b84b8e75ef0e5e5c73db673e391c449232919485f",
+  "bodyVertices": 241846,
+  "changedCollarVertices": 2976,
+  "outsideCollarVerticesPreservedExactly": true,
+  "faceAndPonytailPreservedExactly": true,
+  "changedNeckBaseVertices": 341,
+  "changedUVVertices": 837,
+  "sharedBodyAndHemSpatialMeshes": true,
+  "collarFaceFlips": 0,
+  "maximumWorldReconstructionError": 4.807789650840277e-07,
+  "hemVertices": 1632,
+  "hemFaces": 1626,
+  "hemRadius": 0.0011,
+  "hemTexture": "Existing garment texture and locally repaired UV sampling.",
+  "hemExcludesBareSkin": true,
+  "characterParts": [
+    "Suzume Hunyuan textured surface",
+    "Suzume mathematical head v37",
+    "Suzume rolled collar edge v37"
+  ],
+  "oneToOneComplete": false,
+  "neckChestSkinTriangles": 229,
+  "neckAndChestShareSkinMaterial": true
+}

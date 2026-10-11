@@ -1,0 +1,45 @@
+{
+  "revision": 37,
+  "meshChecks": [
+    {
+      "part": "Suzume mathematical head v37",
+      "materialPrimitives": 12,
+      "triangles": 135992,
+      "exportedVertices": 70139,
+      "nativeVertices": 69140,
+      "maximumPositionError": 6.664001874625056e-08
+    },
+    {
+      "part": "Suzume Hunyuan textured surface",
+      "materialPrimitives": 2,
+      "triangles": 408817,
+      "exportedVertices": 242038,
+      "nativeVertices": 241846,
+      "maximumPositionError": 1.3328003749250113e-07,
+      "positionAndUVPairError": 1.3328003749250113e-07
+    },
+    {
+      "part": "Suzume rolled collar edge v37",
+      "materialPrimitives": 1,
+      "triangles": 3260,
+      "exportedVertices": 1632,
+      "nativeVertices": 1632,
+      "maximumPositionError": 6.143906154658885e-08,
+      "positionAndUVPairError": 6.143906154658885e-08
+    }
+  ],
+  "httpResourcesVerified": [
+    "viewer/candidate-v37.html",
+    "viewer/character-v37/suzume-posed-v37.gltf",
+    "viewer/character-v37/suzume-posed-v37.glb",
+    "viewer/character-v37/suzume-posed-v37.bin",
+    "viewer/character-v37/texture-0.png",
+    "viewer/character-v37/texture-1.png",
+    "viewer/character-v37/texture-2.png"
+  ],
+  "bodyBaseColorPixelsPreserved": true,
+  "collarUVExportVerified": true,
+  "inlineSyntaxVerified": true,
+  "rigidDoorAndDepthAwareNightPathsRetained": true,
+  "browserRuntimeVerified": false
+}

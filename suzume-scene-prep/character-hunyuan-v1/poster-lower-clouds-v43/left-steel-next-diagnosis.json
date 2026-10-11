@@ -1,0 +1,18 @@
+{
+  "sourceNativeRevision": 42,
+  "sameSteelGeometryInRevision43Verified": true,
+  "reference": "reference-hires.jpg",
+  "image": "left-steel-next-diagnosis.png",
+  "coordinateSystem": "708 by 1000 poster frame",
+  "findings": [
+    "The outer left support contains multiple parallel pale flange and web edges. The existing single dark rectangular-looking member does not reproduce this section, despite an earlier tip calibration.",
+    "A broken upper tie near y410 to 432 and its curved and diagonal brackets are absent from the current left steelwork.",
+    "The long upper tie crosses approximately y460 to 491 in the reference, while the current member is about 10 to 15 pixels too high over much of its span.",
+    "The lower long tie crosses approximately y514 to 539 in the reference, while the current member is again too high. All curve samples and attachment positions must be measured before rebuilding.",
+    "The middle support bows near x170 before reaching the front walkway. Its lower segment, section, painted edges and footing need independent calibration.",
+    "The two broken lower arched brackets have approximate position but lack the observed flanged section, pale edges, hanging ties and remaining vertical supports.",
+    "Rooftop equipment, parapet heights and windows also differ, so their current meshes must not be treated as authoritative foreground attachment positions without checking the reference."
+  ],
+  "nextAction": "Measure complete left-member silhouettes and cross-sections from the enlarged reference, then lift them into the existing dome while explicitly resolving physical joints and roof/ground contact. Reuse the native closed-section construction from v39 where appropriate.",
+  "oneToOneComplete": false
+}

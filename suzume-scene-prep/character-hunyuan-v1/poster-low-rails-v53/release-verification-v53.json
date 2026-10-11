@@ -1,0 +1,17 @@
+{
+  "revision": 53,
+  "nativeSha256": "436a97857da27ee66d68b501b46abace9c50187898cfce77acc84e11d9953b1f",
+  "primaryAliasMatches": true,
+  "statusAndGalleryPointToV53": true,
+  "downloadAndPreviewResources": [
+    "index.html",
+    "status.json",
+    "viewer/poster-v53.html",
+    "poster-low-rails-v53/poster-front-v53.png",
+    "poster-low-rails-v53/low-rails-comparison-v53.png",
+    "poster-low-rails-v53/release-v53.json"
+  ],
+  "browserDefaultRevision": 17,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

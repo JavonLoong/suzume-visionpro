@@ -1,0 +1,202 @@
+[
+  {
+    "id": 0,
+    "manual": [
+      532.8,
+      8.3,
+      585.4,
+      6.0,
+      599.4
+    ],
+    "fitted": [
+      533.2785,
+      8.3306,
+      584.8,
+      7.0,
+      599.4
+    ],
+    "manualScore": 0.015275822674593502,
+    "fitScore": -0.06875866016790731,
+    "baseEvidence": "Measured/inferred continuation behind foreground beam; not the occluding steel contour."
+  },
+  {
+    "id": 1,
+    "manual": [
+      551.06,
+      7.44,
+      585.0,
+      5.7,
+      598.5
+    ],
+    "fitted": [
+      551.0184,
+      7.3932,
+      585.0854,
+      5.5295,
+      598.5
+    ],
+    "manualScore": -0.28561522124251826,
+    "fitScore": -0.28874268292711525,
+    "baseEvidence": "Measured/inferred continuation behind foreground beam; not the occluding steel contour."
+  },
+  {
+    "id": 2,
+    "manual": [
+      569.46,
+      8.87,
+      583.8,
+      5.96,
+      597.4
+    ],
+    "fitted": [
+      569.4643,
+      8.8715,
+      583.7848,
+      5.9703,
+      597.4
+    ],
+    "manualScore": -0.21649416532040347,
+    "fitScore": -0.21649240211036716,
+    "baseEvidence": "Measured/inferred continuation behind foreground beam; not the occluding steel contour."
+  },
+  {
+    "id": 3,
+    "manual": [
+      586.95,
+      9.03,
+      582.5,
+      6.28,
+      596.2
+    ],
+    "fitted": [
+      586.9575,
+      8.9825,
+      582.5795,
+      5.9507,
+      596.2
+    ],
+    "manualScore": -0.22839706006917934,
+    "fitScore": -0.22849576838910046,
+    "baseEvidence": "Measured/inferred continuation behind foreground beam; not the occluding steel contour."
+  },
+  {
+    "id": 4,
+    "manual": [
+      605.5,
+      8.4,
+      580.8,
+      6.3,
+      595.0
+    ],
+    "fitted": [
+      604.932,
+      9.1,
+      581.235,
+      5.8323,
+      595.0
+    ],
+    "manualScore": 0.025648617568591103,
+    "fitScore": -0.17570606246930565,
+    "baseEvidence": "Measured/inferred continuation behind foreground beam; not the occluding steel contour."
+  },
+  {
+    "id": 5,
+    "manual": [
+      622.3,
+      8.5,
+      579.1,
+      6.3,
+      593.8
+    ],
+    "fitted": [
+      622.1923,
+      8.5036,
+      579.7,
+      7.3,
+      593.8
+    ],
+    "manualScore": 0.09506712493320087,
+    "fitScore": -0.14508356367510722,
+    "baseEvidence": "Measured/inferred continuation behind foreground beam; not the occluding steel contour."
+  },
+  {
+    "id": 6,
+    "manual": [
+      641.0,
+      8.4,
+      578.9,
+      5.9,
+      592.5
+    ],
+    "fitted": [
+      640.5463,
+      7.8186,
+      578.6835,
+      4.9,
+      592.5
+    ],
+    "manualScore": -0.17765543231680594,
+    "fitScore": -0.4169594617028528,
+    "baseEvidence": "Measured/inferred continuation behind foreground beam; not the occluding steel contour."
+  },
+  {
+    "id": 7,
+    "manual": [
+      660,
+      8.7,
+      576.8,
+      6.3,
+      591.2
+    ],
+    "fitted": [
+      660.5007,
+      8.8492,
+      577.0259,
+      5.3,
+      591.2
+    ],
+    "manualScore": -0.21115673546176236,
+    "fitScore": -0.26067870618602096,
+    "baseEvidence": "Measured/inferred continuation behind foreground beam; not the occluding steel contour."
+  },
+  {
+    "id": 8,
+    "manual": [
+      679.3,
+      9.3,
+      575.6,
+      6.3,
+      589.9
+    ],
+    "fitted": [
+      679.6723,
+      8.6827,
+      575.1417,
+      6.2278,
+      589.9
+    ],
+    "manualScore": -0.08292101784862925,
+    "fitScore": -0.2160762121955337,
+    "baseEvidence": "Measured/inferred continuation behind foreground beam; not the occluding steel contour."
+  },
+  {
+    "id": 9,
+    "manual": [
+      699.8,
+      10.0,
+      574.2,
+      6.7,
+      588.5
+    ],
+    "fitted": [
+      699.7287,
+      9.3,
+      573.6,
+      6.2512,
+      588.5
+    ],
+    "manualScore": -0.06190051242208353,
+    "fitScore": -0.2983702182289736,
+    "baseEvidence": "Measured/inferred continuation behind foreground beam; not the occluding steel contour."
+  }
+]

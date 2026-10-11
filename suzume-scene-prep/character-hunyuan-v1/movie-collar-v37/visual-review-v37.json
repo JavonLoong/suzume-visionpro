@@ -1,0 +1,28 @@
+{
+  "revision": 37,
+  "accepted": true,
+  "acceptanceScope": "Incremental collar cleanup only; not acceptance of an exact character or either complete reference scene.",
+  "sceneFrontReviewed": true,
+  "headFrontReviewed": true,
+  "headBackReviewed": true,
+  "headSideReviewed": true,
+  "headPortraitReviewed": true,
+  "collarDetailReviewed": true,
+  "observations": [
+    "The standing collar rim is visibly smoother and its large sawtooth silhouette is removed.",
+    "The added rolled edge stops at the garment and does not cross the exposed chest as a necklace.",
+    "Inner collar texture contamination has been reduced without changing texture pixels.",
+    "The lower neck fits farther into the chest, but a horizontal shading junction remains visible.",
+    "The existing face and ponytail appearance and the full scene framing are retained."
+  ],
+  "remaining": [
+    "Refine the neck/chest shading junction, remaining collar texture seams and garment proportions.",
+    "Match the character expression, nose depth, side profile, hair strand styling and material response to the official references.",
+    "Reconcile the movie close-up camera and door proportions across multiple reference views.",
+    "Calibrate the closed-door official poster scene as well as the movie opening scene.",
+    "Refine the night sky, courtyard, water and view-dependent material seams.",
+    "Verify the candidate in a functioning browser; static assets and syntax checks do not confirm GPU rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

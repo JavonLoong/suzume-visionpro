@@ -1,0 +1,26 @@
+{
+  "revision": 38,
+  "nativeFile": "poster-v38/Suzume_dual_scene_v38.blend",
+  "nativeSha256": "b56b84831d608b8dc98134708a89fdcf49c28242534c717aad1fe0efe81a483f",
+  "primaryNativeAlias": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene.blend",
+  "posterScene": "Official poster courtyard v38",
+  "movieScene": "Daytime circular hotel",
+  "nightScene": "Night meadow through the door",
+  "movieGeometryRevision": 37,
+  "posterIndependentEnvironment": true,
+  "movieStatePreservedExactly": true,
+  "posterViewsRenderedAndReviewed": true,
+  "posterBrowser": "http://127.0.0.1:8931/viewer/poster-v38.html",
+  "movieBrowser": "http://127.0.0.1:8931/viewer/candidate-v37.html",
+  "browserDefaultRemainsRevision": 17,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Reconstruct the prominent broken upper I-beam to the right of the door; current generic dome ties do not reproduce its bent silhouette.",
+    "Match the poster water reflection strength, horizontal glints, transparency and foreground ripple spacing.",
+    "Refine faceted distant clouds, fine cloud contours and inferred back surfaces.",
+    "Align poster facade openings, rooftop equipment, ivy and shore debris in multiple views; baked surface lighting remains approximate.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both freely rotatable browser candidates in a functioning browser."
+  ]
+}

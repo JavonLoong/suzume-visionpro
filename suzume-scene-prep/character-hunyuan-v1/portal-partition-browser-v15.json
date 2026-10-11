@@ -1,0 +1,40 @@
+{
+  "revision": 15,
+  "partition": {
+    "method": "Complementary world-space half-planes at the portal aperture",
+    "courtyardPlane": [
+      0,
+      0,
+      1,
+      0.072
+    ],
+    "otherworldPlane": [
+      0,
+      0,
+      -1,
+      -0.072
+    ],
+    "courtyardVertices": 5731,
+    "otherworldVertices": 292472,
+    "crossingTriangles": 478,
+    "localClippingEnabled": true,
+    "shadowClipping": true
+  },
+  "materialsIndependent": true,
+  "clipShadows": true,
+  "shaderErrors": 0,
+  "contextLost": false,
+  "backView": {
+    "open": true,
+    "motion": false,
+    "azimuth": 3.461592653589793,
+    "elevation": 0.08,
+    "radius": 9,
+    "target": [
+      0,
+      1.9,
+      0
+    ],
+    "view": "back"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "revision": 40,
+  "nativeFile": "poster-water-v40/Suzume_dual_scene_water_v40.blend",
+  "nativeSha256": "208af91831d845af7c4ce9e394f69bbe62caa737a3392f0207242c0527790b20",
+  "primaryNativeAlias": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene.blend",
+  "posterScene": "Official poster courtyard v38",
+  "movieScene": "Daytime circular hotel",
+  "nightScene": "Night meadow through the door",
+  "movieRevision37Preserved": true,
+  "posterBrowser": "http://127.0.0.1:8931/viewer/poster-v40.html",
+  "movieBrowser": "http://127.0.0.1:8931/viewer/candidate-v37.html",
+  "waterBandMeanColorErrorBefore": 13.645930590404802,
+  "waterBandMeanColorErrorAfter": 4.062483478759342,
+  "metricScope": "Five fixed water bands; mean RGB differences only, not pixelwise likeness or full-scene fidelity.",
+  "browserRuntimeVerified": false,
+  "browserWaterApproximate": true,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Refine the visibly faceted distant clouds, detailed outlines and inferred back surfaces.",
+    "Align submerged poster stone outlines and patches; fit the main water-glint locations, reduce remaining angular straightness and tune the reflected facade detail.",
+    "Correct steel cross-section orientation, thickness, paint loss and corrosion; bring the left and unseen steelwork into a consistent material treatment.",
+    "Align poster facade openings, rooftop equipment, ivy and shore debris; check the inferred support depths in additional views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile their approximate water and steel materials with the native rendering."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "revision": 18,
+  "method": "Reference-driven smooth facial surface, actual curved eye geometry, separate swept hair locks and physical left hairpins",
+  "notNewHunyuanGeneration": true,
+  "meshParts": 58,
+  "triangles": 135776,
+  "oneToOneComplete": false,
+  "reference": "reference-suzume-official-face.jpg and existing generated four-view guides",
+  "status": "integrated_alternate_available",
+  "nativeVerification": "../verification-v18.json",
+  "visualReview": {
+    "views": [
+      "front",
+      "left",
+      "back",
+      "threequarter",
+      "posed-front",
+      "posed-head",
+      "posed-head-side",
+      "native-front",
+      "native-back"
+    ],
+    "improvements": [
+      "Hairpins conform to the outer hair surface.",
+      "Smooth crown and volumetric ponytail.",
+      "Clean separate eye geometry.",
+      "Closed jaw and continuous neck connection."
+    ],
+    "limitations": [
+      "Facial identity and expression remain approximate.",
+      "Hair silhouette and ear detail still differ from the film.",
+      "Not promoted over the Hunyuan v17 default."
+    ]
+  }
+}

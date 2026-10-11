@@ -1,0 +1,38 @@
+{
+  "revision": 32,
+  "actualHelperExecuted": true,
+  "closedVertexMaximumDifference": 0,
+  "sweep": [
+    {
+      "angle": 0,
+      "width": 1.4089207649230957,
+      "thickness": 0.095
+    },
+    {
+      "angle": 0.2421875,
+      "width": 1.4089207649230957,
+      "thickness": 0.095
+    },
+    {
+      "angle": 0.775,
+      "width": 1.4089207649230957,
+      "thickness": 0.09500000000000001
+    },
+    {
+      "angle": 1.3078125,
+      "width": 1.4089207649230957,
+      "thickness": 0.09500000000000001
+    },
+    {
+      "angle": 1.55,
+      "width": 1.408920764923096,
+      "thickness": 0.09499999999999996
+    }
+  ],
+  "nativeBrowserKnobMatches": true,
+  "bothSpatialDoorCopiesHooked": true,
+  "newCharacterAssetHooked": true,
+  "inlineSyntaxValid": true,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

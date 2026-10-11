@@ -1,0 +1,28 @@
+{
+  "revision": 43,
+  "nativeFile": "poster-lower-clouds-v43/Suzume_dual_scene_lower_clouds_v43.blend",
+  "nativeSha256": "23cec288419994ad8bb8768d786b33b27064cb1f33d061e9de62ad66656e2b7e",
+  "primaryNativeAlias": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene.blend",
+  "posterScene": "Official poster courtyard v38",
+  "movieScene": "Daytime circular hotel",
+  "nightScene": "Night meadow through the door",
+  "movieRevision37Preserved": true,
+  "existingPosterGeometryPreserved": true,
+  "addedClosedCloudBanks": 3,
+  "posterBrowser": "http://127.0.0.1:8931/viewer/poster-v43.html",
+  "movieBrowser": "http://127.0.0.1:8931/viewer/candidate-v37.html",
+  "lowerSkyColorErrorBefore255": 30.087832003592027,
+  "lowerSkyColorErrorAfter255": 16.401685490277345,
+  "metricScope": "All manually visible sky pixels in x270:708, y540:610 at 708 by 1000, excluding the door, foliage, steel and rooftop silhouette. Color agreement only; not a whole-scene or hidden-depth metric.",
+  "browserRuntimeVerified": false,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Rebuild the left poster steelwork: missing upper broken tie and brackets, incorrectly high horizontal ties, multi-edge support sections, pale paint, hanging rods and grounded joints. See left-steel-next-diagnosis.json and its enlarged comparison.",
+    "Align facade openings, rooftop equipment, parapet silhouette, ivy and shore debris. Existing facade geometry must be checked before using it as an attachment target.",
+    "Refine lower-cloud ridge contours, pale gaps, occluded shapes and back lighting; some hidden banks remain too regular. Refine the five dominant clouds and other faint fragments.",
+    "Align submerged poster stone outlines and major water glints; reduce angular straightness from oblique views and tune reflected facade detail.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate water and steel materials with native rendering."
+  ]
+}

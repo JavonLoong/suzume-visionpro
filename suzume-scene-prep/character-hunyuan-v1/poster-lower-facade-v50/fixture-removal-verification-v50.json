@@ -1,0 +1,14 @@
+{
+  "nativeSha256": "ed93df6cd06f2844561a1df5933af030d7730a8593f144f021c4c4cceca7941f",
+  "allSelectedComponentsFullyRemoved": true,
+  "groups": {
+    "bench": {
+      "components": 16,
+      "triangles": 192
+    },
+    "oldStair": {
+      "components": 7,
+      "triangles": 84
+    }
+  }
+}

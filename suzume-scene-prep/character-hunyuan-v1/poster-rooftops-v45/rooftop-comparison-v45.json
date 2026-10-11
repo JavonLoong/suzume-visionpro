@@ -1,0 +1,90 @@
+{
+  "revision": 45,
+  "scope": "Fixed exposed left equipment casing patch, excluding beams, ladder and seams. Before reconstruction much of this reference casing region was wrongly empty sky, so this error reduction combines restored geometry and color. It is not a whole-scene fidelity measure.",
+  "patch708x1000": [
+    84,
+    530,
+    98,
+    538
+  ],
+  "officialRGBMean255": [
+    83.87996031746032,
+    91.60714285714286,
+    98.2936507936508
+  ],
+  "beforeRGBMean255": [
+    150.20833333333334,
+    191.94940476190476,
+    231.79265873015873
+  ],
+  "afterRGBMean255": [
+    85.91269841269842,
+    91.4375,
+    97.78571428571429
+  ],
+  "beforeRGBMeanAbsoluteError255": 100.1630291005291,
+  "afterRGBMeanAbsoluteError255": 9.78968253968254,
+  "oneToOneComplete": false,
+  "otherExposedCasingPatches": [
+    {
+      "label": "right house",
+      "patch708x1000": [
+        220,
+        540,
+        234,
+        546
+      ],
+      "referenceMean": [
+        81.78571428571429,
+        97.38227513227513,
+        106.60185185185185
+      ],
+      "reconstructionMean": [
+        84.35978835978835,
+        98.45370370370371,
+        108.33994708994709
+      ],
+      "RGBMeanAbsoluteError255": 3.6693121693121693
+    },
+    {
+      "label": "central tank",
+      "patch708x1000": [
+        150,
+        534,
+        160,
+        541
+      ],
+      "referenceMean": [
+        83.30952380952381,
+        89.23333333333333,
+        100.95079365079366
+      ],
+      "reconstructionMean": [
+        87.47619047619048,
+        94.82063492063492,
+        97.86825396825397
+      ],
+      "RGBMeanAbsoluteError255": 19.13915343915344
+    },
+    {
+      "label": "partial tank",
+      "patch708x1000": [
+        10,
+        524,
+        16,
+        529
+      ],
+      "referenceMean": [
+        64.57777777777778,
+        73.95555555555555,
+        87.2925925925926
+      ],
+      "reconstructionMean": [
+        76.78888888888889,
+        84.91481481481482,
+        92.91481481481482
+      ],
+      "RGBMeanAbsoluteError255": 11.893827160493828
+    }
+  ]
+}

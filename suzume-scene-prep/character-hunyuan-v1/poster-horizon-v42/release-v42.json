@@ -1,0 +1,28 @@
+{
+  "revision": 42,
+  "nativeFile": "poster-horizon-v42/Suzume_dual_scene_horizon_v42.blend",
+  "nativeSha256": "f1359f25cd0f11caa6c598c7b8d2afe12aed02ef7254cdf7c60caf9b0def9a2c",
+  "primaryNativeAlias": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene.blend",
+  "posterScene": "Official poster courtyard v38",
+  "movieScene": "Daytime circular hotel",
+  "nightScene": "Night meadow through the door",
+  "movieRevision37Preserved": true,
+  "posterWaterRevision40Preserved": true,
+  "restoredContinuousHorizonBank": true,
+  "posterBrowser": "http://127.0.0.1:8931/viewer/poster-v42.html",
+  "movieBrowser": "http://127.0.0.1:8931/viewer/candidate-v37.html",
+  "probeCloudCoverageBefore": 0.009787087912087912,
+  "probeCloudCoverageAfter": 0.9714114010989011,
+  "metricScope": "Only the unobscured sky probe above the door, against the original segmentation before the erroneous cap. This tests recovered geometry coverage, not cloud color, unobserved depth or whole-scene equivalence.",
+  "browserRuntimeVerified": false,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Recover the broader, darker lower cloud layers and faint fragments missed by the inherited segmentation, while excluding the foreground door, foliage and steel.",
+    "Refine cloud colors, shapes behind occluding steel, puff spacing and five dominant cloud surfaces; hidden backs and depths remain inferred.",
+    "Rebuild the left poster steelwork and align facade openings, rooftop equipment, ivy and shore debris; refine steel cross-sections, corrosion and paint loss.",
+    "Align submerged poster stone outlines and major water glints; reduce angular straightness from oblique views and tune reflected facade detail.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate water and steel materials with native rendering."
+  ]
+}

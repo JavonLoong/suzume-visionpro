@@ -1,0 +1,31 @@
+{
+  "revision": 23,
+  "role": "movie solid facade comparison candidate",
+  "nativeFile": "movie-bays-v23/Suzume_scene_movie_bays_v23.blend",
+  "nativeSha256": "50cdf3e54c6e6ca207f9446554f6d788eeef7493044d0ab9b7833528e1ed9957",
+  "rebuiltBays": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "newParts": 669,
+  "measuredWindowOpenings": 6,
+  "nativeFrontAndObliqueReviewed": true,
+  "bodyHeadFootAndPortalVerified": true,
+  "rightBayV22Preserved": true,
+  "stableNativeRemainsRevision": 19,
+  "browserDefaultRemainsRevision": 17,
+  "browserCandidate": "viewer/candidate-v23.html",
+  "browserGeometrySyntaxAndHttpVerified": true,
+  "browserRuntimeVerified": false,
+  "browserLightingIsApproximate": true,
+  "oneToOneComplete": false,
+  "remaining": [
+    "检验固定 30 mm 镜头的假设，联合拟合镜头、机位、建筑开间和楼层线，并检查自由视角下的整体比例。",
+    "上层拱廊、临水台基、连续管道和残存钢架仍与电影参照有明显差异。",
+    "拱窗附近的日照边界、墙面污迹、藤叶分布和管道材质仍需精修。",
+    "水面反射、铺石、昼夜云层，以及人物脸型、发丝和握门姿态尚未达到一比一。",
+    "网页几何、脚本和资源已检查，但网页实际渲染与交互仍待复测。"
+  ]
+}

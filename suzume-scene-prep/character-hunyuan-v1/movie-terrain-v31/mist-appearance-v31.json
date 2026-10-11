@@ -1,0 +1,97 @@
+{
+  "revision": 31,
+  "patchBoxes": {
+    "leftLowMist": [
+      980,
+      650,
+      1055,
+      690
+    ],
+    "rightLowMist": [
+      1330,
+      648,
+      1405,
+      686
+    ]
+  },
+  "patches": {
+    "leftLowMist": {
+      "reference": {
+        "medianRGB": [
+          19.0,
+          15.0,
+          33.0
+        ],
+        "meanRGB": [
+          20.32,
+          15.82,
+          35.04
+        ]
+      },
+      "v30": {
+        "medianRGB": [
+          19.0,
+          12.0,
+          21.0
+        ],
+        "meanRGB": [
+          20.57,
+          18.3,
+          23.84
+        ]
+      },
+      "v31": {
+        "medianRGB": [
+          22.0,
+          17.0,
+          38.0
+        ],
+        "meanRGB": [
+          23.15,
+          22.02,
+          36.39
+        ]
+      }
+    },
+    "rightLowMist": {
+      "reference": {
+        "medianRGB": [
+          26.0,
+          22.0,
+          43.0
+        ],
+        "meanRGB": [
+          23.94,
+          19.59,
+          40.07
+        ]
+      },
+      "v30": {
+        "medianRGB": [
+          12.0,
+          8.0,
+          17.0
+        ],
+        "meanRGB": [
+          11.95,
+          8.87,
+          18.99
+        ]
+      },
+      "v31": {
+        "medianRGB": [
+          25.0,
+          21.0,
+          44.0
+        ],
+        "meanRGB": [
+          24.27,
+          20.55,
+          42.65
+        ]
+      }
+    }
+  },
+  "scope": "Two manually chosen mist regions in the reference view. Finite render resolution, visibility and plant placement affect their statistics. Not an overall or all-angle similarity metric.",
+  "oneToOneComplete": false
+}

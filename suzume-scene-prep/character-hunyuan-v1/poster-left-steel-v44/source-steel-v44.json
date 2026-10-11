@@ -1,0 +1,41 @@
+{
+  "sourceNativeSha256": "23cec288419994ad8bb8768d786b33b27064cb1f33d061e9de62ad66656e2b7e",
+  "objects": [
+    {
+      "name": "Broken radial dome steelwork solid mesh",
+      "key": "mesh0",
+      "vertices": 62712,
+      "faces": 20904,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.018"
+      ]
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.001",
+      "key": "mesh1",
+      "vertices": 60300,
+      "faces": 20100,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.022"
+      ]
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.002",
+      "key": "mesh2",
+      "vertices": 864,
+      "faces": 288,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.027"
+      ]
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.003",
+      "key": "mesh3",
+      "vertices": 1728,
+      "faces": 576,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.024"
+      ]
+    }
+  ]
+}

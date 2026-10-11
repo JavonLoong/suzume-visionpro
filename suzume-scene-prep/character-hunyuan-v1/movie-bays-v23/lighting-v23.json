@@ -1,0 +1,57 @@
+{
+  "revision": 23,
+  "materials": {
+    "material-2": 14804198,
+    "material-1": 15001059
+  },
+  "lights": [
+    {
+      "name": "Cool courtyard fill on the left facade v23",
+      "type": "AREA",
+      "powerWatts": 320.0,
+      "position": [
+        -11.746683120727539,
+        17.937923431396484,
+        12.392974853515625
+      ],
+      "target": [
+        -14.712072372436523,
+        24.278779983520508,
+        9.316008567810059
+      ],
+      "color": [
+        0.44999998807907104,
+        0.2800000011920929,
+        1.0
+      ],
+      "dimensions": [
+        16.0,
+        12.0
+      ]
+    },
+    {
+      "name": "Localized sunlight around the arched window v23",
+      "type": "SPOT",
+      "powerWatts": 6400.0,
+      "position": [
+        -6.719289779663086,
+        20.289052963256836,
+        12.895870208740234
+      ],
+      "target": [
+        -9.68467903137207,
+        26.62990951538086,
+        7.895870208740234
+      ],
+      "color": [
+        1.0,
+        0.7799999713897705,
+        0.7200000286102295
+      ],
+      "angleRadians": 0.39269909262657166,
+      "blend": 0.15000000596046448
+    }
+  ],
+  "inferredLighting": true,
+  "oneToOneComplete": false
+}

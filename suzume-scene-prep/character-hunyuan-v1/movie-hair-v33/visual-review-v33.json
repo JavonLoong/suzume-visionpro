@@ -1,0 +1,10 @@
+{
+  "revision": 33,
+  "status": "rejected_not_promoted",
+  "frontReviewed": true,
+  "backReviewed": true,
+  "sideReviewed": true,
+  "acceptedContinuousCurve": false,
+  "reason": "The Hunyuan mesh fuses the lower ponytail and nape. Local deformation creates side-view sheets and a stretched neck surface. Primary native and latest gallery remain v32/v19; release_hair_v33.py was not run.",
+  "next": "Use independently editable mathematical head parts and closed ponytail locks on the preserved v32 body."
+}

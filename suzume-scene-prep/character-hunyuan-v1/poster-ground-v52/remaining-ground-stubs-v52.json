@@ -1,0 +1,10 @@
+{
+  "nativeSha256": "7fca0fbb45409d9d17bc6700881e70978ed6748fe35d21c2fe94ff9a1d7d1b4b",
+  "source": "Unmodified original steel buckets retained by v44 and preserved in v52",
+  "candidates": [],
+  "selectionNotYetConfirmedAgainstFullNativeScene": true,
+  "retainedSteelBucketCandidatesFound": 0,
+  "candidateGenerator": "round-hotel.js, Brick and masonry debris group, 110 randomly placed box pieces",
+  "generatorReference": "C:/Users/15410/.codex/visualizations/2026/10/09/01a11f38-1f1d-7dc0-912a-5e87b1c5f103/round-hotel.js:282",
+  "nextEvidenceNeeded": "Inspect native Brick and masonry debris meshes, project connected components, identify the visible left-bank brown cubes before removal."
+}

@@ -1,0 +1,17 @@
+{
+  "revision": 21,
+  "frontReviewed": true,
+  "obliqueReviewed": true,
+  "frontObservation": "The right bay now has the reference's distinct rectangular window, round oculus, higher cornice and intervening drainpipe. Their positions are visibly closer to the movie reference. Plaster is substantially darker and greener than the film, especially under the roof.",
+  "obliqueObservation": "The angled close view confirms window reveals, recessed glazing, projecting sill/lintel, radial oculus bars, drainpipe collars, roof slab and radial room walls. Adjacent facade geometry remains three-dimensional. Old ivy placement and shadow patterns are still conspicuous and do not match the movie.",
+  "colorEvidence": "facade-color-gap-v21.json compares three manual plaster regions only. It does not measure overall fidelity.",
+  "selection": "Publish as the latest movie-geometry comparison candidate; retain the stable native v19 and earlier candidate v20.",
+  "remaining": [
+    "新立面偏暗、偏绿，檐口投影和墙面材质需按电影参照校准。",
+    "左侧立面、门后窗型、拱廊和残存钢架仍有结构差异。",
+    "庭院绝对尺寸、临水台基、钢架基座和藤叶位置仍为推定，尚未达到一比一。",
+    "水面反射、昼夜云层以及人物脸型、发丝和握门姿态仍需精修。",
+    "网页已做脚本和本地服务检查，浏览器运行及交互效果尚待复测。"
+  ],
+  "oneToOneComplete": false
+}

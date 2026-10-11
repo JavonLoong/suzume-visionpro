@@ -1,0 +1,18 @@
+{
+  "revision": 40,
+  "name": "balanced",
+  "reflectionTint": [0.40, 0.78, 0.96],
+  "reflectionRoughness": 0.085,
+  "transmissionTint": [0.30, 0.65, 0.76],
+  "transmissionRoughness": 0.04,
+  "fresnel": [0.45, 0.35],
+  "fresnelPower": 3,
+  "hazeOpticalDepth": 0.20,
+  "hazeStrength": 0.8,
+  "hazeColorDisplay": [70, 115, 135],
+  "shadowTransmission": [0.6, 0.8, 0.9],
+  "phaseNoise": 2.2,
+  "waves": [[5.8, 0.35, 0.45, 0.00125], [12.8, -0.8, -0.37, 0.00035], [24.0, 1.9, 0.7, 0.00012]],
+  "referenceImageUsedInWater": false,
+  "oneToOneComplete": false
+}

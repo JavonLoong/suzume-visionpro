@@ -1,0 +1,38 @@
+{
+  "revision": 54,
+  "operation": "Restore observed source colors in the erroneously excluded far-right facade stripe; retain all other atlas pixels. No invented color fill in this patch.",
+  "restoredPixels": 13175,
+  "sourceImageSha256": "600ab79d85e47e9a00fae815c13ca28cc5c69e3c9e0bf16f5d8f728c61f20a4d",
+  "previousAtlasSha256": "7c2bd2eb3d6f8b703bfce8283690581ab683d0034e85c9894f810ad6a4cece64",
+  "atlasSha256": "e28398e180a79ad26d292ee8187c8671b26c17ef979114175ba0da5992f2db5d",
+  "outsidePatchPixelsPreservedExactly": true,
+  "restoredPixelsEqualColorGradedSourceExactly": true,
+  "sourceBGRToGradedBGRMatrix": [
+    [
+      0.8568302585200553,
+      0.01958065728408185,
+      -0.04079997415564025
+    ],
+    [
+      0.07191537328554518,
+      0.8014436298981249,
+      -0.234514910324232
+    ],
+    [
+      0.03558258903328414,
+      0.1469431464291076,
+      1.2728968557917086
+    ],
+    [
+      -0.02825547020867414,
+      -0.026994500703511393,
+      -0.02568658844340302
+    ]
+  ],
+  "referencePixelRegion2000": [
+    1850,
+    1695,
+    2000,
+    2010
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "revision": 41,
+  "nativeSha256": "06d79ae053a89f7671d26f878aab1a81eee2d4269e44c5a043781f66e7afb9aa",
+  "sourceNativeSha256": "208af91831d845af7c4ce9e394f69bbe62caa737a3392f0207242c0527790b20",
+  "changedClouds": [
+    {
+      "name": "Distant reference closed cloud 0.001",
+      "oldVertices": 804,
+      "oldTriangles": 1600,
+      "newVertices": 217053,
+      "newTriangles": 434102
+    },
+    {
+      "name": "Distant reference closed cloud 1.001",
+      "oldVertices": 408,
+      "oldTriangles": 808,
+      "newVertices": 166461,
+      "newTriangles": 332894
+    },
+    {
+      "name": "Distant reference closed cloud 2.001",
+      "oldVertices": 401,
+      "oldTriangles": 794,
+      "newVertices": 167566,
+      "newTriangles": 335128
+    },
+    {
+      "name": "Distant reference closed cloud 3.001",
+      "oldVertices": 135,
+      "oldTriangles": 266,
+      "newVertices": 19105,
+      "newTriangles": 38206
+    },
+    {
+      "name": "Distant reference closed cloud 4.001",
+      "oldVertices": 125,
+      "oldTriangles": 246,
+      "newVertices": 16826,
+      "newTriangles": 33648
+    },
+    {
+      "name": "Distant reference closed cloud 5.001",
+      "oldVertices": 122,
+      "oldTriangles": 240,
+      "newVertices": 14858,
+      "newTriangles": 29712
+    },
+    {
+      "name": "Distant reference closed cloud 6.001",
+      "oldVertices": 110,
+      "oldTriangles": 216,
+      "newVertices": 12674,
+      "newTriangles": 25344
+    },
+    {
+      "name": "Distant reference closed cloud 7.001",
+      "oldVertices": 96,
+      "oldTriangles": 188,
+      "newVertices": 9510,
+      "newTriangles": 19016
+    },
+    {
+      "name": "Distant reference closed cloud 8.001",
+      "oldVertices": 57,
+      "oldTriangles": 110,
+      "newVertices": 3428,
+      "newTriangles": 6852
+    },
+    {
+      "name": "Distant reference closed cloud 9.001",
+      "oldVertices": 55,
+      "oldTriangles": 106,
+      "newVertices": 3420,
+      "newTriangles": 6836
+    },
+    {
+      "name": "Distant reference closed cloud 10.001",
+      "oldVertices": 57,
+      "oldTriangles": 106,
+      "newVertices": 3254,
+      "newTriangles": 6504
+    },
+    {
+      "name": "Distant reference closed cloud 11.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 2460,
+      "newTriangles": 4916
+    },
+    {
+      "name": "Distant reference closed cloud 12.001",
+      "oldVertices": 54,
+      "oldTriangles": 100,
+      "newVertices": 2408,
+      "newTriangles": 4812
+    },
+    {
+      "name": "Distant reference closed cloud 13.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 1948,
+      "newTriangles": 3884
+    },
+    {
+      "name": "Distant reference closed cloud 14.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 2362,
+      "newTriangles": 4720
+    },
+    {
+      "name": "Distant reference closed cloud 15.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 2118,
+      "newTriangles": 4232
+    },
+    {
+      "name": "Distant reference closed cloud 16.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 1758,
+      "newTriangles": 3512
+    },
+    {
+      "name": "Distant reference closed cloud 17.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 1618,
+      "newTriangles": 3232
+    },
+    {
+      "name": "Distant reference closed cloud 18.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 1508,
+      "newTriangles": 3012
+    },
+    {
+      "name": "Distant reference closed cloud 19.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 1514,
+      "newTriangles": 3024
+    },
+    {
+      "name": "Distant reference closed cloud 20.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 1242,
+      "newTriangles": 2480
+    },
+    {
+      "name": "Distant reference closed cloud 21.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 1156,
+      "newTriangles": 2308
+    },
+    {
+      "name": "Distant reference closed cloud 22.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 1048,
+      "newTriangles": 2092
+    },
+    {
+      "name": "Distant reference closed cloud 23.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 1024,
+      "newTriangles": 2044
+    },
+    {
+      "name": "Distant reference closed cloud 24.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 824,
+      "newTriangles": 1644
+    },
+    {
+      "name": "Distant reference closed cloud 25.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 796,
+      "newTriangles": 1588
+    },
+    {
+      "name": "Distant reference closed cloud 26.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 664,
+      "newTriangles": 1324
+    },
+    {
+      "name": "Distant reference closed cloud 27.001",
+      "oldVertices": 52,
+      "oldTriangles": 100,
+      "newVertices": 550,
+      "newTriangles": 1096
+    }
+  ],
+  "newCloudTriangles": 1318162,
+  "oldCloudTriangles": 6380,
+  "oneToOneComplete": false
+}

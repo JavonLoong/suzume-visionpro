@@ -1,0 +1,401 @@
+{
+  "assets": {
+    "DreamWorld": {
+      "bytes": 35900075,
+      "sha256": "68058754aa8cda3af06de6cdf71664128c95f0a0bc712bc875b5e1f5bd0d4efe",
+      "upAxis": "Y",
+      "metersPerUnit": 1,
+      "triangles": 378100,
+      "meshes": [
+        {
+          "path": "/Suzume/Modeled_flower_stems/Modeled_flower_stems_PortableMesh",
+          "vertices": 85000,
+          "triangles": 50000,
+          "bounds": [
+            [
+              -19.696271896362305,
+              -0.3122602999210449,
+              -41.069660186767585
+            ],
+            [
+              19.39682388305664,
+              0.2025471925735474,
+              -0.09938634186983104
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/Individual_meadow_flowers/Individual_meadow_flowers_PortableMesh",
+          "vertices": 262500,
+          "triangles": 87500,
+          "bounds": [
+            [
+              -19.733705520629883,
+              -0.25388759374619446,
+              -41.10845565795899
+            ],
+            [
+              19.425722122192383,
+              0.23208083212375644,
+              -0.07180701196193691
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/SpatialStars/Solid_native_stars_002",
+          "vertices": 6330,
+          "triangles": 8440,
+          "bounds": [
+            [
+              -253.62486267089844,
+              39.23001480102534,
+              -244.378387451172
+            ],
+            [
+              245.68429565429688,
+              263.6010742187501,
+              246.542221069336
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/NearMeadow/Geometry_C7FAF2CB_003",
+          "vertices": 40401,
+          "triangles": 80000,
+          "bounds": [
+            [
+              -123.52941131591797,
+              -3.2235479354858683,
+              -123.48493957519534
+            ],
+            [
+              123.52941131591797,
+              0.6203953027725495,
+              123.57388305664065
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DistantSky/DistantSkyMesh",
+          "vertices": 8385,
+          "triangles": 16384,
+          "bounds": [
+            [
+              -330.0,
+              -328.3999938964845,
+              -330.0000000000001
+            ],
+            [
+              330.0,
+              331.60000610351574,
+              330.0000000000001
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DistantMeadow/Closed_continuous_far_meadow_v31_001",
+          "vertices": 37888,
+          "triangles": 75776,
+          "bounds": [
+            [
+              -315.0,
+              -34.10647201538094,
+              -314.95553588867193
+            ],
+            [
+              315.0,
+              -1.895033717155387,
+              315.0444641113282
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/Spatial_grass_blades/Spatial_grass_blades_PortableMesh",
+          "vertices": 180000,
+          "triangles": 60000,
+          "bounds": [
+            [
+              -21.008394241333008,
+              -0.3138822019100286,
+              -43.170524597167976
+            ],
+            [
+              21.01985740661621,
+              0.2523855268955231,
+              -0.06450144946575159
+            ]
+          ]
+        }
+      ],
+      "textures": [
+        "./textures/FlowerPalette.png",
+        "./textures/NearMeadow_BaseColor.png",
+        "./textures/NightSky.png",
+        "./textures/DistantMeadow_BaseColor.png"
+      ],
+      "complianceErrors": [],
+      "complianceFailedChecks": [],
+      "complianceWarnings": []
+    },
+    "DoorFrame": {
+      "bytes": 692963,
+      "sha256": "642ace38b3e4467be5eee0686f47a1b4f4d8ecb6f764e4f07edd5b761f5aa1d8",
+      "upAxis": "Y",
+      "metersPerUnit": 1,
+      "triangles": 964,
+      "meshes": [
+        {
+          "path": "/Suzume/DoorFrame_0/Geometry_5FC5CEBB_003",
+          "vertices": 180,
+          "triangles": 60,
+          "bounds": [
+            [
+              -0.5411654710769653,
+              -0.012352906167507182,
+              -0.030882380902767657
+            ],
+            [
+              0.5411654710769653,
+              2.1169853210449223,
+              0.1297058463096619
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorFrame_4/Geometry_72F6F0D5_003",
+          "vertices": 600,
+          "triangles": 200,
+          "bounds": [
+            [
+              -0.5261412858963013,
+              0.1335304975509644,
+              0.11827939748763994
+            ],
+            [
+              0.5276418328285217,
+              2.1530427932739262,
+              0.12136788666248322
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorFrame_2/Geometry_283D72A6_003",
+          "vertices": 546,
+          "triangles": 182,
+          "bounds": [
+            [
+              -0.5765179395675659,
+              -0.024705827236175516,
+              0.11858819425106001
+            ],
+            [
+              0.5766430497169495,
+              2.218897104263306,
+              0.1439120173454285
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorFrame_1/Geometry_49F1B541_003",
+          "vertices": 90,
+          "triangles": 30,
+          "bounds": [
+            [
+              -0.5357266068458557,
+              -0.01235289126634599,
+              -0.03582328557968189
+            ],
+            [
+              0.5357266068458557,
+              2.19882345199585,
+              0.12476495653390887
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorFrame_3/Geometry_5CED9BA5_003",
+          "vertices": 90,
+          "triangles": 30,
+          "bounds": [
+            [
+              -0.5765179395675659,
+              -0.024705827236175554,
+              -0.047558575868607074
+            ],
+            [
+              0.5765179395675659,
+              2.218897104263306,
+              0.1439120173454285
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorFrame_5/Geometry_BAA9574F_003",
+          "vertices": 1386,
+          "triangles": 462,
+          "bounds": [
+            [
+              -0.5295752286911011,
+              0.011142402887344388,
+              0.11994702368974643
+            ],
+            [
+              0.5766430497169495,
+              2.0360178947448735,
+              0.12044140696525577
+            ]
+          ]
+        }
+      ],
+      "textures": [
+        "./textures/model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png",
+        "./textures/model-texture-E6DD59F3-52BA-49F3-A943-D0F386B577E6.png",
+        "./textures/model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png",
+        "./textures/model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+      ],
+      "complianceErrors": [],
+      "complianceFailedChecks": [],
+      "complianceWarnings": []
+    },
+    "DoorLeaf": {
+      "bytes": 924605,
+      "sha256": "31773ad1e891cabe02fde3eff65c84eb9311c5c92b30324effda17c3a9961034",
+      "upAxis": "Y",
+      "metersPerUnit": 1,
+      "triangles": 3372,
+      "meshes": [
+        {
+          "path": "/Suzume/DoorLeaf_0/Geometry_A04354BC_005",
+          "vertices": 3012,
+          "triangles": 1004,
+          "bounds": [
+            [
+              -0.44408199191093445,
+              0.22852946817874914,
+              -0.05852814018726391
+            ],
+            [
+              0.45414385199546814,
+              1.8467648029327397,
+              0.21541069447994232
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorLeaf_2/Geometry_0BC887AE_005",
+          "vertices": 390,
+          "triangles": 130,
+          "bounds": [
+            [
+              -0.43293240666389465,
+              0.012352969497442256,
+              0.02933823689818336
+            ],
+            [
+              0.4372834265232086,
+              2.112353086471558,
+              0.12754434347152713
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorLeaf_4/Geometry_7378BEF7_005",
+          "vertices": 360,
+          "triangles": 120,
+          "bounds": [
+            [
+              -0.3457413613796234,
+              0.2547115087509156,
+              0.04014705866575198
+            ],
+            [
+              0.40762701630592346,
+              1.9750127792358403,
+              0.11673551797866819
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorLeaf_3/Geometry_5932C1F0_005",
+          "vertices": 1422,
+          "triangles": 474,
+          "bounds": [
+            [
+              -0.43293240666389465,
+              0.012352969497442256,
+              0.033661764115094674
+            ],
+            [
+              0.46105119585990906,
+              2.112353086471558,
+              0.1386619955301285
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorLeaf_1/Geometry_0742C95F_005",
+          "vertices": 30,
+          "triangles": 10,
+          "bounds": [
+            [
+              -0.4190632998943329,
+              0.9478333592414858,
+              0.13341185450553875
+            ],
+            [
+              -0.40601006150245667,
+              0.9619314074516299,
+              0.13341185450553875
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorLeaf_6/Geometry_066F172D_005",
+          "vertices": 3462,
+          "triangles": 1154,
+          "bounds": [
+            [
+              -0.4178069531917572,
+              0.032055940479040174,
+              0.10821173340082126
+            ],
+            [
+              0.46105119585990906,
+              2.0517864227294926,
+              0.1284708082675934
+            ]
+          ]
+        },
+        {
+          "path": "/Suzume/DoorLeaf_5/Geometry_D93CF93C_005",
+          "vertices": 1440,
+          "triangles": 480,
+          "bounds": [
+            [
+              -0.3558032810688019,
+              0.2429762184619904,
+              0.018220581114291708
+            ],
+            [
+              0.41768887639045715,
+              1.9867479801177983,
+              0.13866199553012845
+            ]
+          ]
+        }
+      ],
+      "textures": [
+        "./textures/model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png",
+        "./textures/model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png",
+        "./textures/model-texture-E6DD59F3-52BA-49F3-A943-D0F386B577E6.png",
+        "./textures/model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+      ],
+      "complianceErrors": [],
+      "complianceFailedChecks": [],
+      "complianceWarnings": []
+    }
+  },
+  "xcodeCompiled": false,
+  "headsetTested": false,
+  "sourceUnmodified": true
+}

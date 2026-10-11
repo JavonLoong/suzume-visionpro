@@ -1,0 +1,13 @@
+尖拱与立面凹深重建 v49
+
+完整模型：Suzume_dual_scene_arches_v49.blend。主文件 suzume-full-scene.blend 已同步。
+Blender 场景：Official poster courtyard v38（第 1 帧海报）、Daytime circular hotel（第 72 帧电影）、Night meadow through the door（异世界）。
+
+29 处大尖拱与小凹槽有真实轮廓、围边和凹入嵌板。三段立面及下方檐线按参照重建；两道隔墙在凹槽后方退让，并保留下部与室内深处的分隔。新增共 68 个封闭实体。
+移除了高窗下沿残留的旧窗台。60 个高窗采样位置向后方一米内没有旧墙或窗台遮挡，29 处拱形凹槽的中心净空和嵌板接合也通过检查。
+保留的旧面坐标、UV、既有材质和贴图已核对，电影人物与异世界模型保持原有状态。
+
+海报网页：http://127.0.0.1:8931/viewer/poster-v49.html
+电影网页：http://127.0.0.1:8931/viewer/candidate-v37.html
+
+正面、局部、侧向渲染及网页几何、资源检查已完成。灰色嵌板性质、遮挡后的拱形与不可见结构仍为推断。浏览器实际 GPU 显示仍待验证，整体尚未达到一比一。

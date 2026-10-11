@@ -1,0 +1,12 @@
+屋顶设备轮廓重建 v45
+
+完整模型：Suzume_dual_scene_rooftops_v45.blend。主文件 suzume-full-scene.blend 已同步。
+Blender 场景：Official poster courtyard v38（第 1 帧海报）、Daytime circular hotel（第 72 帧电影）、Night meadow through the door（异世界）。
+
+本版重建左侧两座设备间、中央水箱和画面左侧露出的水箱，并补入顶盖、爬梯与管道。原有庭院、钢架、水面、云层、人物和异世界保留。
+设备间顶边与水箱顶盖位置依据参照拟合，背面、深度和隐蔽连接仍为推定。四组模型包含 74 个封闭部件，共 7,920 个三角形。36 个底部采样点确认落在原屋面上。
+完整正面、局部和侧面渲染已核对。整体尚未达到一比一，栏杆密度、屋檐轮廓、藤蔓、门窗和人物神态等仍有偏差。
+
+海报网页：http://127.0.0.1:8931/viewer/poster-v45.html
+电影网页：http://127.0.0.1:8931/viewer/candidate-v37.html
+网页几何、法线、UV、材质参数和 HTTP 资源已检查。网页新材质仍为近似，实际 GPU 显示未验证。

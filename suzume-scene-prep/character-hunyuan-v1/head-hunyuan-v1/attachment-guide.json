@@ -1,0 +1,109 @@
+{
+  "stage": "attachment_prepared_replacement_not_yet_generated",
+  "source": "Suzume_Hunyuan31_rigged.blend",
+  "meshRestAxes": "Blender Z up; face toward -Y; character left is +X",
+  "headVertexSelection": 56795,
+  "headBoundsRest": {
+    "min": [
+      -0.06146400049328804,
+      -0.08756115287542343,
+      0.8742291331291199
+    ],
+    "max": [
+      0.0740789994597435,
+      0.11895788460969925,
+      1.1751030683517456
+    ]
+  },
+  "collarSeamRestZ": 0.951,
+  "preserve": "White collar, red ribbon, torso weights, 20-bone rig and original UVs",
+  "headBone": "head",
+  "neckBone": "neck",
+  "sceneV16RigTransform": {
+    "location": [
+      -0.15,
+      0.75,
+      0.055
+    ],
+    "rotationZ": 3.141592653589793,
+    "scale": 2.55,
+    "headPoseScale": 1.15
+  },
+  "ringSamples": [
+    {
+      "restZ": 0.945,
+      "count": 266,
+      "centerXY": [
+        -0.003593500005081296,
+        -0.03533612936735153
+      ],
+      "boundsXY": [
+        [
+          -0.016669000033289194,
+          -0.04987063352018595
+        ],
+        [
+          0.012922750087454915,
+          -0.03101213090121746
+        ]
+      ]
+    },
+    {
+      "restZ": 0.951,
+      "count": 211,
+      "centerXY": [
+        -0.005386999808251858,
+        -0.0326361320912838
+      ],
+      "boundsXY": [
+        [
+          -0.018346499651670456,
+          -0.03960463032126427
+        ],
+        [
+          0.014866500161588192,
+          -0.029938130639493465
+        ]
+      ]
+    },
+    {
+      "restZ": 0.958,
+      "count": 161,
+      "centerXY": [
+        -0.01623300090432167,
+        -0.029067132622003555
+      ],
+      "boundsXY": [
+        [
+          -0.021337000653147697,
+          -0.03206513077020645
+        ],
+        [
+          0.015011999756097794,
+          -0.02749813161790371
+        ]
+      ]
+    },
+    {
+      "restZ": 0.968,
+      "count": 152,
+      "centerXY": [
+        -0.001991499913856387,
+        -0.02538963407278061
+      ],
+      "boundsXY": [
+        [
+          -0.023857649601995944,
+          -0.028959133941680194
+        ],
+        [
+          0.02050245003774762,
+          -0.02137313224375248
+        ]
+      ]
+    }
+  ],
+  "oneToOneComplete": false,
+  "bodyTriangles": 408817,
+  "referenceHeadTriangles": 91183
+}

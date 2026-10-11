@@ -1,0 +1,422 @@
+{
+  "revision": 48,
+  "nativeSha256": "c51a6b4680ec62ee46f04c02e5a6c12b015b63356dd07ed0ebf090c8a9962725",
+  "sourceNativeSha256": "ca7dd4afaf662e113a6601ed355b0c25fe5246d6cff60bafabe9ac2f6ce8b340",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "sharedNodeGroupsPreserved": true,
+  "unchangedOriginalFacePositionsAndUVsPreserved": true,
+  "changedOriginalMeshes": [
+    {
+      "key": "mesh8",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 141,
+      "keptTriangles": 117233,
+      "newClipTriangles": 243,
+      "finalTriangles": 117476
+    },
+    {
+      "key": "mesh9",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 4,
+      "keptTriangles": 2062,
+      "newClipTriangles": 0,
+      "finalTriangles": 2062
+    },
+    {
+      "key": "mesh10",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.029",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 81,
+      "keptTriangles": 1181,
+      "newClipTriangles": 0,
+      "finalTriangles": 1181
+    },
+    {
+      "key": "mesh11",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.030",
+      "removedTriangles": 167,
+      "clippedOriginalTriangles": 0,
+      "keptTriangles": 16889,
+      "newClipTriangles": 0,
+      "finalTriangles": 16889
+    },
+    {
+      "key": "mesh12",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.031",
+      "removedTriangles": 42,
+      "clippedOriginalTriangles": 0,
+      "keptTriangles": 204,
+      "newClipTriangles": 0,
+      "finalTriangles": 204
+    },
+    {
+      "key": "mesh16",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.035",
+      "removedTriangles": 20,
+      "clippedOriginalTriangles": 0,
+      "keptTriangles": 552,
+      "newClipTriangles": 0,
+      "finalTriangles": 552
+    },
+    {
+      "key": "mesh18",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "removedTriangles": 545,
+      "clippedOriginalTriangles": 910,
+      "keptTriangles": 37875,
+      "newClipTriangles": 309,
+      "finalTriangles": 38184
+    }
+  ],
+  "addedSolids": [
+    {
+      "name": "Poster upper-storey divider bay 13 lower v48",
+      "kind": "partition",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 4.704111892530608,
+      "maximumVertexErrorMeters": 6.415673823312318e-07
+    },
+    {
+      "name": "Poster upper-storey divider bay 13 roof contact v48",
+      "kind": "partition",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.05080005378218989,
+      "maximumVertexErrorMeters": 6.415673823312318e-07
+    },
+    {
+      "name": "Poster upper-storey divider bay 14 lower v48",
+      "kind": "partition",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 4.699222834225602,
+      "maximumVertexErrorMeters": 7.212060531003317e-07
+    },
+    {
+      "name": "Poster upper-storey divider bay 14 roof contact v48",
+      "kind": "partition",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.05074725647836992,
+      "maximumVertexErrorMeters": 7.212060531003317e-07
+    },
+    {
+      "name": "Poster corrected clerestory wall bay 13 v48",
+      "kind": "wall",
+      "triangles": 4352,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.9522925441533964,
+      "maximumVertexErrorMeters": 9.526904314327567e-07
+    },
+    {
+      "name": "Poster corrected clerestory wall bay 14 v48",
+      "kind": "wall",
+      "triangles": 3072,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.8135967139952744,
+      "maximumVertexErrorMeters": 9.535546858785438e-07
+    },
+    {
+      "name": "Poster observed upper window 0 bay 13 upper frame v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0031161680785860117,
+      "maximumVertexErrorMeters": 6.044531239979278e-07
+    },
+    {
+      "name": "Poster observed upper window 0 bay 13 lower frame v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.003625514610562177,
+      "maximumVertexErrorMeters": 9.263769520373444e-07
+    },
+    {
+      "name": "Poster observed upper window 0 bay 13 left jamb v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017374104817271048,
+      "maximumVertexErrorMeters": 9.043505855288458e-07
+    },
+    {
+      "name": "Poster observed upper window 0 bay 13 right jamb v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017373946358936326,
+      "maximumVertexErrorMeters": 9.147509771878504e-07
+    },
+    {
+      "name": "Poster observed upper window 0 bay 13 solid glazing v48",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004138425212129506,
+      "maximumVertexErrorMeters": 9.514306640312498e-07
+    },
+    {
+      "name": "Poster observed upper window 1 bay 13 upper frame v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0031197483958731696,
+      "maximumVertexErrorMeters": 7.840966809169458e-07
+    },
+    {
+      "name": "Poster observed upper window 1 bay 13 lower frame v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.003629714746896561,
+      "maximumVertexErrorMeters": 8.394531256783466e-07
+    },
+    {
+      "name": "Poster observed upper window 1 bay 13 left jamb v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018022173526287446,
+      "maximumVertexErrorMeters": 9.083251946151449e-07
+    },
+    {
+      "name": "Poster observed upper window 1 bay 13 right jamb v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018021931361790692,
+      "maximumVertexErrorMeters": 8.889062499406464e-07
+    },
+    {
+      "name": "Poster observed upper window 1 bay 13 solid glazing v48",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004309742344857058,
+      "maximumVertexErrorMeters": 9.167138657062424e-07
+    },
+    {
+      "name": "Poster observed upper window 2 bay 13 upper frame v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007039277238962416,
+      "maximumVertexErrorMeters": 7.050000014885427e-07
+    },
+    {
+      "name": "Poster observed upper window 2 bay 13 lower frame v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008189911185478294,
+      "maximumVertexErrorMeters": 8.67763670697741e-07
+    },
+    {
+      "name": "Poster observed upper window 2 bay 13 left jamb v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001867016414860006,
+      "maximumVertexErrorMeters": 8.654443348632412e-07
+    },
+    {
+      "name": "Poster observed upper window 2 bay 13 solid glazing v48",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008662268335139975,
+      "maximumVertexErrorMeters": 9.445410142916444e-07
+    },
+    {
+      "name": "Poster observed upper window 2 bay 14 upper frame v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0025352206615012265,
+      "maximumVertexErrorMeters": 9.007666008642445e-07
+    },
+    {
+      "name": "Poster observed upper window 2 bay 14 lower frame v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002949637889830367,
+      "maximumVertexErrorMeters": 6.21074217832529e-07
+    },
+    {
+      "name": "Poster observed upper window 2 bay 14 right jamb v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00186703608456365,
+      "maximumVertexErrorMeters": 8.737353525134495e-07
+    },
+    {
+      "name": "Poster observed upper window 2 bay 14 solid glazing v48",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0036350884139435013,
+      "maximumVertexErrorMeters": 9.51708983620847e-07
+    },
+    {
+      "name": "Poster observed upper window 3 bay 14 upper frame v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0031394168906632366,
+      "maximumVertexErrorMeters": 7.198339844194379e-07
+    },
+    {
+      "name": "Poster observed upper window 3 bay 14 lower frame v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00365264483845798,
+      "maximumVertexErrorMeters": 9.343701172781493e-07
+    },
+    {
+      "name": "Poster observed upper window 3 bay 14 left jamb v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018832457205792985,
+      "maximumVertexErrorMeters": 8.894726555297439e-07
+    },
+    {
+      "name": "Poster observed upper window 3 bay 14 right jamb v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018832326459744127,
+      "maximumVertexErrorMeters": 8.830517579383468e-07
+    },
+    {
+      "name": "Poster observed upper window 3 bay 14 solid glazing v48",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004547552416271055,
+      "maximumVertexErrorMeters": 9.386230459540457e-07
+    },
+    {
+      "name": "Poster observed upper window 0 central mullion v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.000735009689415166,
+      "maximumVertexErrorMeters": 9.480712890308496e-07
+    },
+    {
+      "name": "Poster observed upper window 1 central mullion v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007642835933627556,
+      "maximumVertexErrorMeters": 8.588818367627482e-07
+    },
+    {
+      "name": "Poster observed upper window 2 central mullion v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007935783853271628,
+      "maximumVertexErrorMeters": 9.454394529484489e-07
+    },
+    {
+      "name": "Poster observed upper window 3 central mullion v48",
+      "kind": "frame",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008008899545329682,
+      "maximumVertexErrorMeters": 8.341064443584401e-07
+    }
+  ],
+  "structuralOpeningProbes": [
+    {
+      "window": 0,
+      "bay": 13,
+      "start": [
+        -15.298517362851827,
+        17.509469988659315,
+        5.8
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "start": [
+        -13.292367203418051,
+        19.055379628630455,
+        5.789999999999999
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "start": [
+        -12.588702968705599,
+        19.5976128800297,
+        5.779999999999999
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "start": [
+        -12.174905759413715,
+        19.833620101549805,
+        5.779999999999999
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "start": [
+        -11.148100817651759,
+        20.383184616758534,
+        5.7725
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 1.0
+    }
+  ],
+  "sourceResolutionAtlasPacked": true,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

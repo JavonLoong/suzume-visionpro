@@ -1,0 +1,19 @@
+{
+  "revision": 22,
+  "frontReviewed": true,
+  "obliqueReviewed": true,
+  "frontObservation": "The right facade is visibly lighter and less green than v21, with an appropriately bright reflection on the right of the water. The distinct round and rectangular windows remain legible. The darkened glazing and window frames recover contrast lost in the initial lighting trial, but their final color remains too warm and somewhat too bright compared with the movie. The large differences in the other facade bays, steelwork, paving and night clouds remain apparent.",
+  "obliqueObservation": "The oblique render shows the continuous plaster wall, real recessed window openings, oculus rim and spokes, window sill, drainpipe collars, roof thickness and radial side wall. The reduced overhang removes the excessively dark upper plaster while preserving a narrow shadow line. Unmatched floating ivy placement and the service pipe's overly wood-like appearance remain visible.",
+  "colorEvidence": "final-color-comparison-v22.json; three manual plaster patches have mean RGB distance 158.13 before and 19.14 after. This is only a local color measurement, not overall similarity or an all-view score.",
+  "foregroundObservation": "The shirt, skirt and hair sample medians are unchanged from v21. Freshly reopened evaluated world vertices, shared character geometry, complementary portal materials and door light animation also match the baseline.",
+  "selection": "Keep v22 as the latest movie comparison candidate. Preserve stable native v19 and browser default v17 until further visual and runtime validation.",
+  "browserObservation": "Pure Three.js geometry matches all three modified native roof meshes within 0.000005 scene units. The supported browser API selected the in-app browser, but retrieving the known local viewer tab timed out after 20 seconds. Rendering and interaction remain unverified; browser area lighting is a provisional approximation with different units and no shadow support.",
+  "remaining": [
+    "左侧立面、门后窗型、拱廊和残存钢架仍有明显结构差异，需要继续按电影参照重建。",
+    "右侧窗面仍偏暖和偏亮，墙面污迹、藤叶分布及管道材质还不匹配。",
+    "庭院绝对尺寸、临水台基和钢架基座仍为推定；水面反射、铺石和昼夜云层仍需校准。",
+    "独立混元头模已安装，脸型、发束、握门手势和鞋部轮廓仍需精修。",
+    "网页几何、脚本与服务可以检查，但浏览器页面读取持续超时，实际渲染和交互仍待复测。"
+  ],
+  "oneToOneComplete": false
+}

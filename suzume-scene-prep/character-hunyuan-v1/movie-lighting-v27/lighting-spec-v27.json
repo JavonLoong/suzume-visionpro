@@ -1,0 +1,24 @@
+{
+  "revision": 27,
+  "name": "reviewed-side-sun-with-local-fill",
+  "sunWorldPosition": [-35, -10, 32],
+  "sunEnergy": 1.3,
+  "worldStrength": 0.055,
+  "skyStrength": 0.70,
+  "skyTint": [0.5, 0.9, 1.7],
+  "glossySkyWeight": 0.55,
+  "rightPosition": [8.5, 19.2, 5.6],
+  "rightTarget": [8.62559223175, 24.1741256714, 3.7],
+  "rightSize": [4, 3],
+  "rightFill": 550,
+  "leftFill": 64,
+  "leftColor": [0.4, 0.43, 1.0],
+  "archSpot": 600,
+  "selection": "Side sun retained after four native trials. Reduce the focused 650 W trial's right fill and ambient/left fill slightly; validate in full-resolution front and oblique renders.",
+  "assumptions": [
+    "Sun direction and powers are inferred appearance calibration, not measured lighting from the production scene.",
+    "Camera and glossy sky appearance are separated from diffuse world illumination as an explicit artistic approximation.",
+    "The browser retains its existing sky-color calibration until it can be visually checked; browser light direction and fill powers are synchronized."
+  ],
+  "oneToOneComplete": false
+}

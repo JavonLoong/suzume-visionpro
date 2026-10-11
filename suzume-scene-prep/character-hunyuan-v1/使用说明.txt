@@ -1,0 +1,13 @@
+铃芽之旅：混元人物与完整场景 v17
+
+本地预览：http://127.0.0.1:8931/viewer/
+若服务关闭，在本目录运行 python open_scene.py。拖动旋转，滚轮缩放，右键或 Shift 拖动平移。
+
+Suzume_scene_Hunyuan_v17.blend 是完整可编辑场景，第 1 帧关门，第 72 帧开门。Suzume_character_head_v17.blend 是人物与 20 骨骼。网页人物为静态姿态网格。
+身体保留此前混元 3D 3.1 模型、v16 的比例与脚部修复。新头部用专门四视图通过腾讯官方 Hunyuan3D-2mv 公开 API 生成，再清理、投射颜色、建立实体发卡并接合。
+未跨过门洞的表面留在庭院，跨过的表面只在异世界显示。新头与发卡使用同样的空间裁分和共享骨骼。
+完整场景已重新打开，并完成正面、背面原生渲染；鞋底最低高度仍为 0.2034619。草木保留原来数量、位置与颜色，改用共享实例降低内存。
+网页语法、HTTP 和模型文件检查通过；浏览器控制连接仍故障，v17 的网页交互还未复测。
+
+构建顺序：prepare_attachment_v16.py -> generate_public_head.py（已有生成记录，禁止无故重提）-> 网格清理与 paint_head.py -> integrate_head_v17.py -> integrate_native_head_v17.py -> render_native_v17_instances.py -> verify_head_v17.py -> build_viewer.py --candidate -> finalize_head_v17.py。
+尚未达到一比一：头部身份细节、发丝、贴图接缝、袖口和手指、建筑与夜景仍待精修。

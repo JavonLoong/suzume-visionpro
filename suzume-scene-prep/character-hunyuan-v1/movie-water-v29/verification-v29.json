@@ -1,0 +1,25 @@
+{
+  "revision": 29,
+  "freshReopenVerified": true,
+  "allDayMeshGeometryAndTopologyPreserved": 2362,
+  "characterHeadFeetAndPortalPreserved": true,
+  "cameraAndLightingPreserved": true,
+  "physicalWallProjectionPreserved": 28,
+  "liveReflectionAndRefractionNodesVerified": true,
+  "shallowShadowTransmissionAndScatterVerified": true,
+  "referenceImageUsedInWater": false,
+  "submergedAlgaeMaterialCount": 7,
+  "waterAnimationTimes": [
+    0.0,
+    0.9583333134651184,
+    2.9583332538604736,
+    4.958333492279053
+  ],
+  "doorLightByFrame": {
+    "1": 0.0,
+    "24": 0.0,
+    "72": 15.0,
+    "120": 15.0
+  },
+  "oneToOneComplete": false
+}

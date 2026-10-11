@@ -1,0 +1,351 @@
+{
+  "revision": 51,
+  "nativeSha256": "01726e6771ec7ba31008c64487b2c73a4d70c567eceaea34116191f50902b074",
+  "sourceNativeSha256": "ed93df6cd06f2844561a1df5933af030d7730a8593f144f021c4c4cceca7941f",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "sharedNodeGroupsPreserved": true,
+  "allPackedImageBytesPreserved": true,
+  "packedImageCount": 23,
+  "unchangedOriginalFacePositionsAndUVsPreserved": true,
+  "changedOriginalMeshes": [
+    {
+      "key": "mesh0",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.019",
+      "removedTriangles": 243,
+      "finalTriangles": 7836
+    },
+    {
+      "key": "mesh3",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.022",
+      "removedTriangles": 48,
+      "finalTriangles": 2112
+    },
+    {
+      "key": "mesh4",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.023",
+      "removedTriangles": 96,
+      "finalTriangles": 672
+    },
+    {
+      "key": "mesh6",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.025",
+      "removedTriangles": 22,
+      "finalTriangles": 1296
+    },
+    {
+      "key": "mesh11",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.030",
+      "removedTriangles": 293,
+      "finalTriangles": 14730
+    },
+    {
+      "key": "mesh18",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "removedTriangles": 4,
+      "finalTriangles": 19452
+    }
+  ],
+  "addedSolids": [
+    {
+      "name": "Poster low corroded hollow pipe v51",
+      "kind": "pipe",
+      "triangles": 384,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.07647860140636653,
+      "maximumVertexErrorMeters": 9.450585949366541e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe collar 0 v51",
+      "kind": "pipe",
+      "triangles": 128,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004944979456632142,
+      "maximumVertexErrorMeters": 9.424169924443504e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster pipe collar 1 v51",
+      "kind": "pipe",
+      "triangles": 128,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004945013950642277,
+      "maximumVertexErrorMeters": 9.513574212860476e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster curved standpipe v51",
+      "kind": "standpipe",
+      "triangles": 1440,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.009986262143126876,
+      "maximumVertexErrorMeters": 9.528271469605443e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster standpipe joint 0 v51",
+      "kind": "standpipe",
+      "triangles": 64,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009279447441392495,
+      "maximumVertexErrorMeters": 7.805322255194369e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster standpipe joint 1 v51",
+      "kind": "standpipe",
+      "triangles": 64,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009279413604329839,
+      "maximumVertexErrorMeters": 9.007031245289454e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster standpipe foot v51",
+      "kind": "support",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002879991947095319,
+      "maximumVertexErrorMeters": 8.984716792781455e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster discarded chair back frame v51",
+      "kind": "chair",
+      "triangles": 1200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0014211470119668242,
+      "maximumVertexErrorMeters": 9.497070330155566e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair leg frame -1 v51",
+      "kind": "chair",
+      "triangles": 640,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0010795339628602266,
+      "maximumVertexErrorMeters": 9.510107439325566e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair side brace -1 v51",
+      "kind": "chair",
+      "triangles": 32,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00013474901863872225,
+      "maximumVertexErrorMeters": 9.127197273528509e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair leg frame 1 v51",
+      "kind": "chair",
+      "triangles": 640,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0010795359118957453,
+      "maximumVertexErrorMeters": 9.496240238604514e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair side brace 1 v51",
+      "kind": "chair",
+      "triangles": 32,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0001347505340665377,
+      "maximumVertexErrorMeters": 8.70087891513549e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair seat crossbar 0 v51",
+      "kind": "chair",
+      "triangles": 40,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0003340944802072559,
+      "maximumVertexErrorMeters": 9.516796879438516e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair seat crossbar 1 v51",
+      "kind": "chair",
+      "triangles": 40,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0003340934982817093,
+      "maximumVertexErrorMeters": 8.838476546202401e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair worn back panel v51",
+      "kind": "chair",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.003317467488704624,
+      "maximumVertexErrorMeters": 9.128906235389422e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair seat panel v51",
+      "kind": "chair",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.007512860960627841,
+      "maximumVertexErrorMeters": 8.626171883463485e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair landing stone v51",
+      "kind": "support",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.10327496667384539,
+      "maximumVertexErrorMeters": 8.938281261805514e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine left margin v51",
+      "kind": "foliage",
+      "triangles": 7116,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.000723907637850072,
+      "maximumVertexErrorMeters": 9.530908187116438e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine left window shrub v51",
+      "kind": "foliage",
+      "triangles": 15720,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017789376136303021,
+      "maximumVertexErrorMeters": 9.532812512702549e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine pier growth v51",
+      "kind": "foliage",
+      "triangles": 11896,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0013060350091701517,
+      "maximumVertexErrorMeters": 9.536279286237459e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine entry left growth v51",
+      "kind": "foliage",
+      "triangles": 7116,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009542418214880303,
+      "maximumVertexErrorMeters": 9.536376950336489e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine pipe left thicket v51",
+      "kind": "foliage",
+      "triangles": 17136,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018042340143533681,
+      "maximumVertexErrorMeters": 9.536669907106443e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine pipe ground creeper v51",
+      "kind": "foliage",
+      "triangles": 8568,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009500528293667458,
+      "maximumVertexErrorMeters": 9.536083993566535e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine return pipe growth v51",
+      "kind": "foliage",
+      "triangles": 4780,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005368077305070451,
+      "maximumVertexErrorMeters": 9.52504883855454e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine right ground growth v51",
+      "kind": "foliage",
+      "triangles": 10940,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011683593309790286,
+      "maximumVertexErrorMeters": 9.532226563635504e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "kind": "grass",
+      "triangles": 1568,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.000558972219992611,
+      "maximumVertexErrorMeters": 9.531591800282513e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "kind": "grass",
+      "triangles": 1904,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006917935965095102,
+      "maximumVertexErrorMeters": 9.53505860934456e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "kind": "grass",
+      "triangles": 1456,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00034861033224154885,
+      "maximumVertexErrorMeters": 9.531152329600445e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "kind": "grass",
+      "triangles": 1120,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00020150186019097382,
+      "maximumVertexErrorMeters": 9.519628889620435e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "kind": "grass",
+      "triangles": 1008,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0001713373365088097,
+      "maximumVertexErrorMeters": 9.533007805373472e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster fine steel-climbing vine v51",
+      "kind": "foliage",
+      "triangles": 7272,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008269000339395795,
+      "maximumVertexErrorMeters": 9.535253902015484e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster thin facade climbing trail v51",
+      "kind": "foliage",
+      "triangles": 7836,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007691566460852031,
+      "maximumVertexErrorMeters": 9.534570324376546e-07,
+      "vertexColorsPreserved": true
+    }
+  ],
+  "ivy": {
+    "sourceCount": 4443,
+    "removedCount": 256,
+    "remainingCount": 4187,
+    "retainedPointsAndAttributesPreservedExactly": true,
+    "evaluatedVertices": 41870,
+    "evaluatedFaces": 33496
+  },
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

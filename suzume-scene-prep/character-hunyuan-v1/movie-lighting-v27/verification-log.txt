@@ -1,0 +1,6 @@
+00:03.125  blend            | Read blend: "D:\虚拟C盘\JavonLoongSkill\suzume-scene-prep\character-hunyuan-v1\movie-lighting-v27\Suzume_scene_movie_lighting_v27.blend"
+LIGHTING_27_REOPEN_VERIFIED {"revision": 27, "freshReopenVerified": true, "allDayMeshesUnchanged": 2362, "characterFeetHeadAndPortalPreserved": true, "cameraUnchanged": true, "worldSpaceLightPositionsDirectionsPowersAndColorsVerified": true, "separateCameraAndGlossySkyShaderVerified": true, "doorLightPowerByFrame": {"1": 0.0, "24": 0.0, "72": 15.0, "120": 15.0}, "oneToOneComplete": false}
+03:41.703  render           | Saved: 'D:\虚拟C盘\JavonLoongSkill\suzume-scene-prep\character-hunyuan-v1\movie-lighting-v27\movie-left-oblique-v27.png'
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

@@ -1,0 +1,178 @@
+{
+  "revision": 50,
+  "nativeSha256": "ed93df6cd06f2844561a1df5933af030d7730a8593f144f021c4c4cceca7941f",
+  "scope": "Top and bottom center anchors of modeled openings at 708x1000. The clipped left window is excluded from the maximum. Depth, light, full curves and hidden surfaces are not validated by this metric.",
+  "manualUncertaintyPixels": 1.5,
+  "maximumAnchorErrorPixels": 1.4712984318690274,
+  "anchors": [
+    {
+      "opening": "left rectangular window",
+      "imageAnchors": [
+        [
+          10.65,
+          630.4
+        ],
+        [
+          10.65,
+          674.7
+        ]
+      ],
+      "modeledAnchors": [
+        [
+          12.608802857864305,
+          630.4429011819775
+        ],
+        [
+          9.149960461062733,
+          674.7113158264499
+        ]
+      ],
+      "pixelError": [
+        1.959272606706998,
+        1.5000822198477564
+      ],
+      "leftEdgeClippedByBay": true
+    },
+    {
+      "opening": "left arched window",
+      "imageAnchors": [
+        [
+          53.65,
+          631.0
+        ],
+        [
+          53.65,
+          674.0
+        ]
+      ],
+      "modeledAnchors": [
+        [
+          55.118242246812656,
+          631.0325021750859
+        ],
+        [
+          52.178740626483886,
+          674.0107206091822
+        ]
+      ],
+      "pixelError": [
+        1.4686019497163951,
+        1.4712984318690274
+      ],
+      "leftEdgeClippedByBay": false
+    },
+    {
+      "opening": "entrance",
+      "imageAnchors": [
+        [
+          123.2,
+          636.6
+        ],
+        [
+          123.2,
+          689.1
+        ]
+      ],
+      "modeledAnchors": [
+        [
+          124.57535702979976,
+          636.6191827275742
+        ],
+        [
+          121.82262058513703,
+          689.118486601877
+        ]
+      ],
+      "pixelError": [
+        1.37549079839045,
+        1.3775034689383614
+      ],
+      "leftEdgeClippedByBay": false
+    },
+    {
+      "opening": "wide window 0",
+      "imageAnchors": [
+        [
+          184.5,
+          635.5
+        ],
+        [
+          184.5,
+          675.4
+        ]
+      ],
+      "modeledAnchors": [
+        [
+          185.2692249490989,
+          635.5071323175378
+        ],
+        [
+          183.73034532851779,
+          675.4030933193628
+        ]
+      ],
+      "pixelError": [
+        0.7692580141081952,
+        0.7696608876375859
+      ],
+      "leftEdgeClippedByBay": false
+    },
+    {
+      "opening": "wide window 1",
+      "imageAnchors": [
+        [
+          217.5,
+          636.1
+        ],
+        [
+          217.5,
+          675.7
+        ]
+      ],
+      "modeledAnchors": [
+        [
+          218.11478809899498,
+          636.1056412489852
+        ],
+        [
+          216.88492822608296,
+          675.7025638558678
+        ]
+      ],
+      "pixelError": [
+        0.6148139802866978,
+        0.6150771174628119
+      ],
+      "leftEdgeClippedByBay": false
+    },
+    {
+      "opening": "wide window 2",
+      "imageAnchors": [
+        [
+          250.5,
+          636.8
+        ],
+        [
+          250.5,
+          676.0
+        ]
+      ],
+      "modeledAnchors": [
+        [
+          250.9614297053114,
+          636.8041738199407
+        ],
+        [
+          250.0384026581728,
+          676.001995751875
+        ]
+      ],
+      "pixelError": [
+        0.46144858187738863,
+        0.4616016562009761
+      ],
+      "leftEdgeClippedByBay": false
+    }
+  ],
+  "oneToOneComplete": false
+}

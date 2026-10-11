@@ -1,0 +1,41 @@
+{
+  "revision": 33,
+  "sourceSha256": "025aa9a33f12e1525065a188fc87dac4a5a7a167a72a51ecda8290ccef7cebf4",
+  "headHash": "d98964376af5c4fb108ed4cd85fc0ff223b79fa8761833272892a8899e064f98",
+  "topologyHash": "fd73157ab7cb74ed8bb7d087d4fa73ae3625a7915877ba0f355cc6f374c20528",
+  "bodyHashPreserved": "ea99c207add1dd15e7d1048586720b462e59fdbc2e1b02a3379c3738522e2bf6",
+  "pinsPreserved": {
+    "Left gold hairpin": "98cf3c457b11f456db8495b46ac528e8263197b9b10ae42787b1e707ea707ff9",
+    "Left red hairpin diagonal": "101fc7b7e687be5adf86afd93e3fd5f0a81a3af1d6a38aea750406d6880565d9",
+    "Left red hairpin crossbar": "8bfd65fcffae78cba0225f8a869a59689e1251d35afb64ed9a869565614d5dbd"
+  },
+  "vertexColorsUnchanged": true,
+  "faceFrontMaximumVertexChange": 0.0,
+  "tipVertex": 74635,
+  "tipTargetPixels": [
+    1183.5,
+    772.0
+  ],
+  "actualTipPixels": [
+    1183.4998993873596,
+    772.0001449584961
+  ],
+  "tipPixelError": 0.00017645358878234772,
+  "tipWorld": [
+    -0.12888203715683796,
+    0.40679588846241177,
+    2.1866854224345644
+  ],
+  "maximumRearShift": 0.1700571245461208,
+  "rearCurve": {
+    "type": "continuous cubic smoothstep",
+    "startWorldZ": 3.01,
+    "endWorldZ": 2.13,
+    "amplitude": 0.17147202462659458
+  },
+  "shirtRayClearanceSamples": 24294,
+  "minimumHairToBackClothGap": 0.011293232808071485,
+  "clearanceScope": "Backwards Y separation from actual back-facing body triangles for the lower ponytail, not a full collision proof.",
+  "sharedDayNightMesh": true,
+  "oneToOneComplete": false
+}

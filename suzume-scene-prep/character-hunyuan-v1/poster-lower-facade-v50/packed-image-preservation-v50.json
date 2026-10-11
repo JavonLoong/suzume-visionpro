@@ -1,0 +1,30 @@
+{
+  "nativeSha256": "ed93df6cd06f2844561a1df5933af030d7730a8593f144f021c4c4cceca7941f",
+  "allPackedImageBytesPreserved": true,
+  "imageCount": 23,
+  "images": {
+    "Analytic clear sky palette": "c0f5cd9d88661793c499657a3f461be1461118b76bb4c8f4d4904bab60dc6eb5",
+    "Analytic clear sky palette.001": "c0f5cd9d88661793c499657a3f461be1461118b76bb4c8f4d4904bab60dc6eb5",
+    "Film foreground exclusion v28": "f8c75000ac4849f23d1b732b6f462cb94e83f1198f055e494810b5ceee8113c3",
+    "Film source v28 \u2014 unchanged": "a80f1bcad3be67c8d14610348be42d58245c9375b694e60e9e78467f1a9fed07",
+    "model-texture-25B42773-3A0A-4658-A6EB-1FF2D630BC78.png": "0a3213ef7c7033e4b5d3b8c9ff43d630f0118aeb8d23867c3c9d36834f3a5498",
+    "model-texture-25B42773-3A0A-4658-A6EB-1FF2D630BC78.png.001": "0a3213ef7c7033e4b5d3b8c9ff43d630f0118aeb8d23867c3c9d36834f3a5498",
+    "model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png": "bff27465df58231cd1df06c15f76f4d27bbdb39c2a5a7f556c4bc4d813adb436",
+    "model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png.001": "bff27465df58231cd1df06c15f76f4d27bbdb39c2a5a7f556c4bc4d813adb436",
+    "model-texture-65D430E3-8FE5-4183-B1B8-D1645E532BAA.png": "208d3d3880fb5933035e5cec9da21f51729a51c4c7dd4f2876899dc37505fea8",
+    "model-texture-65D430E3-8FE5-4183-B1B8-D1645E532BAA.png.001": "208d3d3880fb5933035e5cec9da21f51729a51c4c7dd4f2876899dc37505fea8",
+    "model-texture-E6DD59F3-52BA-49F3-A943-D0F386B577E6.png": "a181ecadc3e49f425a718e17a865268e2f73bf2faafee6e97af39a904d6fd9d0",
+    "model-texture-E6DD59F3-52BA-49F3-A943-D0F386B577E6.png.001": "a181ecadc3e49f425a718e17a865268e2f73bf2faafee6e97af39a904d6fd9d0",
+    "model-texture-EBD27D7D-8282-40D9-83C5-45320AB3FF99.png": "77bc83ccc334f2f531d6708a541ec519d3bbe47b0ef9d957601bbe4dbb9dccb0",
+    "model-texture-EBD27D7D-8282-40D9-83C5-45320AB3FF99.png.001": "77bc83ccc334f2f531d6708a541ec519d3bbe47b0ef9d957601bbe4dbb9dccb0",
+    "model-texture-FC99DC89-920B-4076-B849-BDEC72F94ACB.png": "b4bad73ae1740c58d8a7fe2fba2741bf4fad963ce64a9eabd1cdce97b498a9f8",
+    "model-texture-FC99DC89-920B-4076-B849-BDEC72F94ACB.png.001": "b4bad73ae1740c58d8a7fe2fba2741bf4fad963ce64a9eabd1cdce97b498a9f8",
+    "Original facade minus thin foreground rods v48": "fda84b04aabad3d6ad74f7faaad99e7db16097afdce3f47db12b1e8d6c1f04cc",
+    "Reference-calibrated night sky palette v12": "3c3618a62f8112b50021d846aa48c3ef8335b4007b85e5e3a802ffec8a993e0d",
+    "Signed inverse AgX data v28": "959dca7de1e4a69d3dd35faf6c172b5b1977deb3a8b7222851d3e3395914f2a9",
+    "texture_pbr_20250901": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7",
+    "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness": "dd4d1a90b768caf9f6aae4e87e528543b02b1ca0fffa0ecaeec6dec2fd03c971",
+    "texture_pbr_20250901_normal": "e187d9879e97e465b12de1fcb6b9f611d4521ff8314c3e16ec67db87c2421992",
+    "Upper facade source resolution pigments v48": "7c2bd2eb3d6f8b703bfce8283690581ab683d0034e85c9894f810ad6a4cece64"
+  }
+}

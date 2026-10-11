@@ -1,0 +1,23 @@
+{
+  "revision": 20,
+  "frontReviewed": true,
+  "overviewReviewed": true,
+  "sideReviewed": true,
+  "selection": "Comparison candidate only; the stable native scene remains v19.",
+  "observedImprovement": "The hotel facade fills the upper background, and the reference arched-window and pier locations are closer to the opening movie composition.",
+  "overviewObservation": "The oblique render confirms a complete circular hotel, steel frame, basin and surrounding forest. The inferred courtyard is large relative to the hero door. Existing cloud solids intrude into the wide overview camera; this is a comparison variant, not an all-angle fidelity approval.",
+  "sideObservation": "The side render shows real door/frame thickness and an intact water-level foundation. Entered body geometry does not leak into the courtyard; only the foot portion remaining on this side is visible from this angle. Architectural plinth and steel-base contacts still need correction.",
+  "rejectedTrials": [
+    "The first close-background solution made the podium dominate the middle of the picture.",
+    "The unconstrained water-contact fit required a roughly 6.18x depth scale; that was rejected as a poor full-scene inference.",
+    "The first overview render was overridden by an animation camera marker and repeated the hero view; it does not count as an overview check."
+  ],
+  "remaining": [
+    "电影立面的窗型、拱廊和钢架仍有部分沿用海报结构，需要继续逐项校准。",
+    "建筑绝对尺寸、临水台基和钢架落地位置仍为推定，尚未通过一比一验收。",
+    "建筑光照、水面反射与门内云层仍明显不同于原画，远景云体还会挡住部分俯视画面。",
+    "人物脸型、发丝、手部握门姿态和脚部原画轮廓仍需精修。",
+    "网页脚本与本地服务已检查，浏览器连接超时，运行效果和交互待复测。"
+  ],
+  "oneToOneComplete": false
+}

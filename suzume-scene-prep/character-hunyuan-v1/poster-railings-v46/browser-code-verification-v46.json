@@ -1,0 +1,20 @@
+{
+  "revision": 46,
+  "nativeSha256": "f377b44edfb7287e25476dab31deca102a610521333d5d20e319d54c00521c2c",
+  "threeRevision": "128",
+  "inlineScriptsParsed": 1,
+  "triangles": 197434,
+  "buckets": 11,
+  "originalFacadeBucketsReplaced": 6,
+  "otherFacadeAndSteelObjectsPreserved": 14,
+  "positionsNormalsUVsMatchNativeExportExactly": true,
+  "originalMaterialsReused": true,
+  "approximateNewMaterialsMatchSpec": true,
+  "unrelatedSceneObjectsPreserved": true,
+  "ivySourceMatchesOriginalSceneExport": true,
+  "ivyChangedMatricesMatchNative": 352,
+  "otherIvyMatricesAndAllColorsPreservedExactly": true,
+  "browserRuntimeVerified": false,
+  "browserMaterialsApproximate": true,
+  "scope": "Actual Three.js geometry construction, original saved scene instance matrices, and JavaScript parsing in Node. No browser or GPU execution."
+}

@@ -1,0 +1,200 @@
+{
+  "revision": 23,
+  "replacedBays": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "newObjects": 669,
+  "newTriangles": 55374,
+  "removedFaces": {
+    "Circular ruined hotel with exterior entrance solid mesh": 1888,
+    "Circular ruined hotel with exterior entrance solid mesh.001": 180,
+    "Circular ruined hotel with exterior entrance solid mesh.002": 156,
+    "Circular ruined hotel with exterior entrance solid mesh.003": 484,
+    "Circular ruined hotel with exterior entrance solid mesh.004": 192,
+    "Circular ruined hotel with exterior entrance solid mesh.005": 24,
+    "Circular ruined hotel with exterior entrance solid mesh.006": 432,
+    "Circular ruined hotel with exterior entrance solid mesh.008": 21428,
+    "Circular ruined hotel with exterior entrance solid mesh.009": 343,
+    "Circular ruined hotel with exterior entrance solid mesh.010": 397,
+    "Circular ruined hotel with exterior entrance solid mesh.011": 4128,
+    "Circular ruined hotel with exterior entrance solid mesh.012": 90,
+    "Circular ruined hotel with exterior entrance solid mesh.013": 5,
+    "Circular ruined hotel with exterior entrance solid mesh.014": 176,
+    "Circular ruined hotel with exterior entrance solid mesh.015": 140,
+    "Circular ruined hotel with exterior entrance solid mesh.016": 473,
+    "Circular ruined hotel with exterior entrance solid mesh.018": 22342
+  },
+  "coordinateRoundtripError": 4.263256414560601e-14,
+  "materials": [
+    {
+      "role": "material-0",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.009",
+      "new": "Movie bay material material-0 v23",
+      "sourceHex": 7376003,
+      "colorError": 6.653298623328328e-09
+    },
+    {
+      "role": "material-1",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.008",
+      "new": "Movie bay material material-1 v23",
+      "sourceHex": 14144701,
+      "colorError": 3.267786213488238e-08
+    },
+    {
+      "role": "material-2",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.016",
+      "new": "Movie bay material material-2 v23",
+      "sourceHex": 10534869,
+      "colorError": 3.1252745181385445e-08
+    },
+    {
+      "role": "material-3",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.002",
+      "new": "Movie bay material material-3 v23",
+      "sourceHex": 3492167,
+      "colorError": 3.238597189482341e-09
+    },
+    {
+      "role": "material-4",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.014",
+      "new": "Movie bay material material-4 v23",
+      "sourceHex": 3430252,
+      "colorError": 3.6203240057188085e-09
+    },
+    {
+      "role": "material-5",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.011",
+      "new": "Movie bay material material-5 v23",
+      "sourceHex": 10656894,
+      "colorError": 1.6355469180127145e-08
+    },
+    {
+      "role": "material-6",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.010",
+      "new": "Movie bay material material-6 v23",
+      "sourceHex": 12108988,
+      "colorError": 3.605129180546401e-08
+    },
+    {
+      "role": "material-7",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.012",
+      "new": "Movie bay material material-7 v23",
+      "sourceHex": 8235698,
+      "colorError": 6.62305546753316e-09
+    },
+    {
+      "role": "material-8",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.003",
+      "new": "Movie bay material material-8 v23",
+      "sourceHex": 2112835,
+      "colorError": 1.2162869212457248e-09
+    },
+    {
+      "role": "material-9",
+      "source": "Circular ruined hotel with exterior entrance solid mesh",
+      "new": "Movie bay material material-9 v23",
+      "sourceHex": 6640712,
+      "colorError": 3.6111946504982994e-09
+    },
+    {
+      "role": "material-10",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.004",
+      "new": "Movie bay material material-10 v23",
+      "sourceHex": 11110754,
+      "colorError": 1.3547142811592948e-08
+    },
+    {
+      "role": "material-11",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.001",
+      "new": "Movie bay material material-11 v23",
+      "sourceHex": 5466933,
+      "colorError": 4.457661915464409e-09
+    },
+    {
+      "role": "material-12",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.015",
+      "new": "Movie bay material material-12 v23",
+      "sourceHex": 7955289,
+      "colorError": 4.917671970451722e-09
+    },
+    {
+      "role": "material-13",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.005",
+      "new": "Movie bay material material-13 v23",
+      "sourceHex": 12428375,
+      "colorError": 1.783862338730696e-08
+    },
+    {
+      "role": "material-14",
+      "source": "Circular ruined hotel with exterior entrance solid mesh.006",
+      "new": "Movie bay material material-14 v23",
+      "sourceHex": 10330001,
+      "colorError": 1.6054523093823015e-08
+    }
+  ],
+  "windowWallRayTests": [
+    {
+      "bay": 12,
+      "opening": "rectangle 1",
+      "wallHit": false
+    },
+    {
+      "bay": 13,
+      "opening": "rectangle 1",
+      "wallHit": false
+    },
+    {
+      "bay": 13,
+      "opening": "rectangle 2",
+      "wallHit": false
+    },
+    {
+      "bay": 13,
+      "opening": "arched window",
+      "wallHit": false
+    },
+    {
+      "bay": 15,
+      "opening": "rectangle 1",
+      "wallHit": false
+    },
+    {
+      "bay": 15,
+      "opening": "rectangle 2",
+      "wallHit": false
+    }
+  ],
+  "fourLowerWallsWatertight": true,
+  "characters": {
+    "Suzume Hunyuan textured surface": {
+      "vertices": 241846,
+      "worldHash": "bda994f4f36c980ac7e48122ea45f395ce5defbd723d5c82f514aeca5561de47"
+    },
+    "Suzume independent Hunyuan head": {
+      "vertices": 171025,
+      "worldHash": "18c45d8888b875316b92a28d4c4881644c277126dd04df9f8ea9894ccb9a483d"
+    },
+    "Left gold hairpin": {
+      "vertices": 104,
+      "worldHash": "98cf3c457b11f456db8495b46ac528e8263197b9b10ae42787b1e707ea707ff9"
+    },
+    "Left red hairpin diagonal": {
+      "vertices": 104,
+      "worldHash": "101fc7b7e687be5adf86afd93e3fd5f0a81a3af1d6a38aea750406d6880565d9"
+    },
+    "Left red hairpin crossbar": {
+      "vertices": 104,
+      "worldHash": "8bfd65fcffae78cba0225f8a869a59689e1251d35afb64ed9a869565614d5dbd"
+    }
+  },
+  "bodyHeadFootAndPortalGeometryPreserved": true,
+  "completeRoomsAndRoofStructures": true,
+  "unmatchedBenchRemoved": true,
+  "oneToOneComplete": false,
+  "visualReviewPending": false,
+  "visualReview": "visual-review-v23.json",
+  "lighting": "lighting-v23.json"
+}

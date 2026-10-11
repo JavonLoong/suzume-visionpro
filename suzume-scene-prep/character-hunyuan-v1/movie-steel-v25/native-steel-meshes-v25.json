@@ -1,0 +1,2930 @@
+{
+  "I-section support column 0 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "e56853b2295b9c8a3c7d2767de1c280a2afd8fda91a6c70e1efb091348acfa86"
+  },
+  "Grounded column footing 0 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "6975eaec83056b963a15267c922e094fceaf0d26d610fbb488e25d9fc832fe9b"
+  },
+  "Rusted base plate 0 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "15e5404e64a5199f30981bb9b3cc7c19dd5d301d16ac7e9bd20f989e4705d65c"
+  },
+  "Column anchor bolt 0 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5f52ae52340f57fe3efa4ecd31cf84ffcea839e018f5e0f7160748fe6c5978d4"
+  },
+  "Column anchor bolt 0 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "fe88e7b4eedbaa76d8dcd584e8350efea054d8ea15512e1c8a72ce7c4f006e77"
+  },
+  "Column anchor bolt 0 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f29f551cfff5093df63bc2f651fa9c46f6892b71026ed36106a27ee6c00d4d67"
+  },
+  "Column anchor bolt 0 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "cf7460c967fb8129fd05f7f0fe707e6cb75deb1d21691e0d87d96e6e5e0c8efa"
+  },
+  "Broken radial I-section rib 0 v25": {
+    "vertices": 1500,
+    "nativeFloat32Hash": "e91ea11c8b415655923bbd64c8510adccc23a1512a46cc907a61364831b9bcb8"
+  },
+  "I-section support column 2 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "c8bf3c7178cf6f6d26534e1597e4fbb4ccff8b37c49d17a4e7abc5de3acc73ba"
+  },
+  "Grounded column footing 2 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "7d42f4434d9a7ba692463b08946b64babd9854392468d4b9abbc8f190365a057"
+  },
+  "Rusted base plate 2 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "99b2e73695ac68397f8a8c6b56bf1d8290646e246550221cc9d8f8a9f4bfd895"
+  },
+  "Column anchor bolt 2 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1f1b5d99b650e2a0ed0302e9102edc3aedeb50ebe73dcd70b1d07546e428fdc6"
+  },
+  "Column anchor bolt 2 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "47c744abc940422116e7408f0c18390a5c789800faea53812bea5b11b0b5aa6a"
+  },
+  "Column anchor bolt 2 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "4037128f27ff36afa68cd0c60bf37cd31c8d3f32b6628536b5cffbdbb027caf5"
+  },
+  "Column anchor bolt 2 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8814943b30a78a35768e2962f402f06e9ecd2afd0b66daff547217c5c830b673"
+  },
+  "Broken radial I-section rib 2 v25": {
+    "vertices": 3588,
+    "nativeFloat32Hash": "e8d7b5e18d4568c7415a773bd66fa24390ce75c622fd0805d416d91d719f278e"
+  },
+  "I-section support column 3 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "77ff5efe08bc743c2777b0dc8ea90046591111fbcaf2bef498ff748374f0262d"
+  },
+  "Grounded column footing 3 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "be4b9739208229bf1a0c054da1d2a4d786394904fc59e88900b5d1c3cd497bae"
+  },
+  "Rusted base plate 3 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "48a2af0025e3247a90b74ee515b86c953004063afd17b465ff08ec5db9d26bc4"
+  },
+  "Column anchor bolt 3 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3083cee6d78d5729002728976755a7dda348aab3ec90ded635f7051648c5eabd"
+  },
+  "Column anchor bolt 3 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "62713798071485f4f3ab7a58173a680b81427cc50ec3b10ef9454fc15e42d158"
+  },
+  "Column anchor bolt 3 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "697451efbe189b499b43507e3efda2c323f4544fb1f827c562f42312bda70361"
+  },
+  "Column anchor bolt 3 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5e3ca700ff489b1f92a2a51a6f7aa80c1e4af91c889440ed925145fe0d1e4477"
+  },
+  "Broken radial I-section rib 3 v25": {
+    "vertices": 5172,
+    "nativeFloat32Hash": "ae8ee7a1ee66de460f918ca2394ff27ee05e3455fa8f185690747ae8909714f9"
+  },
+  "I-section support column 5 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "537a91d1e8d58ef0ac256d5caf52a48ab2979fb113423cb1bbf47ad0a393b083"
+  },
+  "Grounded column footing 5 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "1067c4fc679344d04a54a82c6ca0f0b66ced80695aa00a423f7722c546438879"
+  },
+  "Rusted base plate 5 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "f217c87399c388756eb86faacfed881962c9e2b171be9e526e5586c62a27e1a8"
+  },
+  "Column anchor bolt 5 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "81495420cee6a432947d51856714da850cf50cb6073bfd123f984cee04af2222"
+  },
+  "Column anchor bolt 5 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1379c6dd28683dc955d81991ab34e0edba1458671c7238d2fcb30384feb66936"
+  },
+  "Column anchor bolt 5 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "4213a4f2c1a2f6f9f330742aea5aafdf2db977f3ebb439f9556db94a93210e61"
+  },
+  "Column anchor bolt 5 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "519598b9bcb0826ab6cca7fe7bcfc8cd6e2e3a02bc2fd225688719db4ac574f3"
+  },
+  "Broken radial I-section rib 5 v25": {
+    "vertices": 4812,
+    "nativeFloat32Hash": "bd7fa8e985f52fff81fb527529ad260db3d093061ae6558da8585b9e65d4a067"
+  },
+  "Surviving side arch 5 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "05351ea1e53fd678891b59f1c7feffcca27b1995d73fffa1c2e8a19882c053b2"
+  },
+  "I-section support column 6 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "78a1a9a3f6b6bb4c10f371b622d2dd6d08190290a909cdc5bf4a504d990ea6d5"
+  },
+  "Grounded column footing 6 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "4eeddaa9816b722f12cb120aa315b16aecc4199f3067606847fb8e992f34e009"
+  },
+  "Rusted base plate 6 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "53aaa1bc169a7a101dc06f5dd0a6d2f609eccca8cd7784064654b5c68bfbfcad"
+  },
+  "Column anchor bolt 6 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f8bc82c89b898b8e6d4a6b88d5428ae460ccccb47b7a04b23fe27ca6e57ca1ee"
+  },
+  "Column anchor bolt 6 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f4fdf7989fdb9025427bd032ff42971d3095af65d5dba86e5434aa556631bede"
+  },
+  "Column anchor bolt 6 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a2552d7e94f153dfbe4f5ab8a5af1aa0593c860444dc3be461195a773c5c8263"
+  },
+  "Column anchor bolt 6 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "17ec2ddcff186e519d229687962b58f8df108f6b3ae04f293a00cc7a0dd90bab"
+  },
+  "Broken radial I-section rib 6 v25": {
+    "vertices": 4020,
+    "nativeFloat32Hash": "b1fc3ca9825b43025202f050d96f1e1b76739be11a5766d14a6c50e6f34a8f45"
+  },
+  "Surviving side arch 6 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "d406512f2177e5feb362ecbf981e84af1bcc6cbd136a632b8a96f6cb4794d6d8"
+  },
+  "I-section support column 7 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "05ba22ae049e19a63095e29e4f3b09606f996acd988fe4acd9e7a4a105528d80"
+  },
+  "Grounded column footing 7 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "e5c0c75301e7d6cd0ece242ba864c3eb09266464f773ba134e1b7ebb1106cdc8"
+  },
+  "Rusted base plate 7 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "a531022d61bd837d2e174a5eebc41e689ad7b0de05d3bbbc81a0dfac9c22d7d1"
+  },
+  "Column anchor bolt 7 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3bcb2051ac503181265d7615617239ae0267226f77b753833185df371001f54d"
+  },
+  "Column anchor bolt 7 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2249480ddb44405ef88feade86460e27bffc19e984d632b7bc7f2d3fec081b60"
+  },
+  "Column anchor bolt 7 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "68977580c19f2f09a45b6fccad13ca217ac443a279a2010b9d79e5aa7cc251bd"
+  },
+  "Column anchor bolt 7 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f282c5b7543738f333255469cb13c36e7a7ce10cf51af4d24a8cb2512535733b"
+  },
+  "Broken radial I-section rib 7 v25": {
+    "vertices": 3012,
+    "nativeFloat32Hash": "b70fccac380795989a0b6733378fe98c67dd1f6e6f99150c81d8f1ce33410fad"
+  },
+  "Surviving side arch 7 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "7ffb365f94dcc71132d043c7df738a7e25d88d8593106316ff995ed798a787a7"
+  },
+  "I-section support column 8 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "6402987be003cc1ff07c453823d935c76edb2bd2576879ae79aef9bea8ad12a5"
+  },
+  "Grounded column footing 8 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "7eb749a4a64ef2bf8d7e4d3a2bfd46e15223c84216e66efda681d5e025f87e5a"
+  },
+  "Rusted base plate 8 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "3d061aeb57bfda607015408ddc17f3d2f11cdc1d0037f2690628aec217c63bb9"
+  },
+  "Column anchor bolt 8 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5ee612fc7bc61b8b5d9e9fe9e4394e0f1cec99bb028fa29320f454c877bf20b8"
+  },
+  "Column anchor bolt 8 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8431716f871b17cae9f362a07537dfc36e66551f4cbbeaca21ede9be92f9e958"
+  },
+  "Column anchor bolt 8 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "41815badde5729cb47d12d345cc0f21be2b71549eaf0a830cfaf5901b8c38286"
+  },
+  "Column anchor bolt 8 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "9dd3d83128c9c90689c841615d7db40cdd2fd9a0a29129daed1587d4bb62dc83"
+  },
+  "Broken radial I-section rib 8 v25": {
+    "vertices": 2436,
+    "nativeFloat32Hash": "8c75e9e64e7f981c4d3d4f4028defc6bb97b7356a49f118590a7590aa231c292"
+  },
+  "Surviving side arch 8 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "c4f2911c2c243768b7cd54a2a518f7a4add86d767ab970164f718d3effcf3f40"
+  },
+  "I-section support column 9 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "3427ea01eacbda3d7318291030a717aab4535ffee30c05edbefcc550bdbbdf38"
+  },
+  "Grounded column footing 9 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "026c25830b86438d5b818cadfa1f6e91fe67018494f5aca0082f84296cd489aa"
+  },
+  "Rusted base plate 9 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "1fcbf0b679a868e987a82a750eb0bcaee5d12a8e92930a8cee590c95436aeda2"
+  },
+  "Column anchor bolt 9 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d02b1d3291df8c5704a705c97fd3fa44fe458bbde1ef5ae2e4daa9e6ff2a0843"
+  },
+  "Column anchor bolt 9 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "85711eeb926d63551713a90217fd39664677235917303cfc4a4779d7c477cdb3"
+  },
+  "Column anchor bolt 9 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3fff91597a73c0f3e61c8cc08e69f09bee5de58a6f732d1ab3c070692e835074"
+  },
+  "Column anchor bolt 9 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "848a3110dcccd44b7418e7b545b4caea9956b9b7c27d8718d323687229218bbe"
+  },
+  "Broken radial I-section rib 9 v25": {
+    "vertices": 1428,
+    "nativeFloat32Hash": "631a5f1b8eda130419f844f3d137d14e19dae464efb293e95d6be6f65e81244e"
+  },
+  "Surviving side arch 9 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "fba4c10a688d1d499d663236dd297cd6bcd24de5169ef92e13621367afffc96d"
+  },
+  "I-section support column 10 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "5b8452540af8d59869f6fca78812a39d147e52bf3503920e27fef0bf0fda890e"
+  },
+  "Grounded column footing 10 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "338d0404838f4e69d714bec9ddd6f40fa72fcb732c72e021322c9163766cd282"
+  },
+  "Rusted base plate 10 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "a59789a303bca750de46666f5139e1032707120b45e6562fa4244e548f318e85"
+  },
+  "Column anchor bolt 10 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e26785d6e139a173600806a4c96128a031c852bb013e50f0a8c46ad493c15bc2"
+  },
+  "Column anchor bolt 10 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a2e067e961d395582b2e3e59627c26774d4bd220a64687dcd70b7201e19265a8"
+  },
+  "Column anchor bolt 10 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2ce45cc729586b2ee26c95c20b4208a95001ffb996334a5b78513ecacf7ea1f1"
+  },
+  "Column anchor bolt 10 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "72a04895d1b0f09234411bb4a713cd83f13787843e85e1003a3741927d192fa2"
+  },
+  "Broken radial I-section rib 10 v25": {
+    "vertices": 1068,
+    "nativeFloat32Hash": "b709ef9fe0c717a8ea232097186a5aa54a043bdc91757b841acb65803ff527f9"
+  },
+  "Surviving side arch 10 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "541731625a86741db2ee7abbb71c0c96f1c2b6ded9912864634150bec76b3db7"
+  },
+  "I-section support column 11 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "9ef9c1c4287425fc8eb46f02e21eb00b4ef694d1e4c0b45d74c96baa26d7f104"
+  },
+  "Grounded column footing 11 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "1a7f8c37212fcd14c7b0e656c5e1a8bb8a11cb501c21c45876fe59f9c221e420"
+  },
+  "Rusted base plate 11 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "03d16601609be7f27398bd8a6415ada1bbf3e8655e219f465688518b57e1381c"
+  },
+  "Column anchor bolt 11 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "698ae10813e2a8db0127d4921f06243b9425fd7ad0985e2a64c646fbbd4da02c"
+  },
+  "Column anchor bolt 11 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "ac2d4d54e1b39ac2357dd70ea97d438d8cd11144c70391b91e4e02224db73a23"
+  },
+  "Column anchor bolt 11 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2b9e49c63f4d8eb4c6a64209f9328eb05d62c2aaf0a5e452d8e618a51e6190cb"
+  },
+  "Column anchor bolt 11 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5711a616efffe3f9e562703f1e4cab847a1baa187b4654fb2179433f35019c6f"
+  },
+  "Broken radial I-section rib 11 v25": {
+    "vertices": 1644,
+    "nativeFloat32Hash": "283c01b9e13aabdd636a7187a291fd9662f4e5f9d113b1ca3b3d8a114c0cef9e"
+  },
+  "Surviving side arch 11 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "30061c86aa145f3c19a9a146b7ef523a9ff8ee4a2f92a4ead05938f87969aa26"
+  },
+  "I-section support column 12 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "888c23754545bdf1c8a71411d2ed90e28a53b176bb53566010abcda0710abbed"
+  },
+  "Grounded column footing 12 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "64f83473bdc24408977e17468aa837fe68de6c52b911bcc79f1d76ba0417bea5"
+  },
+  "Rusted base plate 12 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "1ff9eec2bfd63675833a3262e0210c160acb7effbe64e12ba135079436f48c4d"
+  },
+  "Column anchor bolt 12 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "069d7e79d21abf10b64f048a4081a573e8ff8389ea18aece25fe5b65706a147c"
+  },
+  "Column anchor bolt 12 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "ea0b4e7424e5fe871cca57c1aea9adf1e1de869de7b34141fbb0f50f065b7f60"
+  },
+  "Column anchor bolt 12 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "9bc300af6bc56d8cb548a21dba408a775a34856f037823a20d45d589183d110e"
+  },
+  "Column anchor bolt 12 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3b18ee1a75507ff7339da60ecc52bf06cb66f8fecfc0a8f33ff7bbaae77ab782"
+  },
+  "Broken radial I-section rib 12 v25": {
+    "vertices": 3804,
+    "nativeFloat32Hash": "e472800c7d7725bd917cce074aa3a4b137db847c3c39c078016ef2496b78c86d"
+  },
+  "Surviving side arch 12 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "df998026cc4a423f8854011457992ea413a03fc988e143e06265d9566c04afe4"
+  },
+  "I-section support column 13 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "07a531e27ad60a6f6e56464530f5800c7cc37bf3c0e31745c8f73441b0b65259"
+  },
+  "Grounded column footing 13 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "36d2e03a70ea7c6a962503278cc619f1da1a751d4af7030db5256feeaecec6c5"
+  },
+  "Rusted base plate 13 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "b408732cf9ce9843033653f2463873da725c8064b442c35e778f63c6ab69f6aa"
+  },
+  "Column anchor bolt 13 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "0d8c225022d9620c06283562e6a7477eb4d6f3c6b17d0e81d689a7674184489b"
+  },
+  "Column anchor bolt 13 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2b1123a01af60db3ba7089b07dfd5ebbfa72944e81688e59c42fc1eacafa79df"
+  },
+  "Column anchor bolt 13 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3702ec9e908afd7eaca6d1ba7d62fcab7ca3462e5a29a12f8fe9cd9a3a8ef48b"
+  },
+  "Column anchor bolt 13 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "7dcbf93f315e89027c27065b1de0b11a800e00355e00392e8c51b2d761c440c9"
+  },
+  "Broken radial I-section rib 13 v25": {
+    "vertices": 5100,
+    "nativeFloat32Hash": "4db7c2e812b713b61d9604777568e4fab77fcf3ee7baa26d24826544db9dde32"
+  },
+  "Surviving side arch 13 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "9ae45c531db90df7223cae240768f002ead068439f307fa0d727e7909fa54813"
+  },
+  "I-section support column 14 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "8da14cb9b5e7226c8d1b73a3dfce06d47565066c6eae3fcb5208f1335eed32ee"
+  },
+  "Grounded column footing 14 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "1457ce622b3a5b8bf25fda16bd8a21d99e317856041db0df4f7db9880f567023"
+  },
+  "Rusted base plate 14 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "e3e198db89bcc5ff619cc989b5e4053b4994dec1fb1a1dd07cac249bd298166d"
+  },
+  "Column anchor bolt 14 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "0963d852d13eaaf72aa9bfd8dcb003b38203ce2bd3a343fc993df8333e09173a"
+  },
+  "Column anchor bolt 14 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "7b7c4be68543915585e6e7ed14e17176c65a41a81f401bd194da7d7c8eea5e22"
+  },
+  "Column anchor bolt 14 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "42560cd72ee8c60c151014590aa6c223474bd1b63bd95d6f8f07da4b45a13603"
+  },
+  "Column anchor bolt 14 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8d5711b5258dfaddb6440d54d3a6e093d85ea35d0a39280588a1abd158b190c8"
+  },
+  "Broken radial I-section rib 14 v25": {
+    "vertices": 5244,
+    "nativeFloat32Hash": "dc67499fbb9309090bb5f2cd6e066501b73994518fe5d137a8f598fa0be9de39"
+  },
+  "Surviving side arch 14 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "e9545ff8c300e501854147e626913920dd0caab992dfb63fa3d5d2712b3a81be"
+  },
+  "I-section support column 15 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "92f7b907b36070dbe830d7a44b7ec4c977da82ad7863630ba4478ccd26cd39cd"
+  },
+  "Grounded column footing 15 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "2faa24d9e5ffca1864780d6ff42e585c38b28e0414db47c868a7650a6e5752e9"
+  },
+  "Rusted base plate 15 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "5bc1e22b7f6deaffb2cec220784b8695101f3c4c13f595ea5127ad2ef316a899"
+  },
+  "Column anchor bolt 15 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3cd1c0642383a47808fdb3914c6f18f6c4821aa4af71a0b800cb071af21b2be4"
+  },
+  "Column anchor bolt 15 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "952131e00a4203543a6ea3ec9dbc7553244029b508afdab016ced49c98409b97"
+  },
+  "Column anchor bolt 15 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f3e21058eddbc156e22f7ece191bea37c584e6c0f272a60e972d8593d2fb229c"
+  },
+  "Column anchor bolt 15 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "66f3bd4bb2b4c510c82ee123996a1ce33f9c999326386cdb96b306525cccc9ad"
+  },
+  "Broken radial I-section rib 15 v25": {
+    "vertices": 5388,
+    "nativeFloat32Hash": "19b45d708f512a29df42922144086289b736d373d97e149e84181491f4104240"
+  },
+  "Surviving side arch 15 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "c51188a3d2b41f33092f417e95d36f1ce05391625dbe908f3f0e6b389f78c5b5"
+  },
+  "I-section support column 16 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "22d1b74346f8433539489ffbe57114ff09c4e64f295d160a8eddff9c3026f591"
+  },
+  "Grounded column footing 16 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "7e6711e25cb6d74b3d8669b39b9a0783b87c3d3adb306d7e94753ead29674e80"
+  },
+  "Rusted base plate 16 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "7b1b6408e4ca307ee74cdb3573e4c0dd6b22fe0be232e8be6fc0d27f3e80cf1e"
+  },
+  "Column anchor bolt 16 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "b26a3bb5515ef3dfa3eee18e824970f1c66caac1b241c3d833657607be1ca601"
+  },
+  "Column anchor bolt 16 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "219f82da3844d0e78943a4852f6d90004e93a34541f49caf0a17b8782732f975"
+  },
+  "Column anchor bolt 16 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "6cf8e1f085853d588041bcb3f4bde628ad27eed3d628f379646fdcfc51e1f814"
+  },
+  "Column anchor bolt 16 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2408addbd62e7c3576927a5b5d33a171ffef79e055f9f1ed419a342f4f53aff7"
+  },
+  "Broken radial I-section rib 16 v25": {
+    "vertices": 4236,
+    "nativeFloat32Hash": "06b4d10876bf3c1b9bbc9aa2964d1feb24e29b40e4052fb100f65cb5808ee902"
+  },
+  "Surviving side arch 16 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "6d4f080de9c66b53b3f8f63bd89d96dc39408b1649e4a96ee1e0515957018cc6"
+  },
+  "I-section support column 17 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "c123f3fff52fc3deb9d99a6f7b4d59c3541f0ce85d553eb5d46b244f2d24d7c0"
+  },
+  "Grounded column footing 17 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "5ead68b00c8e3e3ffd980d71b6d5c4ba9bb31b88cd5dfa6474d4592fdd119685"
+  },
+  "Rusted base plate 17 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "753e02ae5fd61db22b46447c4d13341c599668bbd780f8ca8fc203815d1f6b3e"
+  },
+  "Column anchor bolt 17 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "9ab34704a4a20112eff6815db88362edad60e1aaaa392854b5a56513145c23b7"
+  },
+  "Column anchor bolt 17 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f27bd5956019887839618185bca8151f8c1925e8c9ce80899b239c97256555ec"
+  },
+  "Column anchor bolt 17 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a1bdabccc2a71364cc172efa9d146d656090986007d2bd6e81594c9896166c26"
+  },
+  "Column anchor bolt 17 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d9be27a16d42b62c28342fc86e7eb4c09743573aef19b520ebd94136d92e9dce"
+  },
+  "Broken radial I-section rib 17 v25": {
+    "vertices": 3156,
+    "nativeFloat32Hash": "b1c425036b2aab37e8913f25f885a6bf2e094a6fa87f7d7082b012674f23db97"
+  },
+  "Surviving side arch 17 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "e8d17560c35ee6b2e6642906465d9ace96601e879fa8a58ac65bb1a7085b5905"
+  },
+  "I-section support column 18 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "20833bfb3fc015e68015906ec8c6109feba064a4fd4ff2fd36e9e63d6ea19e9a"
+  },
+  "Grounded column footing 18 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "f55726b4f059098a9d421c4bfd55a44054b118fa4d6b79b0bff678c2b4e9767b"
+  },
+  "Rusted base plate 18 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "9642074a3cf0b415d8ce8f4786842f6f0f360666f0e4dd644a3ed15e8a29c40b"
+  },
+  "Column anchor bolt 18 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "311f49006c57bb60bd493fc0c536aee1aadb1cb3eac37c5143f6355d0df82f38"
+  },
+  "Column anchor bolt 18 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "75949eb7d26cca49e38a3ff86f9d6b549b12cc1ff8d0171f805120438f724163"
+  },
+  "Column anchor bolt 18 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "9a6eee79b419d95eafc744430d7aabb61dab952d3dbc5bf45a8c4228062c4b21"
+  },
+  "Column anchor bolt 18 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "29af8e61bf606a863512ce59521fd5f9e349de2a99b088a616aed9c926ab878b"
+  },
+  "Broken radial I-section rib 18 v25": {
+    "vertices": 4740,
+    "nativeFloat32Hash": "285a57e52e5605dcaf353c3b104be7caf798ba0423e8028a8bff90cbf412ab82"
+  },
+  "Surviving side arch 18 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "fdebd0257200839f5fe2f8e9241efa3bdb0004547b105f075e2839e0289df768"
+  },
+  "I-section support column 19 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "7489dc491682f12dbb46ef7eb0024f3914ff77fc39bbcd2f48c54c84b0be937e"
+  },
+  "Grounded column footing 19 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "808ab422053b5b8077e65be318140ade4551a5962ee99e2b4b1484077ad3251f"
+  },
+  "Rusted base plate 19 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "498f6d335ee4d8e438070400e0f2d0418eae50f7a3825683490af59a1f369ff5"
+  },
+  "Column anchor bolt 19 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "c7f02befc2a01ed296dc83cae254a38057892eb8d783a9c25ec6f8e45d3cda42"
+  },
+  "Column anchor bolt 19 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f636ab227637577619b9c35829bdc3e84e241c9f028ca0fc82cb9029e191af4e"
+  },
+  "Column anchor bolt 19 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "c2ffbc72938663b55e70b9ff4cc1d2f59720e409c9f2cf6fbe806865098b20fd"
+  },
+  "Column anchor bolt 19 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "977788008f2518eb1ec629144294ea42933e08032b101c70887dec0721bfd57e"
+  },
+  "Broken radial I-section rib 19 v25": {
+    "vertices": 6252,
+    "nativeFloat32Hash": "1f0198f849dbfa569a266281163d53f04beabdbf1cf48e5b74edbb7bd832c856"
+  },
+  "Surviving side arch 19 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "a7e54c34054a52373575c514b43999d4e2426c034168952cb372b6d9396da1f6"
+  },
+  "I-section support column 20 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "3ca1e546b52696c1daeef3299fd92681c78415a2b6eec268b49c09c8b2732fc8"
+  },
+  "Grounded column footing 20 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "d898a095b3fdc003c25e3ac6e12ccf8dd895e60c75a7e2d54151713957150db8"
+  },
+  "Rusted base plate 20 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "243a5a4e47f48a292402bba1d42f383d6913576971b2472993271cde1b7deea8"
+  },
+  "Column anchor bolt 20 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "771e225df9d47017f6b1b859a2c4d0244f160592c84d3fd0217a7ff03aafcc58"
+  },
+  "Column anchor bolt 20 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "c9c0469e9cb893facb71749f108c7cb56fae6be968332341504d41f6dbf7e7a5"
+  },
+  "Column anchor bolt 20 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8bf1fb50a6cdd8c999f010c66bff3f80f92556574a0166a39df5efb605879fb4"
+  },
+  "Column anchor bolt 20 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "efde544e72d19f240f98a80a494568b95a0572e1b1bd36d4634d3455fe747844"
+  },
+  "Broken radial I-section rib 20 v25": {
+    "vertices": 5100,
+    "nativeFloat32Hash": "63b39f5fd1b744bf7970cf13de06f4fc144cb40d0b79e7a6dfe0dce01d6b62c9"
+  },
+  "Surviving side arch 20 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "93be84dcb254e4cb666778590e85da2cfd2d0c034b9e2e40666a34462f237bbc"
+  },
+  "I-section support column 21 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "0a4b6feabe0332518d1d6545aef4df9b1009bf24916292713e59d81d520dadb3"
+  },
+  "Grounded column footing 21 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "930b4b144d06629a07c20fd73878804a951d78d0a031c0e010b87d0262cfd977"
+  },
+  "Rusted base plate 21 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "a35cad0c00cbb67fb482418f49a96135ac1660a431c6cfcb7553faeb7699a4ce"
+  },
+  "Column anchor bolt 21 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "223302fd65e7f35ac13dc7f75864f097de8cb69946ef1c1c9a282e3fd962c837"
+  },
+  "Column anchor bolt 21 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "9d97c1ef0808c2b756ca316ab49d2886baa4c5459d1a2ccd7d41d3e7ea76198f"
+  },
+  "Column anchor bolt 21 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5cfb18341430d60d35eeb1d4c861292ac3549b457f782b76bc01885f1d55611a"
+  },
+  "Column anchor bolt 21 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "62f470b625f001aeb21fbe7254aeaa20a9ee2a1397ebe57c323f802e4ad7449a"
+  },
+  "Broken radial I-section rib 21 v25": {
+    "vertices": 4452,
+    "nativeFloat32Hash": "20682e54fe5d9530c6a142d9f2fa1ea51b721cc40c1b7695e38042c1824821a6"
+  },
+  "Surviving side arch 21 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "f1b65038ecd25cc360312bc2c34a3dd33a0ff4cc7c64a6fd3d877fb495670b2a"
+  },
+  "I-section support column 22 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "b138c7089957e7037f76587053872f0ef76e94d99ada5e244d73ad5d2614691b"
+  },
+  "Grounded column footing 22 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "45901054c79aa654e9c3307cec2742835539eb50a9768f2dba6b040db8b89353"
+  },
+  "Rusted base plate 22 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "74f2096d41f8693be647d58f9fae7079a3eb6f893ec01075d622df7c317bfc14"
+  },
+  "Column anchor bolt 22 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d6bbbef90de0a3e7a257bf508799afb696d7166c03d4c6a1b77e24705ad77ee9"
+  },
+  "Column anchor bolt 22 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "31452be1061a2d825b50383ecdb73cc8b7286df989f0679cb9f566859643bc86"
+  },
+  "Column anchor bolt 22 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e557a8b7e402b80d95b161a5fb002dce53a16d9f81f222a0d4d44e78965dcf6a"
+  },
+  "Column anchor bolt 22 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a2f921ae4853d3de7b9cca91a6f60f480fdea5d0d812ef7215cb772e20c6029b"
+  },
+  "Broken radial I-section rib 22 v25": {
+    "vertices": 3516,
+    "nativeFloat32Hash": "2144b600271e95778a01091654ae51786590e41d111554f8f5104b7bd14d906f"
+  },
+  "Surviving side arch 22 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "1ad06a44af38bcf4192c5109cd5bb19fa770f73913875220d10dfe22aeba778e"
+  },
+  "I-section support column 23 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "d77d33c842e119d3d5c21426cb4b6c611c31cfa7fa84cb1859e26ce8faba15a5"
+  },
+  "Grounded column footing 23 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "1b76864b3a7574974e5cf81d9ca6a2d55dd97f9c2b33faccf103c5c977b888e0"
+  },
+  "Rusted base plate 23 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "f7d8df119067c72cd91d14c902462012506d7e42d46b1f77c97381f0cf1cfc9c"
+  },
+  "Column anchor bolt 23 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "cbad988e75c350351656160c271445684494ac28d3b238c7c0d2a6e570ab87eb"
+  },
+  "Column anchor bolt 23 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "b223dbf5d0da822ad0496a015c4b3dc8f76a1e8d3b1ea5383f768feadf7f2026"
+  },
+  "Column anchor bolt 23 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "df939a0adb32ff611e870f467b0412ffea8a3ac2c8c26e179e15e3862fa933eb"
+  },
+  "Column anchor bolt 23 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f77073ee7e7b8a95e4e910b84d538a6f43f6baaac51efef7c324f357c5abcae6"
+  },
+  "Broken radial I-section rib 23 v25": {
+    "vertices": 2076,
+    "nativeFloat32Hash": "4d6ed9b667ba25f099f06856714cd8ae6ad146db105be54d5fd8f2fe514d1767"
+  },
+  "Surviving side arch 23 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "1e48c53125abec838fa2ea07ee7f2a113cd6bedf4672ecb3394e2089653e0b25"
+  },
+  "I-section support column 24 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "e46c9090ed21c16633f0231e10cc7fa4bcd0a91f7e537df8abba1cd36eb8249f"
+  },
+  "Grounded column footing 24 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "04a72bf65a0cd23e68e3b00dcb0251c0d08960b6fd80284830c3e3e0a677da51"
+  },
+  "Rusted base plate 24 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "db0863dad30704d74f46aaf0b92d28ae6bb247618e1aa1bd7e4491d468773b3b"
+  },
+  "Column anchor bolt 24 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8a83039ea1e01d4664d8aee320f4ae67861131e5f4e7e51f5a106e1a262faa42"
+  },
+  "Column anchor bolt 24 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3690679e0387685e03d44ee7cf2e11741ceaecf13b60a2ed66ba945ca462af96"
+  },
+  "Column anchor bolt 24 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "65ede071528dc590e3fb589466db43796b5a3f5618a9baf6884c54076a9d0ee6"
+  },
+  "Column anchor bolt 24 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "aae8ac3a40a6e943843e7d4886390e2a687a32c364147c3ea865d10a2943b5a8"
+  },
+  "Broken radial I-section rib 24 v25": {
+    "vertices": 1788,
+    "nativeFloat32Hash": "003beb8a9a4296b8117da8dda59fa5f1f578e562d08396a65b62faea556456c8"
+  },
+  "Surviving side arch 24 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "123e28051f5388f89ac0bb6dd9527859e92b93d1eeeabd851d92ede8fa87d207"
+  },
+  "I-section support column 25 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "279ba0c358bcb28081f9af10538024643f3b53d11cbcd792fa01dff7c78eccf0"
+  },
+  "Grounded column footing 25 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "e1836c4b9eb122fe1e7b61a4dc29ba4f950d4bb4b255276d59909d13a7c650f2"
+  },
+  "Rusted base plate 25 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "72e8659fb0130340bbc9f15ebb14fec9067462924e2aa9e085a0563fbe11370e"
+  },
+  "Column anchor bolt 25 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "82f0047231c78f828a3a0b6cc53251341cd5f592f68938f288173085f16d6692"
+  },
+  "Column anchor bolt 25 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "ea199b65abdf4b38fe9364235a31626245e5a00734fdd34593314a1f946ba2f0"
+  },
+  "Column anchor bolt 25 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1cedb985d5e710337099b1c8bce54e220e88341aeffd667e0e8d8d7cf4042b84"
+  },
+  "Column anchor bolt 25 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "b1bba9a4a4311843428696e9d269fce71b0c2e9410ab4fb444f0e82ec3ea5b5b"
+  },
+  "Broken radial I-section rib 25 v25": {
+    "vertices": 1500,
+    "nativeFloat32Hash": "634ccbe0dc1d29038a629ce9350db10204156e9627a334b700dbd6951f02994c"
+  },
+  "Surviving side arch 25 v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "73ef37ccaefcbb33daeb49a0eab9b4211183604051546e3276e6a6b574e0b71d"
+  },
+  "I-section support column 26 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "85774fe39222aba4c281090c65f8f59ca106303575069d5788967f8e55d8786b"
+  },
+  "Grounded column footing 26 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "eea810ea585a3667a263a4b3a3e45ea81b1678c3d3d6e4d18be87f5d9369ac49"
+  },
+  "Rusted base plate 26 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "27e8c7aa941d6b6aaed3e71b0c968ac538d28d0a9c5d79d59a82f54f6f260f25"
+  },
+  "Column anchor bolt 26 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "7e0602d9491a19e03d223b325946b88b1ecb376a92de8f56d31def474829d859"
+  },
+  "Column anchor bolt 26 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "ed8b658034268f3caa74344591efd16bdaff7cdca0f90b7b3b3ad811dda71dd3"
+  },
+  "Column anchor bolt 26 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e97432532c73d45437b1eacd0698b65a408d2e7ede742e2dcf4b4e020e6dc7f9"
+  },
+  "Column anchor bolt 26 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "798a77789fee4f49a5f1e5f93d9655625cca0ef6505b12887b24f29db7fc7d5b"
+  },
+  "Broken radial I-section rib 26 v25": {
+    "vertices": 3084,
+    "nativeFloat32Hash": "7533f8ddf7eacd5dd991548967e7ca039417d2607b5c2640ffb3deca13045db5"
+  },
+  "I-section support column 27 v25": {
+    "vertices": 2868,
+    "nativeFloat32Hash": "b25dc707ba3dfeeb04df9e967f5f1c85cba0077973414349597a987c0f4a6736"
+  },
+  "Grounded column footing 27 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "16be27bbd204e30a44fbc786e04c9d540f660c6931b63cc85590e2aae0b2a9e8"
+  },
+  "Rusted base plate 27 v25": {
+    "vertices": 36,
+    "nativeFloat32Hash": "f9a7bd6b0292bcbf4e2d201cff1a11a79c15ba3bc8ac841fd21b906af3a68407"
+  },
+  "Column anchor bolt 27 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8f4c6c4e1d3ff572df2776748ad548754e2b6b517858230d8750e9dd8c4e6799"
+  },
+  "Column anchor bolt 27 v25.001": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2525b53c34076444eee0d9fb694639952c1fb4315ab5083f98a811c80277bc9d"
+  },
+  "Column anchor bolt 27 v25.002": {
+    "vertices": 72,
+    "nativeFloat32Hash": "4d4c2af9f4fd026b4bb22b1b15e31ff6e36d40c966a85f2b68f672999473988d"
+  },
+  "Column anchor bolt 27 v25.003": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1dec06e0c68e8952df7bdd25e122e3f659ba145ce75a227704ca458b3536a361"
+  },
+  "Broken radial I-section rib 27 v25": {
+    "vertices": 1644,
+    "nativeFloat32Hash": "31598521d3dbdc58f3de176f92451422078775d463bea697770068fdbd614a22"
+  },
+  "Upper dome ring tie 0 2 v25": {
+    "vertices": 912,
+    "nativeFloat32Hash": "fe4e3a20ccf83455d69f57ca461e7ed4399470a1679a1a996d1c9dc1f0308162"
+  },
+  "Upper dome ring tie 0 5 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "e8192f570c1fb70317ab0438fb002d53838f6eea836ada8fb36197f78519a817"
+  },
+  "Upper dome ring tie 0 6 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "7fe0fe86316547facf227f49588f2337042136c6fcd33e3929e86192d6d2f099"
+  },
+  "Upper dome ring tie 0 7 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "42face58c5d928dac8d474b2e5bcfc93501dc45070de5a51b59af871e3d283e1"
+  },
+  "Upper dome ring tie 0 8 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "83a1cb8b7d721f23a5a63ee8c58df5e813fe749bd67b55f5cd196e7e9f583a27"
+  },
+  "Upper dome ring tie 0 9 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "edd0b5d7319d679783adc94c8aff3597caeceff038715f23479b42e51e8271e6"
+  },
+  "Upper dome ring tie 0 10 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "04634e292fc708b2cf35930427026b1e06928586720f832fd984570b6b7210ad"
+  },
+  "Upper dome ring tie 0 11 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "86b9fd1704940c2f24e9527a97f429321cae1c6360330258e65b18fd7caad445"
+  },
+  "Upper dome ring tie 0 12 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "67d0b15fbb281fdeed1b51a181071a0fb91925094ea1c11ac3cfa18ab345dc89"
+  },
+  "Upper dome ring tie 0 14 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "fccf6d7202940f46b16d173258e9125373307d710105da3dab75b80d7a78e62f"
+  },
+  "Upper dome ring tie 0 15 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "efd778f5530ed6eb4a9cdb9bd1ea3accd83b31618027104dfa07f1ae898587f4"
+  },
+  "Upper dome ring tie 0 16 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "7357a1e9383090a63798940fbbe2d6e0fd8132a3e3bb1a6e6425214c69347377"
+  },
+  "Upper dome ring tie 0 17 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "5b40cfba400fecd1183491a5bff6e84419e8a4904d4cded7368af8b3c47333b5"
+  },
+  "Upper dome ring tie 0 18 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "3e8affe07989440babd572cda7dd796d330330b21e8c6ba91da88e64db8e6cbe"
+  },
+  "Upper dome ring tie 0 19 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "ef97469fb844f3e23eb94873f5be1372af340f8475540763a9080281a5d110f5"
+  },
+  "Upper dome ring tie 0 20 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "8926852ef89ad161b74925dba22d19d0819665f094f469240bf7f84a2a045f5a"
+  },
+  "Upper dome ring tie 0 21 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "9cd712485edaf9f32ca6da1fa82cbc9de6c06814f02145964672a308a3807de6"
+  },
+  "Upper dome ring tie 0 22 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "5da20ee221721a34ac71c9f6872f181c5cf361789ba3019cdd3208751ac08eb3"
+  },
+  "Upper dome ring tie 0 23 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "38ed806ea4aec514c9fac8bdcc5e5ed3c31cff0ca8e231bd17e7a2c829008708"
+  },
+  "Upper dome ring tie 0 24 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "ab2d9f6abf7bb45965a49f1a8c872f76ffdfe18c447ce938954dbf8ed5c55989"
+  },
+  "Upper dome ring tie 0 25 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "df9598b5886779ebbfc77a3a0b6cf004796ad52121ccdf1f53da0c53d58e9edb"
+  },
+  "Upper dome ring tie 0 27 v25": {
+    "vertices": 2448,
+    "nativeFloat32Hash": "1c1f3a66dec1a353bade0a645dfc30ce9d2297e9b1418fd974407a05da3f34db"
+  },
+  "Upper dome ring tie 1 2 v25": {
+    "vertices": 864,
+    "nativeFloat32Hash": "094936d323a9ecaacb5b6adbdd66c3a06af7d97c98f52da24e2a9ad741c7212c"
+  },
+  "Upper dome ring tie 1 5 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "39c99d1e5e409bc9b28e41191f000ccaa85de5616a3bc023405c9b79d2e949c4"
+  },
+  "Upper dome ring tie 1 6 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "54a9922b752302f1e7e4fc94c6beeb9657b5ec474f981286f52fd4c3230f0774"
+  },
+  "Upper dome ring tie 1 8 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "51e7066c89282f61f8fc6d17c58e2923725c201230e24bc16387ad8b2a01d154"
+  },
+  "Upper dome ring tie 1 9 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "1113ea88c13890d31533c1120b23e9eea9ec89c1e6be057b91ca6f0b19b13529"
+  },
+  "Upper dome ring tie 1 10 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "0a51c84bec0a1b8f24667a85ebcb414e823d6c86dc6c15712c03dac750a051e5"
+  },
+  "Upper dome ring tie 1 11 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "66f8c4e7d789d3eb36eb07c7f7a62996bd0af346fbf308ef5f6b5a1676ed9397"
+  },
+  "Upper dome ring tie 1 12 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "3e177718f0cc3fb6e02153dba2538b8a8b70f44bb5734fc7411983d5532610e7"
+  },
+  "Upper dome ring tie 1 13 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "7a27df751f322c98ceef72ad2cb2f82afb933e9a2d23bf164485965fb5fb2222"
+  },
+  "Upper dome ring tie 1 14 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "cd8aa6929ac5787327cdc08a77c9ede9f7fd9e8f3132ab83b62d7c9469cd5306"
+  },
+  "Upper dome ring tie 1 15 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "87fee491dabbe4fe9e66dd18ae92ccbfb06a0f8705398b0ae64bea0caca114a2"
+  },
+  "Upper dome ring tie 1 16 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "1b654f5eb1a4550d6657327190763cc2ee66bef3a50d3d2ddb42da9b7f484b07"
+  },
+  "Upper dome ring tie 1 17 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "f49ce453ac0d6c2281b1d6f5bedc4b53ec3011d52bc4c29fd231cf9b23283aeb"
+  },
+  "Upper dome ring tie 1 18 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "79e2e860cd6edc074a027e00a39fba7f3a7a7ee683c72832a8cd58946a416e19"
+  },
+  "Upper dome ring tie 1 19 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "5552102a980602385fc7206a6f66c91513c9be920c12bd504bf286ecdaddf508"
+  },
+  "Upper dome ring tie 1 21 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "c594a8563e87bb48e23353964729438f3906600c32dbf5a0cda6a47bbb7a0bd1"
+  },
+  "Upper dome ring tie 1 22 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "4a59ec87c426e2678032825295bb163d50c66bf55873897370c818446da47303"
+  },
+  "Upper dome ring tie 1 23 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "e92fa222b8a859f0cb4f7fb897ccc1df44914c774d8f6c21f1d80788980d9693"
+  },
+  "Upper dome ring tie 1 24 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "a8f170064b14de3991299856a9aa77f72a40775f3329879b4ab3dc7caff6fa6c"
+  },
+  "Upper dome ring tie 1 25 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "5f435dfb94ba49b8c6053522c3ed175c108de63f08e68e7cacab214b8e1eb4e8"
+  },
+  "Upper dome ring tie 1 26 v25": {
+    "vertices": 1632,
+    "nativeFloat32Hash": "7c15641195fa3c09e86aee690a76e2eb9b4361f9b42c0e277820077a5c19c736"
+  },
+  "Upper dome ring tie 1 27 v25": {
+    "vertices": 2400,
+    "nativeFloat32Hash": "31e58c276e29ed234254f286b56d8394df23c635435d327e29b97a07840cb21a"
+  },
+  "Upper dome ring tie 2 2 v25": {
+    "vertices": 864,
+    "nativeFloat32Hash": "6d77a689c265f57e6da26dfc38db68ee3deec0d4fb0eb98f848ce65d3287e757"
+  },
+  "Upper dome ring tie 2 5 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "544c8003ac07a3f49c8f25be82720bc23d51fcaced0f3295466d3bd8a4b7188d"
+  },
+  "Upper dome ring tie 2 6 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "db0902bb784e48e1c1433eacd2b1bc7bb2f83544db95f0c0a167c3835617fd33"
+  },
+  "Upper dome ring tie 2 7 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "1d1a936c43944805fa52a7abab66e90243f960d395974e555fe7ffb1d3dac41f"
+  },
+  "Upper dome ring tie 2 11 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "b21a26345a46d01956f96c75e595b4bd62875677bfe73ae9f6f9aa7fa09e1861"
+  },
+  "Upper dome ring tie 2 12 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "8159a2d04eb80f07fdbe8b80db328c19c04b66d6f096c68eb695eb159c5df156"
+  },
+  "Upper dome ring tie 2 13 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "ef72b0c6426ae39e72589a144f018454fe89566e90eea271ab536fca65aa7d57"
+  },
+  "Upper dome ring tie 2 15 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "13b0745c482abfcf6e0f22cbc541f9f614a650daa9f74dc63c50b68efc7973b7"
+  },
+  "Upper dome ring tie 2 16 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "60e411d1ce491fd9491e95c80a3b2b652d0dd43a27748f8b196d4f8895aefbe7"
+  },
+  "Upper dome ring tie 2 17 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "5424044f6b77fd9c59c5a33055853a27771f317c76f6c3f62bcf2ce9b329d005"
+  },
+  "Upper dome ring tie 2 18 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "1de029e91e70a0fd95030e70296ec43308e748caa28de8eced8d07109c3fd7e7"
+  },
+  "Upper dome ring tie 2 19 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "35ddc049965cf19c0f907deac9cb8e30c83a3898cd31d0e00cb2c703d0dbdbe0"
+  },
+  "Upper dome ring tie 2 20 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "6c439df81e382104b8d900a8cb08614d37b1cb9261744e1b2fdf9204708705c7"
+  },
+  "Upper dome ring tie 2 21 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "b1df96b002b85e157dbd057a1f1a5c92919b84123d96154260e23d1eedf156ee"
+  },
+  "Upper dome ring tie 2 22 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "46f9742d81a05d6a28c821da63fefd1cecae5b3c77aff2445576b626930a376b"
+  },
+  "Upper dome ring tie 2 23 v25": {
+    "vertices": 768,
+    "nativeFloat32Hash": "772caf753f408355e426cab2251a9dd62e3370174d1bb228bb59cc704fb719a9"
+  },
+  "Upper dome ring tie 2 26 v25": {
+    "vertices": 1584,
+    "nativeFloat32Hash": "33ab328efd17f289b2fc57dc08299d884ee51fcc0fff747214cc10b68b4e25db"
+  },
+  "Upper dome ring tie 3 2 v25": {
+    "vertices": 816,
+    "nativeFloat32Hash": "0f91a964140cfa91234578ad5168131c7844d2cc950fe3903d74588cc92604b2"
+  },
+  "Upper dome ring tie 3 5 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "17c4f780ec84d2d7fe5b7e11807194d10a534b2e03af3f4097383b1435fce7c8"
+  },
+  "Upper dome ring tie 3 6 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "2d37cfdcdae4e7ec10c68aa13ea0a86493317e459c8facc1d0da272da1b5ff79"
+  },
+  "Upper dome ring tie 3 7 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "eb54e08d512de010dae17d019ec365e11fff2eba645933875f9006cef6e94643"
+  },
+  "Upper dome ring tie 3 12 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "8153b7d4aa01522c93a3337fbccc5a4c4e4365d6f0a3a58e1455b2ac351d24cb"
+  },
+  "Upper dome ring tie 3 13 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "4f7d1000f074a50f24f614dcc34d0a4414fd24eeb8b232b57834fd28c1cff537"
+  },
+  "Upper dome ring tie 3 14 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "28c450bed4e74fb2c36195685ec7534ad5229a434c48aadb0c9926364c41c599"
+  },
+  "Upper dome ring tie 3 15 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "a496fcda74c48344de2c9fcfa4d6c8451621f7c55205074dec43b8234af07edd"
+  },
+  "Upper dome ring tie 3 16 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "8b2e04f16d09433c1c0eb71f8491552387f5a3c83c02c5632761e01081cdfe62"
+  },
+  "Upper dome ring tie 3 17 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "34ed5cad2ddc2a4093def39dab42f73b462df17a9e06f2b9df563b0e10f615ea"
+  },
+  "Upper dome ring tie 3 18 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "fecc7f9bb0ed440fdb06be196ae0d9a18094e01635bcde8d42a430cfee8463de"
+  },
+  "Upper dome ring tie 3 19 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "92621b39786926d81c3df2eaeca0c51b4c341e79bbecac71a55b1967f49a334f"
+  },
+  "Upper dome ring tie 3 20 v25": {
+    "vertices": 720,
+    "nativeFloat32Hash": "306ba5f7a5629bcbb61b57707fa082379543405a4831565b5eaa549e47be2367"
+  },
+  "Upper dome ring tie 4 5 v25": {
+    "vertices": 672,
+    "nativeFloat32Hash": "cc080a2b42bed27f98a7d4d2e4a1fb90dcec630e04e8c1796942c1d6d32886da"
+  },
+  "Upper dome ring tie 4 12 v25": {
+    "vertices": 672,
+    "nativeFloat32Hash": "efc479f2dc441976c73995bebe858ef4c0a2d23b6271aaf69c64192a41e7daa5"
+  },
+  "Upper dome ring tie 4 13 v25": {
+    "vertices": 672,
+    "nativeFloat32Hash": "9ba9c29a8311ac94e8a2c39b480792693608248dae945dae4af85aa8ac7bda4d"
+  },
+  "Upper dome ring tie 4 14 v25": {
+    "vertices": 672,
+    "nativeFloat32Hash": "daabf22528ec3c1d48e933b86b96f851c9fe95a1aa2a0df4501697eb103a5723"
+  },
+  "Upper dome ring tie 4 16 v25": {
+    "vertices": 672,
+    "nativeFloat32Hash": "c37fbd1caf9f83973296c1155e8810552300d43f7bece51cfaf8910aa9539435"
+  },
+  "Upper dome ring tie 4 17 v25": {
+    "vertices": 672,
+    "nativeFloat32Hash": "dd5aa080d57ce191c73c56e6e3ebfcb542b8512303026d072c07f0db98606e2b"
+  },
+  "Upper dome ring tie 4 18 v25": {
+    "vertices": 672,
+    "nativeFloat32Hash": "5bf4e82132fa25e4b41fc6c113b2a3afcbf70826c2367a1da381950d78f1e0ed"
+  },
+  "Upper dome ring tie 4 19 v25": {
+    "vertices": 672,
+    "nativeFloat32Hash": "bb55dc54a2a584fb17fdd9312aaef206fc0d5b1f171a8d46a22e7ec4633cdaed"
+  },
+  "Upper dome ring tie 4 20 v25": {
+    "vertices": 672,
+    "nativeFloat32Hash": "a83661204d9a1d2df072228941bb2061a540c3d9694bb30beefbcf1bb59caf2e"
+  },
+  "Upper dome ring tie 4 21 v25": {
+    "vertices": 672,
+    "nativeFloat32Hash": "b0e41c17aecb2b85b8acbd0912ebf5a89cc1dffeb470c2452f1269c789916432"
+  },
+  "Upper dome ring tie 5 13 v25": {
+    "vertices": 576,
+    "nativeFloat32Hash": "fa7ab15bb72cdbcb4f5c87eaf96f6748686d7778442bb88dfc892a15c6cc1676"
+  },
+  "Upper dome ring tie 5 14 v25": {
+    "vertices": 576,
+    "nativeFloat32Hash": "329868032fe5a1ae4aa267de158cbd1ab1f1e6938ca699ce1b7c6c5a34c3ca1c"
+  },
+  "Upper dome ring tie 5 15 v25": {
+    "vertices": 576,
+    "nativeFloat32Hash": "53f85f6593ca666ccf833e853134196d7df06b17ef9b1bd93adfa32a320e22cd"
+  },
+  "Upper dome ring tie 5 18 v25": {
+    "vertices": 576,
+    "nativeFloat32Hash": "0a1f0dfbcf40785095068414bf4a3df1c16ca8e6b3e2ae35d6bc73b3b53cdb83"
+  },
+  "Upper dome ring tie 5 19 v25": {
+    "vertices": 576,
+    "nativeFloat32Hash": "30a939bdcd658614f5fd7d7e684fbd082141f44bae9ed1d173fd1c0437ef4fe3"
+  },
+  "Upper dome ring tie 5 20 v25": {
+    "vertices": 576,
+    "nativeFloat32Hash": "bb72f45cb13daf1e7ae4894148e89edef22844da537bc48d1c8d727b379d5a45"
+  },
+  "left bowed beam v25": {
+    "vertices": 1716,
+    "nativeFloat32Hash": "dffea60382405483194ff8a8b59c2a4a6d4f6414228d7adc1d5536876acf0f90"
+  },
+  "right bowed beam v25": {
+    "vertices": 1572,
+    "nativeFloat32Hash": "a896a72d6bdb6c5b485410eed52aab85138c796a81442aa08cc5eeec2077ab04"
+  },
+  "left slender tie 105 v25": {
+    "vertices": 1572,
+    "nativeFloat32Hash": "96ae7ee792d7530b941428cb554117d98b10e7acef4c320fc7364963dec21735"
+  },
+  "left slender tie 208 v25": {
+    "vertices": 1644,
+    "nativeFloat32Hash": "53dfa6a3118d620d2d2a4d0310ee988c0aa6a64d24b0b930941b653952d2de8c"
+  },
+  "left slender tie 307 v25": {
+    "vertices": 1788,
+    "nativeFloat32Hash": "a12f60704a1bfabc6ae706aa2a065fa6cb86a349bb5efeb8869f9fa159b02fb2"
+  },
+  "Column climbing ivy 27 v25": {
+    "vertices": 2484,
+    "nativeFloat32Hash": "7d2e46f21a16b4e8bce3fd0e19798ccfb6437b852f7e4daf4ca2a1121b217056"
+  },
+  "Column 27 petiole 0 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "0e083688918c33c8d5f07410c7cbbda1bd37719784716135901c4e3b3957e13a"
+  },
+  "Column 27 ivy leaf 0 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5d3c4d6003e9d8c65da72790de0b8c1ec82add141d54bb1dc23faf953b465518"
+  },
+  "Column 27 petiole 1 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d0221330c422b351503bbf3371240dffccad4c15202ff9929ef3e17a56df8db6"
+  },
+  "Column 27 ivy leaf 1 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "f058251592be27a8c4c58fa286d27161ae7d84b5cc763a5804504a38bd2556c8"
+  },
+  "Column 27 petiole 2 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "025d6e474f97a39ccb594e33829a777c83fa5862ef413aefb6cd39c092b646ba"
+  },
+  "Column 27 ivy leaf 2 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2c8d2e2c3aeb1f4fcacc45fb254869f8b13ed8e61f1552839c6e508d83308952"
+  },
+  "Column 27 petiole 3 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "24bdc9def6821bc408146159d5178d43566549cbdb619a8845204c38d3f3dda0"
+  },
+  "Column 27 ivy leaf 3 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "740b45108015aeaf4dc1ead8065d6e98391a4193e56084814e76bb92c0c34d25"
+  },
+  "Column 27 petiole 4 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3a5c17dbb8fc574cf3d8ec7f6747f8c9f3e24253e39a7318d36ab33d1896a204"
+  },
+  "Column 27 ivy leaf 4 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "e66f7b75a78cbcc45b4ed2df2d4d2a11831cd82a7f9915577edec01d27cc7b87"
+  },
+  "Column 27 petiole 5 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "310b19a9984bec34207bf56e80502085d47461e68e7dc4e5234034111ca10868"
+  },
+  "Column 27 ivy leaf 5 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "44375686dc1dc2322c741894515c1b090f94d2fb0ec7812f18134834623f29c0"
+  },
+  "Column 27 petiole 6 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "cf43d973fd932a0123b63e68a5507f23c062400ad4c4c1f67c5d0fdd6d992576"
+  },
+  "Column 27 ivy leaf 6 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a560c7531c813465fc8823e9997095606c636de72d98938e18bf9d15615df030"
+  },
+  "Column 27 petiole 7 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e03219cbb2dd87fa527cbf0e7b4083b95a607197ff823dd9e86225169b5a0d00"
+  },
+  "Column 27 ivy leaf 7 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "c0c021e916492de358384bc87cc0057751e82aea5adf9ae3514e514ee0e376cf"
+  },
+  "Column 27 petiole 8 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3514f14575ee6a69a48f624aa22ca04c4d2e32bb3780a808c6d58d662733580d"
+  },
+  "Column 27 ivy leaf 8 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "cf9512297ef0801b1130c6930f79e853e21beb40b97c00039dd6cb8598bee854"
+  },
+  "Column 27 petiole 9 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "971e017f14dd086a85eb5dfc7e687a80dc3edc244df84578a56568760d3ca8c6"
+  },
+  "Column 27 ivy leaf 9 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "138dd7d4533cb62411b46e127723a25244c4bbfd3174009b55ae96be57b904bf"
+  },
+  "Column 27 petiole 10 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "eb0704726f736a66869d80dd6c676e7eed41d67422f13b068b7f68af1d000895"
+  },
+  "Column 27 ivy leaf 10 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5b47b2ec05752fc2b3cbbc0ea9c1777af7ada5352e62ed9d3de3bc944a62af94"
+  },
+  "Column 27 petiole 11 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "958d1dbb21369ee6b3fcb04f8964580a9e0c959ef0d979a4a4fc7b6446eae6ff"
+  },
+  "Column 27 ivy leaf 11 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "e7881d648a8dcf84241750703b3cffaeb68c39adf4c96274a653c6a62ee29674"
+  },
+  "Column 27 petiole 12 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5157eb7123926bd2087641a721ac7c50b8e5caef2291072bbce3055a37ab3520"
+  },
+  "Column 27 ivy leaf 12 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "c3c876d1b85ac74d94b923d8162c2751b85d6e7325ea52a0e37704b8f7ad663f"
+  },
+  "Column 27 petiole 13 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e4936a6620541872580de4133b2b6e80b25d601cf3e2f13c4826e7fc128d47ed"
+  },
+  "Column 27 ivy leaf 13 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "92c9d7cf368ca159c1fa713b7a1d290ce9f730e202629ec1750007f246c12fb2"
+  },
+  "Column 27 petiole 14 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "60d39eec881d0c32eef730e41ace8519fe7daec188df00dd44042f317d383d91"
+  },
+  "Column 27 ivy leaf 14 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "7e05ebbe405b0024a41e171fd9678ac1fc8995a82f2614b8c1465f6ec01acb52"
+  },
+  "Column 27 petiole 15 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "28032b032bb548ea70e4522fb6c83206e544fa3effb9ae270721e7103a56e976"
+  },
+  "Column 27 ivy leaf 15 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8b644ecfcf41e544f23d80f2e99714812a100171174aa9ed08a421702b50a7bf"
+  },
+  "Column 27 petiole 16 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "4efd3f497909c32dc0e81d15cff53e0881d090a7a9879550a45eaaadf10ee7a5"
+  },
+  "Column 27 ivy leaf 16 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a6d7326dab4b3bce56532b063b180da2e6683af93a4a83a3ed0c1de9871a6b64"
+  },
+  "Column 27 petiole 17 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1b3a844288ef7939ce5bcc1cb9979c2ecfdf333a7e7ff5ef36d86b26e4458a38"
+  },
+  "Column 27 ivy leaf 17 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2a743823763e9f3044e11a14d424fb3728eaabeeaaa7284cad9bef13cda8331e"
+  },
+  "Column 27 petiole 18 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "64fef74b449f619153ef30cf573749f131971d5c84b4d24a87e6ec26f7578f6c"
+  },
+  "Column 27 ivy leaf 18 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "f334ea8665861bd98ecd5f876ed3a5017152ade492708063155e00718c01b257"
+  },
+  "Column 27 petiole 19 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "0732d46b686e626ab3ab72cdd30916769164faf0aeea4c924882b2721cdff6e0"
+  },
+  "Column 27 ivy leaf 19 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5bf45d7a4f282b63ebb6a4da19307c9129d320a8fd203c59a031e10b9fe0f3f5"
+  },
+  "Column 27 petiole 20 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3432d80cecbe814606b94e78b9e3b42c3092f4d965508903dade44048dc7bf55"
+  },
+  "Column 27 ivy leaf 20 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "306b84a8ecf8d639833cc2ef72404103e1014020947a451aa18fc54993dad496"
+  },
+  "Column 27 petiole 21 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "05ddfe689c928cbb81e0ec62fffda35a45e978adbd4a7a89b9a16bb21d58a7aa"
+  },
+  "Column 27 ivy leaf 21 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "955c8e75eb123d6b1d2c4a5f7a46012145ace7c725716950d2bd4a92c19efd7d"
+  },
+  "Column 27 petiole 22 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "b6ba7d42bcca75ba4091db831f17f3eee5e7ce986a9406ee45997d59173b56f3"
+  },
+  "Column 27 ivy leaf 22 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8f43cc15e6be32f7eab121fdf7cbe4a0944d02ee035ca23caf5c45cd800287fb"
+  },
+  "Column 27 petiole 23 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "970d820106994580889604db5182d2478d09e07db0616298f9b4b1f1f58c529a"
+  },
+  "Column 27 ivy leaf 23 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "73cdb5f17e4262f66c1167ffa17c9452a0e35d5c42f7e8c38b835965f925528a"
+  },
+  "Column 27 petiole 24 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d91162cb2732fb0065b0c9623bb6c147cccf2092cd7c7810c712424378d74729"
+  },
+  "Column 27 ivy leaf 24 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "25c05b1319cf1886ecadc0242f8b40a39a179ab3090ce2066bee77b8e5d7a274"
+  },
+  "Column 27 petiole 25 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "93ad62f6b2e1e44b97f4bab1f2a9b3e51c9081c3061310dcd31d9fc09a96e034"
+  },
+  "Column 27 ivy leaf 25 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "491bef78e72ec4e2e285c952b340ceb37cbbbbbfb9e9faf4d63f91ec8e390249"
+  },
+  "Column 27 petiole 26 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "ca4aa441f6c7a383c1fbf09f8be312d5587e0ea740949fc541319eab40542bc8"
+  },
+  "Column 27 ivy leaf 26 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "1a7a8e76537e5516d239b5fdcf127b33660a0c95b7e12577eca7ebb07b4ba367"
+  },
+  "Column 27 petiole 27 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "12b667432dfca0edb099368560c44b258ab25d768781b81b801cef8f6f3a2823"
+  },
+  "Column 27 ivy leaf 27 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "e10dac6304cbe3ffa540fdf314a4199fffea7988f65c496d7d20b0741930638f"
+  },
+  "Column 27 petiole 28 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "79b3263766c2ca1400585f5c0633e560a015a587a21d05b773010e2fd0037521"
+  },
+  "Column 27 ivy leaf 28 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "40fd053a9ed87fae4ca3d325492f2857c1f8c9b38563d64d06e22851484e31bd"
+  },
+  "Column 27 petiole 29 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "242d676e215e7be758c4df487ab682dc4666e353e060b54e8e0f0b2b7b663317"
+  },
+  "Column 27 ivy leaf 29 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8e944952df52de1c8c85bfdd71b7fa01cd15eef50db04a5b087c3be9b5ed1cd6"
+  },
+  "Column 27 petiole 30 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2c3d415f877462b9b9649a01649c7527dad82c6d4a13a80fb2bd3207c03b85df"
+  },
+  "Column 27 ivy leaf 30 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "1d5b17aacdc9368425622c05d7996626f583c799279e4cf5482b0e2e48f6b439"
+  },
+  "Column 27 petiole 31 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "cb4302c6b4348fcdc6806f05bca840e8ddeeb08c666852abcc32223cd1d3792e"
+  },
+  "Column 27 ivy leaf 31 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "f1bde3520d9768c7c6f6d875ab4ae21edc504d575f8ad056c4d88a0d97876493"
+  },
+  "Column 27 petiole 32 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2995748ef8b12c055cafb52c5fe246016c511ec8e8fa3f7ff18686c7ab89fd10"
+  },
+  "Column 27 ivy leaf 32 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "6e315dc179ae1bb8fdce96f2cebc1b0486179b4ced1efbad150bfe6bb1ae80e9"
+  },
+  "Column 27 petiole 33 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d9de3f3e92d9d55368b7297b640bef0f46b532d523b50184883c9660eff553e6"
+  },
+  "Column 27 ivy leaf 33 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "1e5e275cca24501fbaf1adf8837380f633df84964f7a49f87aaeffe3be1918c2"
+  },
+  "Column 27 petiole 34 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "7c839f7b07099e4dbaec193e52e7e80bf709eac032269b0d0b55b76b7191da58"
+  },
+  "Column 27 ivy leaf 34 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a0245af7fb9aea25b7342362dcdb3904030707e2eacee7a1aca11c87090a0afc"
+  },
+  "Column 27 petiole 35 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5ba9f7db510a81af5f3dbba35861ef8390127f86829caeb40f0ef43332eadc9e"
+  },
+  "Column 27 ivy leaf 35 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8f3e1dbdd8e60f9f81d4d314d4838c05f95b9cbe3d33bf8b3dadd4c36e6034c2"
+  },
+  "Column 27 petiole 36 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a0a88880278e2bbd87e56a5371d9695026400e44643ffcaada6351b017e14b70"
+  },
+  "Column 27 ivy leaf 36 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "14a41374e8d5e5eda58364e2d89b2bfcc40d0dbb40c5ac38646e2cecf9dd1ffe"
+  },
+  "Column 27 petiole 37 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "c1bf2ddc5df86160b960812265264ae5c750dc95a91f7e07c62a43eaa4c2ce98"
+  },
+  "Column 27 ivy leaf 37 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "50cd80bbe8b41d2f0194b685e76bb0269348a51271667a6336ce60351ea4389e"
+  },
+  "Column 27 petiole 38 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "6ba77451d8ce6907ddb5dcda163963475df29c54c068bfcd133e2e68c92a767c"
+  },
+  "Column 27 ivy leaf 38 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "00d6aa5bb5cd976c8a7dadda91cf259463b73e14d115c0294d5f4f985e97b29e"
+  },
+  "Column 27 petiole 39 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "6dbe0d482dd9f6a32bc831621f98326d570279ff3cae87d5499d2669f4c36539"
+  },
+  "Column 27 ivy leaf 39 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "eab10d0f47427d15003bc2299f3afed586dc2b7539454543946215f393b1188f"
+  },
+  "Column 27 petiole 40 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "88f6ab953091bccca278d44aa263335dcbf097bbedda04c1d261d9972f575a5a"
+  },
+  "Column 27 ivy leaf 40 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a69f1064cc05a230db8798269a22064686b58cfa94204e9277e519232ab49e43"
+  },
+  "Column 27 petiole 41 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "91555fc831328b9b052343712a67e5c8f9730803fd5a28c389e7ba35137641e2"
+  },
+  "Column 27 ivy leaf 41 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "ad9d25841b317c3e0a296cacbedd65be0a124e1a649aafd252a359f39bf0bf70"
+  },
+  "Column 27 petiole 42 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "7709b81138ce69eddfd1ee8f5a75c3008f3acdaf3495061241e7fa7bea14ba52"
+  },
+  "Column 27 ivy leaf 42 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "83d6d3a089880ceaa4eae89b0622264d6aa1113810b69db5e2b5d3e08e5d98cf"
+  },
+  "Column 27 petiole 43 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "01f396bd1dd20e6963aacbd93140a23b3a88596eca3dadaa3e01b07fde8b0a78"
+  },
+  "Column 27 ivy leaf 43 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "6fac14e60db69873130420635ce8e00f8399a409386f1163f9c4e35d7b8ca00f"
+  },
+  "Column 27 petiole 44 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "b363b7bcca09df5961ed7811a30e86aa9ccdec40dee2087bc78fad6472f852fb"
+  },
+  "Column 27 ivy leaf 44 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "72f1bc698d36a91163609a12792e30738dfd248def2f32745e7e7f5f660cbf06"
+  },
+  "Column 27 petiole 45 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "93052a8f526a8cd7738e0bc9e86778bdf150ca54ce6b64ee92331afa158544c5"
+  },
+  "Column 27 ivy leaf 45 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "574ec40bd1131bbea45f08ada92a87a4023afb4c12cc551342a8b72ddda23846"
+  },
+  "Column 27 petiole 46 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "dd88cc8836a14f0967dd5d0969d39d443163abda25e86c58c2e810ccb6734197"
+  },
+  "Column 27 ivy leaf 46 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "bb8cd15aff46253a71391c61895fd64ddfe4dd3a02e57d7658bf6a4d5446e39b"
+  },
+  "Column 27 petiole 47 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "52ea8f3213a3bf8df82cdf3b7185fae991efd5d9f20e6ec09a0f18befaee8245"
+  },
+  "Column 27 ivy leaf 47 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a821121ed6ebfa800fc3bd631ff7d7564dc4796c7cf991de92be2dcc7738cfeb"
+  },
+  "Column 27 petiole 48 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "ebfb132f2285498976541d6b04bf6848fbdef492825b490b238604e13e68e4b6"
+  },
+  "Column 27 ivy leaf 48 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a75fb056a4d8b788749d11d542122927d080c0aa0b7b281d47f88af8f24a63e9"
+  },
+  "Column 27 petiole 49 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "4775bfcefa5a8f3cb1d203d6d715cd58f3ac9ab0e870914bc4d7266e0d64e43d"
+  },
+  "Column 27 ivy leaf 49 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2a72325416fc1f16488fe2cf4d94bd54ba2b9af9c3c57519fe266bf23ca498cb"
+  },
+  "Column 27 petiole 50 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e8d08c33f78197eda29a8413b107d326aa026aae3c4bc3fcfa231ac26a8f1414"
+  },
+  "Column 27 ivy leaf 50 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5d1ecb435ab95758ec6d789b3615506c8cd3b49d3411a97446548377306fa5c8"
+  },
+  "Column 27 petiole 51 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "4f33840aa151840e4314bdbb6f1d91c0d00edbd8b2ccdd61e1c53c8d23249fe5"
+  },
+  "Column 27 ivy leaf 51 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "878d5f97c2b3cc3117cdf643013d920005210ef01e93a5588dd8768ea5d6c5a7"
+  },
+  "Column 27 petiole 52 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "aa2b701a7c82a3367e58e683671b1a2cbf46e1596cdb1652425c00deb785b7c8"
+  },
+  "Column 27 ivy leaf 52 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "cdd174767f61fb17269d8cdd7394236cc6f5f23311fdc004cf67dc0064d0d18e"
+  },
+  "Column 27 petiole 53 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "fcf0420c366f7ab9bce4cf38814db57ab1406ccb0f4eaa1d5c645d546b94daba"
+  },
+  "Column 27 ivy leaf 53 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a9513315d1c18bb61add7ab4caa01b0f42cdfb4d1a9644516760fee350cff207"
+  },
+  "Column 27 petiole 54 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8005e689578617f1aed126053424fbd9ec2a7381dffebe001239075fb626956c"
+  },
+  "Column 27 ivy leaf 54 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "c88149dc6df45d8540ea65e720a13b51b42654cb13a94859146ff66b201b9f3f"
+  },
+  "Column 27 petiole 55 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "cca2a85298e988eb50c36205af05d8c9463c30f93c7665611e830f89db793338"
+  },
+  "Column 27 ivy leaf 55 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "cbcab17ccfb86d3717443108327beb402e7c0d711b5c401bd91b8ad2a42ab0ee"
+  },
+  "Column 27 petiole 56 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "15148fa3c5acb580563cd2f36adcd66a956cbdf54d7f711c60a8dccf1d7e2745"
+  },
+  "Column 27 ivy leaf 56 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "be8bc55cf5e6c686675f69ee4010c7b28f9ed0bce0cd4771f2f3aa2373d51b5b"
+  },
+  "Column 27 petiole 57 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "438c5ffd6c800ac31d598ce124de4837c1b1423519c010bd7b278ec193f359c1"
+  },
+  "Column 27 ivy leaf 57 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8d255bb8177fed5ac6ab0a5243654a6b7a51d1cfdfc9cdb495142718ad5a93f4"
+  },
+  "Column climbing ivy 0 v25": {
+    "vertices": 3600,
+    "nativeFloat32Hash": "d4f51501ef9276876731c545b4a6914113a39e414014f29d3d33b081fb70bb21"
+  },
+  "Column 0 petiole 0 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3428410824a359900d6f1033b61b0caf7a48460423a8b044a65a13154cf98208"
+  },
+  "Column 0 ivy leaf 0 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "cb252667c03f63aaadd6fc615733593a4271c64dffd3ab61dc4fa1d0aa3199e4"
+  },
+  "Column 0 petiole 1 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "ecf5007cc3959309c7fec82580cd9aeb3748db095b83b6230f425ec6e569c5b1"
+  },
+  "Column 0 ivy leaf 1 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "c107699b7697f356c92b76f1bc8090440d10d7ddbfb08f045856e6967cee7a13"
+  },
+  "Column 0 petiole 2 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "87fe89b8426bc6e37de0c1b55be846677f8c186d50e495cc2294cc4a8eea1848"
+  },
+  "Column 0 ivy leaf 2 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "90fd1fb10467470bd57a4bbcf8e91c6342e4c3b5cd630a43992eb46f54d4cb08"
+  },
+  "Column 0 petiole 3 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a93dc2571dfca2126313f9ef91b5faba3578f49fa87f2e5019ec351616206008"
+  },
+  "Column 0 ivy leaf 3 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8c758dd309e35f79503c5ef9b515c776fa0370dafbab29af2dbc5da6b7100f3a"
+  },
+  "Column 0 petiole 4 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "13a67cc18e0372c2e2ff8dac7bd3eb1cee9a66c86e5075f669c65ef55ebe8f09"
+  },
+  "Column 0 ivy leaf 4 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8ff5e14d0995d57ff7cfcaa5f64fd09bf7164d82edc4e71571832e488278e929"
+  },
+  "Column 0 petiole 5 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1f82d89882757c50a40e9eee652e05195f46c0130352a1d233da871e22d9ba6e"
+  },
+  "Column 0 ivy leaf 5 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5113729f5c2e07dfccca72536c5c52fe48af4046ee362ac88d3b043bc5ebb76d"
+  },
+  "Column 0 petiole 6 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "caf8e8e6b736659a5acad1f0ec0fc500ecf2afdd85e34b7e8af066a0070485e7"
+  },
+  "Column 0 ivy leaf 6 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "e35bcc65e5d8e86b4f75298be2f742728a9b6f8245f5b739544a337739c7ea73"
+  },
+  "Column 0 petiole 7 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "7cfa759dd831996c7768deb0f339d9a3831277da53c244970af1cdde1faeb435"
+  },
+  "Column 0 ivy leaf 7 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "9a0bccd318fdc6543276f20702882b841c342248a8ef20129b5e98c4053c5346"
+  },
+  "Column 0 petiole 8 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f5ef5fdfea6dd6031b4d138711c64c26ea907cd45feac24c02595ef901295472"
+  },
+  "Column 0 ivy leaf 8 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "1fe4037be1f670d8761e21c53dae300ea9d0f833f6c505050e0fb34019bd1502"
+  },
+  "Column 0 petiole 9 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "7534677c22a5dfa043b388ce25f5c9542dfc67d23cdefb745a88db483744e129"
+  },
+  "Column 0 ivy leaf 9 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a29043ec2ee367dc2c3e3aeefab03dfe4574979858b509b8e620dbc6bd506346"
+  },
+  "Column 0 petiole 10 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8ae443ae7337f3cb1718830ba47d349d9b7ae90cddff02dd05e4e04fe63a4154"
+  },
+  "Column 0 ivy leaf 10 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8119c6edae2c40580d8290cd42e0226c425e90a0209ed816392f9a0cc9298fd0"
+  },
+  "Column 0 petiole 11 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "037559cc5f0f0e24387a80dfe0237a8ec5df38fbb668d10aefc7afcbe13864c8"
+  },
+  "Column 0 ivy leaf 11 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "d9da70798f70d0a3bfcf738953d5d7cdbfb778058a570a523ca8257a62d67116"
+  },
+  "Column 0 petiole 12 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "b21c3544a0af280a7a4b8e704baebbf2c3f98907fed88a9a987940c9fed1b4e9"
+  },
+  "Column 0 ivy leaf 12 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "e7d693d309672ec0084a380fa64246c8ac9b5bd1cd346d423345a4d5549d97d5"
+  },
+  "Column 0 petiole 13 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "edf2492aef79c77e23407e88962c12425e6e295277ffae0e8a006425ea5c1725"
+  },
+  "Column 0 ivy leaf 13 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "31a1b2a6ad682f2cdec0128532fd8d41df8fe3b0c91433ed3803a78dd15a4f9d"
+  },
+  "Column 0 petiole 14 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "da50bf7cac29b1fafc6eac749a776cdd550873b616d5cc76133d90cc091c5bee"
+  },
+  "Column 0 ivy leaf 14 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8302238c56889fc988ea3dbe0015e4ba7280399093af2225d8595987342f6d3e"
+  },
+  "Column 0 petiole 15 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1bcb27d2e2646b7fddac6368f2f4c7b3817c29806d3aaea6f1d767adf35e0446"
+  },
+  "Column 0 ivy leaf 15 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "cbc1ba91715345db6b6ade5a2025d0e409243208311b54b41344967396884ccd"
+  },
+  "Column 0 petiole 16 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "bf486fa8e7ca7ebad18d768e2a73d5ac69721de250a125a877a4c9f10feb7a96"
+  },
+  "Column 0 ivy leaf 16 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "3eb2e396945c63e46d03fc0c869ae592d9311e5ecaec9b1a4ed983d391375f23"
+  },
+  "Column 0 petiole 17 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1d851a8b5282a0b2d67e2dfc139447d5f64e1e088d427016dc83b6eb5f6cd04b"
+  },
+  "Column 0 ivy leaf 17 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "626ac3e3cfff5e8dbdef0050dd9ea5227cae8e10a0a7145dce3e6f243f112c67"
+  },
+  "Column 0 petiole 18 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "19b30c0d70b8cfaf5a79a06f5083d87bc6ee8cd8a5a9dbc3f08ff50b19e77095"
+  },
+  "Column 0 ivy leaf 18 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "605287c8b41f467dc5d089741ae0a72648d2baa855b0295dbf3b90023a28cc63"
+  },
+  "Column 0 petiole 19 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "9970a8220e7b906648ffc048897525a0b86227ea955ccb6f333b2b55730e7171"
+  },
+  "Column 0 ivy leaf 19 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "1dd79797a468e629f5b0429dc27ffae0f1bb780cf0d588f92c3d605c51064817"
+  },
+  "Column 0 petiole 20 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3f56ce4254c34d60f2bcfc514f6869fdcfa1c938b9b636673a2578decd32ce6c"
+  },
+  "Column 0 ivy leaf 20 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "7fe5eba847ab8becdfd2aa3769195bdcc3b36d2792f9f9379140d3f52786cde3"
+  },
+  "Column 0 petiole 21 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "18043a5a79c8ed3d85981d41e820f6547259eeba24dc1df1a1461753031afe0d"
+  },
+  "Column 0 ivy leaf 21 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "d6b58c8bdbeae7b96c40443d22c3eb26ce68f87cf9003bfec2ea7b49471d7f9b"
+  },
+  "Column 0 petiole 22 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "167acf25f52f7a5b9f5896ed4860d2b7898a4b2bc9fb3f241a33aa132b0e2709"
+  },
+  "Column 0 ivy leaf 22 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "ae6085a139014bca93f428aa1ab851bfec4e245b6ac4131a1226041550f9b063"
+  },
+  "Column 0 petiole 23 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "be7a9bd6f37ceef5d45dd868bf4f9dfbbe24f406e3f58feab4ba87b121cfbf05"
+  },
+  "Column 0 ivy leaf 23 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "dff844a2ad84065fc688d5414eca0b64d6b01e000b6f57c74cb64357ac0e0c9f"
+  },
+  "Column 0 petiole 24 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a89485aa76511dca9b0e696a27e629ea95c6a818bd8e0c0fe8edc80e3e92b2ba"
+  },
+  "Column 0 ivy leaf 24 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "0eedbd6ac809649cb0ff56a8522bb3ebcbd4d856213f7800db16278c303ef0ad"
+  },
+  "Column 0 petiole 25 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "05fb8aa2f29410c2b90c3afddec56940d5f830b5ca1459757881992835054a9a"
+  },
+  "Column 0 ivy leaf 25 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2596de3bf482ae38039f694884bcfdd95a929f578f3905cdcdd481676e80174d"
+  },
+  "Column 0 petiole 26 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5c747c432b75dca3eb58d94dd09b61f6ece3f73cde046a7ee97b9e002f892d18"
+  },
+  "Column 0 ivy leaf 26 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "ab199440a3e5c18e856390e0d30095f26f368902c30e8a53e061dcf0c1ce9b13"
+  },
+  "Column 0 petiole 27 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "61e1d186217548367d03e6e8b5c946e189827dc43c47e3aabf99ab7516cf3d72"
+  },
+  "Column 0 ivy leaf 27 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "1e00ed8354edc83c1b2580b9368836c04d9782125b99e4a0d4cb5973360d539c"
+  },
+  "Column 0 petiole 28 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "96319a8d60cda3bb3d449462f8c342b5aab930af5a458bc0d591753030a72701"
+  },
+  "Column 0 ivy leaf 28 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "3777e29de65916467a0e9ecb492d259b9e364fd9665daf773055316b0e880672"
+  },
+  "Column 0 petiole 29 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "15ddad30f167ae6432183bd4b83454619d0db3db1d95ffd75c9a44529180ce36"
+  },
+  "Column 0 ivy leaf 29 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5823c9bd434773aba0cd7544e4fbf8e999f5cc7e1e63a9931f0cdf4086c9d839"
+  },
+  "Column 0 petiole 30 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "44b403096ac7558bbee6587d1315eecffa13226303e22f89af079cc9048f380a"
+  },
+  "Column 0 ivy leaf 30 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "3ba8316ffabfb77e046f5cd18792752c92775dd1cd55d8496337e5f4d0f642d4"
+  },
+  "Column 0 petiole 31 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "32045715d69ba735ed56484579e080353c649033c14828dba498390a0e9adc66"
+  },
+  "Column 0 ivy leaf 31 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "bafda735715562b0e3d6633545a42301307bd283d0359dea1c176e3a5679e0d6"
+  },
+  "Column 0 petiole 32 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5f0a0cf5fb0ee38601d222842116de567e5991e5f50b28c8c715cf4f324ee052"
+  },
+  "Column 0 ivy leaf 32 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "1d0d660257259e94b9900321f8c64449c164affb096bff0d592637f0188a4e45"
+  },
+  "Column 0 petiole 33 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "b91a124841c21db70de21632693b824b72011f95ea1372d247b9dfb11dfdfdd2"
+  },
+  "Column 0 ivy leaf 33 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a7cfe6ef69501f1b9247cd61b6adb2379cf60301afd753fbbffdd67658a53c9e"
+  },
+  "Column 0 petiole 34 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d26b0753c15d8b0e8f8969863d4a6211c6c7ae44d348a80ba4288819012ffcf1"
+  },
+  "Column 0 ivy leaf 34 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "52e052584214c571146a399b76fbcb6d53c399f7703404720e66362e96ed4b2b"
+  },
+  "Column 0 petiole 35 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3a4254ac9f09258f2d32596c035c8a0286546515f41025e0c728b1ae3eaf5715"
+  },
+  "Column 0 ivy leaf 35 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "664da2aaa584d66ac3ba419eba6c31c13de4aa143f38e280a42c64fbc3dea394"
+  },
+  "Column 0 petiole 36 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "7f779614da37cad64be5b6a3993890d4813bc1f4193ea1750be32831cb7c231c"
+  },
+  "Column 0 ivy leaf 36 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2bfb9e8969dab48f2df3e1f945c593214a42febb8adae011d085cf61a8e9ddae"
+  },
+  "Column 0 petiole 37 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "ea7feec5a02c39d4bcf9b79c74089dc10d96ac0f8facae416492ec57f2c18468"
+  },
+  "Column 0 ivy leaf 37 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2524ff3dfe9cbeb27c5353cd1e758e173430098ca1027e11c7fe2b8dc0b95a1d"
+  },
+  "Column 0 petiole 38 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "9c5b26a4c497889b3cc61244fc3abc50ae028d5bcae6bde523de4c8477f0d262"
+  },
+  "Column 0 ivy leaf 38 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "4ef229c75a34d4c3f3198b825de1cc7002bd1257b72c4043f662746944ce6cec"
+  },
+  "Column 0 petiole 39 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f75972698be389beddf44ee276cf0a4cab0a01789e07cb17e1a60a253bf0118b"
+  },
+  "Column 0 ivy leaf 39 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "516bfc6951af8702d769c258ae89ce2eb9ef6f294742dd41574e280bad4fe4f9"
+  },
+  "Column 0 petiole 40 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "eb47d4b733121f09e65c2dd58b979ff72af479f3e63941332bc14795a0879c52"
+  },
+  "Column 0 ivy leaf 40 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "6c32d6503e47d96d5c5f9b6290e29986a71558e6b47e9debcb0c6234bd38b52f"
+  },
+  "Column 0 petiole 41 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "bb6e272169a5d98d3995595dba6d35b4d675463bff74c72b5927a8cafbafc291"
+  },
+  "Column 0 ivy leaf 41 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "3fc2b99716fbb03012910b3f84180e5d5f04c5dc8ae626d98d957f6ccadb8e50"
+  },
+  "Column 0 petiole 42 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "86b894712b0c9fae48b3970b9ac6d9b41b60ef786e679b5c6d41d4b4b24dd1ed"
+  },
+  "Column 0 ivy leaf 42 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "c1c5d5ad385c56957bac2632fcb6b63ddb4fcd643fa89c43f091c3a6890b31ab"
+  },
+  "Column 0 petiole 43 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "4d1be537a5e0c80b4a33ddf488bf1c9f882b9c083133a7bdad0faeee76d89801"
+  },
+  "Column 0 ivy leaf 43 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "f8ee8bb6602c5e778e3c7c2a0dd430a71b69d969e4fbd71a2ec8071c38b4e6da"
+  },
+  "Column 0 petiole 44 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8527c034eb5e39c1f98656673779679b0aeea3dad44d4a4830958d5371fa0e92"
+  },
+  "Column 0 ivy leaf 44 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "d54cf0cb8e36c369824518b2d05812273d3091ecca600e8453cf5cff2cd3307a"
+  },
+  "Column 0 petiole 45 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "91ccde5d422bec8ed4fb29c0527fb8fe398e3566ada91f1f9a6199eb60b3ac92"
+  },
+  "Column 0 ivy leaf 45 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "0f9fce72e9b749f47bd46f9ad652d01bf0c167230ce550b23e638caa83654399"
+  },
+  "Column 0 petiole 46 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "89c65b300f83576939d6a132849d177b604a2c69006a51fe85bd079f05124d6b"
+  },
+  "Column 0 ivy leaf 46 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "fe973106c037ec5b468949d00ae28703c822fc7b26a74843f6b1ac1f954f7040"
+  },
+  "Column 0 petiole 47 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2c037ed7a5df1de7d5dfb330bf9ac0a17153cab91b0cd602686f289e2514dd4a"
+  },
+  "Column 0 ivy leaf 47 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "967d82a58b8f3aa70f3894a64eb6328e329de1825305a5c47fc214f3df54ab8c"
+  },
+  "Column 0 petiole 48 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "71394f0e75a3231eff8ac0903147851856714767dcbe9ce1724899ee78438187"
+  },
+  "Column 0 ivy leaf 48 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "0210f2e0a7b4f7d06c5850e357cabb64235cef930994552e524792295e650d47"
+  },
+  "Column 0 petiole 49 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f1dabef40f7087bb0f9864a71c489a2ba6f5b77fd9c401e3dfa34669c0b056a6"
+  },
+  "Column 0 ivy leaf 49 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "eb40eaf36d1dc6be00bc9e9900114c3964f3dc0900335245541a6346b5176f2e"
+  },
+  "Column 0 petiole 50 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "534c05eae69206bf14ff14d76297c020ca9081d717e9c77d46cae4dd18ff4c02"
+  },
+  "Column 0 ivy leaf 50 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "f6b78e095860aedbf79441103ba7826b343d097bf88047d758b67ab3cf627fbb"
+  },
+  "Column 0 petiole 51 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "772d1060afbbbbaef33fa2e887a34d63424a8bbacdce834a13ea154a0122760c"
+  },
+  "Column 0 ivy leaf 51 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "6ebfcb030b45ff4d730a4c5a65b85b515d7065d970373b5b2790ac13ab3da7e1"
+  },
+  "Column 0 petiole 52 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d909d8708fecd4c63e65fbe4328563a7e41885554946fafa828e7ed7ee8ab205"
+  },
+  "Column 0 ivy leaf 52 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "46aad8e28a4f35424a9c1ae06ed41313e90413045d17143991a822e1251050e6"
+  },
+  "Column 0 petiole 53 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "fd90b94b51e859327e009ad4d44bd6699b28b7fb9cb539c0d1315efb63b47d5f"
+  },
+  "Column 0 ivy leaf 53 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "de8b686ba525a65bc4c9a6389601b894821ff0a2d3e2dc6f7d8f1df3f07b0048"
+  },
+  "Column 0 petiole 54 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e963d462d4d36bc8f1977a507e9e3d81cd3c97e3d873d979c73a18ee90f4a9f7"
+  },
+  "Column 0 ivy leaf 54 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "7a721a98365a741891e76b74ddab7805565e17a720ba80c3c6b42702b6edebb7"
+  },
+  "Column 0 petiole 55 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "56150580cf5bf31731d4790fba4b8d8f9d79607ed1fb7a9cb97daa9a28bd788e"
+  },
+  "Column 0 ivy leaf 55 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "97837f7c9e1b760e7f970e4523853bef630b5ed80c5e5e2196ae34a2fa657bac"
+  },
+  "Column 0 petiole 56 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "26d262c02a7e90dd4613e999caef1ae88e5b6987f19fc5d2eb221d32fc045962"
+  },
+  "Column 0 ivy leaf 56 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "b9dff73e4000c3e4ed93773174d49b2a203c91cc016e2bfef2073aee5804b77b"
+  },
+  "Column 0 petiole 57 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5bcf7bcdc51cab84544b8813a7e2f60bfd065e5712c240f55ae0ddd94582056d"
+  },
+  "Column 0 ivy leaf 57 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "70284c443f91e58391be42050b85f5e786be8f11416d36a7e117d71e12e0cf1b"
+  },
+  "Column 0 petiole 58 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8d993f1b356a5b05fa75ce7f546997156855d415a8a859059f9fbd4ca93941ab"
+  },
+  "Column 0 ivy leaf 58 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5732c05db7533c2ba76f8b1271512a427099ecd690771a8e2d7ca0aee510d946"
+  },
+  "Column 0 petiole 59 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e4fbe7b5f8f805d6dda6fc9b99087d6394ca5e75c079264e73825cf26712bcdc"
+  },
+  "Column 0 ivy leaf 59 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "acc63c4194a2fa9a92b88628eb7c2700cd373b2b2b7fddc955b6e9bd0fe0c0ae"
+  },
+  "Column 0 petiole 60 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "143d47030899884ac2a4d3dae26032caf1970a40de57860aa28cd85b665739f9"
+  },
+  "Column 0 ivy leaf 60 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "4a7a925908feb577c0529f7c52e3e1e795fdbce4359b6e46e261acc79c0a3c10"
+  },
+  "Column 0 petiole 61 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3ee01cf9ee8aa7741dea6c843e172e5484150ab87c2634c66ee8a883cf878b05"
+  },
+  "Column 0 ivy leaf 61 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "203949444fb84bd538c5e1cd74dcf3fa552cd98320e512edb40afdd70d85c9c1"
+  },
+  "Column 0 petiole 62 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "b75d570d340579ba4b2069e616861bd648b663afda96f6c3b92a3764a12410f7"
+  },
+  "Column 0 ivy leaf 62 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "70b3672c018f6f8e9b827e89a8c6f3757266d0ea31ca6eaf45d73203c75ecba6"
+  },
+  "Column 0 petiole 63 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "78c83e8511c3a6f27f90aa24afbcfde108e31296299873154dab96b6a6341965"
+  },
+  "Column 0 ivy leaf 63 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "0e211a0eeb1f759b610d511eaacd19fb077df51fab344057daca3ab4f0eff8b1"
+  },
+  "Column 0 petiole 64 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "73642b392cab7b653ef445be49ac29dc6ddf13064eed3a792708e3610d8c3f98"
+  },
+  "Column 0 ivy leaf 64 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "538d88cb48d00290855909441d76ad5ef7f7b2e98dbe4149c70d003a3c876a59"
+  },
+  "Column 0 petiole 65 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e4e4c39ba2ca2d33de20e90c5af2cc8f41c4a47737280cd61689ff3f77c17dd4"
+  },
+  "Column 0 ivy leaf 65 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "3888ef8a75e44e3b16a42a921e1741afe19130387a8890e8c964c256a2f3b06a"
+  },
+  "Column 0 petiole 66 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "035cb81ff1b7620ed201e62122dd902bfc8c8227edea410c57ce8ad7e07408bd"
+  },
+  "Column 0 ivy leaf 66 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "4e4220b5afbeaced86a8e7d60660cd47de5f4cc30250ac1850af45f6ea38cb6b"
+  },
+  "Column 0 petiole 67 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e544ec756a8d8a922e153196466176bb0395fdd1ae1e490880f298ddf74c374c"
+  },
+  "Column 0 ivy leaf 67 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5d7838f90064a0da955d3f3c2b9302570d666344eb64276a4e9b667393f65f5c"
+  },
+  "Column 0 petiole 68 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "74e9a829df95304c21e69f97894c77fd8bc28a6ad52ac2cf47e17fa5e1dbe7aa"
+  },
+  "Column 0 ivy leaf 68 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "9d1019c9305a9eb2762f24ca3f0a35515f031366b8a3dea0ce27bd3995a94cc9"
+  },
+  "Column 0 petiole 69 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e78fa75989d10679ec1e3808e005051a26c0c5ef00ac3584006ab3a9d4225bf4"
+  },
+  "Column 0 ivy leaf 69 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "80ded37c257a46487b28bb0e21739b627bcaf6a81ab0dd4ba2bf84d2cab0abf5"
+  },
+  "Column 0 petiole 70 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a72f3d062f7962bb0f254cb9e455caf1ac016089decb6dbb8d3d4ef76c7b7119"
+  },
+  "Column 0 ivy leaf 70 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "4a8536404cacaeaaf321b15c9311be603f3da10244abc04dc91ea6202f87414c"
+  },
+  "Column 0 petiole 71 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "178ea457132b827e203e80de109aba732ca308c8f6969d05bb78ac76c7f397be"
+  },
+  "Column 0 ivy leaf 71 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "cffa9ecc972eb9fc3d7f78535ab56af5f10501c1049f834762cd52ad021edbf4"
+  },
+  "Column 0 petiole 72 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "fac97851f675d108bb82e286593904e954e8578449338b2f946838fd0b207f47"
+  },
+  "Column 0 ivy leaf 72 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2d81bbf32249a7aea33326d27e50b8cc97e6892addf917346f05c6fb8182d560"
+  },
+  "Column 0 petiole 73 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e49496fbd902e9936be2933ab40e174fa90a6bef7bbea8b8ef55d526e7a81952"
+  },
+  "Column 0 ivy leaf 73 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "d0c767f66e5187cf62ca35367449f9772124a1286e8885732845652fbfce44c0"
+  },
+  "Column 0 petiole 74 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8887a31684efb78a6edc2c62c8e5ffc6ffd9938949d87806848f2aaea834825d"
+  },
+  "Column 0 ivy leaf 74 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "188377cc9101c7c593be3b25fc8bc0a96af8cd2aec983cdaef1bc081c72bec52"
+  },
+  "Column 0 petiole 75 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "57943865b7792d05ac9d58df5dba84bccf3332722afa27e9ae9719ad8cb5a4fd"
+  },
+  "Column 0 ivy leaf 75 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "c6d2716063058caaee6d62c7eabf32eab6ae6d62548ac916c71ce1bb9b95d792"
+  },
+  "Column 0 petiole 76 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5ba8f3ce3208562ce9ac2213fa36320fcdd00ff9647c4a25d817066a76ade9d0"
+  },
+  "Column 0 ivy leaf 76 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "017f3e9ce5fbb74cae844b02a23d9107ba0d37c4f4f9c3a81d7685e91a730957"
+  },
+  "Column 0 petiole 77 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1817325cd58424bf4d8d9c177bfb7815eb74937ea9cc72182c566ad6ab57977f"
+  },
+  "Column 0 ivy leaf 77 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "73c20da9e4794e606129131417fcdeaf72af0b92575a8c61fd506891ede00a67"
+  },
+  "Bowed beam creeping ivy 0 v25": {
+    "vertices": 828,
+    "nativeFloat32Hash": "ed9e72dd3224fe3f450fe7f3f728ad9ef3fab160ff5e073793b3bfb982760c7d"
+  },
+  "Bowed beam 0 petiole 0 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1b4d97746c0e0fb48990b181735e41953321e1adfd0fa6671e7da35f0b991393"
+  },
+  "Bowed beam 0 ivy leaf 0 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "558f69014f9411430087c89b204465506a15f952d77391e3ced1bca2dff8113a"
+  },
+  "Bowed beam 0 petiole 1 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a25a1ecd48ce3f3c385b4c48f3ce676f0165c0c06d558f071b438696d64b235c"
+  },
+  "Bowed beam 0 ivy leaf 1 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "db9f53d7f479be049b36ab2f77bda0c4cf2fface64d45df4c3aa3a193a1ae307"
+  },
+  "Bowed beam 0 petiole 2 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2e09f81df0ef0d7887ffd3d73c00866cf832a0e8f02dda00411684654a14d7ab"
+  },
+  "Bowed beam 0 ivy leaf 2 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5885c44ab856ad6a944416eb2bc8b4f57267da36e8cb7651bf7fe4c66a7ffbae"
+  },
+  "Bowed beam 0 petiole 3 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "4a961074a0b9cbe727d4f47e8ff187ab2943b7755cd18b288d5567b31e2d3760"
+  },
+  "Bowed beam 0 ivy leaf 3 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "94e29c1ae5830b89c155c79c915f8d247e33e77567d266ceabdf91a693d89425"
+  },
+  "Bowed beam 0 petiole 4 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d12a3fe2ea249f7615fec5a4d824292000ac4359a1e60f35e21e4fac91f849d6"
+  },
+  "Bowed beam 0 ivy leaf 4 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "ed100854821b84b04d9b66e9c1e9d30f847041ae72adc30ba71bf916a3d9ab0f"
+  },
+  "Bowed beam 0 petiole 5 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "afc08b9d5acc3751a8277d54730db01c65095e612c9ac0858e17c79cf3738076"
+  },
+  "Bowed beam 0 ivy leaf 5 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "ea324fb48a1704cb4149511e373b93b1eace9aa4e1423d293c9edfcc27791f01"
+  },
+  "Bowed beam 0 petiole 6 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "749ed7d2cdba79d9360b8c791a6e07d4e0fe0379b183e834a0e3ac84e404d2d5"
+  },
+  "Bowed beam 0 ivy leaf 6 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "3e9527e35d8bb4924bea19fb14bea2636b36e6eb9a971cb3a6460415271a86a7"
+  },
+  "Bowed beam 0 petiole 7 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d95fafb33fed036a77480a2da17427feb270410c27eb0b64d4e757f540b1515a"
+  },
+  "Bowed beam 0 ivy leaf 7 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "3bacb1e10b30d63792dedb9c3306760b507b0fda3d140c9e82a66c0decbc166b"
+  },
+  "Bowed beam 0 petiole 8 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "18050330dc9d139beb19df2c5417344c895915426ea38ecab72fdfb4557b0f91"
+  },
+  "Bowed beam 0 ivy leaf 8 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5ac87e496828196c6524db7fc0092c6efc38fce01e73764e70cb1afba7cd8c31"
+  },
+  "Bowed beam 0 petiole 9 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e155767cc10999074b1ca4709467fecba964c299391adfe4cb2b2569409554a3"
+  },
+  "Bowed beam 0 ivy leaf 9 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "19f0042b0831b040b1bff1dfc0c40decc4c7589b6803214e4cd4644e417d7b3b"
+  },
+  "Bowed beam 0 petiole 10 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "dc7314f488500d63d30245394ae7bc3984558cdbef1d261d4b7b7edc5a43c5e0"
+  },
+  "Bowed beam 0 ivy leaf 10 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "91b750c8622ca692afb5261b8b2f04d8074e9edf2df2973b6d543340f74e948a"
+  },
+  "Bowed beam 0 petiole 11 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "4a833850b2d408d344b786c26ce2ef528391f86ee72fd2420f7fa6071f8c9c74"
+  },
+  "Bowed beam 0 ivy leaf 11 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "083d353c443f5a873d62c2ab1e1fe34cb477d99345ae12535bb71d38d1e6f17b"
+  },
+  "Bowed beam 0 petiole 12 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "80f43b15948b9630ae3299c07ff20e270f2fe85d79ec40e6f9518995f502ef9a"
+  },
+  "Bowed beam 0 ivy leaf 12 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2364edab1e1080c7ddbd090495ffdc4e0202b7123bf46dcf7a7e3c5a03c512f3"
+  },
+  "Bowed beam 0 petiole 13 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5d5da187f73c09060c0a13d28771a3f18e63873218cf40c3c2dc9669a799ac38"
+  },
+  "Bowed beam 0 ivy leaf 13 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "39b839f35ff8e2b082c0365ed6251e7a67c5aeb06a2ea47059e66b48d3869639"
+  },
+  "Bowed beam 0 petiole 14 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "35c92c3fcd22897f9997577f031b99bce8814b8258da776aacf1a244d22f30b4"
+  },
+  "Bowed beam 0 ivy leaf 14 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "b6801b02463f0b4619e6f822617e9d5eb868b2cb8dec601f000aefb959a6712e"
+  },
+  "Bowed beam 0 petiole 15 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "889912057999358a268980dd61d52d6b1442b3ed38635ec01d9017c5c2de89cb"
+  },
+  "Bowed beam 0 ivy leaf 15 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a46f93516b4af74dc44cf0a74abc7c15dbe024d867e9063fe8e5605e0a0fa578"
+  },
+  "Bowed beam 0 petiole 16 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5699cd5a62de76fbc92030a3cca8901e170f26480d1e48519ec3019f8bdeb824"
+  },
+  "Bowed beam 0 ivy leaf 16 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "46002b23809f4d2a589098b5e76ff2629d8da81b2292b8390f707571420d6eaa"
+  },
+  "Bowed beam 0 petiole 17 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5026a90a052c67066b7163722a38b94f0875148e60d6994ee7e86c10c5ddd932"
+  },
+  "Bowed beam 0 ivy leaf 17 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "bb10af03c0dcaf956798d8c04e19051aa1f8ca9418c9a74db507b0a06636d9aa"
+  },
+  "Bowed beam creeping ivy 1 v25": {
+    "vertices": 2196,
+    "nativeFloat32Hash": "6bf2a8c048f75f576430345d0e49937dfc4e89b645b1d671c853a54f000aba50"
+  },
+  "Bowed beam 1 petiole 0 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "8d34f7439229af743871d0147abf1fb32c508f5c430f814bfb8e2838403220e9"
+  },
+  "Bowed beam 1 ivy leaf 0 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2e66e3116bc8c35f6d36f736a0d41538cdb8bccbdd6028791a8d7efcc3dd4a9e"
+  },
+  "Bowed beam 1 petiole 1 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e3149e97a5cf2a9b8326cedf061220ef3804ac01c9bf8d4f4c3b5a6c65855e1c"
+  },
+  "Bowed beam 1 ivy leaf 1 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "59c3eb3966eb09623359f0ed8a809a0c83c4ef88e27c60e764f91ccfaf0e120c"
+  },
+  "Bowed beam 1 petiole 2 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "5a11a426f894e90092c9bbd609e181335397d267c95940b54c5c61c7a5cbfbaa"
+  },
+  "Bowed beam 1 ivy leaf 2 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "efcb1db48681d494eb6ba60cb2a3e755258c69b2e43680c637f495f8967383e8"
+  },
+  "Bowed beam 1 petiole 3 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "79b3d155484c80638ab8135ccf1e438bd7692476311ec735c6b4f1b176362dbc"
+  },
+  "Bowed beam 1 ivy leaf 3 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5ccdba065260f289ac8e380989f880d7b30ca33dda92caf62d41b3fbd81ba286"
+  },
+  "Bowed beam 1 petiole 4 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "900ffae5fc4558a5b8887712276e3476d4a9343c60e42e755390438d2413956a"
+  },
+  "Bowed beam 1 ivy leaf 4 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "f8e545038ef411393ddad631b8c581f5c3cc7d3a23634c8158ed2ebe0b52d48e"
+  },
+  "Bowed beam 1 petiole 5 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "cc9d66d2bd3f51f01027347691ac4ca5053d5dbca779d41f2f307b53e6b0a7f3"
+  },
+  "Bowed beam 1 ivy leaf 5 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "9be341d550794a74df5a7b75463090bc61c9ad9a193098057ef00568674b462b"
+  },
+  "Bowed beam 1 petiole 6 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "9d45991a364da74e15b3f6477a16dc26343cd572674d35c4ca8218b7cf42f38f"
+  },
+  "Bowed beam 1 ivy leaf 6 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "da8376d1beb2395138611cac2fdf6159effdf4df1e5004ee8390619642763fca"
+  },
+  "Bowed beam 1 petiole 7 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "3498f64113c4ea91df46bf01328718c48a4ca17c12398265861e37dd203a4064"
+  },
+  "Bowed beam 1 ivy leaf 7 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "0267f502c343c6951ef3bc83805df051ec7071dbc57876a46920da962cbd4eae"
+  },
+  "Bowed beam 1 petiole 8 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d7eafe623e02af89bbf1a8c499ea6d4ad81031e323512e9cfa46d34b77665124"
+  },
+  "Bowed beam 1 ivy leaf 8 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "95a11316da7d31f4925cf95d504b7853f5300c5c057b259d184fc6f10b0b6c7e"
+  },
+  "Bowed beam 1 petiole 9 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "dc24bc76779d112c55ce70d5806884ec6075478d5d4a7a9ae57a80b353b9da00"
+  },
+  "Bowed beam 1 ivy leaf 9 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "c7b4de361c1edeba00a1db6de20f5a9c466804ece150eb4c865ed0adad0165d2"
+  },
+  "Bowed beam 1 petiole 10 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "ab4fdb0c567f4ef649c93748d3eee480186401c7b583528348d0154a2933eb00"
+  },
+  "Bowed beam 1 ivy leaf 10 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "07bc5f32247e29e6e6919d56b22c551572e4db1af42835a5e8d234bb9036560a"
+  },
+  "Bowed beam 1 petiole 11 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1724f38dc038ccdb081f002496ec88a3e56c86eb72735cb7b8655339e63bb0ee"
+  },
+  "Bowed beam 1 ivy leaf 11 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "44ef32f81e85167fa6d4aa94b7f9c313ae3db7bf81b20058913a3f3abe655a5f"
+  },
+  "Bowed beam 1 petiole 12 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "13a0e44557eedc1f80436e50a1545bcc2cb090f9344a96efec0cacec181251ec"
+  },
+  "Bowed beam 1 ivy leaf 12 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "ca9f867b6139579a5fd868984b82155ecd76f75096dfe2de7b29800994e1a78f"
+  },
+  "Bowed beam 1 petiole 13 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "eda2b6251d2ec336d6a9e0d1a3cea54e11f98228ded2dc5a228d1d05b2bc01d5"
+  },
+  "Bowed beam 1 ivy leaf 13 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "a7f35dca32fdfbf524b50836ba1d426dea3098a36bcfc0de7c358819bf2e6575"
+  },
+  "Bowed beam 1 petiole 14 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e1eca3c2548021003136959ccaa2f319b3cb538e0ed0dfa59cb3cab6a9394315"
+  },
+  "Bowed beam 1 ivy leaf 14 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5097ee98b5a7c738a936dac3151796197081736bea61b20babc6e598b8417392"
+  },
+  "Bowed beam 1 petiole 15 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "556a26b596983cb64cb085e0d549b20ac3cc3238b983d61ef63687dbcfdd76c4"
+  },
+  "Bowed beam 1 ivy leaf 15 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2c54954bcd17b858c59019b3c6fb83e0d915895110a5169f6c94a82ab44b84e6"
+  },
+  "Bowed beam 1 petiole 16 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "6d8666f38708194637d16aa2fe35ac1fd6a888ba24c4d0ce5eed4a8c80a79173"
+  },
+  "Bowed beam 1 ivy leaf 16 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "01f0b6361db7067d1512d07216240bfb376d1a2e7c46a965d497e4a78daed0c5"
+  },
+  "Bowed beam 1 petiole 17 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a43ec76f44812465bb379f55e4ba18e01558639425cc97e05b8edd66feb79cea"
+  },
+  "Bowed beam 1 ivy leaf 17 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "22176eb51548d5bf0bc502525cc25f41f53b5b959173a9ace6723f5eb0018984"
+  },
+  "Bowed beam 1 petiole 18 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2b40b8513a9e68aefed0cfa96895d4804e736ced2ac154aa52943635d5060cfe"
+  },
+  "Bowed beam 1 ivy leaf 18 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "625b2265a5aff0c735b55221e5dc5285c923abe7634384d4a283d52a2a89b013"
+  },
+  "Bowed beam 1 petiole 19 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "2c76ac4acd230ce6d29f699021ec024d63031a74471096c95e412e203fb265d2"
+  },
+  "Bowed beam 1 ivy leaf 19 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "f8f295213326c590fde67c86751d273bbe04e907b593a2f2e931867a8f6e711d"
+  },
+  "Bowed beam 1 petiole 20 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "c5c0cc0f12549f97db4620f2ace0e24b57b5c265b0d8b1a8c43d5530dc15f528"
+  },
+  "Bowed beam 1 ivy leaf 20 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "9819946d424131dca18208ae5acdfabf91e6e73c5dc29bd19553a226b4346741"
+  },
+  "Bowed beam 1 petiole 21 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e2486135f74e915c4c5d46a253c18a23d5ef606d27e3e091da98be612bf12779"
+  },
+  "Bowed beam 1 ivy leaf 21 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "bda5b711645546520220b253e862f5efa5472f68d1f1baedb274ab1f43b75ce3"
+  },
+  "Bowed beam 1 petiole 22 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "849d2cddf977afd22e69324f1d0cf6c25c4861f054d0bbedaef054595200949a"
+  },
+  "Bowed beam 1 ivy leaf 22 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "c633e432b98ea2fd1d9fb7634bf353ef36ff986bf6cf8685ee03c118519d1d8d"
+  },
+  "Bowed beam 1 petiole 23 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1dc5d8536637ba0e7392035a3d6e099a3fa22dbb885dce0cd3995f5b595ab85f"
+  },
+  "Bowed beam 1 ivy leaf 23 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8cd6ec5a65f2d6e2b4540222af926b4b8d907e3de7c307f0764d445ca6b00b24"
+  },
+  "Bowed beam 1 petiole 24 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1f92e4cf0d41e423104576d78c5a15ba9d702f9eb09ab4f608d274842a3fd104"
+  },
+  "Bowed beam 1 ivy leaf 24 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "4c5b81fc8c5e2691132e9efc262d424f69871ce9543bcd4d8d7fc78ca19b00f1"
+  },
+  "Bowed beam 1 petiole 25 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "0d305c9565deee54ad1aa46a95f675aed380dc5c017666478213cc29413749c3"
+  },
+  "Bowed beam 1 ivy leaf 25 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8283cb1ac7c5f575886825587dfc69318816015ce864dc8adf9dce268ebb20a2"
+  },
+  "Bowed beam 1 petiole 26 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "9fefed17a8ea37ad62f934144f24523d9cdaaa0e49187719b12ced09ef5a780f"
+  },
+  "Bowed beam 1 ivy leaf 26 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "1451a80e65e81c458d994abf0aab1df74442df4809956cbcb1891c955f3967cd"
+  },
+  "Bowed beam 1 petiole 27 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "0871fb039ec7df72622c3fd77e148d9c5b3e4359ed0bf4a33306e9b6ca701cfa"
+  },
+  "Bowed beam 1 ivy leaf 27 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2f08810d65d745ee631805f435648b76baa0094b6f9a9b0101bcb0d19565be37"
+  },
+  "Bowed beam 1 petiole 28 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "c30b88546bf5135aa4f4d55f0db6b237f10128b7ac818dd1827f2940a6cadf32"
+  },
+  "Bowed beam 1 ivy leaf 28 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "00765995254de6638cc78bc16fdff5d191b3af15a380c031e7dfa641fa7faab6"
+  },
+  "Bowed beam 1 petiole 29 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "146818d84b1691bc5bb35bae2245afe4793aba8fdfc4db8473f4ce36930a5eaa"
+  },
+  "Bowed beam 1 ivy leaf 29 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "780fefbd49ffb4d488c131c27ef6e6666beb6653aa8a9e391d741517ed4b409b"
+  },
+  "Bowed beam 1 petiole 30 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "52dfbacb777964e14bbe1a6f8577687f4e5720622e4e7bf3c56b8ea7919cc5f5"
+  },
+  "Bowed beam 1 ivy leaf 30 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "dd4e8bf08786303344cb158a2807ce52fb832dfdd52777fccf4de01784d51812"
+  },
+  "Bowed beam 1 petiole 31 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "b7079c93eeb1bbb0302f0a8ccef8ecb47fbb9f53c4dd1e59ba4f975ceeff4fa3"
+  },
+  "Bowed beam 1 ivy leaf 31 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "f4ba3a0f1606b5a137009ebf2b030609ab833c876f9915790d245ee9ab8ada36"
+  },
+  "Bowed beam 1 petiole 32 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "6be893ce4eb1605af1dce39f6a1b7d4fa69fa1377469c7f58adcebc90d725ee9"
+  },
+  "Bowed beam 1 ivy leaf 32 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8a28e54f2f8b82a7421f607d9b09f9e466f8c6af680cc2449607db481f5cf6f3"
+  },
+  "Bowed beam 1 petiole 33 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "55719952f0cf946d7a414a1d80838a9bdc5f2e45a4c920333d91de1117631542"
+  },
+  "Bowed beam 1 ivy leaf 33 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "2fba9a82d7198d00cb4cced9b613a62dcad38d1727be154198d82aab71dea8fb"
+  },
+  "Bowed beam 1 petiole 34 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "54fea716aa81983c96ea9ec84f20adcc7ff5c027938db67cd18b51eff57d6a31"
+  },
+  "Bowed beam 1 ivy leaf 34 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "61eb895c4fe12a89811b27595c6a68c7ad28aaba573be91c0947395735b803e0"
+  },
+  "Bowed beam 1 petiole 35 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "d6dc1f1f94658210dd03c11d266d12d50ccbfd7b42e3365547c57a9b1e7121c7"
+  },
+  "Bowed beam 1 ivy leaf 35 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "e16cb5ce4093ad45af2da96a8241f74d519009bc1f3fa0c0c2be56195622c39c"
+  },
+  "Bowed beam 1 petiole 36 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "e2ba199c363b30208959c5710dbd7645bfa1b60e65964f442ba526a786a4df2b"
+  },
+  "Bowed beam 1 ivy leaf 36 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "5cabc6df7df7a892199c1168f875a75f20f7f3247211f58f0b524539a161b6e0"
+  },
+  "Bowed beam 1 petiole 37 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "89d363df552999af3bf683c5a23608b336381de9e078180893d8a4b1bf72a06a"
+  },
+  "Bowed beam 1 ivy leaf 37 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "8a6e61495ced2ead31a3341974d87f8e3a06307b19a250832fe2e692e7581500"
+  },
+  "Bowed beam 1 petiole 38 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "4dea025501649d16271e39e4e89fb158f0d4d32c0c09b35e1e663ec16661f086"
+  },
+  "Bowed beam 1 ivy leaf 38 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "d4d4d3e69ce12ae6b6dfbaaf81637c0402d9183de2cb57b4d21ca7b102a035c0"
+  },
+  "Bowed beam 1 petiole 39 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "f46bc88c0b67ac4753aa87744325f2c3d5f94ad358171dc0c4f0fa5288abd657"
+  },
+  "Bowed beam 1 ivy leaf 39 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "aed51fe8865009a667ed8a563e82708fcbb78024f6466a3d56b386d05dc4971a"
+  },
+  "Bowed beam 1 petiole 40 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "a69872980af274ad5bb51b74c2c37448e23e572c095a7bde02dba06824c1cd62"
+  },
+  "Bowed beam 1 ivy leaf 40 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "23c5b55be1f870ccc1c96bfd0b2859e7c6f7b8b9d1ea200db307eac5480665e0"
+  },
+  "Bowed beam 1 petiole 41 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "efa03591674cfe057ff2535e814814aac594a103044f735bf29cbb4009b05af7"
+  },
+  "Bowed beam 1 ivy leaf 41 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "cda3aaede39502ae0dabec37d22c6fbf569fe3e16f0fd01d8aeede01956f902c"
+  },
+  "Bowed beam 1 petiole 42 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "75f050254c59d85b1cdbe1a78b8edb0b3d92d8f59d6fa3218834917d2c56e406"
+  },
+  "Bowed beam 1 ivy leaf 42 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "15ab19c0f63fd631a9be9521a67251678fd65af2cfb2178727e90dd074ece3dc"
+  },
+  "Bowed beam 1 petiole 43 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "516d2059ce2214d10a3850e8cb7efaf4e8617b7318854b94879edf35d65ba6b4"
+  },
+  "Bowed beam 1 ivy leaf 43 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "aa5c981f2d27edc8535e907bcc1b168e0b69d1bdf01691eafeccb6a44609baab"
+  },
+  "Bowed beam 1 petiole 44 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "218c7d2b311cbd1c3696903201789ff153aa438143d4fa4d2c119129c14c01e5"
+  },
+  "Bowed beam 1 ivy leaf 44 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "e173d6cd82c8f70a8f696a08e8fa05d8c3285572f54b1750ce0b0a580e76bd1f"
+  },
+  "Bowed beam 1 petiole 45 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "6213b8537d60b7e290a0af2ec9eb52678b84c79a59bb252dce1578571fe180ba"
+  },
+  "Bowed beam 1 ivy leaf 45 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "3628abb282a45374d2aff93d60cab8e42f60ee5d557dbc44680efbae0f6262a8"
+  },
+  "Bowed beam 1 petiole 46 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "1dd4e111fad3a60f069a164e629868092b99394956186b4ee2f4a82b3419b0f6"
+  },
+  "Bowed beam 1 ivy leaf 46 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "46108d46734c70f0b668abec26024a4e63c11e778204eab705e4808306145d39"
+  },
+  "Bowed beam 1 petiole 47 v25": {
+    "vertices": 72,
+    "nativeFloat32Hash": "443134cd1b6dd26224e6eeb26d5d30a7c8e99fe6a4b60cc922f2978defad87e4"
+  },
+  "Bowed beam 1 ivy leaf 47 v25": {
+    "vertices": 132,
+    "nativeFloat32Hash": "e41d57c0fb56da00857ea0ce84d8918ebead86133715ab29d1287057ca8ff824"
+  }
+}

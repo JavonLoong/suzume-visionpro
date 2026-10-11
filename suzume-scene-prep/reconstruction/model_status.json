@@ -1,0 +1,23 @@
+{
+  "objects": 3959,
+  "collections": [
+    "01_Basin",
+    "02_Water",
+    "03_Shore",
+    "04_Ring_facade",
+    "07_Vegetation",
+    "05_Broken_frame",
+    "06_Door",
+    "08_Debris"
+  ],
+  "doorHeightAssumptionM": 2.1,
+  "poolRadiusAssumptionM": 15.45,
+  "downloadedHunyuanMeshes": 0,
+  "status": "Reference reconstruction study, not finished 1:1 or construction drawings",
+  "missing": [
+    "Verified rear geometry",
+    "Measured dimensions",
+    "Imported Hunyuan assets",
+    "Camera fitting against multiple film frames"
+  ]
+}

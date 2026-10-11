@@ -1,0 +1,48 @@
+{
+  "boundsBlender": [
+    [
+      -0.20128299295902252,
+      -0.10690717399120331,
+      -1.436390295594947e-08
+    ],
+    [
+      0.19757400453090668,
+      0.1189580112695694,
+      1.1751030683517456
+    ]
+  ],
+  "height": 1.1751030827156486,
+  "meshObjects": 1,
+  "images": [
+    {
+      "name": "texture_pbr_20250901",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "hasData": true
+    },
+    {
+      "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "hasData": true
+    },
+    {
+      "name": "texture_pbr_20250901_normal",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "hasData": true
+    }
+  ],
+  "source": "Hunyuan 3D 3.1 four-view generation",
+  "rigged": false,
+  "reopenedBeforeRendering": true
+}

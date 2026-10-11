@@ -1,0 +1,28 @@
+{
+  "revision": 41,
+  "nativeFile": "poster-clouds-v41/Suzume_dual_scene_clouds_v41.blend",
+  "nativeSha256": "06d79ae053a89f7671d26f878aab1a81eee2d4269e44c5a043781f66e7afb9aa",
+  "primaryNativeAlias": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene.blend",
+  "posterScene": "Official poster courtyard v38",
+  "movieScene": "Daytime circular hotel",
+  "nightScene": "Night meadow through the door",
+  "movieRevision37Preserved": true,
+  "posterWaterRevision40Preserved": true,
+  "closedCloudsRebuilt": 28,
+  "posterBrowser": "http://127.0.0.1:8931/viewer/poster-v41.html",
+  "movieBrowser": "http://127.0.0.1:8931/viewer/candidate-v37.html",
+  "weightedMaskIoUBefore": 0.9187798963370701,
+  "weightedMaskIoUAfter": 0.9424842208125873,
+  "metricScope": "Rasterized silhouettes of 28 closed lower clouds, sampled at four times the 708x1000 mask resolution with pixel-center alignment, versus the inherited v9 segmented and inpainted mask. Includes uncertain occluded contours; not a comparison against unmodified full-scene pixels.",
+  "browserRuntimeVerified": false,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Recover the central horizon cloud bank removed by the legacy central mask cap, explicitly separating the foreground door and steel occlusions.",
+    "Refine cloud shapes behind occluding steel, puff spacing, faint missing fragments and the five dominant cloud surfaces; the unobserved backs and depths remain inferred.",
+    "Rebuild the left poster steelwork and align facade openings, rooftop equipment, ivy and shore debris; refine steel cross-sections, corrosion and paint loss.",
+    "Align submerged poster stone outlines and major water-glint locations; reduce angular straightness from oblique views and tune reflected facade detail.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate water and steel materials with the native rendering."
+  ]
+}

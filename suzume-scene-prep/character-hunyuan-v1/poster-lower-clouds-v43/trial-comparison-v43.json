@@ -1,0 +1,24 @@
+{
+  "revision": 43,
+  "trial": true,
+  "sourceVisibleSkyPixels": 9651,
+  "maskScope": "All manually visible sky pixels in x270:708, y540:610 at 708 by 1000, excluding the door, foliage, steel and rooftop silhouette. Color agreement only; not a whole-scene or hidden-depth metric.",
+  "beforeRGBMeanAbsoluteError255": 30.087832003592027,
+  "afterRGBMeanAbsoluteError255": 14.355299968915139,
+  "referenceMeanRGB255": [
+    146.66376541291058,
+    174.45508237488343,
+    192.23282561392602
+  ],
+  "beforeMeanRGB255": [
+    156.39788622940628,
+    189.09304735260594,
+    218.85141436120608
+  ],
+  "afterMeanRGB255": [
+    148.20298414672055,
+    175.69640451766656,
+    196.18060304631643
+  ],
+  "oneToOneComplete": false
+}

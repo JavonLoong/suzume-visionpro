@@ -1,0 +1,19 @@
+{
+  "sourceFaces": 1699982,
+  "uniqueConnectedFaces": 950426,
+  "displayFaces": 342152,
+  "displayVertices": 171025,
+  "isolatedSliverRemoved": true,
+  "boundsYUp": [
+    [
+      -0.5299185514450073,
+      -0.990858256816864,
+      -0.7681372165679932
+    ],
+    [
+      0.6085361838340759,
+      0.9738872647285461,
+      0.7058683037757874
+    ]
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "scope": "Three manually selected facade patches only, not a complete visual fidelity score.",
+  "variants": [
+    {
+      "file": "left-light-trial-0-0.png",
+      "patches": [
+        {
+          "region": "blue wall above middle rectangle",
+          "median": [
+            60.0,
+            83.0,
+            87.5
+          ],
+          "target": [
+            91.0,
+            99.0,
+            128.0
+          ],
+          "rgbDistance": 53.45325060274632
+        },
+        {
+          "region": "wall beside arch",
+          "median": [
+            88.0,
+            113.0,
+            118.0
+          ],
+          "target": [
+            233.0,
+            228.0,
+            209.0
+          ],
+          "rgbDistance": 206.23045361924605
+        },
+        {
+          "region": "wall above arch",
+          "median": [
+            76.0,
+            102.0,
+            108.0
+          ],
+          "target": [
+            203.0,
+            189.0,
+            187.0
+          ],
+          "rgbDistance": 173.02889932031584
+        }
+      ],
+      "meanRgbDistance": 144.23753451410275
+    },
+    {
+      "file": "left-light-trial-250-800.png",
+      "patches": [
+        {
+          "region": "blue wall above middle rectangle",
+          "median": [
+            90.0,
+            113.5,
+            121.0
+          ],
+          "target": [
+            91.0,
+            99.0,
+            128.0
+          ],
+          "rgbDistance": 16.132265804901678
+        },
+        {
+          "region": "wall beside arch",
+          "median": [
+            140.0,
+            152.0,
+            152.0
+          ],
+          "target": [
+            233.0,
+            228.0,
+            209.0
+          ],
+          "rgbDistance": 132.94359706281458
+        },
+        {
+          "region": "wall above arch",
+          "median": [
+            150.0,
+            159.0,
+            157.0
+          ],
+          "target": [
+            203.0,
+            189.0,
+            187.0
+          ],
+          "rgbDistance": 67.88961628997471
+        }
+      ],
+      "meanRgbDistance": 72.32182638589698
+    },
+    {
+      "file": "left-light-trial-500-1600.png",
+      "patches": [
+        {
+          "region": "blue wall above middle rectangle",
+          "median": [
+            113.0,
+            135.0,
+            141.5
+          ],
+          "target": [
+            91.0,
+            99.0,
+            128.0
+          ],
+          "rgbDistance": 44.29729111356585
+        },
+        {
+          "region": "wall beside arch",
+          "median": [
+            163.0,
+            171.0,
+            170.0
+          ],
+          "target": [
+            233.0,
+            228.0,
+            209.0
+          ],
+          "rgbDistance": 98.33615815151617
+        },
+        {
+          "region": "wall above arch",
+          "median": [
+            176.5,
+            182.0,
+            179.0
+          ],
+          "target": [
+            203.0,
+            189.0,
+            187.0
+          ],
+          "rgbDistance": 28.552583070538468
+        }
+      ],
+      "meanRgbDistance": 57.06201077854016
+    },
+    {
+      "file": "left-light-trial-750-2400.png",
+      "patches": [
+        {
+          "region": "blue wall above middle rectangle",
+          "median": [
+            130.0,
+            149.0,
+            155.0
+          ],
+          "target": [
+            91.0,
+            99.0,
+            128.0
+          ],
+          "rgbDistance": 68.92024376045111
+        },
+        {
+          "region": "wall beside arch",
+          "median": [
+            176.0,
+            182.0,
+            181.0
+          ],
+          "target": [
+            233.0,
+            228.0,
+            209.0
+          ],
+          "rgbDistance": 78.41555968046137
+        },
+        {
+          "region": "wall above arch",
+          "median": [
+            189.5,
+            193.0,
+            190.0
+          ],
+          "target": [
+            203.0,
+            189.0,
+            187.0
+          ],
+          "rgbDistance": 14.396180048887969
+        }
+      ],
+      "meanRgbDistance": 53.910661163266816
+    },
+    {
+      "file": "left-light-trial-refined-320-3200.png",
+      "patches": [
+        {
+          "region": "blue wall above middle rectangle",
+          "median": [
+            90.0,
+            103.0,
+            128.5
+          ],
+          "target": [
+            91.0,
+            99.0,
+            128.0
+          ],
+          "rgbDistance": 4.153311931459037
+        },
+        {
+          "region": "wall beside arch",
+          "median": [
+            186.0,
+            183.0,
+            182.0
+          ],
+          "target": [
+            233.0,
+            228.0,
+            209.0
+          ],
+          "rgbDistance": 70.44856279584417
+        },
+        {
+          "region": "wall above arch",
+          "median": [
+            150.5,
+            155.0,
+            159.5
+          ],
+          "target": [
+            203.0,
+            189.0,
+            187.0
+          ],
+          "rgbDistance": 68.32642241475841
+        }
+      ],
+      "meanRgbDistance": 47.64276571402055
+    },
+    {
+      "file": "left-light-trial-refined-320-4800.png",
+      "patches": [
+        {
+          "region": "blue wall above middle rectangle",
+          "median": [
+            90.5,
+            104.0,
+            129.0
+          ],
+          "target": [
+            91.0,
+            99.0,
+            128.0
+          ],
+          "rgbDistance": 5.123475382979799
+        },
+        {
+          "region": "wall beside arch",
+          "median": [
+            197.5,
+            194.0,
+            191.5
+          ],
+          "target": [
+            233.0,
+            228.0,
+            209.0
+          ],
+          "rgbDistance": 52.17758139277826
+        },
+        {
+          "region": "wall above arch",
+          "median": [
+            165.5,
+            166.5,
+            165.0
+          ],
+          "target": [
+            203.0,
+            189.0,
+            187.0
+          ],
+          "rgbDistance": 48.95406009719725
+        }
+      ],
+      "meanRgbDistance": 35.418372290985104
+    },
+    {
+      "file": "left-light-trial-refined-320-6400.png",
+      "patches": [
+        {
+          "region": "blue wall above middle rectangle",
+          "median": [
+            91.0,
+            104.0,
+            129.0
+          ],
+          "target": [
+            91.0,
+            99.0,
+            128.0
+          ],
+          "rgbDistance": 5.0990195135927845
+        },
+        {
+          "region": "wall beside arch",
+          "median": [
+            206.0,
+            202.0,
+            199.0
+          ],
+          "target": [
+            233.0,
+            228.0,
+            209.0
+          ],
+          "rgbDistance": 38.79432948254165
+        },
+        {
+          "region": "wall above arch",
+          "median": [
+            175.0,
+            174.5,
+            173.0
+          ],
+          "target": [
+            203.0,
+            189.0,
+            187.0
+          ],
+          "rgbDistance": 34.5
+        }
+      ],
+      "meanRgbDistance": 26.13111633204481
+    },
+    {
+      "file": "movie-front-v23.png",
+      "patches": [
+        {
+          "region": "blue wall above middle rectangle",
+          "median": [
+            90.0,
+            104.0,
+            129.0
+          ],
+          "target": [
+            91.0,
+            99.0,
+            128.0
+          ],
+          "rgbDistance": 5.196152422706632
+        },
+        {
+          "region": "wall beside arch",
+          "median": [
+            206.0,
+            202.0,
+            199.0
+          ],
+          "target": [
+            233.0,
+            228.0,
+            209.0
+          ],
+          "rgbDistance": 38.79432948254165
+        },
+        {
+          "region": "wall above arch",
+          "median": [
+            178.0,
+            179.0,
+            176.5
+          ],
+          "target": [
+            203.0,
+            189.0,
+            187.0
+          ],
+          "rgbDistance": 28.90069203323685
+        }
+      ],
+      "meanRgbDistance": 24.297057979495047
+    }
+  ]
+}

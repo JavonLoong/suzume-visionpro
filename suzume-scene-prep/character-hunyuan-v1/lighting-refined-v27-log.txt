@@ -1,0 +1,8 @@
+00:02.625  blend            | Read blend: "D:\虚拟C盘\JavonLoongSkill\suzume-scene-prep\character-hunyuan-v1\movie-shore-v26\Suzume_scene_movie_shore_v26.blend"
+03:02.594  render           | Saved: 'D:\虚拟C盘\JavonLoongSkill\suzume-scene-prep\character-hunyuan-v1\movie-lighting-v27\trial-focused-fill-650.png'
+LIGHTING_27_REFINED_DONE focused-fill-650
+03:50.125  render           | Saved: 'D:\虚拟C盘\JavonLoongSkill\suzume-scene-prep\character-hunyuan-v1\movie-lighting-v27\trial-focused-fill-1000.png'
+LIGHTING_27_REFINED_DONE focused-fill-1000
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

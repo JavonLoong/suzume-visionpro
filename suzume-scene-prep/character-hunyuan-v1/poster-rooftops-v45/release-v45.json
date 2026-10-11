@@ -1,0 +1,27 @@
+{
+  "revision": 45,
+  "nativeFile": "poster-rooftops-v45/Suzume_dual_scene_rooftops_v45.blend",
+  "nativeSha256": "934df5dbec658241e56773fa0d15bfd221358c624120e609b7603a1b936075ba",
+  "primaryNativeAlias": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene.blend",
+  "posterScene": "Official poster courtyard v38",
+  "movieScene": "Daytime circular hotel",
+  "nightScene": "Night meadow through the door",
+  "movieRevision37Preserved": true,
+  "closedRooftopAssemblies": 4,
+  "roofSupportProbes": 36,
+  "posterBrowser": "http://127.0.0.1:8931/viewer/poster-v45.html",
+  "movieBrowser": "http://127.0.0.1:8931/viewer/candidate-v37.html",
+  "browserRuntimeVerified": false,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Rebuild the observed left balcony railing density and confirm top/bottom rail and roof-edge heights against the high-resolution reference. next-railing-diagnosis.json records 122 unchanged candidate components and preliminary measurements; recheck those measurements before fitting.",
+    "Replace oversized dark roof ivy leaves with smaller, more varied foliage and align the distinct reference trails and clumps.",
+    "Continue facade opening, cornice, parapet, ground debris and right rooftop equipment reconstruction. Correct mismatches between painted facade detail and actual openings.",
+    "Refine equipment weathering, casing seams, pipe bends, tank shading and partial left-tank brightness. Hidden equipment depths and backs remain inferred.",
+    "Refine pale steel edges, corrosion and irregular damage; the rebuilt left steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water and steel materials with native rendering."
+  ]
+}

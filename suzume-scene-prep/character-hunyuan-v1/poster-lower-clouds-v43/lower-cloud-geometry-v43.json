@@ -1,0 +1,112 @@
+{
+  "revision": 43,
+  "sourceNativeSha256": "f1359f25cd0f11caa6c598c7b8d2afe12aed02ef7254cdf7c60caf9b0def9a2c",
+  "clouds": [
+    {
+      "index": 0,
+      "key": "bank0",
+      "name": "Lower grey-blue stratus bank v43",
+      "vertices": 180151,
+      "triangles": 360306,
+      "closed": true,
+      "signedWorldVolume": 14048.91441175114,
+      "parts": 1,
+      "worldBounds": [
+        [
+          -168.52951071166243,
+          252.18066185691885,
+          33.11821106804741
+        ],
+        [
+          152.80630471802507,
+          270.467087447434,
+          44.4897373093499
+        ]
+      ],
+      "inferredDepthMeters": 282.0,
+      "maximumEllipsoidDepthRadiusMeters": 8.22089309311374,
+      "referencePixelBounds": [
+        [
+          -122.05682943891043,
+          535.4259635289652
+        ],
+        [
+          826.5425366812882,
+          568.056155157691
+        ]
+      ]
+    },
+    {
+      "index": 1,
+      "key": "bank1",
+      "name": "Lower layered horizon cloud v43",
+      "vertices": 239401,
+      "triangles": 478798,
+      "closed": true,
+      "signedWorldVolume": 33119.42512389028,
+      "parts": 1,
+      "worldBounds": [
+        [
+          -185.7676291041233,
+          279.8087985585487,
+          26.586049276471684
+        ],
+        [
+          171.11912016345482,
+          308.715818173722,
+          40.87348385441358
+        ]
+      ],
+      "inferredDepthMeters": 312.0,
+      "maximumEllipsoidDepthRadiusMeters": 10.955117160065646,
+      "referencePixelBounds": [
+        [
+          -121.58569663098416,
+          557.3117656419178
+        ],
+        [
+          829.4413518639311,
+          595.8106710926514
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "key": "bank2",
+      "name": "Distant low horizon billows v43",
+      "vertices": 376018,
+      "triangles": 752032,
+      "closed": true,
+      "signedWorldVolume": 104520.71510696854,
+      "parts": 1,
+      "worldBounds": [
+        [
+          -204.77227624920954,
+          312.53160813885324,
+          15.822910374356724
+        ],
+        [
+          187.10908666582952,
+          351.51600030499094,
+          34.88490492696903
+        ]
+      ],
+      "inferredDepthMeters": 345.0,
+      "maximumEllipsoidDepthRadiusMeters": 16.537396552500535,
+      "referencePixelBounds": [
+        [
+          -117.1568159780976,
+          582.5450448217777
+        ],
+        [
+          827.2398388697833,
+          628.7099028461611
+        ]
+      ]
+    }
+  ],
+  "triangles": 1591136,
+  "closedGeometry": true,
+  "unknownDepthAndBacksInferred": true,
+  "oneToOneComplete": false
+}

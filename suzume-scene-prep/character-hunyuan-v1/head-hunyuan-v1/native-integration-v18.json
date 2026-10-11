@@ -1,0 +1,28 @@
+{
+  "revision": 18,
+  "nativeHeadIntegrated": true,
+  "pairedParts": 1,
+  "sharedGeometryAndRig": true,
+  "independentComplementaryMaterials": true,
+  "standaloneNightIncludesNewHead": true,
+  "portalGateY": 0.0719999149441719,
+  "partition": {
+    "Suzume Hunyuan textured surface": {
+      "vertices": 241846,
+      "courtyardVertices": 34931,
+      "otherworldVertices": 206915,
+      "maxHeight": 2.568659462714251
+    },
+    "Suzume clean mathematical head": {
+      "vertices": 69140,
+      "courtyardVertices": 0,
+      "otherworldVertices": 69140,
+      "maxHeight": 3.1115814635796823
+    }
+  },
+  "minimumWorldHeight": 0.20346192551694564,
+  "rigBones": 20,
+  "oldHeadObjectsRemoved": true,
+  "nativeRenderVerified": true,
+  "oneToOneComplete": false
+}

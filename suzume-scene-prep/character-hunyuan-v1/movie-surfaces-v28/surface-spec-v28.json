@@ -1,0 +1,229 @@
+{
+  "revision": 28,
+  "sourceImage": "reference-opening.jpg",
+  "sourceSha256": "a80f1bcad3be67c8d14610348be42d58245c9375b694e60e9e78467f1a9fed07",
+  "sourceDimensions": [
+    2552,
+    1656
+  ],
+  "sourceImageUnmodified": true,
+  "projection": {
+    "lensMm": 86.54434612692005,
+    "distance": 11.7300315454759,
+    "cameraX": 0.15354844661181763,
+    "cameraZ": 2.8782074998654252,
+    "pitch": 0.07098138634927482,
+    "courtyardX": 0.06987433711729285,
+    "courtyardY": 2.468481461225616,
+    "windowSill": 1.6900559610458885,
+    "arcadeBase": 5.329656385323066,
+    "highRoof": 7.331622841915744,
+    "lowRoof": 5.269525045032644,
+    "edge12": -0.6550226268157784,
+    "edge13": -0.4200226268157784,
+    "edge14": -0.15040402205052789,
+    "edge15": 0.06531638800593045,
+    "edge16": 0.25546756757609357,
+    "edge17": 0.495473647951517
+  },
+  "maskPolygons": [
+    {
+      "name": "door and character",
+      "points": [
+        [
+          904,
+          206
+        ],
+        [
+          1568,
+          205
+        ],
+        [
+          1574,
+          1512
+        ],
+        [
+          892,
+          1512
+        ]
+      ]
+    },
+    {
+      "name": "ivy above the door",
+      "points": [
+        [
+          1170,
+          231
+        ],
+        [
+          1200,
+          201
+        ],
+        [
+          1280,
+          188
+        ],
+        [
+          1385,
+          161
+        ],
+        [
+          1465,
+          174
+        ],
+        [
+          1532,
+          220
+        ],
+        [
+          1569,
+          327
+        ],
+        [
+          1470,
+          290
+        ],
+        [
+          1435,
+          246
+        ],
+        [
+          1310,
+          246
+        ]
+      ]
+    },
+    {
+      "name": "left column and climbing ivy",
+      "points": [
+        [
+          389,
+          0
+        ],
+        [
+          446,
+          0
+        ],
+        [
+          445,
+          340
+        ],
+        [
+          480,
+          393
+        ],
+        [
+          463,
+          655
+        ],
+        [
+          474,
+          840
+        ],
+        [
+          389,
+          861
+        ],
+        [
+          390,
+          486
+        ],
+        [
+          361,
+          354
+        ],
+        [
+          385,
+          323
+        ]
+      ]
+    },
+    {
+      "name": "right column and climbing ivy",
+      "points": [
+        [
+          1835,
+          0
+        ],
+        [
+          1899,
+          0
+        ],
+        [
+          1895,
+          482
+        ],
+        [
+          1930,
+          560
+        ],
+        [
+          1910,
+          846
+        ],
+        [
+          1820,
+          846
+        ],
+        [
+          1814,
+          559
+        ],
+        [
+          1833,
+          475
+        ]
+      ]
+    }
+  ],
+  "topProfile": [
+    [
+      0,
+      0
+    ],
+    [
+      1835,
+      0
+    ],
+    [
+      1912,
+      270
+    ],
+    [
+      2552,
+      241
+    ]
+  ],
+  "bottomPixel": 694,
+  "beamMaskWidth": 30,
+  "vividLeafMask": true,
+  "lutSize": 65,
+  "lutAtlasDimensions": [
+    4225,
+    65
+  ],
+  "lutExposure": 0.8,
+  "lutConfigSha256": "caf3f5c7f43d1c73290ab9405bbfb561dfb76e00adc4ac214e9d58290b56a60d",
+  "lutSignedValuesPreserved": true,
+  "eligibleFrontDepth": [
+    -0.35,
+    0.8
+  ],
+  "eligibleHeight": [
+    1.55,
+    8.4
+  ],
+  "facingMinimum": 0.6,
+  "nativeLeftMaterials": [
+    "material-0",
+    "material-1",
+    "material-2",
+    "material-6"
+  ],
+  "oneToOneComplete": false,
+  "limitations": [
+    "Reference shading is retained in surface pigments; these are not measured reflectance values.",
+    "Foreground occluders, vivid leaves and unobserved areas are excluded; their underlying surfaces remain inferred.",
+    "Only real front-facing plaster and stone surfaces are eligible, not new image planes."
+  ]
+}

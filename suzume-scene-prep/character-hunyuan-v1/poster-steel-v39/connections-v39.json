@@ -1,0 +1,283 @@
+{
+  "revision": 39,
+  "checks": [
+    {
+      "a": "Upper continuous tie",
+      "b": "right I-section post 2",
+      "verified": true,
+      "insidePoint": [
+        5.7473645,
+        15.3924768,
+        12.970123
+      ],
+      "source": "Poster Upper continuous tie",
+      "inside": "Poster right I-section post 2"
+    },
+    {
+      "a": "Upper continuous tie",
+      "b": "right I-section post 3",
+      "verified": true,
+      "insidePoint": [
+        9.7632588,
+        13.127579,
+        13.2727081
+      ],
+      "source": "Poster Upper continuous tie",
+      "inside": "Poster right I-section post 3"
+    },
+    {
+      "a": "Bent broken central beam",
+      "b": "right I-section post 2",
+      "verified": true,
+      "insidePoint": [
+        6.0138324,
+        16.849244,
+        11.1687163
+      ],
+      "source": "Poster Bent broken central beam",
+      "inside": "Poster right I-section post 2"
+    },
+    {
+      "a": "Bent broken central beam",
+      "b": "right I-section post 3",
+      "verified": true,
+      "insidePoint": [
+        10.8904025,
+        15.0482068,
+        11.799353
+      ],
+      "source": "Poster Bent broken central beam",
+      "inside": "Poster right I-section post 3"
+    },
+    {
+      "a": "Short broken right tie",
+      "b": "right I-section post 3",
+      "verified": true,
+      "insidePoint": [
+        11.9775637,
+        16.7448079,
+        9.9964545
+      ],
+      "source": "Poster Short broken right tie",
+      "inside": "Poster right I-section post 3"
+    },
+    {
+      "a": "Lower broken ring beam",
+      "b": "right I-section post 2",
+      "verified": true,
+      "insidePoint": [
+        6.8026393,
+        19.0296882,
+        7.4453501
+      ],
+      "source": "Poster Lower broken ring beam",
+      "inside": "Poster right I-section post 2"
+    },
+    {
+      "a": "Lower broken ring beam",
+      "b": "right I-section post 3",
+      "verified": true,
+      "insidePoint": [
+        12.7094661,
+        17.922245,
+        8.1745166
+      ],
+      "source": "Poster Lower broken ring beam",
+      "inside": "Poster right I-section post 3"
+    },
+    {
+      "a": "Curved left supporting bracket",
+      "b": "right I-section post 2",
+      "verified": true,
+      "insidePoint": [
+        6.4885232,
+        18.1249781,
+        9.602086
+      ],
+      "source": "Poster Curved left supporting bracket",
+      "inside": "Poster right I-section post 2"
+    },
+    {
+      "a": "Curved right supporting bracket",
+      "b": "right I-section post 2",
+      "verified": true,
+      "insidePoint": [
+        6.4705151,
+        18.0262804,
+        9.7954665
+      ],
+      "source": "Poster Curved right supporting bracket",
+      "inside": "Poster right I-section post 2"
+    },
+    {
+      "a": "Curved left supporting bracket",
+      "b": "Bent broken central beam",
+      "verified": true,
+      "insidePoint": [
+        4.3281287,
+        17.6595309,
+        11.0964484
+      ],
+      "source": "Poster Curved left supporting bracket",
+      "inside": "Poster Bent broken central beam"
+    },
+    {
+      "a": "Curved right supporting bracket",
+      "b": "Bent broken central beam",
+      "verified": true,
+      "insidePoint": [
+        7.9265879,
+        16.6563323,
+        11.395949
+      ],
+      "source": "Poster Curved right supporting bracket",
+      "inside": "Poster Bent broken central beam"
+    },
+    {
+      "a": "Bracket horizontal brace",
+      "b": "Curved left supporting bracket",
+      "verified": true,
+      "insidePoint": [
+        5.4857858,
+        17.7992671,
+        10.5246503
+      ],
+      "source": "Poster Bracket horizontal brace",
+      "inside": "Poster Curved left supporting bracket"
+    },
+    {
+      "a": "Bracket horizontal brace",
+      "b": "Curved right supporting bracket",
+      "verified": true,
+      "insidePoint": [
+        6.8827434,
+        17.4318517,
+        10.6212607
+      ],
+      "source": "Poster Bracket horizontal brace",
+      "inside": "Poster Curved right supporting bracket"
+    },
+    {
+      "a": "Hanging central tie",
+      "b": "Bent broken central beam",
+      "verified": true,
+      "insidePoint": [
+        9.9255738,
+        15.7474307,
+        11.745301
+      ],
+      "source": "Poster Hanging central tie",
+      "inside": "Poster Bent broken central beam"
+    },
+    {
+      "a": "Hanging lower tie",
+      "b": "Lower broken ring beam",
+      "verified": true,
+      "insidePoint": [
+        7.9801239,
+        18.9163981,
+        7.646918
+      ],
+      "source": "Poster Hanging lower tie",
+      "inside": "Poster Lower broken ring beam"
+    },
+    {
+      "a": "Bracket left upright",
+      "b": "Bent broken central beam",
+      "verified": true,
+      "insidePoint": [
+        5.2522855,
+        17.2795929,
+        11.237435
+      ],
+      "source": "Poster Bracket left upright",
+      "inside": "Poster Bent broken central beam"
+    },
+    {
+      "a": "Bracket left upright",
+      "b": "Bracket horizontal brace",
+      "verified": true,
+      "insidePoint": [
+        5.5089326,
+        17.7331662,
+        10.5951833
+      ],
+      "source": "Poster Bracket left upright",
+      "inside": "Poster Bracket horizontal brace"
+    },
+    {
+      "a": "Bracket diagonal brace",
+      "b": "Bent broken central beam",
+      "verified": true,
+      "insidePoint": [
+        5.6890601,
+        17.1205149,
+        11.2398318
+      ],
+      "source": "Poster Bracket diagonal brace",
+      "inside": "Poster Bent broken central beam"
+    },
+    {
+      "a": "Bracket diagonal brace",
+      "b": "Bracket horizontal brace",
+      "verified": true,
+      "insidePoint": [
+        5.5078273,
+        17.7008913,
+        10.5906682
+      ],
+      "source": "Poster Bracket diagonal brace",
+      "inside": "Poster Bracket horizontal brace"
+    },
+    {
+      "a": "Bracket right diagonal",
+      "b": "Bent broken central beam",
+      "verified": true,
+      "insidePoint": [
+        6.4303756,
+        16.8982607,
+        11.2989108
+      ],
+      "source": "Poster Bracket right diagonal",
+      "inside": "Poster Bent broken central beam"
+    },
+    {
+      "a": "Bracket right diagonal",
+      "b": "Curved right supporting bracket",
+      "verified": true,
+      "insidePoint": [
+        6.9923903,
+        17.3751479,
+        10.7150164
+      ],
+      "source": "Poster Bracket right diagonal",
+      "inside": "Poster Curved right supporting bracket"
+    },
+    {
+      "a": "Bracket right upright",
+      "b": "Bent broken central beam",
+      "verified": true,
+      "insidePoint": [
+        6.7013819,
+        16.8578543,
+        11.3413813
+      ],
+      "source": "Poster Bracket right upright",
+      "inside": "Poster Bent broken central beam"
+    },
+    {
+      "a": "Bracket right upright",
+      "b": "Curved right supporting bracket",
+      "verified": true,
+      "insidePoint": [
+        7.0561431,
+        17.285473,
+        10.7296112
+      ],
+      "source": "Poster Bracket right upright",
+      "inside": "Poster Curved right supporting bracket"
+    }
+  ],
+  "allCheckedConnectionsIntersect": true,
+  "method": "A mesh vertex lies inside the other closed member, using ray parity; contact-only joints may require separate checking."
+}

@@ -1,0 +1,27 @@
+{
+  "revision": 42,
+  "frontReviewed": true,
+  "horizonDetailReviewed": true,
+  "obliqueReviewed": true,
+  "referenceComparisonReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The final front and 1416-pixel detail show the formerly interrupted central cloud bank connected above the closed door. The abrupt central vertical cut edges from v41 are removed from this bank.",
+    "The oblique render shows the continuous bank within the three-dimensional cloud field, with the courtyard, door and reflections retained. No camera-facing cloud card was added.",
+    "Within the fixed unobscured 114 by 24 pixel probe, projected coverage of the inherited source cloud mask increased from 0.009787 to 0.971411. The mask remains approximate, so this is recovery of a known missing region, not a full visual similarity score.",
+    "Reference-image RGB mean absolute error in the same probe decreased from 32.4023 to 25.9675 on a 0 to 255 scale. The result is still too pale and blue, because the reference also contains deeper and broader lower cloud layers not yet reconstructed.",
+    "The full scene remains recognizably approximate. The left steel members, facade silhouette and rooftop structures differ, the main cloud shading is simplified, and oblique water glints remain too straight in places.",
+    "Browser inventory now responded, but opening the Edge candidate and then binding that exact URL each timed out after 20 seconds. Native renders, exported Three.js geometry and local HTTP resources are verified; actual browser/GPU display is not."
+  ],
+  "remaining": [
+    "Recover the broader, darker lower cloud layers and faint fragments missed by the inherited segmentation, while excluding the foreground door, foliage and steel.",
+    "Refine cloud colors, shapes behind occluding steel, puff spacing and five dominant cloud surfaces; hidden backs and depths remain inferred.",
+    "Rebuild the left poster steelwork and align facade openings, rooftop equipment, ivy and shore debris; refine steel cross-sections, corrosion and paint loss.",
+    "Align submerged poster stone outlines and major water glints; reduce angular straightness from oblique views and tune reflected facade detail.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate water and steel materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false
+}

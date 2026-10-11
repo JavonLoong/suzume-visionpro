@@ -1,0 +1,41 @@
+{
+  "revision": 43,
+  "clouds": [
+    {
+      "name": "Lower grey-blue stratus bank v43",
+      "vertices": 180151,
+      "greenExcessOverBlueMax": -0.008958637714385986,
+      "meanDisplayRGB": [
+        0.562458872795105,
+        0.6641743183135986,
+        0.738113284111023
+      ],
+      "greenContaminationThreshold": 0.025
+    },
+    {
+      "name": "Lower layered horizon cloud v43",
+      "vertices": 239401,
+      "greenExcessOverBlueMax": -0.017308175563812256,
+      "meanDisplayRGB": [
+        0.5673478841781616,
+        0.665851354598999,
+        0.7382363677024841
+      ],
+      "greenContaminationThreshold": 0.025
+    },
+    {
+      "name": "Distant low horizon billows v43",
+      "vertices": 376018,
+      "greenExcessOverBlueMax": -0.021664321422576904,
+      "meanDisplayRGB": [
+        0.5670484900474548,
+        0.6656233668327332,
+        0.7380135655403137
+      ],
+      "greenContaminationThreshold": 0.025
+    }
+  ],
+  "previousSideFailure": "Grey-green foreground pigment was extrapolated across unobserved cloud front surfaces.",
+  "repair": "Require sky chroma in both reference images; measured pigments fade out outside verified cloud samples, revealing inferred normal-dependent 3D illumination.",
+  "scope": "Vertex pigment audit; final front and oblique renders are still required."
+}

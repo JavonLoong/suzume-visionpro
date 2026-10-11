@@ -1,0 +1,401 @@
+{
+  "sceneExposure": 0.800000011920929,
+  "viewTransform": "AgX",
+  "sun": {
+    "object": "DirectionalLight",
+    "energy": 3.200000047683716,
+    "color": [
+      1.0,
+      0.9490196108818054,
+      0.8509804010391235
+    ],
+    "directionTowardSun": [
+      -0.5062078833580017,
+      -0.385682076215744,
+      0.7713643312454224
+    ]
+  },
+  "sampleRays": [
+    {
+      "region": "upper plaster",
+      "visibleObject": "Solid plaster wall with two through-openings v21",
+      "point": [
+        22.275026321411133,
+        30.829051971435547,
+        13.98263931274414
+      ],
+      "normal": [
+        -0.11356383562088013,
+        -0.9935307502746582,
+        9.581673765524101e-08
+      ],
+      "sunIncidenceCosine": 0.44067398026570714,
+      "towardSun": [
+        {
+          "object": "Upper wall shadow course v21",
+          "distance": 1.0419506647476082,
+          "shadowVisible": true,
+          "point": [
+            21.749269485473633,
+            30.414871215820312,
+            14.781197547912598
+          ]
+        },
+        {
+          "object": "Upper wall shadow course v21",
+          "distance": 1.3794592053941075,
+          "shadowVisible": true,
+          "point": [
+            21.57840919494629,
+            30.284692764282227,
+            15.041556358337402
+          ]
+        },
+        {
+          "object": "Roof slab v21",
+          "distance": 1.6402683597031964,
+          "shadowVisible": true,
+          "point": [
+            21.446380615234375,
+            30.184099197387695,
+            15.242743492126465
+          ]
+        },
+        {
+          "object": "Upper cornice v21",
+          "distance": 2.092853852550295,
+          "shadowVisible": true,
+          "point": [
+            21.21727180480957,
+            30.009540557861328,
+            15.5918607711792
+          ]
+        },
+        {
+          "object": "Roof slab v21",
+          "distance": 2.131207333694225,
+          "shadowVisible": true,
+          "point": [
+            21.197856903076172,
+            29.994749069213867,
+            15.62144660949707
+          ]
+        },
+        {
+          "object": "Upper cornice v21",
+          "distance": 2.353666232660039,
+          "shadowVisible": true,
+          "point": [
+            21.08524513244629,
+            29.90894889831543,
+            15.793046951293945
+          ]
+        }
+      ]
+    },
+    {
+      "region": "below oculus",
+      "visibleObject": "Solid plaster wall with two through-openings v21",
+      "point": [
+        27.620830535888672,
+        30.218006134033203,
+        7.177668571472168
+      ],
+      "normal": [
+        -0.11356423795223236,
+        -0.9935306906700134,
+        2.8806752538912406e-07
+      ],
+      "sunIncidenceCosine": 0.44067429992446705,
+      "towardSun": []
+    },
+    {
+      "region": "between windows",
+      "visibleObject": "Solid plaster wall with two through-openings v21",
+      "point": [
+        24.679363250732422,
+        30.554229736328125,
+        7.228676795959473
+      ],
+      "normal": [
+        -0.11356467008590698,
+        -0.9935306310653687,
+        0.0
+      ],
+      "sunIncidenceCosine": 0.4406742975115776,
+      "towardSun": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.017",
+      "diffuse": [
+        0.8879231214523315,
+        0.7912979125976562,
+        0.38132601976394653,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.8879231214523315,
+              0.7912979125976562,
+              0.38132601976394653,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.949999988079071,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "model-texture-EBD27D7D-8282-40D9-83C5-45320AB3FF99.png",
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "MIX_RGB",
+          "image": null,
+          "inputs": {
+            "Factor": 1.0,
+            "Color1": [
+              0.8879231214523315,
+              0.7912979125976562,
+              0.38132601976394653,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.008",
+      "diffuse": [
+        0.6795424818992615,
+        0.6583748459815979,
+        0.5088813304901123,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null,
+          "inputs": {
+            "Base Color": [
+              0.6795424818992615,
+              0.6583748459815979,
+              0.5088813304901123,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.9200000166893005,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "model-texture-EBD27D7D-8282-40D9-83C5-45320AB3FF99.png",
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "MIX_RGB",
+          "image": null,
+          "inputs": {
+            "Factor": 1.0,
+            "Color1": [
+              0.6795424818992615,
+              0.6583748459815979,
+              0.5088813304901123,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

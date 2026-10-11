@@ -1,0 +1,39 @@
+{
+  "revision": 37,
+  "seamVertices": 216,
+  "changedVertices": 2976,
+  "modifiedTriangles": 4817,
+  "maximumDisplacement": 0.01598105952143669,
+  "maximumSeamDisplacement": 0.015981119635280046,
+  "flippedModifiedTriangles": 0,
+  "almostDegenerateModifiedTriangles": 0,
+  "seamBeforeBounds": [
+    [
+      -0.22830069065093994,
+      0.6741542220115662,
+      2.4566564559936523
+    ],
+    [
+      -0.06157633662223816,
+      0.8542789220809937,
+      2.568659543991089
+    ]
+  ],
+  "seamAfterBounds": [
+    [
+      -0.2266903966665268,
+      0.6744919419288635,
+      2.4621689319610596
+    ],
+    [
+      -0.06307654082775116,
+      0.8451205492019653,
+      2.5630557537078857
+    ]
+  ],
+  "oneToOneComplete": false,
+  "deformation": "Harmonic displacement in a 55 mm geodesic collar band",
+  "harmonicInteriorVertices": 2178,
+  "orientationRepairIterations": 87,
+  "maximumSubmillimetreSeamCorrection": 0.00017570081218219516
+}

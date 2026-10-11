@@ -1,0 +1,36 @@
+{
+  "revision": 24,
+  "nativeFiveLowerWallsMatch": true,
+  "walls": [
+    {
+      "bay": 12,
+      "vertices": 96,
+      "maximumNativeDifference": 0
+    },
+    {
+      "bay": 13,
+      "vertices": 444,
+      "maximumNativeDifference": 0
+    },
+    {
+      "bay": 14,
+      "vertices": 324,
+      "maximumNativeDifference": 0
+    },
+    {
+      "bay": 15,
+      "vertices": 156,
+      "maximumNativeDifference": 0
+    },
+    {
+      "bay": 16,
+      "vertices": 876,
+      "maximumNativeDifference": 0
+    }
+  ],
+  "newParts": 789,
+  "cameraProjectionMaximumError": 2.2737367544323206e-13,
+  "inlineScriptsParsed": 1,
+  "browserRuntimeVerified": false,
+  "browserFailure": "CUA tab binding timed out at Emulation.setFocusEmulationEnabled; no screenshot or interaction check available."
+}

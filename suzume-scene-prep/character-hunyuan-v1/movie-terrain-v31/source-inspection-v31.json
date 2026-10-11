@@ -1,0 +1,302 @@
+{
+  "sourceSha256": "c516b51a224c6733eaba628d1ac37b9370ec7480c35b19d0e3268fb0bbcc3d71",
+  "ground": {
+    "name": "Rolling meadow ground",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parent": "Scene axes — meters.001",
+    "collections": [
+      "Editable night realm"
+    ],
+    "vertices": 40401,
+    "polygons": 80000,
+    "worldBounds": [
+      [
+        -200.0,
+        -200.0,
+        -0.29894188046455383
+      ],
+      [
+        200.0,
+        200.0,
+        1.3944603204727173
+      ]
+    ],
+    "materials": [
+      "Rolling meadow ground"
+    ]
+  },
+  "nightMeshFingerprints": {
+    "Spatial twilight cloud volume 0": {
+      "worldHash": "9a1d78e14aaa3f169720554176f741d1a56da88b0c3af9176b9df537ed36808d",
+      "topology": "37bd068474d7031f9bb1e8ddb6deb0b452fbe435b46a2819b43275367502e449"
+    },
+    "Spatial twilight cloud volume 1": {
+      "worldHash": "6f6a53c7495047d7429b5551c6af3250a1cb56ffd6850a14ce5816475431c035",
+      "topology": "37bd068474d7031f9bb1e8ddb6deb0b452fbe435b46a2819b43275367502e449"
+    },
+    "Spatial twilight cloud volume 2": {
+      "worldHash": "abbe1f37871063775a97c670c3be6c5408a3137184fd4ea01bcc8ee4542250b2",
+      "topology": "37bd068474d7031f9bb1e8ddb6deb0b452fbe435b46a2819b43275367502e449"
+    },
+    "Spatial twilight cloud volume 3": {
+      "worldHash": "2102f5d53f730e4537bbbdeac6cbef316ecbd1d5290921743ea08eae44f4ca00",
+      "topology": "37bd068474d7031f9bb1e8ddb6deb0b452fbe435b46a2819b43275367502e449"
+    },
+    "Spatial twilight cloud volume 4": {
+      "worldHash": "92985dd01be6c49350ed88bc2fbd785186e68a2fc6b9348c8c0d518f413dc979",
+      "topology": "37bd068474d7031f9bb1e8ddb6deb0b452fbe435b46a2819b43275367502e449"
+    },
+    "Spatial twilight cloud volume 5": {
+      "worldHash": "76a99ad6cec7268677f9ff858cce98aad7cfc9ac60add1489f8b12801f633c2e",
+      "topology": "37bd068474d7031f9bb1e8ddb6deb0b452fbe435b46a2819b43275367502e449"
+    },
+    "Spatial twilight cloud volume 6": {
+      "worldHash": "068b8d4ffbbada6bb888ca11fbfea87913f6e36412e15e2d69be179c104cad13",
+      "topology": "37bd068474d7031f9bb1e8ddb6deb0b452fbe435b46a2819b43275367502e449"
+    },
+    "Spatial twilight cloud volume 7": {
+      "worldHash": "da24155684467b08e4eb23412a03682f4ae1ba4f8bcd9b60dda1e60c6d1827df",
+      "topology": "37bd068474d7031f9bb1e8ddb6deb0b452fbe435b46a2819b43275367502e449"
+    },
+    "Spatial twilight cloud volume 8": {
+      "worldHash": "992990380a1cc783835a23780df54f8fdff22ee01cf5ea4e52d3e688cbb7a904",
+      "topology": "37bd068474d7031f9bb1e8ddb6deb0b452fbe435b46a2819b43275367502e449"
+    },
+    "Spatial twilight cloud volume 9": {
+      "worldHash": "4847151b60921851972b0ad312156df6247f4069dc2eb9ba92ca8a776b5f47a0",
+      "topology": "37bd068474d7031f9bb1e8ddb6deb0b452fbe435b46a2819b43275367502e449"
+    },
+    "Rolling meadow ground": {
+      "worldHash": "9c40a28e9947653527b5ddb4a8ce7b032e8d138e486d3c454c616b624ea677eb",
+      "topology": "840d18f1ce0d464c04610f8c7e35c78a1d309f9dff70492dd463859a499c3263"
+    },
+    "Individual meadow flowers": {
+      "worldHash": "0aba895f4fe1ad12ddf91ea66c70025a26fbed37b65fd1aae35a5da31c41f1b7",
+      "topology": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Modeled flower stems": {
+      "worldHash": "83876a821b23dde16218a1987a32ef6d8dc0515430c00d049a0925c07638fae7",
+      "topology": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Spatial grass blades": {
+      "worldHash": "051e4899d65512d730b4d4823c516edf1afcfe850c936e9ce5240ad96ca338d0",
+      "topology": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Spatial luminous stars": {
+      "worldHash": "147a34d8dc848d060d0e119feebc7fb515e732dbaf5623b1daa38be2b9a89f6e",
+      "topology": "24b472d9e6668cd6c76c6fbd7ff9d3dc46612befd9c534b81ccb2611659b5e52"
+    },
+    "Native enclosing night sky": {
+      "worldHash": "84320e6e33b5930cfcdae6a910272fb7ac4fe4b491695627f83dc20eabe6c16b",
+      "topology": "3cf95e5a0bd9c6e4ff6bbd92bad24424b4f7e23a9be7855672b96f9813f47999"
+    },
+    "Individual meadow flowers prototype": {
+      "worldHash": "6d8dd010368eadcf8bdd897b32e670d62d63ec31be4d9499804415e25245dc0f",
+      "topology": "b44f94c63aa4df19106731b03bc17aa390554d6f7bc3fb3bcd93ab2903aad5b9"
+    },
+    "Modeled flower stems prototype": {
+      "worldHash": "a2f05f99742a12ef02c7fd1f31e9d3b2d79662e764e50b53f8fcbba801653f9d",
+      "topology": "e041c5145295d0d9fe7a263b8846a50636e64e543b31391559c52b5b9e77eb8d"
+    },
+    "Spatial grass blades prototype": {
+      "worldHash": "d14a691a9b018c833729e058a696ad9beb943ad129d02813b064d5afd0b6b724",
+      "topology": "b545991574f34e4a5a66ce6e335f5b0ac2a2d254dd6ef892cfa1dea56e297322"
+    },
+    "Suzume Hunyuan entered portion": {
+      "worldHash": "2896983aec2e928a5568fcac6db42aee4cc49e81c6f94458626729998a80e732",
+      "topology": "b353f5f84e65adcd46ce7115d7877a43a3f8ec1628c83977310b633f4ada683a"
+    },
+    "Suzume independent Hunyuan head — entered portion": {
+      "worldHash": "38f000bcf8cbc01a1d73cbcd3d12d0d9886dd5ef8806e1d5c67afda7a9a81a9b",
+      "topology": "fd73157ab7cb74ed8bb7d087d4fa73ae3625a7915877ba0f355cc6f374c20528"
+    },
+    "Left gold hairpin — entered portion": {
+      "worldHash": "14c35adac549706e483c036a95ccbebb1b46903b01e6d4c7ce4479442c8cd397",
+      "topology": "fccaad5d872619814a0f0709e5312e960e6bf83ee3db24d6b00ca211d3d7e59a"
+    },
+    "Left red hairpin diagonal — entered portion": {
+      "worldHash": "3c8b63f58137940698781613c3dcc59ff1817fc1a447f8c60e2c8b32ae7be785",
+      "topology": "fccaad5d872619814a0f0709e5312e960e6bf83ee3db24d6b00ca211d3d7e59a"
+    },
+    "Left red hairpin crossbar — entered portion": {
+      "worldHash": "4ab2db8a540b4f98ef3f6842ef2fd23e51729afc06c3490105691863bdfdab59",
+      "topology": "fccaad5d872619814a0f0709e5312e960e6bf83ee3db24d6b00ca211d3d7e59a"
+    }
+  },
+  "materials": {
+    "Animated door leaf and hinges surface": "926ae93f05cde8782eddff5e16fe45d433795b945383683624193ac754fb5033",
+    "Animated door leaf and hinges surface.001": "64d597b0e76c60b956e774d1195b7f78c800a63abaf60be534eeb747b8b3f92c",
+    "Animated door leaf and hinges surface.002": "2f503a02d4db6c63f8466f1467ae459b69f9b6a4c6fc6d3b34c3269ecaba4774",
+    "Animated door leaf and hinges surface.003": "ace092ed1b9d182fddf2ba172c29f10c453b2e053973678fca38222b7fe59f8d",
+    "Attached steel ivy leaf0 v25": "0781d3ff42840110a0f0fb9c6983037c4efc714fc5de96e3889794834718c898",
+    "Attached steel ivy leaf1 v25": "12de4349d635be047102a1d8ffef500987ee54460bbe9a66cdfa722b2d0f34f2",
+    "Attached steel ivy leaf2 v25": "eac4fc7198cbc6ab226facd919531732d706891db6a614c4a608ac35f97533fa",
+    "Attached steel ivy vine v25": "df166882e03df43d4423cb726c7c94709f60ab89c430598e76ea2bb5660221b0",
+    "Branching tree crowns surrounding the ruined hotel vertex pigments": "71683ae79a7e1ead949b6ed877c836ed6633c49d075f6520512cb1bd982ca094",
+    "Brick and masonry debris solid mesh": "8b31c1dda77b02226c7600bffda454d827a7842c8599b3f69aeff1fc73d1302c",
+    "Circular ruined hotel with exterior entrance solid mesh": "260a8ced0ce77c5ac047bcb8911eea5093817aa9a77d15e8d3887cf78c7d5168",
+    "Circular ruined hotel with exterior entrance solid mesh.001": "d6450cdaf5c2048c7ea9e86496c42c6c33f5237ec016d32d941f940849ad622a",
+    "Circular ruined hotel with exterior entrance solid mesh.002": "fb960479b68231fec5af9a1d5f7e6a8e70ac504340336551e6e0e4862ea99695",
+    "Circular ruined hotel with exterior entrance solid mesh.003": "e6418c9609aa80b69a71f1f0e84272fbe394ba0ba869eab08f8e2935aacf44b8",
+    "Circular ruined hotel with exterior entrance solid mesh.004": "bca86c642044d2d2ad913f37bd4e7aa491385d71bda30bf2fcb032bf5680d5da",
+    "Circular ruined hotel with exterior entrance solid mesh.005": "c0c47b6b3b95709dc7d0b3f940ef79d96dd0397277a2a1d1b1b1c1398ff40e0a",
+    "Circular ruined hotel with exterior entrance solid mesh.006": "8969b7580267c45dedc6f636ba919252450a0084463e209d7e02eb9e375f02d5",
+    "Circular ruined hotel with exterior entrance solid mesh.007": "b1cf76cbb4521d9bc307aa24746ac50e8d55a44d3bdfd566b7549a2e48a1078c",
+    "Circular ruined hotel with exterior entrance solid mesh.008": "20c4524c93aa68e01715b4e7103d037108fdfdd41755daf8ab3eb0bdcf83e69a",
+    "Circular ruined hotel with exterior entrance solid mesh.009": "130b43549969fdb933321eed5f1cc4329b9e6045dbb1a2ecc0571eff0283ec4a",
+    "Circular ruined hotel with exterior entrance solid mesh.010": "b49389f2ac81e6a3131afcd2ce482430534fa8cb88d999d2746e408bf6b83ebc",
+    "Circular ruined hotel with exterior entrance solid mesh.011": "a2de7daaf849444ead14cc55c002c1fa0accaa971325f7ce39137cfff72b95c5",
+    "Circular ruined hotel with exterior entrance solid mesh.012": "b250c1e076562ad61997eb51c211966e00c78eb83674ae269601ece53fd29318",
+    "Circular ruined hotel with exterior entrance solid mesh.013": "5a89bcb4efb17f7b677cc8f9ed898e86156728a47e7dac6b9b1ee7ce02c049ec",
+    "Circular ruined hotel with exterior entrance solid mesh.014": "a2b74e38ab5bf75f1cc1282aaa0b724fbbf0b3a3aa9091f10b6231cf7cc43ecd",
+    "Circular ruined hotel with exterior entrance solid mesh.015": "6ce0502040c71475aa261d9e2ea639baacea5bc53438e39c1cc49f055f46e0e7",
+    "Circular ruined hotel with exterior entrance solid mesh.016": "3b08696778c657db38bd23bbf8723f9909a6371e40af42dbc7e7fa3d8efd8f1e",
+    "Circular ruined hotel with exterior entrance solid mesh.017": "640bbbb12a95ec1a447c191464c694f25cfa99265ea81fccc650cc562024a7f7",
+    "Continuous forest terrain": "6922af8dacd081be264074ca7fe17412235bcb2f5b5cc13657b65e4a7a5d6b77",
+    "Doorway — native Cycles Ray Portal": "44f4327841fd89b942e68f08950aee4348257f7da40e18a5abd040716a1d0062",
+    "Film corroded I-section steel v25": "c2760b330f734592cf00f4f12e868b5232c42ef5d5d03214a361b6f76df0b759",
+    "Film exposed steel connections v25": "c2760b330f734592cf00f4f12e868b5232c42ef5d5d03214a361b6f76df0b759",
+    "Film grounded concrete footings v25": "e49d09a2d97df4649e4735ec8968ea57f2bb115eb865a5719fc83b32ceeb2d22",
+    "Flooded polygon flagstones and broken slabs solid mesh": "8bb8937baf94217eeb5861e6e22aa27261f39c4a5ce27569b00ad85b0e0eda60",
+    "Flooded polygon flagstones and broken slabs solid mesh.001": "ca2062a2779fc67c6c8d7536cb9d2011a719ada422c720a0964c4c34a54bbe44",
+    "Flooded polygon flagstones and broken slabs solid mesh.002": "4eae6a80fe38ae6b6be4ff33f5c46eef44b1697c4697bac14d7b01da7807da12",
+    "Flooded polygon flagstones and broken slabs solid mesh.003": "b4f61871f3e3f3b8f1e9d348e68d76f53950f31299333baa0683aee626384ffa",
+    "Flooded polygon flagstones and broken slabs solid mesh.004": "f8358a5012908f2a2c547c2f3bc6477cfc736a27d733a70ef1228af4ee00dd30",
+    "Flooded polygon flagstones and broken slabs solid mesh.005": "ce7730f0cb633a677f1958e4e9c89668adde267ceff9015adf56f44764735f92",
+    "Flooded polygon flagstones and broken slabs solid mesh.006": "c13c0bd0adc656f8980bb1d81ece74bcb5d991b27f9ce676f2aa9adf384f61ac",
+    "Forest trunks": "179cf04e2967dfbc3c37ccc45b32bc607d4ea6fc0a102436959698da09c1d4df",
+    "Individual meadow flowers vertex pigments": "24207a4a081d5e51f5362ff8127f01eb912d5aca5d06c85cdfdf2747a11a4506",
+    "Individual three-dimensional ivy leaves vertex pigments": "a5bba5982e97c87202e2a4b2244110c546e35affb37e8d3fdb9f1a49fa3a7519",
+    "Left gold hairpin enamel": "eab4ed158d1dcc0bace91c6ebe8f609cbc763b6be91b99cd3556c7da02251534",
+    "Left gold hairpin enamel — courtyard v17": "d82ec18b53a6763277d05840ab02d081fd50bb4187e04be54f77365e415bfbb4",
+    "Left gold hairpin enamel — otherworld v17": "5e2e14c663e491309522342a7f0a50a661216989fb7467754e39aa59503db1dc",
+    "Left red hairpin crossbar enamel": "f0d8902d1778d65fd4eb70021ea1bfc0611f162772bb5af41fa37676b38c9b6c",
+    "Left red hairpin crossbar enamel — courtyard v17": "756d1e95bc313a64a9f72bb81b3f4644d35c350f223e52e6d542a56a0f490a86",
+    "Left red hairpin crossbar enamel — otherworld v17": "ec1f3d56613c9b076eafb03acbc68bd4a6f9d2a1ce0ad8bc164969b9f07a8f36",
+    "Left red hairpin diagonal enamel": "f0d8902d1778d65fd4eb70021ea1bfc0611f162772bb5af41fa37676b38c9b6c",
+    "Left red hairpin diagonal enamel — courtyard v17": "756d1e95bc313a64a9f72bb81b3f4644d35c350f223e52e6d542a56a0f490a86",
+    "Left red hairpin diagonal enamel — otherworld v17": "ec1f3d56613c9b076eafb03acbc68bd4a6f9d2a1ce0ad8bc164969b9f07a8f36",
+    "Live planar reflective shallow water": "492da9d424e905513055f30ca9cbc17b8f9c2963c4623ba9f687d6c85b3876eb",
+    "Material": "d6c344a84536cf1684538de12c64c49c323d0481bade7448d5fc1057bc853c74",
+    "Material.001": "e9ec72e909c0f71da52a30f4e317a9be4cf7a2b054e3e27d0e37364d5b677e72",
+    "Material.002": "c51599103ee38cd50cc65705f58970e4c72844c6e3448365766b163e895f2b71",
+    "Material.003": "5c186c45eec9dd633c78efa549cfa60b6b9d3c2ca675853d40f1fd4bd1174490",
+    "Material.003 — courtyard half": "351be3272a4d6a11b0639cb8230bfc6c9a412e3cce134962754127b0e732a6bc",
+    "Material.003 — otherworld half": "c7762ca0d173fdd8bfef384d4f6bc29e847c83658b1d08d13d2be0b17963a4d0",
+    "Modeled flower stems": "cc36d9f29fdd0386e220c4707ac4b4eb7b3965f1a504d688012dcb86a9391286",
+    "Movie aged window frame v22": "717d57067131b74da755f445f65d3ca5172755cf9500e654c4a62c75bc70db81",
+    "Movie bay material material-0 v23": "130b43549969fdb933321eed5f1cc4329b9e6045dbb1a2ecc0571eff0283ec4a",
+    "Movie bay material material-0 v23 — fixed film pigments v28": "6652efcfe0c5234af81abfe6038152c0886c4500b83d5c0da65388c296599876",
+    "Movie bay material material-1 v23": "258215601180f3888b94112fcf77fb749250bd660ab2baa88e427a8d6632a729",
+    "Movie bay material material-1 v23 — fixed film pigments v28": "9fdba0e51bea25ce8402b58ba7078d381b3cacc0075e0492fc3c1e8f4151f3da",
+    "Movie bay material material-10 v23": "bca86c642044d2d2ad913f37bd4e7aa491385d71bda30bf2fcb032bf5680d5da",
+    "Movie bay material material-11 v23": "d6450cdaf5c2048c7ea9e86496c42c6c33f5237ec016d32d941f940849ad622a",
+    "Movie bay material material-12 v23": "6ce0502040c71475aa261d9e2ea639baacea5bc53438e39c1cc49f055f46e0e7",
+    "Movie bay material material-13 v23": "c0c47b6b3b95709dc7d0b3f940ef79d96dd0397277a2a1d1b1b1c1398ff40e0a",
+    "Movie bay material material-14 v23": "8969b7580267c45dedc6f636ba919252450a0084463e209d7e02eb9e375f02d5",
+    "Movie bay material material-2 v23": "b84dcef4a079236b99dc0afd2b2e0b64a77339b8fe72d79a295b6f45b2664723",
+    "Movie bay material material-2 v23 — fixed film pigments v28": "1d81dd8f35bb733683657551decfe2848760c7faf3c3281ad2d8c3ffcecce9ef",
+    "Movie bay material material-3 v23": "fb960479b68231fec5af9a1d5f7e6a8e70ac504340336551e6e0e4862ea99695",
+    "Movie bay material material-4 v23": "a2b74e38ab5bf75f1cc1282aaa0b724fbbf0b3a3aa9091f10b6231cf7cc43ecd",
+    "Movie bay material material-5 v23": "a2de7daaf849444ead14cc55c002c1fa0accaa971325f7ce39137cfff72b95c5",
+    "Movie bay material material-6 v23": "b49389f2ac81e6a3131afcd2ce482430534fa8cb88d999d2746e408bf6b83ebc",
+    "Movie bay material material-6 v23 — fixed film pigments v28": "0708bce0c44f82879dac77e50e911391c9cc3a3e271f53555e9479c7ebee671f",
+    "Movie bay material material-7 v23": "b250c1e076562ad61997eb51c211966e00c78eb83674ae269601ece53fd29318",
+    "Movie bay material material-8 v23": "e6418c9609aa80b69a71f1f0e84272fbe394ba0ba869eab08f8e2935aacf44b8",
+    "Movie bay material material-9 v23": "260a8ced0ce77c5ac047bcb8911eea5093817aa9a77d15e8d3887cf78c7d5168",
+    "Movie pale plaster v22": "12912e1c296a689ac34c11b52ce332b9b2de7ae2aa0a1b6cd55fafa96a0f7bf7",
+    "Movie pale plaster v22 — fixed film pigments v28": "11c7474cb5ab53f4c97bd9a1b9d54d976a0bee2ffdee3b5468dfbdb76f7ecfdc",
+    "Movie shaded glazing v22": "fededa37c5eea9357e9f74ff48b90f210fdee8adf09e2eda0813a4ca53b3e20f",
+    "Movie warm stone trim v22": "fab09294b20d0898a2469793ae36c61cd0728fe578b201ed24dda7bbf7e2bb76",
+    "Movie warm stone trim v22 — fixed film pigments v28": "e63e0a2da028705d617b9e549649a15e6b995207f42d790c25429786fb55cecd",
+    "Movie waterfront bank v26": "5ad8ab1c9f60fe7c7cd54c43e41ca0e17501151e1a8fc30a667f890c9d02dc87",
+    "Movie waterfront concrete v26": "5ad8ab1c9f60fe7c7cd54c43e41ca0e17501151e1a8fc30a667f890c9d02dc87",
+    "Movie waterfront curb v26": "5ad8ab1c9f60fe7c7cd54c43e41ca0e17501151e1a8fc30a667f890c9d02dc87",
+    "Movie waterfront rust v26": "0215b4a8f61dbde27b2e733f0ea4e19216178c1860a87c49222da4b8746abb10",
+    "Movie waterfront rustDark v26": "0215b4a8f61dbde27b2e733f0ea4e19216178c1860a87c49222da4b8746abb10",
+    "Native starlight": "03bd4921ea0ef1fd541a87979d0626aca689f886df545d5e0116576eec57155a",
+    "Reference pigments on the solid door front": "4ade09e9a00a5c9d70c1c8610f99b1dbbbd5b8d3d604dfa5999b251d7fd1e532",
+    "Reference-calibrated facade surface pigments": "64b636da0a458fb2dc14d81a54e83d1aa0543d74bb587a3ff910e50abf106bf5",
+    "Reference-shaped closed cloud volume 0": "880e17156e11a9469c10dad4b5d9dba6bd42f05aa3a077a61e7ac177e2374094",
+    "Rolling meadow ground": "458c22ea4f0e631c80d12f86335e1e761d3476c610887c201b9553732eee5d8a",
+    "Spatial calibrated night sky v12": "c9add60fab3e33f1ea0443f9a7ad38d2bcd3ba6d26f61a42c3ffb004bdbc474e",
+    "Spatial grass blades": "d24667963d41e3021ad7d52e4e2dc44b501f353162a0cab4498a9e82a4ee8d44",
+    "Spatial twilight cloud volume 0": "f3766130b0597c395ed43e5889ac3e412f92977d2a57577ed45d9525527e640f",
+    "Spatial twilight cloud volume 1": "98434a17c8c9b2589d6e8981448a96a61e8ed92bcaf67bf66757faa493c467de",
+    "Spatial twilight cloud volume 2": "f266dccc80493d250e88faa9e4fa0a3ba437714b3c03baa2aca5efec2beb1955",
+    "Spatial twilight cloud volume 3": "32243b48c36f6b403f0608cff8dd9f9a7129ce067ba6a86a1abf8406e9987cd5",
+    "Spatial twilight cloud volume 4": "8df95ac6ffccb3b6b1edca20986b3e556eabdf542fe56a09e32a384a5ed23600",
+    "Spatial twilight cloud volume 5": "8b44fd52607f76f0f9584dded1a67b2719637529732c32af403cb7a08630927f",
+    "Spatial twilight cloud volume 6": "42c82c89c88ee913555972542b5e76e045f8ec2e04af609211939614317492ed",
+    "Spatial twilight cloud volume 7": "624e3894f29772d03e9f504ddab10a30ecba1106629f44fa5434e86b28823b09",
+    "Spatial twilight cloud volume 8": "4cba3cdb1515a5650a1538f310047771534c07d3b72d770924e97abec4f1760a",
+    "Spatial twilight cloud volume 9": "33e567e83892f0cd457ad8ce8cea87c2b3484e4f3c968d8a742af0e9d28bbf32",
+    "Suzume head — four view color": "b968474f9377578b9d92d7663a428364f82cfc6747f90338bc7fd22f9e906c21",
+    "Suzume head — four view color — courtyard v17": "374d2c860d9b35182512bedf014cefb9f2a81fcd8fe528b0b79b371726bd9f82",
+    "Suzume head — four view color — otherworld v17": "00c206d69fd9986a745ed0287ef4947793d01d86ebeaaa6c879dc0d7343b7b99"
+  },
+  "nightCollections": [
+    "Editable night realm",
+    "Suzume — portion inside the otherworld"
+  ],
+  "realmCollections": [
+    "Editable night realm"
+  ],
+  "realmInstances": [
+    {
+      "name": "Night realm reached through the door",
+      "collection": "Editable night realm",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1600.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

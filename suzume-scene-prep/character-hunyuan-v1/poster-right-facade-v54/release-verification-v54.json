@@ -1,0 +1,17 @@
+{
+  "revision": 54,
+  "nativeSha256": "d405c34fe691c40542fa1483386b75b942d5c47903667bd097e0b217baad341d",
+  "primaryAliasMatches": true,
+  "statusAndGalleryPointToV54": true,
+  "downloadAndPreviewResources": [
+    "index.html",
+    "status.json",
+    "viewer/poster-v54.html",
+    "poster-right-facade-v54/poster-front-v54.png",
+    "poster-right-facade-v54/right-facade-comparison-v54.png",
+    "poster-right-facade-v54/release-v54.json"
+  ],
+  "browserDefaultRevision": 17,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

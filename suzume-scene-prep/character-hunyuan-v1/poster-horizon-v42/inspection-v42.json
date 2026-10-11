@@ -1,0 +1,34 @@
+{
+  "sourceNativeSha256": "06d79ae053a89f7671d26f878aab1a81eee2d4269e44c5a043781f66e7afb9aa",
+  "maskShape": [
+    592,
+    708
+  ],
+  "pureSkyProbeRestoredPixels": 1061,
+  "affectedComponents": [
+    {
+      "uncappedComponent": 28,
+      "bounds": [
+        238,
+        481,
+        470,
+        98
+      ],
+      "area": 14634,
+      "restoredProbePixels": 1061,
+      "overlapsOldClouds": [
+        {
+          "cloudIndex": 1,
+          "pixels": 12232,
+          "fractionOfOldMask": 1.0
+        },
+        {
+          "cloudIndex": 3,
+          "pixels": 1334,
+          "fractionOfOldMask": 1.0
+        }
+      ]
+    }
+  ],
+  "remainingSourceMaskCautions": "The source mask is cropped at the lower sky and may include foreground door or roof pixels; do not turn its bottom border into a cloud slab."
+}

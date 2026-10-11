@@ -1,0 +1,155 @@
+{
+  "stage": "current_v16_attachment_prepared_not_a_replacement_head",
+  "headModelSubmitted": false,
+  "headModelGenerated": false,
+  "headModelIntegrated": false,
+  "source": "Suzume_scene_Hunyuan_v16.blend",
+  "output": "head-socket-v16.blend",
+  "trianglesBefore": 500000,
+  "trianglesAfter": 500000,
+  "bodyTriangles": 408817,
+  "originalHeadTriangles": 91183,
+  "maximumEvaluatedTriangleDifferenceMeters": 0.0,
+  "minimumWorldHeightBefore": 0.20346192551694564,
+  "minimumWorldHeightAfter": 0.20346192551694564,
+  "triangleGeometryHashBefore": "31be3b9a87a717bee7996d31954e090e952efc5fd78594a40bbab2294d64af4b",
+  "triangleGeometryHashAfter": "31be3b9a87a717bee7996d31954e090e952efc5fd78594a40bbab2294d64af4b",
+  "rigBones": 20,
+  "shapeKeyPreserved": true,
+  "sharedDayNightBodyGeometry": true,
+  "sharedDayNightHeadGeometry": true,
+  "complementaryPortalMaterialsPreserved": true,
+  "nightInstanceIncludesHead": true,
+  "rigWorldMatrix": [
+    [
+      -2.549999952316284,
+      2.229280795518207e-07,
+      0.0,
+      -0.15000000596046448
+    ],
+    [
+      -2.229280795518207e-07,
+      -2.549999952316284,
+      0.0,
+      0.75
+    ],
+    [
+      0.0,
+      0.0,
+      2.549999952316284,
+      0.054999999701976776
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "headPoseMatrix": [
+    [
+      1.149999976158142,
+      3.665947676932526e-17,
+      -1.6065311303492535e-09,
+      0.0
+    ],
+    [
+      1.606531241371556e-09,
+      3.9362813453180934e-08,
+      -1.1499998569488525,
+      1.7763568394002505e-15
+    ],
+    [
+      2.32240611978467e-27,
+      1.149999737739563,
+      3.936281700589461e-08,
+      0.9799999594688416
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "headRestMatrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.9850000143051147
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "neckPoseMatrix": [
+    [
+      1.0000001192092896,
+      4.6566128730773926e-09,
+      -9.313225746154785e-10,
+      4.878586423728848e-09
+    ],
+    [
+      1.862645149230957e-09,
+      0.0,
+      -1.0,
+      -2.125619857906713e-08
+    ],
+    [
+      -6.984919309616089e-09,
+      1.0,
+      0.0,
+      0.9330000281333923
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "neckRestMatrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.9380000233650208
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "notes": "This is an unchanged-appearance preparation of v16. Both head objects are the OLD head. Align the new independent model in rest space, fit its neck inside the retained collar, and bind before replacing both references.",
+  "oneToOneComplete": false
+}

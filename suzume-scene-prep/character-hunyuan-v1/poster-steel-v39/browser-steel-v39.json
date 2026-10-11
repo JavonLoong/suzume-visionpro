@@ -1,0 +1,171 @@
+{
+  "revision": 39,
+  "sourceNativeSha256": "478a0aa3a14eaadde0bbe9353a08574dbf204a282a2f66a93c093d76c2c1e438",
+  "strideFloats": 8,
+  "buckets": [
+    {
+      "key": "mesh0",
+      "byteOffset": 0,
+      "byteLength": 2006784,
+      "vertexCount": 62712,
+      "sourceObjects": [
+        "Broken radial dome steelwork solid mesh"
+      ],
+      "originalVertexCount": 64308
+    },
+    {
+      "key": "mesh1",
+      "byteOffset": 2006784,
+      "byteLength": 1929600,
+      "vertexCount": 60300,
+      "sourceObjects": [
+        "Broken radial dome steelwork solid mesh.001"
+      ],
+      "originalVertexCount": 63468
+    },
+    {
+      "key": "mesh2",
+      "byteOffset": 3936384,
+      "byteLength": 27648,
+      "vertexCount": 864,
+      "sourceObjects": [
+        "Broken radial dome steelwork solid mesh.002"
+      ],
+      "originalVertexCount": 936
+    },
+    {
+      "key": "mesh3",
+      "byteOffset": 3964032,
+      "byteLength": 55296,
+      "vertexCount": 1728,
+      "sourceObjects": [
+        "Broken radial dome steelwork solid mesh.003"
+      ],
+      "originalVertexCount": 1728
+    },
+    {
+      "key": "new0",
+      "byteOffset": 4019328,
+      "byteLength": 1141632,
+      "vertexCount": 35676,
+      "sourceObjects": [
+        "Poster right I-section post 2 v39",
+        "Poster right I-section post 3 v39",
+        "Poster Upper continuous tie v39",
+        "Poster Bent broken central beam v39",
+        "Poster Short broken right tie v39",
+        "Poster Lower broken ring beam v39",
+        "Poster Curved left supporting bracket v39",
+        "Poster Curved right supporting bracket v39",
+        "Poster Bracket horizontal brace v39",
+        "Poster Bracket left upright v39",
+        "Poster Bracket diagonal brace v39",
+        "Poster Bracket right diagonal v39",
+        "Poster Bracket right upright v39",
+        "Poster Hanging central tie v39",
+        "Poster Hanging lower tie v39"
+      ],
+      "newMaterialIndex": 0
+    },
+    {
+      "key": "new1",
+      "byteOffset": 5160960,
+      "byteLength": 761088,
+      "vertexCount": 23784,
+      "sourceObjects": [
+        "Poster right I-section post 2 v39",
+        "Poster right I-section post 3 v39",
+        "Poster Upper continuous tie v39",
+        "Poster Bent broken central beam v39",
+        "Poster Short broken right tie v39",
+        "Poster Lower broken ring beam v39",
+        "Poster Curved left supporting bracket v39",
+        "Poster Curved right supporting bracket v39",
+        "Poster Bracket horizontal brace v39",
+        "Poster Bracket left upright v39",
+        "Poster Bracket diagonal brace v39",
+        "Poster Bracket right diagonal v39",
+        "Poster Bracket right upright v39",
+        "Poster Hanging central tie v39",
+        "Poster Hanging lower tie v39"
+      ],
+      "newMaterialIndex": 1
+    },
+    {
+      "key": "new2",
+      "byteOffset": 5922048,
+      "byteLength": 409344,
+      "vertexCount": 12792,
+      "sourceObjects": [
+        "Poster right I-section post 2 v39",
+        "Poster right I-section post 3 v39",
+        "Poster Upper continuous tie v39",
+        "Poster Bent broken central beam v39",
+        "Poster Short broken right tie v39",
+        "Poster Lower broken ring beam v39",
+        "Poster Curved left supporting bracket v39",
+        "Poster Curved right supporting bracket v39",
+        "Poster Bracket horizontal brace v39",
+        "Poster Bracket left upright v39",
+        "Poster Bracket diagonal brace v39",
+        "Poster Bracket right diagonal v39",
+        "Poster Bracket right upright v39",
+        "Poster Hanging central tie v39",
+        "Poster Hanging lower tie v39"
+      ],
+      "newMaterialIndex": 2
+    },
+    {
+      "key": "new3",
+      "byteOffset": 6331392,
+      "byteLength": 1152,
+      "vertexCount": 36,
+      "sourceObjects": [
+        "Poster inner grounded footing v39"
+      ],
+      "newMaterialIndex": 3
+    }
+  ],
+  "newMaterials": [
+    {
+      "linearRGB": [
+        0.6883339881896973,
+        0.29051631689071655,
+        0.09304245561361313
+      ],
+      "roughness": 0.82,
+      "metalness": 0.08
+    },
+    {
+      "linearRGB": [
+        0.9700000286102295,
+        0.7228307127952576,
+        0.3113147020339966
+      ],
+      "roughness": 0.82,
+      "metalness": 0.08
+    },
+    {
+      "linearRGB": [
+        0.40152353048324585,
+        0.17007145285606384,
+        0.0550827756524086
+      ],
+      "roughness": 0.82,
+      "metalness": 0.08
+    },
+    {
+      "linearRGB": [
+        0.17464740574359894,
+        0.15896083414554596,
+        0.09758734703063965
+      ],
+      "roughness": 0.82,
+      "metalness": 0
+    }
+  ],
+  "proceduralMaterialApproximationInBrowser": true,
+  "geometryIdenticalToNative": true,
+  "browserRuntimeVerified": false,
+  "binarySha256": "6e8ac4df20be6e509a7934711263ac28a5eacdb2bc881d0e9d38cffae644ae35"
+}

@@ -1,0 +1,6 @@
+# Preserve snapshot bytes so the publication manifest remains verifiable.
+* -text
+*.usdz binary
+*.glb binary
+*.png binary
+*.zip binary

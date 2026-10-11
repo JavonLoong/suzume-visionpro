@@ -1,0 +1,35 @@
+{
+  "revision": 18,
+  "role": "alternate_clean_mathematical_head",
+  "defaultSceneRevision": 17,
+  "headProvenance": "Mathematical reconstruction from film references; Hunyuan v17 registration only. No new cloud generation.",
+  "fullScene": "../Suzume_scene_clean_head_v18.blend",
+  "character": "../Suzume_character_head_v18.blend",
+  "sourceParts": "clean-v18/Suzume-clean-head-v18.blend",
+  "viewer": "../viewer/candidate-v18.html",
+  "nativeFrontAndBackVerified": true,
+  "bodyAndFeetExactlyPreserved": true,
+  "browserTriangles": 544593,
+  "browserMaterialRegions": 13,
+  "localResources": [
+    "suzume-posed-v18.bin",
+    "texture_pbr_20250901_normal.png",
+    "texture_pbr_20250901.png",
+    "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness.png"
+  ],
+  "webStaticChecks": [
+    {
+      "page": "index.html",
+      "syntaxChecked": true,
+      "servedBytesMatch": true
+    },
+    {
+      "page": "candidate-v18.html",
+      "syntaxChecked": true,
+      "servedBytesMatch": true
+    }
+  ],
+  "browserRuntimeVerified": false,
+  "browserLimitation": "In-app browser control still timed out. No runtime claim is made.",
+  "oneToOneComplete": false
+}

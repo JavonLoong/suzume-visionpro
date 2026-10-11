@@ -1,0 +1,27 @@
+{
+  "revision": 42,
+  "sourceProbeIn708Frame": {
+    "x": [
+      297,
+      411
+    ],
+    "y": [
+      535,
+      559
+    ]
+  },
+  "rawSourceCloudPixels": 728,
+  "samplingScale": 4,
+  "before": {
+    "sourceCloudRecall": 0.009787087912087912,
+    "sourceCloudIoU": 0.00978624774658769,
+    "probeFractionCovered": 0.0026270102339181287
+  },
+  "after": {
+    "sourceCloudRecall": 0.9714114010989011,
+    "sourceCloudIoU": 0.7793773247003719,
+    "probeFractionCovered": 0.3240360014619883
+  },
+  "scope": "Only the unobscured sky probe above the door, against the original segmentation before the erroneous cap. This tests recovered geometry coverage, not cloud color, unobserved depth or whole-scene equivalence.",
+  "oneToOneComplete": false
+}

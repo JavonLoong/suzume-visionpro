@@ -1,0 +1,80 @@
+{
+  "revision": 21,
+  "replacedBay": 16,
+  "removedFaces": {
+    "Circular ruined hotel with exterior entrance solid mesh": 12,
+    "Circular ruined hotel with exterior entrance solid mesh.001": 180,
+    "Circular ruined hotel with exterior entrance solid mesh.002": 36,
+    "Circular ruined hotel with exterior entrance solid mesh.003": 91,
+    "Circular ruined hotel with exterior entrance solid mesh.008": 625,
+    "Circular ruined hotel with exterior entrance solid mesh.009": 267,
+    "Circular ruined hotel with exterior entrance solid mesh.011": 1576,
+    "Circular ruined hotel with exterior entrance solid mesh.013": 657,
+    "Circular ruined hotel with exterior entrance solid mesh.014": 255,
+    "Circular ruined hotel with exterior entrance solid mesh.016": 6,
+    "Circular ruined hotel with exterior entrance solid mesh.018": 1643
+  },
+  "newObjects": 72,
+  "newTriangles": 8168,
+  "materials": [
+    {
+      "role": "sunWall",
+      "material": "Circular ruined hotel with exterior entrance solid mesh.017",
+      "colorError": 2.917759187355148e-08
+    },
+    {
+      "role": "cornice",
+      "material": "Circular ruined hotel with exterior entrance solid mesh.008",
+      "colorError": 3.267786213488238e-08
+    },
+    {
+      "role": "damp",
+      "material": "Circular ruined hotel with exterior entrance solid mesh.009",
+      "colorError": 6.653298623328328e-09
+    },
+    {
+      "role": "roomMat",
+      "material": "Circular ruined hotel with exterior entrance solid mesh.002",
+      "colorError": 3.238597189482341e-09
+    },
+    {
+      "role": "mullionMat",
+      "material": "Circular ruined hotel with exterior entrance solid mesh.011",
+      "colorError": 1.6355469180127145e-08
+    },
+    {
+      "role": "iron",
+      "material": "Circular ruined hotel with exterior entrance solid mesh",
+      "colorError": 3.6111946504982994e-09
+    },
+    {
+      "role": "ironEdge",
+      "material": "Circular ruined hotel with exterior entrance solid mesh.004",
+      "colorError": 1.3547142811592948e-08
+    },
+    {
+      "role": "windowMat",
+      "material": "Circular ruined hotel with exterior entrance solid mesh.014",
+      "colorError": 3.6203240057188085e-09
+    }
+  ],
+  "windowWallRayTests": [
+    {
+      "point": "oculus",
+      "wallHit": false
+    },
+    {
+      "point": "rectangle",
+      "wallHit": false
+    },
+    {
+      "point": "plaster control",
+      "wallHit": true
+    }
+  ],
+  "wallNonmanifoldEdgesAfterWelding": 0,
+  "bodyWorldHash": "bda994f4f36c980ac7e48122ea45f395ce5defbd723d5c82f514aeca5561de47",
+  "oneToOneComplete": false,
+  "visualReviewPending": false,
+  "visualReview": "visual-review-v21.json"
+}

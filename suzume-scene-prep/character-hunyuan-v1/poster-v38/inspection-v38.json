@@ -1,0 +1,1900 @@
+{
+  "source": "D:\\\u865a\u62dfC\u76d8\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\movie-collar-v37\\Suzume_scene_movie_collar_v37.blend",
+  "sourceSha256": "345c50b2df431d2921ac716312818953da9daf928aae2d940016f1279880eb06",
+  "scenes": [
+    "Daytime circular hotel",
+    "Night meadow through the door"
+  ],
+  "activeCamera": "Reference camera",
+  "cameras": [
+    {
+      "name": "Door front camera",
+      "location": [
+        0.1535484492778778,
+        -11.730031967163086,
+        2.8782074451446533
+      ],
+      "rotation": [
+        1.4998149871826172,
+        0.0,
+        0.0
+      ],
+      "lens": 86.54434967041016,
+      "sensorFit": "VERTICAL",
+      "sensorWidth": 36.0,
+      "sensorHeight": 36.0,
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Reference camera",
+      "location": [
+        0.4561338424682617,
+        -17.539655685424805,
+        1.75
+      ],
+      "rotation": [
+        1.7646418809890747,
+        -5.149667359205523e-10,
+        0.025999996811151505
+      ],
+      "lens": 29.95703125,
+      "sensorFit": "VERTICAL",
+      "sensorWidth": 36.0,
+      "sensorHeight": 36.0,
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Reference camera.001",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.5889761447906494,
+        -0.0,
+        0.0
+      ],
+      "lens": 30.0,
+      "sensorFit": "VERTICAL",
+      "sensorWidth": 36.0,
+      "sensorHeight": 36.0,
+      "shift": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh",
+      "vertices": 22776,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -23.08780288696289,
+          25.665206909179688
+        ],
+        [
+          -20.71581268310547,
+          21.654125213623047
+        ],
+        [
+          -0.8410272002220154,
+          9.086034774780273
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.001",
+      "vertices": 3780,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -22.94647216796875,
+          23.07575225830078
+        ],
+        [
+          -18.929746627807617,
+          15.740091323852539
+        ],
+        [
+          2.1480891704559326,
+          7.333567142486572
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.001"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.002",
+      "vertices": 2304,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -28.093727111816406,
+          28.21234130859375
+        ],
+        [
+          -21.990949630737305,
+          27.107322692871094
+        ],
+        [
+          1.4025911092758179,
+          7.202464580535889
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.002"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.003",
+      "vertices": 6051,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -23.09114646911621,
+          23.20488166809082
+        ],
+        [
+          -17.871068954467773,
+          22.848438262939453
+        ],
+        [
+          0.33257099986076355,
+          4.793262481689453
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.003"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.004",
+      "vertices": 1728,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -22.791534423828125,
+          22.866474151611328
+        ],
+        [
+          -17.092628479003906,
+          20.31317710876465
+        ],
+        [
+          0.7834231853485107,
+          1.485498070716858
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.004"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.005",
+      "vertices": 216,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -23.008825302124023,
+          22.594257354736328
+        ],
+        [
+          -2.8316938877105713,
+          22.03365135192871
+        ],
+        [
+          1.903723955154419,
+          2.1056571006774902
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.005"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.006",
+      "vertices": 3888,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -22.64016342163086,
+          22.055328369140625
+        ],
+        [
+          -12.58444881439209,
+          21.598134994506836
+        ],
+        [
+          0.15764813125133514,
+          8.886698722839355
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.006"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.007",
+      "vertices": 72,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -19.911510467529297,
+          17.830276489257812
+        ],
+        [
+          -10.313102722167969,
+          16.74101448059082
+        ],
+        [
+          -0.8362345099449158,
+          2.506448268890381
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.007"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.008",
+      "vertices": 288930,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -28.041873931884766,
+          28.145858764648438
+        ],
+        [
+          -25.36814308166504,
+          27.205364227294922
+        ],
+        [
+          -0.04500161111354828,
+          8.647255897521973
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.008"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.009",
+      "vertices": 4368,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -27.976598739624023,
+          28.080669403076172
+        ],
+        [
+          -25.348222732543945,
+          27.147846221923828
+        ],
+        [
+          -0.22000153362751007,
+          6.414055824279785
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.009"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.010",
+      "vertices": 2703,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -28.04349708557129,
+          26.783275604248047
+        ],
+        [
+          -22.191268920898438,
+          22.99617576599121
+        ],
+        [
+          -1.3691774256585632e-06,
+          8.004326820373535
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.010"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.011",
+      "vertices": 37326,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -23.486753463745117,
+          23.547075271606445
+        ],
+        [
+          -20.87725830078125,
+          22.60349464416504
+        ],
+        [
+          0.26401132345199585,
+          8.132410049438477
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.011"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.012",
+      "vertices": 468,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -21.67421531677246,
+          11.411952018737793
+        ],
+        [
+          -20.871858596801758,
+          -6.543918609619141
+        ],
+        [
+          1.4792970418930054,
+          4.276088237762451
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.012"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.013",
+      "vertices": 5094,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -28.048851013183594,
+          24.68817901611328
+        ],
+        [
+          -21.01847267150879,
+          27.23568344116211
+        ],
+        [
+          -1.3184526324039325e-06,
+          8.004326820373535
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.013"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.014",
+      "vertices": 3348,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -23.567005157470703,
+          23.642000198364258
+        ],
+        [
+          -18.0216064453125,
+          22.477020263671875
+        ],
+        [
+          1.547484040260315,
+          6.083085536956787
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.014"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.015",
+      "vertices": 1338,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -23.184307098388672,
+          22.909753799438477
+        ],
+        [
+          -15.896504402160645,
+          22.632173538208008
+        ],
+        [
+          0.39784348011016846,
+          2.7320573329925537
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.015"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.016",
+      "vertices": 279,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -20.948110580444336,
+          -13.761601448059082
+        ],
+        [
+          17.80660629272461,
+          24.849998474121094
+        ],
+        [
+          8.661591550662706e-07,
+          8.004326820373535
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.016"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.017",
+      "vertices": 2070,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          13.59842586517334,
+          28.167375564575195
+        ],
+        [
+          -6.433133125305176,
+          25.25496482849121
+        ],
+        [
+          1.1537005661921285e-07,
+          7.2939534187316895
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.017"
+      ]
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.018",
+      "vertices": 47106,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          12.468531608581543,
+          21.373924255371094
+        ],
+        [
+          12.188706398010254,
+          22.24183464050293
+        ],
+        [
+          0.8559384346008301,
+          6.814988136291504
+        ]
+      ],
+      "materials": [
+        "Reference-calibrated facade surface pigments"
+      ]
+    },
+    {
+      "name": "Animated door leaf and hinges surface",
+      "vertices": 3012,
+      "parent": "Animated door leaf and hinges",
+      "bounds": [
+        [
+          -0.7189897298812866,
+          0.7352805137634277
+        ],
+        [
+          -0.27676042914390564,
+          0.1667599231004715
+        ],
+        [
+          0.5899999737739563,
+          3.2100000381469727
+        ]
+      ],
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.005"
+      ]
+    },
+    {
+      "name": "Animated door leaf and hinges surface.001",
+      "vertices": 30,
+      "parent": "Animated door leaf and hinges",
+      "bounds": [
+        [
+          -0.678483247756958,
+          -0.6573495864868164
+        ],
+        [
+          -0.14400023221969604,
+          -0.14400023221969604
+        ],
+        [
+          1.7545872926712036,
+          1.7774126529693604
+        ]
+      ],
+      "materials": [
+        "Animated door leaf and hinges surface"
+      ]
+    },
+    {
+      "name": "Animated door leaf and hinges surface.002",
+      "vertices": 390,
+      "parent": "Animated door leaf and hinges",
+      "bounds": [
+        [
+          -0.7009379863739014,
+          0.7079826593399048
+        ],
+        [
+          -0.13450047373771667,
+          0.024499967694282532
+        ],
+        [
+          0.2399999350309372,
+          3.640000104904175
+        ]
+      ],
+      "materials": [
+        "Animated door leaf and hinges surface.001"
+      ]
+    },
+    {
+      "name": "Animated door leaf and hinges surface.003",
+      "vertices": 1422,
+      "parent": "Animated door leaf and hinges",
+      "bounds": [
+        [
+          -0.7009379863739014,
+          0.7464637756347656
+        ],
+        [
+          -0.1525004804134369,
+          0.01749996840953827
+        ],
+        [
+          0.2399999350309372,
+          3.640000104904175
+        ]
+      ],
+      "materials": [
+        "Reference pigments on the solid door front"
+      ]
+    },
+    {
+      "name": "Animated door leaf and hinges surface.004",
+      "vertices": 360,
+      "parent": "Animated door leaf and hinges",
+      "bounds": [
+        [
+          -0.5597715377807617,
+          0.6599675416946411
+        ],
+        [
+          -0.11700044572353363,
+          0.006999917794018984
+        ],
+        [
+          0.6323899626731873,
+          3.4176394939422607
+        ]
+      ],
+      "materials": [
+        "Animated door leaf and hinges surface.002"
+      ]
+    },
+    {
+      "name": "Animated door leaf and hinges surface.005",
+      "vertices": 1440,
+      "parent": "Animated door leaf and hinges",
+      "bounds": [
+        [
+          -0.5760623216629028,
+          0.6762581467628479
+        ],
+        [
+          -0.1525004506111145,
+          0.04249992594122887
+        ],
+        [
+          0.6133899688720703,
+          3.4366395473480225
+        ]
+      ],
+      "materials": [
+        "Material.002"
+      ]
+    },
+    {
+      "name": "Animated door leaf and hinges surface.006",
+      "vertices": 3462,
+      "parent": "Animated door leaf and hinges",
+      "bounds": [
+        [
+          -0.6764492988586426,
+          0.7464637756347656
+        ],
+        [
+          -0.13600046932697296,
+          -0.1032000333070755
+        ],
+        [
+          0.2718999981880188,
+          3.5419399738311768
+        ]
+      ],
+      "materials": [
+        "Animated door leaf and hinges surface.003"
+      ]
+    },
+    {
+      "name": "Complete six-panel white door and frame surface",
+      "vertices": 180,
+      "parent": "Complete six-panel white door and frame",
+      "bounds": [
+        [
+          -0.8761726021766663,
+          0.8761726021766663
+        ],
+        [
+          -0.1380004733800888,
+          0.12199996411800385
+        ],
+        [
+          0.19999994337558746,
+          3.6475000381469727
+        ]
+      ],
+      "materials": [
+        "Animated door leaf and hinges surface"
+      ]
+    },
+    {
+      "name": "Complete six-panel white door and frame surface.001",
+      "vertices": 90,
+      "parent": "Complete six-panel white door and frame",
+      "bounds": [
+        [
+          -0.8673668503761292,
+          0.8673668503761292
+        ],
+        [
+          -0.13000048696994781,
+          0.12999996542930603
+        ],
+        [
+          0.19999997317790985,
+          3.7799999713897705
+        ]
+      ],
+      "materials": [
+        "Animated door leaf and hinges surface.001"
+      ]
+    },
+    {
+      "name": "Complete six-panel white door and frame surface.002",
+      "vertices": 546,
+      "parent": "Complete six-panel white door and frame",
+      "bounds": [
+        [
+          -0.9334099292755127,
+          0.9336125254631042
+        ],
+        [
+          -0.16100050508975983,
+          -0.12000001966953278
+        ],
+        [
+          0.17999999225139618,
+          3.8125
+        ]
+      ],
+      "materials": [
+        "Reference pigments on the solid door front"
+      ]
+    },
+    {
+      "name": "Complete six-panel white door and frame surface.003",
+      "vertices": 90,
+      "parent": "Complete six-panel white door and frame",
+      "bounds": [
+        [
+          -0.9334099292755127,
+          0.9334099292755127
+        ],
+        [
+          -0.16100050508975983,
+          0.14899997413158417
+        ],
+        [
+          0.17999999225139618,
+          3.8125
+        ]
+      ],
+      "materials": [
+        "Material.002"
+      ]
+    },
+    {
+      "name": "Complete six-panel white door and frame surface.004",
+      "vertices": 600,
+      "parent": "Complete six-panel white door and frame",
+      "bounds": [
+        [
+          -0.851847767829895,
+          0.8542772531509399
+        ],
+        [
+          -0.12450048327445984,
+          -0.1195000633597374
+        ],
+        [
+          0.4361920952796936,
+          3.705878973007202
+        ]
+      ],
+      "materials": [
+        "Animated door leaf and hinges surface.002"
+      ]
+    },
+    {
+      "name": "Complete six-panel white door and frame surface.005",
+      "vertices": 1386,
+      "parent": "Complete six-panel white door and frame",
+      "bounds": [
+        [
+          -0.8574075102806091,
+          0.9336125254631042
+        ],
+        [
+          -0.12300046533346176,
+          -0.12220002710819244
+        ],
+        [
+          0.2380399852991104,
+          3.5164101123809814
+        ]
+      ],
+      "materials": [
+        "Animated door leaf and hinges surface.003"
+      ]
+    },
+    {
+      "name": "Branching tree crowns surrounding the ruined hotel",
+      "vertices": 720,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -145.63063049316406,
+          145.88145446777344
+        ],
+        [
+          -141.72193908691406,
+          150.27243041992188
+        ],
+        [
+          0.7298791408538818,
+          11.443662643432617
+        ]
+      ],
+      "materials": []
+    },
+    {
+      "name": "Reference-shaped closed cloud volume 0",
+      "vertices": 10002,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -111.71998596191406,
+          -36.46267318725586
+        ],
+        [
+          126.01446533203125,
+          172.4305419921875
+        ],
+        [
+          110.92879486083984,
+          171.21434020996094
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Reference-shaped closed cloud volume 1",
+      "vertices": 14998,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          7.995121002197266,
+          135.84783935546875
+        ],
+        [
+          161.31553649902344,
+          219.43667602539062
+        ],
+        [
+          83.26434326171875,
+          161.4564666748047
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Reference-shaped closed cloud volume 2",
+      "vertices": 4502,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -88.1325912475586,
+          -35.973167419433594
+        ],
+        [
+          159.37240600585938,
+          187.25140380859375
+        ],
+        [
+          87.77467346191406,
+          117.77708435058594
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Reference-shaped closed cloud volume 3",
+      "vertices": 2500,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -88.68383026123047,
+          -58.131309509277344
+        ],
+        [
+          130.03594970703125,
+          150.82986450195312
+        ],
+        [
+          57.06993103027344,
+          77.52674865722656
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Reference-shaped closed cloud volume 4",
+      "vertices": 2256,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -71.7357177734375,
+          -16.421279907226562
+        ],
+        [
+          204.58477783203125,
+          224.44818115234375
+        ],
+        [
+          75.19342041015625,
+          97.85234069824219
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 0",
+      "vertices": 804,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -110.69355773925781,
+          -7.927848815917969
+        ],
+        [
+          209.7506866455078,
+          226.47113037109375
+        ],
+        [
+          44.14366912841797,
+          75.76364135742188
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 1",
+      "vertices": 408,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          10.350566864013672,
+          99.84176635742188
+        ],
+        [
+          220.2069549560547,
+          235.66578674316406
+        ],
+        [
+          26.64781951904297,
+          54.871337890625
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 2",
+      "vertices": 401,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          18.703712463378906,
+          98.34913635253906
+        ],
+        [
+          216.41815185546875,
+          235.95034790039062
+        ],
+        [
+          53.1286506652832,
+          79.71004486083984
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 3",
+      "vertices": 135,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -40.386680603027344,
+          -12.820537567138672
+        ],
+        [
+          227.3716278076172,
+          234.62197875976562
+        ],
+        [
+          37.2429084777832,
+          46.14284896850586
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 4",
+      "vertices": 125,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -70.73571014404297,
+          -44.47963333129883
+        ],
+        [
+          228.65164184570312,
+          234.1791534423828
+        ],
+        [
+          42.348506927490234,
+          50.748443603515625
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 5",
+      "vertices": 122,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          15.260520935058594,
+          49.023101806640625
+        ],
+        [
+          233.12728881835938,
+          238.3866729736328
+        ],
+        [
+          47.424903869628906,
+          53.43360137939453
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 6",
+      "vertices": 110,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          13.493034362792969,
+          41.81486511230469
+        ],
+        [
+          226.77427673339844,
+          231.9156951904297
+        ],
+        [
+          90.85894012451172,
+          96.80509948730469
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 7",
+      "vertices": 96,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          82.31361389160156,
+          105.45735931396484
+        ],
+        [
+          232.26910400390625,
+          237.83465576171875
+        ],
+        [
+          83.49198150634766,
+          90.36814880371094
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 8",
+      "vertices": 57,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          12.606593132019043,
+          22.437725067138672
+        ],
+        [
+          236.79014587402344,
+          240.81402587890625
+        ],
+        [
+          67.89540100097656,
+          71.6997299194336
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 9",
+      "vertices": 55,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -69.72650146484375,
+          -62.870269775390625
+        ],
+        [
+          239.511474609375,
+          242.99624633789062
+        ],
+        [
+          57.116294860839844,
+          61.147071838378906
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 10",
+      "vertices": 57,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -116.78536987304688,
+          -108.98210144042969
+        ],
+        [
+          243.4247589111328,
+          246.50509643554688
+        ],
+        [
+          41.422664642333984,
+          47.818031311035156
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 11",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -59.3037109375,
+          -52.173858642578125
+        ],
+        [
+          244.4111785888672,
+          248.38067626953125
+        ],
+        [
+          57.453033447265625,
+          60.76951217651367
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 12",
+      "vertices": 54,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          88.87469482421875,
+          102.15367889404297
+        ],
+        [
+          243.80018615722656,
+          246.51268005371094
+        ],
+        [
+          95.3781509399414,
+          101.9266128540039
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 13",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          94.7216567993164,
+          103.38394165039062
+        ],
+        [
+          253.35089111328125,
+          256.1857604980469
+        ],
+        [
+          59.773677825927734,
+          63.7645378112793
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 14",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -85.40486907958984,
+          -80.99897003173828
+        ],
+        [
+          253.43519592285156,
+          256.8391418457031
+        ],
+        [
+          46.077171325683594,
+          51.032447814941406
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 15",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          64.72078704833984,
+          72.52044677734375
+        ],
+        [
+          251.3008270263672,
+          253.69972229003906
+        ],
+        [
+          92.51100158691406,
+          97.2228012084961
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 16",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          54.05070114135742,
+          62.09972381591797
+        ],
+        [
+          254.0308380126953,
+          256.2130126953125
+        ],
+        [
+          90.41349029541016,
+          93.15131378173828
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 17",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          47.78911209106445,
+          53.89255142211914
+        ],
+        [
+          256.8739318847656,
+          259.4803771972656
+        ],
+        [
+          85.94671630859375,
+          90.80426025390625
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 18",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -99.51425170898438,
+          -95.22771453857422
+        ],
+        [
+          253.1844482421875,
+          255.85121154785156
+        ],
+        [
+          95.92890167236328,
+          101.49846649169922
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 19",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -33.5690803527832,
+          -26.9840087890625
+        ],
+        [
+          271.0236511230469,
+          273.0078430175781
+        ],
+        [
+          30.413503646850586,
+          32.92998504638672
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 20",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -89.91250610351562,
+          -85.2311019897461
+        ],
+        [
+          268.44134521484375,
+          271.68035888671875
+        ],
+        [
+          44.94887161254883,
+          47.82365036010742
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 21",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -19.68526268005371,
+          -15.409085273742676
+        ],
+        [
+          263.5657958984375,
+          265.5275573730469
+        ],
+        [
+          94.47077178955078,
+          98.31450653076172
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 22",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -36.50767517089844,
+          -30.87820816040039
+        ],
+        [
+          277.2189025878906,
+          279.1520080566406
+        ],
+        [
+          36.27243423461914,
+          38.619232177734375
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 23",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -118.07601165771484,
+          -113.11018371582031
+        ],
+        [
+          265.4453430175781,
+          267.0868225097656
+        ],
+        [
+          98.8113021850586,
+          100.2428207397461
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 24",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -101.8986587524414,
+          -97.9847640991211
+        ],
+        [
+          268.1358642578125,
+          270.2881774902344
+        ],
+        [
+          98.18596649169922,
+          100.65129852294922
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 25",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          18.872440338134766,
+          23.265579223632812
+        ],
+        [
+          275.7586975097656,
+          277.3332214355469
+        ],
+        [
+          88.92292785644531,
+          91.34779357910156
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 26",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -93.53147888183594,
+          -89.86700439453125
+        ],
+        [
+          284.3285827636719,
+          285.961669921875
+        ],
+        [
+          42.792171478271484,
+          44.586761474609375
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Distant reference closed cloud 27",
+      "vertices": 52,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          11.413089752197266,
+          14.009309768676758
+        ],
+        [
+          275.8383483886719,
+          277.5464172363281
+        ],
+        [
+          112.14622497558594,
+          114.28659057617188
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 0",
+      "vertices": 4502,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -277.64910888671875,
+          -227.6005401611328
+        ],
+        [
+          -26.855915069580078,
+          26.85755157470703
+        ],
+        [
+          67.91796875,
+          98.98876953125
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 1",
+      "vertices": 2500,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -273.14788818359375,
+          -200.2977752685547
+        ],
+        [
+          -84.69548797607422,
+          -31.998401641845703
+        ],
+        [
+          47.45563888549805,
+          89.2349853515625
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 2",
+      "vertices": 2256,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -197.64158630371094,
+          -136.33692932128906
+        ],
+        [
+          -116.60343170166016,
+          -58.682010650634766
+        ],
+        [
+          60.33320999145508,
+          81.27286529541016
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 3",
+      "vertices": 4502,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -166.41461181640625,
+          -99.3995361328125
+        ],
+        [
+          -160.78469848632812,
+          -74.70458984375
+        ],
+        [
+          49.53438949584961,
+          81.94573974609375
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 4",
+      "vertices": 2500,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -137.33041381835938,
+          -63.01945495605469
+        ],
+        [
+          -183.51309204101562,
+          -106.7437973022461
+        ],
+        [
+          80.41341400146484,
+          112.3077621459961
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 5",
+      "vertices": 2256,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -115.30348205566406,
+          -44.07490158081055
+        ],
+        [
+          -228.8907470703125,
+          -191.35552978515625
+        ],
+        [
+          87.44203186035156,
+          106.017578125
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 6",
+      "vertices": 4502,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -68.97303771972656,
+          6.587708473205566
+        ],
+        [
+          -282.8055419921875,
+          -230.97055053710938
+        ],
+        [
+          67.37382507324219,
+          106.15866088867188
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 7",
+      "vertices": 2500,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          8.15413761138916,
+          54.04301834106445
+        ],
+        [
+          -286.6565246582031,
+          -225.58314514160156
+        ],
+        [
+          61.96628952026367,
+          88.18346405029297
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 8",
+      "vertices": 2256,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          44.564781188964844,
+          121.45755767822266
+        ],
+        [
+          -249.05776977539062,
+          -188.7071533203125
+        ],
+        [
+          59.31181716918945,
+          78.59947204589844
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 9",
+      "vertices": 4502,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          91.00725555419922,
+          133.2872314453125
+        ],
+        [
+          -205.0223846435547,
+          -119.92803192138672
+        ],
+        [
+          72.771240234375,
+          107.99874877929688
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 10",
+      "vertices": 2500,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          144.56845092773438,
+          210.90118408203125
+        ],
+        [
+          -176.6660919189453,
+          -138.2525177001953
+        ],
+        [
+          53.668006896972656,
+          91.13788604736328
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 11",
+      "vertices": 2256,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          127.49070739746094,
+          217.1564483642578
+        ],
+        [
+          -103.25122833251953,
+          -77.63355255126953
+        ],
+        [
+          69.49959564208984,
+          86.03937530517578
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 12",
+      "vertices": 4502,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          191.8025360107422,
+          272.5924377441406
+        ],
+        [
+          -97.98652648925781,
+          -16.474035263061523
+        ],
+        [
+          67.56461334228516,
+          95.65137481689453
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Surrounding solid cloud 13",
+      "vertices": 2500,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          201.0398712158203,
+          254.7458953857422
+        ],
+        [
+          -29.86298370361328,
+          29.862979888916016
+        ],
+        [
+          42.25752639770508,
+          73.04957580566406
+        ]
+      ],
+      "materials": [
+        "Reference-shaped closed cloud volume 0"
+      ]
+    },
+    {
+      "name": "Spatial doorway portal aperture",
+      "vertices": 4,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -0.7115049958229065,
+          0.7115049958229065
+        ],
+        [
+          0.07199984043836594,
+          0.07199998944997787
+        ],
+        [
+          0.21999990940093994,
+          3.619999885559082
+        ]
+      ],
+      "materials": [
+        "Doorway \u2014 native Cycles Ray Portal"
+      ]
+    },
+    {
+      "name": "Live planar reflective shallow water",
+      "vertices": 130,
+      "parent": "Scene axes \u2014 meters",
+      "bounds": [
+        [
+          -38.47734832763672,
+          38.61709976196289
+        ],
+        [
+          -36.07874298095703,
+          41.01570510864258
+        ],
+        [
+          0.04999890550971031,
+          0.05000109598040581
+        ]
+      ],
+      "materials": [
+        "Live planar reflective shallow water"
+      ]
+    },
+    {
+      "name": "Oculus inner circular frame v24",
+      "vertices": 9360,
+      "parent": null,
+      "bounds": [
+        [
+          9.830592155456543,
+          10.155105590820312
+        ],
+        [
+          23.50406265258789,
+          23.654529571533203
+        ],
+        [
+          3.1841812133789062,
+          3.541902780532837
+        ]
+      ],
+      "materials": [
+        "Movie aged window frame v22"
+      ]
+    }
+  ]
+}

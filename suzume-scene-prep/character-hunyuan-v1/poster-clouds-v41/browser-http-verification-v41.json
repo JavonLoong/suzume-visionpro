@@ -1,0 +1,68 @@
+{
+  "revision": 41,
+  "resources": [
+    {
+      "path": "viewer/poster-v41.html",
+      "bytes": 1001346,
+      "sha256": "0f2d3390a54fdd383921148a2246f881192b2bbe8732886c1f89958b276233ed"
+    },
+    {
+      "path": "viewer/three.min.js",
+      "bytes": 603445,
+      "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2"
+    },
+    {
+      "path": "viewer/GLTFLoader.js",
+      "bytes": 96550,
+      "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6"
+    },
+    {
+      "path": "poster-clouds-v41/browser-clouds-v41.json",
+      "bytes": 25285,
+      "sha256": "79b646108ae3c4505a083602af49352bc48afb52e424b4b90c78f0de7b61f57a"
+    },
+    {
+      "path": "poster-clouds-v41/clouds-v41.bin",
+      "bytes": 39547452,
+      "sha256": "0c17b09e07e9353a92182876b7e0b1344daabdda050fdf0f9fc55b14a92a2497"
+    },
+    {
+      "path": "poster-steel-v39/browser-steel-v39.json",
+      "bytes": 5026,
+      "sha256": "0682182fc39de013b30f0ee7a62a357dc9db126bec53ae39607077774f0136c5"
+    },
+    {
+      "path": "poster-steel-v39/steel-v39.bin",
+      "bytes": 6332544,
+      "sha256": "6e8ac4df20be6e509a7934711263ac28a5eacdb2bc881d0e9d38cffae644ae35"
+    },
+    {
+      "path": "viewer/character-v37/suzume-posed-v37.gltf",
+      "bytes": 22588,
+      "sha256": "8b2a96b9094ba514c546b673ac66d5f9b97316fe7aaf159fff8e88876feecf45"
+    },
+    {
+      "path": "viewer/character-v37/suzume-posed-v37.bin",
+      "bytes": 15758024,
+      "sha256": "5c62d0925d3724310ba3a898afb16f2bb36d6098a9b72b41d09f8040938b950d"
+    },
+    {
+      "path": "viewer/character-v37/texture-0.png",
+      "bytes": 4037877,
+      "sha256": "e187d9879e97e465b12de1fcb6b9f611d4521ff8314c3e16ec67db87c2421992"
+    },
+    {
+      "path": "viewer/character-v37/texture-1.png",
+      "bytes": 14494428,
+      "sha256": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7"
+    },
+    {
+      "path": "viewer/character-v37/texture-2.png",
+      "bytes": 7558005,
+      "sha256": "dd4d1a90b768caf9f6aae4e87e528543b02b1ca0fffa0ecaeec6dec2fd03c971"
+    }
+  ],
+  "nativeDownloadAvailable": true,
+  "browserRuntimeVerified": false,
+  "scope": "Local HTTP resources and hashes only. Last browser-control inventory timed out in v40."
+}

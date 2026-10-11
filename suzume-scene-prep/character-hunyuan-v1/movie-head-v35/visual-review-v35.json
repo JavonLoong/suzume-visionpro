@@ -1,0 +1,33 @@
+{
+  "accepted": true,
+  "status": "accepted_as_incremental_refinement_not_one_to_one",
+  "sceneFrontReviewed": true,
+  "headFrontReviewed": true,
+  "headBackReviewed": true,
+  "headSideReviewed": true,
+  "sourceReference": "reference-opening-50525.jpg",
+  "changes": [
+    "Head lowered and narrowed to manually read back-view scalp bounds.",
+    "Five overlapping long solids maintain a filled main ponytail volume, with one shorter left lock.",
+    "Previous envelope-only warp was rejected after a large gap appeared in the studio back view."
+  ],
+  "limitations": [
+    "Reference rows are manually measured with about 3 pixel uncertainty.",
+    "Subpixel residuals refer only to sampled silhouette constraints, not complete likeness.",
+    "Side depth and unseen anatomy are reconstructed assumptions."
+  ],
+  "browserAttempts": [
+    "cua.getState timed out at 20 seconds and reset its kernel.",
+    "Direct Chrome createBrowserTab returned Browser is not available: chrome."
+  ],
+  "remaining": [
+    "Refine face identity, eyes, jaw, nape hairline and material style against the official face reference.",
+    "Check ponytail side depth and root attachment against a usable side reference.",
+    "Review both movie camera correspondences and fit shared door geometry and intrinsics.",
+    "Refine wider night sky, stars, courtyard, clouds, flowers, paving and water glints.",
+    "Complete and inspect the separate closed-door poster scene.",
+    "Verify the web candidate with a responsive browser; geometry and resource checks are not GPU rendering proof."
+  ],
+  "fullSceneFinding": "Head now sits lower at the measured scalp crown and the ponytail maintains a filled midsection in the movie camera. Doorway partition, hand grip, feet, courtyard and otherworld remain visually continuous.",
+  "headViewsFinding": "No internal hole remains in the rebuilt overlapping ponytail. Face expression, nape hairline and side depth remain approximations."
+}

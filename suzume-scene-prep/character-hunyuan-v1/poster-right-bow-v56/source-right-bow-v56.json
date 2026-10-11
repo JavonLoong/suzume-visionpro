@@ -1,0 +1,703 @@
+{
+  "sourceNativeSha256": "d0928992e11245a530630597987eabcc3daa085a7cb8c3e296a769c1b94a50ae",
+  "objects": [
+    {
+      "name": "Broken radial dome steelwork solid mesh",
+      "key": "mesh0",
+      "vertices": 54396,
+      "faces": 18132,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.018"
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT",
+          "fields": [
+            "rna_type",
+            "vector"
+          ]
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "vector"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.001",
+      "key": "mesh1",
+      "vertices": 41544,
+      "faces": 13848,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.022"
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT",
+          "fields": [
+            "rna_type",
+            "vector"
+          ]
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "vector"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.002",
+      "key": "mesh2",
+      "vertices": 720,
+      "faces": 240,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.027"
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT",
+          "fields": [
+            "rna_type",
+            "vector"
+          ]
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "vector"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.003",
+      "key": "mesh3",
+      "vertices": 1440,
+      "faces": 480,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.024"
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT",
+          "fields": [
+            "rna_type",
+            "vector"
+          ]
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "value"
+          ]
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER",
+          "fields": [
+            "rna_type",
+            "vector"
+          ]
+        }
+      ]
+    }
+  ],
+  "support": "Poster right I-section post 2 v39",
+  "camera": {
+    "matrixWorld": [
+      [
+        0.9996620416641235,
+        0.005007914267480373,
+        0.025510160252451897,
+        0.4561338424682617
+      ],
+      [
+        0.025997066870331764,
+        -0.19256873428821564,
+        -0.9809390306472778,
+        -17.539655685424805
+      ],
+      [
+        5.149667359205523e-10,
+        0.9812707304954529,
+        -0.19263383746147156,
+        1.75
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 29.95703125
+  },
+  "paintGraph": {
+    "nodes": [
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED",
+        "image": null,
+        "inputs": {
+          "Metallic": 0.0,
+          "Roughness": 0.800000011920929,
+          "IOR": 1.5,
+          "Alpha": 1.0,
+          "Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Weight": 0.0,
+          "Diffuse Roughness": 0.0,
+          "Subsurface Weight": 0.0,
+          "Subsurface Radius": [
+            1.0,
+            0.20000000298023224,
+            0.10000000149011612
+          ],
+          "Subsurface Scale": 0.05000000074505806,
+          "Subsurface IOR": 1.399999976158142,
+          "Subsurface Anisotropy": 0.0,
+          "Specular IOR Level": 0.5,
+          "Specular Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Anisotropic": 0.0,
+          "Anisotropic Rotation": 0.0,
+          "Tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Transmission Weight": 0.0,
+          "Coat Weight": 0.0,
+          "Coat Roughness": 0.029999999329447746,
+          "Coat IOR": 1.5,
+          "Coat Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Coat Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Sheen Weight": 0.0,
+          "Sheen Roughness": 0.5,
+          "Sheen Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Emission Color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Emission Strength": 0.0,
+          "Thin Film Thickness": 0.0,
+          "Thin Film IOR": 1.3300000429153442
+        }
+      },
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL",
+        "image": null,
+        "inputs": {
+          "Displacement": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Thickness": 0.0
+        }
+      },
+      {
+        "name": "Image Texture",
+        "type": "TEX_IMAGE",
+        "image": "Upper facade source resolution pigments v48",
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "Mix (Legacy)",
+        "type": "MIX_RGB",
+        "image": null,
+        "inputs": {
+          "Factor": 1.0,
+          "Color1": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "name": "Emission",
+        "type": "EMISSION",
+        "image": null,
+        "inputs": {
+          "Strength": 1.0,
+          "Weight": 0.0
+        }
+      },
+      {
+        "name": "Group",
+        "type": "GROUP",
+        "image": null,
+        "inputs": {}
+      },
+      {
+        "name": "Poster display-calibrated pigments v38",
+        "type": "EMISSION",
+        "image": null,
+        "inputs": {
+          "Strength": 1.0,
+          "Weight": 0.0
+        }
+      },
+      {
+        "name": "Mix Shader",
+        "type": "MIX_SHADER",
+        "image": null,
+        "inputs": {}
+      },
+      {
+        "name": "Light Path",
+        "type": "LIGHT_PATH",
+        "image": null,
+        "inputs": {}
+      },
+      {
+        "name": "Math",
+        "type": "MATH",
+        "image": null,
+        "inputs": {
+          "Value": 0.5
+        }
+      }
+    ],
+    "links": [
+      [
+        "Image Texture",
+        "Color",
+        "Mix (Legacy)",
+        "Color2"
+      ],
+      [
+        "Mix (Legacy)",
+        "Color",
+        "Principled BSDF",
+        "Base Color"
+      ],
+      [
+        "Mix (Legacy)",
+        "Color",
+        "Emission",
+        "Color"
+      ],
+      [
+        "Mix (Legacy)",
+        "Color",
+        "Group",
+        "Source linear RGB"
+      ],
+      [
+        "Group",
+        "Native scene RGB",
+        "Poster display-calibrated pigments v38",
+        "Color"
+      ],
+      [
+        "Light Path",
+        "Is Camera Ray",
+        "Math",
+        "Value"
+      ],
+      [
+        "Light Path",
+        "Is Glossy Ray",
+        "Math",
+        "Value"
+      ],
+      [
+        "Math",
+        "Value",
+        "Mix Shader",
+        "Factor"
+      ],
+      [
+        "Emission",
+        "Emission",
+        "Mix Shader",
+        "Shader"
+      ],
+      [
+        "Poster display-calibrated pigments v38",
+        "Emission",
+        "Mix Shader",
+        "Shader"
+      ],
+      [
+        "Mix Shader",
+        "Shader",
+        "Material Output",
+        "Surface"
+      ]
+    ]
+  }
+}

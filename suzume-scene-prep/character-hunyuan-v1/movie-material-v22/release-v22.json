@@ -1,0 +1,23 @@
+{
+  "revision": 22,
+  "role": "movie facade material comparison candidate",
+  "nativeFile": "movie-material-v22/Suzume_scene_movie_material_v22.blend",
+  "nativeSha256": "b0a8f6037efe2a2eb81978d59c582cf891df177a63ccf3cbdd00bec037993d17",
+  "roofProjectionAndLocalPlasterCorrected": true,
+  "originalBodyHeadFootAndPortalVerified": true,
+  "nativeFrontAndObliqueReviewed": true,
+  "stableNativeRemainsRevision": 19,
+  "browserDefaultRemainsRevision": 17,
+  "browserCandidate": "viewer/candidate-v22.html",
+  "browserGeometryAndSyntaxAndHttpVerified": true,
+  "browserRuntimeVerified": false,
+  "browserLightingIsUncalibratedApproximation": true,
+  "oneToOneComplete": false,
+  "remaining": [
+    "左侧立面、门后窗型、拱廊和残存钢架仍有明显结构差异，需要继续按电影参照重建。",
+    "右侧窗面仍偏暖和偏亮，墙面污迹、藤叶分布及管道材质还不匹配。",
+    "庭院绝对尺寸、临水台基和钢架基座仍为推定；水面反射、铺石和昼夜云层仍需校准。",
+    "独立混元头模已安装，脸型、发束、握门手势和鞋部轮廓仍需精修。",
+    "网页几何、脚本与服务可以检查，但浏览器页面读取持续超时，实际渲染和交互仍待复测。"
+  ]
+}

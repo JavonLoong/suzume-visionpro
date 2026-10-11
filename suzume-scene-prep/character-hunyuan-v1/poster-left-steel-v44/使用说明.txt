@@ -1,0 +1,14 @@
+左侧钢架与断梁重建 v44
+
+完整模型：Suzume_dual_scene_left_steel_v44.blend。主文件 suzume-full-scene.blend 已同步。
+Blender 场景：Official poster courtyard v38（第 1 帧海报）、Daytime circular hotel（第 72 帧电影）、Night meadow through the door（异世界）。
+
+本版替换参照左侧范围内的旧钢架构件，补入 20 个封闭实体部件。原有右侧钢架、庭院、门、水面、云层和电影人物均保留。
+27 个预期接点经过实体重叠检查。不可见纵深、截面和背面为数学推定，整体尚未达到一比一。
+原生模型已重新打开检查，并检查正面、细节和侧向渲染。
+
+海报网页：http://127.0.0.1:8931/viewer/poster-v44.html
+电影网页：http://127.0.0.1:8931/viewer/candidate-v37.html
+网页几何、法线、UV 和 HTTP 资源检查通过。网页钢材仍采用近似材质；浏览器实际 GPU 显示未验证。
+
+后续优先校准建筑门窗、屋顶设备和女儿墙，再继续风化细节、水中石板、人物表情与颈胸衔接、异世界细节。

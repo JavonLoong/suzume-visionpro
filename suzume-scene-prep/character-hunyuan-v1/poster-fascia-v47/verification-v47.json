@@ -1,0 +1,63 @@
+{
+  "revision": 47,
+  "sourceNativeSha256": "f377b44edfb7287e25476dab31deca102a610521333d5d20e319d54c00521c2c",
+  "nativeSha256": "ca7dd4afaf662e113a6601ed355b0c25fe5246d6cff60bafabe9ac2f6ce8b340",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "allOriginalPosterObjectsMaterialsCameraLightingPreserved": true,
+  "sharedNodeGroupsPreserved": true,
+  "addedAssemblies": [
+    {
+      "name": "Poster molded roof fascia bay 12 v47",
+      "triangles": 32,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.17981416995376318,
+      "maximumVertexErrorMeters": 9.456884768610507e-07,
+      "slabIntersectingTrianglePairs": 42
+    },
+    {
+      "name": "Poster molded roof fascia bay 13 v47",
+      "triangles": 32,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.23079776744497946,
+      "maximumVertexErrorMeters": 9.196191399496456e-07,
+      "slabIntersectingTrianglePairs": 42
+    },
+    {
+      "name": "Poster molded roof fascia bay 14 v47",
+      "triangles": 32,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.1983822461788811,
+      "maximumVertexErrorMeters": 7.425781234360329e-07,
+      "slabIntersectingTrianglePairs": 42
+    },
+    {
+      "name": "Poster molded roof fascia bay 15 v47",
+      "triangles": 32,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.2565470310991784,
+      "maximumVertexErrorMeters": 8.827685533674412e-07,
+      "slabIntersectingTrianglePairs": 31
+    }
+  ],
+  "adjacentBayJoints": [
+    {
+      "a": "Poster molded roof fascia bay 12 v47",
+      "b": "Poster molded roof fascia bay 13 v47",
+      "intersectingTrianglePairs": 50
+    },
+    {
+      "a": "Poster molded roof fascia bay 13 v47",
+      "b": "Poster molded roof fascia bay 14 v47",
+      "intersectingTrianglePairs": 53
+    },
+    {
+      "a": "Poster molded roof fascia bay 14 v47",
+      "b": "Poster molded roof fascia bay 15 v47",
+      "intersectingTrianglePairs": 50
+    }
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

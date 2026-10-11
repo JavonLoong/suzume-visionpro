@@ -1,0 +1,28 @@
+{
+  "revision": 32,
+  "nativeFile": "movie-door-v32/Suzume_scene_movie_door_v32.blend",
+  "nativeSha256": "025aa9a33f12e1525065a188fc87dac4a5a7a167a72a51ecda8290ccef7cebf4",
+  "rigidDoorVerified": true,
+  "grippingArmRetargeted": true,
+  "feetMinimumClearanceMeters": {
+    "L": 0.00899996638298034,
+    "R": 0.00899989366531373
+  },
+  "independentHeadPreserved": true,
+  "portalGeometryAndMaterialPartitionVerified": true,
+  "browserCandidate": "viewer/candidate-v32.html",
+  "browserRuntimeVerified": false,
+  "browserFailure": "cua.getTab(3,browser=2) timed out after 20 seconds; kernel reset.",
+  "frontAndContactRendersReviewed": true,
+  "stableNativeRemainsRevision": 19,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Refine character identity, hair silhouette and individual finger contact; current Hunyuan head is approximate.",
+    "Fit the close movie camera again using reviewed panel correspondences; the previous v32 camera trials are not accepted.",
+    "Restore wider off-axis sunset colors and the visible star arrangement while preserving the narrow front sky.",
+    "Refine cloud outlines, meadow flowers, haze, paving and water glints.",
+    "Finish the separate closed-door poster scene and inspect the full model from additional angles.",
+    "Verify the web candidate in an actual connected browser; the control session still times out."
+  ]
+}

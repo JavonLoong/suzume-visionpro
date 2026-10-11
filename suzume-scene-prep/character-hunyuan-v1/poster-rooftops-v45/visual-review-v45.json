@@ -1,0 +1,37 @@
+{
+  "revision": 45,
+  "nativeSha256": "934df5dbec658241e56773fa0d15bfd221358c624120e609b7603a1b936075ba",
+  "frontReviewed": true,
+  "rooftopDetailReviewed": true,
+  "referenceComparisonReviewed": true,
+  "obliqueReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "Two service houses, a central tank and a partially visible left tank replace the incorrectly positioned and shaped old equipment. Their front contours now occupy the observed reference regions. The former exposed-sky gap at the left service house is filled by actual closed geometry.",
+    "The two house top front edges fit the manually observed corners with 0.064 and 0.174 pixel RMS at 708 by 1000. These residuals describe the selected corners only and are smaller than reference measurement uncertainty; they do not prove whole-building fidelity.",
+    "The first tank cap was too high and the casing material too blue. The second trial corrected cap heights and shaded casing color, but the right house became visibly too bright and warm. Its final separate casing material removes that local color error while retaining normal three-dimensional lighting.",
+    "The final exposed right-house patch has RGB mean absolute error 3.67 on a 0 to 255 scale against the official reference. The central and partial tank patches remain less accurate, at approximately 19.14 and 11.89. These are local observations, not a scene equivalence score.",
+    "All four assemblies have closed geometry. Thirty-six bottom samples intersect the original roof support. Hidden depths, rear walls and connections are inferred rather than recovered from unseen official images.",
+    "The final front and enlarged comparison show the improved skyline, with no new visible floating equipment. Existing balcony rail spacing remains too wide, several roof edge levels need calibration, and the large black ivy silhouettes differ conspicuously from the fine reference foliage.",
+    "The detail is copied without image alteration from the final trial of this exact native SHA. Full front and oblique renders were freshly rendered from the same saved model. The final oblique image shows solid front, side and roof faces and no visible detached equipment; hidden geometry remains inferred.",
+    "Movie character, feet, portal partition, night scene and shared node groups are preserved exactly. The browser payload and JavaScript geometry checks pass, but actual browser/GPU display remains unverified."
+  ],
+  "remaining": [
+    "Rebuild the observed left balcony railing density and confirm top/bottom rail and roof-edge heights against the high-resolution reference. next-railing-diagnosis.json records 122 unchanged candidate components and preliminary measurements; recheck those measurements before fitting.",
+    "Replace oversized dark roof ivy leaves with smaller, more varied foliage and align the distinct reference trails and clumps.",
+    "Continue facade opening, cornice, parapet, ground debris and right rooftop equipment reconstruction. Correct mismatches between painted facade detail and actual openings.",
+    "Refine equipment weathering, casing seams, pipe bends, tank shading and partial left-tank brightness. Hidden equipment depths and backs remain inferred.",
+    "Refine pale steel edges, corrosion and irregular damage; the rebuilt left steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water and steel materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false,
+  "reviewedImageSha256": {
+    "poster-front-v45.png": "9fd542a40c57b93e5834e67754a5215edae1ad6f492b1916d55dc3533fd66e92",
+    "rooftop-detail-v45.png": "dc6d4a140e2baf4850dd22c7eb9c16d9cab9470110b71040b595fa38de014f26",
+    "poster-oblique-v45.png": "9172b435ab0d8b175441a2ea6fa22a688ae13c9e7f938ca493acbbc3ecb0d26f"
+  }
+}

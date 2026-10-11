@@ -1,0 +1,47 @@
+[
+  {
+    "object": "Branching tree crowns surrounding the ruined hotel",
+    "instances": 720,
+    "placementHash": "e549099fb79cae356c93e1d2041291eb59cf3ee2e9cbe917a048a40957f65c1b",
+    "colorMode": "original per-instance attribute",
+    "prototypeVertices": 6000,
+    "instanceColorHash": "b9a671ee7e61603c286290476fe14f93765045e2a6ca0b72f92efde09528d1ac"
+  },
+  {
+    "object": "Forest trunks",
+    "instances": 720,
+    "placementHash": "e549099fb79cae356c93e1d2041291eb59cf3ee2e9cbe917a048a40957f65c1b",
+    "colorMode": "constant",
+    "prototypeVertices": 40
+  },
+  {
+    "object": "Individual meadow flowers",
+    "instances": 26000,
+    "placementHash": "ebc4ec1bfdfcc360e6cf84ca76e493e4e0019af4165588776a9d2b18cea53de3",
+    "colorMode": "original per-instance attribute",
+    "prototypeVertices": 105,
+    "instanceColorHash": "b02b5341577c8b4e4e01768738385763095741aca37a2e17a1ce1a796001c9fb"
+  },
+  {
+    "object": "Individual three-dimensional ivy leaves",
+    "instances": 4443,
+    "placementHash": "6ee9a96696afcdf875d78389be3a4264d0b308a9501ecf47bd600a0d40d88fa1",
+    "colorMode": "original per-instance attribute",
+    "prototypeVertices": 10,
+    "instanceColorHash": "b29c7c861baf80292129075639c3322d3bb0517ec5414d02c358fb630ff5fa6f"
+  },
+  {
+    "object": "Modeled flower stems",
+    "instances": 26000,
+    "placementHash": "e907ca5c99abacab51930a2641f10b68cf8924449f45175a0f66c5dbc29993b5",
+    "colorMode": "constant",
+    "prototypeVertices": 34
+  },
+  {
+    "object": "Spatial grass blades",
+    "instances": 42000,
+    "placementHash": "7ed4cb7f102a76cd21b49fff1b0c3580039d76fedb3cfa2554a6cc20005a9b9a",
+    "colorMode": "constant",
+    "prototypeVertices": 36
+  }
+]

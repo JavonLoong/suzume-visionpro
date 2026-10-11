@@ -1,0 +1,55 @@
+# Local build output and credentials
+.DS_Store
+.env
+.env.*
+__pycache__/
+*.pyc
+DerivedData/
+BuildLogs/
+xcuserdata/
+*.xcuserstate
+node_modules/
+python-deps/
+color-pipeline-deps/
+*.log
+userpref*.blend
+*.blend1
+*.blend2
+
+# Large historic assets are restored from Releases.
+*.blend
+*.bin
+*.npz
+*.npy
+*.glb
+*.usdz
+*.png
+*.jpg
+*.jpeg
+*.exr
+*.zip
+suzume-scene-prep/character-hunyuan-v1/离线HTML/
+
+# Current app assets and documentation previews are intentionally versioned.
+!suzume-scene-prep/visionpro/**/*.glb
+!suzume-scene-prep/visionpro/**/*.usdz
+!suzume-scene-prep/visionpro/**/*.png
+!suzume-scene-prep/visionpro/*.zip
+!docs/previews/*.png
+
+# Large geometry tables supplied in Release archives.
+/suzume-scene-prep/character-hunyuan-v1/movie-bays-v23/bay-geometry-v23.json
+/suzume-scene-prep/character-hunyuan-v1/movie-projection-v24/bay-geometry-v24.json
+/suzume-scene-prep/character-hunyuan-v1/movie-projection-v24/right-geometry-v24.json
+/suzume-scene-prep/character-hunyuan-v1/movie-shore-v26/shore-geometry-v26.json
+/suzume-scene-prep/character-hunyuan-v1/movie-steel-v25/steel-geometry-v25.json
+/suzume-scene-prep/character-hunyuan-v1/movie-windows-v21/bay-geometry-v21.json
+/suzume-scene-prep/character-hunyuan-v1/poster-arches-v49/arch-geometry-v49.json
+/suzume-scene-prep/character-hunyuan-v1/poster-foreground-v51/foreground-geometry-v51.json
+/suzume-scene-prep/character-hunyuan-v1/poster-right-arches-v55/right-arches-geometry-v55.json
+/suzume-scene-prep/character-hunyuan-v1/离线HTML/打包清单.json
+/suzume-scene-prep/character-hunyuan-v1/离线HTML/验证/铃芽之旅_v37_电影开门.html.json
+/suzume-scene-prep/character-hunyuan-v1/离线HTML/验证/铃芽之旅_v38_海报庭院.html.json
+/suzume-scene-prep/character-hunyuan-v1/离线HTML/验证/铃芽之旅_v49_原始渲染.html.json
+/suzume-scene-prep/character-hunyuan-v1/离线HTML/验证/铃芽之旅_v49_旋转场景.html.json
+/suzume-scene-prep/character-hunyuan-v1/离线HTML/验证/铃芽之旅_全部场景_离线珍藏.html.json

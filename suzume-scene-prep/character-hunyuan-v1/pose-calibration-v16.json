@@ -1,0 +1,287 @@
+{
+  "revision": 16,
+  "reference": "reference-opening-50525.jpg",
+  "referenceDimensions": [
+    2552,
+    1656
+  ],
+  "landmarks": "Manual visible feature annotations; pixels quantify this camera only, not all-angle identity.",
+  "measurements": [
+    {
+      "name": "head_top",
+      "vertex": 189773,
+      "target": [
+        1195,
+        493
+      ],
+      "before": [
+        1196.30331492424,
+        535.44264793396
+      ],
+      "after": [
+        1198.571899175644,
+        493.7849678993225
+      ],
+      "errorBefore": 42.462654102609065,
+      "errorAfter": 3.65713526191369,
+      "world": [
+        -0.0933382511138916,
+        0.8434591889381409,
+        3.1114766597747803
+      ]
+    },
+    {
+      "name": "left_shoulder",
+      "vertex": 45987,
+      "target": [
+        1114,
+        691
+      ],
+      "before": [
+        1114.3597974777222,
+        712.423999786377
+      ],
+      "after": [
+        1114.4543344974518,
+        687.4104995727539
+      ],
+      "errorBefore": 21.427020816521715,
+      "errorAfter": 3.618139460105795,
+      "world": [
+        -0.3721133768558502,
+        0.6811866164207458,
+        2.4137039184570312
+      ]
+    },
+    {
+      "name": "right_shoulder",
+      "vertex": 196408,
+      "target": [
+        1245,
+        704
+      ],
+      "before": [
+        1245.4152586460114,
+        715.7234215736389
+      ],
+      "after": [
+        1245.5478994846344,
+        685.5064744949341
+      ],
+      "errorBefore": 11.730773765457654,
+      "errorAfter": 18.50163991249928,
+      "world": [
+        0.07621467113494873,
+        0.6680748462677002,
+        2.4189834594726562
+      ]
+    },
+    {
+      "name": "waist",
+      "vertex": 53011,
+      "target": [
+        1172,
+        848
+      ],
+      "before": [
+        1179.8763098716736,
+        849.2964069843292
+      ],
+      "after": [
+        1179.7973642349243,
+        840.0361726284027
+      ],
+      "errorBefore": 7.982288410201697,
+      "errorAfter": 11.14546703447994,
+      "world": [
+        -0.12690995633602142,
+        0.36213770508766174,
+        1.89797842502594
+      ]
+    },
+    {
+      "name": "left_hem",
+      "vertex": 169642,
+      "target": [
+        1092,
+        1136
+      ],
+      "before": [
+        1090.6659910678864,
+        1082.3145790100098
+      ],
+      "after": [
+        1085.226956129074,
+        1114.8364427089691
+      ],
+      "errorBefore": 53.701992576658114,
+      "errorAfter": 22.220942385241752,
+      "world": [
+        -0.41157037019729614,
+        0.23035210371017456,
+        1.0481977462768555
+      ]
+    },
+    {
+      "name": "right_hem",
+      "vertex": 105198,
+      "target": [
+        1262,
+        1110
+      ],
+      "before": [
+        1272.4742939472198,
+        1035.0153980255127
+      ],
+      "after": [
+        1267.6843929290771,
+        1107.7600629329681
+      ],
+      "errorBefore": 75.71262356413924,
+      "errorAfter": 6.1097987721696345,
+      "world": [
+        0.15278056263923645,
+        0.4679885804653168,
+        1.0195327997207642
+      ]
+    },
+    {
+      "name": "left_shoe",
+      "vertex": 94848,
+      "target": [
+        1114,
+        1484
+      ],
+      "before": [
+        1130.5947623252869,
+        1420.6286197900772
+      ],
+      "after": [
+        1113.9224021434784,
+        1418.284393787384
+      ],
+      "errorBefore": 65.5081519075554,
+      "errorAfter": 65.71565202688738,
+      "world": [
+        -0.28812646865844727,
+        -0.07121068239212036,
+        0.23571684956550598
+      ]
+    },
+    {
+      "name": "right_shoe",
+      "vertex": 2901,
+      "target": [
+        1215,
+        1439
+      ],
+      "before": [
+        1226.2302520275116,
+        1290.5897773504257
+      ],
+      "after": [
+        1214.9663524627686,
+        1363.3358734846115
+      ],
+      "errorBefore": 148.83451463789453,
+      "errorAfter": 75.66413399685136,
+      "world": [
+        -0.00896543264389038,
+        0.2160128355026245,
+        0.28031134605407715
+      ]
+    },
+    {
+      "name": "left_hand_tip",
+      "vertex": 255836,
+      "target": [
+        1056,
+        1043
+      ],
+      "before": [
+        1055.3517367839813,
+        1025.7435657978058
+      ],
+      "after": [
+        1056.4716544151306,
+        1042.4601459503174
+      ],
+      "errorBefore": 17.268606387659112,
+      "errorAfter": 0.7168683855987265,
+      "world": [
+        -0.5536583662033081,
+        0.564731240272522,
+        1.217596411705017
+      ]
+    }
+  ],
+  "meanPixelErrorBefore": 49.40318068541073,
+  "meanPixelErrorAfter": 23.038864137305286,
+  "legStretch": {
+    "L": 1,
+    "R": 1
+  },
+  "proportionVertices": 135247,
+  "backClothWeightsRepaired": 385,
+  "partition": {
+    "courtyard": 34931,
+    "otherworld": 263097,
+    "total": 298028
+  },
+  "nativeFile": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene-hunyuan-v16.blend",
+  "footCollision": {
+    "L": {
+      "vertices": 14185,
+      "minimumClearance": 0.00899996638298034,
+      "minimumSoleZ": 0.2034619152545929
+    },
+    "R": {
+      "vertices": 13929,
+      "minimumClearance": 0.00899989366531373,
+      "minimumSoleZ": 0.2481023073196411
+    }
+  },
+  "footCollisionCorrections": [
+    {
+      "iteration": 0,
+      "side": "L",
+      "liftWorldZ": 0.19071679198741914
+    },
+    {
+      "iteration": 0,
+      "side": "R",
+      "liftWorldZ": 0.23531145805120468
+    }
+  ],
+  "foundationColliders": [
+    [
+      -1.24,
+      1.24,
+      -0.44,
+      0.5,
+      0.0725
+    ],
+    [
+      -1.05,
+      1.05,
+      -0.34,
+      0.31,
+      0.16
+    ],
+    [
+      -0.935,
+      0.935,
+      -0.215,
+      0.215,
+      0.195
+    ]
+  ],
+  "oneToOneComplete": false,
+  "visualReview": "Studio front/back/side and complete browser front/side/rear inspected. Final native front reopened/rendered after foot collision correction. Feet clear foundation and portal threshold; body partition retained.",
+  "limitations": [
+    "Reconstructed face, hairpins and sleeve topology remain approximate",
+    "Landmark fit does not establish unseen-view fidelity",
+    "Foot screen positions remain offset because solid threshold clearance takes precedence; door and foundation/reference alignment still require calibration",
+    "User requested independent head reconstruction; in progress, current head remains Hunyuan whole-body generation"
+  ]
+}

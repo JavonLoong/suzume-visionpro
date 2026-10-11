@@ -1,0 +1,2748 @@
+{
+  "objects": [
+    {
+      "name": "Spatial twilight cloud volume 0",
+      "location": [
+        -102.0,
+        61.0,
+        -280.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        96.0,
+        4.300000190734863,
+        20.0
+      ],
+      "vertices": 24,
+      "hidden": false,
+      "localBounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Spatial twilight cloud volume 1",
+      "location": [
+        -26.0,
+        73.0,
+        -310.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        105.0,
+        3.700000047683716,
+        24.0
+      ],
+      "vertices": 24,
+      "hidden": false,
+      "localBounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Spatial twilight cloud volume 2",
+      "location": [
+        90.0,
+        78.0,
+        -285.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        86.0,
+        3.4000000953674316,
+        19.0
+      ],
+      "vertices": 24,
+      "hidden": false,
+      "localBounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Spatial twilight cloud volume 3",
+      "location": [
+        -140.0,
+        47.0,
+        -255.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        80.0,
+        5.0,
+        21.0
+      ],
+      "vertices": 24,
+      "hidden": false,
+      "localBounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Spatial twilight cloud volume 4",
+      "location": [
+        16.0,
+        54.0,
+        -290.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        125.0,
+        5.800000190734863,
+        28.0
+      ],
+      "vertices": 24,
+      "hidden": false,
+      "localBounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Spatial twilight cloud volume 5",
+      "location": [
+        137.0,
+        58.0,
+        -270.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        80.0,
+        4.099999904632568,
+        22.0
+      ],
+      "vertices": 24,
+      "hidden": false,
+      "localBounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Spatial twilight cloud volume 6",
+      "location": [
+        -80.0,
+        94.0,
+        -305.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        120.0,
+        3.200000047683716,
+        21.0
+      ],
+      "vertices": 24,
+      "hidden": false,
+      "localBounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Spatial twilight cloud volume 7",
+      "location": [
+        110.0,
+        112.0,
+        -330.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        90.0,
+        2.299999952316284,
+        18.0
+      ],
+      "vertices": 24,
+      "hidden": false,
+      "localBounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Spatial twilight cloud volume 8",
+      "location": [
+        -100.0,
+        32.0,
+        -220.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        106.0,
+        2.0999999046325684,
+        15.0
+      ],
+      "vertices": 24,
+      "hidden": false,
+      "localBounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Spatial twilight cloud volume 9",
+      "location": [
+        100.0,
+        37.0,
+        -240.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        104.0,
+        2.799999952316284,
+        17.0
+      ],
+      "vertices": 24,
+      "hidden": false,
+      "localBounds": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Rolling meadow ground",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 40401,
+      "hidden": false,
+      "localBounds": [
+        [
+          -200.0,
+          -0.2989371716976166,
+          -200.0
+        ],
+        [
+          200.0,
+          18.0628604888916,
+          200.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Individual meadow flowers",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 26000,
+      "hidden": false,
+      "localBounds": [
+        [
+          -32.55185317993164,
+          -0.1993798464536667,
+          -67.56629180908203
+        ],
+        [
+          32.71022415161133,
+          4.011298179626465,
+          17.31376838684082
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "instance_color",
+          "type": "FLOAT_COLOR",
+          "domain": "POINT"
+        },
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": "instance_rotation",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": "instance_scale",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        }
+      ],
+      "instanceColorRange": [
+        [
+          0.0297856405377388,
+          0.0318746343255043,
+          0.009715977124869823,
+          1.0
+        ],
+        [
+          0.32023686170578003,
+          0.24376145005226135,
+          0.3345089256763458,
+          1.0
+        ]
+      ],
+      "nodes": [
+        {
+          "type": "NodeGroupInput",
+          "name": "Group Input",
+          "muted": false
+        },
+        {
+          "type": "NodeGroupOutput",
+          "name": "Group Output",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeObjectInfo",
+          "name": "Object Info",
+          "muted": false,
+          "prototype": "Individual meadow flowers prototype"
+        },
+        {
+          "type": "GeometryNodeInstanceOnPoints",
+          "name": "Instance on Points",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeInputNamedAttribute",
+          "name": "Named Attribute",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeInputNamedAttribute",
+          "name": "Named Attribute.001",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeRealizeInstances",
+          "name": "Realize Instances",
+          "muted": true
+        }
+      ]
+    },
+    {
+      "name": "Modeled flower stems",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 26000,
+      "hidden": false,
+      "localBounds": [
+        [
+          -32.55185317993164,
+          -0.24050569534301758,
+          -67.56629180908203
+        ],
+        [
+          32.71022415161133,
+          3.869601249694824,
+          17.31376838684082
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": "instance_rotation",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": "instance_scale",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        }
+      ],
+      "nodes": [
+        {
+          "type": "NodeGroupInput",
+          "name": "Group Input",
+          "muted": false
+        },
+        {
+          "type": "NodeGroupOutput",
+          "name": "Group Output",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeObjectInfo",
+          "name": "Object Info",
+          "muted": false,
+          "prototype": "Modeled flower stems prototype"
+        },
+        {
+          "type": "GeometryNodeInstanceOnPoints",
+          "name": "Instance on Points",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeInputNamedAttribute",
+          "name": "Named Attribute",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeInputNamedAttribute",
+          "name": "Named Attribute.001",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeRealizeInstances",
+          "name": "Realize Instances",
+          "muted": true
+        }
+      ]
+    },
+    {
+      "name": "Spatial grass blades",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42000,
+      "hidden": false,
+      "localBounds": [
+        [
+          -33.99998474121094,
+          -0.28549864888191223,
+          -69.99210357666016
+        ],
+        [
+          33.99995422363281,
+          4.481564044952393,
+          15.993448257446289
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": "instance_rotation",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": "instance_scale",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        }
+      ],
+      "nodes": [
+        {
+          "type": "NodeGroupInput",
+          "name": "Group Input",
+          "muted": false
+        },
+        {
+          "type": "NodeGroupOutput",
+          "name": "Group Output",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeObjectInfo",
+          "name": "Object Info",
+          "muted": false,
+          "prototype": "Spatial grass blades prototype"
+        },
+        {
+          "type": "GeometryNodeInstanceOnPoints",
+          "name": "Instance on Points",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeInputNamedAttribute",
+          "name": "Named Attribute",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeInputNamedAttribute",
+          "name": "Named Attribute.001",
+          "muted": false
+        },
+        {
+          "type": "GeometryNodeRealizeInstances",
+          "name": "Realize Instances",
+          "muted": true
+        }
+      ]
+    },
+    {
+      "name": "Native enclosing night sky",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1986,
+      "hidden": false,
+      "localBounds": [
+        [
+          -519.999755859375,
+          -519.9998779296875,
+          -520.0
+        ],
+        [
+          519.9999389648438,
+          520.0,
+          520.0
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".uv_select_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".uv_select_vert",
+          "type": "BOOLEAN",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".uv_select_edge",
+          "type": "BOOLEAN",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Individual meadow flowers prototype",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 105,
+      "hidden": true,
+      "localBounds": [
+        [
+          -0.08970972895622253,
+          0.013000000268220901,
+          -0.10086353123188019
+        ],
+        [
+          0.10599999874830246,
+          0.0376991331577301,
+          0.10086353123188019
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Modeled flower stems prototype",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 34,
+      "hidden": true,
+      "localBounds": [
+        [
+          -0.002853169571608305,
+          -0.5,
+          -0.0024270510766655207
+        ],
+        [
+          0.002853169571608305,
+          0.5,
+          0.003000000026077032
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        },
+        {
+          "name": "UVMap",
+          "type": "FLOAT2",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "name": "Spatial grass blades prototype",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 36,
+      "hidden": true,
+      "localBounds": [
+        [
+          -0.056265950202941895,
+          0.0,
+          -0.03254447132349014
+        ],
+        [
+          0.05630448833107948,
+          0.3199999928474426,
+          0.06499999761581421
+        ]
+      ],
+      "attributes": [
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": ".select_vert",
+          "type": "BOOLEAN",
+          "domain": "POINT"
+        },
+        {
+          "name": ".edge_verts",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_edge",
+          "type": "INT32_2D",
+          "domain": "EDGE"
+        },
+        {
+          "name": "sharp_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE"
+        },
+        {
+          "name": ".select_poly",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": "sharp_face",
+          "type": "BOOLEAN",
+          "domain": "FACE"
+        },
+        {
+          "name": ".corner_vert",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": ".corner_edge",
+          "type": "INT",
+          "domain": "CORNER"
+        },
+        {
+          "name": "custom_normal",
+          "type": "INT16_2D",
+          "domain": "CORNER"
+        }
+      ],
+      "nodes": []
+    }
+  ],
+  "lights": [
+    {
+      "name": "HemisphereLight.001",
+      "type": "POINT",
+      "power": 0.0,
+      "position": [
+        0.0,
+        -4.371138828673793e-08,
+        1.0
+      ],
+      "color": [
+        0.6509804129600525,
+        0.6980392336845398,
+        0.9019607901573181
+      ]
+    },
+    {
+      "name": "DirectionalLight.001",
+      "type": "SUN",
+      "power": 0.0,
+      "position": [
+        -18.0,
+        60.0,
+        30.000001907348633
+      ],
+      "color": [
+        0.5568627715110779,
+        0.6235294342041016,
+        0.8039215803146362
+      ]
+    },
+    {
+      "name": "DirectionalLight.002",
+      "type": "SUN",
+      "power": 0.0,
+      "position": [
+        -40.0,
+        70.0,
+        6.000002861022949
+      ],
+      "color": [
+        0.8823529481887817,
+        0.6274510025978088,
+        0.545098066329956
+      ]
+    },
+    {
+      "name": "Moonlight",
+      "type": "AREA",
+      "power": 6500.0,
+      "position": [
+        -30.0,
+        20.0,
+        80.0
+      ],
+      "color": [
+        0.38999998569488525,
+        0.49000000953674316,
+        1.0
+      ]
+    },
+    {
+      "name": "Horizon glow",
+      "type": "AREA",
+      "power": 1800.0,
+      "position": [
+        -30.0,
+        100.0,
+        30.0
+      ],
+      "color": [
+        0.75,
+        0.2800000011920929,
+        0.3199999928474426
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Individual meadow flowers vertex pigments",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission": [
+            0.0009105809731408954,
+            0.0027317428030073643,
+            0.005605391692370176,
+            1.0
+          ],
+          "emissionStrength": 0.1599999964237213
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        },
+        {
+          "type": "ShaderNodeAttribute",
+          "name": "Attribute",
+          "attribute": "instance_color",
+          "attributeType": "INSTANCER"
+        }
+      ],
+      "links": [
+        "Principled BSDF.BSDF -> Material Output.Surface",
+        "Attribute.Color -> Principled BSDF.Base Color",
+        "Attribute.Color -> Principled BSDF.Emission Color"
+      ]
+    },
+    {
+      "name": "Modeled flower stems",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "color": [
+            0.024157632142305374,
+            0.0666259378194809,
+            0.0382043719291687,
+            1.0
+          ],
+          "emission": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Principled BSDF.BSDF -> Material Output.Surface"
+      ]
+    },
+    {
+      "name": "Rolling meadow ground",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emission": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        },
+        {
+          "type": "ShaderNodeTexImage",
+          "name": "Image Texture"
+        },
+        {
+          "type": "ShaderNodeMixRGB",
+          "name": "Mix (Legacy)"
+        },
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        }
+      ],
+      "links": [
+        "Principled BSDF.BSDF -> Material Output.Surface",
+        "Image Texture.Color -> Mix (Legacy).Color2",
+        "Mix (Legacy).Color -> Principled BSDF.Base Color",
+        "Texture Coordinate.UV -> Vector Math.Vector",
+        "Vector Math.Vector -> Image Texture.Vector"
+      ]
+    },
+    {
+      "name": "Spatial calibrated night sky v12",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeTexEnvironment",
+          "name": "Environment Texture"
+        },
+        {
+          "type": "ShaderNodeEmission",
+          "name": "Emission"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Environment Texture.Vector",
+        "Environment Texture.Color -> Emission.Color",
+        "Emission.Emission -> Material Output.Surface"
+      ]
+    },
+    {
+      "name": "Spatial grass blades",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "color": [
+            0.01850022003054619,
+            0.05951123684644699,
+            0.03189603239297867,
+            1.0
+          ],
+          "emission": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Principled BSDF.BSDF -> Material Output.Surface"
+      ]
+    },
+    {
+      "name": "Spatial twilight cloud volume 0",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.001"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.002"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.002"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.003"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.004"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.005"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.006"
+        },
+        {
+          "type": "ShaderNodeVolumePrincipled",
+          "name": "Twilight cloud density"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.007"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Vector Math.001.Vector",
+        "Vector Math.001.Vector -> Vector Math.002.Vector",
+        "Texture Coordinate.Generated -> Noise Texture.Vector",
+        "Vector Math.002.Value -> Math.Value",
+        "Noise Texture.Factor -> Math.001.Value",
+        "Math.001.Value -> Math.002.Value",
+        "Math.Value -> Math.003.Value",
+        "Math.002.Value -> Math.003.Value",
+        "Math.003.Value -> Math.004.Value",
+        "Math.004.Value -> Math.005.Value",
+        "Math.005.Value -> Math.006.Value",
+        "Math.006.Value -> Twilight cloud density.Density",
+        "Math.006.Value -> Math.007.Value",
+        "Math.007.Value -> Twilight cloud density.Emission Strength",
+        "Twilight cloud density.Volume -> Material Output.Volume"
+      ]
+    },
+    {
+      "name": "Spatial twilight cloud volume 1",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.001"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.002"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.002"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.003"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.004"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.005"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.006"
+        },
+        {
+          "type": "ShaderNodeVolumePrincipled",
+          "name": "Twilight cloud density"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.007"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Vector Math.001.Vector",
+        "Vector Math.001.Vector -> Vector Math.002.Vector",
+        "Texture Coordinate.Generated -> Noise Texture.Vector",
+        "Vector Math.002.Value -> Math.Value",
+        "Noise Texture.Factor -> Math.001.Value",
+        "Math.001.Value -> Math.002.Value",
+        "Math.Value -> Math.003.Value",
+        "Math.002.Value -> Math.003.Value",
+        "Math.003.Value -> Math.004.Value",
+        "Math.004.Value -> Math.005.Value",
+        "Math.005.Value -> Math.006.Value",
+        "Math.006.Value -> Twilight cloud density.Density",
+        "Math.006.Value -> Math.007.Value",
+        "Math.007.Value -> Twilight cloud density.Emission Strength",
+        "Twilight cloud density.Volume -> Material Output.Volume"
+      ]
+    },
+    {
+      "name": "Spatial twilight cloud volume 2",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.001"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.002"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.002"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.003"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.004"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.005"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.006"
+        },
+        {
+          "type": "ShaderNodeVolumePrincipled",
+          "name": "Twilight cloud density"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.007"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Vector Math.001.Vector",
+        "Vector Math.001.Vector -> Vector Math.002.Vector",
+        "Texture Coordinate.Generated -> Noise Texture.Vector",
+        "Vector Math.002.Value -> Math.Value",
+        "Noise Texture.Factor -> Math.001.Value",
+        "Math.001.Value -> Math.002.Value",
+        "Math.Value -> Math.003.Value",
+        "Math.002.Value -> Math.003.Value",
+        "Math.003.Value -> Math.004.Value",
+        "Math.004.Value -> Math.005.Value",
+        "Math.005.Value -> Math.006.Value",
+        "Math.006.Value -> Twilight cloud density.Density",
+        "Math.006.Value -> Math.007.Value",
+        "Math.007.Value -> Twilight cloud density.Emission Strength",
+        "Twilight cloud density.Volume -> Material Output.Volume"
+      ]
+    },
+    {
+      "name": "Spatial twilight cloud volume 3",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.001"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.002"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.002"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.003"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.004"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.005"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.006"
+        },
+        {
+          "type": "ShaderNodeVolumePrincipled",
+          "name": "Twilight cloud density"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.007"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Vector Math.001.Vector",
+        "Vector Math.001.Vector -> Vector Math.002.Vector",
+        "Texture Coordinate.Generated -> Noise Texture.Vector",
+        "Vector Math.002.Value -> Math.Value",
+        "Noise Texture.Factor -> Math.001.Value",
+        "Math.001.Value -> Math.002.Value",
+        "Math.Value -> Math.003.Value",
+        "Math.002.Value -> Math.003.Value",
+        "Math.003.Value -> Math.004.Value",
+        "Math.004.Value -> Math.005.Value",
+        "Math.005.Value -> Math.006.Value",
+        "Math.006.Value -> Twilight cloud density.Density",
+        "Math.006.Value -> Math.007.Value",
+        "Math.007.Value -> Twilight cloud density.Emission Strength",
+        "Twilight cloud density.Volume -> Material Output.Volume"
+      ]
+    },
+    {
+      "name": "Spatial twilight cloud volume 4",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.001"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.002"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.002"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.003"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.004"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.005"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.006"
+        },
+        {
+          "type": "ShaderNodeVolumePrincipled",
+          "name": "Twilight cloud density"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.007"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Vector Math.001.Vector",
+        "Vector Math.001.Vector -> Vector Math.002.Vector",
+        "Texture Coordinate.Generated -> Noise Texture.Vector",
+        "Vector Math.002.Value -> Math.Value",
+        "Noise Texture.Factor -> Math.001.Value",
+        "Math.001.Value -> Math.002.Value",
+        "Math.Value -> Math.003.Value",
+        "Math.002.Value -> Math.003.Value",
+        "Math.003.Value -> Math.004.Value",
+        "Math.004.Value -> Math.005.Value",
+        "Math.005.Value -> Math.006.Value",
+        "Math.006.Value -> Twilight cloud density.Density",
+        "Math.006.Value -> Math.007.Value",
+        "Math.007.Value -> Twilight cloud density.Emission Strength",
+        "Twilight cloud density.Volume -> Material Output.Volume"
+      ]
+    },
+    {
+      "name": "Spatial twilight cloud volume 5",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.001"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.002"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.002"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.003"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.004"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.005"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.006"
+        },
+        {
+          "type": "ShaderNodeVolumePrincipled",
+          "name": "Twilight cloud density"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.007"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Vector Math.001.Vector",
+        "Vector Math.001.Vector -> Vector Math.002.Vector",
+        "Texture Coordinate.Generated -> Noise Texture.Vector",
+        "Vector Math.002.Value -> Math.Value",
+        "Noise Texture.Factor -> Math.001.Value",
+        "Math.001.Value -> Math.002.Value",
+        "Math.Value -> Math.003.Value",
+        "Math.002.Value -> Math.003.Value",
+        "Math.003.Value -> Math.004.Value",
+        "Math.004.Value -> Math.005.Value",
+        "Math.005.Value -> Math.006.Value",
+        "Math.006.Value -> Twilight cloud density.Density",
+        "Math.006.Value -> Math.007.Value",
+        "Math.007.Value -> Twilight cloud density.Emission Strength",
+        "Twilight cloud density.Volume -> Material Output.Volume"
+      ]
+    },
+    {
+      "name": "Spatial twilight cloud volume 6",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.001"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.002"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.002"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.003"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.004"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.005"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.006"
+        },
+        {
+          "type": "ShaderNodeVolumePrincipled",
+          "name": "Twilight cloud density"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.007"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Vector Math.001.Vector",
+        "Vector Math.001.Vector -> Vector Math.002.Vector",
+        "Texture Coordinate.Generated -> Noise Texture.Vector",
+        "Vector Math.002.Value -> Math.Value",
+        "Noise Texture.Factor -> Math.001.Value",
+        "Math.001.Value -> Math.002.Value",
+        "Math.Value -> Math.003.Value",
+        "Math.002.Value -> Math.003.Value",
+        "Math.003.Value -> Math.004.Value",
+        "Math.004.Value -> Math.005.Value",
+        "Math.005.Value -> Math.006.Value",
+        "Math.006.Value -> Twilight cloud density.Density",
+        "Math.006.Value -> Math.007.Value",
+        "Math.007.Value -> Twilight cloud density.Emission Strength",
+        "Twilight cloud density.Volume -> Material Output.Volume"
+      ]
+    },
+    {
+      "name": "Spatial twilight cloud volume 7",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.001"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.002"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.002"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.003"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.004"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.005"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.006"
+        },
+        {
+          "type": "ShaderNodeVolumePrincipled",
+          "name": "Twilight cloud density"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.007"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Vector Math.001.Vector",
+        "Vector Math.001.Vector -> Vector Math.002.Vector",
+        "Texture Coordinate.Generated -> Noise Texture.Vector",
+        "Vector Math.002.Value -> Math.Value",
+        "Noise Texture.Factor -> Math.001.Value",
+        "Math.001.Value -> Math.002.Value",
+        "Math.Value -> Math.003.Value",
+        "Math.002.Value -> Math.003.Value",
+        "Math.003.Value -> Math.004.Value",
+        "Math.004.Value -> Math.005.Value",
+        "Math.005.Value -> Math.006.Value",
+        "Math.006.Value -> Twilight cloud density.Density",
+        "Math.006.Value -> Math.007.Value",
+        "Math.007.Value -> Twilight cloud density.Emission Strength",
+        "Twilight cloud density.Volume -> Material Output.Volume"
+      ]
+    },
+    {
+      "name": "Spatial twilight cloud volume 8",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.001"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.002"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.002"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.003"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.004"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.005"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.006"
+        },
+        {
+          "type": "ShaderNodeVolumePrincipled",
+          "name": "Twilight cloud density"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.007"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Vector Math.001.Vector",
+        "Vector Math.001.Vector -> Vector Math.002.Vector",
+        "Texture Coordinate.Generated -> Noise Texture.Vector",
+        "Vector Math.002.Value -> Math.Value",
+        "Noise Texture.Factor -> Math.001.Value",
+        "Math.001.Value -> Math.002.Value",
+        "Math.Value -> Math.003.Value",
+        "Math.002.Value -> Math.003.Value",
+        "Math.003.Value -> Math.004.Value",
+        "Math.004.Value -> Math.005.Value",
+        "Math.005.Value -> Math.006.Value",
+        "Math.006.Value -> Twilight cloud density.Density",
+        "Math.006.Value -> Math.007.Value",
+        "Math.007.Value -> Twilight cloud density.Emission Strength",
+        "Twilight cloud density.Volume -> Material Output.Volume"
+      ]
+    },
+    {
+      "name": "Spatial twilight cloud volume 9",
+      "nodes": [
+        {
+          "type": "ShaderNodeTexCoord",
+          "name": "Texture Coordinate"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.001"
+        },
+        {
+          "type": "ShaderNodeVectorMath",
+          "name": "Vector Math.002"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.002"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.003"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.004"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.005"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.006"
+        },
+        {
+          "type": "ShaderNodeVolumePrincipled",
+          "name": "Twilight cloud density"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.007"
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ],
+      "links": [
+        "Texture Coordinate.Generated -> Vector Math.Vector",
+        "Vector Math.Vector -> Vector Math.001.Vector",
+        "Vector Math.001.Vector -> Vector Math.002.Vector",
+        "Texture Coordinate.Generated -> Noise Texture.Vector",
+        "Vector Math.002.Value -> Math.Value",
+        "Noise Texture.Factor -> Math.001.Value",
+        "Math.001.Value -> Math.002.Value",
+        "Math.Value -> Math.003.Value",
+        "Math.002.Value -> Math.003.Value",
+        "Math.003.Value -> Math.004.Value",
+        "Math.004.Value -> Math.005.Value",
+        "Math.005.Value -> Math.006.Value",
+        "Math.006.Value -> Twilight cloud density.Density",
+        "Math.006.Value -> Math.007.Value",
+        "Math.007.Value -> Twilight cloud density.Emission Strength",
+        "Twilight cloud density.Volume -> Material Output.Volume"
+      ]
+    }
+  ]
+}

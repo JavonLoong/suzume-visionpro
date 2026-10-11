@@ -1,0 +1,22 @@
+{
+  "revision": 34,
+  "sceneFrontReviewed": true,
+  "headFrontReviewed": true,
+  "headBackReviewed": true,
+  "headSideReviewed": true,
+  "observations": [
+    "The separate ponytail volumes no longer stretch the neck or create the fused side sheets seen in rejected v33.",
+    "The complete scene retains the door, body, gripping pose and spatial night view.",
+    "Facial proportions and the back skull remain approximate; the ponytail is still narrower and more pointed than the opening reference."
+  ],
+  "remaining": [
+    "Fit ponytail width and taper at several measured image rows, beyond the already aligned tip.",
+    "Refine the mathematical face, jaw, back skull, nape hairline and lighting style against the official character references.",
+    "Review both movie-image door correspondences and camera intrinsics; no close camera has yet passed all constraints.",
+    "Restore wider night-sky colors and stars after the camera fit is reliable.",
+    "Refine courtyard details, cloud contours, flowers, paving and water glints.",
+    "Complete and inspect the separate closed-door poster scene.",
+    "Verify the web candidate in a responsive browser; resource and geometry checks do not prove GPU rendering."
+  ],
+  "oneToOneComplete": false
+}

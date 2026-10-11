@@ -1,0 +1,36 @@
+{
+  "trials": [
+    {
+      "file": "camera-search-v33.json",
+      "meanDoorError": 25.34595256096252,
+      "maximumDoorError": 61.262033750315304,
+      "principalPoint": [
+        1024,
+        428
+      ],
+      "accepted": false
+    },
+    {
+      "file": "camera-search-panels-v33.json",
+      "meanDoorError": 5.855926497271584,
+      "maximumDoorError": 36.17948825688006,
+      "principalPoint": [
+        1024,
+        428
+      ],
+      "accepted": false
+    },
+    {
+      "file": "camera-search-shifted-v33.json",
+      "meanDoorError": 5.779972045057555,
+      "maximumDoorError": 28.89996478654445,
+      "principalPoint": [
+        2662.0300289053353,
+        441.9488662593579
+      ],
+      "accepted": false
+    }
+  ],
+  "conclusion": "The unshifted joint fit is poor. A panel-only fit matches the plane but misses other constraints. A shifted-principal-point fit requires an optical center outside the image and still misses the partly occluded knob. These results do not identify whether intrinsics, correspondences, model dimensions or cinematic stylization cause the discrepancy. No scene camera, panel geometry or sky was changed.",
+  "next": "Use frame edges and plane corners in both movie images, review crop/intrinsics, then jointly fit shared door geometry and two cameras; do not repeat the same constrained optimization unchanged."
+}

@@ -1,0 +1,173 @@
+{
+  "revision": 32,
+  "reference": "reference-opening-50528.jpg",
+  "referenceSize": [
+    6400,
+    2675
+  ],
+  "fittingSize": [
+    2048,
+    856
+  ],
+  "manualLandmarks": [
+    {
+      "name": "panel2_1_TR",
+      "target": [
+        1312,
+        186
+      ],
+      "projected": [
+        1314.7977802602143,
+        205.87055090081847
+      ],
+      "errorPixels": 20.066548469691107
+    },
+    {
+      "name": "panel2_1_TL",
+      "target": [
+        1352,
+        171
+      ],
+      "projected": [
+        1347.167688629289,
+        170.52285260904654
+      ],
+      "errorPixels": 4.855811241821203
+    },
+    {
+      "name": "panel2_1_BL",
+      "target": [
+        1350,
+        639
+      ],
+      "projected": [
+        1345.7886500393129,
+        641.0117560759766
+      ],
+      "errorPixels": 4.667186625860178
+    },
+    {
+      "name": "panel2_1_BR",
+      "target": [
+        1311,
+        616
+      ],
+      "projected": [
+        1313.5397581216546,
+        614.8710188297373
+      ],
+      "errorPixels": 2.779382988959632
+    },
+    {
+      "name": "panel3_1_TR",
+      "target": [
+        1385,
+        172
+      ],
+      "projected": [
+        1377.3650515835154,
+        138.32586242250835
+      ],
+      "errorPixels": 34.52882822961438
+    },
+    {
+      "name": "panel3_1_TL",
+      "target": [
+        1436,
+        150
+      ],
+      "projected": [
+        1436.953041215595,
+        73.42284799742845
+      ],
+      "errorPixels": 76.58308231184986
+    },
+    {
+      "name": "panel3_1_BL",
+      "target": [
+        1434,
+        682
+      ],
+      "projected": [
+        1435.3332643624017,
+        713.8349287848371
+      ],
+      "errorPixels": 31.862835476393162
+    },
+    {
+      "name": "panel3_1_BR",
+      "target": [
+        1383,
+        655
+      ],
+      "projected": [
+        1375.8907834070067,
+        665.6088614144691
+      ],
+      "errorPixels": 12.770626495105956
+    },
+    {
+      "name": "knobFront",
+      "target": [
+        1260,
+        730
+      ],
+      "projected": [
+        1268.4465797972132,
+        684.4498512504359
+      ],
+      "errorPixels": 46.326674404473536
+    }
+  ],
+  "parameters": {
+    "cameraX": -0.5815039348180949,
+    "cameraY": -2.074463665501603,
+    "cameraZ": 2.418272821895795,
+    "yaw": 0.2930458511576057,
+    "pitch": -0.00759595675142924,
+    "roll": 0.004376143312596039,
+    "focalPixels": 1694.6981989706073,
+    "doorAngle": 1.9499999999992497
+  },
+  "cameraMatrix": [
+    [
+      0.9573496947535706,
+      -0.006383766821114445,
+      -0.2888612287525253,
+      -0.5815039348180949
+    ],
+    [
+      -0.288898619851561,
+      -0.006007859315280375,
+      -0.9573408447748957,
+      -2.074463665501603
+    ],
+    [
+      0.004376003097387459,
+      0.9999615758356024,
+      -0.007595883705680213,
+      2.418272821895795
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "lensMm": 71.27235416231527,
+  "meanDoorLandmarkErrorPixels": 26.048997360418777,
+  "fixedDoorAngleMeanErrorPixels": 35.6521661582817,
+  "leftFrameConstraint": [
+    [
+      383,
+      0
+    ],
+    [
+      378,
+      856
+    ]
+  ],
+  "scope": "Manually annotated door molding and partly occluded handle only. Character pose, wider architecture and lens distortion are not calibrated by this fit. Door angle is a separate inferred pose for this close shot; the main opening camera and pose remain unchanged.",
+  "oneToOneComplete": false
+}

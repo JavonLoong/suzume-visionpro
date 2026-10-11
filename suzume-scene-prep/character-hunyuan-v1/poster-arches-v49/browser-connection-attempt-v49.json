@@ -1,0 +1,9 @@
+{
+  "revision": 49,
+  "attemptedAtLocal": "2026-10-10T17:01:09.109155",
+  "method": "Documented CUA browser inventory and getTab on the existing poster-v45 in-app tab",
+  "edgeInventoryError": "nodeRepl.fetch request failed",
+  "existingInAppTabError": "Timed out waiting for tab 16 to finish its initial navigation",
+  "browserRuntimeVerified": false,
+  "nativeRendersAndHTTPChecksAvailable": true
+}

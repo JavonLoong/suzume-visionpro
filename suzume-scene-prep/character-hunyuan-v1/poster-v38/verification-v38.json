@@ -1,0 +1,365 @@
+{
+  "revision": 38,
+  "nativeSha256": "b56b84831d608b8dc98134708a89fdcf49c28242534c717aad1fe0efe81a483f",
+  "freshReopenVerified": true,
+  "movieGeometryTopologyMaterialsModifiersWorldAndCameraPreserved": true,
+  "movieMeshCount": 2360,
+  "movieMaterialCount": 94,
+  "independentSceneObjectsAndMaterials": true,
+  "closedCloudMeshes": [
+    {
+      "name": "Reference-shaped closed cloud volume 0.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 79.27094386439377,
+      "vertices": 10002
+    },
+    {
+      "name": "Reference-shaped closed cloud volume 1.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 41.850998341455366,
+      "vertices": 14998
+    },
+    {
+      "name": "Reference-shaped closed cloud volume 2.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 44.02740046780429,
+      "vertices": 4502
+    },
+    {
+      "name": "Reference-shaped closed cloud volume 3.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 68.55245766405275,
+      "vertices": 2500
+    },
+    {
+      "name": "Reference-shaped closed cloud volume 4.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 15.526934264594004,
+      "vertices": 2256
+    },
+    {
+      "name": "Distant reference closed cloud 0.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 3.8281973805593874,
+      "vertices": 804
+    },
+    {
+      "name": "Distant reference closed cloud 1.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 3.8099645971112013,
+      "vertices": 408
+    },
+    {
+      "name": "Distant reference closed cloud 2.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 8.696995457736191,
+      "vertices": 401
+    },
+    {
+      "name": "Distant reference closed cloud 3.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 7.999662768442552,
+      "vertices": 135
+    },
+    {
+      "name": "Distant reference closed cloud 4.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 7.508395683944398,
+      "vertices": 125
+    },
+    {
+      "name": "Distant reference closed cloud 5.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 2.7765273537976727,
+      "vertices": 122
+    },
+    {
+      "name": "Distant reference closed cloud 6.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 3.781176419771023,
+      "vertices": 110
+    },
+    {
+      "name": "Distant reference closed cloud 7.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 5.65295135264508,
+      "vertices": 96
+    },
+    {
+      "name": "Distant reference closed cloud 8.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 21.674870881882555,
+      "vertices": 57
+    },
+    {
+      "name": "Distant reference closed cloud 9.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 56.28139128495483,
+      "vertices": 55
+    },
+    {
+      "name": "Distant reference closed cloud 10.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 27.184512300433813,
+      "vertices": 57
+    },
+    {
+      "name": "Distant reference closed cloud 11.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 47.80608680273872,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 12.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 2.9639542113897437,
+      "vertices": 54
+    },
+    {
+      "name": "Distant reference closed cloud 13.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 10.859843364244925,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 14.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 116.73385353021389,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 15.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 18.608661263569957,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 16.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 13.627640559684856,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 17.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 38.3065089449786,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 18.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 33.59653325691519,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 19.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 21.759530174587162,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 20.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 74.53022313108521,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 21.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 47.151081644549166,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 22.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 21.025084955642043,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 23.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 20.64566909025355,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 24.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 70.24125387026768,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 25.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 30.242252571173587,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 26.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 41.481549104631995,
+      "vertices": 52
+    },
+    {
+      "name": "Distant reference closed cloud 27.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 114.12569690953387,
+      "vertices": 52
+    },
+    {
+      "name": "Surrounding solid cloud 0.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 44.02740046780429,
+      "vertices": 4502
+    },
+    {
+      "name": "Surrounding solid cloud 1.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 68.55245766405275,
+      "vertices": 2500
+    },
+    {
+      "name": "Surrounding solid cloud 2.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 15.526934264594004,
+      "vertices": 2256
+    },
+    {
+      "name": "Surrounding solid cloud 3.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 44.02740046780429,
+      "vertices": 4502
+    },
+    {
+      "name": "Surrounding solid cloud 4.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 68.55245766405275,
+      "vertices": 2500
+    },
+    {
+      "name": "Surrounding solid cloud 5.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 15.526934264594004,
+      "vertices": 2256
+    },
+    {
+      "name": "Surrounding solid cloud 6.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 44.02740046780429,
+      "vertices": 4502
+    },
+    {
+      "name": "Surrounding solid cloud 7.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 68.55245766405275,
+      "vertices": 2500
+    },
+    {
+      "name": "Surrounding solid cloud 8.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 15.526934264594004,
+      "vertices": 2256
+    },
+    {
+      "name": "Surrounding solid cloud 9.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 44.02740046780429,
+      "vertices": 4502
+    },
+    {
+      "name": "Surrounding solid cloud 10.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 68.55245766405275,
+      "vertices": 2500
+    },
+    {
+      "name": "Surrounding solid cloud 11.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 15.526934264594004,
+      "vertices": 2256
+    },
+    {
+      "name": "Surrounding solid cloud 12.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 44.02740046780429,
+      "vertices": 4502
+    },
+    {
+      "name": "Surrounding solid cloud 13.001",
+      "nonManifoldEdges": 0,
+      "localVolume": 68.55245766405275,
+      "vertices": 2500
+    }
+  ],
+  "steelTipChecks": [
+    {
+      "name": "left_outer",
+      "referencePixel": [
+        97.3053892215569,
+        1018.6144067796611
+      ],
+      "projectedCenterline": [
+        97.57989645004272,
+        1018.6144752502441
+      ],
+      "pixelError": 0.27450723702517016,
+      "nearestActualSteelVertexMeters": 0.10131294148678852
+    },
+    {
+      "name": "left_middle",
+      "referencePixel": [
+        510.47904191616766,
+        1332.7245762711864
+      ],
+      "projectedCenterline": [
+        510.6278657913208,
+        1332.7246732711792
+      ],
+      "pixelError": 0.14882390676432458,
+      "nearestActualSteelVertexMeters": 0.1336728135673542
+    },
+    {
+      "name": "left_back",
+      "referencePixel": [
+        736.5269461077845,
+        1374.6059322033898
+      ],
+      "projectedCenterline": [
+        736.6070747375488,
+        1374.6060891151428
+      ],
+      "pixelError": 0.08012878340025689,
+      "nearestActualSteelVertexMeters": 0.06264906211474545
+    },
+    {
+      "name": "right_inner",
+      "referencePixel": [
+        1401.197604790419,
+        1030.5805084745762
+      ],
+      "projectedCenterline": [
+        1401.0756015777588,
+        1030.5805940628052
+      ],
+      "pixelError": 0.12200324268138585,
+      "nearestActualSteelVertexMeters": 0.14008481546689727
+    },
+    {
+      "name": "right_outer",
+      "referencePixel": [
+        1643.7125748502995,
+        701.5127118644068
+      ],
+      "projectedCenterline": [
+        1643.5168981552124,
+        701.5128316879272
+      ],
+      "pixelError": 0.1956767317742961,
+      "nearestActualSteelVertexMeters": 0.1102665540772676
+    }
+  ],
+  "referenceMeasurementUncertaintyPixels": 6,
+  "packedSourceImagesVerified": true,
+  "scope": "Scene separation, unchanged movie state, real cloud volumes and five poster steel tips only. Does not establish overall visual equivalence.",
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

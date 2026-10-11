@@ -1,0 +1,62 @@
+{
+  "revision": 20,
+  "freshReopenVerified": true,
+  "characterWorldVerticesExactlyPreserved": true,
+  "characters": {
+    "Suzume Hunyuan textured surface": {
+      "vertices": 241846,
+      "worldHash": "bda994f4f36c980ac7e48122ea45f395ce5defbd723d5c82f514aeca5561de47",
+      "minZ": 0.2034619152545929
+    },
+    "Suzume independent Hunyuan head": {
+      "vertices": 171025,
+      "worldHash": "18c45d8888b875316b92a28d4c4881644c277126dd04df9f8ea9894ccb9a483d",
+      "minZ": 2.4318790435791016
+    },
+    "Left gold hairpin": {
+      "vertices": 104,
+      "worldHash": "98cf3c457b11f456db8495b46ac528e8263197b9b10ae42787b1e707ea707ff9",
+      "minZ": 2.9991488456726074
+    },
+    "Left red hairpin diagonal": {
+      "vertices": 104,
+      "worldHash": "101fc7b7e687be5adf86afd93e3fd5f0a81a3af1d6a38aea750406d6880565d9",
+      "minZ": 2.8999626636505127
+    },
+    "Left red hairpin crossbar": {
+      "vertices": 104,
+      "worldHash": "8bfd65fcffae78cba0225f8a869a59689e1251d35afb64ed9a869565614d5dbd",
+      "minZ": 2.9095747470855713
+    }
+  },
+  "complementaryPortalMaterialsPreserved": true,
+  "doorLightFrames": [
+    1,
+    24,
+    72,
+    120
+  ],
+  "doorLightPowers": [
+    0.0,
+    0.0,
+    15.0,
+    15.0
+  ],
+  "geometryInstances": [
+    {
+      "object": "Individual three-dimensional ivy leaves",
+      "realizeNodesMuted": true
+    },
+    {
+      "object": "Branching tree crowns surrounding the ruined hotel",
+      "realizeNodesMuted": true
+    },
+    {
+      "object": "Forest trunks",
+      "realizeNodesMuted": true
+    }
+  ],
+  "allAngleImagesReviewed": true,
+  "oneToOneComplete": false,
+  "reviewScope": "Front, oblique overview and left-side snapshots; not exhaustive orbit or fidelity approval."
+}

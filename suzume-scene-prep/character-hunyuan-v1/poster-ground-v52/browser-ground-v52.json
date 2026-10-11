@@ -1,0 +1,296 @@
+{
+  "revision": 52,
+  "nativeSha256": "7fca0fbb45409d9d17bc6700881e70978ed6748fe35d21c2fe94ff9a1d7d1b4b",
+  "targets": [
+    {
+      "key": "mesh8",
+      "name": "Poster lower facade mesh8 v50"
+    },
+    {
+      "key": "mesh9",
+      "name": "Poster lower facade mesh9 v50"
+    },
+    {
+      "key": "mesh18",
+      "name": "Poster foreground mesh18 v51"
+    },
+    {
+      "key": "extra1",
+      "originalName": "Flooded polygon flagstones and broken slabs solid mesh",
+      "originalVertexCount": 22236
+    },
+    {
+      "key": "extra2",
+      "originalName": "Flooded polygon flagstones and broken slabs solid mesh",
+      "originalVertexCount": 24864
+    },
+    {
+      "key": "extra3",
+      "originalName": "Flooded polygon flagstones and broken slabs solid mesh",
+      "originalVertexCount": 22812
+    },
+    {
+      "key": "extra4",
+      "originalName": "Flooded polygon flagstones and broken slabs solid mesh",
+      "originalVertexCount": 22524
+    },
+    {
+      "key": "extra6",
+      "originalName": "Flooded polygon flagstones and broken slabs solid mesh",
+      "originalVertexCount": 22740
+    },
+    {
+      "key": "props51_0",
+      "name": "Poster foreground new0 v51"
+    },
+    {
+      "key": "props51_1",
+      "name": "Poster foreground new1 v51"
+    },
+    {
+      "key": "props51_2",
+      "name": "Poster foreground new2 v51"
+    },
+    {
+      "key": "oldFootings",
+      "name": "Poster steel left3 v44",
+      "removeOnly": true
+    }
+  ],
+  "buckets": [
+    {
+      "key": "extra1",
+      "byteOffset": 0,
+      "byteLength": 1062144,
+      "vertexCount": 22128,
+      "sourceObjects": [
+        "Flooded polygon flagstones and broken slabs solid mesh.008"
+      ],
+      "reuseTargetMaterial": "extra1"
+    },
+    {
+      "key": "extra2",
+      "byteOffset": 1062144,
+      "byteLength": 1191744,
+      "vertexCount": 24828,
+      "sourceObjects": [
+        "Flooded polygon flagstones and broken slabs solid mesh.009"
+      ],
+      "reuseTargetMaterial": "extra2"
+    },
+    {
+      "key": "extra3",
+      "byteOffset": 2253888,
+      "byteLength": 1093248,
+      "vertexCount": 22776,
+      "sourceObjects": [
+        "Flooded polygon flagstones and broken slabs solid mesh.010"
+      ],
+      "reuseTargetMaterial": "extra3"
+    },
+    {
+      "key": "extra4",
+      "byteOffset": 3347136,
+      "byteLength": 1075968,
+      "vertexCount": 22416,
+      "sourceObjects": [
+        "Flooded polygon flagstones and broken slabs solid mesh.011"
+      ],
+      "reuseTargetMaterial": "extra4"
+    },
+    {
+      "key": "extra6",
+      "byteOffset": 4423104,
+      "byteLength": 1089792,
+      "vertexCount": 22704,
+      "sourceObjects": [
+        "Flooded polygon flagstones and broken slabs solid mesh.013"
+      ],
+      "reuseTargetMaterial": "extra6"
+    },
+    {
+      "key": "mesh18",
+      "byteOffset": 5512896,
+      "byteLength": 2754864,
+      "vertexCount": 57393,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.037"
+      ],
+      "reuseTargetMaterial": "mesh18"
+    },
+    {
+      "key": "mesh8",
+      "byteOffset": 8267760,
+      "byteLength": 14775984,
+      "vertexCount": 307833,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.027"
+      ],
+      "reuseTargetMaterial": "mesh8"
+    },
+    {
+      "key": "mesh9",
+      "byteOffset": 23043744,
+      "byteLength": 263664,
+      "vertexCount": 5493,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.028"
+      ],
+      "reuseTargetMaterial": "mesh9"
+    },
+    {
+      "key": "new0",
+      "byteOffset": 23307408,
+      "byteLength": 1448928,
+      "vertexCount": 30186,
+      "sourceObjects": [
+        "Poster irregular shallow shoreline v52",
+        "Poster sediment root collar 0 v52",
+        "Poster sediment root collar 1 v52",
+        "Poster sediment root collar 2 v52",
+        "Poster sediment root collar 3 v52",
+        "Poster sediment root collar 4 v52",
+        "Poster sediment root collar 5 v52",
+        "Poster sediment root collar 6 v52",
+        "Poster sediment root collar 7 v52",
+        "Poster sediment root collar 8 v52",
+        "Poster sediment root collar 9 v52",
+        "Poster sediment root collar 10 v52",
+        "Poster sediment root collar 11 v52",
+        "Poster sediment root collar 12 v52"
+      ],
+      "groundMaterialIndex": 0
+    },
+    {
+      "key": "new1",
+      "byteOffset": 24756336,
+      "byteLength": 132480,
+      "vertexCount": 2760,
+      "sourceObjects": [
+        "Poster retained rear floor bay 13 v52",
+        "Poster retained rear floor bay 15 v52",
+        "Poster retained rear floor bay 16 v52",
+        "Poster observed left small shard v52",
+        "Poster observed low left stone v52",
+        "Poster observed entrance broken slab v52",
+        "Poster observed chair front stone v52",
+        "Poster observed pipe small fragment v52",
+        "Poster observed right isolated stone v52",
+        "Poster left outer splayed I-column footing v44",
+        "Poster left middle bowed I-column footing v44",
+        "Poster left back I-column footing v44",
+        "Poster chair landing stone v51",
+        "Poster bank fragment 0 v52",
+        "Poster bank fragment 1 v52",
+        "Poster bank fragment 2 v52",
+        "Poster bank fragment 3 v52",
+        "Poster bank fragment 4 v52",
+        "Poster bank fragment 5 v52",
+        "Poster bank fragment 6 v52",
+        "Poster bank fragment 7 v52",
+        "Poster bank fragment 8 v52",
+        "Poster bank fragment 9 v52",
+        "Poster bank fragment 10 v52",
+        "Poster bank fragment 11 v52",
+        "Poster bank fragment 12 v52",
+        "Poster bank fragment 13 v52",
+        "Poster bank fragment 14 v52",
+        "Poster bank fragment 15 v52",
+        "Poster bank fragment 16 v52",
+        "Poster bank fragment 17 v52",
+        "Poster bank fragment 18 v52",
+        "Poster bank fragment 19 v52",
+        "Poster bank fragment 20 v52",
+        "Poster bank fragment 21 v52",
+        "Poster bank fragment 22 v52",
+        "Poster bank fragment 23 v52",
+        "Poster bank fragment 24 v52",
+        "Poster bank fragment 25 v52",
+        "Poster bank fragment 26 v52",
+        "Poster bank fragment 27 v52",
+        "Poster broken stair foundation v52"
+      ],
+      "groundMaterialIndex": 1
+    },
+    {
+      "key": "props51_0",
+      "byteOffset": 24888816,
+      "byteLength": 403632,
+      "vertexCount": 8409,
+      "sourceObjects": [
+        "Poster low corroded hollow pipe v51",
+        "Poster pipe collar 0 v51",
+        "Poster pipe collar 1 v51",
+        "Poster curved standpipe v51",
+        "Poster standpipe joint 0 v51",
+        "Poster standpipe joint 1 v51",
+        "Poster standpipe foot v51",
+        "Poster discarded chair back frame v51",
+        "Poster chair leg frame -1 v51",
+        "Poster chair side brace -1 v51",
+        "Poster chair leg frame 1 v51",
+        "Poster chair side brace 1 v51",
+        "Poster chair seat crossbar 0 v51",
+        "Poster chair seat crossbar 1 v51",
+        "Poster chair worn back panel v51",
+        "Poster chair seat panel v51"
+      ],
+      "reuseTargetMaterial": "props51_0"
+    },
+    {
+      "key": "props51_1",
+      "byteOffset": 25292448,
+      "byteLength": 298512,
+      "vertexCount": 6219,
+      "sourceObjects": [
+        "Poster low corroded hollow pipe v51",
+        "Poster pipe collar 0 v51",
+        "Poster pipe collar 1 v51",
+        "Poster curved standpipe v51",
+        "Poster standpipe joint 0 v51",
+        "Poster standpipe joint 1 v51",
+        "Poster standpipe foot v51",
+        "Poster discarded chair back frame v51",
+        "Poster chair leg frame -1 v51",
+        "Poster chair side brace -1 v51",
+        "Poster chair leg frame 1 v51",
+        "Poster chair side brace 1 v51",
+        "Poster chair seat crossbar 0 v51",
+        "Poster chair seat crossbar 1 v51",
+        "Poster chair worn back panel v51",
+        "Poster chair seat panel v51"
+      ],
+      "reuseTargetMaterial": "props51_1"
+    },
+    {
+      "key": "props51_2",
+      "byteOffset": 25590960,
+      "byteLength": 15182784,
+      "vertexCount": 316308,
+      "sourceObjects": [
+        "Poster fine left margin v51",
+        "Poster fine left window shrub v51",
+        "Poster fine pier growth v51",
+        "Poster fine entry left growth v51",
+        "Poster fine pipe left thicket v51",
+        "Poster fine pipe ground creeper v51",
+        "Poster fine return pipe growth v51",
+        "Poster fine right ground growth v51",
+        "Poster fine grass patch 0 v51",
+        "Poster fine grass patch 1 v51",
+        "Poster fine grass patch 2 v51",
+        "Poster fine grass patch 3 v51",
+        "Poster fine grass patch 4 v51",
+        "Poster fine steel-climbing vine v51",
+        "Poster thin facade climbing trail v51"
+      ],
+      "reuseTargetMaterial": "props51_2"
+    }
+  ],
+  "strideFloats": 12,
+  "triangles": 283151,
+  "binarySha256": "73728159669d820a28629cc85278afcaf0e6181cbcb701a5934b26cf5887f272",
+  "closedSolids": 56,
+  "browserRuntimeVerified": false,
+  "browserMaterialsApproximate": true
+}

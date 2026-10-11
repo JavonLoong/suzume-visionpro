@@ -1,0 +1,2451 @@
+{
+  "revision": 54,
+  "nativeSha256": "d405c34fe691c40542fa1483386b75b942d5c47903667bd097e0b217baad341d",
+  "sourceNativeSha256": "436a97857da27ee66d68b501b46abace9c50187898cfce77acc84e11d9953b1f",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "sharedNodeGroupsPreserved": true,
+  "allPackedImageBytesPreserved": true,
+  "packedImageCount": 24,
+  "unchangedOriginalFacePositionsAndUVsPreserved": true,
+  "changedOriginalMeshes": [
+    {
+      "key": "mesh0",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.019",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 444,
+      "keptTriangles": 7392,
+      "newClipTriangles": 75,
+      "finalTriangles": 7467
+    },
+    {
+      "key": "mesh1",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.020",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 100,
+      "keptTriangles": 1470,
+      "newClipTriangles": 15,
+      "finalTriangles": 1485
+    },
+    {
+      "key": "mesh3",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.022",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 428,
+      "keptTriangles": 1684,
+      "newClipTriangles": 18,
+      "finalTriangles": 1702
+    },
+    {
+      "key": "mesh4",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.023",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 96,
+      "keptTriangles": 576,
+      "newClipTriangles": 20,
+      "finalTriangles": 596
+    },
+    {
+      "key": "mesh5",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.024",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 24,
+      "keptTriangles": 48,
+      "newClipTriangles": 0,
+      "finalTriangles": 48
+    },
+    {
+      "key": "mesh6",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.025",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 22,
+      "keptTriangles": 1274,
+      "newClipTriangles": 20,
+      "finalTriangles": 1294
+    },
+    {
+      "key": "mesh8",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "removedTriangles": 115,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 1177,
+      "keptTriangles": 101319,
+      "newClipTriangles": 264,
+      "finalTriangles": 101583
+    },
+    {
+      "key": "mesh9",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "removedTriangles": 12,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 349,
+      "keptTriangles": 1470,
+      "newClipTriangles": 327,
+      "finalTriangles": 1797
+    },
+    {
+      "key": "mesh10",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.029",
+      "removedTriangles": 2,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 194,
+      "keptTriangles": 915,
+      "newClipTriangles": 0,
+      "finalTriangles": 915
+    },
+    {
+      "key": "mesh11",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.030",
+      "removedTriangles": 18,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 2242,
+      "keptTriangles": 12470,
+      "newClipTriangles": 169,
+      "finalTriangles": 12639
+    },
+    {
+      "key": "mesh13",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.032",
+      "removedTriangles": 8,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 1166,
+      "keptTriangles": 1217,
+      "newClipTriangles": 302,
+      "finalTriangles": 1519
+    },
+    {
+      "key": "mesh14",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.033",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 28,
+      "keptTriangles": 1474,
+      "newClipTriangles": 0,
+      "finalTriangles": 1474
+    },
+    {
+      "key": "mesh15",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.034",
+      "removedTriangles": 2,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 36,
+      "keptTriangles": 408,
+      "newClipTriangles": 0,
+      "finalTriangles": 408
+    },
+    {
+      "key": "mesh17",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.036",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 228,
+      "keptTriangles": 462,
+      "newClipTriangles": 448,
+      "finalTriangles": 910
+    },
+    {
+      "key": "mesh18",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "removedTriangles": 75,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 9646,
+      "keptTriangles": 9410,
+      "newClipTriangles": 473,
+      "finalTriangles": 9883
+    }
+  ],
+  "addedSolids": [
+    {
+      "name": "Poster right entrance v54 surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.18232331670139226,
+      "maximumVertexErrorMeters": 9.531054701028552e-07
+    },
+    {
+      "name": "Poster right entrance v54 fan glazing",
+      "kind": "glass",
+      "triangles": 3072,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.028760553815226634,
+      "maximumVertexErrorMeters": 9.517822263660491e-07
+    },
+    {
+      "name": "Poster right entrance v54 fan curved rail 0",
+      "kind": "mullion",
+      "triangles": 388,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0034300488741140123,
+      "maximumVertexErrorMeters": 9.514550782796505e-07
+    },
+    {
+      "name": "Poster right entrance v54 fan curved rail 1",
+      "kind": "mullion",
+      "triangles": 388,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016800243098952302,
+      "maximumVertexErrorMeters": 9.467138681884535e-07
+    },
+    {
+      "name": "Poster right entrance v54 fan spoke 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005845972347163463,
+      "maximumVertexErrorMeters": 8.646435532000396e-07
+    },
+    {
+      "name": "Poster right entrance v54 fan spoke 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0004835412654145294,
+      "maximumVertexErrorMeters": 4.7376464706871957e-07
+    },
+    {
+      "name": "Poster right entrance v54 fan spoke 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0003858044623142017,
+      "maximumVertexErrorMeters": 8.759374985345403e-07
+    },
+    {
+      "name": "Poster right entrance v54 fan spoke 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0003879881345461283,
+      "maximumVertexErrorMeters": 9.411718764340549e-07
+    },
+    {
+      "name": "Poster right entrance v54 fan spoke 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0004884694247549899,
+      "maximumVertexErrorMeters": 5.389990249682342e-07
+    },
+    {
+      "name": "Poster right entrance v54 fan spoke 6",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005885650442795827,
+      "maximumVertexErrorMeters": 7.994091788532387e-07
+    },
+    {
+      "name": "Poster right entrance v54 transom",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.026716668446214342,
+      "maximumVertexErrorMeters": 6.547949205071291e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 0 lower panel",
+      "kind": "doorPanel",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09915629862187478,
+      "maximumVertexErrorMeters": 9.192285155279478e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 0 glazing",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.019854479194811876,
+      "maximumVertexErrorMeters": 9.532421891833565e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 0 stile 0",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01861246076975447,
+      "maximumVertexErrorMeters": 8.770263661972422e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 0 stile 1",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.018612570352597738,
+      "maximumVertexErrorMeters": 7.955468745990402e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 0 rail 0",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011599048894843787,
+      "maximumVertexErrorMeters": 9.259765612057436e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 0 rail 1",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011599048894845601,
+      "maximumVertexErrorMeters": 9.259765612057436e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 0 rail 2",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011599023289033408,
+      "maximumVertexErrorMeters": 9.259765612057436e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 0 center glazing upright",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007593587102306218,
+      "maximumVertexErrorMeters": 8.986035169300521e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 0 glazing diamond",
+      "kind": "mullion",
+      "triangles": 32,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0027968992573330492,
+      "maximumVertexErrorMeters": 9.375097640429431e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 0 pull handle",
+      "kind": "handle",
+      "triangles": 28,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00025081716851861797,
+      "maximumVertexErrorMeters": 9.177978519403496e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 1 lower panel",
+      "kind": "doorPanel",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0991569496302528,
+      "maximumVertexErrorMeters": 9.497216808540543e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 1 glazing",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01985411645391647,
+      "maximumVertexErrorMeters": 9.357763666173469e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 1 stile 0",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01861249198894549,
+      "maximumVertexErrorMeters": 7.958007799402367e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 1 stile 1",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.018612606958172098,
+      "maximumVertexErrorMeters": 8.667724600286419e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 1 rail 0",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011599028648956365,
+      "maximumVertexErrorMeters": 6.215869134962304e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 1 rail 1",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011599028648956553,
+      "maximumVertexErrorMeters": 6.215869134962304e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 1 rail 2",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01159900304319085,
+      "maximumVertexErrorMeters": 6.215869134962304e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 1 center glazing upright",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007593565783419656,
+      "maximumVertexErrorMeters": 7.319287114171402e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 1 glazing diamond",
+      "kind": "mullion",
+      "triangles": 32,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0027969002611920556,
+      "maximumVertexErrorMeters": 9.265234375277487e-07
+    },
+    {
+      "name": "Poster right entrance v54 leaf 1 pull handle",
+      "kind": "handle",
+      "triangles": 28,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00025081329740991485,
+      "maximumVertexErrorMeters": 9.176318371828529e-07
+    },
+    {
+      "name": "Poster right entrance v54 step 0",
+      "kind": "step",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.20011478595812163,
+      "maximumVertexErrorMeters": 9.482275373784432e-07
+    },
+    {
+      "name": "Poster right entrance v54 step 1",
+      "kind": "step",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.3247995454111016,
+      "maximumVertexErrorMeters": 8.998388665304446e-07
+    },
+    {
+      "name": "Poster right entrance v54 step 2",
+      "kind": "step",
+      "triangles": 48,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.4476898001887874,
+      "maximumVertexErrorMeters": 7.882421861893363e-07
+    },
+    {
+      "name": "Poster right entrance v54 stair foundation",
+      "kind": "foundation",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.9921389538999398,
+      "maximumVertexErrorMeters": 6.079882801657277e-07
+    },
+    {
+      "name": "Poster right entrance v54 interior floor",
+      "kind": "floor",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 4.216611219016708,
+      "maximumVertexErrorMeters": 9.340966791171468e-07
+    },
+    {
+      "name": "Poster right entrance v54 back wall foot",
+      "kind": "partition",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.34332783119709664,
+      "maximumVertexErrorMeters": 6.732177730839339e-07
+    },
+    {
+      "name": "Poster right entrance v54 side wall foot -1",
+      "kind": "partition",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.3522925541736263,
+      "maximumVertexErrorMeters": 7.416650404934444e-07
+    },
+    {
+      "name": "Poster right entrance v54 side wall foot 1",
+      "kind": "partition",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.3522925318347795,
+      "maximumVertexErrorMeters": 6.505029297443343e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.039732756154886084,
+      "maximumVertexErrorMeters": 9.523925790233534e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 glazing",
+      "kind": "glass",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.023441541043793212,
+      "maximumVertexErrorMeters": 9.532519520405458e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016704761827263605,
+      "maximumVertexErrorMeters": 4.4259277487412874e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001670469098001115,
+      "maximumVertexErrorMeters": 8.287500001813441e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016704682948559847,
+      "maximumVertexErrorMeters": 9.089746093593476e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 crossbar 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0012227327801296352,
+      "maximumVertexErrorMeters": 7.343115235869391e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 crossbar 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0012227327801292084,
+      "maximumVertexErrorMeters": 7.343115235869391e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 crossbar 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0012227327801266757,
+      "maximumVertexErrorMeters": 7.343115235869391e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 transom",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.007834209681082782,
+      "maximumVertexErrorMeters": 3.8408691338531753e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 fan spoke 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005403671709479363,
+      "maximumVertexErrorMeters": 8.87250976688847e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 fan spoke 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005541213834787254,
+      "maximumVertexErrorMeters": 8.287500001813441e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 fan spoke 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005456192784363094,
+      "maximumVertexErrorMeters": 8.87250976688847e-07
+    },
+    {
+      "name": "Poster right narrow arch v54 sill",
+      "kind": "sill",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.038569163928349026,
+      "maximumVertexErrorMeters": 8.837841782849409e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 surround",
+      "kind": "surround",
+      "triangles": 128,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.05729147268408985,
+      "maximumVertexErrorMeters": 9.391455080276501e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 glazing",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.04354449277024785,
+      "maximumVertexErrorMeters": 7.330419933282428e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016856077251295048,
+      "maximumVertexErrorMeters": 5.649804677432257e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001685571965584788,
+      "maximumVertexErrorMeters": 8.317480464370419e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00488828336929482,
+      "maximumVertexErrorMeters": 9.253710935297477e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 upright 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016856027885037398,
+      "maximumVertexErrorMeters": 6.093798816664275e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 upright 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016855910530093072,
+      "maximumVertexErrorMeters": 8.309082026869419e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 crossbar 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0021533086034555803,
+      "maximumVertexErrorMeters": 8.659521490983479e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 crossbar 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0021533086034562637,
+      "maximumVertexErrorMeters": 8.659521490983479e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 crossbar 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002153308603460552,
+      "maximumVertexErrorMeters": 8.659521490983479e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 transom",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.013796682574663044,
+      "maximumVertexErrorMeters": 8.39160154697538e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 transom upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005618929663470981,
+      "maximumVertexErrorMeters": 8.423193342821378e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 transom upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005619076827594571,
+      "maximumVertexErrorMeters": 8.387695302758402e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 transom upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005619127269129435,
+      "maximumVertexErrorMeters": 6.232812488349282e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 transom upright 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005619067456215441,
+      "maximumVertexErrorMeters": 8.769287092036393e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 transom upright 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005619140342806978,
+      "maximumVertexErrorMeters": 7.667724624127459e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 transom upright 6",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005619133142970825,
+      "maximumVertexErrorMeters": 5.663916020637316e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 transom crossbar",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018724403228930764,
+      "maximumVertexErrorMeters": 8.659521490983479e-07
+    },
+    {
+      "name": "Poster right double window 0 v54 sill",
+      "kind": "sill",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.06416633284248904,
+      "maximumVertexErrorMeters": 5.668994127461247e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 surround",
+      "kind": "surround",
+      "triangles": 128,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.05393483555374838,
+      "maximumVertexErrorMeters": 9.083105467766472e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 glazing",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.037869504526145965,
+      "maximumVertexErrorMeters": 9.531591800282513e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016748906800204385,
+      "maximumVertexErrorMeters": 5.653759771462319e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016748416005148749,
+      "maximumVertexErrorMeters": 7.16093751407243e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004857208938154889,
+      "maximumVertexErrorMeters": 9.045654287831439e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 upright 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016749059934581267,
+      "maximumVertexErrorMeters": 5.838867203067366e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 upright 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016748679649836128,
+      "maximumVertexErrorMeters": 6.784716788388323e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 crossbar 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018783047457265507,
+      "maximumVertexErrorMeters": 6.695458978356328e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 crossbar 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018783047457241776,
+      "maximumVertexErrorMeters": 6.695458978356328e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 crossbar 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018783047457217456,
+      "maximumVertexErrorMeters": 6.695458978356328e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 transom",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.012034784482110969,
+      "maximumVertexErrorMeters": 9.402294907090436e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 transom upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005662444089472455,
+      "maximumVertexErrorMeters": 8.879589827870404e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 transom upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005662398728858161,
+      "maximumVertexErrorMeters": 4.590820310568233e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 transom upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005662231404792438,
+      "maximumVertexErrorMeters": 9.063916017737483e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 transom upright 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005662487643901121,
+      "maximumVertexErrorMeters": 8.539746083613409e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 transom upright 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005662351543720679,
+      "maximumVertexErrorMeters": 6.656201172461351e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 transom upright 6",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005662433511950539,
+      "maximumVertexErrorMeters": 9.387207029476485e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 transom crossbar",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0016333067814548255,
+      "maximumVertexErrorMeters": 6.695458978356328e-07
+    },
+    {
+      "name": "Poster right double window 1 v54 sill",
+      "kind": "sill",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.056602170896004805,
+      "maximumVertexErrorMeters": 9.011279296089469e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 surround",
+      "kind": "surround",
+      "triangles": 128,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.059720535535383944,
+      "maximumVertexErrorMeters": 9.218554701817538e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 glazing",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.04704420443577373,
+      "maximumVertexErrorMeters": 9.295751937088426e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017567832710592812,
+      "maximumVertexErrorMeters": 8.896777359268526e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017567391160672441,
+      "maximumVertexErrorMeters": 5.829638674015314e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.005094558678493931,
+      "maximumVertexErrorMeters": 8.693017576888451e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 upright 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017567608008719582,
+      "maximumVertexErrorMeters": 3.650317381698187e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 upright 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017567011390282326,
+      "maximumVertexErrorMeters": 7.204345706668391e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 crossbar 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002156546603886561,
+      "maximumVertexErrorMeters": 8.701025393520467e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 crossbar 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002156546603888067,
+      "maximumVertexErrorMeters": 8.701025393520467e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 crossbar 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002156546603892584,
+      "maximumVertexErrorMeters": 8.701025393520467e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 transom",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.013817261177710233,
+      "maximumVertexErrorMeters": 6.487402330890291e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 transom upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006709241320687263,
+      "maximumVertexErrorMeters": 5.900537125569372e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 transom upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006709340300163668,
+      "maximumVertexErrorMeters": 8.864794907026408e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 transom upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006709511347483182,
+      "maximumVertexErrorMeters": 9.536132807852482e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 transom upright 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006709526488320471,
+      "maximumVertexErrorMeters": 8.9508300860075e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 transom upright 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.000670940200133969,
+      "maximumVertexErrorMeters": 8.516259768498458e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 transom upright 6",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006709241809723144,
+      "maximumVertexErrorMeters": 7.59296874264237e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 transom crossbar",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018752783273386642,
+      "maximumVertexErrorMeters": 8.701025393520467e-07
+    },
+    {
+      "name": "Poster right triple window 0 v54 sill",
+      "kind": "sill",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.06425514025871445,
+      "maximumVertexErrorMeters": 7.955322267605425e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 surround",
+      "kind": "surround",
+      "triangles": 128,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.058719396932029516,
+      "maximumVertexErrorMeters": 9.236035154458477e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 glazing",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.045243625461027795,
+      "maximumVertexErrorMeters": 9.486230467814494e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017362576881011008,
+      "maximumVertexErrorMeters": 8.806298836816495e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017362484653428625,
+      "maximumVertexErrorMeters": 4.560913087203744e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.005035092223463875,
+      "maximumVertexErrorMeters": 7.438769529244382e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 upright 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017362643189922534,
+      "maximumVertexErrorMeters": 4.6659668129223064e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 upright 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017362979997798656,
+      "maximumVertexErrorMeters": 3.3557617129531536e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 crossbar 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002079183566202472,
+      "maximumVertexErrorMeters": 8.551757808561433e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 crossbar 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002079183566196227,
+      "maximumVertexErrorMeters": 8.551757808561433e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 crossbar 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00207918356620352,
+      "maximumVertexErrorMeters": 8.551757808561433e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 transom",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.013321779186403551,
+      "maximumVertexErrorMeters": 9.092675767874425e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 transom upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006861403192259065,
+      "maximumVertexErrorMeters": 6.54428710333832e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 transom upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006861507974657682,
+      "maximumVertexErrorMeters": 8.47314453267245e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 transom upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006861426207598355,
+      "maximumVertexErrorMeters": 8.501171890884507e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 transom upright 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006861493768346548,
+      "maximumVertexErrorMeters": 6.650292974086369e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 transom upright 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006861576040384643,
+      "maximumVertexErrorMeters": 9.043798812058412e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 transom upright 6",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006861263886677923,
+      "maximumVertexErrorMeters": 6.207666025659364e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 transom crossbar",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001807983835577072,
+      "maximumVertexErrorMeters": 8.551757808561433e-07
+    },
+    {
+      "name": "Poster right triple window 1 v54 sill",
+      "kind": "sill",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.062127532128398055,
+      "maximumVertexErrorMeters": 8.402587887701429e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 surround",
+      "kind": "surround",
+      "triangles": 128,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.05816524789494981,
+      "maximumVertexErrorMeters": 9.479833984471497e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 glazing",
+      "kind": "glass",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.04440408644400423,
+      "maximumVertexErrorMeters": 9.226806625406425e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017255480757145919,
+      "maximumVertexErrorMeters": 8.015917956072371e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017255246976528658,
+      "maximumVertexErrorMeters": 2.535986318719097e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.005003954636063015,
+      "maximumVertexErrorMeters": 7.981933585199386e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 upright 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017254516699140737,
+      "maximumVertexErrorMeters": 8.936474600318434e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 upright 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017255483895312685,
+      "maximumVertexErrorMeters": 8.77436523438746e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 crossbar 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002064974651307748,
+      "maximumVertexErrorMeters": 8.259863264470368e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 crossbar 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002064974651303172,
+      "maximumVertexErrorMeters": 8.259863264470368e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 crossbar 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0020649746513038414,
+      "maximumVertexErrorMeters": 8.259863264470368e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 transom",
+      "kind": "frame",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0132304651254911,
+      "maximumVertexErrorMeters": 6.979785140970307e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 transom upright 1",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006678535753641049,
+      "maximumVertexErrorMeters": 6.738671878281366e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 transom upright 2",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006678723372608882,
+      "maximumVertexErrorMeters": 5.922607435593363e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 transom upright 3",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006678773710264257,
+      "maximumVertexErrorMeters": 9.312158191221442e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 transom upright 4",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006678626418195791,
+      "maximumVertexErrorMeters": 6.867626964890405e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 transom upright 5",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.000667841308104716,
+      "maximumVertexErrorMeters": 7.340136711775358e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 transom upright 6",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.000667853234606757,
+      "maximumVertexErrorMeters": 7.812646494187447e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 transom crossbar",
+      "kind": "mullion",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017956282702235801,
+      "maximumVertexErrorMeters": 8.259863264470368e-07
+    },
+    {
+      "name": "Poster right triple window 2 v54 sill",
+      "kind": "sill",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.06173597255111454,
+      "maximumVertexErrorMeters": 5.260791020589295e-07
+    },
+    {
+      "name": "Poster right lower facade wall bay 17 v54",
+      "kind": "wall",
+      "triangles": 3520,
+      "nonManifoldEdges": 0,
+      "signedVolume": 3.5183082996309185,
+      "maximumVertexErrorMeters": 9.536718756919527e-07
+    },
+    {
+      "name": "Poster right entrance lintel ledge v54",
+      "kind": "hood",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.13165799914387477,
+      "maximumVertexErrorMeters": 8.985937505201491e-07
+    },
+    {
+      "name": "Poster right lower cornice bay 17 v54",
+      "kind": "cornice",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.1721255300701945,
+      "maximumVertexErrorMeters": 7.992529305056451e-07
+    },
+    {
+      "name": "Poster right lower pier bay 17 side -1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.5682943673315187,
+      "maximumVertexErrorMeters": 8.840869156756526e-07
+    },
+    {
+      "name": "Poster right lower pier base bay 17 side -1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09420618521835222,
+      "maximumVertexErrorMeters": 7.925927718588355e-07
+    },
+    {
+      "name": "Poster right lower pier capital bay 17 side -1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.06855842274146973,
+      "maximumVertexErrorMeters": 9.141259766920484e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 17 side -1 0 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011370961252288661,
+      "maximumVertexErrorMeters": 7.52573242834842e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 17 side -1 1 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011371222965648851,
+      "maximumVertexErrorMeters": 9.352148424568441e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 17 side -1 2 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011371060068351692,
+      "maximumVertexErrorMeters": 9.440136707894453e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 17 side -1 3 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011371341185874393,
+      "maximumVertexErrorMeters": 8.476513677635467e-07
+    },
+    {
+      "name": "Poster right lower pier bay 17 side 1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.568294875079078,
+      "maximumVertexErrorMeters": 7.464892561870329e-07
+    },
+    {
+      "name": "Poster right lower pier base bay 17 side 1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09420634842402444,
+      "maximumVertexErrorMeters": 4.640283215451291e-07
+    },
+    {
+      "name": "Poster right lower pier capital bay 17 side 1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.06855859918562351,
+      "maximumVertexErrorMeters": 8.69228514943643e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 17 side 1 0 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011370885545585835,
+      "maximumVertexErrorMeters": 9.165820316070494e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 17 side 1 1 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011371445023487369,
+      "maximumVertexErrorMeters": 8.557177721968401e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 17 side 1 2 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011371288783992156,
+      "maximumVertexErrorMeters": 8.932031256847495e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 17 side 1 3 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011371694302470003,
+      "maximumVertexErrorMeters": 6.836425789913392e-07
+    },
+    {
+      "name": "Poster right lower facade wall bay 18 v54",
+      "kind": "wall",
+      "triangles": 4160,
+      "nonManifoldEdges": 0,
+      "signedVolume": 8.99068402571054,
+      "maximumVertexErrorMeters": 9.533886711210471e-07
+    },
+    {
+      "name": "Poster right window group hood bay 18 v54",
+      "kind": "hood",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.23609288239401427,
+      "maximumVertexErrorMeters": 8.373339852596473e-07
+    },
+    {
+      "name": "Poster right hood drip bay 18 v54",
+      "kind": "hood",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.08867866464110574,
+      "maximumVertexErrorMeters": 9.300244130372448e-07
+    },
+    {
+      "name": "Poster right window group sill bay 18 v54",
+      "kind": "sill",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.13397806306807464,
+      "maximumVertexErrorMeters": 8.9377929768375e-07
+    },
+    {
+      "name": "Poster right lower cornice bay 18 v54",
+      "kind": "cornice",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.32149581434605823,
+      "maximumVertexErrorMeters": 9.37314453608451e-07
+    },
+    {
+      "name": "Poster right lower pier bay 18 side 1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.568283066758844,
+      "maximumVertexErrorMeters": 6.360107427383355e-07
+    },
+    {
+      "name": "Poster right lower pier base bay 18 side 1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09420283589380728,
+      "maximumVertexErrorMeters": 9.365478526035531e-07
+    },
+    {
+      "name": "Poster right lower pier capital bay 18 side 1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.06855583125801584,
+      "maximumVertexErrorMeters": 7.430322277457435e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 18 side 1 0 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011370907651006253,
+      "maximumVertexErrorMeters": 9.319335951829544e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 18 side 1 1 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011369973582616252,
+      "maximumVertexErrorMeters": 5.937744127493261e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 18 side 1 2 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011370694890525568,
+      "maximumVertexErrorMeters": 7.123486334137397e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 18 side 1 3 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011370581680133818,
+      "maximumVertexErrorMeters": 8.048242179370391e-07
+    },
+    {
+      "name": "Poster right lower facade wall bay 19 v54",
+      "kind": "wall",
+      "triangles": 1152,
+      "nonManifoldEdges": 0,
+      "signedVolume": 8.156935194984243,
+      "maximumVertexErrorMeters": 9.518652355211543e-07
+    },
+    {
+      "name": "Poster right window group hood bay 19 v54",
+      "kind": "hood",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.378150871764507,
+      "maximumVertexErrorMeters": 8.917285150289445e-07
+    },
+    {
+      "name": "Poster right hood drip bay 19 v54",
+      "kind": "hood",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.14112145408372356,
+      "maximumVertexErrorMeters": 9.097607431840515e-07
+    },
+    {
+      "name": "Poster right window group sill bay 19 v54",
+      "kind": "sill",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.2155413062008037,
+      "maximumVertexErrorMeters": 6.573876945026313e-07
+    },
+    {
+      "name": "Poster right lower cornice bay 19 v54",
+      "kind": "cornice",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.32535432435769174,
+      "maximumVertexErrorMeters": 9.08344727434951e-07
+    },
+    {
+      "name": "Poster right lower pier bay 19 side 1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.5682813303427185,
+      "maximumVertexErrorMeters": 5.864355472340321e-07
+    },
+    {
+      "name": "Poster right lower pier base bay 19 side 1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09420259357662045,
+      "maximumVertexErrorMeters": 7.468554699130436e-07
+    },
+    {
+      "name": "Poster right lower pier capital bay 19 side 1 v54",
+      "kind": "pier",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0685557251365663,
+      "maximumVertexErrorMeters": 8.91982420370141e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 19 side 1 0 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011370586114923327,
+      "maximumVertexErrorMeters": 8.208544919341421e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 19 side 1 1 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011370622282578586,
+      "maximumVertexErrorMeters": 8.464062517532511e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 19 side 1 2 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011369864597831188,
+      "maximumVertexErrorMeters": 9.267089851050514e-07
+    },
+    {
+      "name": "Poster right pier capital groove bay 19 side 1 3 v54",
+      "kind": "groove",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011369948334342755,
+      "maximumVertexErrorMeters": 8.551855472660463e-07
+    },
+    {
+      "name": "Poster right window fan rim v54",
+      "kind": "vent",
+      "triangles": 768,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007702061015937883,
+      "maximumVertexErrorMeters": 9.381835930355464e-07
+    },
+    {
+      "name": "Poster right window fan recess v54",
+      "kind": "vent",
+      "triangles": 380,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006329608265692412,
+      "maximumVertexErrorMeters": 9.480078126955505e-07
+    },
+    {
+      "name": "Poster right window fan blade 0 v54",
+      "kind": "vent",
+      "triangles": 16,
+      "nonManifoldEdges": 0,
+      "signedVolume": 2.63257766839611e-05,
+      "maximumVertexErrorMeters": 9.092919910358432e-07
+    },
+    {
+      "name": "Poster right window fan blade 1 v54",
+      "kind": "vent",
+      "triangles": 16,
+      "nonManifoldEdges": 0,
+      "signedVolume": 2.632459596893966e-05,
+      "maximumVertexErrorMeters": 8.952539047868413e-07
+    },
+    {
+      "name": "Poster right window fan blade 2 v54",
+      "kind": "vent",
+      "triangles": 16,
+      "nonManifoldEdges": 0,
+      "signedVolume": 2.6325043619583988e-05,
+      "maximumVertexErrorMeters": 9.42055663699648e-07
+    },
+    {
+      "name": "Poster right window fan blade 3 v54",
+      "kind": "vent",
+      "triangles": 16,
+      "nonManifoldEdges": 0,
+      "signedVolume": 2.632651235791753e-05,
+      "maximumVertexErrorMeters": 8.815771472825418e-07
+    },
+    {
+      "name": "Poster right window fan blade 4 v54",
+      "kind": "vent",
+      "triangles": 16,
+      "nonManifoldEdges": 0,
+      "signedVolume": 2.6324761638709255e-05,
+      "maximumVertexErrorMeters": 9.162597649492454e-07
+    }
+  ],
+  "structuralOpeningProbes": [
+    {
+      "opening": "right entrance",
+      "point": [
+        0.9072829874743293,
+        22.940344180793097,
+        1.0849803629432475
+      ],
+      "direction": [
+        0.07708595121038632,
+        0.9970244511174187,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right entrance",
+      "point": [
+        0.9072829874743293,
+        22.940344180793097,
+        1.9171613276333517
+      ],
+      "direction": [
+        0.07708595121038632,
+        0.9970244511174187,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right entrance",
+      "point": [
+        1.665525313212942,
+        22.88171991048355,
+        1.0849803629432475
+      ],
+      "direction": [
+        0.07708595121038632,
+        0.9970244511174187,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right entrance",
+      "point": [
+        1.665525313212942,
+        22.88171991048355,
+        1.9171613276333517
+      ],
+      "direction": [
+        0.07708595121038632,
+        0.9970244511174187,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right entrance",
+      "point": [
+        2.4237676389515546,
+        22.823095640174,
+        1.0849803629432475
+      ],
+      "direction": [
+        0.07708595121038632,
+        0.9970244511174187,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right entrance",
+      "point": [
+        2.4237676389515546,
+        22.823095640174,
+        1.9171613276333517
+      ],
+      "direction": [
+        0.07708595121038632,
+        0.9970244511174187,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right narrow arch",
+      "point": [
+        4.45984455422849,
+        22.43581531288393,
+        1.6907717311846666
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right narrow arch",
+      "point": [
+        4.45984455422849,
+        22.43581531288393,
+        2.302407938052599
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right narrow arch",
+      "point": [
+        4.693151381413812,
+        22.368895376339562,
+        1.6907717311846666
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right narrow arch",
+      "point": [
+        4.693151381413812,
+        22.368895376339562,
+        2.302407938052599
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right narrow arch",
+      "point": [
+        4.926458208599133,
+        22.301975439795193,
+        1.6907717311846666
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right narrow arch",
+      "point": [
+        4.926458208599133,
+        22.301975439795193,
+        2.302407938052599
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 0",
+      "point": [
+        6.010275995091697,
+        21.99110147878535,
+        1.6415513795779249
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 0",
+      "point": [
+        6.010275995091697,
+        21.99110147878535,
+        2.252127549772038
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 0",
+      "point": [
+        6.421144632764908,
+        21.873251077693904,
+        1.6415513795779249
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 0",
+      "point": [
+        6.421144632764908,
+        21.873251077693904,
+        2.252127549772038
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 0",
+      "point": [
+        6.832013270438118,
+        21.755400676602463,
+        1.6415513795779249
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 0",
+      "point": [
+        6.832013270438118,
+        21.755400676602463,
+        2.252127549772038
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 1",
+      "point": [
+        7.696996569676545,
+        21.507295517420836,
+        1.6741731177160681
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 1",
+      "point": [
+        7.696996569676545,
+        21.507295517420836,
+        2.282934931631716
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 1",
+      "point": [
+        8.055393944325498,
+        21.40449556999313,
+        1.6741731177160681
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 1",
+      "point": [
+        8.055393944325498,
+        21.40449556999313,
+        2.282934931631716
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 1",
+      "point": [
+        8.41379131897445,
+        21.301695622565425,
+        1.6741731177160681
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right double window 1",
+      "point": [
+        8.41379131897445,
+        21.301695622565425,
+        2.282934931631716
+      ],
+      "direction": [
+        0.2757145631604994,
+        0.961239553733207,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 0",
+      "point": [
+        9.752281924677936,
+        20.73903885539081,
+        1.7058667753020211
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 0",
+      "point": [
+        9.752281924677936,
+        20.73903885539081,
+        2.364553279337122
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 0",
+      "point": [
+        10.118394958948937,
+        20.517206436059077,
+        1.7058667753020211
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 0",
+      "point": [
+        10.118394958948937,
+        20.517206436059077,
+        2.364553279337122
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 0",
+      "point": [
+        10.484507993219937,
+        20.295374016727344,
+        1.7058667753020211
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 0",
+      "point": [
+        10.484507993219937,
+        20.295374016727344,
+        2.364553279337122
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 1",
+      "point": [
+        11.343664061245837,
+        19.77480072019551,
+        1.7304455348258574
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 1",
+      "point": [
+        11.343664061245837,
+        19.77480072019551,
+        2.3874824694735244
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 1",
+      "point": [
+        11.696645257766829,
+        19.560925043906693,
+        1.7304455348258574
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 1",
+      "point": [
+        11.696645257766829,
+        19.560925043906693,
+        2.3874824694735244
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 1",
+      "point": [
+        12.04962645428782,
+        19.347049367617874,
+        1.7304455348258574
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 1",
+      "point": [
+        12.04962645428782,
+        19.347049367617874,
+        2.3874824694735244
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 2",
+      "point": [
+        12.895496547443077,
+        18.83452620771831,
+        1.7583981822998074
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 2",
+      "point": [
+        12.895496547443077,
+        18.83452620771831,
+        2.407689369037825
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 2",
+      "point": [
+        13.246061567572504,
+        18.622114522613362,
+        1.7583981822998074
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 2",
+      "point": [
+        13.246061567572504,
+        18.622114522613362,
+        2.407689369037825
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 2",
+      "point": [
+        13.59662658770193,
+        18.409702837508412,
+        1.7583981822998074
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    },
+    {
+      "opening": "right triple window 2",
+      "point": [
+        13.59662658770193,
+        18.409702837508412,
+        2.407689369037825
+      ],
+      "direction": [
+        0.5182089963884229,
+        0.8552540184425348,
+        0.0
+      ],
+      "distance": 0.82
+    }
+  ],
+  "entranceFloorProbes": [
+    {
+      "x": -0.5,
+      "inwardDepth": -0.45,
+      "floorZ": 0.5301930904388428,
+      "object": "Poster right entrance v54 interior floor"
+    },
+    {
+      "x": -0.5,
+      "inwardDepth": -1.5,
+      "floorZ": 0.5301930904388428,
+      "object": "Poster right entrance v54 interior floor"
+    },
+    {
+      "x": -0.5,
+      "inwardDepth": -3.8,
+      "floorZ": 0.530193030834198,
+      "object": "Poster right entrance v54 interior floor"
+    },
+    {
+      "x": 0,
+      "inwardDepth": -0.45,
+      "floorZ": 0.5301930904388428,
+      "object": "Poster right entrance v54 interior floor"
+    },
+    {
+      "x": 0,
+      "inwardDepth": -1.5,
+      "floorZ": 0.5301930904388428,
+      "object": "Poster right entrance v54 interior floor"
+    },
+    {
+      "x": 0,
+      "inwardDepth": -3.8,
+      "floorZ": 0.530193030834198,
+      "object": "Poster right entrance v54 interior floor"
+    },
+    {
+      "x": 0.5,
+      "inwardDepth": -0.45,
+      "floorZ": 0.5301930904388428,
+      "object": "Poster right entrance v54 interior floor"
+    },
+    {
+      "x": 0.5,
+      "inwardDepth": -1.5,
+      "floorZ": 0.530193030834198,
+      "object": "Poster right entrance v54 interior floor"
+    },
+    {
+      "x": 0.5,
+      "inwardDepth": -3.8,
+      "floorZ": 0.530193030834198,
+      "object": "Poster right entrance v54 interior floor"
+    }
+  ],
+  "stairFoundationProbes": [
+    {
+      "point": [
+        2.8566231727600098,
+        22.278106689453125,
+        0.1301930546760559
+      ],
+      "gapMeters": -0.0029999911785125732
+    },
+    {
+      "point": [
+        0.5530290603637695,
+        22.45621109008789,
+        0.1301930546760559
+      ],
+      "gapMeters": -0.0029999911785125732
+    },
+    {
+      "point": [
+        3.0068912506103516,
+        23.450010299682617,
+        0.1301930546760559
+      ],
+      "gapMeters": -0.0029999911785125732
+    },
+    {
+      "point": [
+        0.5821202993392944,
+        23.637483596801758,
+        0.1301930546760559
+      ],
+      "gapMeters": -0.0029999911785125732
+    },
+    {
+      "point": [
+        1.7048262357711792,
+        22.367158889770508,
+        0.1301930546760559
+      ],
+      "gapMeters": -0.0029999911785125732
+    },
+    {
+      "point": [
+        2.9317572116851807,
+        22.864059448242188,
+        0.1301930546760559
+      ],
+      "gapMeters": -0.0029999911785125732
+    },
+    {
+      "point": [
+        1.7799601554870605,
+        22.95311164855957,
+        0.1301930546760559
+      ],
+      "gapMeters": -0.0029999911785125732
+    },
+    {
+      "point": [
+        0.567574679851532,
+        23.04684829711914,
+        0.1301930546760559
+      ],
+      "gapMeters": -0.0029999911785125732
+    },
+    {
+      "point": [
+        1.7945058345794678,
+        23.543746948242188,
+        0.1301930546760559
+      ],
+      "gapMeters": -0.0029999911785125732
+    }
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false,
+  "preservedOriginalPackedImages": 23,
+  "restoredAtlasSha256": "e28398e180a79ad26d292ee8187c8671b26c17ef979114175ba0da5992f2db5d"
+}

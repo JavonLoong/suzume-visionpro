@@ -1,0 +1,21 @@
+{
+  "revision": 28,
+  "freshReopenVerified": true,
+  "allDayMeshGeometryAndTopologyUnchanged": 2362,
+  "characterHeadFeetAndPortalPreserved": true,
+  "cameraAndLightsPreserved": true,
+  "fixedWorldProjection": true,
+  "selectedPhysicalObjects": 164,
+  "selectedPolygons": 14678,
+  "newSurfaceGeometryCount": 0,
+  "sourceImagePackedUnmodified": true,
+  "signedColorLutPackedAndReopened": true,
+  "lutPixelMaxAbsError": 0.0,
+  "doorLightByFrame": {
+    "1": 0.0,
+    "24": 0.0,
+    "72": 15.0,
+    "120": 15.0
+  },
+  "oneToOneComplete": false
+}

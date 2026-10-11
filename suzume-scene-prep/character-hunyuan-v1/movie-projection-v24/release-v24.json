@@ -1,0 +1,26 @@
+{
+  "revision": 24,
+  "role": "Complete movie camera and courtyard comparison candidate",
+  "nativeFile": "movie-projection-v24/Suzume_scene_movie_projection_v24.blend",
+  "nativeSha256": "57bc8d79f4146c3bf1bb1d46be1df6a4c6b8910b53c4028d34dfea53998c7130",
+  "lensMm": 86.54434612692005,
+  "courtyardRadius": 23.5,
+  "newParts": 789,
+  "solidWindowOpenings": 8,
+  "nativeFrontAndObliqueReviewed": true,
+  "bodyHeadFeetAndPortalVerified": true,
+  "stableNativeRemainsRevision": 19,
+  "browserDefaultRemainsRevision": 17,
+  "browserCandidate": "viewer/candidate-v24.html",
+  "browserGeometrySyntaxAndHttpVerified": true,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false,
+  "remaining": [
+    "按新镜头重新校准残存钢架的立柱、拱肋与折断位置，目前有横梁穿过参照中应为空的背景区域。",
+    "连续管道、临水台基、门基砖石和铺石形状仍与电影参照不同。",
+    "门内远景虽已重新露出天空，但云层仍呈明显横带，需按当前电影帧重建空间形状和颜色。",
+    "人物左手、腰线和右裙摆的投影在新镜头下出现偏差；后续姿态修正仍须保持脚部安全间隙和穿门连续性。",
+    "人物脸型、发丝、握门细节，以及墙面污迹、藤叶贴合和水面反射仍需精修。",
+    "网页几何、镜头、脚本和资源可核验，但浏览器连接超时，实际渲染与交互仍待复测。"
+  ]
+}

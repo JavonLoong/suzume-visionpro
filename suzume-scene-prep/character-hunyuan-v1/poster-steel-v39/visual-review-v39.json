@@ -1,0 +1,24 @@
+{
+  "revision": 39,
+  "acceptedAsIncrementalImprovement": true,
+  "frontReviewed": true,
+  "steelDetailReviewed": true,
+  "obliqueReviewed": true,
+  "observations": [
+    "The formerly missing bent upper beam, curved brackets and hanging ties are present as solid three-dimensional members.",
+    "Both right column centerlines now follow their observed curvature rather than only matching the tips.",
+    "The unobserved floating old steel fragment at the upper-right image edge is removed.",
+    "The revised steel is warmer and closer to the reference family, but paint chips, corrosion and exposed section orientation remain visibly simplified.",
+    "The oblique view retains the complete courtyard. Unobserved depth and the roof-supported outer rib remain reconstruction assumptions."
+  ],
+  "remaining": [
+    "Match the poster water reflection strength, transparency, horizontal glints and foreground ripple spacing.",
+    "Refine the visibly faceted distant clouds, detailed outlines and inferred back surfaces.",
+    "Correct steel cross-section orientation, thickness, paint loss and corrosion; bring the left and unseen steelwork into a consistent material treatment.",
+    "Align poster facade openings, rooftop equipment, ivy and shore debris; check the inferred support depths in additional views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile their approximate steel materials with the native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

@@ -1,0 +1,11 @@
+{
+  "revision": 55,
+  "previousAtlasSha256": "e28398e180a79ad26d292ee8187c8671b26c17ef979114175ba0da5992f2db5d",
+  "atlasSha256": "f2a21cb3080c4489cf0805493909cf6b4ed65e0999be585ef69675e8a6170678",
+  "restoredPixels": 4714,
+  "changedPixels": 4712,
+  "outsidePatchPixelsPreservedExactly": true,
+  "restoredPixelsEqualColorGradedSourceExactly": true,
+  "foregroundBeamExclusionRetained": true,
+  "scope": "Restore observable rightmost arch caps and cornice outside the foreground beam where an obsolete vertical-post mask had smeared them. Occluded beam pixels remain excluded."
+}

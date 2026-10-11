@@ -1,0 +1,56 @@
+{
+  "revision": 34,
+  "sourceSha256": "025aa9a33f12e1525065a188fc87dac4a5a7a167a72a51ecda8290ccef7cebf4",
+  "bodyHash": "ea99c207add1dd15e7d1048586720b462e59fdbc2e1b02a3379c3738522e2bf6",
+  "headHash": "c597a6143b9cb9fbde060b26e3f0ffadf513b1a842ffed490d332bdc544fe360",
+  "headVertices": 69140,
+  "ponytailVertices": 5760,
+  "ponytailParts": [
+    {
+      "name": "Solid ponytail lock 5",
+      "closed": true,
+      "vertices": 960
+    },
+    {
+      "name": "Solid ponytail lock 4",
+      "closed": true,
+      "vertices": 960
+    },
+    {
+      "name": "Solid ponytail lock 3",
+      "closed": true,
+      "vertices": 960
+    },
+    {
+      "name": "Solid ponytail lock 2",
+      "closed": true,
+      "vertices": 960
+    },
+    {
+      "name": "Solid ponytail lock 1",
+      "closed": true,
+      "vertices": 960
+    },
+    {
+      "name": "Solid ponytail lock 0",
+      "closed": true,
+      "vertices": 960
+    }
+  ],
+  "skinScalpAndPinsUnaffectedByPonytailDeformation": true,
+  "tipVertex": 3965,
+  "targetTipPixels": [
+    1183.5,
+    772.0
+  ],
+  "actualTipPixels": [
+    1183.4993669986725,
+    771.9991579055786
+  ],
+  "minimumBackClothRayGap": 0.03144281784378439,
+  "backClothRays": 2178,
+  "rearCurveAmplitude": 0.11390987756973954,
+  "sharedSpatialMesh": true,
+  "headSource": "Mathematical geometry derived from existing v18 components; no new Hunyuan submission.",
+  "oneToOneComplete": false
+}

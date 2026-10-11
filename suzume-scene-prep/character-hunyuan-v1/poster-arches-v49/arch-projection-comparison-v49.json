@@ -1,0 +1,823 @@
+{
+  "revision": 49,
+  "nativeSha256": "bbcfec64ae4a3614fbcd92d3ba0522942deb54a439a842201d7fbcadf3e248f5",
+  "scope": "Apex and baseline centers on newly modeled contours at 708x1000. Local anchor agreement does not validate shading, the complete arch curve, hidden geometry, or whole-scene fidelity.",
+  "referenceMeasurementUncertaintyPixels": 1.5,
+  "maximumObservedAnchorErrorPixels": 0.6100132186155487,
+  "observedAnchorCount": 30,
+  "anchors": [
+    {
+      "arch": "pointed 0",
+      "referenceEvidence": "partly visible",
+      "referenceAnchors": [
+        [
+          -4.8,
+          575.9
+        ],
+        [
+          -4.8,
+          590.6
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          -4.109330168701149,
+          575.9213982928826
+        ],
+        [
+          -5.324233523214616,
+          590.5596191770223
+        ]
+      ],
+      "pixelError": [
+        0.6910012321296349,
+        0.5257864563930535
+      ]
+    },
+    {
+      "arch": "pointed 1",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          35.0,
+          578.8
+        ],
+        [
+          35.0,
+          593.3
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          35.60977351813784,
+          578.8170992240613
+        ],
+        [
+          34.54447226274215,
+          593.2637177987773
+        ]
+      ],
+      "pixelError": [
+        0.6100132186155487,
+        0.45697036833565174
+      ]
+    },
+    {
+      "arch": "pointed 2",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          47.0,
+          579.9
+        ],
+        [
+          47.0,
+          594.2
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          47.580406098953404,
+          579.915487354399
+        ],
+        [
+          46.56938980585812,
+          594.1651827794874
+        ]
+      ],
+      "pixelError": [
+        0.5806126917736041,
+        0.4320154836844761
+      ]
+    },
+    {
+      "arch": "pointed 3",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          59.0,
+          580.6
+        ],
+        [
+          59.0,
+          595.0
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          59.561029718522036,
+          580.6145256905437
+        ],
+        [
+          58.582759184658585,
+          594.9660472869708
+        ]
+      ],
+      "pixelError": [
+        0.5612177302533178,
+        0.41861997648083027
+      ]
+    },
+    {
+      "arch": "pointed 4",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          111.5,
+          584.7
+        ],
+        [
+          111.5,
+          598.6
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          111.94465475082171,
+          584.7022791384611
+        ],
+        [
+          111.1679500964396,
+          598.575789535607
+        ]
+      ],
+      "pixelError": [
+        0.4446605918005819,
+        0.33293135184388895
+      ]
+    },
+    {
+      "arch": "pointed 5",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          123.5,
+          585.1
+        ],
+        [
+          123.5,
+          599.1
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          123.9260634341785,
+          585.1016222868128
+        ],
+        [
+          123.18248473502612,
+          599.0763940342979
+        ]
+      ],
+      "pixelError": [
+        0.42606652269156486,
+        0.3183915594172716
+      ]
+    },
+    {
+      "arch": "pointed 6",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          135.5,
+          585.6
+        ],
+        [
+          135.5,
+          599.7
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          135.907212076271,
+          585.6009517038888
+        ],
+        [
+          135.19732695370357,
+          599.6770431229635
+        ]
+      ],
+      "pixelError": [
+        0.40721318839305476,
+        0.3035424042166679
+      ]
+    },
+    {
+      "arch": "pointed 7",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          183.3,
+          587.1
+        ],
+        [
+          183.3,
+          602.1
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          183.62996282936817,
+          587.0934352774387
+        ],
+        [
+          183.03964288493987,
+          602.0826703422256
+        ]
+      ],
+      "pixelError": [
+        0.3300281265997577,
+        0.2609332182782042
+      ]
+    },
+    {
+      "arch": "pointed 8",
+      "referenceEvidence": "inferred behind beam",
+      "referenceAnchors": [
+        [
+          194.5,
+          587.8
+        ],
+        [
+          194.5,
+          602.5
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          194.8032720827012,
+          587.7928524327018
+        ],
+        [
+          194.26275213254422,
+          602.4832325288285
+        ]
+      ],
+      "pixelError": [
+        0.30335629854051843,
+        0.23783964913740258
+      ]
+    },
+    {
+      "arch": "pointed 9",
+      "referenceEvidence": "inferred behind beam",
+      "referenceAnchors": [
+        [
+          205.7,
+          588.4
+        ],
+        [
+          205.7,
+          602.9
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          205.97908387718692,
+          588.3923295135716
+        ],
+        [
+          205.48338482654313,
+          602.8837420452435
+        ]
+      ],
+      "pixelError": [
+        0.2791892671069944,
+        0.2172244333969116
+      ]
+    },
+    {
+      "arch": "pointed 10",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          235.0,
+          589.1
+        ],
+        [
+          235.0,
+          603.8
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          235.22968746481712,
+          589.0912295431003
+        ],
+        [
+          234.82646034018256,
+          603.784808312851
+        ]
+      ],
+      "pixelError": [
+        0.22985485073920978,
+        0.17420333202318916
+      ]
+    },
+    {
+      "arch": "pointed 11",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          246.5,
+          589.4
+        ],
+        [
+          246.5,
+          604.0
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          246.70646575940117,
+          589.3907044132926
+        ],
+        [
+          246.34468361608916,
+          603.9852129787125
+        ]
+      ],
+      "pixelError": [
+        0.2066749083399716,
+        0.1560187011537296
+      ]
+    },
+    {
+      "arch": "pointed 12",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          257.0,
+          589.6
+        ],
+        [
+          257.0,
+          604.2
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          257.186487410833,
+          589.590246166156
+        ],
+        [
+          256.8600397954856,
+          604.1855612539616
+        ]
+      ],
+      "pixelError": [
+        0.18674231356032173,
+        0.1407030071991261
+      ]
+    },
+    {
+      "arch": "small 0",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          5.0,
+          585.5
+        ],
+        [
+          5.0,
+          591.4
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          5.297708753598499,
+          585.4989982186155
+        ],
+        [
+          4.823771279578466,
+          591.3764806219214
+        ]
+      ],
+      "pixelError": [
+        0.2977104390764863,
+        0.17779123444820377
+      ]
+    },
+    {
+      "arch": "small 1",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          11.2,
+          585.9
+        ],
+        [
+          11.2,
+          591.9
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          11.496056040591156,
+          585.8989808483757
+        ],
+        [
+          11.022659385449288,
+          591.876556283053
+        ]
+      ],
+      "pixelError": [
+        0.29605779476403965,
+        0.1788834856366414
+      ]
+    },
+    {
+      "arch": "small 2",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          18.2,
+          586.8
+        ],
+        [
+          18.2,
+          592.4
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          18.47437947153759,
+          586.7979534928336
+        ],
+        [
+          18.041591525283877,
+          592.3775781944273
+        ]
+      ],
+      "pixelError": [
+        0.274387103546848,
+        0.15998744396678935
+      ]
+    },
+    {
+      "arch": "small 3",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          24.7,
+          587.3
+        ],
+        [
+          24.7,
+          592.9
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          24.96875894232261,
+          587.2977403630805
+        ],
+        [
+          24.544361374051505,
+          592.8778341215415
+        ]
+      ],
+      "pixelError": [
+        0.26876844129729116,
+        0.15720912204758597
+      ]
+    },
+    {
+      "arch": "small 4",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          72.0,
+          589.6
+        ],
+        [
+          72.0,
+          595.7
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          72.24502994329634,
+          589.5970321868954
+        ],
+        [
+          71.84915487936667,
+          595.6787068673639
+        ]
+      ],
+      "pixelError": [
+        0.2450479157765559,
+        0.15234056556395942
+      ]
+    },
+    {
+      "arch": "small 5",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          78.4,
+          590.2
+        ],
+        [
+          78.4,
+          596.0
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          78.62977958182523,
+          590.1963345307986
+        ],
+        [
+          78.261924953618,
+          595.9793685994592
+        ]
+      ],
+      "pixelError": [
+        0.2298088159497866,
+        0.13960792642849734
+      ]
+    },
+    {
+      "arch": "small 6",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          84.8,
+          590.8
+        ],
+        [
+          84.8,
+          596.7
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          85.02735783019443,
+          590.7962930023764
+        ],
+        [
+          84.6618731381194,
+          596.6795510152715
+        ]
+      ],
+      "pixelError": [
+        0.22738804889901948,
+        0.1396323420608879
+      ]
+    },
+    {
+      "arch": "small 7",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          94.0,
+          591.7
+        ],
+        [
+          94.0,
+          597.7
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          94.22221953035807,
+          591.6937252373273
+        ],
+        [
+          93.86299478962485,
+          597.6821287857243
+        ]
+      ],
+      "pixelError": [
+        0.22230810223463052,
+        0.1381658712187194
+      ]
+    },
+    {
+      "arch": "small 8",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          101.8,
+          592.1
+        ],
+        [
+          101.8,
+          598.0
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          102.0125096492622,
+          592.0934360356422
+        ],
+        [
+          101.66987394014365,
+          597.9824236110718
+        ]
+      ],
+      "pixelError": [
+        0.21261099843995632,
+        0.1313077335936248
+      ]
+    },
+    {
+      "arch": "small 9",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          145.0,
+          594.3
+        ],
+        [
+          145.0,
+          600.1
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          145.1730174665193,
+          594.292371771546
+        ],
+        [
+          144.89391938261107,
+          600.0836921345986
+        ]
+      ],
+      "pixelError": [
+        0.17318554671248584,
+        0.10732680867131142
+      ]
+    },
+    {
+      "arch": "small 10",
+      "referenceEvidence": "observed",
+      "referenceAnchors": [
+        [
+          151.0,
+          594.7
+        ],
+        [
+          151.0,
+          600.3
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          151.16329606433217,
+          594.6920824271724
+        ],
+        [
+          150.9015628824747,
+          600.2839873170508
+        ]
+      ],
+      "pixelError": [
+        0.16348789736814742,
+        0.09973099880137035
+      ]
+    },
+    {
+      "arch": "small 11",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          157.5,
+          595.0
+        ],
+        [
+          157.5,
+          600.7
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          157.6602445505147,
+          594.9920263931211
+        ],
+        [
+          157.40237411212567,
+          600.6841041598965
+        ]
+      ],
+      "pixelError": [
+        0.16044280718161955,
+        0.098911534796751
+      ]
+    },
+    {
+      "arch": "small 12",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          163.6,
+          595.3
+        ],
+        [
+          163.6,
+          601.0
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          163.75519557022378,
+          595.2918972349828
+        ],
+        [
+          163.50533468467876,
+          600.9842678401374
+        ]
+      ],
+      "pixelError": [
+        0.15540694906601857,
+        0.09596365342572534
+      ]
+    },
+    {
+      "arch": "small 13",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          213.1,
+          596.4
+        ],
+        [
+          213.1,
+          603.0
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          213.2292248285425,
+          596.3897738354173
+        ],
+        [
+          213.01502517171573,
+          602.986425696261
+        ]
+      ],
+      "pixelError": [
+        0.129628819148801,
+        0.08605221184802987
+      ]
+    },
+    {
+      "arch": "small 14",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          218.5,
+          596.7
+        ],
+        [
+          218.5,
+          603.2
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          218.6226500765487,
+          596.6896770555866
+        ],
+        [
+          218.41978676079574,
+          603.1865636130028
+        ]
+      ],
+      "pixelError": [
+        0.12308372946398857,
+        0.08133080744206542
+      ]
+    },
+    {
+      "arch": "small 15",
+      "referenceEvidence": "partly occluded",
+      "referenceAnchors": [
+        [
+          224.5,
+          596.9
+        ],
+        [
+          224.5,
+          603.4
+        ]
+      ],
+      "nativeOuterContourAnchors": [
+        [
+          224.61716037761892,
+          596.8895905210629
+        ],
+        [
+          224.4232826469107,
+          603.3866755159331
+        ]
+      ],
+      "pixelError": [
+        0.11762189989771389,
+        0.0778658727599917
+      ]
+    }
+  ],
+  "oneToOneComplete": false
+}

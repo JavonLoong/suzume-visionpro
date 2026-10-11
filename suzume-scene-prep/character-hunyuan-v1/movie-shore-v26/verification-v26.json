@@ -1,0 +1,65 @@
+{
+  "revision": 26,
+  "freshReopenVerified": true,
+  "allNewMeshesClosed": 731,
+  "allPreviousMeshesUnchanged": 1631,
+  "cameraAndLightsUnchanged": true,
+  "charactersFeetAndPortalPreserved": true,
+  "pipeBoreRayChecks": [
+    {
+      "pipe": "left upper return",
+      "end": 0,
+      "axisOpen": true,
+      "wallHit": true
+    },
+    {
+      "pipe": "left upper return",
+      "end": -1,
+      "axisOpen": true,
+      "wallHit": true
+    },
+    {
+      "pipe": "right upper return",
+      "end": 0,
+      "axisOpen": true,
+      "wallHit": true
+    },
+    {
+      "pipe": "right upper return",
+      "end": -1,
+      "axisOpen": true,
+      "wallHit": true
+    },
+    {
+      "pipe": "left lower main",
+      "end": 0,
+      "axisOpen": true,
+      "wallHit": true
+    },
+    {
+      "pipe": "left lower main",
+      "end": -1,
+      "axisOpen": true,
+      "wallHit": true
+    },
+    {
+      "pipe": "right broken lower main",
+      "end": 0,
+      "axisOpen": true,
+      "wallHit": true
+    },
+    {
+      "pipe": "right broken lower main",
+      "end": -1,
+      "axisOpen": true,
+      "wallHit": true
+    }
+  ],
+  "doorLightPowerByFrame": {
+    "1": 0.0,
+    "24": 0.0,
+    "72": 15.0,
+    "120": 15.0
+  },
+  "oneToOneComplete": false
+}

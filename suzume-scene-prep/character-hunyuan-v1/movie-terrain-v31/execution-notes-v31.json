@@ -1,0 +1,9 @@
+{
+  "uniformMistTrialsCompleted": ["trial-horizon-and-mist-v31.png", "trial-visible-mist-v31.png"],
+  "firstSpatialPaletteRenderAttempts": "Two fresh processes terminated with EXCEPTION_ACCESS_VIOLATION while initiating the full render. The scene reopened and passed geometry checks before the failure.",
+  "materialChange": "Replaced the volume emission MixRGB interpolation with mathematically equivalent scalar channel interpolation feeding CombineXYZ.",
+  "isolationCheck": "A fresh 48 by 48 Cycles render of the isolated mist material completed successfully after the change.",
+  "fullRenderAfterChange": "Both movie-front-v31.png and night-wide-v31.png saved successfully; render process exit code 0. Both images visually inspected.",
+  "causeCertainty": "The equivalent scalar interpolation avoids the observed startup crash in these successful renders; the precise Blender internal defect is not proven.",
+  "browserRuntimeVerified": false
+}

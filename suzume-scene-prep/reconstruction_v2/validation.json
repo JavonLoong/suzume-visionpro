@@ -1,0 +1,19 @@
+{
+  "loaded": true,
+  "geometry_count": 4510,
+  "bounds_m": [
+    [
+      -19.190310053500454,
+      -0.5150000005960464,
+      -16.203555917726703
+    ],
+    [
+      19.19030983277727,
+      12.25896808455084,
+      19.25000013900221
+    ]
+  ],
+  "bytes": 7000924,
+  "relative_scale_reference": "door leaf approximately 2.1 working units; uniformly scalable",
+  "not_a_proof_of_reference_accuracy": true
+}

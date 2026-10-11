@@ -1,0 +1,20 @@
+{
+  "revision": 32,
+  "frontReviewed": true,
+  "contactStudioReviewed": true,
+  "observations": [
+    "Open-door front rendering retains the character and portal composition.",
+    "Neutral contact view shows the right hand around the handle and a continuous bent elbow.",
+    "Hair shape, facial likeness and individual finger separation remain approximate."
+  ],
+  "studioImageScope": "Unclipped character and real door geometry under neutral inspection lighting; not a final otherworld rendering.",
+  "remaining": [
+    "Refine character identity, hair silhouette and individual finger contact; current Hunyuan head is approximate.",
+    "Fit the close movie camera again using reviewed panel correspondences; the previous v32 camera trials are not accepted.",
+    "Restore wider off-axis sunset colors and the visible star arrangement while preserving the narrow front sky.",
+    "Refine cloud outlines, meadow flowers, haze, paving and water glints.",
+    "Finish the separate closed-door poster scene and inspect the full model from additional angles.",
+    "Verify the web candidate in an actual connected browser; the control session still times out."
+  ],
+  "oneToOneComplete": false
+}

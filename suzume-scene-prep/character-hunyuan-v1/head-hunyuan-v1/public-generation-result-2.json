@@ -1,0 +1,31 @@
+[
+  {
+    "value": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\head-hunyuan-v1\\public-api-output\\cd48e774a9e4c5b28cc7bfc8b2be72d9fc01b978469963cef96d903d54396db4\\white_mesh.glb",
+    "__type__": "update"
+  },
+  "\n        <div style='height: 690; width: 100%;'>\n        <iframe src=\"/static/21a1fb3b-d4e3-4b64-a7b9-ebcecbda636d/white_mesh.html\" height=\"690\" width=\"100%\" frameborder=\"0\"></iframe>\n        </div>\n    ",
+  {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 10,
+      "guidance_scale": 5,
+      "seed": 901010,
+      "octree_resolution": 384,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 1699982,
+    "number_of_vertices": 480897,
+    "time": {
+      "remove background": 3.9809176921844482,
+      "shape generation": 4.069636821746826,
+      "export to trimesh": 0.35918402671813965,
+      "total": 8.412195205688477
+    }
+  },
+  901010
+]

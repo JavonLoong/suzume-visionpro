@@ -1,0 +1,315 @@
+{
+  "revision": 44,
+  "nativeSha256": "0015d1aba946addbbcd9d05a7922e720fb15c773c3ae4300566eb812b1f886c1",
+  "strideFloats": 8,
+  "buckets": [
+    {
+      "key": "left0",
+      "byteOffset": 0,
+      "byteLength": 1572480,
+      "vertexCount": 49140,
+      "sourceObjects": [
+        "Poster left outer splayed I-column v44",
+        "Poster left middle bowed I-column v44",
+        "Poster left back I-column v44",
+        "Poster left upper broken tie v44",
+        "Poster left long upper tie v44",
+        "Poster left long lower tie v44",
+        "Poster left upper right curved bracket v44",
+        "Poster left upper left curved bracket v44",
+        "Poster left upper cross brace v44",
+        "Poster left upper left diagonal v44",
+        "Poster left upper center diagonal v44",
+        "Poster left upper right upright v44",
+        "Poster left first broken bowed beam v44",
+        "Poster left second broken bowed beam v44",
+        "Poster left hanging upper rod v44",
+        "Poster left first bowed upright v44",
+        "Poster left second bowed upright v44"
+      ],
+      "newMaterialKey": "left0"
+    },
+    {
+      "key": "left1",
+      "byteOffset": 1572480,
+      "byteLength": 1048320,
+      "vertexCount": 32760,
+      "sourceObjects": [
+        "Poster left outer splayed I-column v44",
+        "Poster left middle bowed I-column v44",
+        "Poster left back I-column v44",
+        "Poster left upper broken tie v44",
+        "Poster left long upper tie v44",
+        "Poster left long lower tie v44",
+        "Poster left upper right curved bracket v44",
+        "Poster left upper left curved bracket v44",
+        "Poster left upper cross brace v44",
+        "Poster left upper left diagonal v44",
+        "Poster left upper center diagonal v44",
+        "Poster left upper right upright v44",
+        "Poster left first broken bowed beam v44",
+        "Poster left second broken bowed beam v44",
+        "Poster left hanging upper rod v44",
+        "Poster left first bowed upright v44",
+        "Poster left second bowed upright v44"
+      ],
+      "newMaterialKey": "left1"
+    },
+    {
+      "key": "left2",
+      "byteOffset": 2620800,
+      "byteLength": 559104,
+      "vertexCount": 17472,
+      "sourceObjects": [
+        "Poster left outer splayed I-column v44",
+        "Poster left middle bowed I-column v44",
+        "Poster left back I-column v44",
+        "Poster left upper broken tie v44",
+        "Poster left long upper tie v44",
+        "Poster left long lower tie v44",
+        "Poster left upper right curved bracket v44",
+        "Poster left upper left curved bracket v44",
+        "Poster left upper cross brace v44",
+        "Poster left upper left diagonal v44",
+        "Poster left upper center diagonal v44",
+        "Poster left upper right upright v44",
+        "Poster left first broken bowed beam v44",
+        "Poster left second broken bowed beam v44",
+        "Poster left hanging upper rod v44",
+        "Poster left first bowed upright v44",
+        "Poster left second bowed upright v44"
+      ],
+      "newMaterialKey": "left2"
+    },
+    {
+      "key": "left3",
+      "byteOffset": 3179904,
+      "byteLength": 3456,
+      "vertexCount": 108,
+      "sourceObjects": [
+        "Poster left outer splayed I-column footing v44",
+        "Poster left middle bowed I-column footing v44",
+        "Poster left back I-column footing v44"
+      ],
+      "newMaterialKey": "left3"
+    },
+    {
+      "key": "mesh0",
+      "byteOffset": 3183360,
+      "byteLength": 1740672,
+      "vertexCount": 54396,
+      "sourceObjects": [
+        "Broken radial dome steelwork solid mesh"
+      ],
+      "originalVertexCount": 64308
+    },
+    {
+      "key": "mesh1",
+      "byteOffset": 4924032,
+      "byteLength": 1329408,
+      "vertexCount": 41544,
+      "sourceObjects": [
+        "Broken radial dome steelwork solid mesh.001"
+      ],
+      "originalVertexCount": 63468
+    },
+    {
+      "key": "mesh2",
+      "byteOffset": 6253440,
+      "byteLength": 23040,
+      "vertexCount": 720,
+      "sourceObjects": [
+        "Broken radial dome steelwork solid mesh.002"
+      ],
+      "originalVertexCount": 936
+    },
+    {
+      "key": "mesh3",
+      "byteOffset": 6276480,
+      "byteLength": 46080,
+      "vertexCount": 1440,
+      "sourceObjects": [
+        "Broken radial dome steelwork solid mesh.003"
+      ],
+      "originalVertexCount": 1728
+    },
+    {
+      "key": "right0",
+      "byteOffset": 6322560,
+      "byteLength": 1141632,
+      "vertexCount": 35676,
+      "sourceObjects": [
+        "Poster right I-section post 2 v39",
+        "Poster right I-section post 3 v39",
+        "Poster Upper continuous tie v39",
+        "Poster Bent broken central beam v39",
+        "Poster Short broken right tie v39",
+        "Poster Lower broken ring beam v39",
+        "Poster Curved left supporting bracket v39",
+        "Poster Curved right supporting bracket v39",
+        "Poster Bracket horizontal brace v39",
+        "Poster Bracket left upright v39",
+        "Poster Bracket diagonal brace v39",
+        "Poster Bracket right diagonal v39",
+        "Poster Bracket right upright v39",
+        "Poster Hanging central tie v39",
+        "Poster Hanging lower tie v39"
+      ],
+      "newMaterialKey": "right0"
+    },
+    {
+      "key": "right1",
+      "byteOffset": 7464192,
+      "byteLength": 761088,
+      "vertexCount": 23784,
+      "sourceObjects": [
+        "Poster right I-section post 2 v39",
+        "Poster right I-section post 3 v39",
+        "Poster Upper continuous tie v39",
+        "Poster Bent broken central beam v39",
+        "Poster Short broken right tie v39",
+        "Poster Lower broken ring beam v39",
+        "Poster Curved left supporting bracket v39",
+        "Poster Curved right supporting bracket v39",
+        "Poster Bracket horizontal brace v39",
+        "Poster Bracket left upright v39",
+        "Poster Bracket diagonal brace v39",
+        "Poster Bracket right diagonal v39",
+        "Poster Bracket right upright v39",
+        "Poster Hanging central tie v39",
+        "Poster Hanging lower tie v39"
+      ],
+      "newMaterialKey": "right1"
+    },
+    {
+      "key": "right2",
+      "byteOffset": 8225280,
+      "byteLength": 409344,
+      "vertexCount": 12792,
+      "sourceObjects": [
+        "Poster right I-section post 2 v39",
+        "Poster right I-section post 3 v39",
+        "Poster Upper continuous tie v39",
+        "Poster Bent broken central beam v39",
+        "Poster Short broken right tie v39",
+        "Poster Lower broken ring beam v39",
+        "Poster Curved left supporting bracket v39",
+        "Poster Curved right supporting bracket v39",
+        "Poster Bracket horizontal brace v39",
+        "Poster Bracket left upright v39",
+        "Poster Bracket diagonal brace v39",
+        "Poster Bracket right diagonal v39",
+        "Poster Bracket right upright v39",
+        "Poster Hanging central tie v39",
+        "Poster Hanging lower tie v39"
+      ],
+      "newMaterialKey": "right2"
+    },
+    {
+      "key": "right3",
+      "byteOffset": 8634624,
+      "byteLength": 1152,
+      "vertexCount": 36,
+      "sourceObjects": [
+        "Poster inner grounded footing v39"
+      ],
+      "newMaterialKey": "right3"
+    }
+  ],
+  "newMaterials": [
+    {
+      "key": "right0",
+      "name": "Poster Warm weathered steel v39",
+      "linearRGB": [
+        0.6883339881896973,
+        0.29051631689071655,
+        0.09304245561361313
+      ],
+      "roughness": 0.82,
+      "metalness": 0.08
+    },
+    {
+      "key": "right1",
+      "name": "Poster Worn pale flange edges v39",
+      "linearRGB": [
+        0.9700000286102295,
+        0.7228307127952576,
+        0.3113147020339966
+      ],
+      "roughness": 0.82,
+      "metalness": 0.08
+    },
+    {
+      "key": "right2",
+      "name": "Poster Dark recessed web v39",
+      "linearRGB": [
+        0.40152353048324585,
+        0.17007145285606384,
+        0.0550827756524086
+      ],
+      "roughness": 0.82,
+      "metalness": 0.08
+    },
+    {
+      "key": "right3",
+      "name": "Poster Grounded aged concrete v39",
+      "linearRGB": [
+        0.17464740574359894,
+        0.15896083414554596,
+        0.09758734703063965
+      ],
+      "roughness": 0.82,
+      "metalness": 0
+    },
+    {
+      "key": "left0",
+      "name": "Poster left weathered grey brown steel v44",
+      "linearRGB": [
+        0.8663395047187805,
+        0.4944410026073456,
+        0.20980052649974823
+      ],
+      "roughness": 0.8,
+      "metalness": 0.07
+    },
+    {
+      "key": "left1",
+      "name": "Poster left pale exposed paint edge v44",
+      "linearRGB": [
+        0.9615189433097839,
+        0.7600477337837219,
+        0.49646666646003723
+      ],
+      "roughness": 0.8,
+      "metalness": 0.07
+    },
+    {
+      "key": "left2",
+      "name": "Poster left recessed dark web v44",
+      "linearRGB": [
+        0.37284329533576965,
+        0.2223605215549469,
+        0.11257566511631012
+      ],
+      "roughness": 0.8,
+      "metalness": 0.07
+    },
+    {
+      "key": "left3",
+      "name": "Poster left grounded concrete v44",
+      "linearRGB": [
+        0.17464740574359894,
+        0.15896083414554596,
+        0.09758734703063965
+      ],
+      "roughness": 0.8,
+      "metalness": 0
+    }
+  ],
+  "binarySha256": "bf9e23e7d3d7c1cf1a241c076e6c6089afca354cad37aac8942e48eee226efee",
+  "triangles": 89956,
+  "closedNewLeftMembers": 20,
+  "closedRetainedRightMembers": 16,
+  "browserMaterialsApproximate": true,
+  "browserRuntimeVerified": false
+}

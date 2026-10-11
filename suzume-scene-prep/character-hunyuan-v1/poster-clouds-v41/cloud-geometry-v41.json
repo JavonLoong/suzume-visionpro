@@ -1,0 +1,853 @@
+{
+  "revision": 41,
+  "sourceNativeSha256": "208af91831d845af7c4ce9e394f69bbe62caa737a3392f0207242c0527790b20",
+  "method": "Dense closed implicit unions of medial ellipsoids constrained by the existing lower-cloud mask. Source-calibrated fixed vertex pigments blend to inferred back colors. No plane or billboard.",
+  "clouds": [
+    {
+      "index": 0,
+      "name": "Distant reference closed cloud 0.001",
+      "key": "cloud0",
+      "sourceBounds708": [
+        0,
+        404,
+        354,
+        121
+      ],
+      "vertices": 217053,
+      "triangles": 434102,
+      "closed": true,
+      "signedVolume": 9424.156818084251,
+      "medialEllipsoids": 500,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.9349918812340524,
+      "projectionBounds708": [
+        [
+          -1.638629362191807,
+          404.3113819954077
+        ],
+        [
+          352.9286493180617,
+          515.6918794679838
+        ]
+      ],
+      "sourceAreaPixels": 16187,
+      "projectedAreaPixels": 17180
+    },
+    {
+      "index": 1,
+      "name": "Distant reference closed cloud 1.001",
+      "key": "cloud1",
+      "sourceBounds708": [
+        411,
+        481,
+        297,
+        98
+      ],
+      "vertices": 166461,
+      "triangles": 332894,
+      "closed": true,
+      "signedVolume": 6070.998435612073,
+      "medialEllipsoids": 500,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.9165289256198347,
+      "projectionBounds708": [
+        [
+          410.0534098068601,
+          480.49898346142453
+        ],
+        [
+          707.9956516995483,
+          578.9618568315038
+        ]
+      ],
+      "sourceAreaPixels": 12232,
+      "projectedAreaPixels": 13277
+    },
+    {
+      "index": 2,
+      "name": "Distant reference closed cloud 2.001",
+      "key": "cloud2",
+      "sourceBounds708": [
+        433,
+        398,
+        269,
+        92
+      ],
+      "vertices": 167566,
+      "triangles": 335128,
+      "closed": true,
+      "signedVolume": 11290.340670164229,
+      "medialEllipsoids": 500,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.9391311266709103,
+      "projectionBounds708": [
+        [
+          432.06430996744564,
+          397.10125728676655
+        ],
+        [
+          700.9548524818724,
+          489.35989017749966
+        ]
+      ],
+      "sourceAreaPixels": 11816,
+      "projectedAreaPixels": 12555
+    },
+    {
+      "index": 3,
+      "name": "Distant reference closed cloud 3.001",
+      "key": "cloud3",
+      "sourceBounds708": [
+        238,
+        514,
+        98,
+        30
+      ],
+      "vertices": 19105,
+      "triangles": 38206,
+      "closed": true,
+      "signedVolume": 454.94858868354487,
+      "medialEllipsoids": 170,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.8474253019707565,
+      "projectionBounds708": [
+        [
+          237.11826371525916,
+          513.062170626287
+        ],
+        [
+          335.7957716652931,
+          543.9193098322247
+        ]
+      ],
+      "sourceAreaPixels": 1334,
+      "projectedAreaPixels": 1572
+    },
+    {
+      "index": 4,
+      "name": "Distant reference closed cloud 4.001",
+      "key": "cloud4",
+      "sourceBounds708": [
+        143,
+        500,
+        86,
+        31
+      ],
+      "vertices": 16826,
+      "triangles": 33648,
+      "closed": true,
+      "signedVolume": 376.1204641815354,
+      "medialEllipsoids": 148,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.8408921933085501,
+      "projectionBounds708": [
+        [
+          142.09679793632148,
+          499.4122455753259
+        ],
+        [
+          228.89039272319548,
+          531.617659480055
+        ]
+      ],
+      "sourceAreaPixels": 1131,
+      "projectedAreaPixels": 1345
+    },
+    {
+      "index": 5,
+      "name": "Distant reference closed cloud 5.001",
+      "key": "cloud5",
+      "sourceBounds708": [
+        422,
+        493,
+        116,
+        20
+      ],
+      "vertices": 14858,
+      "triangles": 29712,
+      "closed": true,
+      "signedVolume": 261.8354477492025,
+      "medialEllipsoids": 174,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.8231240428790199,
+      "projectionBounds708": [
+        [
+          421.1358863309006,
+          492.139277810737
+        ],
+        [
+          537.883280584623,
+          512.2962409171062
+        ]
+      ],
+      "sourceAreaPixels": 1076,
+      "projectedAreaPixels": 1305
+    },
+    {
+      "index": 6,
+      "name": "Distant reference closed cloud 6.001",
+      "key": "cloud6",
+      "sourceBounds708": [
+        412,
+        354,
+        96,
+        19
+      ],
+      "vertices": 12674,
+      "triangles": 25344,
+      "closed": true,
+      "signedVolume": 212.2751924561738,
+      "medialEllipsoids": 150,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.7978241160471442,
+      "projectionBounds708": [
+        [
+          411.0953706443569,
+          352.2810829422481
+        ],
+        [
+          508.4423925868717,
+          372.89039065296913
+        ]
+      ],
+      "sourceAreaPixels": 880,
+      "projectedAreaPixels": 1103
+    },
+    {
+      "index": 7,
+      "name": "Distant reference closed cloud 7.001",
+      "key": "cloud7",
+      "sourceBounds708": [
+        635,
+        377,
+        73,
+        22
+      ],
+      "vertices": 9510,
+      "triangles": 19016,
+      "closed": true,
+      "signedVolume": 167.6218521601695,
+      "medialEllipsoids": 129,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.8202933985330073,
+      "projectionBounds708": [
+        [
+          634.4626365953816,
+          376.1382993566212
+        ],
+        [
+          707.9352148684167,
+          399.25515530676404
+        ]
+      ],
+      "sourceAreaPixels": 671,
+      "projectedAreaPixels": 818
+    },
+    {
+      "index": 8,
+      "name": "Distant reference closed cloud 8.001",
+      "key": "cloud8",
+      "sourceBounds708": [
+        413,
+        439,
+        32,
+        12
+      ],
+      "vertices": 3428,
+      "triangles": 6852,
+      "closed": true,
+      "signedVolume": 46.71732516930052,
+      "medialEllipsoids": 48,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.7591973244147158,
+      "projectionBounds708": [
+        [
+          412.12211228663705,
+          438.1257981699071
+        ],
+        [
+          444.5869985576411,
+          450.91896731945434
+        ]
+      ],
+      "sourceAreaPixels": 227,
+      "projectedAreaPixels": 299
+    },
+    {
+      "index": 9,
+      "name": "Distant reference closed cloud 9.001",
+      "key": "cloud9",
+      "sourceBounds708": [
+        152,
+        474,
+        26,
+        13
+      ],
+      "vertices": 3420,
+      "triangles": 6836,
+      "closed": true,
+      "signedVolume": 52.010505292844904,
+      "medialEllipsoids": 51,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.7757352941176471,
+      "projectionBounds708": [
+        [
+          150.8769573283977,
+          472.8844642878055
+        ],
+        [
+          178.14010469371217,
+          486.85571837728463
+        ]
+      ],
+      "sourceAreaPixels": 213,
+      "projectedAreaPixels": 270
+    },
+    {
+      "index": 10,
+      "name": "Distant reference closed cloud 10.001",
+      "key": "cloud10",
+      "sourceBounds708": [
+        14,
+        518,
+        23,
+        20
+      ],
+      "vertices": 3254,
+      "triangles": 6504,
+      "closed": true,
+      "signedVolume": 34.05468553232428,
+      "medialEllipsoids": 70,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.6730769230769231,
+      "projectionBounds708": [
+        [
+          13.140140693068872,
+          517.7395646554406
+        ],
+        [
+          36.89216494968741,
+          537.9450088255147
+        ]
+      ],
+      "sourceAreaPixels": 211,
+      "projectedAreaPixels": 311
+    },
+    {
+      "index": 11,
+      "name": "Distant reference closed cloud 11.001",
+      "key": "cloud11",
+      "sourceBounds708": [
+        191,
+        479,
+        24,
+        10
+      ],
+      "vertices": 2460,
+      "triangles": 4916,
+      "closed": true,
+      "signedVolume": 37.87543826709157,
+      "medialEllipsoids": 46,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.8252427184466019,
+      "projectionBounds708": [
+        [
+          192.66333903332801,
+          478.4156417078458
+        ],
+        [
+          214.73064449699146,
+          489.1143767769715
+        ]
+      ],
+      "sourceAreaPixels": 174,
+      "projectedAreaPixels": 202
+    },
+    {
+      "index": 12,
+      "name": "Distant reference closed cloud 12.001",
+      "key": "cloud12",
+      "sourceBounds708": [
+        644,
+        354,
+        43,
+        20
+      ],
+      "vertices": 2408,
+      "triangles": 4812,
+      "closed": true,
+      "signedVolume": 18.574013699506697,
+      "medialEllipsoids": 59,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.6477732793522267,
+      "projectionBounds708": [
+        [
+          643.0067085040773,
+          352.7033205830939
+        ],
+        [
+          686.0316606222527,
+          374.36622076225603
+        ]
+      ],
+      "sourceAreaPixels": 166,
+      "projectedAreaPixels": 241
+    },
+    {
+      "index": 13,
+      "name": "Distant reference closed cloud 13.001",
+      "key": "cloud13",
+      "sourceBounds708": [
+        657,
+        473,
+        31,
+        13
+      ],
+      "vertices": 1948,
+      "triangles": 3884,
+      "closed": true,
+      "signedVolume": 16.44164714721319,
+      "medialEllipsoids": 49,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.7486910994764397,
+      "projectionBounds708": [
+        [
+          656.7854376266296,
+          472.1138450522403
+        ],
+        [
+          687.8255749410861,
+          485.8728783725254
+        ]
+      ],
+      "sourceAreaPixels": 145,
+      "projectedAreaPixels": 189
+    },
+    {
+      "index": 14,
+      "name": "Distant reference closed cloud 14.001",
+      "key": "cloud14",
+      "sourceBounds708": [
+        120,
+        513,
+        12,
+        16
+      ],
+      "vertices": 2362,
+      "triangles": 4720,
+      "closed": true,
+      "signedVolume": 40.22976783226113,
+      "medialEllipsoids": 24,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.7552083333333334,
+      "projectionBounds708": [
+        [
+          119.01651519441103,
+          512.1448820959865
+        ],
+        [
+          131.95665894478785,
+          528.8663477286243
+        ]
+      ],
+      "sourceAreaPixels": 145,
+      "projectedAreaPixels": 192
+    },
+    {
+      "index": 15,
+      "name": "Distant reference closed cloud 15.001",
+      "key": "cloud15",
+      "sourceBounds708": [
+        564,
+        374,
+        27,
+        16
+      ],
+      "vertices": 2118,
+      "triangles": 4232,
+      "closed": true,
+      "signedVolume": 23.23508107928122,
+      "medialEllipsoids": 43,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.6570048309178744,
+      "projectionBounds708": [
+        [
+          563.1322651713504,
+          372.86559962907353
+        ],
+        [
+          590.8880949833126,
+          389.89858078929
+        ]
+      ],
+      "sourceAreaPixels": 136,
+      "projectedAreaPixels": 207
+    },
+    {
+      "index": 16,
+      "name": "Distant reference closed cloud 16.001",
+      "key": "cloud16",
+      "sourceBounds708": [
+        532,
+        390,
+        24,
+        8
+      ],
+      "vertices": 1758,
+      "triangles": 3512,
+      "closed": true,
+      "signedVolume": 20.210060141315882,
+      "medialEllipsoids": 35,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.6900584795321637,
+      "projectionBounds708": [
+        [
+          531.13366225443,
+          389.01175182596955
+        ],
+        [
+          555.3276453498124,
+          397.89849831485674
+        ]
+      ],
+      "sourceAreaPixels": 118,
+      "projectedAreaPixels": 171
+    },
+    {
+      "index": 17,
+      "name": "Distant reference closed cloud 17.001",
+      "key": "cloud17",
+      "sourceBounds708": [
+        513,
+        400,
+        18,
+        14
+      ],
+      "vertices": 1618,
+      "triangles": 3232,
+      "closed": true,
+      "signedVolume": 17.99636907304796,
+      "medialEllipsoids": 33,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.6851851851851852,
+      "projectionBounds708": [
+        [
+          512.8111090910545,
+          399.065362796094
+        ],
+        [
+          530.8560748796173,
+          413.7162738637893
+        ]
+      ],
+      "sourceAreaPixels": 111,
+      "projectedAreaPixels": 162
+    },
+    {
+      "index": 18,
+      "name": "Distant reference closed cloud 18.001",
+      "key": "cloud18",
+      "sourceBounds708": [
+        85,
+        370,
+        14,
+        17
+      ],
+      "vertices": 1508,
+      "triangles": 3012,
+      "closed": true,
+      "signedVolume": 15.328484843028718,
+      "medialEllipsoids": 37,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.593939393939394,
+      "projectionBounds708": [
+        [
+          84.11039018567499,
+          369.1025910072867
+        ],
+        [
+          98.8495188041006,
+          386.9093170745233
+        ]
+      ],
+      "sourceAreaPixels": 98,
+      "projectedAreaPixels": 165
+    },
+    {
+      "index": 19,
+      "name": "Distant reference closed cloud 19.001",
+      "key": "cloud19",
+      "sourceBounds708": [
+        278,
+        573,
+        19,
+        7
+      ],
+      "vertices": 1514,
+      "triangles": 3024,
+      "closed": true,
+      "signedVolume": 19.376332042836072,
+      "medialEllipsoids": 29,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.6853146853146853,
+      "projectionBounds708": [
+        [
+          277.6594829821255,
+          572.0398127483522
+        ],
+        [
+          296.93549159229485,
+          579.8876681001254
+        ]
+      ],
+      "sourceAreaPixels": 98,
+      "projectedAreaPixels": 143
+    },
+    {
+      "index": 20,
+      "name": "Distant reference closed cloud 20.001",
+      "key": "cloud20",
+      "sourceBounds708": [
+        120,
+        530,
+        12,
+        9
+      ],
+      "vertices": 1242,
+      "triangles": 2480,
+      "closed": true,
+      "signedVolume": 16.592512174707583,
+      "medialEllipsoids": 26,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.6829268292682927,
+      "projectionBounds708": [
+        [
+          119.03301729325298,
+          529.6838072257019
+        ],
+        [
+          131.92709475400343,
+          538.8759718588157
+        ]
+      ],
+      "sourceAreaPixels": 84,
+      "projectedAreaPixels": 123
+    },
+    {
+      "index": 21,
+      "name": "Distant reference closed cloud 21.001",
+      "key": "cloud21",
+      "sourceBounds708": [
+        318,
+        385,
+        16,
+        12
+      ],
+      "vertices": 1156,
+      "triangles": 2308,
+      "closed": true,
+      "signedVolume": 10.946161263570957,
+      "medialEllipsoids": 29,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.5813953488372093,
+      "projectionBounds708": [
+        [
+          317.07998683860484,
+          384.1528978004571
+        ],
+        [
+          333.80915266391577,
+          396.9321662385108
+        ]
+      ],
+      "sourceAreaPixels": 75,
+      "projectedAreaPixels": 129
+    },
+    {
+      "index": 22,
+      "name": "Distant reference closed cloud 22.001",
+      "key": "cloud22",
+      "sourceBounds708": [
+        270,
+        559,
+        19,
+        6
+      ],
+      "vertices": 1048,
+      "triangles": 2092,
+      "closed": true,
+      "signedVolume": 10.375612056674205,
+      "medialEllipsoids": 20,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.5535714285714286,
+      "projectionBounds708": [
+        [
+          268.5728234022479,
+          557.7278127452284
+        ],
+        [
+          288.907747742535,
+          564.9027182968041
+        ]
+      ],
+      "sourceAreaPixels": 62,
+      "projectedAreaPixels": 112
+    },
+    {
+      "index": 23,
+      "name": "Distant reference closed cloud 23.001",
+      "key": "cloud23",
+      "sourceBounds708": [
+        45,
+        386,
+        23,
+        4
+      ],
+      "vertices": 1024,
+      "triangles": 2044,
+      "closed": true,
+      "signedVolume": 9.17069003444029,
+      "medialEllipsoids": 26,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.5175438596491229,
+      "projectionBounds708": [
+        [
+          43.78119668792931,
+          384.76403059810656
+        ],
+        [
+          67.83438735030529,
+          389.8873013233834
+        ]
+      ],
+      "sourceAreaPixels": 59,
+      "projectedAreaPixels": 114
+    },
+    {
+      "index": 24,
+      "name": "Distant reference closed cloud 24.001",
+      "key": "cloud24",
+      "sourceBounds708": [
+        93,
+        387,
+        11,
+        7
+      ],
+      "vertices": 824,
+      "triangles": 1644,
+      "closed": true,
+      "signedVolume": 9.989392071087499,
+      "medialEllipsoids": 15,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.6265060240963856,
+      "projectionBounds708": [
+        [
+          92.24644968156889,
+          386.1050823767948
+        ],
+        [
+          103.84491338709103,
+          393.8556718903819
+        ]
+      ],
+      "sourceAreaPixels": 52,
+      "projectedAreaPixels": 83
+    },
+    {
+      "index": 25,
+      "name": "Distant reference closed cloud 25.001",
+      "key": "cloud25",
+      "sourceBounds708": [
+        426,
+        415,
+        12,
+        6
+      ],
+      "vertices": 796,
+      "triangles": 1588,
+      "closed": true,
+      "signedVolume": 8.753142767993703,
+      "medialEllipsoids": 12,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.5921052631578947,
+      "projectionBounds708": [
+        [
+          425.05836547472165,
+          414.06079285808846
+        ],
+        [
+          437.87358715169773,
+          420.90482886331904
+        ]
+      ],
+      "sourceAreaPixels": 45,
+      "projectedAreaPixels": 76
+    },
+    {
+      "index": 26,
+      "name": "Distant reference closed cloud 26.001",
+      "key": "cloud26",
+      "sourceBounds708": [
+        120,
+        545,
+        12,
+        5
+      ],
+      "vertices": 664,
+      "triangles": 1324,
+      "closed": true,
+      "signedVolume": 6.275192972628777,
+      "medialEllipsoids": 19,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.5512820512820513,
+      "projectionBounds708": [
+        [
+          119.10437851991563,
+          544.1004261084248
+        ],
+        [
+          131.8738693628981,
+          549.9284685880998
+        ]
+      ],
+      "sourceAreaPixels": 43,
+      "projectedAreaPixels": 78
+    },
+    {
+      "index": 27,
+      "name": "Distant reference closed cloud 27.001",
+      "key": "cloud27",
+      "sourceBounds708": [
+        403,
+        356,
+        9,
+        5
+      ],
+      "vertices": 550,
+      "triangles": 1096,
+      "closed": true,
+      "signedVolume": 5.958098900798532,
+      "medialEllipsoids": 14,
+      "samplingPitchPixels": 0.6,
+      "silhouetteIoU": 0.5737704918032787,
+      "projectionBounds708": [
+        [
+          402.1243821712886,
+          355.1413812511983
+        ],
+        [
+          411.9163578330329,
+          360.938581685592
+        ]
+      ],
+      "sourceAreaPixels": 35,
+      "projectedAreaPixels": 61
+    }
+  ],
+  "triangles": 1318162,
+  "unknownDepthInferred": true,
+  "referenceMaskLimitations": "The inherited v9 mask inpaints occluded steel and excludes very small fragments; its contours are constraints, not full-scene ground truth.",
+  "oneToOneComplete": false,
+  "occludedSurfaceTreatment": "Continuous cloud-only color extension; blend to inferred geometric lighting within the steel mask and its 18-pixel confidence transition. Add shallow 3D billows only within the uncertain occlusion strip.",
+  "occlusionBillowAmplitudeIn708FramePixels": 0.55
+}

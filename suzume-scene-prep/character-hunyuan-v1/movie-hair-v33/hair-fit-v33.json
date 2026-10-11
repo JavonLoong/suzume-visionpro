@@ -1,0 +1,62 @@
+{
+  "revision": 33,
+  "reference": "reference-opening-50525.jpg",
+  "referenceDimensions": [
+    2552,
+    1656
+  ],
+  "method": "Smooth, spatially localized extension of the existing Hunyuan ponytail; original mesh topology and vertex colors retained.",
+  "targetTipPixels": [
+    1183.5,
+    772.0
+  ],
+  "tipVertex": 74635,
+  "parameters": {
+    "extensionFactor": 1.463238217624987,
+    "tipOriginalXShift": -0.013394784536159521
+  },
+  "beforeTipPixels": [
+    1181.8648672417028,
+    689.6800773585144
+  ],
+  "predictedTipPixels": [
+    1183.5,
+    772.0
+  ],
+  "beforeTipWorld": [
+    -0.13747418881233064,
+    0.5768529473359808,
+    2.4318789648599903
+  ],
+  "predictedTipWorld": [
+    -0.13283912454536068,
+    0.5768529473359808,
+    2.1769959912847447
+  ],
+  "movedVertices": 51635,
+  "untouchedFaceAndFrontVertices": 111939,
+  "maskDefinition": {
+    "rearYRoot": [
+      0.3,
+      0.43
+    ],
+    "rearYLowerTail": [
+      0.225,
+      0.255
+    ],
+    "rootBlendZ": [
+      0.15,
+      0.5
+    ],
+    "sideAbsX": [
+      0.25,
+      0.35
+    ],
+    "rootZ": [
+      0.35,
+      0.6
+    ]
+  },
+  "oneToOneComplete": false,
+  "scope": "A manually measured back-view silhouette point does not establish facial likeness or all-angle fidelity."
+}

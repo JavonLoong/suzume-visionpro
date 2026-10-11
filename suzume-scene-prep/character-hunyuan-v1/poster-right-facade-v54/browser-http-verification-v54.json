@@ -1,0 +1,183 @@
+{
+  "revision": 54,
+  "resources": [
+    {
+      "path": "viewer/three.min.js",
+      "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
+      "bytes": 603445
+    },
+    {
+      "path": "viewer/GLTFLoader.js",
+      "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6",
+      "bytes": 96550
+    },
+    {
+      "path": "poster-left-steel-v44/browser-steel-v44.json",
+      "sha256": "304aae042d4d1c980984083ee632f12e292714d1cf36d62e00ba3752a6e44409",
+      "bytes": 9846
+    },
+    {
+      "path": "poster-left-steel-v44/steel-v44.bin",
+      "sha256": "bf9e23e7d3d7c1cf1a241c076e6c6089afca354cad37aac8942e48eee226efee",
+      "bytes": 8635776
+    },
+    {
+      "path": "poster-lower-clouds-v43/browser-clouds-v43.json",
+      "sha256": "5726325a98e51b22e3b6565d21a29beec1f144f614af3d6b11f011695e62c92e",
+      "bytes": 2651
+    },
+    {
+      "path": "poster-lower-clouds-v43/lower-clouds-v43.bin",
+      "sha256": "7cc0b8913c29141004e3bd858102079f666db4935ee07f557908912399ed6b5e",
+      "bytes": 47734152
+    },
+    {
+      "path": "poster-horizon-v42/browser-clouds-v42.json",
+      "sha256": "ca63e8ceab4df8e369ba97144eec02abf0a3aa4912f00f8e5808847ae45ba211",
+      "bytes": 24973
+    },
+    {
+      "path": "poster-horizon-v42/clouds-v42.bin",
+      "sha256": "60a58debf8e1b14a65639d31a6a23cd7548c79dfb1bc3e56a3512469481f4f66",
+      "bytes": 40353300
+    },
+    {
+      "path": "viewer/character-v37/suzume-posed-v37.gltf",
+      "sha256": "8b2a96b9094ba514c546b673ac66d5f9b97316fe7aaf159fff8e88876feecf45",
+      "bytes": 22588
+    },
+    {
+      "path": "viewer/character-v37/suzume-posed-v37.bin",
+      "sha256": "5c62d0925d3724310ba3a898afb16f2bb36d6098a9b72b41d09f8040938b950d",
+      "bytes": 15758024
+    },
+    {
+      "path": "viewer/character-v37/texture-0.png",
+      "sha256": "e187d9879e97e465b12de1fcb6b9f611d4521ff8314c3e16ec67db87c2421992",
+      "bytes": 4037877
+    },
+    {
+      "path": "viewer/character-v37/texture-1.png",
+      "sha256": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7",
+      "bytes": 14494428
+    },
+    {
+      "path": "viewer/character-v37/texture-2.png",
+      "sha256": "dd4d1a90b768caf9f6aae4e87e528543b02b1ca0fffa0ecaeec6dec2fd03c971",
+      "bytes": 7558005
+    },
+    {
+      "path": "poster-railings-v46/browser-railings-v46.json",
+      "sha256": "33a7cb18916df34f9a439097156249ff9ed95048e5299692e4e824e7da8d326a",
+      "bytes": 5106
+    },
+    {
+      "path": "poster-railings-v46/facade-railings-v46.bin",
+      "sha256": "b219584eac293ef4cba052bfba3f25ad54e2092723270818e6793a35688e477c",
+      "bytes": 18953664
+    },
+    {
+      "path": "poster-railings-v46/ivy-scale-v46.json",
+      "sha256": "c12373691969c142734d55da7a4e3a7a5818d63b09eeeff7e7ef137550745ce0",
+      "bytes": 202358
+    },
+    {
+      "path": "poster-fascia-v47/browser-fascia-v47.json",
+      "sha256": "0dfb973f22263763f14ddd22044fac319ce87c070aefa2e3e642a097b7df4651",
+      "bytes": 41355
+    },
+    {
+      "path": "poster-upper-windows-v48/browser-upper-windows-v48.json",
+      "sha256": "5d28a4ed707b67c20220431f147f41ea893f2ba3f16bd0b21c5193855025bd04",
+      "bytes": 8825
+    },
+    {
+      "path": "poster-upper-windows-v48/upper-facade-v48.bin",
+      "sha256": "4f9edb451da4064623056289f0c1b79348c0117359ac4c58a70d9a5135eb20ab",
+      "bytes": 17928576
+    },
+    {
+      "path": "poster-upper-windows-v48/upper-facade-pigments-v48.png",
+      "sha256": "7c2bd2eb3d6f8b703bfce8283690581ab683d0034e85c9894f810ad6a4cece64",
+      "bytes": 1816018
+    },
+    {
+      "path": "poster-upper-windows-v48/clean-facade-pigments-v48.png",
+      "sha256": "fda84b04aabad3d6ad74f7faaad99e7db16097afdce3f47db12b1e8d6c1f04cc",
+      "bytes": 561948
+    },
+    {
+      "path": "poster-arches-v49/browser-arches-v49.json",
+      "sha256": "cc3a81fd79b1a560f9ce1a1a2bdbc4f9b89945aaad596915f92d6c8c9ee964a5",
+      "bytes": 10063
+    },
+    {
+      "path": "poster-arches-v49/arched-facade-v49.bin",
+      "sha256": "a3b33947266eeee8c0065246c4cd2ac58584c2b1b426473f5d32112947039115",
+      "bytes": 21599136
+    },
+    {
+      "path": "poster-lower-facade-v50/browser-lower-facade-v50.json",
+      "sha256": "2c6270cb6ee986b2ce5a08f03f7d280395c80f34957da45973d33eac05531238",
+      "bytes": 20849
+    },
+    {
+      "path": "poster-lower-facade-v50/lower-facade-v50.bin",
+      "sha256": "9de8c6439ee6df7c7dee3cc9f9b228326af11378058d73c249afc3c69ee3bd32",
+      "bytes": 17354400
+    },
+    {
+      "path": "poster-foreground-v51/browser-foreground-v51.json",
+      "sha256": "7732c3da824369b49fa26d9e50288c7a275b2c8d2b9f30e3d50813825f096eb2",
+      "bytes": 8783
+    },
+    {
+      "path": "poster-foreground-v51/foreground-v51.bin",
+      "sha256": "683a45ccefa7910e01b2e5f2939b83c5eb3afc707675db7cc4505808fb08f983",
+      "bytes": 22524768
+    },
+    {
+      "path": "poster-ground-v52/browser-ground-v52.json",
+      "sha256": "42c1e493a5cfa187049dadd309f14ff9e2c78bcc155eb4a5c56ef5b22f933ee7",
+      "bytes": 9469
+    },
+    {
+      "path": "poster-ground-v52/ground-v52.bin",
+      "sha256": "73728159669d820a28629cc85278afcaf0e6181cbcb701a5934b26cf5887f272",
+      "bytes": 40773744
+    },
+    {
+      "path": "poster-low-rails-v53/browser-low-rails-v53.json",
+      "sha256": "cb23f6f70dcf5049a9ec62939a2702edfe1c7399f38f14c185db1a7503004114",
+      "bytes": 3658
+    },
+    {
+      "path": "poster-low-rails-v53/low-rails-v53.bin",
+      "sha256": "4cff1cc64aaf501f308a6551439c54a13072e1c4d99b3b8afbd80408f32768bf",
+      "bytes": 903168
+    },
+    {
+      "path": "viewer/poster-v54.html",
+      "sha256": "52b9440aa3f1df9946a6e73dcdbfa25222e7389bf7e8f28f81b9eeba4a62a7fb",
+      "bytes": 1034640
+    },
+    {
+      "path": "poster-right-facade-v54/browser-right-facade-v54.json",
+      "sha256": "233fad585e8dee58149b5d1ebdada78218abb8fd5f30c09534896e729be8c3b7",
+      "bytes": 26809
+    },
+    {
+      "path": "poster-right-facade-v54/right-facade-v54.bin",
+      "sha256": "8c4f1e5eaf662f19ef92b6597933cbe1c9a6903d4e387fbec97deeb2eb69d690",
+      "bytes": 16187520
+    },
+    {
+      "path": "poster-right-facade-v54/right-facade-pigments-v54.png",
+      "sha256": "e28398e180a79ad26d292ee8187c8671b26c17ef979114175ba0da5992f2db5d",
+      "bytes": 1826611
+    }
+  ],
+  "nativeDownloadAvailable": true,
+  "browserRuntimeVerified": false,
+  "scope": "HTTP bytes only; no browser/GPU display verified."
+}

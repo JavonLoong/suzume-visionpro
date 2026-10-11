@@ -1,0 +1,28 @@
+{
+  "revision": 27,
+  "role": "Movie side sunlight, cool shadow and local facade fill comparison candidate",
+  "nativeFile": "movie-lighting-v27/Suzume_scene_movie_lighting_v27.blend",
+  "nativeSha256": "23cae9feb20e7904b7d8bad668af0067e2a52aeef7580bd3fce5abe7b2b53ec0",
+  "nativeFrontAndObliqueReviewed": true,
+  "previousDayMeshesUnchanged": 2362,
+  "bodyHeadFeetAndPortalPreserved": true,
+  "cameraPreserved": true,
+  "lightingTrialCount": 4,
+  "nativeSkyDisplaySeparatedFromWorldIllumination": true,
+  "stableNativeRemainsRevision": 19,
+  "browserDefaultRemainsRevision": 17,
+  "browserCandidate": "viewer/candidate-v27.html",
+  "browserLightParametersSyntaxAndHttpVerified": true,
+  "browserRuntimeVerified": false,
+  "browserSkyColorRetainsPreviousCalibration": true,
+  "oneToOneComplete": false,
+  "remaining": [
+    "优先补墙面、檐口、窗边和岸台的参照色彩与污迹分布；现有程序材质仍太规则。可以在完整实体网格上校准固定的参照颜料映射，必须排除画面中的门、人物、钢柱等前景遮挡。",
+    "拱窗附近仍有偏圆的人工补光亮区，需匹配参照里的结构性明暗边界；左侧锈管略暗，右岸台仍亮，日间天空饱和度尚有差距。",
+    "水面反射过于清晰，需要恢复浅水散射、底部铺石与藻类、亮点和较柔和的建筑倒影。",
+    "门内灰色横带云层需重建为有空间层次的夜景云；夜间花草、山地与天空颜色仍待校准。",
+    "人物左手、腰线、右裙摆和握门动作仍有投影偏差；继续精修脸型、发丝及门基砖石，保持脚部安全间隙与跨门连续性。",
+    "岸台、后方管线、屋顶和钢架的隐藏部分仍含推定；另一幅关门海报场景尚未完成一比一核对。",
+    "网页太阳与局部补光参数已同步，但天空色彩仍沿用此前网页校准；实际 WebGL 外观和自由旋转交互尚待浏览器恢复后验证。"
+  ]
+}

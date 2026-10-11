@@ -1,0 +1,1893 @@
+{
+  "revision": 49,
+  "nativeSha256": "bbcfec64ae4a3614fbcd92d3ba0522942deb54a439a842201d7fbcadf3e248f5",
+  "sourceNativeSha256": "c51a6b4680ec62ee46f04c02e5a6c12b015b63356dd07ed0ebf090c8a9962725",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "sharedNodeGroupsPreserved": true,
+  "unchangedOriginalFacePositionsAndUVsPreserved": true,
+  "changedOriginalMeshes": [
+    {
+      "key": "mesh8",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 13924,
+      "keptTriangles": 103552,
+      "newClipTriangles": 0,
+      "finalTriangles": 103552
+    },
+    {
+      "key": "mesh9",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "removedTriangles": 20,
+      "clippedOriginalTriangles": 8,
+      "keptTriangles": 2034,
+      "newClipTriangles": 9,
+      "finalTriangles": 2043
+    },
+    {
+      "key": "mesh10",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.029",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 2,
+      "keptTriangles": 1179,
+      "newClipTriangles": 0,
+      "finalTriangles": 1179
+    },
+    {
+      "key": "mesh14",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.033",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 22,
+      "keptTriangles": 1525,
+      "newClipTriangles": 0,
+      "finalTriangles": 1525
+    },
+    {
+      "key": "mesh16",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.035",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 67,
+      "keptTriangles": 485,
+      "newClipTriangles": 111,
+      "finalTriangles": 596
+    },
+    {
+      "key": "mesh18",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "removedTriangles": 306,
+      "clippedOriginalTriangles": 8912,
+      "keptTriangles": 28966,
+      "newClipTriangles": 280,
+      "finalTriangles": 29246
+    }
+  ],
+  "addedSolids": [
+    {
+      "name": "Poster pointed 0 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.010053465266866242,
+      "maximumVertexErrorMeters": 9.380419925264505e-07
+    },
+    {
+      "name": "Poster pointed 0 glazing v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0015767115011608775,
+      "maximumVertexErrorMeters": 9.534179703507561e-07
+    },
+    {
+      "name": "Poster pointed 1 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.010476262424922875,
+      "maximumVertexErrorMeters": 9.530273423763447e-07
+    },
+    {
+      "name": "Poster pointed 1 glazing v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017806729285766779,
+      "maximumVertexErrorMeters": 9.513769541058537e-07
+    },
+    {
+      "name": "Poster pointed 2 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.010482245388052952,
+      "maximumVertexErrorMeters": 9.484277327942436e-07
+    },
+    {
+      "name": "Poster pointed 2 glazing v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018010762358246695,
+      "maximumVertexErrorMeters": 9.485644518747449e-07
+    },
+    {
+      "name": "Poster pointed 3 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01059817502108163,
+      "maximumVertexErrorMeters": 9.472363267093442e-07
+    },
+    {
+      "name": "Poster pointed 3 glazing v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00183108171835512,
+      "maximumVertexErrorMeters": 9.493896477863473e-07
+    },
+    {
+      "name": "Poster pointed 4 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.010702215828929745,
+      "maximumVertexErrorMeters": 9.472363267093442e-07
+    },
+    {
+      "name": "Poster pointed 4 recessed infill v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.010622865653707158,
+      "maximumVertexErrorMeters": 9.436669934359543e-07
+    },
+    {
+      "name": "Poster pointed 5 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01085746890780017,
+      "maximumVertexErrorMeters": 9.507861342683555e-07
+    },
+    {
+      "name": "Poster pointed 5 recessed infill v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01094628323492229,
+      "maximumVertexErrorMeters": 9.520117174588449e-07
+    },
+    {
+      "name": "Poster pointed 6 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011014606464899865,
+      "maximumVertexErrorMeters": 9.417089827934433e-07
+    },
+    {
+      "name": "Poster pointed 6 recessed infill v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011278743558729605,
+      "maximumVertexErrorMeters": 9.422949212023468e-07
+    },
+    {
+      "name": "Poster pointed 7 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01127148381600003,
+      "maximumVertexErrorMeters": 9.530664080159568e-07
+    },
+    {
+      "name": "Poster pointed 7 recessed infill v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.010637252563650541,
+      "maximumVertexErrorMeters": 9.531689464381543e-07
+    },
+    {
+      "name": "Poster pointed 8 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011142170389141004,
+      "maximumVertexErrorMeters": 9.451269527005479e-07
+    },
+    {
+      "name": "Poster pointed 8 recessed infill v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.010523002341003774,
+      "maximumVertexErrorMeters": 9.514941403665489e-07
+    },
+    {
+      "name": "Poster pointed 9 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011074310197617704,
+      "maximumVertexErrorMeters": 9.383691406128492e-07
+    },
+    {
+      "name": "Poster pointed 9 recessed infill v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01048968165801364,
+      "maximumVertexErrorMeters": 9.425537115248517e-07
+    },
+    {
+      "name": "Poster pointed 10 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011582221707361687,
+      "maximumVertexErrorMeters": 9.497216808540543e-07
+    },
+    {
+      "name": "Poster pointed 10 recessed infill v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.012001390600646969,
+      "maximumVertexErrorMeters": 9.52387694042045e-07
+    },
+    {
+      "name": "Poster pointed 11 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01143880570103821,
+      "maximumVertexErrorMeters": 9.536474614435519e-07
+    },
+    {
+      "name": "Poster pointed 11 recessed infill v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011540984890967098,
+      "maximumVertexErrorMeters": 9.48291017266456e-07
+    },
+    {
+      "name": "Poster pointed 12 molded surround v49",
+      "kind": "surround",
+      "triangles": 420,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.011351137700941018,
+      "maximumVertexErrorMeters": 9.529785138795432e-07
+    },
+    {
+      "name": "Poster pointed 12 recessed infill v49",
+      "kind": "insert",
+      "triangles": 544,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01115392336139682,
+      "maximumVertexErrorMeters": 9.509033205290507e-07
+    },
+    {
+      "name": "Poster small 0 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001094219031986839,
+      "maximumVertexErrorMeters": 9.441259756215459e-07
+    },
+    {
+      "name": "Poster small 0 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009018606756339015,
+      "maximumVertexErrorMeters": 9.46806640200748e-07
+    },
+    {
+      "name": "Poster small 1 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011087713238132867,
+      "maximumVertexErrorMeters": 9.408398433663478e-07
+    },
+    {
+      "name": "Poster small 1 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008884979601112066,
+      "maximumVertexErrorMeters": 9.522119128746453e-07
+    },
+    {
+      "name": "Poster small 2 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0010561055165683453,
+      "maximumVertexErrorMeters": 9.389501940404443e-07
+    },
+    {
+      "name": "Poster small 2 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008780048043243642,
+      "maximumVertexErrorMeters": 9.363720714361534e-07
+    },
+    {
+      "name": "Poster small 3 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0010542741725647758,
+      "maximumVertexErrorMeters": 9.46796873790845e-07
+    },
+    {
+      "name": "Poster small 3 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008504611719059415,
+      "maximumVertexErrorMeters": 9.476171882738527e-07
+    },
+    {
+      "name": "Poster small 4 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001182586090641282,
+      "maximumVertexErrorMeters": 9.464746106857547e-07
+    },
+    {
+      "name": "Poster small 4 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0010387336595491712,
+      "maximumVertexErrorMeters": 9.500439439591446e-07
+    },
+    {
+      "name": "Poster small 5 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011371720654770705,
+      "maximumVertexErrorMeters": 9.526855464514483e-07
+    },
+    {
+      "name": "Poster small 5 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009987742429188103,
+      "maximumVertexErrorMeters": 9.431298835238522e-07
+    },
+    {
+      "name": "Poster small 6 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011605320070803473,
+      "maximumVertexErrorMeters": 9.500244146920522e-07
+    },
+    {
+      "name": "Poster small 6 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001032350648154922,
+      "maximumVertexErrorMeters": 9.51201172938454e-07
+    },
+    {
+      "name": "Poster small 7 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011777277945469854,
+      "maximumVertexErrorMeters": 9.401855471935505e-07
+    },
+    {
+      "name": "Poster small 7 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0010216899604199039,
+      "maximumVertexErrorMeters": 9.53334961195651e-07
+    },
+    {
+      "name": "Poster small 8 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011659416666547785,
+      "maximumVertexErrorMeters": 9.496435531275438e-07
+    },
+    {
+      "name": "Poster small 8 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0010170405630315666,
+      "maximumVertexErrorMeters": 9.525341795324493e-07
+    },
+    {
+      "name": "Poster small 9 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011717468682443978,
+      "maximumVertexErrorMeters": 9.472265638521549e-07
+    },
+    {
+      "name": "Poster small 9 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0010257989290094766,
+      "maximumVertexErrorMeters": 9.519238268751451e-07
+    },
+    {
+      "name": "Poster small 10 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001140403514374744,
+      "maximumVertexErrorMeters": 9.486474610298501e-07
+    },
+    {
+      "name": "Poster small 10 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009984356768711017,
+      "maximumVertexErrorMeters": 9.447558610986562e-07
+    },
+    {
+      "name": "Poster small 11 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011631578904674356,
+      "maximumVertexErrorMeters": 9.486767567068455e-07
+    },
+    {
+      "name": "Poster small 11 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0010292309220137164,
+      "maximumVertexErrorMeters": 9.533837896924524e-07
+    },
+    {
+      "name": "Poster small 12 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011676993487022072,
+      "maximumVertexErrorMeters": 9.520361317072457e-07
+    },
+    {
+      "name": "Poster small 12 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0010403868065652245,
+      "maximumVertexErrorMeters": 9.464746106857547e-07
+    },
+    {
+      "name": "Poster small 13 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0013773118936805159,
+      "maximumVertexErrorMeters": 9.43188474877843e-07
+    },
+    {
+      "name": "Poster small 13 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001430066613086618,
+      "maximumVertexErrorMeters": 9.416455064581442e-07
+    },
+    {
+      "name": "Poster small 14 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0013533185548434534,
+      "maximumVertexErrorMeters": 9.409179675401447e-07
+    },
+    {
+      "name": "Poster small 14 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0013551392120714626,
+      "maximumVertexErrorMeters": 9.336865218756429e-07
+    },
+    {
+      "name": "Poster small 15 molded surround v49",
+      "kind": "surround",
+      "triangles": 324,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0013479594981132253,
+      "maximumVertexErrorMeters": 9.5041503911375e-07
+    },
+    {
+      "name": "Poster small 15 recessed infill v49",
+      "kind": "insert",
+      "triangles": 416,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0013034771841564077,
+      "maximumVertexErrorMeters": 9.44038085037846e-07
+    },
+    {
+      "name": "Poster arched clerestory wall bay 13 v49",
+      "kind": "wall",
+      "triangles": 21952,
+      "nonManifoldEdges": 0,
+      "signedVolume": 1.5794834788645862,
+      "maximumVertexErrorMeters": 9.536474614435519e-07
+    },
+    {
+      "name": "Poster arched clerestory wall bay 14 v49",
+      "kind": "wall",
+      "triangles": 17856,
+      "nonManifoldEdges": 0,
+      "signedVolume": 1.362234180108481,
+      "maximumVertexErrorMeters": 9.533740232825494e-07
+    },
+    {
+      "name": "Poster arched clerestory wall bay 15 v49",
+      "kind": "wall",
+      "triangles": 19392,
+      "nonManifoldEdges": 0,
+      "signedVolume": 1.9051257970648559,
+      "maximumVertexErrorMeters": 9.536718756919527e-07
+    },
+    {
+      "name": "Poster sloping clerestory cornice bay 13 v49",
+      "kind": "cornice",
+      "triangles": 932,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.20402218956929155,
+      "maximumVertexErrorMeters": 9.527294935196551e-07
+    },
+    {
+      "name": "Poster sloping clerestory cornice bay 14 v49",
+      "kind": "cornice",
+      "triangles": 806,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.17548711719169527,
+      "maximumVertexErrorMeters": 9.519482411235458e-07
+    },
+    {
+      "name": "Poster sloping clerestory cornice bay 15 v49",
+      "kind": "cornice",
+      "triangles": 1040,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.22669061786808573,
+      "maximumVertexErrorMeters": 9.535156237916453e-07
+    },
+    {
+      "name": "Poster upper-storey divider bay 13 lower v49",
+      "kind": "partition",
+      "triangles": 32,
+      "nonManifoldEdges": 0,
+      "signedVolume": 3.647465225476753,
+      "maximumVertexErrorMeters": 6.415673823312318e-07
+    },
+    {
+      "name": "Poster upper-storey divider bay 13 rear v49",
+      "kind": "partition",
+      "triangles": 32,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.9491503244734615,
+      "maximumVertexErrorMeters": 6.3955078033473e-07
+    },
+    {
+      "name": "Poster upper-storey divider bay 14 lower v49",
+      "kind": "partition",
+      "triangles": 28,
+      "nonManifoldEdges": 0,
+      "signedVolume": 3.6436624840194947,
+      "maximumVertexErrorMeters": 7.058837887541358e-07
+    },
+    {
+      "name": "Poster upper-storey divider bay 14 rear v49",
+      "kind": "partition",
+      "triangles": 24,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.9480089524228894,
+      "maximumVertexErrorMeters": 9.110156256042501e-07
+    }
+  ],
+  "structuralOpeningProbes": [
+    {
+      "archId": "pointed 0",
+      "bay": 13,
+      "point": [
+        -15.690082843521925,
+        17.422353372628823,
+        5.091898902495061
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.6
+    },
+    {
+      "archId": "pointed 1",
+      "bay": 13,
+      "point": [
+        -14.38817759234829,
+        18.425582302753586,
+        5.061367746056934
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.6
+    },
+    {
+      "archId": "pointed 2",
+      "bay": 13,
+      "point": [
+        -13.981506396712714,
+        18.738957111052617,
+        5.045011821893761
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.6
+    },
+    {
+      "archId": "pointed 3",
+      "bay": 13,
+      "point": [
+        -13.568808229688026,
+        19.0569762143594,
+        5.039439096083054
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.6
+    },
+    {
+      "archId": "pointed 4",
+      "bay": 14,
+      "point": [
+        -11.619200064489506,
+        20.323861456688665,
+        4.971797169358101
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "pointed 5",
+      "bay": 14,
+      "point": [
+        -11.14287956510625,
+        20.578796774664788,
+        4.971607967297073
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "pointed 6",
+      "bay": 14,
+      "point": [
+        -10.66036169090908,
+        20.83704903936239,
+        4.966802037448306
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "pointed 7",
+      "bay": 15,
+      "point": [
+        -8.64222764926351,
+        21.74587868472953,
+        4.946106654883367
+      ],
+      "direction": [
+        -0.311065549846075,
+        0.9503884593675151,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "pointed 8",
+      "bay": 15,
+      "point": [
+        -8.144215571766814,
+        21.908879823042586,
+        4.932164628065469
+      ],
+      "direction": [
+        -0.311065549846075,
+        0.9503884593675151,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "pointed 9",
+      "bay": 15,
+      "point": [
+        -7.642609993733771,
+        22.073057126963707,
+        4.920503311390529
+      ],
+      "direction": [
+        -0.311065549846075,
+        0.9503884593675151,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "pointed 10",
+      "bay": 15,
+      "point": [
+        -6.313238033005985,
+        22.508165335441895,
+        4.914013578807489
+      ],
+      "direction": [
+        -0.311065549846075,
+        0.9503884593675151,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "pointed 11",
+      "bay": 15,
+      "point": [
+        -5.784399122561675,
+        22.68125620669136,
+        4.91449979429398
+      ],
+      "direction": [
+        -0.311065549846075,
+        0.9503884593675151,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "pointed 12",
+      "bay": 15,
+      "point": [
+        -5.297956887504178,
+        22.840470494096756,
+        4.916320389885261
+      ],
+      "direction": [
+        -0.311065549846075,
+        0.9503884593675151,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 0",
+      "bay": 13,
+      "point": [
+        -15.364852695946269,
+        17.672970913884235,
+        4.892318916646868
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 1",
+      "bay": 13,
+      "point": [
+        -15.164044501797168,
+        17.82771073814939,
+        4.886236417142493
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 2",
+      "bay": 13,
+      "point": [
+        -14.934847847478451,
+        18.004326289928642,
+        4.871068649047775
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 3",
+      "bay": 13,
+      "point": [
+        -14.720502642431786,
+        18.16949753456606,
+        4.863324927161763
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 4",
+      "bay": 13,
+      "point": [
+        -13.105520454223818,
+        19.413978921660753,
+        4.853288800630195
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 5",
+      "bay": 13,
+      "point": [
+        -12.87861292733886,
+        19.58883050569795,
+        4.847183407304767
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 6",
+      "bay": 13,
+      "point": [
+        -12.64924283958026,
+        19.76557970272073,
+        4.832062789322094
+      ],
+      "direction": [
+        -0.610384566957377,
+        0.7921052205485427,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 7",
+      "bay": 14,
+      "point": [
+        -12.295370898783883,
+        19.961962636734,
+        4.804461197757704
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 8",
+      "bay": 14,
+      "point": [
+        -11.992041558418306,
+        20.124309967864434,
+        4.801055987098794
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 9",
+      "bay": 14,
+      "point": [
+        -10.266671858497922,
+        21.04775893477873,
+        4.771910273197207
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 10",
+      "bay": 14,
+      "point": [
+        -10.020837367430033,
+        21.179333986096147,
+        4.767688021761054
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 11",
+      "bay": 14,
+      "point": [
+        -9.752714341292442,
+        21.322838263181875,
+        4.761927417649826
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 12",
+      "bay": 14,
+      "point": [
+        -9.499468325165896,
+        21.45838009631944,
+        4.757813286684179
+      ],
+      "direction": [
+        -0.47188141174437304,
+        0.8816620289261285,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 13",
+      "bay": 15,
+      "point": [
+        -7.304061992490662,
+        22.183865101448227,
+        4.735313296046179
+      ],
+      "direction": [
+        -0.311065549846075,
+        0.9503884593675151,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 14",
+      "bay": 15,
+      "point": [
+        -7.059877589483751,
+        22.26378753194126,
+        4.728897505049929
+      ],
+      "direction": [
+        -0.311065549846075,
+        0.9503884593675151,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    },
+    {
+      "archId": "small 15",
+      "bay": 15,
+      "point": [
+        -6.787641674623459,
+        22.35289132282717,
+        4.725457832457059
+      ],
+      "direction": [
+        -0.311065549846075,
+        0.9503884593675151,
+        0.0
+      ],
+      "clearDistanceMeters": 0.1
+    }
+  ],
+  "upperWindowClearanceGrid": [
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.1,
+      "point": [
+        -15.32482614673552,
+        17.110459267029242,
+        5.592
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.25,
+      "point": [
+        -15.32482614673552,
+        17.110459267029242,
+        5.67
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.5,
+      "point": [
+        -15.32482614673552,
+        17.110459267029242,
+        5.8
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.8,
+      "point": [
+        -15.32482614673552,
+        17.110459267029242,
+        5.9559999999999995
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.1,
+      "point": [
+        -15.115401992764614,
+        17.271838422494753,
+        5.592
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.25,
+      "point": [
+        -15.115401992764614,
+        17.271838422494753,
+        5.67
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.5,
+      "point": [
+        -15.115401992764614,
+        17.271838422494753,
+        5.8
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.8,
+      "point": [
+        -15.115401992764614,
+        17.271838422494753,
+        5.9559999999999995
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.1,
+      "point": [
+        -14.90597783879371,
+        17.433217577960264,
+        5.592
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.25,
+      "point": [
+        -14.90597783879371,
+        17.433217577960264,
+        5.67
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.5,
+      "point": [
+        -14.90597783879371,
+        17.433217577960264,
+        5.8
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 0,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.8,
+      "point": [
+        -14.90597783879371,
+        17.433217577960264,
+        5.9559999999999995
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.1,
+      "point": [
+        -13.318926083949934,
+        18.656176186222453,
+        5.574
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.25,
+      "point": [
+        -13.318926083949934,
+        18.656176186222453,
+        5.654999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.5,
+      "point": [
+        -13.318926083949934,
+        18.656176186222453,
+        5.789999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.8,
+      "point": [
+        -13.318926083949934,
+        18.656176186222453,
+        5.952
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.1,
+      "point": [
+        -13.109251833330838,
+        18.817748062465892,
+        5.574
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.25,
+      "point": [
+        -13.109251833330838,
+        18.817748062465892,
+        5.654999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.5,
+      "point": [
+        -13.109251833330838,
+        18.817748062465892,
+        5.789999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.8,
+      "point": [
+        -13.109251833330838,
+        18.817748062465892,
+        5.952
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.1,
+      "point": [
+        -12.89957758271174,
+        18.97931993870933,
+        5.574
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.25,
+      "point": [
+        -12.89957758271174,
+        18.97931993870933,
+        5.654999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.5,
+      "point": [
+        -12.89957758271174,
+        18.97931993870933,
+        5.789999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 1,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.8,
+      "point": [
+        -12.89957758271174,
+        18.97931993870933,
+        5.952
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.1,
+      "point": [
+        -12.44737713624149,
+        19.32777891428019,
+        5.556
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.25,
+      "point": [
+        -12.44737713624149,
+        19.32777891428019,
+        5.64
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.5,
+      "point": [
+        -12.44737713624149,
+        19.32777891428019,
+        5.779999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.25,
+      "zFraction": 0.8,
+      "point": [
+        -12.44737713624149,
+        19.32777891428019,
+        5.9479999999999995
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.1,
+      "point": [
+        -12.405587598618386,
+        19.359981313865138,
+        5.556
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.25,
+      "point": [
+        -12.405587598618386,
+        19.359981313865138,
+        5.64
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.5,
+      "point": [
+        -12.405587598618386,
+        19.359981313865138,
+        5.779999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.5,
+      "zFraction": 0.8,
+      "point": [
+        -12.405587598618386,
+        19.359981313865138,
+        5.9479999999999995
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.1,
+      "point": [
+        -12.363798060995281,
+        19.392183713450088,
+        5.556
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.25,
+      "point": [
+        -12.363798060995281,
+        19.392183713450088,
+        5.64
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.5,
+      "point": [
+        -12.363798060995281,
+        19.392183713450088,
+        5.779999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 13,
+      "xFraction": 0.75,
+      "zFraction": 0.8,
+      "point": [
+        -12.363798060995281,
+        19.392183713450088,
+        5.9479999999999995
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.25,
+      "zFraction": 0.1,
+      "point": [
+        -12.22150643830665,
+        19.468412137976244,
+        5.556
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.25,
+      "zFraction": 0.25,
+      "point": [
+        -12.22150643830665,
+        19.468412137976244,
+        5.64
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.25,
+      "zFraction": 0.5,
+      "point": [
+        -12.22150643830665,
+        19.468412137976244,
+        5.779999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.25,
+      "zFraction": 0.8,
+      "point": [
+        -12.22150643830665,
+        19.468412137976244,
+        5.9479999999999995
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.5,
+      "zFraction": 0.1,
+      "point": [
+        -12.033341335890404,
+        19.569121492871965,
+        5.556
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.5,
+      "zFraction": 0.25,
+      "point": [
+        -12.033341335890404,
+        19.569121492871965,
+        5.64
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.5,
+      "zFraction": 0.5,
+      "point": [
+        -12.033341335890404,
+        19.569121492871965,
+        5.779999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.5,
+      "zFraction": 0.8,
+      "point": [
+        -12.033341335890404,
+        19.569121492871965,
+        5.9479999999999995
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.75,
+      "zFraction": 0.1,
+      "point": [
+        -11.845176233474158,
+        19.669830847767688,
+        5.556
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.75,
+      "zFraction": 0.25,
+      "point": [
+        -11.845176233474158,
+        19.669830847767688,
+        5.64
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.75,
+      "zFraction": 0.5,
+      "point": [
+        -11.845176233474158,
+        19.669830847767688,
+        5.779999999999999
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 2,
+      "bay": 14,
+      "xFraction": 0.75,
+      "zFraction": 0.8,
+      "point": [
+        -11.845176233474158,
+        19.669830847767688,
+        5.9479999999999995
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.25,
+      "zFraction": 0.1,
+      "point": [
+        -11.24143961449458,
+        19.99296156990263,
+        5.546500000000001
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.25,
+      "zFraction": 0.25,
+      "point": [
+        -11.24143961449458,
+        19.99296156990263,
+        5.63125
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.25,
+      "zFraction": 0.5,
+      "point": [
+        -11.24143961449458,
+        19.99296156990263,
+        5.7725
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.25,
+      "zFraction": 0.8,
+      "point": [
+        -11.24143961449458,
+        19.99296156990263,
+        5.942
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.5,
+      "zFraction": 0.1,
+      "point": [
+        -11.006536394128448,
+        20.118686008080694,
+        5.546500000000001
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.5,
+      "zFraction": 0.25,
+      "point": [
+        -11.006536394128448,
+        20.118686008080694,
+        5.63125
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.5,
+      "zFraction": 0.5,
+      "point": [
+        -11.006536394128448,
+        20.118686008080694,
+        5.7725
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.5,
+      "zFraction": 0.8,
+      "point": [
+        -11.006536394128448,
+        20.118686008080694,
+        5.942
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.75,
+      "zFraction": 0.1,
+      "point": [
+        -10.771633173762314,
+        20.244410446258758,
+        5.546500000000001
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.75,
+      "zFraction": 0.25,
+      "point": [
+        -10.771633173762314,
+        20.244410446258758,
+        5.63125
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.75,
+      "zFraction": 0.5,
+      "point": [
+        -10.771633173762314,
+        20.244410446258758,
+        5.7725
+      ],
+      "clearDistanceMeters": 1.0
+    },
+    {
+      "window": 3,
+      "bay": 14,
+      "xFraction": 0.75,
+      "zFraction": 0.8,
+      "point": [
+        -10.771633173762314,
+        20.244410446258758,
+        5.942
+      ],
+      "clearDistanceMeters": 1.0
+    }
+  ],
+  "infillSurroundContacts": [
+    {
+      "arch": "pointed 0",
+      "intersectingTrianglePairs": 364
+    },
+    {
+      "arch": "pointed 1",
+      "intersectingTrianglePairs": 364
+    },
+    {
+      "arch": "pointed 2",
+      "intersectingTrianglePairs": 364
+    },
+    {
+      "arch": "pointed 3",
+      "intersectingTrianglePairs": 364
+    },
+    {
+      "arch": "pointed 4",
+      "intersectingTrianglePairs": 392
+    },
+    {
+      "arch": "pointed 5",
+      "intersectingTrianglePairs": 392
+    },
+    {
+      "arch": "pointed 6",
+      "intersectingTrianglePairs": 392
+    },
+    {
+      "arch": "pointed 7",
+      "intersectingTrianglePairs": 392
+    },
+    {
+      "arch": "pointed 8",
+      "intersectingTrianglePairs": 392
+    },
+    {
+      "arch": "pointed 9",
+      "intersectingTrianglePairs": 391
+    },
+    {
+      "arch": "pointed 10",
+      "intersectingTrianglePairs": 392
+    },
+    {
+      "arch": "pointed 11",
+      "intersectingTrianglePairs": 392
+    },
+    {
+      "arch": "pointed 12",
+      "intersectingTrianglePairs": 392
+    },
+    {
+      "arch": "small 0",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 1",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 2",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 3",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 4",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 5",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 6",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 7",
+      "intersectingTrianglePairs": 304
+    },
+    {
+      "arch": "small 8",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 9",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 10",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 11",
+      "intersectingTrianglePairs": 304
+    },
+    {
+      "arch": "small 12",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 13",
+      "intersectingTrianglePairs": 304
+    },
+    {
+      "arch": "small 14",
+      "intersectingTrianglePairs": 305
+    },
+    {
+      "arch": "small 15",
+      "intersectingTrianglePairs": 305
+    }
+  ],
+  "allExistingMaterialsAndPackedImagesPreserved": true,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

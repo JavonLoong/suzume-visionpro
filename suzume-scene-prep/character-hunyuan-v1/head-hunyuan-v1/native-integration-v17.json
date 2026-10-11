@@ -1,0 +1,49 @@
+{
+  "revision": 17,
+  "nativeHeadIntegrated": true,
+  "pairedParts": 4,
+  "sharedGeometryAndRig": true,
+  "independentComplementaryMaterials": true,
+  "standaloneNightIncludesNewHead": true,
+  "portalGateY": 0.0719999149441719,
+  "partition": {
+    "Suzume Hunyuan textured surface": {
+      "vertices": 241846,
+      "courtyardVertices": 34931,
+      "otherworldVertices": 206915,
+      "maxHeight": 2.568659462714251
+    },
+    "Suzume independent Hunyuan head": {
+      "vertices": 171025,
+      "courtyardVertices": 0,
+      "otherworldVertices": 171025,
+      "maxHeight": 3.111382658251216
+    },
+    "Left gold hairpin": {
+      "vertices": 104,
+      "courtyardVertices": 0,
+      "otherworldVertices": 104,
+      "maxHeight": 3.037227662765929
+    },
+    "Left red hairpin diagonal": {
+      "vertices": 104,
+      "courtyardVertices": 0,
+      "otherworldVertices": 104,
+      "maxHeight": 2.983788547287247
+    },
+    "Left red hairpin crossbar": {
+      "vertices": 104,
+      "courtyardVertices": 0,
+      "otherworldVertices": 104,
+      "maxHeight": 2.9381636363552843
+    }
+  },
+  "minimumWorldHeight": 0.20346192551694564,
+  "rigBones": 20,
+  "oldHeadObjectsRemoved": true,
+  "nativeRenderVerified": true,
+  "oneToOneComplete": false,
+  "renderFile": "native-pose-front-v17.png",
+  "foliageInstancesPreserveGeometryAndColors": true,
+  "renderedNative": "Suzume_scene_Hunyuan_v17_instances.blend"
+}

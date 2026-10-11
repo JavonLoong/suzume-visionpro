@@ -1,0 +1,43 @@
+{
+  "revision": 18,
+  "freshReopenVerified": true,
+  "bodyAndFootWorldVerticesExactlyPreserved": true,
+  "bodyGeometry": {
+    "worldVerticesSha256": "bda994f4f36c980ac7e48122ea45f395ce5defbd723d5c82f514aeca5561de47",
+    "vertices": 241846,
+    "minimumHeight": 0.2034619152545929
+  },
+  "sharedDayNightGeometryAndRig": true,
+  "complementaryPortalMaterials": true,
+  "preserved20BoneRig": true,
+  "preservedV16ProportionShapeKey": true,
+  "originalPackedBodyTextures": 3,
+  "retainedInstancedEnvironment": [
+    {
+      "group": "Branching tree crowns surrounding the ruined hotel linked geometry",
+      "muted": true
+    },
+    {
+      "group": "Forest trunks linked geometry",
+      "muted": true
+    },
+    {
+      "group": "Individual meadow flowers linked geometry",
+      "muted": true
+    },
+    {
+      "group": "Individual three-dimensional ivy leaves linked geometry",
+      "muted": true
+    },
+    {
+      "group": "Modeled flower stems linked geometry",
+      "muted": true
+    },
+    {
+      "group": "Spatial grass blades linked geometry",
+      "muted": true
+    }
+  ],
+  "backRender": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\native-pose-back-v18.png",
+  "oneToOneComplete": false
+}

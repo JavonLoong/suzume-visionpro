@@ -1,0 +1,5 @@
+00:03.656  blend            | Read blend: "D:\虚拟C盘\JavonLoongSkill\suzume-scene-prep\character-hunyuan-v1\movie-steel-v25\Suzume_scene_movie_steel_v25.blend"
+STEEL_25_REOPEN_VERIFIED {"revision": 25, "freshReopenVerified": true, "allOtherDayMeshesUnchanged": 899, "charactersAndPortalPreserved": true, "newParts": 732, "closedStructuralSections": 57, "mainColumnCrossSectionRays": [{"column": 27, "sample": "web", "hit": true}, {"column": 27, "sample": "flange", "hit": true}, {"column": 27, "sample": "I-section recessed cavity", "hit": false}, {"column": 0, "sample": "web", "hit": true}, {"column": 0, "sample": "flange", "hit": true}, {"column": 0, "sample": "I-section recessed cavity", "hit": false}], "attachedIvyLeaves": 202, "proceduralIsotropicMetal": true, "movedFillPreservesForegroundBehindEmitter": true, "doorLightPowerByFrame": {"1": 0.0, "24": 0.0, "72": 15.0, "120": 15.0}, "oneToOneComplete": false}
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

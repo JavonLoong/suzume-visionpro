@@ -1,0 +1,80 @@
+[
+  {
+    "sunWorldPosition": [
+      -35,
+      -10,
+      32
+    ],
+    "sunEnergy": 1.3,
+    "worldStrength": 0.075,
+    "skyStrength": 0.7,
+    "skyTint": [
+      0.5,
+      0.9,
+      1.7
+    ],
+    "glossySkyWeight": 0.55,
+    "rightPosition": [
+      8.5,
+      19.2,
+      5.6
+    ],
+    "rightTarget": [
+      8.62559223175,
+      24.1741256714,
+      3.7
+    ],
+    "rightSize": [
+      4,
+      3
+    ],
+    "rightFill": 650,
+    "leftFill": 96,
+    "leftColor": [
+      0.4,
+      0.43,
+      1.0
+    ],
+    "archSpot": 600,
+    "name": "focused-fill-650"
+  },
+  {
+    "sunWorldPosition": [
+      -35,
+      -10,
+      32
+    ],
+    "sunEnergy": 1.3,
+    "worldStrength": 0.055,
+    "skyStrength": 0.7,
+    "skyTint": [
+      0.5,
+      0.9,
+      1.7
+    ],
+    "glossySkyWeight": 0.55,
+    "rightPosition": [
+      8.5,
+      19.2,
+      5.6
+    ],
+    "rightTarget": [
+      8.62559223175,
+      24.1741256714,
+      3.7
+    ],
+    "rightSize": [
+      4,
+      3
+    ],
+    "rightFill": 1000,
+    "leftFill": 64,
+    "leftColor": [
+      0.4,
+      0.43,
+      1.0
+    ],
+    "archSpot": 600,
+    "name": "focused-fill-1000"
+  }
+]

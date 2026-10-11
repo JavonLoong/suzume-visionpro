@@ -1,0 +1,49 @@
+{
+  "sourcePackedImageSha256": "0a3213ef7c7033e4b5d3b8c9ff43d630f0118aeb8d23867c3c9d36834f3a5498",
+  "sourceResolution": [
+    1100,
+    330
+  ],
+  "maskPixels": 707,
+  "outsideMaskPixelsPreservedExactly": true,
+  "removedForegroundPaths2000x2824": [
+    [
+      [
+        159,
+        1568
+      ],
+      [
+        164,
+        1599
+      ],
+      [
+        174,
+        1634
+      ],
+      [
+        188,
+        1673
+      ],
+      [
+        191,
+        1685
+      ]
+    ],
+    [
+      [
+        333,
+        1587
+      ],
+      [
+        337,
+        1610
+      ],
+      [
+        340,
+        1625
+      ]
+    ]
+  ],
+  "cleanImageSha256": "fda84b04aabad3d6ad74f7faaad99e7db16097afdce3f47db12b1e8d6c1f04cc",
+  "limits": "Only the two observed thin foreground hanger traces are removed. Hidden color is interpolated; physical hanger tip alignment still needs refinement."
+}

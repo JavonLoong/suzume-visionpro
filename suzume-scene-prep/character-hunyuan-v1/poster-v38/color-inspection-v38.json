@@ -1,0 +1,86 @@
+{
+  "worldNodes": [
+    {
+      "name": "Background",
+      "type": "ShaderNodeBackground",
+      "inputs": [
+        {
+          "name": "Color",
+          "value": [
+            0.3400000035762787,
+            0.5099999904632568,
+            0.7400000095367432,
+            1.0
+          ],
+          "links": [
+            "Environment Texture:Color"
+          ]
+        },
+        {
+          "name": "Strength",
+          "value": 0.699999988079071,
+          "links": []
+        },
+        {
+          "name": "Weight",
+          "value": 0.0,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "World Output",
+      "type": "ShaderNodeOutputWorld",
+      "inputs": [
+        {
+          "name": "Surface",
+          "value": null,
+          "links": [
+            "Background:Background"
+          ]
+        },
+        {
+          "name": "Volume",
+          "value": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Environment Texture",
+      "type": "ShaderNodeTexEnvironment",
+      "inputs": [
+        {
+          "name": "Vector",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        }
+      ]
+    }
+  ],
+  "worldLinks": [
+    [
+      "Background",
+      "Background",
+      "World Output",
+      "Surface"
+    ],
+    [
+      "Environment Texture",
+      "Color",
+      "Background",
+      "Color"
+    ]
+  ],
+  "skyObjects": [
+    "Broken radial dome steelwork.001",
+    "Broken radial dome steelwork solid mesh",
+    "Broken radial dome steelwork solid mesh.001",
+    "Broken radial dome steelwork solid mesh.002",
+    "Broken radial dome steelwork solid mesh.003"
+  ]
+}

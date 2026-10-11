@@ -1,0 +1,27 @@
+{
+  "revision": 17,
+  "headSource": "Tencent official Hunyuan3D-2mv Turbo four-view generation",
+  "originalBodySource": "Hunyuan3D 3.1; v16 pose and foot correction preserved",
+  "headReplaced": true,
+  "faceColorMethod": "Four-view projected vertex colors; physical left-only hairpins",
+  "partTriangles": {
+    "Suzume Hunyuan textured surface": 408817,
+    "Suzume independent Hunyuan head": 342148,
+    "Left gold hairpin": 192,
+    "Left red hairpin diagonal": 192,
+    "Left red hairpin crossbar": 192
+  },
+  "rigBones": 20,
+  "minimumWorldHeight": 0.2034619152545929,
+  "sourceBodyTrianglesPreserved": 408817,
+  "headRestScale": 0.118,
+  "neckBlendZ": [
+    0.976,
+    1.023
+  ],
+  "oneToOneComplete": false,
+  "limitations": [
+    "Head identity, hair geometry and color registration remain approximate.",
+    "Browser runtime could not be rechecked; native front/back renders and static browser assets passed."
+  ]
+}

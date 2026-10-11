@@ -1,0 +1,30 @@
+{
+  "pid": 127152,
+  "file": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\poster-right-bow-v56\\铃芽之旅_v56_中文版.blend",
+  "language": "zh_HANS",
+  "interface": true,
+  "tooltips": true,
+  "new_names": true,
+  "reports": true,
+  "windows": 1,
+  "active_workspace": "布局",
+  "workspaces": [
+    "UV编辑",
+    "几何节点",
+    "动画",
+    "合成",
+    "布局",
+    "建模",
+    "渲染",
+    "着色",
+    "纹理绘制",
+    "脚本",
+    "雕刻"
+  ],
+  "scene_names": [
+    "官方海报·庭院场景",
+    "白昼·环形废弃酒店",
+    "门后异世界·夜色草原"
+  ],
+  "object_count": 3470
+}

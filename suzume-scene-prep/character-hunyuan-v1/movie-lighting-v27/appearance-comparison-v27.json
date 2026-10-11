@@ -1,0 +1,515 @@
+{
+  "purpose": "Manually selected broad patch comparison, not an overall fidelity score.",
+  "referencePatches": {
+    "left shaded wall": {
+      "medianSrgb255": [
+        88.0,
+        94.0,
+        124.0
+      ],
+      "medianLinearLuminance": 0.11586472441580231
+    },
+    "right lit wall": {
+      "medianSrgb255": [
+        198.0,
+        182.0,
+        178.0
+      ],
+      "medianLinearLuminance": 0.48500538576697577
+    },
+    "left lower rust pipe": {
+      "medianSrgb255": [
+        53.0,
+        41.0,
+        41.0
+      ],
+      "medianLinearLuminance": 0.026158287748710218
+    },
+    "right lower rust pipe": {
+      "medianSrgb255": [
+        113.5,
+        84.0,
+        69.0
+      ],
+      "medianLinearLuminance": 0.10421319608498109
+    },
+    "right bank slab": {
+      "medianSrgb255": [
+        104.0,
+        117.0,
+        112.0
+      ],
+      "medianLinearLuminance": 0.16890877619003666
+    },
+    "character white blouse": {
+      "medianSrgb255": [
+        144.0,
+        154.0,
+        169.0
+      ],
+      "medianLinearLuminance": 0.31793668159818095
+    },
+    "left white door frame": {
+      "medianSrgb255": [
+        189.0,
+        182.0,
+        188.0
+      ],
+      "medianLinearLuminance": 0.47992419523335983
+    },
+    "clear sky": {
+      "medianSrgb255": [
+        111.0,
+        178.0,
+        234.0
+      ],
+      "medianLinearLuminance": 0.4110348903659518
+    }
+  },
+  "renders": {
+    "movie-front-v26.png": {
+      "left shaded wall": {
+        "medianSrgb255": [
+          181.5,
+          183.0,
+          177.5
+        ],
+        "medianLinearLuminance": 0.47107667149480803,
+        "overReferenceLuminance": 4.065747136326506
+      },
+      "right lit wall": {
+        "medianSrgb255": [
+          228.0,
+          226.0,
+          217.0
+        ],
+        "medianLinearLuminance": 0.7595252051517013,
+        "overReferenceLuminance": 1.5660139607534596
+      },
+      "left lower rust pipe": {
+        "medianSrgb255": [
+          139.0,
+          95.0,
+          75.0
+        ],
+        "medianLinearLuminance": 0.14695606345695417,
+        "overReferenceLuminance": 5.617954235716369
+      },
+      "right lower rust pipe": {
+        "medianSrgb255": [
+          211.0,
+          166.5,
+          147.0
+        ],
+        "medianLinearLuminance": 0.4341040266428022,
+        "overReferenceLuminance": 4.165537983201381
+      },
+      "right bank slab": {
+        "medianSrgb255": [
+          230.0,
+          231.0,
+          222.0
+        ],
+        "medianLinearLuminance": 0.792487485777146,
+        "overReferenceLuminance": 4.6918076351789475
+      },
+      "character white blouse": {
+        "medianSrgb255": [
+          193.0,
+          191.0,
+          190.0
+        ],
+        "medianLinearLuminance": 0.5231676528885724,
+        "overReferenceLuminance": 1.6455089430346674
+      },
+      "left white door frame": {
+        "medianSrgb255": [
+          212.0,
+          212.0,
+          212.0
+        ],
+        "medianLinearLuminance": 0.6598656707406487,
+        "overReferenceLuminance": 1.3749372865433334
+      },
+      "clear sky": {
+        "medianSrgb255": [
+          146.0,
+          181.0,
+          200.0
+        ],
+        "medianLinearLuminance": 0.43328870005259534,
+        "overReferenceLuminance": 1.0541409262528312
+      }
+    },
+    "trial-focused-fill-1000.png": {
+      "left shaded wall": {
+        "medianSrgb255": [
+          102.0,
+          109.0,
+          125.0
+        ],
+        "medianLinearLuminance": 0.15217295059394378,
+        "overReferenceLuminance": 1.3133673890928406
+      },
+      "right lit wall": {
+        "medianSrgb255": [
+          217.0,
+          215.0,
+          205.0
+        ],
+        "medianLinearLuminance": 0.6765603855120351,
+        "overReferenceLuminance": 1.394954376521281
+      },
+      "left lower rust pipe": {
+        "medianSrgb255": [
+          43.0,
+          31.0,
+          26.0
+        ],
+        "medianLinearLuminance": 0.01632181926099846,
+        "overReferenceLuminance": 0.6239635949338174
+      },
+      "right lower rust pipe": {
+        "medianSrgb255": [
+          171.0,
+          115.0,
+          91.0
+        ],
+        "medianLinearLuminance": 0.21692101232945485,
+        "overReferenceLuminance": 2.0815119435792537
+      },
+      "right bank slab": {
+        "medianSrgb255": [
+          193.0,
+          194.0,
+          181.0
+        ],
+        "medianLinearLuminance": 0.5325722534091406,
+        "overReferenceLuminance": 3.1530170629497176
+      },
+      "character white blouse": {
+        "medianSrgb255": [
+          194.0,
+          192.0,
+          190.0
+        ],
+        "medianLinearLuminance": 0.5288631327089562,
+        "overReferenceLuminance": 1.6634228238481499
+      },
+      "left white door frame": {
+        "medianSrgb255": [
+          212.0,
+          213.0,
+          212.0
+        ],
+        "medianLinearLuminance": 0.6638964448210718,
+        "overReferenceLuminance": 1.3833360589337587
+      },
+      "clear sky": {
+        "medianSrgb255": [
+          140.0,
+          179.0,
+          220.0
+        ],
+        "medianLinearLuminance": 0.42982955241327875,
+        "overReferenceLuminance": 1.0457252230597596
+      }
+    },
+    "trial-focused-fill-650.png": {
+      "left shaded wall": {
+        "medianSrgb255": [
+          101.0,
+          111.5,
+          131.0
+        ],
+        "medianLinearLuminance": 0.15940089831369075,
+        "overReferenceLuminance": 1.3757500319221467
+      },
+      "right lit wall": {
+        "medianSrgb255": [
+          206.0,
+          203.0,
+          192.0
+        ],
+        "medianLinearLuminance": 0.59452595777687,
+        "overReferenceLuminance": 1.2258131048105807
+      },
+      "left lower rust pipe": {
+        "medianSrgb255": [
+          43.0,
+          31.0,
+          28.5
+        ],
+        "medianLinearLuminance": 0.016399290854248086,
+        "overReferenceLuminance": 0.6269252411238837
+      },
+      "right lower rust pipe": {
+        "medianSrgb255": [
+          152.0,
+          96.0,
+          73.0
+        ],
+        "medianLinearLuminance": 0.1553555459073302,
+        "overReferenceLuminance": 1.49074735008266
+      },
+      "right bank slab": {
+        "medianSrgb255": [
+          180.5,
+          183.0,
+          168.0
+        ],
+        "medianLinearLuminance": 0.46356337680079673,
+        "overReferenceLuminance": 2.7444599816367665
+      },
+      "character white blouse": {
+        "medianSrgb255": [
+          194.0,
+          192.0,
+          190.0
+        ],
+        "medianLinearLuminance": 0.5288631327089562,
+        "overReferenceLuminance": 1.6634228238481499
+      },
+      "left white door frame": {
+        "medianSrgb255": [
+          212.0,
+          213.0,
+          212.0
+        ],
+        "medianLinearLuminance": 0.6638964448210718,
+        "overReferenceLuminance": 1.3833360589337587
+      },
+      "clear sky": {
+        "medianSrgb255": [
+          140.0,
+          179.0,
+          220.0
+        ],
+        "medianLinearLuminance": 0.42982955241327875,
+        "overReferenceLuminance": 1.0457252230597596
+      }
+    },
+    "trial-rebalance.png": {
+      "left shaded wall": {
+        "medianSrgb255": [
+          139.5,
+          146.0,
+          139.5
+        ],
+        "medianLinearLuminance": 0.27970755162091443,
+        "overReferenceLuminance": 2.4140872300108476
+      },
+      "right lit wall": {
+        "medianSrgb255": [
+          194.0,
+          191.0,
+          176.0
+        ],
+        "medianLinearLuminance": 0.518655265851545,
+        "overReferenceLuminance": 1.0693804256036377
+      },
+      "left lower rust pipe": {
+        "medianSrgb255": [
+          78.0,
+          52.0,
+          38.0
+        ],
+        "medianLinearLuminance": 0.04263769624366873,
+        "overReferenceLuminance": 1.6299880425381075
+      },
+      "right lower rust pipe": {
+        "medianSrgb255": [
+          161.0,
+          104.0,
+          77.0
+        ],
+        "medianLinearLuminance": 0.18117833209023046,
+        "overReferenceLuminance": 1.7385354148671137
+      },
+      "right bank slab": {
+        "medianSrgb255": [
+          198.0,
+          199.0,
+          184.0
+        ],
+        "medianLinearLuminance": 0.5631330613660249,
+        "overReferenceLuminance": 3.3339479100390412
+      },
+      "character white blouse": {
+        "medianSrgb255": [
+          194.0,
+          192.0,
+          190.0
+        ],
+        "medianLinearLuminance": 0.5288631327089562,
+        "overReferenceLuminance": 1.6634228238481499
+      },
+      "left white door frame": {
+        "medianSrgb255": [
+          212.0,
+          213.0,
+          212.0
+        ],
+        "medianLinearLuminance": 0.6638964448210718,
+        "overReferenceLuminance": 1.3833360589337587
+      },
+      "clear sky": {
+        "medianSrgb255": [
+          33.0,
+          85.0,
+          107.0
+        ],
+        "medianLinearLuminance": 0.07881869064581078,
+        "overReferenceLuminance": 0.1917566914468917
+      }
+    },
+    "trial-side-sun.png": {
+      "left shaded wall": {
+        "medianSrgb255": [
+          103.0,
+          122.0,
+          135.0
+        ],
+        "medianLinearLuminance": 0.1853814621266769,
+        "overReferenceLuminance": 1.5999819018375319
+      },
+      "right lit wall": {
+        "medianSrgb255": [
+          64.0,
+          77.0,
+          66.0
+        ],
+        "medianLinearLuminance": 0.0685935268362906,
+        "overReferenceLuminance": 0.14142838172367603
+      },
+      "left lower rust pipe": {
+        "medianSrgb255": [
+          43.0,
+          34.0,
+          30.0
+        ],
+        "medianLinearLuminance": 0.018554375138138436,
+        "overReferenceLuminance": 0.7093115312585127
+      },
+      "right lower rust pipe": {
+        "medianSrgb255": [
+          87.0,
+          53.0,
+          38.0
+        ],
+        "medianLinearLuminance": 0.0471238342654484,
+        "overReferenceLuminance": 0.4521868250448923
+      },
+      "right bank slab": {
+        "medianSrgb255": [
+          149.0,
+          154.0,
+          137.0
+        ],
+        "medianLinearLuminance": 0.31306906200787904,
+        "overReferenceLuminance": 1.853480139218165
+      },
+      "character white blouse": {
+        "medianSrgb255": [
+          194.0,
+          192.0,
+          190.0
+        ],
+        "medianLinearLuminance": 0.5288631327089562,
+        "overReferenceLuminance": 1.6634228238481499
+      },
+      "left white door frame": {
+        "medianSrgb255": [
+          212.0,
+          213.0,
+          212.0
+        ],
+        "medianLinearLuminance": 0.6638964448210718,
+        "overReferenceLuminance": 1.3833360589337587
+      },
+      "clear sky": {
+        "medianSrgb255": [
+          33.0,
+          85.0,
+          107.0
+        ],
+        "medianLinearLuminance": 0.07881869064581078,
+        "overReferenceLuminance": 0.1917566914468917
+      }
+    },
+    "movie-front-v27.png": {
+      "left shaded wall": {
+        "medianSrgb255": [
+          82.0,
+          93.0,
+          112.0
+        ],
+        "medianLinearLuminance": 0.10786984247515347,
+        "overReferenceLuminance": 0.9309981361371239
+      },
+      "right lit wall": {
+        "medianSrgb255": [
+          199.0,
+          196.5,
+          185.0
+        ],
+        "medianLinearLuminance": 0.553516745677458,
+        "overReferenceLuminance": 1.1412589672630955
+      },
+      "left lower rust pipe": {
+        "medianSrgb255": [
+          36.5,
+          25.5,
+          24.0
+        ],
+        "medianLinearLuminance": 0.012347457998919025,
+        "overReferenceLuminance": 0.4720285256257967
+      },
+      "right lower rust pipe": {
+        "medianSrgb255": [
+          140.5,
+          88.0,
+          65.0
+        ],
+        "medianLinearLuminance": 0.12991879232095535,
+        "overReferenceLuminance": 1.2466635435978044
+      },
+      "right bank slab": {
+        "medianSrgb255": [
+          176.0,
+          178.0,
+          163.0
+        ],
+        "medianLinearLuminance": 0.437152394770994,
+        "overReferenceLuminance": 2.588097579246922
+      },
+      "character white blouse": {
+        "medianSrgb255": [
+          193.0,
+          191.0,
+          190.0
+        ],
+        "medianLinearLuminance": 0.5231676528885724,
+        "overReferenceLuminance": 1.6455089430346674
+      },
+      "left white door frame": {
+        "medianSrgb255": [
+          212.0,
+          212.0,
+          212.0
+        ],
+        "medianLinearLuminance": 0.6598656707406487,
+        "overReferenceLuminance": 1.3749372865433334
+      },
+      "clear sky": {
+        "medianSrgb255": [
+          140.0,
+          179.0,
+          220.0
+        ],
+        "medianLinearLuminance": 0.42982955241327875,
+        "overReferenceLuminance": 1.0457252230597596
+      }
+    }
+  }
+}

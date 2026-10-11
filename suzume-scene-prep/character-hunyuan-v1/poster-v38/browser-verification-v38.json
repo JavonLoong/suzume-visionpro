@@ -1,0 +1,51 @@
+{
+  "revision": 38,
+  "initialView": "closed poster",
+  "independentStorageKey": true,
+  "latestCharacterAssetRevision": 37,
+  "rigidDoorPreserved": true,
+  "movieEnvironmentMutationsExcluded": true,
+  "inlineScriptsParsed": [
+    "poster-script-2-v38.js"
+  ],
+  "httpResources": [
+    {
+      "path": "viewer/poster-v38.html",
+      "sha256": "74accf669d46c5c6197991d664cdd94529c77e60a61cecfed20905ce3f4468e7"
+    },
+    {
+      "path": "viewer/three.min.js",
+      "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2"
+    },
+    {
+      "path": "viewer/GLTFLoader.js",
+      "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6"
+    },
+    {
+      "path": "viewer/character-v37/suzume-posed-v37.gltf",
+      "sha256": "8b2a96b9094ba514c546b673ac66d5f9b97316fe7aaf159fff8e88876feecf45"
+    },
+    {
+      "path": "poster-v38/Suzume_dual_scene_v38.blend",
+      "sha256": "b56b84831d608b8dc98134708a89fdcf49c28242534c717aad1fe0efe81a483f"
+    },
+    {
+      "path": "viewer/character-v37/suzume-posed-v37.bin",
+      "sha256": "5c62d0925d3724310ba3a898afb16f2bb36d6098a9b72b41d09f8040938b950d"
+    },
+    {
+      "path": "viewer/character-v37/texture-0.png",
+      "sha256": "e187d9879e97e465b12de1fcb6b9f611d4521ff8314c3e16ec67db87c2421992"
+    },
+    {
+      "path": "viewer/character-v37/texture-1.png",
+      "sha256": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7"
+    },
+    {
+      "path": "viewer/character-v37/texture-2.png",
+      "sha256": "dd4d1a90b768caf9f6aae4e87e528543b02b1ca0fffa0ecaeec6dec2fd03c971"
+    }
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

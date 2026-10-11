@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Broken radial dome steelwork solid mesh",
+    "key": "mesh0",
+    "vertices": 54396,
+    "faces": 18132,
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.018"
+    ],
+    "removedTriangles": 980,
+    "retainedTriangles": 17152,
+    "removedComponents": [
+      {
+        "component": 257,
+        "triangles": 980,
+        "boundsNative": [
+          [
+            6.706696033477783,
+            15.0376558303833,
+            3.5391228199005127
+          ],
+          [
+            13.602149963378906,
+            19.280107498168945,
+            5.005354404449463
+          ]
+        ],
+        "projectionBounds708": [
+          [
+            520.101657435511,
+            581.1063636174862
+          ],
+          [
+            712.9570724573412,
+            621.4097108915314
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Broken radial dome steelwork solid mesh.001",
+    "key": "mesh1",
+    "vertices": 41544,
+    "faces": 13848,
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.022"
+    ],
+    "removedTriangles": 2460,
+    "retainedTriangles": 11388,
+    "removedComponents": [
+      {
+        "component": 633,
+        "triangles": 1230,
+        "boundsNative": [
+          [
+            6.698451519012451,
+            15.026398658752441,
+            3.6993374824523926
+          ],
+          [
+            13.419815063476562,
+            19.011201858520508,
+            5.018464088439941
+          ]
+        ],
+        "projectionBounds708": [
+          [
+            519.9189182818434,
+            580.7584262287002
+          ],
+          [
+            710.4363477941932,
+            617.5097597878229
+          ]
+        ]
+      },
+      {
+        "component": 636,
+        "triangles": 1230,
+        "boundsNative": [
+          [
+            6.77573299407959,
+            15.035162925720215,
+            3.525742769241333
+          ],
+          [
+            13.4099760055542,
+            18.983707427978516,
+            4.826449871063232
+          ]
+        ],
+        "projectionBounds708": [
+          [
+            521.9757080534931,
+            585.598558216598
+          ],
+          [
+            710.4984476144956,
+            621.5203126310452
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Broken radial dome steelwork solid mesh.002",
+    "key": "mesh2",
+    "vertices": 720,
+    "faces": 240,
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.027"
+    ],
+    "removedTriangles": 0,
+    "retainedTriangles": 240,
+    "removedComponents": []
+  },
+  {
+    "name": "Broken radial dome steelwork solid mesh.003",
+    "key": "mesh3",
+    "vertices": 1440,
+    "faces": 480,
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.024"
+    ],
+    "removedTriangles": 0,
+    "retainedTriangles": 480,
+    "removedComponents": []
+  }
+]

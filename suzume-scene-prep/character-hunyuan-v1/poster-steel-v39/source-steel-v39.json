@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Broken radial dome steelwork solid mesh",
+    "key": "mesh0",
+    "vertices": 64308,
+    "faces": 21436,
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.018"
+    ]
+  },
+  {
+    "name": "Broken radial dome steelwork solid mesh.001",
+    "key": "mesh1",
+    "vertices": 63468,
+    "faces": 21156,
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.022"
+    ]
+  },
+  {
+    "name": "Broken radial dome steelwork solid mesh.002",
+    "key": "mesh2",
+    "vertices": 936,
+    "faces": 312,
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.027"
+    ]
+  },
+  {
+    "name": "Broken radial dome steelwork solid mesh.003",
+    "key": "mesh3",
+    "vertices": 1728,
+    "faces": 576,
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.024"
+    ]
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "purpose": "Broad matched patch appearance diagnosis; not a full fidelity score and not an albedo estimate.",
+  "revision": 26,
+  "patches": [
+    {
+      "patch": "left shaded wall",
+      "referenceBox": [
+        490,
+        325,
+        625,
+        365
+      ],
+      "renderBox": [
+        138,
+        92,
+        176,
+        103
+      ],
+      "reference": {
+        "medianSrgb255": [
+          88.0,
+          94.0,
+          124.0
+        ],
+        "medianLinearLuminance": 0.11586472441580231
+      },
+      "render": {
+        "medianSrgb255": [
+          181.5,
+          183.0,
+          177.5
+        ],
+        "medianLinearLuminance": 0.47107667149480803
+      },
+      "renderOverReferenceLuminance": 4.065747136326506
+    },
+    {
+      "patch": "right lit wall",
+      "referenceBox": [
+        1990,
+        300,
+        2280,
+        337
+      ],
+      "renderBox": [
+        561,
+        85,
+        643,
+        95
+      ],
+      "reference": {
+        "medianSrgb255": [
+          198.0,
+          182.0,
+          178.0
+        ],
+        "medianLinearLuminance": 0.48500538576697577
+      },
+      "render": {
+        "medianSrgb255": [
+          228.0,
+          226.0,
+          217.0
+        ],
+        "medianLinearLuminance": 0.7595252051517013
+      },
+      "renderOverReferenceLuminance": 1.5660139607534596
+    },
+    {
+      "patch": "left lower rust pipe",
+      "referenceBox": [
+        580,
+        758,
+        665,
+        784
+      ],
+      "renderBox": [
+        164,
+        214,
+        188,
+        222
+      ],
+      "reference": {
+        "medianSrgb255": [
+          53.0,
+          41.0,
+          41.0
+        ],
+        "medianLinearLuminance": 0.026158287748710218
+      },
+      "render": {
+        "medianSrgb255": [
+          139.0,
+          95.0,
+          75.0
+        ],
+        "medianLinearLuminance": 0.14695606345695417
+      },
+      "renderOverReferenceLuminance": 5.617954235716369
+    },
+    {
+      "patch": "right lower rust pipe",
+      "referenceBox": [
+        2010,
+        768,
+        2110,
+        785
+      ],
+      "renderBox": [
+        567,
+        217,
+        595,
+        222
+      ],
+      "reference": {
+        "medianSrgb255": [
+          113.5,
+          84.0,
+          69.0
+        ],
+        "medianLinearLuminance": 0.10421319608498109
+      },
+      "render": {
+        "medianSrgb255": [
+          211.0,
+          166.5,
+          147.0
+        ],
+        "medianLinearLuminance": 0.4341040266428022
+      },
+      "renderOverReferenceLuminance": 4.165537983201381
+    },
+    {
+      "patch": "right bank slab",
+      "referenceBox": [
+        1950,
+        870,
+        2170,
+        893
+      ],
+      "renderBox": [
+        550,
+        246,
+        612,
+        252
+      ],
+      "reference": {
+        "medianSrgb255": [
+          104.0,
+          117.0,
+          112.0
+        ],
+        "medianLinearLuminance": 0.16890877619003666
+      },
+      "render": {
+        "medianSrgb255": [
+          230.0,
+          231.0,
+          222.0
+        ],
+        "medianLinearLuminance": 0.792487485777146
+      },
+      "renderOverReferenceLuminance": 4.6918076351789475
+    }
+  ],
+  "interpretationLimit": "Manual rectangles can contain different stains, shadows and detailed geometry. Inspect images before changing lighting or materials."
+}

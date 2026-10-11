@@ -1,0 +1,23 @@
+{
+  "revision": 20,
+  "role": "movie-opening comparison candidate",
+  "nativeFile": "movie-calibration-v20/Suzume_scene_movie_candidate_v20.blend",
+  "nativeSha256": "69bdcd938c2da74e697a08e189da9eadc5619b2db3a24688a5f9ff8b03b5daf1",
+  "stableNativeRemainsRevision": 19,
+  "browserDefaultRemainsRevision": 17,
+  "browserCandidate": "viewer/candidate-v20.html",
+  "browserSyntaxAndHttpVerified": true,
+  "browserRuntimeVerified": false,
+  "browserBlocker": "CUA inventory timed out after 20 seconds during this iteration.",
+  "nativeFrontSideOverviewReviewed": true,
+  "characterFootCorrectionAndPortalPartitionPreserved": true,
+  "geometryScaleInferred": true,
+  "oneToOneComplete": false,
+  "remaining": [
+    "电影立面的窗型、拱廊和钢架仍有部分沿用海报结构，需要继续逐项校准。",
+    "建筑绝对尺寸、临水台基和钢架落地位置仍为推定，尚未通过一比一验收。",
+    "建筑光照、水面反射与门内云层仍明显不同于原画，远景云体还会挡住部分俯视画面。",
+    "人物脸型、发丝、手部握门姿态和脚部原画轮廓仍需精修。",
+    "网页脚本与本地服务已检查，浏览器连接超时，运行效果和交互待复测。"
+  ]
+}

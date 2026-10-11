@@ -1,0 +1,27 @@
+{
+  "file": "Suzume_Hunyuan31_original.glb",
+  "bytes": 41629188,
+  "geometries": 1,
+  "vertices": 298028,
+  "triangles": 500000,
+  "bounds": [
+    [
+      -0.20128299295902252,
+      0.0,
+      -0.1189579963684082
+    ],
+    [
+      0.19757400453090668,
+      1.175102949142456,
+      0.10690700262784958
+    ]
+  ],
+  "materials": 1,
+  "textures": 3,
+  "embeddedImages": 3,
+  "skins": 0,
+  "animations": 0,
+  "extensions": [
+    "KHR_materials_specular"
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "revision": 36,
+  "reference": "reference-suzume-official-face.jpg",
+  "referenceSize": [
+    680,
+    390
+  ],
+  "referenceEyeCenters": [
+    [
+      338.5,
+      150.5
+    ],
+    [
+      443.5,
+      154.0
+    ]
+  ],
+  "referenceOutlinePoints": [
+    [
+      289.0,
+      185.0
+    ],
+    [
+      492.0,
+      185.0
+    ],
+    [
+      294.0,
+      210.0
+    ],
+    [
+      487.0,
+      210.0
+    ],
+    [
+      304.0,
+      235.0
+    ],
+    [
+      479.0,
+      235.0
+    ],
+    [
+      323.0,
+      260.0
+    ],
+    [
+      457.0,
+      260.0
+    ],
+    [
+      348.0,
+      280.0
+    ],
+    [
+      425.0,
+      280.0
+    ],
+    [
+      365.0,
+      295.0
+    ],
+    [
+      401.0,
+      295.0
+    ]
+  ],
+  "referenceChin": [
+    383,
+    305
+  ],
+  "landmarkUncertaintyPixels": 3,
+  "alignment": "Eye distance and eye-line angle; portrait pose/depth remains uncertain.",
+  "lowerFaceFitParameters": [
+    0.0726044151204266,
+    0.07332995994706515,
+    0.03305525553554099
+  ],
+  "outlineTargetInStudioPixels": [
+    [
+      256.806154990174,
+      373.45924888027633
+    ],
+    [
+      410.07137254061365,
+      368.3504082952617
+    ],
+    [
+      261.2103279082901,
+      392.20844216025625
+    ],
+    [
+      406.9255347419593,
+      387.35126859913396
+    ],
+    [
+      269.38950618479134,
+      410.83180192828996
+    ],
+    [
+      401.51469372827387,
+      406.42762901017386
+    ],
+    [
+      284.36369410638605,
+      429.2286613748206
+    ],
+    [
+      385.53383771110975,
+      425.8563232546631
+    ],
+    [
+      303.7420549460968,
+      443.6995152486306
+    ],
+    [
+      361.8771374652291,
+      441.7616791646595
+    ],
+    [
+      316.95457370044505,
+      454.5966973831692
+    ],
+    [
+      344.1346122808186,
+      453.6906960971568
+    ]
+  ],
+  "outlineActualX": [
+    256.05802193936955,
+    410.93927788135585,
+    261.06595331027154,
+    406.4405602132429,
+    268.7079334124663,
+    399.7448402011931,
+    284.5144553314361,
+    385.1546404297871,
+    304.09348315526506,
+    364.9122694844575,
+    322.9777303940009,
+    344.4795727411256
+  ],
+  "outlineMeanErrorInStudioPixels": 1.2484541421933055,
+  "outlineMaxErrorInStudioPixels": 6.023156693555848,
+  "chinTargetStudioY": 461.6937074569334,
+  "chinActualStudioY": 463.05321459102464,
+  "eyeWhiteWidthScale": 0.82,
+  "eyeWhiteHeightScale": 1.14,
+  "noseBumpSourceZ": 0.085,
+  "nostrilSourceZShift": 0.07,
+  "pupilWidthScale": 0.76,
+  "changedParts": [
+    "Clean facial surface",
+    "Subtle nostril.001",
+    "Subtle nostril",
+    "right upper lashes",
+    "right upper catchlight",
+    "right tall pupil",
+    "right sclera",
+    "right lower lid",
+    "right lower iris amber",
+    "right lower catchlight",
+    "right limbus",
+    "right iris",
+    "right eyelash 2",
+    "right eyelash 1",
+    "right eyelash 0",
+    "right eyebrow",
+    "Quiet mouth line",
+    "left upper lashes",
+    "left upper catchlight",
+    "left tall pupil",
+    "left sclera",
+    "left lower lid",
+    "left lower iris amber",
+    "left lower catchlight",
+    "left limbus",
+    "left iris",
+    "left eyelash 2",
+    "left eyelash 1",
+    "left eyelash 0",
+    "left eyebrow",
+    "Fine right forelock",
+    "Central pointed bang",
+    "Middle pointed bang",
+    "Left pointed bang",
+    "Swept right temple",
+    "Smooth hair cap frontal hairline"
+  ],
+  "ponytailUnchanged": true,
+  "oneToOneComplete": false
+}

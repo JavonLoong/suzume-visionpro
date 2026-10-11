@@ -1,0 +1,69 @@
+{
+  "bodyVertices": 241846,
+  "bodyTriangles": 408817,
+  "bodyBounds": [
+    [
+      -0.608430027961731,
+      -0.4055310785770416,
+      0.2034619152545929
+    ],
+    [
+      0.5629354119300842,
+      1.4021862745285034,
+      2.568659543991089
+    ]
+  ],
+  "neckBounds": [
+    [
+      -0.19786475598812103,
+      0.6885044574737549,
+      2.4448201656341553
+    ],
+    [
+      -0.09390349686145782,
+      0.8213996291160583,
+      2.6641898155212402
+    ]
+  ],
+  "modifiers": [
+    {
+      "name": "Anatomical character deformation",
+      "type": "ARMATURE"
+    }
+  ],
+  "shapeKeys": [
+    {
+      "name": "Basis",
+      "value": 1.0
+    },
+    {
+      "name": "Film lower-body proportions v16",
+      "value": 1.0
+    }
+  ],
+  "vertexGroups": [
+    "root",
+    "pelvis",
+    "spine",
+    "chest",
+    "neck",
+    "head",
+    "upper_arm.R",
+    "forearm.R",
+    "hand.R",
+    "fingers.R",
+    "thigh.R",
+    "shin.R",
+    "foot.R",
+    "upper_arm.L",
+    "forearm.L",
+    "hand.L",
+    "fingers.L",
+    "thigh.L",
+    "shin.L",
+    "foot.L"
+  ],
+  "materialSlots": [
+    "Material.003 \u2014 courtyard half"
+  ]
+}

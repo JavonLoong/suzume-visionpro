@@ -1,0 +1,180 @@
+{
+  "revision": 44,
+  "sourceNativeSha256": "23cec288419994ad8bb8768d786b33b27064cb1f33d061e9de62ad66656e2b7e",
+  "nativeSha256": "0015d1aba946addbbcd9d05a7922e720fb15c773c3ae4300566eb812b1f886c1",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "sharedNodeGroupsPreserved": true,
+  "retainedOriginalSteelCoordinatesPreserved": true,
+  "changedOriginalMeshes": [
+    {
+      "name": "Broken radial dome steelwork solid mesh",
+      "removedTriangles": 2772,
+      "retainedTriangles": 18132
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.001",
+      "removedTriangles": 6252,
+      "retainedTriangles": 13848
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.002",
+      "removedTriangles": 48,
+      "retainedTriangles": 240
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.003",
+      "removedTriangles": 96,
+      "retainedTriangles": 480
+    }
+  ],
+  "addedMembers": [
+    {
+      "name": "Poster left outer splayed I-column v44",
+      "triangles": 8156,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.5559632084208307,
+      "maximumVertexErrorMeters": 4.7679443326842375e-07
+    },
+    {
+      "name": "Poster left outer splayed I-column footing v44",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.11665686150671523,
+      "maximumVertexErrorMeters": 4.1975097708757403e-07
+    },
+    {
+      "name": "Poster left middle bowed I-column v44",
+      "triangles": 4076,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.2412722549637491,
+      "maximumVertexErrorMeters": 9.528564461902533e-07
+    },
+    {
+      "name": "Poster left middle bowed I-column footing v44",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09750016942815005,
+      "maximumVertexErrorMeters": 8.723388660314413e-07
+    },
+    {
+      "name": "Poster left back I-column v44",
+      "triangles": 4076,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.24034056370511367,
+      "maximumVertexErrorMeters": 9.52343750526552e-07
+    },
+    {
+      "name": "Poster left back I-column footing v44",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09749986951794999,
+      "maximumVertexErrorMeters": 8.647460951749508e-07
+    },
+    {
+      "name": "Poster left upper broken tie v44",
+      "triangles": 1796,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.13385072462105227,
+      "maximumVertexErrorMeters": 4.7677001902002303e-07
+    },
+    {
+      "name": "Poster left long upper tie v44",
+      "triangles": 3692,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.2818708796601621,
+      "maximumVertexErrorMeters": 9.524414075201548e-07
+    },
+    {
+      "name": "Poster left long lower tie v44",
+      "triangles": 3668,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.3270966554609333,
+      "maximumVertexErrorMeters": 9.526367179546469e-07
+    },
+    {
+      "name": "Poster left upper right curved bracket v44",
+      "triangles": 884,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.008025236764870223,
+      "maximumVertexErrorMeters": 4.767211905232216e-07
+    },
+    {
+      "name": "Poster left upper left curved bracket v44",
+      "triangles": 500,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004565877537711858,
+      "maximumVertexErrorMeters": 4.7531738367467824e-07
+    },
+    {
+      "name": "Poster left upper cross brace v44",
+      "triangles": 596,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.003732222834880078,
+      "maximumVertexErrorMeters": 4.7662353530597557e-07
+    },
+    {
+      "name": "Poster left upper left diagonal v44",
+      "triangles": 332,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0012820490681470004,
+      "maximumVertexErrorMeters": 4.765869139333745e-07
+    },
+    {
+      "name": "Poster left upper center diagonal v44",
+      "triangles": 332,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0012012175854163286,
+      "maximumVertexErrorMeters": 4.758300775620228e-07
+    },
+    {
+      "name": "Poster left upper right upright v44",
+      "triangles": 332,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008415446675613683,
+      "maximumVertexErrorMeters": 4.761352538906749e-07
+    },
+    {
+      "name": "Poster left first broken bowed beam v44",
+      "triangles": 1748,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.16693870632892824,
+      "maximumVertexErrorMeters": 9.530517566247454e-07
+    },
+    {
+      "name": "Poster left second broken bowed beam v44",
+      "triangles": 1556,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.1526941979266109,
+      "maximumVertexErrorMeters": 9.511962879571456e-07
+    },
+    {
+      "name": "Poster left hanging upper rod v44",
+      "triangles": 596,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008135718841010891,
+      "maximumVertexErrorMeters": 4.765502925607734e-07
+    },
+    {
+      "name": "Poster left first bowed upright v44",
+      "triangles": 476,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0019500044933889002,
+      "maximumVertexErrorMeters": 9.529052746870548e-07
+    },
+    {
+      "name": "Poster left second bowed upright v44",
+      "triangles": 308,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009117014405239743,
+      "maximumVertexErrorMeters": 9.467529302753519e-07
+    }
+  ],
+  "checkedPhysicalJoints": 27,
+  "allCheckedJointsOverlap": true,
+  "posterObjectCount": 271,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

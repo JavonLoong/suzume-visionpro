@@ -1,0 +1,27 @@
+{
+  "revision": 37,
+  "freshReopenVerified": true,
+  "nativeSha256": "345c50b2df431d2921ac716312818953da9daf928aae2d940016f1279880eb06",
+  "feetGripAndNonCollarGeometryPreserved": true,
+  "faceAndPonytailPreservedExactly": true,
+  "neckBaseBlended": true,
+  "collarTriangleFlips": 0,
+  "collarDegenerateTriangles": 0,
+  "clothUVSamplingVerified": true,
+  "maximumUVError": 3.600973952641013e-08,
+  "originalTexturePixelsPreserved": true,
+  "closedHemBoundaryEdges": 0,
+  "hemSignedVolume": 1.7246720744878985e-06,
+  "sharedSpatialMeshesAndMaterialsVerified": true,
+  "dualQuaternionBodyAndHemPreserved": true,
+  "closedAndOpenVisibilityVerified": true,
+  "partTriangles": {
+    "Suzume Hunyuan textured surface \u2014 complete evaluated mesh": 408817,
+    "Suzume mathematical head v37 \u2014 complete evaluated mesh": 135992,
+    "Suzume rolled collar edge v37 \u2014 complete evaluated mesh": 3260
+  },
+  "oneToOneComplete": false,
+  "browserRuntimeVerified": false,
+  "neckChestSkinTriangles": 229,
+  "neckAndChestSkinMaterialShared": true
+}

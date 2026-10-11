@@ -1,0 +1,38 @@
+{
+  "revision": 25,
+  "frontReviewed": true,
+  "obliqueReviewed": true,
+  "frontImage": "movie-front-v25.png",
+  "obliqueImage": "movie-left-oblique-v25.png",
+  "reference": "reference-opening-50525.jpg",
+  "frontFindings": [
+    "左右主柱、弯梁和左侧细拉杆已按电影参照定位，v24 中横穿门后背景的错误梁已去掉。",
+    "新攀藤在主柱和弯梁上可见；叶片、茎和叶柄为实体，但叶形、疏密和原片仍有差别。",
+    "右侧主柱仍比参照偏浅，锈蚀的明暗和色相没有校准完成。",
+    "临水岸台和连续管道不足，使柱脚混凝土基础显得过高；水面反射也过强。",
+    "独立头模和脚部姿态沿用已校验版本；本次没有重新判断人物脸型或宣称角色已达到一比一。"
+  ],
+  "obliqueFindings": [
+    "整圈立柱、径向肋、弯梁和连接构件具备空间厚度；偏转机位下仍保持完整三维结构。",
+    "可见主柱侧面和截面转折，已移除原来近似长方木条的表面纹理。",
+    "与 v24 同机位相比，扩大并后移右侧补光使照亮的墙面范围增加，部分墙面过亮，属于需要继续修正的照明变化。",
+    "断口、背面钢架和完整穹顶关系仍有推定部分，不能作为官方精确尺寸。"
+  ],
+  "browserAttempt": {
+    "method": "Documented CUA API, new background tab in the existing in-app browser",
+    "url": "http://127.0.0.1:8931/viewer/candidate-v25.html",
+    "result": "Initial navigation timed out; no runtime or interaction verification claimed.",
+    "runtimeVerified": false
+  },
+  "remaining": [
+    "右侧钢柱仍偏亮；扩大补光后的斜视墙面存在过曝，需在多个机位下继续校准照明与锈蚀材质。",
+    "重建围绕院落的临水台基、断裂岸缘和连续管道，避免钢柱基础在水中显得过高。",
+    "门基砖石、破碎铺石的轮廓和分布仍与参照不同，水面反射过强且缺少原片的散射和藻类层次。",
+    "门内远景云层仍呈灰色横带，需按当前电影帧重建空间形状和颜色。",
+    "新镜头下人物左手、腰线和右裙摆仍有投影偏差；姿态修正须保持脚部安全间隙和穿门连续性。",
+    "继续精修人物脸型、发丝和握门细节，以及墙面污迹、藤叶叶形和贴合。",
+    "隐藏钢架和背面结构仍为有依据的推定；另一幅关门海报场景也尚未完成一比一核对。",
+    "网页几何、脚本和 HTTP 资源已核验，但浏览器初始化超时，实际 WebGL 编译、渲染与交互仍待复测。"
+  ],
+  "oneToOneComplete": false
+}

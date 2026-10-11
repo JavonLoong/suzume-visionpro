@@ -1,0 +1,16 @@
+{
+  "reference": "reference-official.jpg",
+  "renderResolution": [
+    708,
+    1000
+  ],
+  "measurementResolution": [
+    354,
+    500
+  ],
+  "beforeMeanBandColorError255": 13.645930590404802,
+  "afterMeanBandColorError255": 4.062483478759342,
+  "beforeMeanLumaStdError": 0.06988374060632563,
+  "afterMeanLumaStdError": 0.013428431416788636,
+  "scope": "Five fixed water bands excluding door reflection, image edges and release text. Region-mean color and contrast statistics only; no full-scene or pointwise fidelity claim."
+}

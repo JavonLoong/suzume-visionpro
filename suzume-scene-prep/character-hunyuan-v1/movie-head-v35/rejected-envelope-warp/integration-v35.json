@@ -1,0 +1,50 @@
+{
+  "revision": 35,
+  "sourceSha256": "1b845301ccb153a0e89926df41e29e4863bcb3b00cd3aa0b18ef42e42075a7e7",
+  "bodyHash": "ea99c207add1dd15e7d1048586720b462e59fdbc2e1b02a3379c3738522e2bf6",
+  "headHash": "4a0e12424ae3e8e5894cc2c02ea69118a224fada01af054ce2f7164d3c1cd514",
+  "headVertices": 69140,
+  "ponytailVertices": 5760,
+  "ponytailParts": [
+    {
+      "name": "Solid ponytail lock 5",
+      "closed": true,
+      "vertices": 960
+    },
+    {
+      "name": "Solid ponytail lock 4",
+      "closed": true,
+      "vertices": 960
+    },
+    {
+      "name": "Solid ponytail lock 3",
+      "closed": true,
+      "vertices": 960
+    },
+    {
+      "name": "Solid ponytail lock 2",
+      "closed": true,
+      "vertices": 960
+    },
+    {
+      "name": "Solid ponytail lock 1",
+      "closed": true,
+      "vertices": 960
+    },
+    {
+      "name": "Solid ponytail lock 0",
+      "closed": true,
+      "vertices": 960
+    }
+  ],
+  "headSource": "Mathematical geometry derived from existing v18 components; no new Hunyuan submission.",
+  "headScaleAndPonytailOutlineUpdated": true,
+  "neckBottomPreserved": true,
+  "minimumBackClothRayGap": 0.03392783372509145,
+  "backClothRays": 2449,
+  "additionalRearCurveAmplitude": 0.03266163581455131,
+  "sharedSpatialMesh": true,
+  "maximumWorldReconstructionError": 9.43850425606587e-07,
+  "maximumProjectionDriftAfterClearance": 0.00026141379453292757,
+  "oneToOneComplete": false
+}

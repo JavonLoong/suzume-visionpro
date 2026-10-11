@@ -1,0 +1,1449 @@
+{
+  "revision": 52,
+  "nativeSha256": "7fca0fbb45409d9d17bc6700881e70978ed6748fe35d21c2fe94ff9a1d7d1b4b",
+  "sourceNativeSha256": "01726e6771ec7ba31008c64487b2c73a4d70c567eceaea34116191f50902b074",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "unmodifiedVegetationPreservedExactly": true,
+  "replantedStems": [
+    {
+      "name": "Poster fine left margin v51",
+      "movedStemVertices": 42,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine left window shrub v51",
+      "movedStemVertices": 105,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine pier growth v51",
+      "movedStemVertices": 77,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine entry left growth v51",
+      "movedStemVertices": 42,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine pipe left thicket v51",
+      "movedStemVertices": 112,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine pipe ground creeper v51",
+      "movedStemVertices": 56,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine return pipe growth v51",
+      "movedStemVertices": 35,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine right ground growth v51",
+      "movedStemVertices": 70,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "movedStemVertices": 700,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "movedStemVertices": 850,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "movedStemVertices": 650,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "movedStemVertices": 500,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "movedStemVertices": 450,
+      "allOtherVerticesTopologyAndColorsPreserved": true,
+      "leafBladesOrGrassTipsPreserved": true
+    }
+  ],
+  "grassBladeGroundProbes": [
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 0,
+      "gapMeters": 0.00100003182888031
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 1,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 2,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 3,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 4,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 5,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 6,
+      "gapMeters": 0.00100003182888031
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 7,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 8,
+      "gapMeters": 0.0010000616312026978
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 9,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 10,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 11,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 12,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 13,
+      "gapMeters": 0.000999942421913147
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 14,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 15,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 16,
+      "gapMeters": 0.000999942421913147
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 17,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 18,
+      "gapMeters": 0.00100003182888031
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 19,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 20,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 21,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 22,
+      "gapMeters": 0.000999942421913147
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 23,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 24,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 25,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 26,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 0 v51",
+      "blade": 27,
+      "gapMeters": 0.0009999126195907593
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 0,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 1,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 2,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 3,
+      "gapMeters": 0.0009999573230743408
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 4,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 5,
+      "gapMeters": 0.00100003182888031
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 6,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 7,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 8,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 9,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 10,
+      "gapMeters": 0.0010000616312026978
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 11,
+      "gapMeters": 0.0009999275207519531
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 12,
+      "gapMeters": 0.00100003182888031
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 13,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 14,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 15,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 16,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 17,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 18,
+      "gapMeters": 0.000999942421913147
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 19,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 20,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 21,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 22,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 23,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 24,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 25,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 26,
+      "gapMeters": 0.000999942421913147
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 27,
+      "gapMeters": 0.0009999573230743408
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 28,
+      "gapMeters": 0.00100003182888031
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 29,
+      "gapMeters": 0.0010000765323638916
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 30,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 31,
+      "gapMeters": 0.000999942421913147
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 32,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 1 v51",
+      "blade": 33,
+      "gapMeters": 0.0010000616312026978
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 0,
+      "gapMeters": 0.000999942421913147
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 1,
+      "gapMeters": 0.000999942421913147
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 2,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 3,
+      "gapMeters": 0.0009999573230743408
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 4,
+      "gapMeters": 0.00100003182888031
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 5,
+      "gapMeters": 0.0010000616312026978
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 6,
+      "gapMeters": 0.0009999275207519531
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 7,
+      "gapMeters": 0.000999942421913147
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 8,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 9,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 10,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 11,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 12,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 13,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 14,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 15,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 16,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 17,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 18,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 19,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 20,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 21,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 22,
+      "gapMeters": 0.0009999573230743408
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 23,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 24,
+      "gapMeters": 0.0009999573230743408
+    },
+    {
+      "name": "Poster fine grass patch 2 v51",
+      "blade": 25,
+      "gapMeters": 0.000999942421913147
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 0,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 1,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 2,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 3,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 4,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 5,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 6,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 7,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 8,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 9,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 10,
+      "gapMeters": 0.0009999573230743408
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 11,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 12,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 13,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 14,
+      "gapMeters": 0.0009999871253967285
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 15,
+      "gapMeters": 0.0010000020265579224
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 16,
+      "gapMeters": 0.0009999722242355347
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 17,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 18,
+      "gapMeters": 0.0009999126195907593
+    },
+    {
+      "name": "Poster fine grass patch 3 v51",
+      "blade": 19,
+      "gapMeters": 0.0010000169277191162
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 0,
+      "gapMeters": 0.0010002590715885162
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 1,
+      "gapMeters": 0.0010001584887504578
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 2,
+      "gapMeters": 0.0010000839829444885
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 3,
+      "gapMeters": 0.00100008025765419
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 4,
+      "gapMeters": 0.001000046730041504
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 5,
+      "gapMeters": 0.0010003969073295593
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 6,
+      "gapMeters": 0.0010002925992012024
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 7,
+      "gapMeters": 0.0010000430047512054
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 8,
+      "gapMeters": 0.0009998269379138947
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 9,
+      "gapMeters": 0.0010000094771385193
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 10,
+      "gapMeters": 0.0010000690817832947
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 11,
+      "gapMeters": 0.0010001994669437408
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 12,
+      "gapMeters": 0.00099998340010643
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 13,
+      "gapMeters": 0.0010000094771385193
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 14,
+      "gapMeters": 0.0009998790919780731
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 15,
+      "gapMeters": 0.0010000653564929962
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 16,
+      "gapMeters": 0.0009998176246881485
+    },
+    {
+      "name": "Poster fine grass patch 4 v51",
+      "blade": 17,
+      "gapMeters": 0.0010000616312026978
+    }
+  ],
+  "sharedNodeGroupsPreserved": true,
+  "allPackedImageBytesPreserved": true,
+  "packedImageCount": 23,
+  "unchangedOriginalFacePositionsAndUVsPreserved": true,
+  "changedOriginalMeshes": [
+    {
+      "key": "mesh8",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "removedTriangles": 172,
+      "finalTriangles": 102611
+    },
+    {
+      "key": "mesh9",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "removedTriangles": 65,
+      "finalTriangles": 1831
+    },
+    {
+      "key": "mesh18",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "removedTriangles": 321,
+      "finalTriangles": 19131
+    },
+    {
+      "key": "extra1",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.008",
+      "removedTriangles": 36,
+      "finalTriangles": 7376
+    },
+    {
+      "key": "extra2",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.009",
+      "removedTriangles": 12,
+      "finalTriangles": 8276
+    },
+    {
+      "key": "extra3",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.010",
+      "removedTriangles": 12,
+      "finalTriangles": 7592
+    },
+    {
+      "key": "extra4",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.011",
+      "removedTriangles": 36,
+      "finalTriangles": 7472
+    },
+    {
+      "key": "extra6",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.013",
+      "removedTriangles": 12,
+      "finalTriangles": 7568
+    }
+  ],
+  "addedSolids": [
+    {
+      "name": "Poster retained rear floor bay 13 v52",
+      "kind": "rear floor",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 21.837650866930403,
+      "maximumVertexErrorMeters": 7.279882829891449e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster retained rear floor bay 15 v52",
+      "kind": "rear floor",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 24.274286463294718,
+      "maximumVertexErrorMeters": 7.173535152560362e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster retained rear floor bay 16 v52",
+      "kind": "rear floor",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 27.532831785881836,
+      "maximumVertexErrorMeters": 3.340527356954226e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster irregular shallow shoreline v52",
+      "kind": "shoreline",
+      "triangles": 9178,
+      "nonManifoldEdges": 0,
+      "signedVolume": 24.085231390193172,
+      "maximumVertexErrorMeters": 9.531494136183483e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 0 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09003690634941224,
+      "maximumVertexErrorMeters": 9.50092772455946e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 1 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09003712827369789,
+      "maximumVertexErrorMeters": 8.474609387576493e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 2 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09003695363242341,
+      "maximumVertexErrorMeters": 9.473681643612508e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 3 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09003691014880309,
+      "maximumVertexErrorMeters": 9.511962879571456e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 4 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.050645740460074314,
+      "maximumVertexErrorMeters": 9.158886733473537e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 5 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.050645851992793776,
+      "maximumVertexErrorMeters": 9.249316406112484e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 6 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.05064582996471946,
+      "maximumVertexErrorMeters": 9.535888665368475e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 7 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.050645843510258526,
+      "maximumVertexErrorMeters": 7.874072274205446e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 8 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0900368317346934,
+      "maximumVertexErrorMeters": 9.346044933522535e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 9 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09003684515712415,
+      "maximumVertexErrorMeters": 9.321679677043448e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 10 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09003709368647603,
+      "maximumVertexErrorMeters": 9.297314456091499e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 11 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.05064580982220156,
+      "maximumVertexErrorMeters": 9.158593741176446e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster sediment root collar 12 v52",
+      "kind": "root soil",
+      "triangles": 68,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09003690594447487,
+      "maximumVertexErrorMeters": 9.43359374616648e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed left small shard v52",
+      "kind": "rock",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01175278113217176,
+      "maximumVertexErrorMeters": 9.264355469440488e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed low left stone v52",
+      "kind": "rock",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.027879486656592248,
+      "maximumVertexErrorMeters": 7.273242204064445e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed entrance broken slab v52",
+      "kind": "rock",
+      "triangles": 24,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.18109455036042255,
+      "maximumVertexErrorMeters": 9.074414073495518e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed chair front stone v52",
+      "kind": "rock",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0749608624533064,
+      "maximumVertexErrorMeters": 8.345068351900409e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed pipe small fragment v52",
+      "kind": "rock",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.006817531292564488,
+      "maximumVertexErrorMeters": 4.727417000083278e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster observed right isolated stone v52",
+      "kind": "rock",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.007130374043849027,
+      "maximumVertexErrorMeters": 3.863793942571192e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster left outer splayed I-column footing v44",
+      "kind": "chipped support",
+      "triangles": 44,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.16713909721673612,
+      "maximumVertexErrorMeters": 4.756542963946231e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster left middle bowed I-column footing v44",
+      "kind": "chipped support",
+      "triangles": 44,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.11677013313076949,
+      "maximumVertexErrorMeters": 9.501074202944437e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster left back I-column footing v44",
+      "kind": "chipped support",
+      "triangles": 44,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.09926114716117516,
+      "maximumVertexErrorMeters": 9.505468767656566e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster chair landing stone v51",
+      "kind": "chipped support",
+      "triangles": 44,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.16407278912154127,
+      "maximumVertexErrorMeters": 9.504492197720538e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 0 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001039392570722518,
+      "maximumVertexErrorMeters": 8.696484385950498e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 1 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0023022507609972466,
+      "maximumVertexErrorMeters": 8.716455077717455e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 2 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004346381669954862,
+      "maximumVertexErrorMeters": 9.402978520256511e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 3 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009015010138939718,
+      "maximumVertexErrorMeters": 9.523925790233534e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 4 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005317318079630651,
+      "maximumVertexErrorMeters": 4.616894528908233e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 5 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0006146979571732738,
+      "maximumVertexErrorMeters": 9.526464843645499e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 6 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002864034189395421,
+      "maximumVertexErrorMeters": 8.187060558384474e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 7 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002801097638621297,
+      "maximumVertexErrorMeters": 9.262695321865522e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 8 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001675319316452678,
+      "maximumVertexErrorMeters": 7.742578134184441e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 9 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0026234927987291955,
+      "maximumVertexErrorMeters": 9.041357422745477e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 10 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0033574601759563394,
+      "maximumVertexErrorMeters": 9.236474625140545e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 11 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001298637071106716,
+      "maximumVertexErrorMeters": 9.204150401842526e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 12 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002670702888661461,
+      "maximumVertexErrorMeters": 7.715478531622466e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 13 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0030552497791226964,
+      "maximumVertexErrorMeters": 7.338183607430437e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 14 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011528375701584243,
+      "maximumVertexErrorMeters": 7.433056623540324e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 15 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0032378373930374016,
+      "maximumVertexErrorMeters": 9.136669909537432e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 16 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0023862054570046726,
+      "maximumVertexErrorMeters": 8.062353522575449e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 17 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0030655311845490044,
+      "maximumVertexErrorMeters": 9.188330061249417e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 18 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0026342026580375155,
+      "maximumVertexErrorMeters": 9.370556632859461e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 19 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0011364158435382722,
+      "maximumVertexErrorMeters": 9.479150406832559e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 20 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0024810941758957906,
+      "maximumVertexErrorMeters": 8.87250976688847e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 21 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0038616370922182827,
+      "maximumVertexErrorMeters": 8.742968766739523e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 22 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0025483504109990035,
+      "maximumVertexErrorMeters": 8.628271501720519e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 23 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.003010941817144567,
+      "maximumVertexErrorMeters": 6.115478505819283e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 24 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.004197461220617461,
+      "maximumVertexErrorMeters": 9.212792981827533e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 25 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007605621726271255,
+      "maximumVertexErrorMeters": 9.253808599396507e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 26 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018679111558533787,
+      "maximumVertexErrorMeters": 9.349267564573438e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster bank fragment 27 v52",
+      "kind": "fragment",
+      "triangles": 20,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018074105862261741,
+      "maximumVertexErrorMeters": 9.069873030398412e-07,
+      "vertexColorsPreserved": true
+    },
+    {
+      "name": "Poster broken stair foundation v52",
+      "kind": "stair foundation",
+      "triangles": 24,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.6084417387636498,
+      "maximumVertexErrorMeters": 8.914941389548403e-07,
+      "vertexColorsPreserved": true
+    }
+  ],
+  "chairSupportContacts": [
+    {
+      "leg": -1,
+      "end": -2,
+      "point": [
+        -9.8711576461792,
+        20.22163200378418,
+        0.3477276563644409
+      ],
+      "supportZ": 0.3477276563644409,
+      "gapMeters": 0.0
+    },
+    {
+      "leg": -1,
+      "end": -1,
+      "point": [
+        -10.173161506652832,
+        20.78589630126953,
+        0.3477276563644409
+      ],
+      "supportZ": 0.3477276563644409,
+      "gapMeters": 0.0
+    },
+    {
+      "leg": 1,
+      "end": -2,
+      "point": [
+        -9.359793663024902,
+        20.495323181152344,
+        0.3477276563644409
+      ],
+      "supportZ": 0.3477276563644409,
+      "gapMeters": 0.0
+    },
+    {
+      "leg": 1,
+      "end": -1,
+      "point": [
+        -9.661797523498535,
+        21.059587478637695,
+        0.3477276563644409
+      ],
+      "supportZ": 0.3477276563644409,
+      "gapMeters": 0.0
+    }
+  ],
+  "rootGroundProbes": [
+    {
+      "root": [
+        -14.372582017168941,
+        17.402384019782502,
+        0.07100000000000001
+      ],
+      "groundZ": 0.06999999284744263,
+      "gapMeters": 0.0010000071525573806
+    },
+    {
+      "root": [
+        -13.05380807997355,
+        18.418611709851554,
+        0.10157280411176003
+      ],
+      "groundZ": 0.10057270526885986,
+      "gapMeters": 0.0010000988429001711
+    },
+    {
+      "root": [
+        -12.228228681042484,
+        19.51018313116802,
+        0.13405299746755062
+      ],
+      "groundZ": 0.13305294513702393,
+      "gapMeters": 0.0010000523305266906
+    },
+    {
+      "root": [
+        -11.739549933398491,
+        19.896497167786535,
+        0.1408890907688413
+      ],
+      "groundZ": 0.13988912105560303,
+      "gapMeters": 0.0009999697132382634
+    },
+    {
+      "root": [
+        -7.665624501270393,
+        20.624008575429507,
+        0.1332626957749051
+      ],
+      "groundZ": 0.13226264715194702,
+      "gapMeters": 0.0010000486229580774
+    },
+    {
+      "root": [
+        -6.3000244316018845,
+        20.807924041593317,
+        0.12479942620264638
+      ],
+      "groundZ": 0.12379950284957886,
+      "gapMeters": 0.0009999233530675194
+    },
+    {
+      "root": [
+        -5.695533519166873,
+        21.237260376680027,
+        0.1320396825778146
+      ],
+      "groundZ": 0.13103967905044556,
+      "gapMeters": 0.0010000035273690366
+    },
+    {
+      "root": [
+        -3.9605744260419424,
+        21.65593674967085,
+        0.1355084836792332
+      ],
+      "groundZ": 0.13450849056243896,
+      "gapMeters": 0.0009999931167942455
+    },
+    {
+      "root": [
+        -8.350953698706176,
+        20.610138138035197,
+        0.13460919042645625
+      ],
+      "groundZ": 0.1336091160774231,
+      "gapMeters": 0.0010000743490331532
+    },
+    {
+      "root": [
+        -7.6757022177830425,
+        20.83115036848413,
+        0.13900579711092487
+      ],
+      "groundZ": 0.138005793094635,
+      "gapMeters": 0.0010000040162898571
+    },
+    {
+      "root": [
+        -6.821503067328946,
+        21.11073281268898,
+        0.13691904858689619
+      ],
+      "groundZ": 0.13591903448104858,
+      "gapMeters": 0.001000014105847602
+    },
+    {
+      "root": [
+        -5.861787024094144,
+        21.424851314173736,
+        0.1375294342372349
+      ],
+      "groundZ": 0.13652944564819336,
+      "gapMeters": 0.000999988589041545
+    },
+    {
+      "root": [
+        -13.890760976871723,
+        17.331807697954304,
+        0.07100000000000001
+      ],
+      "groundZ": 0.06999999284744263,
+      "gapMeters": 0.0010000071525573806
+    }
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

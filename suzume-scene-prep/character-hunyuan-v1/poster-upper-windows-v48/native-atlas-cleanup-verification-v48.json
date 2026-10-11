@@ -1,0 +1,7 @@
+{
+  "nativeSha256": "c51a6b4680ec62ee46f04c02e5a6c12b015b63356dd07ed0ebf090c8a9962725",
+  "packedCleanAtlasMatchesVerifiedPixels": true,
+  "originalFacadePixelsOutsideMaskPreservedExactly": true,
+  "maskPixels": 707,
+  "cleanAtlasSha256": "fda84b04aabad3d6ad74f7faaad99e7db16097afdce3f47db12b1e8d6c1f04cc"
+}

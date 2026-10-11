@@ -1,0 +1,63 @@
+{
+  "nativeFile": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene-hunyuan-v14.blend",
+  "source": "Suzume_Hunyuan31_original.glb",
+  "triangles": 500000,
+  "rigBones": 20,
+  "armStretch": 1.113144505550301,
+  "legStretch": {
+    "L": 1.0459941255744956,
+    "R": 1
+  },
+  "gripWorld": [
+    0.5209017992019653,
+    1.503419041633606,
+    1.8660000562667847
+  ],
+  "portalCharacterInstance": true,
+  "packedCharacterImages": [
+    {
+      "name": "texture_pbr_20250901",
+      "packed": true,
+      "pixels": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "packed": true,
+      "pixels": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "texture_pbr_20250901_normal",
+      "packed": true,
+      "pixels": [
+        4096,
+        4096
+      ]
+    }
+  ],
+  "visualReview": "Reviewed corrected front and side studio renders, front native render, side native render, browser orbit and rear view. No arm/skirt membrane remains. Right sleeve and grouped fingers still require refinement.",
+  "oneToOneComplete": false,
+  "reopenedSuccessfully": true,
+  "closedFrameHidden": true,
+  "openFrameVisible": true,
+  "closestSurfaceToKnob": 0.019779315497868395,
+  "characterBounds": [
+    [
+      -0.6012541055679321,
+      -0.05388575792312622,
+      0.042875781655311584
+    ],
+    [
+      0.5838766098022461,
+      1.5881757736206055,
+      2.9622623920440674
+    ]
+  ],
+  "nativeSideRender": "16 samples without denoising, after separate-process retry for memory limit",
+  "technicalIntegrationComplete": true
+}

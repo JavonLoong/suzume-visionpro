@@ -1,0 +1,14 @@
+{
+  "revision": 30,
+  "cloudHelperExecuted": true,
+  "closedBoxVolumes": 10,
+  "nativeAndBrowserTransformedCornersMatched": 80,
+  "materialParametersMatchSpec": true,
+  "rayMarchHandlesInsideAndOutsideOrigins": true,
+  "referenceImagesUsedInClouds": false,
+  "inlineScriptsParsed": 1,
+  "browserRuntimeVerified": false,
+  "gpuCompilationVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false
+}

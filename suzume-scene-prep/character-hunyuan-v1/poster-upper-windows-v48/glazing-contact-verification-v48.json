@@ -1,0 +1,136 @@
+{
+  "revision": 48,
+  "nativeSha256": "c51a6b4680ec62ee46f04c02e5a6c12b015b63356dd07ed0ebf090c8a9962725",
+  "allFivePaneSolidsSupportedByAtLeastThreeFrameMembers": true,
+  "panes": [
+    {
+      "glass": "Poster observed upper window 0 bay 13 solid glazing v48",
+      "contacts": [
+        {
+          "frame": "Poster observed upper window 0 bay 13 upper frame v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 0 bay 13 lower frame v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 0 bay 13 left jamb v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 0 bay 13 right jamb v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 0 central mullion v48",
+          "intersectingTrianglePairs": 76
+        }
+      ]
+    },
+    {
+      "glass": "Poster observed upper window 1 bay 13 solid glazing v48",
+      "contacts": [
+        {
+          "frame": "Poster observed upper window 1 bay 13 upper frame v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 1 bay 13 lower frame v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 1 bay 13 left jamb v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 1 bay 13 right jamb v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 1 central mullion v48",
+          "intersectingTrianglePairs": 76
+        }
+      ]
+    },
+    {
+      "glass": "Poster observed upper window 2 bay 13 solid glazing v48",
+      "contacts": [
+        {
+          "frame": "Poster observed upper window 2 bay 13 upper frame v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 2 bay 13 lower frame v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 2 bay 13 left jamb v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 2 bay 14 upper frame v48",
+          "intersectingTrianglePairs": 22
+        },
+        {
+          "frame": "Poster observed upper window 2 bay 14 lower frame v48",
+          "intersectingTrianglePairs": 20
+        }
+      ]
+    },
+    {
+      "glass": "Poster observed upper window 2 bay 14 solid glazing v48",
+      "contacts": [
+        {
+          "frame": "Poster observed upper window 2 bay 13 upper frame v48",
+          "intersectingTrianglePairs": 24
+        },
+        {
+          "frame": "Poster observed upper window 2 bay 13 lower frame v48",
+          "intersectingTrianglePairs": 20
+        },
+        {
+          "frame": "Poster observed upper window 2 bay 14 upper frame v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 2 bay 14 lower frame v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 2 bay 14 right jamb v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 2 central mullion v48",
+          "intersectingTrianglePairs": 76
+        }
+      ]
+    },
+    {
+      "glass": "Poster observed upper window 3 bay 14 solid glazing v48",
+      "contacts": [
+        {
+          "frame": "Poster observed upper window 3 bay 14 upper frame v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 3 bay 14 lower frame v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 3 bay 14 left jamb v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 3 bay 14 right jamb v48",
+          "intersectingTrianglePairs": 38
+        },
+        {
+          "frame": "Poster observed upper window 3 central mullion v48",
+          "intersectingTrianglePairs": 76
+        }
+      ]
+    }
+  ]
+}

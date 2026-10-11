@@ -1,0 +1,21 @@
+{
+  "revision": 19,
+  "nativeScene": "Suzume_scene_Hunyuan_v19.blend",
+  "headGeometryRevision": 17,
+  "change": "Warm courtyard illumination admitted through the open door, fitted against reference color regions",
+  "nativeRenderVerified": true,
+  "nativeRender": "native-pose-front-v19.png",
+  "allCharacterWorldVerticesPreserved": true,
+  "footClearanceAndPortalPartitionPreserved": true,
+  "doorLightClosesCorrectly": true,
+  "browserCandidate": "viewer/candidate-v19.html",
+  "browserRuntimeVerified": false,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Architectural scale and reference camera perspective differ markedly.",
+    "Head likeness and hair silhouette remain approximate.",
+    "Sky/cloud structure and flower density need closer matching.",
+    "Browser interaction cannot yet be exercised because control keeps timing out."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "revision": 40,
+  "nativeSha256": "208af91831d845af7c4ce9e394f69bbe62caa737a3392f0207242c0527790b20",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "posterGeometryMaterialsExceptWaterCameraAndLightingPreserved": true,
+  "posterObjectCount": 249,
+  "waterOnlyMaterialChange": true,
+  "worldSpaceWaveAnimationVerified": true,
+  "liveReflectionAndRefraction": true,
+  "noReferenceImageInWater": true,
+  "onlyImageDependency": "Existing 65-cubed color-conversion LUT, not an image of water",
+  "packedImagesVerified": true,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

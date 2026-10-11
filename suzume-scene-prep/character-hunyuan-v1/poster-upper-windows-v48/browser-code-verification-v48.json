@@ -1,0 +1,16 @@
+{
+  "revision": 48,
+  "nativeSha256": "c51a6b4680ec62ee46f04c02e5a6c12b015b63356dd07ed0ebf090c8a9962725",
+  "threeRevision": "128",
+  "inlineScriptsParsed": 1,
+  "triangles": 186756,
+  "buckets": 11,
+  "previousFacadeBucketsReplaced": 7,
+  "positionsNormalsUVsMatchNativeExactly": true,
+  "previousUnaffectedGeometryMaterialsAndIvyPreserved": true,
+  "unmodifiedOriginalMaterialInstancesReused": true,
+  "isolatedSourceResolutionAtlasLoaded": true,
+  "browserRuntimeVerified": false,
+  "browserMaterialsApproximate": true,
+  "scope": "Actual Three.js construction and chained v46-v48 data loading in Node; texture PNG bytes checked with a loader shim. No browser/GPU rendering."
+}

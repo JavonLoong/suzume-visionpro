@@ -1,0 +1,1520 @@
+[
+  {
+    "name": "Spatial twilight cloud volume 0",
+    "type": "MESH",
+    "location": [
+      -102.0,
+      61.0,
+      -280.0
+    ],
+    "scale": [
+      96.0,
+      4.300000190734863,
+      20.0
+    ],
+    "matrix": [
+      [
+        96.0,
+        0.0,
+        0.0,
+        -102.0
+      ],
+      [
+        0.0,
+        -1.8795897460677224e-07,
+        -20.0,
+        280.0
+      ],
+      [
+        0.0,
+        4.300000190734863,
+        -8.74227794156468e-07,
+        61.0000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 24,
+    "materials": [
+      {
+        "name": "Spatial twilight cloud volume 0",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.001",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.002",
+            "VECT_MATH"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Math",
+            "MATH"
+          ],
+          [
+            "Math.001",
+            "MATH"
+          ],
+          [
+            "Math.002",
+            "MATH"
+          ],
+          [
+            "Math.003",
+            "MATH"
+          ],
+          [
+            "Math.004",
+            "MATH"
+          ],
+          [
+            "Math.005",
+            "MATH"
+          ],
+          [
+            "Math.006",
+            "MATH"
+          ],
+          [
+            "Twilight cloud density",
+            "PRINCIPLED_VOLUME"
+          ],
+          [
+            "Math.007",
+            "MATH"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spatial twilight cloud volume 1",
+    "type": "MESH",
+    "location": [
+      -26.0,
+      73.0,
+      -310.0
+    ],
+    "scale": [
+      105.0,
+      3.700000047683716,
+      24.0
+    ],
+    "matrix": [
+      [
+        105.0,
+        0.0,
+        0.0,
+        -26.0
+      ],
+      [
+        0.0,
+        -1.6173213168713119e-07,
+        -24.0,
+        310.0
+      ],
+      [
+        0.0,
+        3.700000047683716,
+        -1.0490732620382914e-06,
+        73.00001525878906
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 24,
+    "materials": [
+      {
+        "name": "Spatial twilight cloud volume 1",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.001",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.002",
+            "VECT_MATH"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Math",
+            "MATH"
+          ],
+          [
+            "Math.001",
+            "MATH"
+          ],
+          [
+            "Math.002",
+            "MATH"
+          ],
+          [
+            "Math.003",
+            "MATH"
+          ],
+          [
+            "Math.004",
+            "MATH"
+          ],
+          [
+            "Math.005",
+            "MATH"
+          ],
+          [
+            "Math.006",
+            "MATH"
+          ],
+          [
+            "Twilight cloud density",
+            "PRINCIPLED_VOLUME"
+          ],
+          [
+            "Math.007",
+            "MATH"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spatial twilight cloud volume 2",
+    "type": "MESH",
+    "location": [
+      90.0,
+      78.0,
+      -285.0
+    ],
+    "scale": [
+      86.0,
+      3.4000000953674316,
+      19.0
+    ],
+    "matrix": [
+      [
+        86.0,
+        0.0,
+        0.0,
+        90.0
+      ],
+      [
+        0.0,
+        -1.4861872443816537e-07,
+        -19.0,
+        285.0
+      ],
+      [
+        0.0,
+        3.4000000953674316,
+        -8.305163987643027e-07,
+        78.00001525878906
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 24,
+    "materials": [
+      {
+        "name": "Spatial twilight cloud volume 2",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.001",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.002",
+            "VECT_MATH"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Math",
+            "MATH"
+          ],
+          [
+            "Math.001",
+            "MATH"
+          ],
+          [
+            "Math.002",
+            "MATH"
+          ],
+          [
+            "Math.003",
+            "MATH"
+          ],
+          [
+            "Math.004",
+            "MATH"
+          ],
+          [
+            "Math.005",
+            "MATH"
+          ],
+          [
+            "Math.006",
+            "MATH"
+          ],
+          [
+            "Twilight cloud density",
+            "PRINCIPLED_VOLUME"
+          ],
+          [
+            "Math.007",
+            "MATH"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spatial twilight cloud volume 3",
+    "type": "MESH",
+    "location": [
+      -140.0,
+      47.0,
+      -255.0
+    ],
+    "scale": [
+      80.0,
+      5.0,
+      21.0
+    ],
+    "matrix": [
+      [
+        80.0,
+        0.0,
+        0.0,
+        -140.0
+      ],
+      [
+        0.0,
+        -2.18556948539117e-07,
+        -21.0,
+        255.0
+      ],
+      [
+        0.0,
+        5.0,
+        -9.179391327052144e-07,
+        47.0000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 24,
+    "materials": [
+      {
+        "name": "Spatial twilight cloud volume 3",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.001",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.002",
+            "VECT_MATH"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Math",
+            "MATH"
+          ],
+          [
+            "Math.001",
+            "MATH"
+          ],
+          [
+            "Math.002",
+            "MATH"
+          ],
+          [
+            "Math.003",
+            "MATH"
+          ],
+          [
+            "Math.004",
+            "MATH"
+          ],
+          [
+            "Math.005",
+            "MATH"
+          ],
+          [
+            "Math.006",
+            "MATH"
+          ],
+          [
+            "Twilight cloud density",
+            "PRINCIPLED_VOLUME"
+          ],
+          [
+            "Math.007",
+            "MATH"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spatial twilight cloud volume 4",
+    "type": "MESH",
+    "location": [
+      16.0,
+      54.0,
+      -290.0
+    ],
+    "scale": [
+      125.0,
+      5.800000190734863,
+      28.0
+    ],
+    "matrix": [
+      [
+        125.0,
+        0.0,
+        0.0,
+        16.0
+      ],
+      [
+        0.0,
+        -2.5352605348416546e-07,
+        -28.0,
+        290.0
+      ],
+      [
+        0.0,
+        5.800000190734863,
+        -1.2239188436069526e-06,
+        54.0000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 24,
+    "materials": [
+      {
+        "name": "Spatial twilight cloud volume 4",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.001",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.002",
+            "VECT_MATH"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Math",
+            "MATH"
+          ],
+          [
+            "Math.001",
+            "MATH"
+          ],
+          [
+            "Math.002",
+            "MATH"
+          ],
+          [
+            "Math.003",
+            "MATH"
+          ],
+          [
+            "Math.004",
+            "MATH"
+          ],
+          [
+            "Math.005",
+            "MATH"
+          ],
+          [
+            "Math.006",
+            "MATH"
+          ],
+          [
+            "Twilight cloud density",
+            "PRINCIPLED_VOLUME"
+          ],
+          [
+            "Math.007",
+            "MATH"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spatial twilight cloud volume 5",
+    "type": "MESH",
+    "location": [
+      137.0,
+      58.0,
+      -270.0
+    ],
+    "scale": [
+      80.0,
+      4.099999904632568,
+      22.0
+    ],
+    "matrix": [
+      [
+        80.0,
+        0.0,
+        0.0,
+        137.0
+      ],
+      [
+        0.0,
+        -1.7921668415965541e-07,
+        -22.0,
+        270.0
+      ],
+      [
+        0.0,
+        4.099999904632568,
+        -9.616505849407986e-07,
+        58.0000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 24,
+    "materials": [
+      {
+        "name": "Spatial twilight cloud volume 5",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.001",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.002",
+            "VECT_MATH"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Math",
+            "MATH"
+          ],
+          [
+            "Math.001",
+            "MATH"
+          ],
+          [
+            "Math.002",
+            "MATH"
+          ],
+          [
+            "Math.003",
+            "MATH"
+          ],
+          [
+            "Math.004",
+            "MATH"
+          ],
+          [
+            "Math.005",
+            "MATH"
+          ],
+          [
+            "Math.006",
+            "MATH"
+          ],
+          [
+            "Twilight cloud density",
+            "PRINCIPLED_VOLUME"
+          ],
+          [
+            "Math.007",
+            "MATH"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spatial twilight cloud volume 6",
+    "type": "MESH",
+    "location": [
+      -80.0,
+      94.0,
+      -305.0
+    ],
+    "scale": [
+      120.0,
+      3.200000047683716,
+      21.0
+    ],
+    "matrix": [
+      [
+        120.0,
+        0.0,
+        0.0,
+        -80.0
+      ],
+      [
+        0.0,
+        -1.3987644820190326e-07,
+        -21.0,
+        305.0
+      ],
+      [
+        0.0,
+        3.200000047683716,
+        -9.179391327052144e-07,
+        94.00001525878906
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 24,
+    "materials": [
+      {
+        "name": "Spatial twilight cloud volume 6",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.001",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.002",
+            "VECT_MATH"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Math",
+            "MATH"
+          ],
+          [
+            "Math.001",
+            "MATH"
+          ],
+          [
+            "Math.002",
+            "MATH"
+          ],
+          [
+            "Math.003",
+            "MATH"
+          ],
+          [
+            "Math.004",
+            "MATH"
+          ],
+          [
+            "Math.005",
+            "MATH"
+          ],
+          [
+            "Math.006",
+            "MATH"
+          ],
+          [
+            "Twilight cloud density",
+            "PRINCIPLED_VOLUME"
+          ],
+          [
+            "Math.007",
+            "MATH"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spatial twilight cloud volume 7",
+    "type": "MESH",
+    "location": [
+      110.0,
+      112.0,
+      -330.0
+    ],
+    "scale": [
+      90.0,
+      2.299999952316284,
+      18.0
+    ],
+    "matrix": [
+      [
+        90.0,
+        0.0,
+        0.0,
+        110.0
+      ],
+      [
+        0.0,
+        -1.0053619092786903e-07,
+        -18.0,
+        330.0
+      ],
+      [
+        0.0,
+        2.299999952316284,
+        -7.868050033721374e-07,
+        112.00001525878906
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 24,
+    "materials": [
+      {
+        "name": "Spatial twilight cloud volume 7",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.001",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.002",
+            "VECT_MATH"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Math",
+            "MATH"
+          ],
+          [
+            "Math.001",
+            "MATH"
+          ],
+          [
+            "Math.002",
+            "MATH"
+          ],
+          [
+            "Math.003",
+            "MATH"
+          ],
+          [
+            "Math.004",
+            "MATH"
+          ],
+          [
+            "Math.005",
+            "MATH"
+          ],
+          [
+            "Math.006",
+            "MATH"
+          ],
+          [
+            "Twilight cloud density",
+            "PRINCIPLED_VOLUME"
+          ],
+          [
+            "Math.007",
+            "MATH"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spatial twilight cloud volume 8",
+    "type": "MESH",
+    "location": [
+      -100.0,
+      32.0,
+      -220.0
+    ],
+    "scale": [
+      106.0,
+      2.0999999046325684,
+      15.0
+    ],
+    "matrix": [
+      [
+        106.0,
+        0.0,
+        0.0,
+        -100.0
+      ],
+      [
+        0.0,
+        -9.179391469160691e-08,
+        -15.0,
+        220.0
+      ],
+      [
+        0.0,
+        2.0999999046325684,
+        -6.556708171956416e-07,
+        32.0000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 24,
+    "materials": [
+      {
+        "name": "Spatial twilight cloud volume 8",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.001",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.002",
+            "VECT_MATH"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Math",
+            "MATH"
+          ],
+          [
+            "Math.001",
+            "MATH"
+          ],
+          [
+            "Math.002",
+            "MATH"
+          ],
+          [
+            "Math.003",
+            "MATH"
+          ],
+          [
+            "Math.004",
+            "MATH"
+          ],
+          [
+            "Math.005",
+            "MATH"
+          ],
+          [
+            "Math.006",
+            "MATH"
+          ],
+          [
+            "Twilight cloud density",
+            "PRINCIPLED_VOLUME"
+          ],
+          [
+            "Math.007",
+            "MATH"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spatial twilight cloud volume 9",
+    "type": "MESH",
+    "location": [
+      100.0,
+      37.0,
+      -240.0
+    ],
+    "scale": [
+      104.0,
+      2.799999952316284,
+      17.0
+    ],
+    "matrix": [
+      [
+        104.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      [
+        0.0,
+        -1.2239188151852431e-07,
+        -17.0,
+        240.0
+      ],
+      [
+        0.0,
+        2.799999952316284,
+        -7.430936079799721e-07,
+        37.0000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 24,
+    "materials": [
+      {
+        "name": "Spatial twilight cloud volume 9",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.001",
+            "VECT_MATH"
+          ],
+          [
+            "Vector Math.002",
+            "VECT_MATH"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Math",
+            "MATH"
+          ],
+          [
+            "Math.001",
+            "MATH"
+          ],
+          [
+            "Math.002",
+            "MATH"
+          ],
+          [
+            "Math.003",
+            "MATH"
+          ],
+          [
+            "Math.004",
+            "MATH"
+          ],
+          [
+            "Math.005",
+            "MATH"
+          ],
+          [
+            "Math.006",
+            "MATH"
+          ],
+          [
+            "Twilight cloud density",
+            "PRINCIPLED_VOLUME"
+          ],
+          [
+            "Math.007",
+            "MATH"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rolling meadow ground",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 40401,
+    "materials": [
+      {
+        "name": "Rolling meadow ground",
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Image Texture",
+            "TEX_IMAGE"
+          ],
+          [
+            "Mix (Legacy)",
+            "MIX_RGB"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Individual meadow flowers",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 26000,
+    "materials": []
+  },
+  {
+    "name": "Modeled flower stems",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 26000,
+    "materials": []
+  },
+  {
+    "name": "Spatial grass blades",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 42000,
+    "materials": []
+  },
+  {
+    "name": "Native enclosing night sky",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 1986,
+    "materials": [
+      {
+        "name": "Spatial calibrated night sky v12",
+        "nodes": [
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Vector Math",
+            "VECT_MATH"
+          ],
+          [
+            "Environment Texture",
+            "TEX_ENVIRONMENT"
+          ],
+          [
+            "Emission",
+            "EMISSION"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Individual meadow flowers prototype",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 105,
+    "materials": [
+      {
+        "name": "Individual meadow flowers vertex pigments",
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Attribute",
+            "ATTRIBUTE"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Modeled flower stems prototype",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 34,
+    "materials": [
+      {
+        "name": "Modeled flower stems",
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spatial grass blades prototype",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertices": 36,
+    "materials": [
+      {
+        "name": "Spatial grass blades",
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ]
+      }
+    ]
+  }
+]

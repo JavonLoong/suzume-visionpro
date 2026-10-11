@@ -1,0 +1,63 @@
+{
+  "reference": "official_front.jpg",
+  "reference_size": [
+    630,
+    750
+  ],
+  "changes": [
+    {
+      "change": "Remove two unsupported large entrance arches",
+      "reference_centres_px": [
+        [
+          19,
+          482
+        ],
+        [
+          457,
+          493
+        ]
+      ]
+    },
+    {
+      "change": "Main right facade terminates near x=563, no longer across the whole frame",
+      "reference_corner_px": [
+        563,
+        520
+      ]
+    },
+    {
+      "change": "Separate right main wing, return, elevated arcade and distant low building",
+      "depth_status": "inferred, not triangulated"
+    },
+    {
+      "change": "Restore solid upper-left wall masses and recessed windows",
+      "reference_bounds_px": [
+        [
+          89,
+          414,
+          143,
+          445
+        ],
+        [
+          147,
+          420,
+          190,
+          450
+        ],
+        [
+          199,
+          426,
+          255,
+          454
+        ]
+      ]
+    }
+  ],
+  "removed_objects": 364,
+  "limitations": [
+    "Single-image positions are constrained; 3D depth is not solved",
+    "Do not treat Hunyuan generation as geometric ground truth",
+    "Side and rear layout remain unverified",
+    "No 1:1 completion claim"
+  ]
+}

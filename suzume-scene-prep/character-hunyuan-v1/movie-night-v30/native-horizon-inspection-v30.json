@@ -1,0 +1,76 @@
+{
+  "source": "Suzume_scene_movie_night_v30.blend",
+  "object": "Rolling meadow ground",
+  "vertices": 40401,
+  "worldBounds": [
+    [
+      -200.0,
+      -200.0,
+      -0.29894188046455383
+    ],
+    [
+      200.0,
+      200.0,
+      1.3944603204727173
+    ]
+  ],
+  "farEdgeHeightRange": [
+    -0.2465643733739853,
+    0.2242540866136551
+  ],
+  "crossSectionsNearCenter": [
+    {
+      "depth": 0,
+      "count": 29,
+      "heightRange": [
+        -0.11793550848960876,
+        0.08255232125520706
+      ]
+    },
+    {
+      "depth": 25,
+      "count": 58,
+      "heightRange": [
+        -0.08061826974153519,
+        0.16513516008853912
+      ]
+    },
+    {
+      "depth": 50,
+      "count": 29,
+      "heightRange": [
+        -0.0331936813890934,
+        0.1698649823665619
+      ]
+    },
+    {
+      "depth": 100,
+      "count": 29,
+      "heightRange": [
+        0.7690708637237549,
+        0.9711154103279114
+      ]
+    },
+    {
+      "depth": 150,
+      "count": 29,
+      "heightRange": [
+        0.3387545943260193,
+        0.6277835369110107
+      ]
+    },
+    {
+      "depth": 200,
+      "count": 29,
+      "heightRange": [
+        -0.14644353091716766,
+        0.2130897045135498
+      ]
+    }
+  ],
+  "materials": [
+    "Rolling meadow ground"
+  ],
+  "sceneModified": false,
+  "interpretation": "The far boundary is a real edge of the finite ground mesh. Additional distant terrain and low haze require inferred geometry; preserve the near-door ground and plant positions."
+}

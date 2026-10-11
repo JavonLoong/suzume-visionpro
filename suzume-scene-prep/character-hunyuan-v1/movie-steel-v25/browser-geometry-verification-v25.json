@@ -1,0 +1,20 @@
+{
+  "revision": 25,
+  "allNativeMeshPositionBuffersMatch": true,
+  "newParts": 732,
+  "triangles": 114004,
+  "shaderConstruction": [
+    {
+      "material": "steel",
+      "worldSpaceCorrosionInjection": true
+    },
+    {
+      "material": "edge",
+      "worldSpaceCorrosionInjection": true
+    }
+  ],
+  "inlineScriptsParsed": 1,
+  "browserRuntimeVerified": false,
+  "glslDriverCompilationVerified": false,
+  "oneToOneComplete": false
+}

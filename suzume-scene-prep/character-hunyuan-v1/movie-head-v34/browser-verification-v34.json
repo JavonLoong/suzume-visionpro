@@ -1,0 +1,35 @@
+{
+  "revision": 34,
+  "meshChecks": [
+    {
+      "part": "Suzume mathematical head v34",
+      "materialPrimitives": 12,
+      "triangles": 135992,
+      "exportedVertices": 70093,
+      "nativeVertices": 69140,
+      "maximumExportDistance": 1.8631214167207442e-07,
+      "maximumNativeDistance": 1.8631214167207442e-07
+    },
+    {
+      "part": "Suzume Hunyuan textured surface",
+      "materialPrimitives": 1,
+      "triangles": 408817,
+      "exportedVertices": 241992,
+      "nativeVertices": 241846,
+      "maximumExportDistance": 0.0,
+      "maximumNativeDistance": 0.0
+    }
+  ],
+  "httpResourcesVerified": [
+    "viewer/candidate-v34.html",
+    "viewer/character-v34/suzume-posed-v34.gltf",
+    "viewer/character-v34/suzume-posed-v34.glb",
+    "viewer/character-v34/suzume-posed-v34.bin",
+    "viewer/character-v34/texture-0.png",
+    "viewer/character-v34/texture-1.png",
+    "viewer/character-v34/texture-2.png"
+  ],
+  "inlineSyntaxVerified": true,
+  "rigidDoorAndDepthAwareNightPathsRetained": true,
+  "browserRuntimeVerified": false
+}

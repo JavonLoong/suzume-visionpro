@@ -1,0 +1,119 @@
+[
+  {
+    "pixel": [
+      116,
+      100
+    ],
+    "object": "I-section support column 27 v25",
+    "point": [
+      -7.088230133056641,
+      21.859560012817383,
+      4.477043151855469
+    ],
+    "material": "Film corroded I-section steel v25"
+  },
+  {
+    "pixel": [
+      119,
+      150
+    ],
+    "object": "I-section support column 27 v25",
+    "point": [
+      -7.026498794555664,
+      21.88214683532715,
+      2.9972617626190186
+    ],
+    "material": "Film corroded I-section steel v25"
+  },
+  {
+    "pixel": [
+      123,
+      150
+    ],
+    "object": "I-section support column 27 v25",
+    "point": [
+      -6.915832996368408,
+      21.922632217407227,
+      2.9974050521850586
+    ],
+    "material": "Film corroded I-section steel v25"
+  },
+  {
+    "pixel": [
+      524,
+      100
+    ],
+    "object": "I-section support column 0 v25",
+    "point": [
+      5.11570930480957,
+      22.513330459594727,
+      4.508161544799805
+    ],
+    "material": "Film corroded I-section steel v25"
+  },
+  {
+    "pixel": [
+      527,
+      100
+    ],
+    "object": "I-section support column 0 v25",
+    "point": [
+      5.203175067901611,
+      22.49092674255371,
+      4.5070953369140625
+    ],
+    "material": "Film corroded I-section steel v25"
+  },
+  {
+    "pixel": [
+      531,
+      100
+    ],
+    "object": "I-section support column 0 v25",
+    "point": [
+      5.319616317749023,
+      22.461091995239258,
+      4.505675315856934
+    ],
+    "material": "Film corroded I-section steel v25"
+  },
+  {
+    "pixel": [
+      524,
+      180
+    ],
+    "object": "I-section support column 0 v25",
+    "point": [
+      5.139812469482422,
+      22.50715446472168,
+      2.0898799896240234
+    ],
+    "material": "Film corroded I-section steel v25"
+  },
+  {
+    "pixel": [
+      527,
+      180
+    ],
+    "object": "I-section support column 0 v25",
+    "point": [
+      5.227686405181885,
+      22.484643936157227,
+      2.0903983116149902
+    ],
+    "material": "Film corroded I-section steel v25"
+  },
+  {
+    "pixel": [
+      531,
+      180
+    ],
+    "object": "I-section support column 0 v25",
+    "point": [
+      5.379828929901123,
+      22.68619728088379,
+      2.085757255554199
+    ],
+    "material": "Film corroded I-section steel v25"
+  }
+]

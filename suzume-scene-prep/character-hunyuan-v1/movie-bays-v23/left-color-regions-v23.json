@@ -1,0 +1,77 @@
+[
+  {
+    "name": "blue wall above middle rectangle",
+    "referenceBox": [
+      550,
+      351,
+      600,
+      387
+    ],
+    "renderBox": [
+      155,
+      99,
+      169,
+      109
+    ],
+    "referenceMedian": [
+      91.0,
+      99.0,
+      128.0
+    ],
+    "initialMedian": [
+      36.0,
+      66.0,
+      77.0
+    ]
+  },
+  {
+    "name": "wall beside arch",
+    "referenceBox": [
+      840,
+      559,
+      863,
+      620
+    ],
+    "renderBox": [
+      236,
+      157,
+      243,
+      175
+    ],
+    "referenceMedian": [
+      233.0,
+      228.0,
+      209.0
+    ],
+    "initialMedian": [
+      49.0,
+      89.0,
+      107.0
+    ]
+  },
+  {
+    "name": "wall above arch",
+    "referenceBox": [
+      745,
+      392,
+      797,
+      422
+    ],
+    "renderBox": [
+      210,
+      110,
+      224,
+      119
+    ],
+    "referenceMedian": [
+      203.0,
+      189.0,
+      187.0
+    ],
+    "initialMedian": [
+      47.0,
+      83.0,
+      96.0
+    ]
+  }
+]

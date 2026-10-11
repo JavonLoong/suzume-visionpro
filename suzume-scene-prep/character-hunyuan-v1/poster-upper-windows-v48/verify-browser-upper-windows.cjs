@@ -1,0 +1,32 @@
+const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('assert');
+const root=path.dirname(__dirname),T=require(path.join(root,'viewer/three.min.js')),spec=JSON.parse(fs.readFileSync(path.join(__dirname,'browser-upper-windows-v48.json'))),raw=fs.readFileSync(path.join(__dirname,'upper-facade-v48.bin'));
+const B=path.join(root,'poster-railings-v46'),source=JSON.parse(fs.readFileSync(path.join(B,'browser-source-audit-v46.json'))),scene=new T.Scene(),original=[];
+for(const count of source.hotelVertexCounts){const geo=new T.BufferGeometry();geo.setAttribute('position',new T.BufferAttribute(new Float32Array(count*3),3));const mat=count===119061?new T.MeshBasicMaterial({toneMapped:false,fog:false}):new T.MeshStandardMaterial();const ob=new T.Mesh(geo,mat);ob.name='Circular ruined hotel with exterior entrance solid mesh';scene.add(ob);original.push(ob);}
+const steel=new T.Group();steel.name='Reference-observed poster steel v44';scene.add(steel);
+const ivy=new T.InstancedMesh(new T.PlaneGeometry(.15,.18),new T.MeshStandardMaterial(),source.ivyCount);ivy.name='Individual three-dimensional ivy leaves';scene.add(ivy);
+const data=fs.readFileSync(path.join(B,'original-ivy-matrices-v46.bin'));ivy.instanceMatrix.array.set(new Float32Array(data.buffer.slice(data.byteOffset,data.byteOffset+data.byteLength)));
+const requested=[];T.TextureLoader=class{load(url,done){requested.push(url);const png=fs.readFileSync(path.resolve(root,'viewer',url));assert.equal(png.toString('hex',0,8),'89504e470d0a1a0a');const tex=new T.Texture();tex.userData={source:url};done(tex);return tex;}};
+const sandbox={Promise,Map,Set,Error,Float32Array,Math,fetch:async url=>{requested.push(url);const file=path.resolve(root,'viewer',url);assert(file.startsWith(root+path.sep));const b=fs.readFileSync(file);return{ok:true,json:async()=>JSON.parse(b.toString()),arrayBuffer:async()=>b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength)};}};vm.createContext(sandbox);
+for(const file of ['poster-railings-v46/browser-railings.js','poster-fascia-v47/browser-fascia.js','poster-upper-windows-v48/browser-upper-windows.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),sandbox);
+(async()=>{
+ const evidence={};await sandbox.applyPosterRailings46(T,scene,evidence);await sandbox.applyPosterFascia47(T,scene,evidence);
+ const targets=new Map(),mats=new Map();let disposed=0;
+ for(const q of spec.buckets.filter(q=>q.materialSource)){const ob=q.previousLocation==='v46'?scene.getObjectByName('Poster facade '+q.key+' v46'):scene.children.find(o=>o.isMesh&&o.name==='Circular ruined hotel with exterior entrance solid mesh'&&o.geometry.attributes.position.count===q.originalVertexCount);assert(ob);targets.set(q.key,ob);mats.set(q.key,ob.material);ob.geometry.addEventListener('dispose',()=>disposed++);}
+ const untouched=[];scene.traverse(ob=>{if(ob!==scene&&!Array.from(targets.values()).includes(ob))untouched.push([ob,ob.parent,ob.geometry,ob.material,ob.matrix.clone()]);});const ivyBefore=ivy.instanceMatrix.array.slice();
+ await sandbox.applyPosterUpperWindows48(T,scene,evidence);assert.equal(disposed,7);for(const ob of targets.values())assert.strictEqual(ob.parent,null);
+ for(const [ob,parent,geometry,material,matrix] of untouched){assert.strictEqual(ob.parent,parent);assert.strictEqual(ob.geometry,geometry);assert.strictEqual(ob.material,material);assert(ob.matrix.equals(matrix));}assert.deepStrictEqual(ivy.instanceMatrix.array,ivyBefore);
+ const group=scene.getObjectByName('Poster corrected upper window storey v48');assert.equal(group.children.length,spec.buckets.length);let triangles=0;
+ for(const q of spec.buckets){
+  const ob=group.getObjectByName('Poster upper facade '+q.key+' v48');assert(ob.castShadow&&ob.receiveShadow);assert(ob.matrix.equals(new T.Matrix4()));
+  for(const [name,offset,width] of [['position',0,3],['normal',3,3],['uv',6,2]]){const a=ob.geometry.attributes[name].array;assert.equal(a.length,q.vertexCount*width);for(let i=0;i<q.vertexCount;i++)for(let j=0;j<width;j++)assert.equal(a[i*width+j],raw.readFloatLE(q.byteOffset+(i*8+offset+j)*4));}
+  if(q.materialOverrideNewIndex!==undefined){assert.notStrictEqual(ob.material,mats.get(q.materialSource));assert.equal(ob.material.type,'MeshBasicMaterial');assert.equal(ob.material.map.encoding,T.sRGBEncoding);assert(ob.material.map.userData.source.endsWith(spec.cleanAtlasFile));}
+  else if(q.materialSource)assert.strictEqual(ob.material,mats.get(q.materialSource));
+  else if(q.newMaterialIndex===0){assert.notStrictEqual(ob.material,mats.get('mesh18'));assert.equal(ob.material.type,'MeshBasicMaterial');assert.equal(ob.material.toneMapped,false);assert.equal(ob.material.map.encoding,T.sRGBEncoding);assert(ob.material.map.userData.source.endsWith(spec.atlasFile));}
+  else if(q.newMaterialIndex===3)assert.strictEqual(ob.material,mats.get('mesh16'));
+  else{const m=spec.newMaterials[q.newMaterialIndex];assert.deepStrictEqual(ob.material.color.toArray(),m.linearRGB);assert.equal(ob.material.roughness,m.roughness);assert.equal(ob.material.metalness,m.metalness);}
+  triangles+=q.vertexCount/3;
+ }
+ const html=fs.readFileSync(path.join(root,'viewer/poster-v48.html'),'utf8');let scripts=0;for(const q of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g))if(q[2].trim()){new vm.Script(q[2]);scripts++;}
+ const calls=['await applyPosterRailings46(T,scene,root);','await applyPosterFascia47(T,scene,root);','await applyPosterUpperWindows48(T,scene,root);'];for(let i=0;i<calls.length;i++){assert(html.includes(calls[i]));if(i)assert(html.indexOf(calls[i])>html.indexOf(calls[i-1]));}assert(html.includes('suzume-poster-view-v48'));assert.equal(triangles,spec.triangles);
+ const report={revision:48,nativeSha256:spec.nativeSha256,threeRevision:T.REVISION,inlineScriptsParsed:scripts,triangles,buckets:spec.buckets.length,previousFacadeBucketsReplaced:7,positionsNormalsUVsMatchNativeExactly:true,previousUnaffectedGeometryMaterialsAndIvyPreserved:true,unmodifiedOriginalMaterialInstancesReused:true,isolatedSourceResolutionAtlasLoaded:true,browserRuntimeVerified:false,browserMaterialsApproximate:true,scope:'Actual Three.js construction and chained v46-v48 data loading in Node; texture PNG bytes checked with a loader shim. No browser/GPU rendering.'};fs.writeFileSync(path.join(__dirname,'browser-code-verification-v48.json'),JSON.stringify(report,null,2));console.log('UPPER_WINDOWS_48_BROWSER_DATA_VERIFIED',triangles);
+})().catch(error=>{console.error(error);process.exitCode=1;});

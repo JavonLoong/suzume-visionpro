@@ -1,0 +1,111 @@
+{
+  "revision": 39,
+  "nativeSha256": "478a0aa3a14eaadde0bbe9353a08574dbf204a282a2f66a93c093d76c2c1e438",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "closedMembers": [
+    {
+      "name": "Poster right I-section post 2 v39",
+      "triangles": 3836,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.3346308951837394
+    },
+    {
+      "name": "Poster right I-section post 3 v39",
+      "triangles": 3836,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.35428821043833564
+    },
+    {
+      "name": "Poster inner grounded footing v39",
+      "triangles": 12,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.13394693892118814
+    },
+    {
+      "name": "Poster Upper continuous tie v39",
+      "triangles": 2996,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.12110333532245308
+    },
+    {
+      "name": "Poster Bent broken central beam v39",
+      "triangles": 4148,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.2552796842650287
+    },
+    {
+      "name": "Poster Short broken right tie v39",
+      "triangles": 1580,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.06021482779789524
+    },
+    {
+      "name": "Poster Lower broken ring beam v39",
+      "triangles": 3380,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.14645136184444402
+    },
+    {
+      "name": "Poster Curved left supporting bracket v39",
+      "triangles": 836,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.009015205366694439
+    },
+    {
+      "name": "Poster Curved right supporting bracket v39",
+      "triangles": 956,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.010147937932250026
+    },
+    {
+      "name": "Poster Bracket horizontal brace v39",
+      "triangles": 500,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.002777001942648892
+    },
+    {
+      "name": "Poster Bracket left upright v39",
+      "triangles": 236,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001219946652379949
+    },
+    {
+      "name": "Poster Bracket diagonal brace v39",
+      "triangles": 236,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001365672447354184
+    },
+    {
+      "name": "Poster Bracket right diagonal v39",
+      "triangles": 236,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0013664812504075204
+    },
+    {
+      "name": "Poster Bracket right upright v39",
+      "triangles": 236,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001338520073006636
+    },
+    {
+      "name": "Poster Hanging central tie v39",
+      "triangles": 572,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0009022108332550424
+    },
+    {
+      "name": "Poster Hanging lower tie v39",
+      "triangles": 500,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007745861993975198
+    }
+  ],
+  "checkedConnectedJoints": 23,
+  "allCheckedConnectionsIntersect": true,
+  "browserTriangles": 65964,
+  "browserGeometryExportVerified": true,
+  "browserMaterialsApproximate": true,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

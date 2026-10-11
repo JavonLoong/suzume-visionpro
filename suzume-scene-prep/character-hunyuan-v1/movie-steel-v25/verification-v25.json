@@ -1,0 +1,50 @@
+{
+  "revision": 25,
+  "freshReopenVerified": true,
+  "allOtherDayMeshesUnchanged": 899,
+  "charactersAndPortalPreserved": true,
+  "newParts": 732,
+  "closedStructuralSections": 57,
+  "mainColumnCrossSectionRays": [
+    {
+      "column": 27,
+      "sample": "web",
+      "hit": true
+    },
+    {
+      "column": 27,
+      "sample": "flange",
+      "hit": true
+    },
+    {
+      "column": 27,
+      "sample": "I-section recessed cavity",
+      "hit": false
+    },
+    {
+      "column": 0,
+      "sample": "web",
+      "hit": true
+    },
+    {
+      "column": 0,
+      "sample": "flange",
+      "hit": true
+    },
+    {
+      "column": 0,
+      "sample": "I-section recessed cavity",
+      "hit": false
+    }
+  ],
+  "attachedIvyLeaves": 202,
+  "proceduralIsotropicMetal": true,
+  "movedFillPreservesForegroundBehindEmitter": true,
+  "doorLightPowerByFrame": {
+    "1": 0.0,
+    "24": 0.0,
+    "72": 15.0,
+    "120": 15.0
+  },
+  "oneToOneComplete": false
+}

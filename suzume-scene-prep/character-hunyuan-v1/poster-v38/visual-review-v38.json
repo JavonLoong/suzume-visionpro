@@ -1,0 +1,24 @@
+{
+  "revision": 38,
+  "acceptedAsIncrementalImprovement": true,
+  "currentMovieEnvironmentAtPosterCameraReviewed": true,
+  "originalOfficialPosterReviewed": true,
+  "posterFrontFinalReviewed": true,
+  "posterObliqueReviewed": true,
+  "observations": [
+    "Restoring a dedicated environment recovers the poster steel tips, building arrangement and reflection layout that movie-specific edits had changed.",
+    "The native color conversion now preserves more of the source-painted cloud blue shadows and brighter white edges.",
+    "The oblique view shows a complete courtyard and spatial clouds rather than a whole-scene image plane.",
+    "The film scene remains unchanged; poster and movie use independent geometry, materials and cameras."
+  ],
+  "remaining": [
+    "Reconstruct the prominent broken upper I-beam to the right of the door; current generic dome ties do not reproduce its bent silhouette.",
+    "Match the poster water reflection strength, horizontal glints, transparency and foreground ripple spacing.",
+    "Refine faceted distant clouds, fine cloud contours and inferred back surfaces.",
+    "Align poster facade openings, rooftop equipment, ivy and shore debris in multiple views; baked surface lighting remains approximate.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both freely rotatable browser candidates in a functioning browser."
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

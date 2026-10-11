@@ -1,0 +1,155 @@
+{
+  "revision": 45,
+  "nativeSha256": "934df5dbec658241e56773fa0d15bfd221358c624120e609b7603a1b936075ba",
+  "strideFloats": 8,
+  "buckets": [
+    {
+      "key": "mesh0",
+      "byteOffset": 0,
+      "byteLength": 803712,
+      "vertexCount": 25116,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.019"
+      ],
+      "originalVertexCount": 28476
+    },
+    {
+      "key": "mesh10",
+      "byteOffset": 803712,
+      "byteLength": 121152,
+      "vertexCount": 3786,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.029"
+      ],
+      "originalVertexCount": 3894
+    },
+    {
+      "key": "mesh18",
+      "byteOffset": 924864,
+      "byteLength": 3809280,
+      "vertexCount": 119040,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.037"
+      ],
+      "originalVertexCount": 119061
+    },
+    {
+      "key": "mesh6",
+      "byteOffset": 4734144,
+      "byteLength": 126720,
+      "vertexCount": 3960,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.025"
+      ],
+      "originalVertexCount": 5184
+    },
+    {
+      "key": "mesh8",
+      "byteOffset": 4860864,
+      "byteLength": 11267904,
+      "vertexCount": 352122,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.027"
+      ],
+      "originalVertexCount": 355089
+    },
+    {
+      "key": "new0",
+      "byteOffset": 16128768,
+      "byteLength": 222336,
+      "vertexCount": 6948,
+      "sourceObjects": [
+        "Poster rooftop left service house v45",
+        "Poster rooftop central water tank v45",
+        "Poster rooftop partly visible left water tank v45"
+      ],
+      "newMaterialKey": "new0"
+    },
+    {
+      "key": "new1",
+      "byteOffset": 16351104,
+      "byteLength": 281856,
+      "vertexCount": 8808,
+      "sourceObjects": [
+        "Poster rooftop left service house v45",
+        "Poster rooftop right service house v45",
+        "Poster rooftop central water tank v45",
+        "Poster rooftop partly visible left water tank v45"
+      ],
+      "newMaterialKey": "new1"
+    },
+    {
+      "key": "new2",
+      "byteOffset": 16632960,
+      "byteLength": 254976,
+      "vertexCount": 7968,
+      "sourceObjects": [
+        "Poster rooftop left service house v45",
+        "Poster rooftop right service house v45",
+        "Poster rooftop central water tank v45"
+      ],
+      "newMaterialKey": "new2"
+    },
+    {
+      "key": "new3",
+      "byteOffset": 16887936,
+      "byteLength": 1152,
+      "vertexCount": 36,
+      "sourceObjects": [
+        "Poster rooftop right service house v45"
+      ],
+      "newMaterialKey": "new3"
+    }
+  ],
+  "newMaterials": [
+    {
+      "key": "new0",
+      "name": "Poster rooftop blue grey metal casing v45",
+      "linearRGB": [
+        0.5087903738021851,
+        0.3564266264438629,
+        0.29624849557876587
+      ],
+      "roughness": 0.82,
+      "metalness": 0.12
+    },
+    {
+      "key": "new1",
+      "name": "Poster rooftop pale edge and rim v45",
+      "linearRGB": [
+        0.6155909299850464,
+        0.5509619116783142,
+        0.4855315387248993
+      ],
+      "roughness": 0.82,
+      "metalness": 0.12
+    },
+    {
+      "key": "new2",
+      "name": "Poster rooftop dark pipe and ladder v45",
+      "linearRGB": [
+        0.0802198201417923,
+        0.09305896610021591,
+        0.09530746936798096
+      ],
+      "roughness": 0.82,
+      "metalness": 0.12
+    },
+    {
+      "key": "new3",
+      "name": "Poster rooftop right house grey casing v45",
+      "linearRGB": [
+        0.18316452205181122,
+        0.19959892332553864,
+        0.2073739469051361
+      ],
+      "roughness": 0.82,
+      "metalness": 0.12
+    }
+  ],
+  "binarySha256": "15041d18bbd678ec77c162412a5ba3cc6c0d2d9288557a7d597d4f9baba54a88",
+  "triangles": 175928,
+  "closedAssemblies": 4,
+  "browserMaterialsApproximate": true,
+  "browserRuntimeVerified": false
+}

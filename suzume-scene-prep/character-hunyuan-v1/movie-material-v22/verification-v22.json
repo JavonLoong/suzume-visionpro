@@ -1,0 +1,74 @@
+{
+  "revision": 22,
+  "freshReopenVerified": true,
+  "characters": {
+    "Suzume Hunyuan textured surface": {
+      "vertices": 241846,
+      "worldHash": "bda994f4f36c980ac7e48122ea45f395ce5defbd723d5c82f514aeca5561de47"
+    },
+    "Suzume independent Hunyuan head": {
+      "vertices": 171025,
+      "worldHash": "18c45d8888b875316b92a28d4c4881644c277126dd04df9f8ea9894ccb9a483d"
+    },
+    "Left gold hairpin": {
+      "vertices": 104,
+      "worldHash": "98cf3c457b11f456db8495b46ac528e8263197b9b10ae42787b1e707ea707ff9"
+    },
+    "Left red hairpin diagonal": {
+      "vertices": 104,
+      "worldHash": "101fc7b7e687be5adf86afd93e3fd5f0a81a3af1d6a38aea750406d6880565d9"
+    },
+    "Left red hairpin crossbar": {
+      "vertices": 104,
+      "worldHash": "8bfd65fcffae78cba0225f8a869a59689e1251d35afb64ed9a869565614d5dbd"
+    }
+  },
+  "bodyHeadHairpinWorldVerticesPreserved": true,
+  "portalAndFootCorrectionPreserved": true,
+  "wallGeometryPreserved": true,
+  "wallWatertightAfterWelding": true,
+  "actualWindowOpenings": [
+    {
+      "target": "oculus",
+      "wallHit": false
+    },
+    {
+      "target": "rectangle",
+      "wallHit": false
+    },
+    {
+      "target": "wall",
+      "wallHit": true
+    }
+  ],
+  "facadeParts": 72,
+  "doorLightPowerByFrame": {
+    "1": 0.0,
+    "24": 0.0,
+    "72": 15.0,
+    "120": 15.0
+  },
+  "foregroundEntirelyBehindEmitter": [
+    {
+      "object": "Suzume Hunyuan textured surface",
+      "maximumEmitterForwardDistance": -23.33024835586548
+    },
+    {
+      "object": "Suzume independent Hunyuan head",
+      "maximumEmitterForwardDistance": -24.839226245880127
+    },
+    {
+      "object": "Left gold hairpin",
+      "maximumEmitterForwardDistance": -25.249683618545532
+    },
+    {
+      "object": "Left red hairpin diagonal",
+      "maximumEmitterForwardDistance": -25.24790596961975
+    },
+    {
+      "object": "Left red hairpin crossbar",
+      "maximumEmitterForwardDistance": -25.24690890312195
+    }
+  ],
+  "oneToOneComplete": false
+}

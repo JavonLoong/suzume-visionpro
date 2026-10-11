@@ -1,0 +1,19 @@
+{
+  "revision": 23,
+  "frontReviewed": true,
+  "obliqueReviewed": true,
+  "frontObservation": "The left rectangular windows are now separate openings with a solid divider, followed by the arched window. Two distinct rectangular windows are visible behind the right edge of the door. The rebuilding removes the poster-derived pigment misalignment on these four bays. Cool shade remains on the left, with a warmer lit region around the arch. The lit region is still too rounded and not as bright as parts of the film reference. Upper-story placement, podium height, missing continuous pipe runs and steelwork remain noticeably different.",
+  "obliqueObservation": "The angled view shows the fitted window reveals, projecting frames, arch fanlight, complete upper story, rooftop structures, entrance stairs and connected radial rooms. Geometry remains three-dimensional away from the reference view. Floating ivy, overly wood-like steel/pipe surfaces, broad spotlight boundaries and inferred room details remain conspicuous.",
+  "colorEvidence": "left-light-comparison-v23.json: the final three manual plaster samples have mean RGB distance 24.30. This is not overall scene similarity. The arched-window median was also checked during selection to avoid washing out the glazing.",
+  "foregroundEvidence": "foreground-color-v23.json: shirt and skirt sample medians match v22; the hair differs by at most one channel value. verification-v23.json freshly confirms the character world vertices, foot correction, shared complementary portal geometry, door light animation and all 72 v22 right-bay objects.",
+  "browserEvidence": "browser-geometry-verification-v23.json confirms four new lower walls match their native geometry within 0.000002 scene units. Browser code syntax and served resources are checked separately at release; runtime and interaction remain unverified because the supported browser connection has not yielded page state.",
+  "structuralFinding": "upper-story-gap-v23.json records the remaining arcade projection mismatch and a thin-lens hypothesis. The inherited 30 mm foreground lens should be reconsidered jointly with camera distance, circular bay spans and shared story lines. The approximately 82 mm estimate is a preliminary mathematical hypothesis, not a verified camera selection.",
+  "remaining": [
+    "检验固定 30 mm 镜头的假设，联合拟合镜头、机位、建筑开间和楼层线，并检查自由视角下的整体比例。",
+    "上层拱廊、临水台基、连续管道和残存钢架仍与电影参照有明显差异。",
+    "拱窗附近的日照边界、墙面污迹、藤叶分布和管道材质仍需精修。",
+    "水面反射、铺石、昼夜云层，以及人物脸型、发丝和握门姿态尚未达到一比一。",
+    "网页几何、脚本和资源已检查，但网页实际渲染与交互仍待复测。"
+  ],
+  "oneToOneComplete": false
+}

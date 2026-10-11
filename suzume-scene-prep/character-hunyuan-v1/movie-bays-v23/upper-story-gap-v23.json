@@ -1,0 +1,83 @@
+{
+  "revision": 23,
+  "finding": "The original upper-story geometry is retained and does not yet match the movie reference; the offset varies materially across the visible bays.",
+  "rows": [
+    {
+      "bay": 12,
+      "currentArcadeBaseLocalHeight": 4.66,
+      "sourceImageProjection": [
+        -137.51320447459398,
+        158.44601769390954
+      ],
+      "renderProjection": [
+        -38.79682884863153,
+        44.77822239175705
+      ],
+      "currentBayWidth": 3.2667863254827423
+    },
+    {
+      "bay": 13,
+      "currentArcadeBaseLocalHeight": 4.66,
+      "sourceImageProjection": [
+        596.4867985670915,
+        281.83319016280234
+      ],
+      "renderProjection": [
+        168.28781150795683,
+        79.64851026340065
+      ],
+      "currentBayWidth": 4.192036454022075
+    },
+    {
+      "bay": 14,
+      "currentArcadeBaseLocalHeight": 4.66,
+      "sourceImageProjection": [
+        1139.3580196397443,
+        348.5309526599123
+      ],
+      "renderProjection": [
+        321.44897105823503,
+        98.49787792562739
+      ],
+      "currentBayWidth": 3.6037545147502463
+    },
+    {
+      "bay": 15,
+      "currentArcadeBaseLocalHeight": 4.66,
+      "sourceImageProjection": [
+        1627.3833344265186,
+        376.8985698003457
+      ],
+      "renderProjection": [
+        459.1363639447858,
+        106.51481320444552
+      ],
+      "currentBayWidth": 4.659358562963315
+    }
+  ],
+  "manualReferenceArcadeBaseEstimates": {
+    "13": {
+      "y": 270,
+      "uncertaintyPixels": 15
+    },
+    "15": {
+      "y": 285,
+      "uncertaintyPixels": 15
+    }
+  },
+  "nextAction": "Revisit the fixed 30 mm lens assumption. Fit camera focal length/distance, circular bay spans and shared floor levels jointly using door and building landmarks before stretching upper levels or increasing the courtyard scale. Character/door projections and all-angle proportions must be re-validated.",
+  "hypothesis": "Existing bay angular spans were inherited from the poster reconstruction and may contribute to inconsistent movie-view roof and window proportions. This has not yet been solved.",
+  "oneToOneComplete": false,
+  "cameraAssumptionToRevisit": {
+    "status": "Unverified mathematical hypothesis, not an implemented camera change.",
+    "currentLensMm": 30,
+    "currentForegroundDistance": 4.04,
+    "sourceCourtyardRadius": 23.5,
+    "sourceWindowHeight": 2.14,
+    "referenceWindowHeightPixels": 234,
+    "approximateLensMm": 82.16292134831461,
+    "approximateForegroundDistance": 11.064606741573035,
+    "derivation": "Preserve the door magnification f/d = 30/4.04, then solve 234 = (1656/36) * f * 2.14 / (23.5 + d). This center-facing thin-lens estimate omits bay yaw, camera tilt and occlusion.",
+    "nextAction": "Revisit the fixed 30 mm lens assumption. Fit camera focal length/distance, circular bay spans and shared floor levels jointly using door and building landmarks before stretching upper levels or increasing the courtyard scale. Character/door projections and all-angle proportions must be re-validated."
+  }
+}

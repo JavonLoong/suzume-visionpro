@@ -1,0 +1,39 @@
+{
+  "source": "solid-scene.json",
+  "sourceSha256": "59d9086449b036e26200a720c7367303280b8aee0ae9f5fbe316987be386c4a8",
+  "hotelVertexCounts": [
+    28476,
+    4860,
+    2880,
+    7776,
+    2304,
+    288,
+    5184,
+    72,
+    355089,
+    6198,
+    3894,
+    54438,
+    738,
+    7080,
+    4641,
+    1758,
+    1716,
+    2070,
+    119061
+  ],
+  "ivyCount": 4443,
+  "ivyOriginalMatricesSha256": "b2f3625a3c2052d193a2797ed808f80b7a3f12c9b9e67658c9125fa01044fab8",
+  "maximumIvySourceTransformError": 1.3485550880432129e-06,
+  "nativeIvy": {
+    "sourceInstances": 4443,
+    "resizedLeftRoofLeaves": 352,
+    "roofLeafScaleFactor": 0.32,
+    "otherLeafScalesPreservedExactly": true,
+    "leafColorsPreservedExactly": true,
+    "realizedVertices": 44430,
+    "realizedTriangles": 35544,
+    "realizedColorsNonzero": true,
+    "nodeGroupIsolatedFromMovie": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "revision": 44,
+  "nativeSha256": "0015d1aba946addbbcd9d05a7922e720fb15c773c3ae4300566eb812b1f886c1",
+  "frontReviewed": true,
+  "leftSteelDetailReviewed": true,
+  "obliqueReviewed": true,
+  "referenceComparisonReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The final front restores the missing upper broken tie and curved brackets, lowers both long horizontal ties to their observed heights, and replaces three posts, two bowed broken beams, hanging rods and footings.",
+    "The enlarged official-reference/before/after comparison shows improved centerline alignment. The outer column now has multiple folded edges and a corrected cut plane. Its pale edges and weathering remain less irregular than the illustration; the middle and back posts also remain too clean.",
+    "The final oblique render shows the new members as solid depth-bearing geometry integrated into the circular courtyard. Physical overlap is independently verified at 27 intended joints. Hidden depths and cross sections are inferred from the scene, not measured from unseen official views.",
+    "The detail image is an unmodified copy of the reviewed final trial rendered from the same native SHA. Full front and oblique views were rendered from that saved model afterward.",
+    "Roof equipment, parapet and facade openings visibly differ from the reference. They were preserved in this revision and remain a major next priority.",
+    "Movie character, feet, portal partition, night scene and shared node groups are unchanged from the preceding verified native model.",
+    "Browser geometry, normals, UVs, material parameters and HTTP bytes pass their checks. A fresh Edge tab inventory attempt failed with nodeRepl.fetch request failed after 21.6 seconds. Actual browser/GPU rendering remains unverified."
+  ],
+  "remaining": [
+    "Align facade openings, rooftop equipment, parapet silhouette, ivy and shore debris. Inspect existing facade geometry before using it as an attachment target.",
+    "Refine pale steel edges, corrosion, irregular damage and connection details; left columns remain smoother and cleaner than the reference.",
+    "Refine lower-cloud ridge contours, pale gaps, hidden shapes and back lighting; some hidden banks remain too regular. Refine the five dominant clouds and other faint fragments.",
+    "Align submerged poster stone outlines and major water glints; reduce angular straightness from oblique views and tune reflected facade detail.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate water and steel materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false,
+  "reviewedImageSha256": {
+    "poster-front-v44.png": "33799b8360c506d4d89e9d1f0fdd51881fb2cfab3fdc6eb6e10eeaa16a97afea",
+    "left-steel-detail-v44.png": "735f6b5dfca0516b37a8fc1c3098f67cfd532b84019e6ecb6d4fd4f63f27dba0",
+    "poster-oblique-v44.png": "a09adc813207ed9560f3efe3b39299bb948832bd620d1b2b138c2251ec0549da"
+  }
+}

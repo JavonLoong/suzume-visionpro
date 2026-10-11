@@ -1,0 +1,47 @@
+{
+  "revision": 51,
+  "nativeSha256": "01726e6771ec7ba31008c64487b2c73a4d70c567eceaea34116191f50902b074",
+  "frontReviewed": true,
+  "detailReviewed": true,
+  "obliqueReviewed": true,
+  "obliqueDetailReviewed": true,
+  "referenceComparisonReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The former two box-like air-conditioning props and the high thick pipe were removed as 51 selected connected components, totaling 706 triangles across six existing mesh buckets. Their retained faces and UV coordinates are unchanged after saving and reopening.",
+    "The small object beside the door is interpreted as a discarded metal-backed chair from the visible rounded back, seat and leg frame. It now has a volumetric bent frame, thin seat, back panel, braces, and landing stone. Unseen construction and object interpretation remain inferred. The two leg assemblies contact their support with approximately 6.7 mm overlap.",
+    "The foreground horizontal pipe is lower and narrower, with a hollow bore, ring collars, a curved smaller return pipe, joints and a foot. Reference color is projected onto visible surfaces; corrosion, joints and concealed surfaces are still approximate.",
+    "256 oversized foreground ivy instances were removed. All 4187 retained point positions, rotations, scales and vertex pigments match the baseline exactly. The unchanged geometry-node setup evaluates to 41870 vertices and 33496 faces. Movie and night scenes, all shared node groups, other poster objects/materials/camera/lighting and all 23 packed images are preserved.",
+    "2108 small closed leaves, 126 tapered grass blades, fine petioles, branches and two climbing trails replace coarse local foliage. Their orientation and geometry are fixed in world space. The native close oblique shows dimensional foliage and a distinct chair frame, rather than camera-facing image cards. Vegetation is still too dark and locally clustered relative to the reference; exact branch distribution, submerged roots and concealed depth are not established.",
+    "The matching reference/before/after crop shows a finer foreground silhouette and removes the conspicuous boxes and broad leaves. Existing large rectangular stones, a flat dark retaining strip, pole footings, clean bright steel faces, adjacent uncorrected wall bays and the lower terrain remain substantial differences. These are visible in the full and close oblique renders.",
+    "32 new closed assemblies with 110324 triangles pass saved/reopened geometry, manifold-edge, positive-volume and vertex-pigment checks. They are actual volumetric meshes; foliage groups contain multiple separate closed leaves and branches.",
+    "The actual Three.js v46-v51 construction chain replaces six original mesh buckets, adds three material buckets and filters the original ivy while retaining all surviving matrices and colors exactly. Exported positions, normals, UVs and colors match the native data, existing materials are reused, and shared ivy resources are not disposed. 28 HTTP resources match local bytes. The browser inventory request timed out again; browser/GPU rendering remains unverified."
+  ],
+  "remaining": [
+    "Rebuild the low foreground ground/retaining strip, submerged stone edges, pole-foot debris and scattered irregular rocks. The current dark vertical band and oversized rectangular blocks are conspicuously unlike the reference from front and oblique views.",
+    "Refine vegetation density, color, upward shoots and individual vine turns. The new smaller leaves are dimensionally better, but some clumps are too dark or low; roots and hidden branches need contact checks against the reconstructed ground.",
+    "Refine chair frame/seat wear, pipe corrosion and bends, pipe supports, and the nearby low railing. The chair interpretation and concealed construction remain inferred from one partly occluded view.",
+    "Refine the new window panes and grilles: broken-glass boundaries, view-dependent reflection, sealing/bead detail, door hardware, worn stair edges and subtle facade moldings. Hidden construction remains inferred.",
+    "Continue the remaining lower-facade openings and upper oculus, especially around the right courtyard, while preserving the newly matched entrance and three-window group.",
+    "Refine the remaining arch groups around the courtyard, gray infill and glazing behavior, hidden rooms, and cornice seam/weathering detail. The new reference-facing group is an incremental geometric improvement; no single source image establishes its hidden construction.",
+    "Refine the two thin foreground hanger tips against the source. The first current modeled tip is approximately five pixels from the newly inspected source tip and the second roughly three pixels at 708x1000. Their photograph traces have now been removed from the wall atlas, exposing the remaining geometry alignment error.",
+    "Add better view-dependent glazing reflections and concealed frame/room detail. The new glass is a solid pane with fixed reference surface color; masked portions and unobserved construction remain inferred.",
+    "Refine the fascia surface wear, small joints and transitions. The main left black band has been corrected with solid facing, but the inferred hidden section and uniform finish are not an exact architectural reconstruction.",
+    "Match distinct ivy clumps and hanging trails. Left roof leaf size and native colors are improved, but leaf placement, other rooftop leaf sizes and vine stems remain approximate.",
+    "Refine railing paint variation and end supports, equipment weathering, tank shading, pipe bends and inferred hidden equipment surfaces.",
+    "Refine pale steel edges, corrosion and irregular damage; rebuilt steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water, steel and railing materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false,
+  "reviewedImageSha256": {
+    "poster-front-v51.png": "8bccbd55b97009bceb2f97028818b709f0e045bad0f78a02da524261b176e1ac",
+    "foreground-detail-v51.png": "a9d55910c0f6a7eec8346dfc90e07792cd785057fe3d501e64ad131d8aec87df",
+    "poster-oblique-v51.png": "607cb975f64eeeb122d4f211c45c3ff04a4f3cbf4d148a8765b06ee5055593c3",
+    "foreground-oblique-detail-v51.png": "54e25c8a6b05dc9e99cfb5acad5a8f804b08939abeccd8443ce38cdbe1061c47",
+    "foreground-comparison-v51.png": "b3e08c26093290c075826c6d5c8b1ebfd5b58dd0ec43aa67fb59e6f312fc1f53"
+  }
+}

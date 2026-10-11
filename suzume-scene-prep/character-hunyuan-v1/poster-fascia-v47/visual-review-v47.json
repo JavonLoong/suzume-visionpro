@@ -1,0 +1,34 @@
+{
+  "revision": 47,
+  "nativeSha256": "ca7dd4afaf662e113a6601ed355b0c25fe5246d6cff60bafabe9ac2f6ce8b340",
+  "frontReviewed": true,
+  "fasciaDetailReviewed": true,
+  "referenceComparisonReviewed": true,
+  "obliqueReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The exposed front and underside of the original dark interior ceiling slab caused the overly black left horizontal band. Four closed solid fascia sections now face the slab, with a recessed top bevel and a projecting lower drip edge; the original ceiling, roof support, railing, equipment and ivy remain unchanged.",
+    "The first material trial was too blue under the existing illumination. The accepted second trial adjusts the diffuse albedo and lowers the lower edge by 45 mm. The native detail now shows a muted gray-blue band closer to the reference; it is not an image card or emissive facade overlay.",
+    "In the unobstructed x=75..95, y=559..562 interval at 708x1000, median RGB changed from [5,22,27] to [85,98,106], versus reference [80,98,108.5]. This local diagnostic does not establish whole-scene equivalence.",
+    "The final front and oblique renders are from the same saved native file. The new fascia remains continuous from the side. All four closed solids intersect the original slab, and all three adjacent mitered joins overlap. No original poster object/material, movie state, night scene or shared node group changed.",
+    "Actual Three.js mesh construction reproduces exported coordinates, normals and per-triangle material assignments. Eighteen HTTP resources match saved bytes. Chrome was unavailable and Edge tab inspection failed again; browser GPU rendering and native/web appearance equivalence remain unverified."
+  ],
+  "remaining": [
+    "Align facade window and arch openings, their relief, parapet silhouette, right rooftop equipment and ground debris. Resolve mismatches between fixed pigment details and modeled openings.",
+    "Refine the fascia surface wear, small joints and transitions. The main left black band has been corrected with solid facing, but the inferred hidden section and uniform finish are not an exact architectural reconstruction.",
+    "Match distinct ivy clumps and hanging trails. Left roof leaf size and native colors are improved, but leaf placement, other rooftop leaf sizes and vine stems remain approximate.",
+    "Refine railing paint variation and end supports, equipment weathering, tank shading, pipe bends and inferred hidden equipment surfaces.",
+    "Refine pale steel edges, corrosion and irregular damage; rebuilt steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water, steel and railing materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false,
+  "reviewedImageSha256": {
+    "poster-front-v47.png": "75262d1365d3c636a7813cdf74fb10eb33d69a28d468dfcc3c55b7783333c33d",
+    "fascia-detail-v47.png": "66838e3974452d8946fa343c7787475956a387363dfbed6b9cf947ee5693a11f",
+    "poster-oblique-v47.png": "5d7a16e9bd227d05cae9054476d2b3ae5622e5d9a132ea8f88dd56f47cbba13d"
+  }
+}

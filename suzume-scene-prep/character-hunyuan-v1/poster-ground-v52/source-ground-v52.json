@@ -1,0 +1,2180 @@
+{
+  "sourceNativeSha256": "01726e6771ec7ba31008c64487b2c73a4d70c567eceaea34116191f50902b074",
+  "objects": [
+    {
+      "key": "mesh0",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.019",
+      "vertices": 23508,
+      "triangles": 7836,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.018"
+      ],
+      "bounds": [
+        [
+          -22.839746475219727,
+          -20.587795428929063,
+          -0.8410267234078751
+        ],
+        [
+          24.124753952026367,
+          24.327857678412197,
+          8.150000230292616
+        ]
+      ]
+    },
+    {
+      "key": "mesh1",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.020",
+      "vertices": 4710,
+      "triangles": 1570,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.019"
+      ],
+      "bounds": [
+        [
+          -22.53951644897461,
+          -16.825887821215858,
+          1.678033573180482
+        ],
+        [
+          22.591917037963867,
+          22.718648814531488,
+          6.521807077093313
+        ]
+      ]
+    },
+    {
+      "key": "mesh2",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.021",
+      "vertices": 2880,
+      "triangles": 960,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.020"
+      ],
+      "bounds": [
+        [
+          -28.06684112548828,
+          -17.517458166605422,
+          0.7999992462085221
+        ],
+        [
+          28.06684112548828,
+          28.16636272748206,
+          6.4000012929567385
+        ]
+      ]
+    },
+    {
+      "key": "mesh3",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.022",
+      "vertices": 6336,
+      "triangles": 2112,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.021"
+      ],
+      "bounds": [
+        [
+          -23.06133270263672,
+          -14.780451957966449,
+          0.332572038664092
+        ],
+        [
+          23.06133270263672,
+          23.16211492897561,
+          4.195001184109583
+        ]
+      ]
+    },
+    {
+      "key": "mesh4",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.023",
+      "vertices": 2016,
+      "triangles": 672,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.022"
+      ],
+      "bounds": [
+        [
+          -22.706174850463867,
+          -13.699572592020903,
+          0.42999941391070284
+        ],
+        [
+          22.866840362548828,
+          22.417215318440523,
+          0.8900009559185751
+        ]
+      ]
+    },
+    {
+      "key": "mesh5",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.024",
+      "vertices": 216,
+      "triangles": 72,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.023"
+      ],
+      "bounds": [
+        [
+          -22.703086853027344,
+          -4.627337527243857,
+          1.4615997437546895
+        ],
+        [
+          22.703086853027344,
+          23.103033001907335,
+          1.6356009806832148
+        ]
+      ]
+    },
+    {
+      "key": "mesh6",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.025",
+      "vertices": 3888,
+      "triangles": 1296,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.024"
+      ],
+      "bounds": [
+        [
+          -22.71910285949707,
+          -6.063222242682599,
+          0.15764893322161044
+        ],
+        [
+          24.7540225982666,
+          22.7415256170643,
+          7.964800502301944
+        ]
+      ]
+    },
+    {
+      "key": "mesh7",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.026",
+      "vertices": 72,
+      "triangles": 24,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.025"
+      ],
+      "bounds": [
+        [
+          -16.37880516052246,
+          -15.579541289612012,
+          -0.8362343904972702
+        ],
+        [
+          18.073644638061523,
+          20.282836857936232,
+          2.5064471618720234
+        ]
+      ]
+    },
+    {
+      "key": "mesh8",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "vertices": 308349,
+      "triangles": 102783,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.026"
+      ],
+      "bounds": [
+        [
+          -27.984182357788086,
+          -27.286840443432467,
+          -0.04500119453381688
+        ],
+        [
+          27.984182357788086,
+          28.12466410119711,
+          7.742336447641113
+        ]
+      ]
+    },
+    {
+      "key": "mesh9",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "vertices": 5688,
+      "triangles": 1896,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.027"
+      ],
+      "bounds": [
+        [
+          -27.91918182373047,
+          -24.746250184497203,
+          -0.22000106559969498
+        ],
+        [
+          27.91918182373047,
+          28.059253702243456,
+          5.667501030966513
+        ]
+      ]
+    },
+    {
+      "key": "mesh10",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.029",
+      "vertices": 3333,
+      "triangles": 1111,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.028"
+      ],
+      "bounds": [
+        [
+          -27.990015029907227,
+          -20.928186660098415,
+          -6.632307414540235e-07
+        ],
+        [
+          28.021841049194336,
+          25.245017749222352,
+          7.145000319109373
+        ]
+      ]
+    },
+    {
+      "key": "mesh11",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.030",
+      "vertices": 44190,
+      "triangles": 14730,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.029"
+      ],
+      "bounds": [
+        [
+          -23.447834014892578,
+          -20.77299712692381,
+          0.26401250172497537
+        ],
+        [
+          23.411840438842773,
+          23.482089943009996,
+          7.264000592420952
+        ]
+      ]
+    },
+    {
+      "key": "mesh12",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.031",
+      "vertices": 612,
+      "triangles": 204,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.030"
+      ],
+      "bounds": [
+        [
+          -18.214641571044922,
+          -20.75132005135718,
+          0.8799990881626274
+        ],
+        [
+          18.18412971496582,
+          17.29995702273879,
+          6.2800009660135
+        ]
+      ]
+    },
+    {
+      "key": "mesh13",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.032",
+      "vertices": 7173,
+      "triangles": 2391,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.031"
+      ],
+      "bounds": [
+        [
+          -28.021841049194336,
+          -20.928186660098415,
+          -6.632307414540235e-07
+        ],
+        [
+          27.990015029907227,
+          28.12509533027696,
+          7.145000543130321
+        ]
+      ]
+    },
+    {
+      "key": "mesh14",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.033",
+      "vertices": 4506,
+      "triangles": 1502,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.032"
+      ],
+      "bounds": [
+        [
+          -23.536840438842773,
+          -14.676160005573873,
+          0.9899996034002536
+        ],
+        [
+          23.5068416595459,
+          23.57550424965062,
+          5.360000867223056
+        ]
+      ]
+    },
+    {
+      "key": "mesh15",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.034",
+      "vertices": 1338,
+      "triangles": 446,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.033"
+      ],
+      "bounds": [
+        [
+          -22.97823143005371,
+          -12.899651556363581,
+          0.39784456634582643
+        ],
+        [
+          22.97823143005371,
+          23.283288926406218,
+          2.2620011016682238
+        ]
+      ]
+    },
+    {
+      "key": "mesh16",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.035",
+      "vertices": 1068,
+      "triangles": 356,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.034"
+      ],
+      "bounds": [
+        [
+          -24.831802368164062,
+          10.807709507261064,
+          4.838272359184193e-07
+        ],
+        [
+          -5.0003814697265625,
+          27.471675835648053,
+          7.145001176646434
+        ]
+      ]
+    },
+    {
+      "key": "mesh17",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.036",
+      "vertices": 2070,
+      "triangles": 690,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.035"
+      ],
+      "bounds": [
+        [
+          3.267885684967041,
+          2.145869545255449,
+          1.002133504308694e-07
+        ],
+        [
+          27.990015029907227,
+          27.840486489334577,
+          6.485001344471882
+        ]
+      ]
+    },
+    {
+      "key": "mesh18",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "vertices": 58356,
+      "triangles": 19452,
+      "materials": [
+        "Reference facade with foreground rods removed v48"
+      ],
+      "bounds": [
+        [
+          -15.502291679382324,
+          17.08100099030625,
+          0.46980098790844
+        ],
+        [
+          14.7543363571167,
+          23.362642120111364,
+          6.672501057134501
+        ]
+      ]
+    }
+  ],
+  "extraObjects": [
+    {
+      "key": "extra0",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.007",
+      "vertices": 288,
+      "triangles": 96,
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.007"
+      ],
+      "bounds": [
+        [
+          -28.0,
+          -27.999999990383493,
+          -0.22000122272677913
+        ],
+        [
+          28.0,
+          28.000000009616507,
+          -0.21999877488903508
+        ]
+      ]
+    },
+    {
+      "key": "extra1",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.008",
+      "vertices": 22236,
+      "triangles": 7412,
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.008"
+      ],
+      "bounds": [
+        [
+          -27.061866760253906,
+          -26.92771338919427,
+          -0.204979643828525
+        ],
+        [
+          26.724773406982422,
+          26.70169640426237,
+          0.39469363246968436
+        ]
+      ]
+    },
+    {
+      "key": "extra2",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.009",
+      "vertices": 24864,
+      "triangles": 8288,
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.009"
+      ],
+      "bounds": [
+        [
+          -26.403886795043945,
+          -25.676351542444213,
+          -0.22304034390595723
+        ],
+        [
+          26.810239791870117,
+          26.765951165417064,
+          0.34527690185114046
+        ]
+      ]
+    },
+    {
+      "key": "extra3",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.010",
+      "vertices": 22812,
+      "triangles": 7604,
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.010"
+      ],
+      "bounds": [
+        [
+          -26.864456176757812,
+          -26.755434031474188,
+          -0.20495100400710198
+        ],
+        [
+          26.49887466430664,
+          26.879089364319892,
+          0.33368882941717526
+        ]
+      ]
+    },
+    {
+      "key": "extra4",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.011",
+      "vertices": 22524,
+      "triangles": 7508,
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.011"
+      ],
+      "bounds": [
+        [
+          -26.705989837646484,
+          -26.972501749797434,
+          -0.2888227076223924
+        ],
+        [
+          26.969823837280273,
+          25.907924660474468,
+          0.4081939158259334
+        ]
+      ]
+    },
+    {
+      "key": "extra5",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.012",
+      "vertices": 23268,
+      "triangles": 7756,
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.012"
+      ],
+      "bounds": [
+        [
+          -26.513978958129883,
+          -26.462434764243635,
+          -0.2081971535363359
+        ],
+        [
+          26.150930404663086,
+          27.16278649257514,
+          0.33563742506775013
+        ]
+      ]
+    },
+    {
+      "key": "extra6",
+      "name": "Flooded polygon flagstones and broken slabs solid mesh.013",
+      "vertices": 22740,
+      "triangles": 7580,
+      "materials": [
+        "Flooded polygon flagstones and broken slabs solid mesh.013"
+      ],
+      "bounds": [
+        [
+          -26.235706329345703,
+          -25.20625304729965,
+          -0.2049577115253627
+        ],
+        [
+          26.658021926879883,
+          25.662712105580894,
+          0.39284901135731237
+        ]
+      ]
+    },
+    {
+      "key": "extra7",
+      "name": "Poster inner grounded footing v39",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Poster Warm weathered steel v39",
+        "Poster Worn pale flange edges v39",
+        "Poster Dark recessed web v39",
+        "Poster Grounded aged concrete v39"
+      ],
+      "bounds": [
+        [
+          6.487838268280029,
+          18.805288314819336,
+          -0.2199999988079071
+        ],
+        [
+          7.126553535461426,
+          19.44400405883789,
+          0.31578779220581055
+        ]
+      ]
+    },
+    {
+      "key": "extra8",
+      "name": "Poster left outer splayed I-column footing v44",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Poster left weathered grey brown steel v44",
+        "Poster left pale exposed paint edge v44",
+        "Poster left recessed dark web v44",
+        "Poster left grounded concrete v44"
+      ],
+      "bounds": [
+        [
+          -15.344030380249023,
+          13.334932327270508,
+          -0.15000000596046448
+        ],
+        [
+          -14.637652397155762,
+          14.04131031036377,
+          0.31662800908088684
+        ]
+      ]
+    },
+    {
+      "key": "extra9",
+      "name": "Poster left middle bowed I-column footing v44",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Poster left weathered grey brown steel v44",
+        "Poster left pale exposed paint edge v44",
+        "Poster left recessed dark web v44",
+        "Poster left grounded concrete v44"
+      ],
+      "bounds": [
+        [
+          -8.775554656982422,
+          18.129030227661133,
+          -0.15000000596046448
+        ],
+        [
+          -8.112879753112793,
+          18.791706085205078,
+          0.23999999463558197
+        ]
+      ]
+    },
+    {
+      "key": "extra10",
+      "name": "Poster left back I-column footing v44",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Poster left weathered grey brown steel v44",
+        "Poster left pale exposed paint edge v44",
+        "Poster left recessed dark web v44",
+        "Poster left grounded concrete v44"
+      ],
+      "bounds": [
+        [
+          -4.776754856109619,
+          19.50100326538086,
+          -0.15000000596046448
+        ],
+        [
+          -4.178780555725098,
+          20.098976135253906,
+          0.23999999463558197
+        ]
+      ]
+    },
+    {
+      "key": "extra11",
+      "name": "Poster entrance v50 leaf 0 lower panel",
+      "vertices": 98,
+      "triangles": 192,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.846027374267578,
+          20.338417053222656,
+          0.6089696288108826
+        ],
+        [
+          -11.06007194519043,
+          20.823509216308594,
+          1.2378106117248535
+        ]
+      ]
+    },
+    {
+      "key": "extra12",
+      "name": "Poster entrance v50 leaf 0 stile 0",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.878286361694336,
+          20.296308517456055,
+          0.6089696288108826
+        ],
+        [
+          -11.753689765930176,
+          20.458507537841797,
+          2.2213826179504395
+        ]
+      ]
+    },
+    {
+      "key": "extra13",
+      "name": "Poster entrance v50 leaf 0 stile 1",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.141130447387695,
+          20.688175201416016,
+          0.6089696288108826
+        ],
+        [
+          -11.021527290344238,
+          20.853046417236328,
+          2.2213826179504395
+        ]
+      ]
+    },
+    {
+      "key": "extra14",
+      "name": "Poster entrance v50 leaf 0 rail 0",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.851046562194824,
+          20.30379295349121,
+          0.6239696145057678
+        ],
+        [
+          -11.041243553161621,
+          20.83233070373535,
+          0.6739696264266968
+        ]
+      ]
+    },
+    {
+      "key": "extra15",
+      "name": "Poster entrance v50 leaf 0 lower panel molding",
+      "vertices": 16,
+      "triangles": 32,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.750852584838867,
+          20.32575798034668,
+          0.6909696459770203
+        ],
+        [
+          -11.085721015930176,
+          20.712430953979492,
+          1.1808106899261475
+        ]
+      ]
+    },
+    {
+      "key": "extra16",
+      "name": "Poster entrance v50 leaf 1 lower panel",
+      "vertices": 98,
+      "triangles": 192,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.093511581420898,
+          20.7393856048584,
+          0.6089696288108826
+        ],
+        [
+          -10.310903549194336,
+          21.226268768310547,
+          1.2378106117248535
+        ]
+      ]
+    },
+    {
+      "key": "extra17",
+      "name": "Poster entrance v50 leaf 1 stile 0",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.125131607055664,
+          20.696680068969727,
+          0.6089696288108826
+        ],
+        [
+          -11.005637168884277,
+          20.861610412597656,
+          2.2213826179504395
+        ]
+      ]
+    },
+    {
+      "key": "extra18",
+      "name": "Poster entrance v50 leaf 1 stile 1",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -10.38797664642334,
+          21.088546752929688,
+          0.6089696288108826
+        ],
+        [
+          -10.27347469329834,
+          21.256149291992188,
+          2.2213826179504395
+        ]
+      ]
+    },
+    {
+      "key": "extra19",
+      "name": "Poster entrance v50 leaf 1 rail 0",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.098211288452148,
+          20.704078674316406,
+          0.6239696145057678
+        ],
+        [
+          -10.293350219726562,
+          21.235261917114258,
+          0.6739696264266968
+        ]
+      ]
+    },
+    {
+      "key": "extra20",
+      "name": "Poster entrance v50 leaf 1 lower panel molding",
+      "vertices": 16,
+      "triangles": 32,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.001461029052734,
+          20.72599220275879,
+          0.6909696459770203
+        ],
+        [
+          -10.337923049926758,
+          21.11351776123047,
+          1.1808106899261475
+        ]
+      ]
+    },
+    {
+      "key": "extra21",
+      "name": "Poster entrance v50 step 0",
+      "vertices": 26,
+      "triangles": 48,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.37592601776123,
+          20.225261688232422,
+          0.44896963238716125
+        ],
+        [
+          -10.290339469909668,
+          21.13785743713379,
+          0.6089696288108826
+        ]
+      ]
+    },
+    {
+      "key": "extra22",
+      "name": "Poster entrance v50 step 1",
+      "vertices": 26,
+      "triangles": 48,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.37592601776123,
+          19.918575286865234,
+          0.32396963238716125
+        ],
+        [
+          -10.13430118560791,
+          21.13785743713379,
+          0.48396962881088257
+        ]
+      ]
+    },
+    {
+      "key": "extra23",
+      "name": "Poster entrance v50 step 2",
+      "vertices": 26,
+      "triangles": 48,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.37592601776123,
+          19.611886978149414,
+          0.19896961748600006
+        ],
+        [
+          -9.978262901306152,
+          21.13785743713379,
+          0.35896962881088257
+        ]
+      ]
+    },
+    {
+      "key": "extra24",
+      "name": "Poster entrance v50 stair cheek -1",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.446144104003906,
+          19.51011085510254,
+          0.15896962583065033
+        ],
+        [
+          -10.754150390625,
+          20.66338539123535,
+          0.6539696455001831
+        ]
+      ]
+    },
+    {
+      "key": "extra25",
+      "name": "Poster entrance v50 stair cheek 1",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -10.513250350952148,
+          19.98252296447754,
+          0.15896962583065033
+        ],
+        [
+          -9.871498107910156,
+          21.162687301635742,
+          0.6539696455001831
+        ]
+      ]
+    },
+    {
+      "key": "extra26",
+      "name": "Poster entrance v50 interior floor",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -15.10115909576416,
+          19.554922103881836,
+          0.3689696192741394
+        ],
+        [
+          -9.34709358215332,
+          25.685749053955078,
+          0.6089696288108826
+        ]
+      ]
+    },
+    {
+      "key": "extra27",
+      "name": "Poster entrance v50 back wall foot",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -15.171317100524902,
+          23.494367599487305,
+          0.6089696288108826
+        ],
+        [
+          -11.230117797851562,
+          25.805082321166992,
+          0.8009999990463257
+        ]
+      ]
+    },
+    {
+      "key": "extra28",
+      "name": "Poster entrance v50 side wall foot -1",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -15.216974258422852,
+          19.75662612915039,
+          0.6089696288108826
+        ],
+        [
+          -12.548629760742188,
+          23.71697425842285,
+          0.8510000109672546
+        ]
+      ]
+    },
+    {
+      "key": "extra29",
+      "name": "Poster entrance v50 side wall foot 1",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -11.422708511352539,
+          21.457172393798828,
+          0.6089696288108826
+        ],
+        [
+          -9.371335983276367,
+          25.74773406982422,
+          0.8510000109672546
+        ]
+      ]
+    },
+    {
+      "key": "extra30",
+      "name": "Poster wide window 0 v50 sill",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -9.2283296585083,
+          21.405397415161133,
+          1.0797851085662842
+        ],
+        [
+          -7.761389255523682,
+          22.211278915405273,
+          1.1647851467132568
+        ]
+      ]
+    },
+    {
+      "key": "extra31",
+      "name": "Poster wide window 1 v50 sill",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -7.7605881690979,
+          21.877639770507812,
+          1.0598759651184082
+        ],
+        [
+          -6.309856414794922,
+          22.6945743560791,
+          1.1448758840560913
+        ]
+      ]
+    },
+    {
+      "key": "extra32",
+      "name": "Poster wide window 2 v50 sill",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -6.269266128540039,
+          22.35746955871582,
+          1.039523959159851
+        ],
+        [
+          -4.8169379234313965,
+          23.191648483276367,
+          1.1245239973068237
+        ]
+      ]
+    },
+    {
+      "key": "extra33",
+      "name": "Poster lower pier base bay 13 side -1 v50",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -16.20280647277832,
+          16.84765625,
+          0.6600000262260437
+        ],
+        [
+          -15.442283630371094,
+          17.534650802612305,
+          1.0199999809265137
+        ]
+      ]
+    },
+    {
+      "key": "extra34",
+      "name": "Poster lower pier base bay 13 side 1 v50",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -12.939680099487305,
+          19.31189727783203,
+          0.6600000262260437
+        ],
+        [
+          -12.244400024414062,
+          20.04916763305664,
+          1.0199999809265137
+        ]
+      ]
+    },
+    {
+      "key": "extra35",
+      "name": "Poster lower pier base bay 14 side 1 v50",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -9.796489715576172,
+          21.018497467041016,
+          0.6600000262260437
+        ],
+        [
+          -9.114889144897461,
+          21.712238311767578,
+          1.0199999809265137
+        ]
+      ]
+    },
+    {
+      "key": "extra36",
+      "name": "Poster lower pier base bay 15 side 1 v50",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster upper window glazing edge v48"
+      ],
+      "bounds": [
+        [
+          -5.096226215362549,
+          22.582130432128906,
+          0.6600000262260437
+        ],
+        [
+          -4.470440864562988,
+          23.218225479125977,
+          1.0199999809265137
+        ]
+      ]
+    },
+    {
+      "key": "extra37",
+      "name": "Poster low corroded hollow pipe v51",
+      "vertices": 192,
+      "triangles": 384,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -8.82275676727295,
+          20.69245719909668,
+          0.25005531311035156
+        ],
+        [
+          -4.725908279418945,
+          22.296428680419922,
+          0.5600553154945374
+        ]
+      ]
+    },
+    {
+      "key": "extra38",
+      "name": "Poster pipe collar 0 v51",
+      "vertices": 66,
+      "triangles": 128,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -7.489978313446045,
+          21.109163284301758,
+          0.22705531120300293
+        ],
+        [
+          -7.331719398498535,
+          21.463054656982422,
+          0.583055317401886
+        ]
+      ]
+    },
+    {
+      "key": "extra39",
+      "name": "Poster pipe collar 1 v51",
+      "vertices": 66,
+      "triangles": 128,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -6.162923336029053,
+          21.54351234436035,
+          0.22705531120300293
+        ],
+        [
+          -6.004664897918701,
+          21.897403717041016,
+          0.583055317401886
+        ]
+      ]
+    },
+    {
+      "key": "extra40",
+      "name": "Poster curved standpipe v51",
+      "vertices": 722,
+      "triangles": 1440,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -5.738495826721191,
+          21.444786071777344,
+          0.13680118322372437
+        ],
+        [
+          -4.99063777923584,
+          21.76021957397461,
+          0.984792172908783
+        ]
+      ]
+    },
+    {
+      "key": "extra41",
+      "name": "Poster standpipe joint 0 v51",
+      "vertices": 34,
+      "triangles": 64,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -5.696938991546631,
+          21.44627571105957,
+          0.14965365827083588
+        ],
+        [
+          -5.568938732147217,
+          21.574275970458984,
+          0.2236536592245102
+        ]
+      ]
+    },
+    {
+      "key": "extra42",
+      "name": "Poster standpipe joint 1 v51",
+      "vertices": 34,
+      "triangles": 64,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -5.727205276489258,
+          21.436368942260742,
+          0.8487928509712219
+        ],
+        [
+          -5.599205493927002,
+          21.564369201660156,
+          0.9227928519248962
+        ]
+      ]
+    },
+    {
+      "key": "extra43",
+      "name": "Poster standpipe foot v51",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -5.749580383300781,
+          21.38724136352539,
+          0.07165365666151047
+        ],
+        [
+          -5.516297340393066,
+          21.633310317993164,
+          0.15165366232395172
+        ]
+      ]
+    },
+    {
+      "key": "extra44",
+      "name": "Poster discarded chair back frame v51",
+      "vertices": 602,
+      "triangles": 1200,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -10.241933822631836,
+          20.701772689819336,
+          0.7773297429084778
+        ],
+        [
+          -9.57800006866455,
+          21.108745574951172,
+          1.3058737516403198
+        ]
+      ]
+    },
+    {
+      "key": "extra45",
+      "name": "Poster chair leg frame -1 v51",
+      "vertices": 322,
+      "triangles": 640,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -10.212498664855957,
+          20.155065536499023,
+          0.3409935235977173
+        ],
+        [
+          -9.828104972839355,
+          20.84551429748535,
+          0.8308690190315247
+        ]
+      ]
+    },
+    {
+      "key": "extra46",
+      "name": "Poster chair side brace -1 v51",
+      "vertices": 18,
+      "triangles": 32,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -10.145705223083496,
+          20.247055053710938,
+          0.40961754322052
+        ],
+        [
+          -9.879738807678223,
+          20.725208282470703,
+          0.6808378100395203
+        ]
+      ]
+    },
+    {
+      "key": "extra47",
+      "name": "Poster chair leg frame 1 v51",
+      "vertices": 322,
+      "triangles": 640,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -9.70113468170166,
+          20.428756713867188,
+          0.3409935235977173
+        ],
+        [
+          -9.316740989685059,
+          21.119205474853516,
+          0.8308690190315247
+        ]
+      ]
+    },
+    {
+      "key": "extra48",
+      "name": "Poster chair side brace 1 v51",
+      "vertices": 18,
+      "triangles": 32,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -9.6343412399292,
+          20.5207462310791,
+          0.40961754322052
+        ],
+        [
+          -9.368374824523926,
+          20.998899459838867,
+          0.6808378100395203
+        ]
+      ]
+    },
+    {
+      "key": "extra49",
+      "name": "Poster chair seat crossbar 0 v51",
+      "vertices": 22,
+      "triangles": 40,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -9.894279479980469,
+          20.24014663696289,
+          0.7394129037857056
+        ],
+        [
+          -9.36970329284668,
+          20.538524627685547,
+          0.7660424709320068
+        ]
+      ]
+    },
+    {
+      "key": "extra50",
+      "name": "Poster chair seat crossbar 1 v51",
+      "vertices": 22,
+      "triangles": 40,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -10.144376754760742,
+          20.707427978515625,
+          0.7394129037857056
+        ],
+        [
+          -9.619800567626953,
+          21.00580596923828,
+          0.7660424709320068
+        ]
+      ]
+    },
+    {
+      "key": "extra51",
+      "name": "Poster chair worn back panel v51",
+      "vertices": 12,
+      "triangles": 20,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -10.166446685791016,
+          20.73334503173828,
+          0.7927276492118835
+        ],
+        [
+          -9.649398803710938,
+          21.076425552368164,
+          1.187097191810608
+        ]
+      ]
+    },
+    {
+      "key": "extra52",
+      "name": "Poster chair seat panel v51",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -10.122429847717285,
+          20.26070213317871,
+          0.7167276740074158
+        ],
+        [
+          -9.391650199890137,
+          20.985252380371094,
+          0.7427276968955994
+        ]
+      ]
+    },
+    {
+      "key": "extra53",
+      "name": "Poster chair landing stone v51",
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -10.31466293334961,
+          20.057159423828125,
+          0.19772766530513763
+        ],
+        [
+          -9.199417114257812,
+          21.18879508972168,
+          0.3477276563644409
+        ]
+      ]
+    },
+    {
+      "key": "extra54",
+      "name": "Poster fine left margin v51",
+      "vertices": 4170,
+      "triangles": 7116,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -14.94941520690918,
+          16.832609176635742,
+          0.16973939538002014
+        ],
+        [
+          -13.909378051757812,
+          17.81187629699707,
+          0.8178079128265381
+        ]
+      ]
+    },
+    {
+      "key": "extra55",
+      "name": "Poster fine left window shrub v51",
+      "vertices": 9210,
+      "triangles": 15720,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -13.687782287597656,
+          17.80281639099121,
+          0.27662649750709534
+        ],
+        [
+          -12.470624923706055,
+          18.929040908813477,
+          1.4831253290176392
+        ]
+      ]
+    },
+    {
+      "key": "extra56",
+      "name": "Poster fine pier growth v51",
+      "vertices": 6970,
+      "triangles": 11896,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -12.687307357788086,
+          19.09208106994629,
+          0.20876544713974
+        ],
+        [
+          -11.711040496826172,
+          19.858501434326172,
+          2.1136281490325928
+        ]
+      ]
+    },
+    {
+      "key": "extra57",
+      "name": "Poster fine entry left growth v51",
+      "vertices": 4170,
+      "triangles": 7116,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -11.943987846374512,
+          19.651254653930664,
+          0.2913186848163605
+        ],
+        [
+          -11.707137107849121,
+          20.01679039001465,
+          2.209057569503784
+        ]
+      ]
+    },
+    {
+      "key": "extra58",
+      "name": "Poster fine pipe left thicket v51",
+      "vertices": 10040,
+      "triangles": 17136,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -8.57136344909668,
+          20.167131423950195,
+          0.048080019652843475
+        ],
+        [
+          -6.950844764709473,
+          20.930822372436523,
+          1.0716955661773682
+        ]
+      ]
+    },
+    {
+      "key": "extra59",
+      "name": "Poster fine pipe ground creeper v51",
+      "vertices": 5020,
+      "triangles": 8568,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -7.156687259674072,
+          20.40633773803711,
+          0.0555623397231102
+        ],
+        [
+          -5.408187389373779,
+          21.19960594177246,
+          0.37852299213409424
+        ]
+      ]
+    },
+    {
+      "key": "extra60",
+      "name": "Poster fine return pipe growth v51",
+      "vertices": 2800,
+      "triangles": 4780,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -6.148354530334473,
+          20.948514938354492,
+          0.06659378111362457
+        ],
+        [
+          -5.336990833282471,
+          21.471290588378906,
+          0.9046570062637329
+        ]
+      ]
+    },
+    {
+      "key": "extra61",
+      "name": "Poster fine right ground growth v51",
+      "vertices": 6410,
+      "triangles": 10940,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -4.940701484680176,
+          21.378963470458984,
+          0.04540611058473587
+        ],
+        [
+          -2.912048101425171,
+          21.878698348999023,
+          0.490669846534729
+        ]
+      ]
+    },
+    {
+      "key": "extra62",
+      "name": "Poster fine grass patch 0 v51",
+      "vertices": 840,
+      "triangles": 1568,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -8.985363006591797,
+          20.142772674560547,
+          0.2456185221672058
+        ],
+        [
+          -7.989582538604736,
+          21.01191520690918,
+          0.9019404649734497
+        ]
+      ]
+    },
+    {
+      "key": "extra63",
+      "name": "Poster fine grass patch 1 v51",
+      "vertices": 1020,
+      "triangles": 1904,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -8.126729965209961,
+          20.47080421447754,
+          0.2357390969991684
+        ],
+        [
+          -7.342503070831299,
+          21.304157257080078,
+          1.1790286302566528
+        ]
+      ]
+    },
+    {
+      "key": "extra64",
+      "name": "Poster fine grass patch 2 v51",
+      "vertices": 780,
+      "triangles": 1456,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -7.185433387756348,
+          20.843055725097656,
+          0.23122268915176392
+        ],
+        [
+          -6.495634078979492,
+          21.462770462036133,
+          0.8876528143882751
+        ]
+      ]
+    },
+    {
+      "key": "extra65",
+      "name": "Poster fine grass patch 3 v51",
+      "vertices": 600,
+      "triangles": 1120,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -6.429058074951172,
+          20.9597110748291,
+          0.07032071799039841
+        ],
+        [
+          -5.55411434173584,
+          21.595184326171875,
+          0.35681530833244324
+        ]
+      ]
+    },
+    {
+      "key": "extra66",
+      "name": "Poster fine grass patch 4 v51",
+      "vertices": 540,
+      "triangles": 1008,
+      "materials": [
+        "Reference-calibrated upper facade pigments v48",
+        "Poster upper window recessed faces v48",
+        "Poster fine foliage pigments v51"
+      ],
+      "bounds": [
+        [
+          -14.369593620300293,
+          16.942514419555664,
+          0.26951131224632263
+        ],
+        [
+          -13.54835033416748,
+          17.692073822021484,
+          0.6664109230041504
+        ]
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      0.4561338424682617,
+      -17.539655685424805,
+      1.75
+    ],
+    "rotation": [
+      [
+        0.9996620416641235,
+        0.005007914267480373,
+        0.025510160252451897
+      ],
+      [
+        0.025997066870331764,
+        -0.19256873428821564,
+        -0.9809390306472778
+      ],
+      [
+        5.149667359205523e-10,
+        0.9812707304954529,
+        -0.19263383746147156
+      ]
+    ],
+    "focalPixels": 832.1397569444445
+  },
+  "probes": [
+    {
+      "uv": [
+        8,
+        698
+      ],
+      "hit": [
+        -14.904051780700684,
+        17.73769187927246,
+        0.331526517868042
+      ],
+      "object": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "key": "mesh9",
+      "triangle": 643
+    },
+    {
+      "uv": [
+        30,
+        698
+      ],
+      "hit": [
+        -14.198894500732422,
+        18.28108024597168,
+        0.31065094470977783
+      ],
+      "object": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "key": "mesh9",
+      "triangle": 642
+    },
+    {
+      "uv": [
+        50,
+        699
+      ],
+      "hit": [
+        -13.5372953414917,
+        18.790895462036133,
+        0.2492891550064087
+      ],
+      "object": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "key": "mesh9",
+      "triangle": 642
+    },
+    {
+      "uv": [
+        80,
+        699
+      ],
+      "hit": [
+        -12.514249801635742,
+        19.57924461364746,
+        0.21813571453094482
+      ],
+      "object": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "key": "mesh9",
+      "triangle": 642
+    },
+    {
+      "uv": [
+        94,
+        699
+      ]
+    },
+    {
+      "uv": [
+        145,
+        699
+      ],
+      "hit": [
+        -9.795416831970215,
+        20.120397567749023,
+        0.19889569282531738
+      ],
+      "object": "Poster chair landing stone v51",
+      "key": "extra53",
+      "triangle": 9
+    },
+    {
+      "uv": [
+        180,
+        700
+      ],
+      "hit": [
+        -8.315695762634277,
+        20.480337142944336,
+        0.14222359657287598
+      ],
+      "object": "Poster fine pipe left thicket v51",
+      "key": "extra58",
+      "triangle": 6656
+    },
+    {
+      "uv": [
+        200,
+        700
+      ],
+      "hit": [
+        -7.425923824310303,
+        20.524015426635742,
+        0.14136004447937012
+      ],
+      "object": "Poster fine pipe left thicket v51",
+      "key": "extra58",
+      "triangle": 3938
+    },
+    {
+      "uv": [
+        225,
+        701
+      ],
+      "hit": [
+        -6.347902297973633,
+        20.786226272583008,
+        0.08772087097167969
+      ],
+      "object": "Poster fine pipe ground creeper v51",
+      "key": "extra59",
+      "triangle": 184
+    },
+    {
+      "uv": [
+        270,
+        703
+      ],
+      "hit": [
+        -4.034387588500977,
+        18.530637741088867,
+        0.10543155670166016
+      ],
+      "object": "Flooded polygon flagstones and broken slabs solid mesh.009",
+      "key": "extra2",
+      "triangle": 8262
+    },
+    {
+      "uv": [
+        50,
+        709
+      ],
+      "hit": [
+        -10.877613067626953,
+        11.948070526123047,
+        0.1937408447265625
+      ],
+      "object": "Flooded polygon flagstones and broken slabs solid mesh.013",
+      "key": "extra6",
+      "triangle": 7572
+    },
+    {
+      "uv": [
+        90,
+        704
+      ],
+      "hit": [
+        -12.83877182006836,
+        21.890592575073242,
+        -0.10285437107086182
+      ],
+      "object": "Flooded polygon flagstones and broken slabs solid mesh.008",
+      "key": "extra1",
+      "triangle": 1420
+    },
+    {
+      "uv": [
+        162,
+        706
+      ],
+      "hit": [
+        -8.526755332946777,
+        18.1476993560791,
+        -0.004830479621887207
+      ],
+      "object": "Poster left middle bowed I-column footing v44",
+      "key": "extra9",
+      "triangle": 1
+    },
+    {
+      "uv": [
+        260,
+        707
+      ],
+      "hit": [
+        -4.589415073394775,
+        19.51841926574707,
+        -0.1089787483215332
+      ],
+      "object": "Poster left back I-column footing v44",
+      "key": "extra10",
+      "triangle": 0
+    },
+    {
+      "uv": [
+        13,
+        711
+      ],
+      "hit": [
+        -12.515275001525879,
+        12.750179290771484,
+        0.08022463321685791
+      ],
+      "object": "Flooded polygon flagstones and broken slabs solid mesh.011",
+      "key": "extra4",
+      "triangle": 7488
+    },
+    {
+      "uv": [
+        286,
+        710
+      ],
+      "hit": [
+        -3.2142655849456787,
+        17.227933883666992,
+        -0.11123538017272949
+      ],
+      "object": "Flooded polygon flagstones and broken slabs solid mesh.011",
+      "key": "extra4",
+      "triangle": 3056
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "revision": 43,
+  "nativeSha256": "23cec288419994ad8bb8768d786b33b27064cb1f33d061e9de62ad66656e2b7e",
+  "binarySha256": "7cc0b8913c29141004e3bd858102079f666db4935ee07f557908912399ed6b5e",
+  "clouds": [
+    {
+      "name": "Lower grey-blue stratus bank v43",
+      "vertices": 180151,
+      "triangles": 360306,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -24.63714599609375,
+        38.81439208984375,
+        -262.07061767578125,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 0,
+        "byteLength": 2161812
+      },
+      "normals": {
+        "byteOffset": 2161812,
+        "byteLength": 2161812
+      },
+      "colors": {
+        "byteOffset": 4323624,
+        "byteLength": 2161812
+      },
+      "indices": {
+        "byteOffset": 6485436,
+        "byteLength": 4323672
+      }
+    },
+    {
+      "name": "Lower layered horizon cloud v43",
+      "vertices": 239401,
+      "triangles": 478798,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -14.883397102355957,
+        33.751861572265625,
+        -294.06719970703125,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 10809108,
+        "byteLength": 2872812
+      },
+      "normals": {
+        "byteOffset": 13681920,
+        "byteLength": 2872812
+      },
+      "colors": {
+        "byteOffset": 16554732,
+        "byteLength": 2872812
+      },
+      "indices": {
+        "byteOffset": 19427544,
+        "byteLength": 5745576
+      }
+    },
+    {
+      "name": "Distant low horizon billows v43",
+      "vertices": 376018,
+      "triangles": 752032,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.47460779547691345,
+        24.810977935791016,
+        -329.5557556152344,
+        1.0
+      ],
+      "positions": {
+        "byteOffset": 25173120,
+        "byteLength": 4512216
+      },
+      "normals": {
+        "byteOffset": 29685336,
+        "byteLength": 4512216
+      },
+      "colors": {
+        "byteOffset": 34197552,
+        "byteLength": 4512216
+      },
+      "indices": {
+        "byteOffset": 38709768,
+        "byteLength": 9024384
+      }
+    }
+  ],
+  "triangles": 1591136,
+  "browserRuntimeVerified": false
+}

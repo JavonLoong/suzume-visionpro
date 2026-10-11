@@ -1,0 +1,40 @@
+{
+  "revision": 15,
+  "method": "Complementary world-space material clipping on shared editable geometry and rig",
+  "gatePlaneBlenderY": 0.0719999149441719,
+  "dayKeeps": "Y <= gate",
+  "nightKeeps": "Y >= gate",
+  "sharedMesh": true,
+  "sharedRig": true,
+  "nightInstanceCollection": "Suzume — portion inside the otherworld",
+  "nightStandaloneLinked": true,
+  "imagesPacked": true,
+  "visualReview": "Native and browser front views retain the entered figure through the aperture; rear courtyard views remove the entered body and its courtyard reflection. Browser independent night view retains the entered body.",
+  "renderChecks": [
+    {
+      "reopened": true,
+      "partition": {
+        "courtyardVertices": 5731,
+        "otherworldVertices": 292297,
+        "totalVertices": 298028,
+        "gateY": 0.0719999149441719
+      },
+      "render": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\native-partition-front-v15.png",
+      "samples": 12,
+      "denoising": false
+    },
+    {
+      "reopened": true,
+      "partition": {
+        "courtyardVertices": 5731,
+        "otherworldVertices": 292297,
+        "totalVertices": 298028,
+        "gateY": 0.0719999149441719
+      },
+      "render": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\native-partition-back-v15.png",
+      "samples": 12,
+      "denoising": false
+    }
+  ],
+  "goalOneToOneComplete": false
+}

@@ -1,0 +1,31 @@
+{
+  "sourceNativeSha256": "01726e6771ec7ba31008c64487b2c73a4d70c567eceaea34116191f50902b074",
+  "componentIds": [
+    1031,
+    1033,
+    1626,
+    1627,
+    1967,
+    1968,
+    1417,
+    1521,
+    1592,
+    1621,
+    1634,
+    1742,
+    1989,
+    2024,
+    2240
+  ],
+  "counts": {
+    "mesh8": 172,
+    "mesh9": 65,
+    "mesh18": 321,
+    "extra1": 36,
+    "extra2": 12,
+    "extra3": 12,
+    "extra4": 36,
+    "extra6": 12
+  },
+  "reason": "Three high bay plinths and their top slabs plus nine unmatched protruding rectangular paving slabs"
+}

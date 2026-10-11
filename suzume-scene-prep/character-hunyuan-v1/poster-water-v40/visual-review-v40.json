@@ -1,0 +1,25 @@
+{
+  "revision": 40,
+  "frontReviewed": true,
+  "obliqueReviewed": true,
+  "referenceWaterComparisonReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The final native front has a less harsh reflection boundary and a softer blue-green far-to-near transition than v39. The door and steelwork still produce recognizable live reflections.",
+    "The first procedural-glint version created continuous cyan lines, especially obvious in the oblique view. It was revised to shorter world-space patches with phase variation and a more neutral highlight color before release.",
+    "The final oblique render retains courtyard depth, the door, steel supports, reflected objects and visible submerged stone edges. Wave highlights stay on the water plane rather than facing the reference camera.",
+    "The final fixed-band mean RGB error is 4.0625 versus 13.6459 for v39. Mean absolute error in band luminance standard deviation is 0.01343 versus 0.06988. These statistics do not establish pointwise resemblance or whole-scene equivalence.",
+    "Water-bed stone shapes remain too subdued and do not match the poster. Some glint segments appear too straight and bright from the oblique camera, and reflected facade detail remains too distinct."
+  ],
+  "remaining": [
+    "Refine the visibly faceted distant clouds, detailed outlines and inferred back surfaces.",
+    "Align submerged poster stone outlines and patches; fit the main water-glint locations, reduce remaining angular straightness and tune the reflected facade detail.",
+    "Correct steel cross-section orientation, thickness, paint loss and corrosion; bring the left and unseen steelwork into a consistent material treatment.",
+    "Align poster facade openings, rooftop equipment, ivy and shore debris; check the inferred support depths in additional views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile their approximate water and steel materials with the native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false
+}

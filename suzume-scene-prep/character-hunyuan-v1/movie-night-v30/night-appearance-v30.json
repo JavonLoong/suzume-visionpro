@@ -1,0 +1,240 @@
+{
+  "revision": 30,
+  "renders": {
+    "reference": "reference-opening.jpg",
+    "previous": "movie-front-v29.png",
+    "current": "movie-front-v30.png"
+  },
+  "patches": {
+    "skyLeft": {
+      "reference": {
+        "meanRGB": [
+          28.98,
+          19.17,
+          66.14
+        ],
+        "medianRGB": [
+          29.0,
+          19.0,
+          66.0
+        ]
+      },
+      "previous": {
+        "meanRGB": [
+          107.91,
+          103.52,
+          114.73
+        ],
+        "medianRGB": [
+          124.0,
+          119.0,
+          131.0
+        ]
+      },
+      "current": {
+        "meanRGB": [
+          25.62,
+          20.59,
+          58.07
+        ],
+        "medianRGB": [
+          28.0,
+          21.0,
+          65.0
+        ]
+      }
+    },
+    "skyMiddle": {
+      "reference": {
+        "meanRGB": [
+          27.41,
+          21.26,
+          68.87
+        ],
+        "medianRGB": [
+          28.0,
+          21.0,
+          69.0
+        ]
+      },
+      "previous": {
+        "meanRGB": [
+          100.99,
+          101.06,
+          113.71
+        ],
+        "medianRGB": [
+          120.0,
+          120.0,
+          135.0
+        ]
+      },
+      "current": {
+        "meanRGB": [
+          25.33,
+          22.76,
+          58.33
+        ],
+        "medianRGB": [
+          27.0,
+          23.0,
+          67.0
+        ]
+      }
+    },
+    "skyRight": {
+      "reference": {
+        "meanRGB": [
+          27.24,
+          27.85,
+          74.84
+        ],
+        "medianRGB": [
+          27.0,
+          27.0,
+          74.0
+        ]
+      },
+      "previous": {
+        "meanRGB": [
+          109.2,
+          112.53,
+          130.17
+        ],
+        "medianRGB": [
+          116.0,
+          122.0,
+          139.0
+        ]
+      },
+      "current": {
+        "meanRGB": [
+          27.24,
+          26.09,
+          66.61
+        ],
+        "medianRGB": [
+          26.0,
+          25.0,
+          69.0
+        ]
+      }
+    },
+    "mainCloudLeft": {
+      "reference": {
+        "meanRGB": [
+          81.56,
+          74.34,
+          80.81
+        ],
+        "medianRGB": [
+          82.0,
+          76.0,
+          82.0
+        ]
+      },
+      "previous": {
+        "meanRGB": [
+          106.62,
+          103.19,
+          113.21
+        ],
+        "medianRGB": [
+          125.0,
+          119.0,
+          132.0
+        ]
+      },
+      "current": {
+        "meanRGB": [
+          66.68,
+          64.56,
+          70.9
+        ],
+        "medianRGB": [
+          79.0,
+          75.0,
+          82.0
+        ]
+      }
+    },
+    "mainCloudRight": {
+      "reference": {
+        "meanRGB": [
+          72.62,
+          75.02,
+          85.42
+        ],
+        "medianRGB": [
+          73.0,
+          78.0,
+          85.0
+        ]
+      },
+      "previous": {
+        "meanRGB": [
+          120.96,
+          128.24,
+          143.81
+        ],
+        "medianRGB": [
+          116.5,
+          124.0,
+          141.0
+        ]
+      },
+      "current": {
+        "meanRGB": [
+          89.72,
+          86.29,
+          91.78
+        ],
+        "medianRGB": [
+          83.0,
+          78.0,
+          84.0
+        ]
+      }
+    },
+    "lowerBlueHaze": {
+      "reference": {
+        "meanRGB": [
+          36.68,
+          36.54,
+          66.69
+        ],
+        "medianRGB": [
+          37.0,
+          39.0,
+          68.0
+        ]
+      },
+      "previous": {
+        "meanRGB": [
+          87.27,
+          84.87,
+          93.89
+        ],
+        "medianRGB": [
+          123.0,
+          117.0,
+          130.0
+        ]
+      },
+      "current": {
+        "meanRGB": [
+          27.2,
+          29.25,
+          49.35
+        ],
+        "medianRGB": [
+          26.0,
+          24.0,
+          55.0
+        ]
+      }
+    }
+  },
+  "interpretation": "Manually selected sky/cloud patches; density silhouettes and occlusion can differ within each patch. These statistics do not measure all-angle fidelity or overall similarity.",
+  "oneToOneComplete": false
+}

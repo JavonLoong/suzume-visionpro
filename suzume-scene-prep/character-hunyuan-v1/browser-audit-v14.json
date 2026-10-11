@@ -1,0 +1,38 @@
+{
+  "closed": {
+    "open": false,
+    "figureVisible": false,
+    "rotationTestAzimuth": -0.96,
+    "triangles": 500000,
+    "contextLost": false,
+    "programs": 38
+  },
+  "open": {
+    "ready": "true",
+    "state": {
+      "open": true,
+      "motion": false,
+      "azimuth": 0,
+      "elevation": 0.01,
+      "radius": 4.04,
+      "target": [
+        0.18,
+        1.94,
+        0
+      ],
+      "view": "close"
+    },
+    "figure": {
+      "source": "Actual Hunyuan 3D 3.1 four-view generation",
+      "triangles": 500000,
+      "pose": "Baked scene copy; editable 20-bone rig is in Blender",
+      "oneToOneComplete": false
+    },
+    "figureVisible": true,
+    "portalFigureVisible": true,
+    "contextLost": false,
+    "glVersion": "WebGL 1.0 (OpenGL ES 2.0 Chromium)"
+  },
+  "mouseOrbitVerified": true,
+  "rearGeometryInspected": true
+}

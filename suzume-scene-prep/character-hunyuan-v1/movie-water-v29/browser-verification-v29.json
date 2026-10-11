@@ -1,0 +1,13 @@
+{
+  "revision": 29,
+  "actualWaterBuilderAndOpticsEditsExecuted": true,
+  "waterUniformParametersMatchNativeSpec": true,
+  "liveReflectionAndRefractionTexturesRetained": true,
+  "referenceImageUsedInWater": false,
+  "submergedMaterialShaderHooksChecked": 7,
+  "inlineScriptsParsed": 1,
+  "browserRuntimeVerified": false,
+  "gpuShaderCompilationVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false
+}

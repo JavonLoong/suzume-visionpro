@@ -1,0 +1,18 @@
+{
+  "revision": 32,
+  "exportedBodyVertices": 241992,
+  "nativeBodyVertices": 241846,
+  "maximumExportToNativeDistance": 0.0,
+  "maximumNativeToExportDistance": 0.0,
+  "httpResourcesVerified": [
+    "viewer/candidate-v32.html",
+    "viewer/character-v32/suzume-posed-v32.gltf",
+    "viewer/character-v32/suzume-posed-v32.glb",
+    "viewer/character-v32/suzume-posed-v32.bin",
+    "viewer/character-v32/texture-0.png",
+    "viewer/character-v32/texture-1.png",
+    "viewer/character-v32/texture-2.png"
+  ],
+  "packedGLBBytes": 49021076,
+  "browserRuntimeVerified": false
+}

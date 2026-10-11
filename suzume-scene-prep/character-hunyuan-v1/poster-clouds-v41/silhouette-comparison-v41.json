@@ -1,0 +1,233 @@
+{
+  "revision": 41,
+  "scope": "Rasterized silhouettes of 28 closed lower clouds, sampled at four times the 708x1000 mask resolution with pixel-center alignment, versus the inherited v9 segmented and inpainted mask. Includes uncertain occluded contours; not a comparison against unmodified full-scene pixels.",
+  "weightedOldIoU": 0.9187798963370701,
+  "weightedNewIoU": 0.9424842208125873,
+  "checks": [
+    {
+      "cloud": 0,
+      "sourceAreaPixels": 16187,
+      "oldTriangles": 1600,
+      "newTriangles": 434102,
+      "oldSilhouetteIoU": 0.9289954744951957,
+      "newSilhouetteIoU": 0.9578837400194016
+    },
+    {
+      "cloud": 1,
+      "sourceAreaPixels": 12232,
+      "oldTriangles": 808,
+      "newTriangles": 332894,
+      "oldSilhouetteIoU": 0.8936128868316551,
+      "newSilhouetteIoU": 0.9496668445454056
+    },
+    {
+      "cloud": 2,
+      "sourceAreaPixels": 11816,
+      "oldTriangles": 794,
+      "newTriangles": 335128,
+      "oldSilhouetteIoU": 0.9545588715064705,
+      "newSilhouetteIoU": 0.9617126662751806
+    },
+    {
+      "cloud": 3,
+      "sourceAreaPixels": 1334,
+      "oldTriangles": 266,
+      "newTriangles": 38206,
+      "oldSilhouetteIoU": 0.9143791716394819,
+      "newSilhouetteIoU": 0.9083019835841313
+    },
+    {
+      "cloud": 4,
+      "sourceAreaPixels": 1131,
+      "oldTriangles": 246,
+      "newTriangles": 33648,
+      "oldSilhouetteIoU": 0.9071267663321728,
+      "newSilhouetteIoU": 0.9067698648037392
+    },
+    {
+      "cloud": 5,
+      "sourceAreaPixels": 1076,
+      "oldTriangles": 240,
+      "newTriangles": 29712,
+      "oldSilhouetteIoU": 0.9004158340983961,
+      "newSilhouetteIoU": 0.8938302536799249
+    },
+    {
+      "cloud": 6,
+      "sourceAreaPixels": 880,
+      "oldTriangles": 216,
+      "newTriangles": 25344,
+      "oldSilhouetteIoU": 0.8947713274800158,
+      "newSilhouetteIoU": 0.874471524496394
+    },
+    {
+      "cloud": 7,
+      "sourceAreaPixels": 671,
+      "oldTriangles": 188,
+      "newTriangles": 19016,
+      "oldSilhouetteIoU": 0.9019982623805387,
+      "newSilhouetteIoU": 0.8892592283976335
+    },
+    {
+      "cloud": 8,
+      "sourceAreaPixels": 227,
+      "oldTriangles": 110,
+      "newTriangles": 6852,
+      "oldSilhouetteIoU": 0.8776188042922841,
+      "newSilhouetteIoU": 0.8562987473410542
+    },
+    {
+      "cloud": 9,
+      "sourceAreaPixels": 213,
+      "oldTriangles": 106,
+      "newTriangles": 6836,
+      "oldSilhouetteIoU": 0.8716123733917328,
+      "newSilhouetteIoU": 0.8230154767848228
+    },
+    {
+      "cloud": 10,
+      "sourceAreaPixels": 211,
+      "oldTriangles": 106,
+      "newTriangles": 6504,
+      "oldSilhouetteIoU": 0.8182323513062812,
+      "newSilhouetteIoU": 0.7911437366800852
+    },
+    {
+      "cloud": 11,
+      "sourceAreaPixels": 174,
+      "oldTriangles": 100,
+      "newTriangles": 4916,
+      "oldSilhouetteIoU": 0.8775376555337263,
+      "newSilhouetteIoU": 0.8592931937172775
+    },
+    {
+      "cloud": 12,
+      "sourceAreaPixels": 166,
+      "oldTriangles": 100,
+      "newTriangles": 4812,
+      "oldSilhouetteIoU": 0.7713139418254764,
+      "newSilhouetteIoU": 0.7368738684369343
+    },
+    {
+      "cloud": 13,
+      "sourceAreaPixels": 145,
+      "oldTriangles": 100,
+      "newTriangles": 3884,
+      "oldSilhouetteIoU": 0.8029020556227328,
+      "newSilhouetteIoU": 0.7978923598042905
+    },
+    {
+      "cloud": 14,
+      "sourceAreaPixels": 145,
+      "oldTriangles": 100,
+      "newTriangles": 4720,
+      "oldSilhouetteIoU": 0.8952155001977066,
+      "newSilhouetteIoU": 0.8601632047477745
+    },
+    {
+      "cloud": 15,
+      "sourceAreaPixels": 136,
+      "oldTriangles": 100,
+      "newTriangles": 4232,
+      "oldSilhouetteIoU": 0.8417508417508418,
+      "newSilhouetteIoU": 0.7536483669214733
+    },
+    {
+      "cloud": 16,
+      "sourceAreaPixels": 118,
+      "oldTriangles": 100,
+      "newTriangles": 3512,
+      "oldSilhouetteIoU": 0.8598315998018822,
+      "newSilhouetteIoU": 0.8120430107526881
+    },
+    {
+      "cloud": 17,
+      "sourceAreaPixels": 111,
+      "oldTriangles": 100,
+      "newTriangles": 3232,
+      "oldSilhouetteIoU": 0.8516992790937178,
+      "newSilhouetteIoU": 0.8185634328358209
+    },
+    {
+      "cloud": 18,
+      "sourceAreaPixels": 98,
+      "oldTriangles": 100,
+      "newTriangles": 3012,
+      "oldSilhouetteIoU": 0.7935672514619883,
+      "newSilhouetteIoU": 0.768250857422832
+    },
+    {
+      "cloud": 19,
+      "sourceAreaPixels": 98,
+      "oldTriangles": 100,
+      "newTriangles": 3024,
+      "oldSilhouetteIoU": 0.8590441621294616,
+      "newSilhouetteIoU": 0.821185107498689
+    },
+    {
+      "cloud": 20,
+      "sourceAreaPixels": 84,
+      "oldTriangles": 100,
+      "newTriangles": 2480,
+      "oldSilhouetteIoU": 0.8270524899057874,
+      "newSilhouetteIoU": 0.8155339805825242
+    },
+    {
+      "cloud": 21,
+      "sourceAreaPixels": 75,
+      "oldTriangles": 100,
+      "newTriangles": 2308,
+      "oldSilhouetteIoU": 0.7278712509144111,
+      "newSilhouetteIoU": 0.7371007371007371
+    },
+    {
+      "cloud": 22,
+      "sourceAreaPixels": 62,
+      "oldTriangles": 100,
+      "newTriangles": 2092,
+      "oldSilhouetteIoU": 0.7442258340461934,
+      "newSilhouetteIoU": 0.6974612129760226
+    },
+    {
+      "cloud": 23,
+      "sourceAreaPixels": 59,
+      "oldTriangles": 100,
+      "newTriangles": 2044,
+      "oldSilhouetteIoU": 0.6308539944903582,
+      "newSilhouetteIoU": 0.686046511627907
+    },
+    {
+      "cloud": 24,
+      "sourceAreaPixels": 52,
+      "oldTriangles": 100,
+      "newTriangles": 1644,
+      "oldSilhouetteIoU": 0.8491379310344828,
+      "newSilhouetteIoU": 0.7891737891737892
+    },
+    {
+      "cloud": 25,
+      "sourceAreaPixels": 45,
+      "oldTriangles": 100,
+      "newTriangles": 1588,
+      "oldSilhouetteIoU": 0.806831566548881,
+      "newSilhouetteIoU": 0.7665245202558635
+    },
+    {
+      "cloud": 26,
+      "sourceAreaPixels": 43,
+      "oldTriangles": 100,
+      "newTriangles": 1324,
+      "oldSilhouetteIoU": 0.689064558629776,
+      "newSilhouetteIoU": 0.7288135593220338
+    },
+    {
+      "cloud": 27,
+      "sourceAreaPixels": 35,
+      "oldTriangles": 100,
+      "newTriangles": 1096,
+      "oldSilhouetteIoU": 0.7693548387096775,
+      "newSilhouetteIoU": 0.7506702412868632
+    }
+  ],
+  "oneToOneComplete": false
+}

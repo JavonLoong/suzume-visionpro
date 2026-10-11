@@ -1,0 +1,190 @@
+{
+  "revision": 46,
+  "nativeSha256": "f377b44edfb7287e25476dab31deca102a610521333d5d20e319d54c00521c2c",
+  "strideFloats": 8,
+  "buckets": [
+    {
+      "key": "mesh0",
+      "byteOffset": 0,
+      "byteLength": 803712,
+      "vertexCount": 25116,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.019"
+      ],
+      "originalVertexCount": 28476
+    },
+    {
+      "key": "mesh10",
+      "byteOffset": 803712,
+      "byteLength": 121152,
+      "vertexCount": 3786,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.029"
+      ],
+      "originalVertexCount": 3894
+    },
+    {
+      "key": "mesh11",
+      "byteOffset": 924864,
+      "byteLength": 1637376,
+      "vertexCount": 51168,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.030"
+      ],
+      "originalVertexCount": 54438
+    },
+    {
+      "key": "mesh18",
+      "byteOffset": 2562240,
+      "byteLength": 3775680,
+      "vertexCount": 117990,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.037"
+      ],
+      "originalVertexCount": 119061
+    },
+    {
+      "key": "mesh6",
+      "byteOffset": 6337920,
+      "byteLength": 126720,
+      "vertexCount": 3960,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.025"
+      ],
+      "originalVertexCount": 5184
+    },
+    {
+      "key": "mesh8",
+      "byteOffset": 6464640,
+      "byteLength": 11267904,
+      "vertexCount": 352122,
+      "sourceObjects": [
+        "Circular ruined hotel with exterior entrance solid mesh.027"
+      ],
+      "originalVertexCount": 355089
+    },
+    {
+      "key": "rail0",
+      "byteOffset": 17732544,
+      "byteLength": 460800,
+      "vertexCount": 14400,
+      "sourceObjects": [
+        "Poster dense balcony rail bay 12 v46",
+        "Poster dense balcony rail bay 13 v46",
+        "Poster dense balcony rail bay 14 v46",
+        "Poster dense balcony rail bay 15 v46"
+      ],
+      "newMaterialKey": "rail0"
+    },
+    {
+      "key": "roof0",
+      "byteOffset": 18193344,
+      "byteLength": 222336,
+      "vertexCount": 6948,
+      "sourceObjects": [
+        "Poster rooftop left service house v45",
+        "Poster rooftop central water tank v45",
+        "Poster rooftop partly visible left water tank v45"
+      ],
+      "newMaterialKey": "roof0"
+    },
+    {
+      "key": "roof1",
+      "byteOffset": 18415680,
+      "byteLength": 281856,
+      "vertexCount": 8808,
+      "sourceObjects": [
+        "Poster rooftop left service house v45",
+        "Poster rooftop right service house v45",
+        "Poster rooftop central water tank v45",
+        "Poster rooftop partly visible left water tank v45"
+      ],
+      "newMaterialKey": "roof1"
+    },
+    {
+      "key": "roof2",
+      "byteOffset": 18697536,
+      "byteLength": 254976,
+      "vertexCount": 7968,
+      "sourceObjects": [
+        "Poster rooftop left service house v45",
+        "Poster rooftop right service house v45",
+        "Poster rooftop central water tank v45"
+      ],
+      "newMaterialKey": "roof2"
+    },
+    {
+      "key": "roof3",
+      "byteOffset": 18952512,
+      "byteLength": 1152,
+      "vertexCount": 36,
+      "sourceObjects": [
+        "Poster rooftop right service house v45"
+      ],
+      "newMaterialKey": "roof3"
+    }
+  ],
+  "newMaterials": [
+    {
+      "key": "roof0",
+      "name": "Poster rooftop blue grey metal casing v45",
+      "linearRGB": [
+        0.5087903738021851,
+        0.3564266264438629,
+        0.29624849557876587
+      ],
+      "roughness": 0.82,
+      "metalness": 0.12
+    },
+    {
+      "key": "roof1",
+      "name": "Poster rooftop pale edge and rim v45",
+      "linearRGB": [
+        0.6155909299850464,
+        0.5509619116783142,
+        0.4855315387248993
+      ],
+      "roughness": 0.82,
+      "metalness": 0.12
+    },
+    {
+      "key": "roof2",
+      "name": "Poster rooftop dark pipe and ladder v45",
+      "linearRGB": [
+        0.0802198201417923,
+        0.09305896610021591,
+        0.09530746936798096
+      ],
+      "roughness": 0.82,
+      "metalness": 0.12
+    },
+    {
+      "key": "roof3",
+      "name": "Poster rooftop right house grey casing v45",
+      "linearRGB": [
+        0.18316452205181122,
+        0.19959892332553864,
+        0.2073739469051361
+      ],
+      "roughness": 0.82,
+      "metalness": 0.12
+    },
+    {
+      "key": "rail0",
+      "name": "Poster pale weathered guardrail v46",
+      "linearRGB": [
+        0.949999988079071,
+        0.7600477337837219,
+        0.49646666646003723
+      ],
+      "roughness": 0.86,
+      "metalness": 0.06
+    }
+  ],
+  "binarySha256": "b219584eac293ef4cba052bfba3f25ad54e2092723270818e6793a35688e477c",
+  "triangles": 197434,
+  "closedRoofAssemblies": 4,
+  "closedRailAssemblies": 4,
+  "browserMaterialsApproximate": true,
+  "browserRuntimeVerified": false
+}

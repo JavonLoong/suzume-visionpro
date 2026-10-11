@@ -1,0 +1,28 @@
+{
+  "revision": 31,
+  "nativeFile": "movie-terrain-v31/Suzume_scene_movie_terrain_v31.blend",
+  "nativeSha256": "232664f5eb9d121eee980c9c93a04c4db3ac5eb6afb965a6abc457a5ad767060",
+  "nativeFrontAndWideNightReviewed": true,
+  "nearGroundVerticesPreserved": 5681,
+  "preservedDayMeshes": 2362,
+  "bodyHeadFeetAndPortalPreserved": true,
+  "continuousClosedTerrainExtension": true,
+  "spatialMistVolumes": 2,
+  "maximumManuallyAnnotatedSkylineErrorPixels": 0.9510726928710938,
+  "skylineCheckScope": "Eight manually selected visible points at the calibrated movie camera only; not overall or all-angle similarity.",
+  "browserCandidate": "viewer/candidate-v31.html",
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "stableNativeRemainsRevision": 19,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Restore the wider off-axis sunset colors and star arrangement seen in the close door reference, preserving the narrow front sky calibration.",
+    "Refine distant vegetation, fine mist structure and the slightly bright left haze.",
+    "Refine cloud silhouettes and the sparse wider night composition.",
+    "Calibrate the character silhouette, ponytail, pose and clothing details while preserving foot clearance and portal partition.",
+    "Refine water glints, paving and remaining courtyard surface seams.",
+    "Finish the separate closed-door poster scene and inspect hidden geometry from multiple angles.",
+    "Verify current browser GPU output, interaction and cross-engine appearance in a responsive browser."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "reference": "official_front.jpg",
+  "reference_size": [
+    630,
+    750
+  ],
+  "door_target_pixels": [
+    [
+      293,
+      552
+    ],
+    [
+      345,
+      552
+    ],
+    [
+      293,
+      442
+    ],
+    [
+      345,
+      442
+    ]
+  ],
+  "door_projected_pixels": [
+    [
+      293.2662373781204,
+      552.2156283259392
+    ],
+    [
+      344.7337621450424,
+      552.2156283259392
+    ],
+    [
+      293.6943367123604,
+      441.7753145098686
+    ],
+    [
+      344.30564403533936,
+      441.7753145098686
+    ]
+  ],
+  "door_corner_rmse_pixels": 0.40310620522976154,
+  "camera_parameters": [
+    13.374094412121218,
+    2.4,
+    3.7583108343346505,
+    -0.005333324219860906
+  ],
+  "assumed_depth_planes_m": [
+    3.55689678469298,
+    5.759525110611926,
+    5.759525110611926,
+    6.464903329111201,
+    6.464903329111201,
+    6.965182077118618,
+    7.76536633657063,
+    -4
+  ],
+  "limitations": [
+    "Camera fit uses the same four door points, not independent validation",
+    "Steel silhouette traced at inferred depth planes; not measured 3D",
+    "Back half remains first-pass inferred geometry",
+    "No full 1:1 claim; material and film lighting not matched",
+    "GLB procedural weathering not baked"
+  ]
+}

@@ -1,0 +1,1623 @@
+[
+  {
+    "u": 25,
+    "v": 547.45,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 6233,
+    "point": [
+      -14.662269592285156,
+      17.709386825561523,
+      6.6579484939575195
+    ],
+    "normal": [
+      0.6103825569152832,
+      -0.7921068072319031,
+      -3.4624090261559104e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 548.95,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 6305,
+    "point": [
+      -14.658495903015137,
+      17.712297439575195,
+      6.5931196212768555
+    ],
+    "normal": [
+      0.6103824973106384,
+      -0.7921068668365479,
+      -3.4624090261559104e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 550.45,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 6177,
+    "point": [
+      -14.685230255126953,
+      17.786375045776367,
+      6.537973403930664
+    ],
+    "normal": [
+      0.6103863716125488,
+      -0.7921038269996643,
+      -3.462395881115299e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 551.95,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 6114,
+    "point": [
+      -14.6814546585083,
+      17.789289474487305,
+      6.473084449768066
+    ],
+    "normal": [
+      0.6103835701942444,
+      -0.792106032371521,
+      -3.4624054734422316e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 553.45,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.027",
+    "faceIndex": 50640,
+    "point": [
+      -14.78089427947998,
+      18.03316307067871,
+      6.440001487731934
+    ],
+    "normal": [
+      0.0,
+      4.371138828673793e-08,
+      -1.0
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.026"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 554.95,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 344,
+    "point": [
+      -14.720650672912598,
+      17.904268264770508,
+      6.357604026794434
+    ],
+    "normal": [
+      0.610384464263916,
+      -0.7921053171157837,
+      -3.462402275999921e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 556.45,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 344,
+    "point": [
+      -14.716867446899414,
+      17.90718650817871,
+      6.292620658874512
+    ],
+    "normal": [
+      0.610384464263916,
+      -0.7921053171157837,
+      -3.462402275999921e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 557.95,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 345,
+    "point": [
+      -14.713088035583496,
+      17.910097122192383,
+      6.2276716232299805
+    ],
+    "normal": [
+      0.610384464263916,
+      -0.7921053171157837,
+      -3.462402275999921e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 559.45,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 5702,
+    "point": [
+      -14.839683532714844,
+      18.217790603637695,
+      6.2006940841674805
+    ],
+    "normal": [
+      0.610384464263916,
+      -0.7921053767204285,
+      -3.4624026312712886e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 560.95,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 5702,
+    "point": [
+      -14.8358736038208,
+      18.22072410583496,
+      6.135257720947266
+    ],
+    "normal": [
+      0.610384464263916,
+      -0.7921053767204285,
+      -3.4624026312712886e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 562.45,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 5695,
+    "point": [
+      -14.832070350646973,
+      18.223665237426758,
+      6.069858551025391
+    ],
+    "normal": [
+      0.6103832125663757,
+      -0.7921063303947449,
+      -2.3482311917177867e-06
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 25,
+    "v": 563.95,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 5698,
+    "point": [
+      -14.828266143798828,
+      18.226594924926758,
+      6.004493713378906
+    ],
+    "normal": [
+      0.6103832125663757,
+      -0.7921063303947449,
+      2.3181969481811393e-06
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 549.48,
+    "object": "Poster rooftop left service house v45",
+    "faceIndex": 1,
+    "point": [
+      -13.952984809875488,
+      19.84111213684082,
+      6.855475425720215
+    ],
+    "normal": [
+      0.5568296313285828,
+      -0.8306267857551575,
+      0.0
+    ],
+    "materials": [
+      "Poster rooftop blue grey metal casing v45",
+      "Poster rooftop pale edge and rim v45",
+      "Poster rooftop dark pipe and ladder v45",
+      "Poster rooftop right house grey casing v45"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 550.98,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 6272,
+    "point": [
+      -13.478349685668945,
+      18.6216983795166,
+      6.622152328491211
+    ],
+    "normal": [
+      0.6103842854499817,
+      -0.7921054363250732,
+      -3.4624029865426564e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 552.48,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 6036,
+    "point": [
+      -13.502938270568848,
+      18.697431564331055,
+      6.565487861633301
+    ],
+    "normal": [
+      0.6103835701942444,
+      -0.7921059727668762,
+      -3.462405118170864e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 553.98,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 6099,
+    "point": [
+      -13.49940013885498,
+      18.700166702270508,
+      6.499024391174316
+    ],
+    "normal": [
+      0.6103835701942444,
+      -0.792106032371521,
+      -3.4624054734422316e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 555.48,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.027",
+    "faceIndex": 50640,
+    "point": [
+      -13.517922401428223,
+      18.760194778442383,
+      6.440001487731934
+    ],
+    "normal": [
+      0.0,
+      4.371138828673793e-08,
+      -1.0
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.026"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 556.98,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 344,
+    "point": [
+      -13.535417556762695,
+      18.817590713500977,
+      6.380468368530273
+    ],
+    "normal": [
+      0.610384464263916,
+      -0.7921053171157837,
+      -3.462402275999921e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 558.48,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 345,
+    "point": [
+      -13.53187370300293,
+      18.82032585144043,
+      6.313910484313965
+    ],
+    "normal": [
+      0.610384464263916,
+      -0.7921053171157837,
+      -3.462402275999921e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 559.98,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 345,
+    "point": [
+      -13.52833080291748,
+      18.823057174682617,
+      6.247389793395996
+    ],
+    "normal": [
+      0.610384464263916,
+      -0.7921053171157837,
+      -3.462402275999921e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 561.48,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 342,
+    "point": [
+      -13.616595268249512,
+      19.064577102661133,
+      6.210000991821289
+    ],
+    "normal": [
+      0.0,
+      4.371138828673793e-08,
+      -1.0
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 562.98,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 5769,
+    "point": [
+      -13.641410827636719,
+      19.141164779663086,
+      6.151978492736816
+    ],
+    "normal": [
+      0.6103820204734802,
+      -0.7921072244644165,
+      -3.46241080251275e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 564.48,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 5769,
+    "point": [
+      -13.637843132019043,
+      19.143911361694336,
+      6.084996223449707
+    ],
+    "normal": [
+      0.6103820204734802,
+      -0.7921072244644165,
+      -3.46241080251275e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 60,
+    "v": 565.98,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.029",
+    "faceIndex": 514,
+    "point": [
+      -13.629258155822754,
+      19.13359260559082,
+      6.016531944274902
+    ],
+    "normal": [
+      -0.7921034693717957,
+      -0.610386848449707,
+      -2.668085663515285e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.028"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 551.22,
+    "object": "Poster rooftop left service house v45",
+    "faceIndex": 1,
+    "point": [
+      -12.828125,
+      20.59519386291504,
+      6.8719048500061035
+    ],
+    "normal": [
+      0.5568296313285828,
+      -0.8306267857551575,
+      0.0
+    ],
+    "materials": [
+      "Poster rooftop blue grey metal casing v45",
+      "Poster rooftop pale edge and rim v45",
+      "Poster rooftop dark pipe and ladder v45",
+      "Poster rooftop right house grey casing v45"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 552.72,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 6262,
+    "point": [
+      -12.420435905456543,
+      19.43691062927246,
+      6.648177146911621
+    ],
+    "normal": [
+      0.6103825569152832,
+      -0.7921068072319031,
+      -3.4624090261559104e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 554.22,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.027",
+    "faceIndex": 55301,
+    "point": [
+      -12.436050415039062,
+      19.493825912475586,
+      6.587501525878906
+    ],
+    "normal": [
+      0.0,
+      4.371138828673793e-08,
+      -1.0
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.026"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 555.72,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12336,
+    "point": [
+      -12.439614295959473,
+      19.516138076782227,
+      6.522207260131836
+    ],
+    "normal": [
+      0.471879780292511,
+      -0.881662905216217,
+      -3.8538708224677976e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 557.22,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12336,
+    "point": [
+      -12.436073303222656,
+      19.518033981323242,
+      6.454287528991699
+    ],
+    "normal": [
+      0.471879780292511,
+      -0.881662905216217,
+      -3.8538708224677976e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 558.72,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 7587,
+    "point": [
+      -12.552079200744629,
+      19.863664627075195,
+      6.429411888122559
+    ],
+    "normal": [
+      0.5376998782157898,
+      -0.8431363105773926,
+      -8.142132514876721e-07
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 560.22,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 428,
+    "point": [
+      -12.467230796813965,
+      19.631792068481445,
+      6.332126617431641
+    ],
+    "normal": [
+      0.47188127040863037,
+      -0.881662130355835,
+      -3.8538676250254866e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 561.72,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 428,
+    "point": [
+      -12.46368408203125,
+      19.63368797302246,
+      6.264127731323242
+    ],
+    "normal": [
+      0.47188127040863037,
+      -0.881662130355835,
+      -3.8538676250254866e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 563.22,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 426,
+    "point": [
+      -12.50031852722168,
+      19.7512264251709,
+      6.210000991821289
+    ],
+    "normal": [
+      0.0,
+      4.371138828673793e-08,
+      -1.0
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 564.72,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 11925,
+    "point": [
+      -12.536328315734863,
+      19.867029190063477,
+      6.15528678894043
+    ],
+    "normal": [
+      0.47187861800193787,
+      -0.8816635608673096,
+      -3.8538740199101085e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 566.22,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 11923,
+    "point": [
+      -12.532767295837402,
+      19.86893653869629,
+      6.086991310119629
+    ],
+    "normal": [
+      0.47187861800193787,
+      -0.8816635608673096,
+      -3.8538740199101085e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 90,
+    "v": 567.72,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 11923,
+    "point": [
+      -12.529207229614258,
+      19.87083625793457,
+      6.01873779296875
+    ],
+    "normal": [
+      0.47187861800193787,
+      -0.8816635608673096,
+      -3.8538740199101085e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 552.96,
+    "object": "Individual three-dimensional ivy leaves.001",
+    "faceIndex": 14678,
+    "point": [
+      -11.227885246276855,
+      19.98955726623535,
+      6.705605506896973
+    ],
+    "normal": [
+      0.6021561026573181,
+      0.7861032485961914,
+      -0.13946236670017242
+    ],
+    "materials": []
+  },
+  {
+    "u": 120,
+    "v": 554.46,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12414,
+    "point": [
+      -11.248678207397461,
+      20.068479537963867,
+      6.646827697753906
+    ],
+    "normal": [
+      0.47188520431518555,
+      -0.881659984588623,
+      -3.853858032698554e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 555.96,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12211,
+    "point": [
+      -11.268131256103516,
+      20.14313316345215,
+      6.587261199951172
+    ],
+    "normal": [
+      0.47187986969947815,
+      -0.8816628456115723,
+      -3.8538708224677976e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 557.46,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12330,
+    "point": [
+      -11.264892578125,
+      20.144872665405273,
+      6.518242835998535
+    ],
+    "normal": [
+      0.471879780292511,
+      -0.881662905216217,
+      -3.8538708224677976e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 558.96,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12285,
+    "point": [
+      -11.2616548538208,
+      20.146604537963867,
+      6.449265480041504
+    ],
+    "normal": [
+      0.471879780292511,
+      -0.881662905216217,
+      -3.8538708224677976e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 560.46,
+    "object": "Poster left second bowed upright v44",
+    "faceIndex": 18,
+    "point": [
+      -10.408885955810547,
+      17.415224075317383,
+      6.04454231262207
+    ],
+    "normal": [
+      0.5153988003730774,
+      -0.8560914993286133,
+      -0.03835930675268173
+    ],
+    "materials": [
+      "Poster left weathered grey brown steel v44",
+      "Poster left pale exposed paint edge v44",
+      "Poster left recessed dark web v44",
+      "Poster left grounded concrete v44"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 561.96,
+    "object": "Poster left second bowed upright v44",
+    "faceIndex": 42,
+    "point": [
+      -10.40667724609375,
+      17.419370651245117,
+      5.980953216552734
+    ],
+    "normal": [
+      0.5148699283599854,
+      -0.8568432331085205,
+      -0.02699650079011917
+    ],
+    "materials": [
+      "Poster left weathered grey brown steel v44",
+      "Poster left pale exposed paint edge v44",
+      "Poster left recessed dark web v44",
+      "Poster left grounded concrete v44"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 563.46,
+    "object": "Poster left second bowed upright v44",
+    "faceIndex": 43,
+    "point": [
+      -10.404254913330078,
+      17.422826766967773,
+      5.917311668395996
+    ],
+    "normal": [
+      0.5152552723884583,
+      -0.856609046459198,
+      -0.02707572467625141
+    ],
+    "materials": [
+      "Poster left weathered grey brown steel v44",
+      "Poster left pale exposed paint edge v44",
+      "Poster left recessed dark web v44",
+      "Poster left grounded concrete v44"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 564.96,
+    "object": "Poster left second bowed upright v44",
+    "faceIndex": 71,
+    "point": [
+      -10.397857666015625,
+      17.413480758666992,
+      5.852200031280518
+    ],
+    "normal": [
+      0.5140303373336792,
+      -0.8576240539550781,
+      -0.015932932496070862
+    ],
+    "materials": [
+      "Poster left weathered grey brown steel v44",
+      "Poster left pale exposed paint edge v44",
+      "Poster left recessed dark web v44",
+      "Poster left grounded concrete v44"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 566.46,
+    "object": "Poster left second bowed upright v44",
+    "faceIndex": 94,
+    "point": [
+      -10.395110130310059,
+      17.41587257385254,
+      5.788523197174072
+    ],
+    "normal": [
+      0.5126386880874634,
+      -0.8585889935493469,
+      -0.0051566679030656815
+    ],
+    "materials": [
+      "Poster left weathered grey brown steel v44",
+      "Poster left pale exposed paint edge v44",
+      "Poster left recessed dark web v44",
+      "Poster left grounded concrete v44"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 567.96,
+    "object": "Poster left second bowed upright v44",
+    "faceIndex": 96,
+    "point": [
+      -10.399070739746094,
+      17.43987464904785,
+      5.727340221405029
+    ],
+    "normal": [
+      -0.8450101017951965,
+      -0.5027462840080261,
+      -0.18221986293792725
+    ],
+    "materials": [
+      "Poster left weathered grey brown steel v44",
+      "Poster left pale exposed paint edge v44",
+      "Poster left recessed dark web v44",
+      "Poster left grounded concrete v44"
+    ]
+  },
+  {
+    "u": 120,
+    "v": 569.46,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 11917,
+    "point": [
+      -11.346172332763672,
+      20.504011154174805,
+      6.006237983703613
+    ],
+    "normal": [
+      0.47187867760658264,
+      -0.8816635012626648,
+      -3.8538736646387406e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 554.41,
+    "object": "Poster dense balcony rail bay 14 v46",
+    "faceIndex": 521,
+    "point": [
+      -10.365442276000977,
+      21.03175926208496,
+      6.770641803741455
+    ],
+    "normal": [
+      0.4718267023563385,
+      -0.8816913962364197,
+      0.0
+    ],
+    "materials": [
+      "Poster pale weathered guardrail v46"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 555.91,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12433,
+    "point": [
+      -10.242815017700195,
+      20.606843948364258,
+      6.6452484130859375
+    ],
+    "normal": [
+      0.471876859664917,
+      -0.8816644549369812,
+      -3.853877927895155e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 557.41,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12205,
+    "point": [
+      -10.26058578491211,
+      20.682390213012695,
+      6.584769248962402
+    ],
+    "normal": [
+      0.47188645601272583,
+      -0.8816593289375305,
+      -3.853855190527611e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 558.91,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12246,
+    "point": [
+      -10.25761604309082,
+      20.683984756469727,
+      6.514842987060547
+    ],
+    "normal": [
+      0.47188645601272583,
+      -0.8816593289375305,
+      -3.853855190527611e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 560.41,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12296,
+    "point": [
+      -10.254648208618164,
+      20.685575485229492,
+      6.444960594177246
+    ],
+    "normal": [
+      0.47188645601272583,
+      -0.8816593289375305,
+      -3.853855190527611e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 561.91,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 428,
+    "point": [
+      -10.283455848693848,
+      20.80059242248535,
+      6.388843536376953
+    ],
+    "normal": [
+      0.47188127040863037,
+      -0.881662130355835,
+      -3.8538676250254866e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 563.41,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 429,
+    "point": [
+      -10.280481338500977,
+      20.802183151245117,
+      6.318840026855469
+    ],
+    "normal": [
+      0.47188127040863037,
+      -0.881662130355835,
+      -3.8538676250254866e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 564.91,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 429,
+    "point": [
+      -10.277509689331055,
+      20.803773880004883,
+      6.248879432678223
+    ],
+    "normal": [
+      0.47188127040863037,
+      -0.881662130355835,
+      -3.8538676250254866e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 566.41,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 11939,
+    "point": [
+      -10.34079360961914,
+      21.042116165161133,
+      6.206307411193848
+    ],
+    "normal": [
+      0.4718768894672394,
+      -0.8816644549369812,
+      -3.853877927895155e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 567.91,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 11998,
+    "point": [
+      -10.337806701660156,
+      21.043710708618164,
+      6.1360015869140625
+    ],
+    "normal": [
+      0.4718768894672394,
+      -0.881664514541626,
+      -3.853877927895155e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 569.41,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12000,
+    "point": [
+      -10.334823608398438,
+      21.045316696166992,
+      6.065740585327148
+    ],
+    "normal": [
+      0.4718768894672394,
+      -0.8816644549369812,
+      -3.853877927895155e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 145,
+    "v": 570.91,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 12000,
+    "point": [
+      -10.331839561462402,
+      21.046903610229492,
+      5.995521545410156
+    ],
+    "normal": [
+      0.4718768894672394,
+      -0.8816644549369812,
+      -3.853877927895155e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 557.6,
+    "object": "Poster rooftop right service house v45",
+    "faceIndex": 250,
+    "point": [
+      -8.120992660522461,
+      22.708505630493164,
+      6.822875022888184
+    ],
+    "normal": [
+      0.3000618517398834,
+      -0.9181238412857056,
+      0.2588658928871155
+    ],
+    "materials": [
+      "Poster rooftop blue grey metal casing v45",
+      "Poster rooftop pale edge and rim v45",
+      "Poster rooftop dark pipe and ladder v45",
+      "Poster rooftop right house grey casing v45"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 559.1,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.027",
+    "faceIndex": 61086,
+    "point": [
+      -7.8769683837890625,
+      21.575468063354492,
+      6.608437538146973
+    ],
+    "normal": [
+      0.3110654950141907,
+      -0.950388491153717,
+      -4.154280119905707e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.026"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 560.6,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 21622,
+    "point": [
+      -7.890281677246094,
+      21.650022506713867,
+      6.545982360839844
+    ],
+    "normal": [
+      0.3110676109790802,
+      -0.9503878355026245,
+      -4.1542772777347636e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 562.1,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 21561,
+    "point": [
+      -7.887882232666016,
+      21.65081214904785,
+      6.474411964416504
+    ],
+    "normal": [
+      0.3110676109790802,
+      -0.9503877758979797,
+      -4.154276922463396e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 563.6,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.027",
+    "faceIndex": 61067,
+    "point": [
+      -7.952016830444336,
+      21.964189529418945,
+      6.440000534057617
+    ],
+    "normal": [
+      0.0,
+      4.371138828673793e-08,
+      -1.0
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.026"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 565.1,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 452,
+    "point": [
+      -7.907156944274902,
+      21.7655086517334,
+      6.344637870788574
+    ],
+    "normal": [
+      0.3110654950141907,
+      -0.950388491153717,
+      -4.154280119905707e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 566.6,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 452,
+    "point": [
+      -7.904752731323242,
+      21.766286849975586,
+      6.273001670837402
+    ],
+    "normal": [
+      0.3110654950141907,
+      -0.950388491153717,
+      -4.154280119905707e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 568.1,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 450,
+    "point": [
+      -7.918475151062012,
+      21.842897415161133,
+      6.210000991821289
+    ],
+    "normal": [
+      0.0,
+      4.371138828673793e-08,
+      -1.0
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 569.6,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 20306,
+    "point": [
+      -7.950143814086914,
+      22.003965377807617,
+      6.156181335449219
+    ],
+    "normal": [
+      0.3110676109790802,
+      -0.9503878355026245,
+      3.186970047863724e-07
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 571.1,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 20306,
+    "point": [
+      -7.947731018066406,
+      22.0047550201416,
+      6.084259033203125
+    ],
+    "normal": [
+      0.3110676109790802,
+      -0.9503878355026245,
+      3.186970047863724e-07
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 572.6,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 20305,
+    "point": [
+      -7.945321083068848,
+      22.005544662475586,
+      6.012383460998535
+    ],
+    "normal": [
+      0.3110670745372772,
+      -0.9503879547119141,
+      -4.1542776330061315e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 200,
+    "v": 574.1,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 20303,
+    "point": [
+      -7.9429121017456055,
+      22.006330490112305,
+      5.940555572509766
+    ],
+    "normal": [
+      0.3110675811767578,
+      -0.9503878355026245,
+      -8.134841209539445e-07
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 559.34,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.027",
+    "faceIndex": 61085,
+    "point": [
+      -6.524033069610596,
+      22.018293380737305,
+      6.647217750549316
+    ],
+    "normal": [
+      0.3110654950141907,
+      -0.950388491153717,
+      -4.154280119905707e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.026"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 560.84,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.027",
+    "faceIndex": 61073,
+    "point": [
+      -6.535223007202148,
+      22.093542098999023,
+      6.584085464477539
+    ],
+    "normal": [
+      0.31106576323509216,
+      -0.9503884315490723,
+      -4.154279764634339e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.026"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 562.34,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.027",
+    "faceIndex": 61073,
+    "point": [
+      -6.533250331878662,
+      22.09419059753418,
+      6.5117645263671875
+    ],
+    "normal": [
+      0.31106576323509216,
+      -0.9503884315490723,
+      -4.154279764634339e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.026"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 563.84,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.027",
+    "faceIndex": 61067,
+    "point": [
+      -6.532036304473877,
+      22.099138259887695,
+      6.440001487731934
+    ],
+    "normal": [
+      0.0,
+      4.371138828673793e-08,
+      -1.0
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.026"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 565.34,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 452,
+    "point": [
+      -6.549471378326416,
+      22.20988655090332,
+      6.380596160888672
+    ],
+    "normal": [
+      0.3110654950141907,
+      -0.950388491153717,
+      -4.154280119905707e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 566.84,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 453,
+    "point": [
+      -6.547494411468506,
+      22.210519790649414,
+      6.308210372924805
+    ],
+    "normal": [
+      0.3110654950141907,
+      -0.950388491153717,
+      -4.154280119905707e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 568.34,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.021",
+    "faceIndex": 453,
+    "point": [
+      -6.545523643493652,
+      22.211179733276367,
+      6.235876083374023
+    ],
+    "normal": [
+      0.3110654950141907,
+      -0.950388491153717,
+      -4.154280119905707e-08
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.020"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 569.84,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 21118,
+    "point": [
+      -6.570711612701416,
+      22.36606788635254,
+      6.180713653564453
+    ],
+    "normal": [
+      0.6797526478767395,
+      -0.6286169290542603,
+      -0.3778587579727173
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 571.34,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 20974,
+    "point": [
+      -6.60988187789917,
+      22.6004695892334,
+      6.133722305297852
+    ],
+    "normal": [
+      0.3110772669315338,
+      -0.9503846764564514,
+      1.3544656212616246e-05
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 572.84,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 21387,
+    "point": [
+      -6.573751926422119,
+      22.407114028930664,
+      6.03999137878418
+    ],
+    "normal": [
+      0.31106582283973694,
+      -0.9503884315490723,
+      -4.154279764634339e-08
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 574.34,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.037",
+    "faceIndex": 20979,
+    "point": [
+      -6.605905532836914,
+      22.60176658630371,
+      5.987978935241699
+    ],
+    "normal": [
+      0.31106725335121155,
+      -0.9503878951072693,
+      7.205067049653735e-06
+    ],
+    "materials": [
+      "Reference-calibrated facade surface pigments.001"
+    ]
+  },
+  {
+    "u": 230,
+    "v": 575.84,
+    "object": "Circular ruined hotel with exterior entrance solid mesh.027",
+    "faceIndex": 60805,
+    "point": [
+      -6.5648274421691895,
+      22.38014793395996,
+      5.892116546630859
+    ],
+    "normal": [
+      0.6797741651535034,
+      -0.628609299659729,
+      0.3778325915336609
+    ],
+    "materials": [
+      "Circular ruined hotel with exterior entrance solid mesh.026"
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "revision": 41,
+  "finding": "The legacy lower-cloud setup deliberately caps the central sky mask well above the actual facade profile, removing visible horizon clouds.",
+  "sourceScript": "C:/Users/15410/.codex/visualizations/2026/10/09/01a11f38-1f1d-7dc0-912a-5e87b1c5f103/build_distant_clouds_v9.py",
+  "sourceExpression": "profile[round(840*width/W):round(1160*width/W)]=min(1510*width/W,profile.min())",
+  "affectedXRangeIn708PixelFrame": [
+    297,
+    411
+  ],
+  "nominalUpperCapIn708PixelFrame": 534.54,
+  "uncappedFacadeProfileYAtX320_350_380": [
+    599.32,
+    599.32,
+    599.32
+  ],
+  "originalCloudMaskSize": [
+    2000,
+    1671
+  ],
+  "originalNonzeroMaskPixelsInCentralHorizonProbe": 8036,
+  "probeInOriginal2000PixelImage": {
+    "x": [
+      842,
+      1158
+    ],
+    "y": [
+      1497,
+      1609
+    ]
+  },
+  "nextAction": "Recover the central cloud bank from the uncapped source mask. Exclude or infer the foreground door and steel occlusion explicitly rather than suppressing the whole central sky strip. Validate against the original reference and from other camera angles.",
+  "notFixedByCurrent28CloudReplacement": true,
+  "oneToOneComplete": false,
+  "actualLegacyCentralCapYIn708PixelFrame": 534.54,
+  "actualMaskCutoffYAfterMargin": 531.54,
+  "pureSkyProbeAboveDoorIn708Frame": {
+    "x": [
+      297,
+      411
+    ],
+    "y": [
+      535,
+      559
+    ],
+    "rawCloudMaskPixels": 728,
+    "usedCloudMaskPixels": 0
+  },
+  "diagnosticFigure": "central-cloud-cap-diagnosis-v41.png"
+}

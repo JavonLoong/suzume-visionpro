@@ -1,0 +1,43 @@
+{
+  "revision": 49,
+  "nativeSha256": "bbcfec64ae4a3614fbcd92d3ba0522942deb54a439a842201d7fbcadf3e248f5",
+  "frontReviewed": true,
+  "archDetailReviewed": true,
+  "obliqueReviewed": true,
+  "obliqueDetailReviewed": true,
+  "referenceComparisonReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The old semicircular large arches and broad small arches conflicted with the reference surface colors. Twenty-nine large pointed and small arched units now have modeled surrounds and recessed inserts. Three replacement wall sections and the fitted continuous lower cornice follow the observed facade grade.",
+    "The first trial found two lower room dividers reaching into small arch 6 at the shared bay boundary. Their lower footprints are preserved, while their upper sections stop behind the facade. All 29 final center probes are clear and all inserts intersect their molded surrounds.",
+    "The previous upper-window center probes missed an old sill projecting .27 m in front of the wall. Removed its remaining 326 triangles in bays 13 and 14. Sixty new window probes start .50 m in front and find no wall or sill within the next meter, including lower-glazing samples.",
+    "The final 68 added solids contain 86466 triangles and pass closed-volume checks after saving and reopening. Thirty observed apex/base anchors differ by at most .611 pixels at 708x1000, within the 1.5-pixel manual uncertainty. This local result does not validate hidden architecture or complete scene fidelity.",
+    "Front and reference comparison show narrower small niches and pointed large-arch contours, with the modeled lower line following the source more closely. Full courtyard and close oblique views were inspected to assess depth and connections. Fixed reference colors, gray-panel interpretation, concealed arches and surface wear remain approximate.",
+    "Retained original face positions and UVs, all 23 packed image files, shared node groups, and the movie/night scene snapshots match the previous release. The movie character, rebuilt head, foot adjustment and spatial-portal setup are unchanged.",
+    "The actual Three.js v46-v49 chain was exercised in Node. Six former hotel buckets and one previous partition bucket are replaced, with all material instances reused. Exported positions, normals and UVs agree exactly, and 24 HTTP resources match local bytes. This does not verify browser/GPU rendering.",
+    "A fresh CUA inventory in v49 returned an Edge connection failure; binding the existing in-app poster tab timed out on its initial navigation. The close oblique render first failed under concurrent rendering due to memory pressure and was retried on its own."
+  ],
+  "remaining": [
+    "Refine the remaining arch groups around the courtyard, gray infill and glazing behavior, hidden rooms, and cornice seam/weathering detail. The new reference-facing group is an incremental geometric improvement; no single source image establishes its hidden construction.",
+    "Refine the two thin foreground hanger tips against the source. The first current modeled tip is approximately five pixels from the newly inspected source tip and the second roughly three pixels at 708x1000. Their photograph traces have now been removed from the wall atlas, exposing the remaining geometry alignment error.",
+    "Refine the upper oculus and remaining lower facade windows, doors, relief, right rooftop equipment and ground debris. Align actual apertures with the reference appearance throughout the rotatable scene.",
+    "Add better view-dependent glazing reflections and concealed frame/room detail. The new glass is a solid pane with fixed reference surface color; masked portions and unobserved construction remain inferred.",
+    "Refine the fascia surface wear, small joints and transitions. The main left black band has been corrected with solid facing, but the inferred hidden section and uniform finish are not an exact architectural reconstruction.",
+    "Match distinct ivy clumps and hanging trails. Left roof leaf size and native colors are improved, but leaf placement, other rooftop leaf sizes and vine stems remain approximate.",
+    "Refine railing paint variation and end supports, equipment weathering, tank shading, pipe bends and inferred hidden equipment surfaces.",
+    "Refine pale steel edges, corrosion and irregular damage; rebuilt steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water, steel and railing materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false,
+  "reviewedImageSha256": {
+    "poster-front-v49.png": "21ad470b9444e5441b222116a1c945727028aa4ff4e855488705c143dfdb72ca",
+    "arch-detail-v49.png": "326d22eb71e1649085d37b046ad73ea636d8767bc478c4bdead7042e3b7d163b",
+    "poster-oblique-v49.png": "59923997c8f77ee22ce1e7394e61e54d56b23db31f732fc4422c957fb1bbd357",
+    "arch-oblique-detail-v49.png": "712f0bdd445ff7f1d3f0df5494d5198cf1c254c10ed04c89313c2a8da0489b89",
+    "arch-comparison-v49.png": "ef5c9a18faab5c3741c5848098201405be5c00dcf2dcc2a6218ce95f2a243218"
+  }
+}

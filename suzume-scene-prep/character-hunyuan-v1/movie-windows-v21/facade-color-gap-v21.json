@@ -1,0 +1,80 @@
+{
+  "scope": "Three manually selected plaster patches only; lighting, occlusions and material differ. Not a full-image score.",
+  "regions": [
+    {
+      "region": "upper plaster",
+      "referenceBox": [
+        2130,
+        320,
+        2180,
+        355
+      ],
+      "renderBox": [
+        600,
+        90,
+        616,
+        101
+      ],
+      "referenceMedian": [
+        248.0,
+        240.0,
+        229.0
+      ],
+      "renderMedian": [
+        84.5,
+        106.0,
+        79.0
+      ]
+    },
+    {
+      "region": "below oculus",
+      "referenceBox": [
+        2360,
+        586,
+        2410,
+        623
+      ],
+      "renderBox": [
+        665,
+        165,
+        680,
+        177
+      ],
+      "referenceMedian": [
+        212.0,
+        206.0,
+        185.0
+      ],
+      "renderMedian": [
+        163.0,
+        164.0,
+        130.0
+      ]
+    },
+    {
+      "region": "between windows",
+      "referenceBox": [
+        2240,
+        585,
+        2273,
+        624
+      ],
+      "renderBox": [
+        631,
+        165,
+        642,
+        177
+      ],
+      "referenceMedian": [
+        236.0,
+        234.0,
+        219.0
+      ],
+      "renderMedian": [
+        160.5,
+        164.0,
+        139.0
+      ]
+    }
+  ]
+}

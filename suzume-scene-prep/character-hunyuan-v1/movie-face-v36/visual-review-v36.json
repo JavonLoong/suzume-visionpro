@@ -1,0 +1,32 @@
+{
+  "accepted": true,
+  "status": "accepted_as_incremental_face_refinement_not_one_to_one",
+  "sceneFrontReviewed": true,
+  "headFrontReviewed": true,
+  "headBackReviewed": true,
+  "headSideReviewed": true,
+  "headPortraitReviewed": true,
+  "reference": "reference-suzume-official-face.jpg",
+  "findings": [
+    "Eye apertures are less wide; the nose sits higher and the lower face is shorter.",
+    "The exposed frontal hairline and rearranged bangs reveal the eyebrow.",
+    "Upper lashes and shallow mouth relief better express the official still.",
+    "The solid v35 ponytail is unchanged; no rear gap or neck stretching appeared."
+  ],
+  "limitations": [
+    "Proportion registration removes only eye-line angle and scale; perspective and pose are not fully solved.",
+    "One sampled lower-left jaw point remains about 5.8 studio pixels from the hand annotation.",
+    "Hair depth, nose profile and hidden anatomy remain inferred.",
+    "The unmodified Hunyuan collar has conspicuous jagged edges in the close portrait.",
+    "No responsive browser session is available; actual GPU display is not verified."
+  ],
+  "remaining": [
+    "Repair the visible jagged collar and its transition around the rebuilt neck.",
+    "Refine facial expression, nose profile, hair root and material/line style against official references; a local outline fit does not establish full likeness.",
+    "Review both movie camera correspondences and fit shared door geometry and intrinsics.",
+    "Refine wider night sky, stars, courtyard, clouds, flowers, paving and water glints.",
+    "Complete and inspect the separate closed-door poster scene.",
+    "Verify the web candidate with a responsive browser; geometry and resource checks do not prove GPU rendering."
+  ],
+  "sceneFinding": "The complete movie camera render retains the v35 head placement and filled ponytail, with continuous hand grip, feet, doorway partition, courtyard and otherworld."
+}

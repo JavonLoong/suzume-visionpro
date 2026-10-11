@@ -1,0 +1,20 @@
+{
+  "revision": 33,
+  "freshReopenVerified": true,
+  "nativeSha256": "504fbafe6186037160601751b3aa66017aea3c66525993b4463873bb404d4fe5",
+  "headHash": "5aea6c402731cc703801ba23d26f0932390772c8a8ef78d9164038976be0d105",
+  "actualTipPixelError": 0.00014702386683955788,
+  "bodyFeetGripAndPinsExactlyPreserved": true,
+  "pairedSpatialPartitionVerified": true,
+  "headTopologyPreserved": true,
+  "partTriangles": {
+    "Suzume Hunyuan textured surface \u2014 complete evaluated mesh": 408817,
+    "Suzume independent Hunyuan head \u2014 complete evaluated mesh": 342148,
+    "Left gold hairpin \u2014 complete evaluated mesh": 96,
+    "Left red hairpin diagonal \u2014 complete evaluated mesh": 96,
+    "Left red hairpin crossbar \u2014 complete evaluated mesh": 96
+  },
+  "minimumBackClothRayGap": 0.026394478145085776,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

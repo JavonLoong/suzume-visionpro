@@ -1,0 +1,30 @@
+{
+  "revision": 25,
+  "role": "Movie I-section steelwork and attached ivy comparison candidate",
+  "nativeFile": "movie-steel-v25/Suzume_scene_movie_steel_v25.blend",
+  "nativeSha256": "7bfa2a85bfd664b98f835054e454cf6856ec27b38ba3995dfea22d5d490677a6",
+  "newParts": 732,
+  "closedStructuralSections": 57,
+  "columns": 26,
+  "attachedIvyLeaves": 202,
+  "nativeFrontAndObliqueReviewed": true,
+  "bodyHeadFeetAndPortalPreserved": true,
+  "otherDayMeshesUnchanged": 899,
+  "stableNativeRemainsRevision": 19,
+  "browserDefaultRemainsRevision": 17,
+  "browserCandidate": "viewer/candidate-v25.html",
+  "browserGeometrySyntaxAndHttpVerified": true,
+  "browserRuntimeVerified": false,
+  "glslDriverCompilationVerified": false,
+  "oneToOneComplete": false,
+  "remaining": [
+    "右侧钢柱仍偏亮；扩大补光后的斜视墙面存在过曝，需在多个机位下继续校准照明与锈蚀材质。",
+    "重建围绕院落的临水台基、断裂岸缘和连续管道，避免钢柱基础在水中显得过高。",
+    "门基砖石、破碎铺石的轮廓和分布仍与参照不同，水面反射过强且缺少原片的散射和藻类层次。",
+    "门内远景云层仍呈灰色横带，需按当前电影帧重建空间形状和颜色。",
+    "新镜头下人物左手、腰线和右裙摆仍有投影偏差；姿态修正须保持脚部安全间隙和穿门连续性。",
+    "继续精修人物脸型、发丝和握门细节，以及墙面污迹、藤叶叶形和贴合。",
+    "隐藏钢架和背面结构仍为有依据的推定；另一幅关门海报场景也尚未完成一比一核对。",
+    "网页几何、脚本和 HTTP 资源已核验，但浏览器初始化超时，实际 WebGL 编译、渲染与交互仍待复测。"
+  ]
+}

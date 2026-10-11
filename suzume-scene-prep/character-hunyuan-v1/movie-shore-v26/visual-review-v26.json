@@ -1,0 +1,37 @@
+{
+  "revision": 26,
+  "frontReviewed": true,
+  "obliqueReviewed": true,
+  "frontImage": "movie-front-v26.png",
+  "obliqueImage": "movie-left-oblique-v26.png",
+  "reference": "reference-opening-50525.jpg",
+  "frontFindings": [
+    "两层管道、左侧弯头和右侧回弯已出现在电影参照对应位置，柱脚被岸台承托。",
+    "右侧破碎岸台和左侧低矮断边补足了原先完全缺失的轮廓；结构有厚度与坡度，但破损细节仍较简化。",
+    "岸台偏白，锈色偏浅；管道之间缺少原片中的密集杂草和局部阴影。",
+    "门框、人物、前景门基及原有水面没有改变；门基砖石和水面依然与参照有明显差别。"
+  ],
+  "obliqueFindings": [
+    "新增岸台沿真实庭院延伸，可看见断板顶面、侧面与倾斜关系；并非正面机位的平片。",
+    "管路沿墙面转向，弯头、管节连接件和中空管壁保持三维结构。",
+    "若干断板的轮廓和厚薄仍显得过于几何化，局部旧浮石与新岸台的关系还需整理。",
+    "继承的右侧补光仍使墙面和岸台过亮，斜视的明暗关系尚未符合电影参照。"
+  ],
+  "lightingEvidence": {
+    "parameters": "lighting-state-v26.json",
+    "manualPatchMeasurements": "appearance-patches-v26.json",
+    "conclusion": "Selected shaded-wall, rust-pipe and slab patches are much brighter than their reference counterparts. This identifies an appearance problem; it is not an overall fidelity score.",
+    "requiresNext": "Adjust world illumination, sun and facade fill together, while retaining legible character lighting and verifying multiple viewpoints."
+  },
+  "browserRuntimeVerified": false,
+  "remaining": [
+    "优先校准整体明暗：左侧阴影墙、锈管和岸台明显偏亮，需联合调整环境光、日光和立面补光，并保持人物可见。参数和对应区域采样已记录在 movie-shore-v26。",
+    "岸台与管道之间的杂草、破碎断口、污迹和局部阴影不足；部分断板轮廓过于几何化，旧浮石与新岸台的关系需整理。",
+    "门基砖石和破碎铺石的轮廓、分布与参照不同；水面反射过强，缺少电影中的散射、浅水藻类和光点层次。",
+    "门内远景云层仍呈灰色横带，需按当前电影帧重建空间形状与颜色。",
+    "新镜头下人物左手、腰线和右裙摆仍有投影偏差；继续精修脸型、发丝和握门细节，保持脚部间隙与穿门连续性。",
+    "岸台高度、隐藏深度、后方管线和钢架仍含推定；另一幅关门海报场景也尚未完成一比一核对。",
+    "网页几何、脚本与资源可核验，但实际 WebGL 编译、显示和旋转交互仍待浏览器连接恢复后复测。"
+  ],
+  "oneToOneComplete": false
+}

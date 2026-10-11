@@ -1,0 +1,10 @@
+{
+  "nativeIntegrationExitCode": 0,
+  "fullRenderScriptCompleted": true,
+  "fullRenderOutputs": ["movie-front-v30.png", "night-oblique-v30.png"],
+  "fullRenderProcessExitCode": 1,
+  "renderExitExplanation": "Both render saves and script completion messages occurred before Blender interpreted the trailing --render argument as a filename. The command was missing the -- separator. No scene changes were saved after integration.",
+  "freshVerificationRepeatWithoutRenderExitCode": 0,
+  "correctRenderInvocationSuffix": "--python verify_night_v30.py -- --render",
+  "browserAttempt": "Binding the existing viewer tab through the supported browser tool timed out after 15 seconds; no GPU/runtime validation is claimed."
+}

@@ -1,0 +1,334 @@
+{
+  "sourceNativeSha256": "934df5dbec658241e56773fa0d15bfd221358c624120e609b7603a1b936075ba",
+  "objects": [
+    {
+      "key": "mesh0",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.019",
+      "vertices": 25116,
+      "triangles": 8372,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.018"
+      ]
+    },
+    {
+      "key": "mesh1",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.020",
+      "vertices": 4860,
+      "triangles": 1620,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.019"
+      ]
+    },
+    {
+      "key": "mesh2",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.021",
+      "vertices": 2880,
+      "triangles": 960,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.020"
+      ]
+    },
+    {
+      "key": "mesh3",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.022",
+      "vertices": 7776,
+      "triangles": 2592,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.021"
+      ]
+    },
+    {
+      "key": "mesh4",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.023",
+      "vertices": 2304,
+      "triangles": 768,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.022"
+      ]
+    },
+    {
+      "key": "mesh5",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.024",
+      "vertices": 288,
+      "triangles": 96,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.023"
+      ]
+    },
+    {
+      "key": "mesh6",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.025",
+      "vertices": 3960,
+      "triangles": 1320,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.024"
+      ]
+    },
+    {
+      "key": "mesh7",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.026",
+      "vertices": 72,
+      "triangles": 24,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.025"
+      ]
+    },
+    {
+      "key": "mesh8",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "vertices": 352122,
+      "triangles": 117374,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.026"
+      ]
+    },
+    {
+      "key": "mesh9",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "vertices": 6198,
+      "triangles": 2066,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.027"
+      ]
+    },
+    {
+      "key": "mesh10",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.029",
+      "vertices": 3786,
+      "triangles": 1262,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.028"
+      ]
+    },
+    {
+      "key": "mesh11",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.030",
+      "vertices": 54438,
+      "triangles": 18146,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.029"
+      ]
+    },
+    {
+      "key": "mesh12",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.031",
+      "vertices": 738,
+      "triangles": 246,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.030"
+      ]
+    },
+    {
+      "key": "mesh13",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.032",
+      "vertices": 7080,
+      "triangles": 2360,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.031"
+      ]
+    },
+    {
+      "key": "mesh14",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.033",
+      "vertices": 4641,
+      "triangles": 1547,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.032"
+      ]
+    },
+    {
+      "key": "mesh15",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.034",
+      "vertices": 1758,
+      "triangles": 586,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.033"
+      ]
+    },
+    {
+      "key": "mesh16",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.035",
+      "vertices": 1716,
+      "triangles": 572,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.034"
+      ]
+    },
+    {
+      "key": "mesh17",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.036",
+      "vertices": 2070,
+      "triangles": 690,
+      "materials": [
+        "Circular ruined hotel with exterior entrance solid mesh.035"
+      ]
+    },
+    {
+      "key": "mesh18",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "vertices": 119040,
+      "triangles": 39680,
+      "materials": [
+        "Reference-calibrated facade surface pigments.001"
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      0.4561338424682617,
+      -17.539655685424805,
+      1.75
+    ],
+    "rotation": [
+      [
+        0.9996620416641235,
+        0.005007914267480373,
+        0.025510160252451897
+      ],
+      [
+        0.025997066870331764,
+        -0.19256873428821564,
+        -0.9809390306472778
+      ],
+      [
+        5.149667359205523e-10,
+        0.9812707304954529,
+        -0.19263383746147156
+      ]
+    ],
+    "focalPixels": 832.1397569444445
+  },
+  "otherMeshNames": [
+    "Broken radial dome steelwork solid mesh",
+    "Broken radial dome steelwork solid mesh.001",
+    "Broken radial dome steelwork solid mesh.002",
+    "Broken radial dome steelwork solid mesh.003",
+    "Flooded polygon flagstones and broken slabs solid mesh.007",
+    "Flooded polygon flagstones and broken slabs solid mesh.008",
+    "Flooded polygon flagstones and broken slabs solid mesh.009",
+    "Flooded polygon flagstones and broken slabs solid mesh.010",
+    "Flooded polygon flagstones and broken slabs solid mesh.011",
+    "Flooded polygon flagstones and broken slabs solid mesh.012",
+    "Flooded polygon flagstones and broken slabs solid mesh.013",
+    "Brick and masonry debris solid mesh.002",
+    "Brick and masonry debris solid mesh.003",
+    "Mesh.007",
+    "Mesh.008",
+    "Mesh.009",
+    "Animated door leaf and hinges surface.014",
+    "Animated door leaf and hinges surface.015",
+    "Animated door leaf and hinges surface.016",
+    "Animated door leaf and hinges surface.017",
+    "Animated door leaf and hinges surface.018",
+    "Animated door leaf and hinges surface.019",
+    "Animated door leaf and hinges surface.020",
+    "Complete six-panel white door and frame surface.006",
+    "Complete six-panel white door and frame surface.007",
+    "Complete six-panel white door and frame surface.008",
+    "Complete six-panel white door and frame surface.009",
+    "Complete six-panel white door and frame surface.010",
+    "Complete six-panel white door and frame surface.011",
+    "Mesh.010",
+    "Mesh.011",
+    "Mesh.012",
+    "Mesh.013",
+    "Individual three-dimensional ivy leaves.001",
+    "Continuous forest terrain.001",
+    "Branching tree crowns surrounding the ruined hotel.001",
+    "Forest trunks.001",
+    "Reference-shaped closed cloud volume 0.001",
+    "Reference-shaped closed cloud volume 1.001",
+    "Reference-shaped closed cloud volume 2.001",
+    "Reference-shaped closed cloud volume 3.001",
+    "Reference-shaped closed cloud volume 4.001",
+    "Distant reference closed cloud 0.001",
+    "Distant reference closed cloud 2.001",
+    "Distant reference closed cloud 4.001",
+    "Distant reference closed cloud 5.001",
+    "Distant reference closed cloud 6.001",
+    "Distant reference closed cloud 7.001",
+    "Distant reference closed cloud 8.001",
+    "Distant reference closed cloud 9.001",
+    "Distant reference closed cloud 10.001",
+    "Distant reference closed cloud 11.001",
+    "Distant reference closed cloud 12.001",
+    "Distant reference closed cloud 13.001",
+    "Distant reference closed cloud 14.001",
+    "Distant reference closed cloud 15.001",
+    "Distant reference closed cloud 16.001",
+    "Distant reference closed cloud 17.001",
+    "Distant reference closed cloud 18.001",
+    "Distant reference closed cloud 19.001",
+    "Distant reference closed cloud 20.001",
+    "Distant reference closed cloud 21.001",
+    "Distant reference closed cloud 22.001",
+    "Distant reference closed cloud 23.001",
+    "Distant reference closed cloud 24.001",
+    "Distant reference closed cloud 25.001",
+    "Distant reference closed cloud 26.001",
+    "Distant reference closed cloud 27.001",
+    "Surrounding solid cloud 0.001",
+    "Surrounding solid cloud 1.001",
+    "Surrounding solid cloud 2.001",
+    "Surrounding solid cloud 3.001",
+    "Surrounding solid cloud 4.001",
+    "Surrounding solid cloud 5.001",
+    "Surrounding solid cloud 6.001",
+    "Surrounding solid cloud 7.001",
+    "Surrounding solid cloud 8.001",
+    "Surrounding solid cloud 9.001",
+    "Surrounding solid cloud 10.001",
+    "Surrounding solid cloud 11.001",
+    "Surrounding solid cloud 12.001",
+    "Surrounding solid cloud 13.001",
+    "Spatial doorway portal aperture.001",
+    "Live planar reflective shallow water.001",
+    "Restored central horizon cloud bank v42",
+    "Lower grey-blue stratus bank v43",
+    "Lower layered horizon cloud v43",
+    "Distant low horizon billows v43",
+    "Individual three-dimensional ivy leaves prototype.001",
+    "Branching tree crowns surrounding the ruined hotel prototype.001",
+    "Forest trunks prototype.001",
+    "Poster right I-section post 2 v39",
+    "Poster right I-section post 3 v39",
+    "Poster inner grounded footing v39",
+    "Poster Upper continuous tie v39",
+    "Poster Bent broken central beam v39",
+    "Poster Short broken right tie v39",
+    "Poster Lower broken ring beam v39",
+    "Poster Curved left supporting bracket v39",
+    "Poster Curved right supporting bracket v39",
+    "Poster Bracket horizontal brace v39",
+    "Poster Bracket left upright v39",
+    "Poster Bracket diagonal brace v39",
+    "Poster Bracket right diagonal v39",
+    "Poster Bracket right upright v39",
+    "Poster Hanging central tie v39",
+    "Poster Hanging lower tie v39",
+    "Poster left outer splayed I-column v44",
+    "Poster left outer splayed I-column footing v44",
+    "Poster left middle bowed I-column v44",
+    "Poster left middle bowed I-column footing v44",
+    "Poster left back I-column v44",
+    "Poster left back I-column footing v44",
+    "Poster left upper broken tie v44",
+    "Poster left long upper tie v44",
+    "Poster left long lower tie v44",
+    "Poster left upper right curved bracket v44",
+    "Poster left upper left curved bracket v44",
+    "Poster left upper cross brace v44",
+    "Poster left upper left diagonal v44",
+    "Poster left upper center diagonal v44",
+    "Poster left upper right upright v44",
+    "Poster left first broken bowed beam v44",
+    "Poster left second broken bowed beam v44",
+    "Poster left hanging upper rod v44",
+    "Poster left first bowed upright v44",
+    "Poster left second bowed upright v44",
+    "Poster rooftop left service house v45",
+    "Poster rooftop right service house v45",
+    "Poster rooftop central water tank v45",
+    "Poster rooftop partly visible left water tank v45"
+  ]
+}

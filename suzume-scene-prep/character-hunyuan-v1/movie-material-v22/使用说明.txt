@@ -1,0 +1,19 @@
+电影墙面与光照校准 v22
+
+Suzume_scene_movie_material_v22.blend 包含昼景、门、人物和异世界。
+第 72 帧为开门。右侧立面的 72 个几何部件仍在集合
+Movie right facade — solid openings v21 中。
+
+本版缩小了三段檐口或屋顶的凸出深度，单独校正右侧墙面和石材，
+并用 Soft courtyard fill on the movie facade v22 面光源近似电影的漫射补光。
+光源位置和建筑尺寸都是推定；不是官方尺寸或实测灯光。
+人物身体、独立混元头模、发卡、脚部修正及互补空间裁切经重新打开文件校验。
+
+movie-front-v22.png：完整开门机位。
+movie-window-oblique-v22.png：窗洞和墙体的斜视近景。
+color-trials-v22.json：三个手选墙面色块的试验，不能当作整幅图相似度。
+网页候选：http://127.0.0.1:8931/viewer/candidate-v22.html
+网页的几何、语法、资源请求已检查，运行和交互仍待复测。
+网页面光源不支持投影，其亮度与 Blender 使用不同单位，未声称两者视觉等同。
+
+此文件尚未达到一比一。稳定原生版 v19 与默认网页 v17 仍分别保留。

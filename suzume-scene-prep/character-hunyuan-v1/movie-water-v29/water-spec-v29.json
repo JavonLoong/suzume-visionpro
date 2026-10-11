@@ -1,0 +1,26 @@
+{
+  "revision": 29,
+  "name": "balanced-blue-scattering",
+  "reflectionTint": [0.5, 0.8, 1.0],
+  "transmissionTint": [0.42, 0.72, 0.86],
+  "transmissionRoughness": 0.018,
+  "reflectionRoughness": 0.14,
+  "rippleAmplitudeScale": 0.35,
+  "fresnel": [0.005, 0.8],
+  "fresnelPower": 8,
+  "shadowTransmission": [0.6, 0.8, 0.9],
+  "algaeStrength": 0.65,
+  "hazeOpticalDepth": 0.15,
+  "hazeStrength": 0.55,
+  "hazeColorLinear": [0.04162454519007973, 0.11022486473055675, 0.24189745987108655],
+  "hazeColorDisplay": [80, 125, 165],
+  "sourceTrials": ["clear-bed", "soft-reflection", "sunlit-bed", "tinted-bed", "blue-scattering", "gentle-scattering"],
+  "referenceImageUsedInWater": false,
+  "limitations": [
+    "Reflection and refraction remain live ray-traced scene content; their balance is an artistic fit to the painted movie image, not a measurement of optical constants.",
+    "Scattering color is approximated at the existing water surface and excludes shadow illumination; it is not a bounded volumetric water simulation.",
+    "Submerged algae uses procedural world-space coloration on existing stone geometry; exact stone outlines and glint locations still require calibration.",
+    "Browser reflection blur and algae noise are approximations of the native materials; matching across render engines has not been visually verified."
+  ],
+  "oneToOneComplete": false
+}

@@ -1,0 +1,42 @@
+{
+  "revision": 16,
+  "reopened": true,
+  "editableBones": 20,
+  "triangles": 500000,
+  "packedTextures": [
+    {
+      "name": "texture_pbr_20250901",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "texture_pbr_20250901_normal",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ]
+    }
+  ],
+  "sharedGeometryAndRig": true,
+  "independentPortalMaterials": true,
+  "minWorldZ": 0.2034619152545929,
+  "nearestGripSurface": 0.021088476982339944,
+  "partition": {
+    "courtyard": 34931,
+    "otherworld": 263097
+  },
+  "oneToOneComplete": false,
+  "render": "D:\\\u865a\u62dfC\u76d8\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\native-pose-front-v16.png"
+}

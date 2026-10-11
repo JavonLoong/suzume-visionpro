@@ -1,0 +1,19 @@
+{
+  "revision": 51,
+  "nativeSha256": "01726e6771ec7ba31008c64487b2c73a4d70c567eceaea34116191f50902b074",
+  "threeRevision": "128",
+  "inlineScriptsParsed": 1,
+  "triangles": 156422,
+  "buckets": 9,
+  "previousFacadeBucketsReplaced": 6,
+  "positionsNormalsUVsAndColorsMatchNativeExactly": true,
+  "previousUnaffectedGeometryAndMaterialsPreserved": true,
+  "retainedIvyMatricesAndColorsPreservedExactly": true,
+  "ivySharedResourcesNotDisposed": true,
+  "ivyRemovedCount": 256,
+  "ivyRemainingCount": 4187,
+  "existingMaterialInstancesReused": true,
+  "browserRuntimeVerified": false,
+  "browserMaterialsApproximate": true,
+  "scope": "Actual Three.js construction and chained v46-v51 data loading in Node; actual source ivy matrices and colors retained. PNG bytes checked with a texture-loader shim. No browser/GPU rendering."
+}

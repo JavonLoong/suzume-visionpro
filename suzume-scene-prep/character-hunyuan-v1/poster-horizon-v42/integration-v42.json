@@ -1,0 +1,21 @@
+{
+  "revision": 42,
+  "sourceNativeSha256": "06d79ae053a89f7671d26f878aab1a81eee2d4269e44c5a043781f66e7afb9aa",
+  "nativeSha256": "f1359f25cd0f11caa6c598c7b8d2afe12aed02ef7254cdf7c60caf9b0def9a2c",
+  "removedClouds": [
+    {
+      "name": "Distant reference closed cloud 1.001",
+      "vertices": 166461,
+      "triangles": 332894
+    },
+    {
+      "name": "Distant reference closed cloud 3.001",
+      "vertices": 19105,
+      "triangles": 38206
+    }
+  ],
+  "newCloud": "Restored central horizon cloud bank v42",
+  "newVertices": 198996,
+  "newTriangles": 397964,
+  "oneToOneComplete": false
+}

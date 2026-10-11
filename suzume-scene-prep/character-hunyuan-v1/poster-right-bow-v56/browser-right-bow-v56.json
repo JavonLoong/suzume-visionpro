@@ -1,0 +1,82 @@
+{
+  "revision": 56,
+  "nativeSha256": "3dd43cd0153cf25492f279474dac52098d40eff0c20ae6878a6a5bf8806bb0e1",
+  "targets": [
+    {
+      "key": "mesh0",
+      "name": "Poster steel mesh0 v44"
+    },
+    {
+      "key": "mesh1",
+      "name": "Poster steel mesh1 v44"
+    }
+  ],
+  "buckets": [
+    {
+      "key": "mesh0",
+      "byteOffset": 0,
+      "byteLength": 1646592,
+      "vertexCount": 51456,
+      "sourceObjects": [
+        "Broken radial dome steelwork solid mesh"
+      ],
+      "reuseTargetMaterial": "mesh0"
+    },
+    {
+      "key": "mesh1",
+      "byteOffset": 1646592,
+      "byteLength": 1093248,
+      "vertexCount": 34164,
+      "sourceObjects": [
+        "Broken radial dome steelwork solid mesh.001"
+      ],
+      "reuseTargetMaterial": "mesh1"
+    },
+    {
+      "key": "new0",
+      "byteOffset": 2739840,
+      "byteLength": 739200,
+      "vertexCount": 23100,
+      "sourceObjects": [
+        "Poster measured right bowed I-beam v56"
+      ],
+      "newMaterialIndex": 0
+    }
+  ],
+  "strideFloats": 8,
+  "triangles": 36240,
+  "binarySha256": "a1582ec14b09bba8aaa3617c0750217872c3ec6e88c121cbc45c206237963c37",
+  "closedNewMembers": 1,
+  "atlasFile": "right-bow-paint-v56.png",
+  "atlasSha256": "d4ac11581febe4658120b76108f6ac7cb5b0e6437798af6dc2155a996404d3c5",
+  "surfaceUpdates": [
+    {
+      "material": "Poster restored right facade pigments v54",
+      "previousAtlas": "poster-right-facade-v54/right-facade-pigments-v54.png",
+      "previousAtlasSha256": "e28398e180a79ad26d292ee8187c8671b26c17ef979114175ba0da5992f2db5d",
+      "newAtlas": "right-facade-beam-mask-v56.png",
+      "newImageName": "Right facade narrow beam mask v56",
+      "atlasSha256": "992834f13cc7a4d6bd0b86a3d8cd2e8321ff221f8f9e9c6281c3765343d56f4a",
+      "browserTarget": "Poster right arcade prior54_0 v55",
+      "observedPixelsRestored": 17951,
+      "hiddenPixelsInferred": 5611,
+      "outsidePatchPreservedExactly": true,
+      "observedPixelsEqualGradedSourceExactly": true
+    },
+    {
+      "material": "Poster calibrated right arcade pigments v55",
+      "previousAtlas": "poster-right-arches-v55/right-arcade-pigments-v55.png",
+      "previousAtlasSha256": "f2a21cb3080c4489cf0805493909cf6b4ed65e0999be585ef69675e8a6170678",
+      "newAtlas": "right-arcade-beam-mask-v56.png",
+      "newImageName": "Right arcade narrow beam mask v56",
+      "atlasSha256": "992834f13cc7a4d6bd0b86a3d8cd2e8321ff221f8f9e9c6281c3765343d56f4a",
+      "browserTarget": "Poster right arcade new0 v55",
+      "observedPixelsRestored": 17951,
+      "hiddenPixelsInferred": 5611,
+      "outsidePatchPreservedExactly": true,
+      "observedPixelsEqualGradedSourceExactly": true
+    }
+  ],
+  "browserRuntimeVerified": false,
+  "browserMaterialsApproximate": true
+}

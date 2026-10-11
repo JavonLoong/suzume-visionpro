@@ -1,0 +1,58 @@
+{
+  "revision": 40,
+  "resources": [
+    {
+      "path": "viewer/poster-v40.html",
+      "bytes": 999520,
+      "sha256": "76c3c528b6a4c9c6cb4670f23b2f4e850ef9807522eeed7517b69dc5f0c555be"
+    },
+    {
+      "path": "viewer/three.min.js",
+      "bytes": 603445,
+      "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2"
+    },
+    {
+      "path": "viewer/GLTFLoader.js",
+      "bytes": 96550,
+      "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6"
+    },
+    {
+      "path": "poster-steel-v39/browser-steel-v39.json",
+      "bytes": 5026,
+      "sha256": "0682182fc39de013b30f0ee7a62a357dc9db126bec53ae39607077774f0136c5"
+    },
+    {
+      "path": "poster-steel-v39/steel-v39.bin",
+      "bytes": 6332544,
+      "sha256": "6e8ac4df20be6e509a7934711263ac28a5eacdb2bc881d0e9d38cffae644ae35"
+    },
+    {
+      "path": "viewer/character-v37/suzume-posed-v37.gltf",
+      "bytes": 22588,
+      "sha256": "8b2a96b9094ba514c546b673ac66d5f9b97316fe7aaf159fff8e88876feecf45"
+    },
+    {
+      "path": "viewer/character-v37/suzume-posed-v37.bin",
+      "bytes": 15758024,
+      "sha256": "5c62d0925d3724310ba3a898afb16f2bb36d6098a9b72b41d09f8040938b950d"
+    },
+    {
+      "path": "viewer/character-v37/texture-0.png",
+      "bytes": 4037877,
+      "sha256": "e187d9879e97e465b12de1fcb6b9f611d4521ff8314c3e16ec67db87c2421992"
+    },
+    {
+      "path": "viewer/character-v37/texture-1.png",
+      "bytes": 14494428,
+      "sha256": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7"
+    },
+    {
+      "path": "viewer/character-v37/texture-2.png",
+      "bytes": 7558005,
+      "sha256": "dd4d1a90b768caf9f6aae4e87e528543b02b1ca0fffa0ecaeec6dec2fd03c971"
+    }
+  ],
+  "nativeDownloadAvailable": true,
+  "browserRuntimeVerified": false,
+  "scope": "Local HTTP resources and hashes only; browser-control inventory timed out again during v40."
+}

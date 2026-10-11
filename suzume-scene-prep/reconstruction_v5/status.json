@@ -1,0 +1,18 @@
+{
+  "rebuilt": [
+    "visible solid masonry",
+    "arched wall openings",
+    "irregular submerged paving",
+    "non-periodic water ripples"
+  ],
+  "sky": "Packed reference-inspired imagegen panorama; procedural and HDR experiments rejected",
+  "sky_source": "sky_generated_v5.png",
+  "generation_prompt": "sky_prompt.txt",
+  "environment_in_glb": false,
+  "unverified": [
+    "exact original cloud shapes",
+    "depths",
+    "rear layout",
+    "full 1:1 accuracy"
+  ]
+}

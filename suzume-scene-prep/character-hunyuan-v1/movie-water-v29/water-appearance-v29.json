@@ -1,0 +1,553 @@
+{
+  "scope": "Manually chosen water patches at a common resolution. Colors and local contrast only; not overall fidelity.",
+  "referenceBoxes": {
+    "left foreground paving": [
+      100,
+      1350,
+      650,
+      1600
+    ],
+    "left middle water": [
+      120,
+      1000,
+      650,
+      1200
+    ],
+    "right broad reflection": [
+      1800,
+      1030,
+      2450,
+      1280
+    ],
+    "right foreground": [
+      1850,
+      1370,
+      2460,
+      1600
+    ]
+  },
+  "reference": {
+    "left foreground paving": {
+      "meanSrgb255": [
+        63.5,
+        83.38,
+        88.12
+      ],
+      "medianSrgb255": [
+        61.0,
+        81.0,
+        88.0
+      ],
+      "softLuminanceP90minusP10": 40.97224,
+      "brightPixelFraction": 0.0010138248847926267
+    },
+    "left middle water": {
+      "meanSrgb255": [
+        50.85,
+        89.86,
+        119.2
+      ],
+      "medianSrgb255": [
+        49.0,
+        85.0,
+        114.0
+      ],
+      "softLuminanceP90minusP10": 31.44991999999999,
+      "brightPixelFraction": 0.015939597315436243
+    },
+    "right broad reflection": {
+      "meanSrgb255": [
+        130.26,
+        147.87,
+        156.53
+      ],
+      "medianSrgb255": [
+        137.0,
+        156.0,
+        160.0
+      ],
+      "softLuminanceP90minusP10": 111.077,
+      "brightPixelFraction": 0.0
+    },
+    "right foreground": {
+      "meanSrgb255": [
+        77.0,
+        102.63,
+        130.25
+      ],
+      "medianSrgb255": [
+        70.0,
+        100.0,
+        130.0
+      ],
+      "softLuminanceP90minusP10": 76.89035999999997,
+      "brightPixelFraction": 0.014669051878354204
+    }
+  },
+  "renders": {
+    "movie-front-v28.png": {
+      "left foreground paving": {
+        "meanSrgb255": [
+          56.35,
+          67.15,
+          74.0
+        ],
+        "medianSrgb255": [
+          52.0,
+          64.0,
+          75.0
+        ],
+        "softLuminanceP90minusP10": 62.152299999999975,
+        "brightPixelFraction": 0.0
+      },
+      "left middle water": {
+        "meanSrgb255": [
+          29.67,
+          41.74,
+          52.83
+        ],
+        "medianSrgb255": [
+          26.0,
+          33.0,
+          42.0
+        ],
+        "softLuminanceP90minusP10": 50.02120000000001,
+        "brightPixelFraction": 0.0
+      },
+      "right broad reflection": {
+        "meanSrgb255": [
+          136.46,
+          139.29,
+          126.09
+        ],
+        "medianSrgb255": [
+          131.0,
+          134.0,
+          126.0
+        ],
+        "softLuminanceP90minusP10": 164.32216,
+        "brightPixelFraction": 0.14677133841299161
+      },
+      "right foreground": {
+        "meanSrgb255": [
+          156.27,
+          174.83,
+          181.59
+        ],
+        "medianSrgb255": [
+          158.0,
+          175.0,
+          187.0
+        ],
+        "softLuminanceP90minusP10": 103.41291999999999,
+        "brightPixelFraction": 0.14302325581395348
+      }
+    },
+    "trial-blue-scattering-v29.png": {
+      "left foreground paving": {
+        "meanSrgb255": [
+          41.49,
+          79.65,
+          102.56
+        ],
+        "medianSrgb255": [
+          41.0,
+          86.0,
+          112.0
+        ],
+        "softLuminanceP90minusP10": 22.078999999999994,
+        "brightPixelFraction": 0.0
+      },
+      "left middle water": {
+        "meanSrgb255": [
+          45.24,
+          90.1,
+          122.07
+        ],
+        "medianSrgb255": [
+          45.0,
+          90.0,
+          122.0
+        ],
+        "softLuminanceP90minusP10": 6.715199999999996,
+        "brightPixelFraction": 0.0
+      },
+      "right broad reflection": {
+        "meanSrgb255": [
+          106.15,
+          130.57,
+          139.99
+        ],
+        "medianSrgb255": [
+          102.0,
+          126.0,
+          136.0
+        ],
+        "softLuminanceP90minusP10": 74.72819999999999,
+        "brightPixelFraction": 0.0
+      },
+      "right foreground": {
+        "meanSrgb255": [
+          82.1,
+          112.7,
+          128.77
+        ],
+        "medianSrgb255": [
+          76.0,
+          109.0,
+          128.0
+        ],
+        "softLuminanceP90minusP10": 46.6596,
+        "brightPixelFraction": 0.0
+      }
+    },
+    "trial-clear-bed-v29.png": {
+      "left foreground paving": {
+        "meanSrgb255": [
+          46.81,
+          60.38,
+          66.49
+        ],
+        "medianSrgb255": [
+          44.0,
+          61.0,
+          71.0
+        ],
+        "softLuminanceP90minusP10": 30.567999999999984,
+        "brightPixelFraction": 0.0
+      },
+      "left middle water": {
+        "meanSrgb255": [
+          27.18,
+          44.57,
+          55.52
+        ],
+        "medianSrgb255": [
+          25.0,
+          40.0,
+          49.0
+        ],
+        "softLuminanceP90minusP10": 29.011520000000008,
+        "brightPixelFraction": 0.0
+      },
+      "right broad reflection": {
+        "meanSrgb255": [
+          142.78,
+          147.74,
+          130.68
+        ],
+        "medianSrgb255": [
+          146.0,
+          152.0,
+          130.0
+        ],
+        "softLuminanceP90minusP10": 137.26695999999998,
+        "brightPixelFraction": 0.03255599168783191
+      },
+      "right foreground": {
+        "meanSrgb255": [
+          146.84,
+          161.22,
+          161.5
+        ],
+        "medianSrgb255": [
+          143.0,
+          158.0,
+          164.0
+        ],
+        "softLuminanceP90minusP10": 87.33851999999999,
+        "brightPixelFraction": 8.944543828264758e-05
+      }
+    },
+    "trial-gentle-scattering-v29.png": {
+      "left foreground paving": {
+        "meanSrgb255": [
+          43.21,
+          75.78,
+          91.03
+        ],
+        "medianSrgb255": [
+          44.0,
+          82.0,
+          99.0
+        ],
+        "softLuminanceP90minusP10": 20.76122000000001,
+        "brightPixelFraction": 0.0
+      },
+      "left middle water": {
+        "meanSrgb255": [
+          44.18,
+          84.06,
+          106.24
+        ],
+        "medianSrgb255": [
+          44.0,
+          84.0,
+          106.0
+        ],
+        "softLuminanceP90minusP10": 8.140399999999985,
+        "brightPixelFraction": 0.0
+      },
+      "right broad reflection": {
+        "meanSrgb255": [
+          111.31,
+          132.21,
+          132.66
+        ],
+        "medianSrgb255": [
+          107.0,
+          129.0,
+          129.0
+        ],
+        "softLuminanceP90minusP10": 82.81752,
+        "brightPixelFraction": 0.0
+      },
+      "right foreground": {
+        "meanSrgb255": [
+          85.12,
+          112.73,
+          121.4
+        ],
+        "medianSrgb255": [
+          79.0,
+          109.0,
+          120.0
+        ],
+        "softLuminanceP90minusP10": 52.443,
+        "brightPixelFraction": 0.0
+      }
+    },
+    "trial-soft-reflection-v29.png": {
+      "left foreground paving": {
+        "meanSrgb255": [
+          55.12,
+          74.23,
+          88.8
+        ],
+        "medianSrgb255": [
+          56.0,
+          79.0,
+          95.0
+        ],
+        "softLuminanceP90minusP10": 31.542220000000015,
+        "brightPixelFraction": 0.0
+      },
+      "left middle water": {
+        "meanSrgb255": [
+          37.51,
+          56.17,
+          69.87
+        ],
+        "medianSrgb255": [
+          37.0,
+          55.0,
+          68.0
+        ],
+        "softLuminanceP90minusP10": 21.2992,
+        "brightPixelFraction": 0.0
+      },
+      "right broad reflection": {
+        "meanSrgb255": [
+          173.31,
+          177.77,
+          161.16
+        ],
+        "medianSrgb255": [
+          178.0,
+          182.0,
+          164.0
+        ],
+        "softLuminanceP90minusP10": 75.0393600000001,
+        "brightPixelFraction": 0.0
+      },
+      "right foreground": {
+        "meanSrgb255": [
+          164.59,
+          174.69,
+          169.74
+        ],
+        "medianSrgb255": [
+          165.0,
+          175.0,
+          171.0
+        ],
+        "softLuminanceP90minusP10": 48.897020000000026,
+        "brightPixelFraction": 0.0
+      }
+    },
+    "trial-sunlit-bed-v29.png": {
+      "left foreground paving": {
+        "meanSrgb255": [
+          37.23,
+          61.31,
+          67.57
+        ],
+        "medianSrgb255": [
+          36.0,
+          67.0,
+          74.0
+        ],
+        "softLuminanceP90minusP10": 23.708220000000004,
+        "brightPixelFraction": 0.0
+      },
+      "left middle water": {
+        "meanSrgb255": [
+          27.12,
+          54.43,
+          63.69
+        ],
+        "medianSrgb255": [
+          27.0,
+          54.0,
+          62.0
+        ],
+        "softLuminanceP90minusP10": 17.158799999999992,
+        "brightPixelFraction": 0.0
+      },
+      "right broad reflection": {
+        "meanSrgb255": [
+          124.56,
+          136.86,
+          123.16
+        ],
+        "medianSrgb255": [
+          127.0,
+          141.0,
+          121.0
+        ],
+        "softLuminanceP90minusP10": 110.75699999999999,
+        "brightPixelFraction": 0.0
+      },
+      "right foreground": {
+        "meanSrgb255": [
+          108.75,
+          129.64,
+          128.86
+        ],
+        "medianSrgb255": [
+          102.0,
+          127.0,
+          130.0
+        ],
+        "softLuminanceP90minusP10": 74.92479999999999,
+        "brightPixelFraction": 0.0
+      }
+    },
+    "trial-tinted-bed-v29.png": {
+      "left foreground paving": {
+        "meanSrgb255": [
+          34.41,
+          56.58,
+          64.46
+        ],
+        "medianSrgb255": [
+          33.0,
+          61.0,
+          70.0
+        ],
+        "softLuminanceP90minusP10": 20.50792,
+        "brightPixelFraction": 0.0
+      },
+      "left middle water": {
+        "meanSrgb255": [
+          23.14,
+          48.96,
+          60.31
+        ],
+        "medianSrgb255": [
+          23.0,
+          47.0,
+          58.0
+        ],
+        "softLuminanceP90minusP10": 16.19489999999999,
+        "brightPixelFraction": 0.0
+      },
+      "right broad reflection": {
+        "meanSrgb255": [
+          123.63,
+          134.97,
+          121.42
+        ],
+        "medianSrgb255": [
+          126.0,
+          139.0,
+          120.0
+        ],
+        "softLuminanceP90minusP10": 113.4706,
+        "brightPixelFraction": 0.0
+      },
+      "right foreground": {
+        "meanSrgb255": [
+          107.79,
+          128.01,
+          127.87
+        ],
+        "medianSrgb255": [
+          101.0,
+          125.0,
+          129.0
+        ],
+        "softLuminanceP90minusP10": 77.85659999999999,
+        "brightPixelFraction": 0.0
+      }
+    },
+    "movie-front-v29.png": {
+      "left foreground paving": {
+        "meanSrgb255": [
+          42.57,
+          80.22,
+          103.06
+        ],
+        "medianSrgb255": [
+          42.0,
+          87.0,
+          113.0
+        ],
+        "softLuminanceP90minusP10": 23.074360000000006,
+        "brightPixelFraction": 0.0
+      },
+      "left middle water": {
+        "meanSrgb255": [
+          45.79,
+          90.31,
+          122.04
+        ],
+        "medianSrgb255": [
+          46.0,
+          90.0,
+          122.0
+        ],
+        "softLuminanceP90minusP10": 7.430399999999992,
+        "brightPixelFraction": 0.0
+      },
+      "right broad reflection": {
+        "meanSrgb255": [
+          114.69,
+          136.43,
+          142.43
+        ],
+        "medianSrgb255": [
+          111.0,
+          132.0,
+          138.0
+        ],
+        "softLuminanceP90minusP10": 78.77860000000004,
+        "brightPixelFraction": 0.0
+      },
+      "right foreground": {
+        "meanSrgb255": [
+          90.4,
+          119.38,
+          132.28
+        ],
+        "medianSrgb255": [
+          83.0,
+          115.0,
+          132.0
+        ],
+        "softLuminanceP90minusP10": 54.79599999999999,
+        "brightPixelFraction": 0.0
+      }
+    }
+  }
+}

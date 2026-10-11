@@ -1,0 +1,18 @@
+{
+  "revision": 38,
+  "nativeFile": "Suzume_dual_scene_v38.blend",
+  "nativeSha256": "b56b84831d608b8dc98134708a89fdcf49c28242534c717aad1fe0efe81a483f",
+  "posterMaterialsCorrected": [
+    "Reference pigments on the solid door front.001",
+    "Reference-calibrated facade surface pigments.001",
+    "Reference-shaped closed cloud volume 0.001"
+  ],
+  "posterWorldCorrected": true,
+  "unchangedOriginalImages": true,
+  "newMeshCount": 0,
+  "movieGeometryPreservedExactly": true,
+  "movieAndPosterMaterialsDisjoint": true,
+  "originalIndirectLightingPreserved": true,
+  "sourceCloudMeshes": 47,
+  "oneToOneComplete": false
+}

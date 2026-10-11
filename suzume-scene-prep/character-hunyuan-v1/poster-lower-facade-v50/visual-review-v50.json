@@ -1,0 +1,47 @@
+{
+  "revision": 50,
+  "nativeSha256": "ed93df6cd06f2844561a1df5933af030d7730a8593f144f021c4c4cceca7941f",
+  "frontReviewed": true,
+  "detailReviewed": true,
+  "obliqueReviewed": true,
+  "obliqueDetailReviewed": true,
+  "boundaryDetailReviewed": true,
+  "referenceComparisonReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The previous entrance fanlight was a large black void with ten heavy radial spokes. It is replaced with a smaller, lower arched opening, solid colored glazing, curved rails and finer spokes. The double door has separate lower panels, upper glazing, stiles, rails, grilles and pull handles.",
+    "The side arched window and partial left rectangular window were rebuilt. The broad window on the right is now three distinct glazed openings separated by wall piers, rather than a continuous generic grid. All replacement components are volumetric geometry.",
+    "The third large window was initially clipped by the old 15/16 bay boundary, causing an approximately 3.18-pixel center error. The lower facade now extends across that boundary. A bounded geometric subtraction trims the crossing old wall and partition surfaces, preserving their portions outside the cut volume. The final maximum top/base anchor error is 1.472 pixels at 708x1000 over the five non-clipped units, within the 1.5-pixel manual uncertainty; this does not prove complete visual fidelity.",
+    "The room slab originally sat above the observed entrance threshold. The original bay wedge slabs were removed and the floor was lowered, with wall-foot extensions behind the facade. All nine downward probes land on the new floor at threshold height. Thirty-six opening probes find no remaining structural blocker in front of the new glass.",
+    "The original misplaced upright bench and wide staircase were removed as complete welded components: 16 bench components with 192 triangles and seven stair components with 84 triangles. The first nominal bounding-box removal had left steel legs and cheek blocks; the final local render confirms their removal. New treads are narrower, shifted slightly right, and have sloping side cheeks.",
+    "151 added solids with 22612 triangles pass closed-volume and saved/reopened vertex checks. Preserved original face positions and UVs, shared node groups, all 23 packed images, and movie/night scene state match the v49 source. The character and spatial-portal setup were not changed.",
+    "Front, reference comparison, full courtyard oblique, close oblique and window-boundary detail renders were inspected. Glazing remains colored from fixed reference UVs; true changing reflections, irregular broken glass, subtle grille details, facade wear and inferred interior details still require refinement. The boundary detail shows the extended third window meeting its solid pier, with no old divider across the opening; the adjacent unreconstructed bay still has mismatched generic glazing and surface colors. Oversized nearby leaves, the low pipe, air-conditioning units, ground stones and surrounding debris remain visibly different from the poster.",
+    "The actual Three.js v46-v50 construction chain replaces 14 existing facade buckets and reuses all materials. Positions, normals and UVs match the native export, other geometry/ivy are retained, and 26 HTTP resources match local bytes. Browser/GPU display has not been verified; v49 documented an active connection failure."
+  ],
+  "remaining": [
+    "Reconstruct the foreground foliage clumps, slim stems, hanging trails, pipe height, discarded units and low debris around the left entrance. These silhouettes now dominate the remaining difference in the corrected facade area.",
+    "Refine the new window panes and grilles: broken-glass boundaries, view-dependent reflection, sealing/bead detail, door hardware, worn stair edges and subtle facade moldings. Hidden construction remains inferred.",
+    "Continue the remaining lower-facade openings and upper oculus, especially around the right courtyard, while preserving the newly matched entrance and three-window group.",
+    "Refine the remaining arch groups around the courtyard, gray infill and glazing behavior, hidden rooms, and cornice seam/weathering detail. The new reference-facing group is an incremental geometric improvement; no single source image establishes its hidden construction.",
+    "Refine the two thin foreground hanger tips against the source. The first current modeled tip is approximately five pixels from the newly inspected source tip and the second roughly three pixels at 708x1000. Their photograph traces have now been removed from the wall atlas, exposing the remaining geometry alignment error.",
+    "Add better view-dependent glazing reflections and concealed frame/room detail. The new glass is a solid pane with fixed reference surface color; masked portions and unobserved construction remain inferred.",
+    "Refine the fascia surface wear, small joints and transitions. The main left black band has been corrected with solid facing, but the inferred hidden section and uniform finish are not an exact architectural reconstruction.",
+    "Match distinct ivy clumps and hanging trails. Left roof leaf size and native colors are improved, but leaf placement, other rooftop leaf sizes and vine stems remain approximate.",
+    "Refine railing paint variation and end supports, equipment weathering, tank shading, pipe bends and inferred hidden equipment surfaces.",
+    "Refine pale steel edges, corrosion and irregular damage; rebuilt steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water, steel and railing materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false,
+  "reviewedImageSha256": {
+    "poster-front-v50.png": "956526b8a83e63b5b7a9c059eef511d0509507f7daed39ce76ec6a2758c18ea3",
+    "lower-facade-detail-v50.png": "de84ac4e213eb647066049771016d9171135a928e9c6d52af754cbbcb34e28d2",
+    "poster-oblique-v50.png": "b15b3b6e41bec49e3f1b4d7c6f2c7a87808c23df228004a1f93c2f11a00db601",
+    "lower-facade-oblique-detail-v50.png": "1c04937a840bf7a8045c5b242e1ae95f230279064093a9bd7d366087e6e4cf92",
+    "lower-facade-comparison-v50.png": "8c5fa3c29e94b5490aa987d53215f79f6eead3e458ecdbe2b6ff808a9abe023e",
+    "lower-facade-boundary-detail-v50.png": "ffd36a01edbf3c74131b9e08e794e51aa773daf23d5c51fb1d200b33b235d0eb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "revision": 18,
+  "headSource": "Reference-driven mathematical reconstruction; no additional Hunyuan generation",
+  "originalBodySource": "Hunyuan3D 3.1; v16 pose and foot correction preserved",
+  "headReplaced": true,
+  "faceColorMethod": "Editable material regions, curved eye geometry and physical left hairpins",
+  "partTriangles": {
+    "Suzume Hunyuan textured surface": 408817,
+    "Suzume clean mathematical head": 135776
+  },
+  "rigBones": 20,
+  "minimumWorldHeight": 0.2034619152545929,
+  "sourceBodyTrianglesPreserved": 408817,
+  "headRestScale": 0.118,
+  "neckBlendZ": [
+    0.976,
+    1.023
+  ],
+  "oneToOneComplete": false,
+  "limitations": [
+    "Facial identity remains approximate.",
+    "This candidate does not replace the v17 default.",
+    "Full-scene portal rendering requires separate verification."
+  ]
+}

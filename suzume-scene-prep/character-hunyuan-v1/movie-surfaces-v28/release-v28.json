@@ -1,0 +1,29 @@
+{
+  "revision": 28,
+  "role": "Fixed reference colors on existing physical plaster and stone faces",
+  "nativeFile": "movie-surfaces-v28/Suzume_scene_movie_surfaces_v28.blend",
+  "nativeSha256": "1e025d2625cd64438c0771350cba86541b5016da0a1cf9655334a7b1fe50536e",
+  "nativeFrontAndObliqueReviewed": true,
+  "previousDayMeshesUnchanged": 2362,
+  "bodyHeadFeetAndPortalPreserved": true,
+  "cameraAndLightingPreserved": true,
+  "selectedPhysicalObjects": 164,
+  "selectedPolygons": 14678,
+  "newSurfaceGeometryCount": 0,
+  "referenceShadingRetained": true,
+  "stableNativeRemainsRevision": 19,
+  "browserDefaultRemainsRevision": 17,
+  "browserCandidate": "viewer/candidate-v28.html",
+  "browserFaceSelectionSyntaxAndHttpVerified": true,
+  "browserRuntimeVerified": false,
+  "browserRuntimeAttempt": "Existing IAB candidate tab connection timed out; no screenshot or interaction verification obtained.",
+  "oneToOneComplete": false,
+  "remaining": [
+    "水面倒影过于清晰，缺少电影参照里的柔和反射、可见水底、藻类与亮点；下一步优先校准反射/透射比例和粗糙度。",
+    "门内灰色横带云层仍需重建为空间夜云，夜间花草、山地与天空色彩尚未匹配。",
+    "实体墙面已加入固定参照色彩，但部分檐口偏亮，遮挡区、未观察到的区域和侧面仍有明暗接缝，个别窗边投影存在错位。",
+    "人物左手、腰线、右裙摆与握门动作仍有投影偏差；脸型、发丝及门基砖石需继续精修，并保留脚部间隙与跨门连续性。",
+    "岸台、后方管线、屋顶和钢架的隐藏部分仍含推定；另一幅关门海报场景尚未完成一比一核对。",
+    "网页选面、固定坐标材质插入、脚本和资源均已检查；浏览器页面连接仍超时，实际 WebGL 显示和旋转交互尚未验证。"
+  ]
+}

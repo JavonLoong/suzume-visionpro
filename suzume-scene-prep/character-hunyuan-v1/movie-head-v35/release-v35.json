@@ -1,0 +1,26 @@
+{
+  "revision": 35,
+  "nativeFile": "movie-head-v35/Suzume_scene_movie_head_v35.blend",
+  "nativeSha256": "6b4abbc9ae4157ce88e02edb03069e1db68f108abf7d55ccefb04c2fe5566cf7",
+  "primaryNativeAlias": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene.blend",
+  "currentNativeRevision": 35,
+  "previousNativeRevisionPreserved": 34,
+  "headSource": "Mathematical geometry derived from existing v18 components; no new Hunyuan submission.",
+  "headPlacementAndPonytailShapeFitted": true,
+  "independentClosedPonytailParts": 6,
+  "bodyFeetAndGripPreserved": true,
+  "sharedSpatialHeadMeshVerified": true,
+  "frontBackSideRenderedAndReviewed": true,
+  "browserCandidate": "viewer/candidate-v35.html",
+  "browserRuntimeVerified": false,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Refine face identity, eyes, jaw, nape hairline and material style against the official face reference.",
+    "Check ponytail side depth and root attachment against a usable side reference.",
+    "Review both movie camera correspondences and fit shared door geometry and intrinsics.",
+    "Refine wider night sky, stars, courtyard, clouds, flowers, paving and water glints.",
+    "Complete and inspect the separate closed-door poster scene.",
+    "Verify the web candidate with a responsive browser; geometry and resource checks are not GPU rendering proof."
+  ]
+}

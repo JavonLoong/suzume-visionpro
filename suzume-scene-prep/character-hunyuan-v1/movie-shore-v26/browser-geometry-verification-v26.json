@@ -1,0 +1,17 @@
+{
+  "revision": 26,
+  "allNativeMeshPositionBuffersMatch": true,
+  "newParts": 731,
+  "triangles": 175468,
+  "shaderMaterialsConstructed": [
+    "concrete",
+    "bank",
+    "curb",
+    "rust",
+    "rustDark"
+  ],
+  "inlineScriptsParsed": 1,
+  "browserRuntimeVerified": false,
+  "glslDriverCompilationVerified": false,
+  "oneToOneComplete": false
+}

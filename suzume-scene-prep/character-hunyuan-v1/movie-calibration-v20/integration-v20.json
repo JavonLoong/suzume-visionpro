@@ -1,0 +1,189 @@
+{
+  "revision": 20,
+  "variant": "movie-opening",
+  "fitParameters": {
+    "yaw": 0.21910032505574306,
+    "translateX": 5.403701236732173,
+    "translateY": -15.67639473149218,
+    "heightScale": 0.7889657430319029,
+    "heightOffset": 1.9798086109214437
+  },
+  "depthScale": 2.9999999999976525,
+  "courtyardRadiusMeters": 70.49999999994483,
+  "changes": [
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh",
+      "operation": "hotel",
+      "verticesMoved": 28476,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.001",
+      "operation": "hotel",
+      "verticesMoved": 4860,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.002",
+      "operation": "hotel",
+      "verticesMoved": 2880,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.003",
+      "operation": "hotel",
+      "verticesMoved": 7776,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.004",
+      "operation": "hotel",
+      "verticesMoved": 2304,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.005",
+      "operation": "hotel",
+      "verticesMoved": 288,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.006",
+      "operation": "hotel",
+      "verticesMoved": 5184,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.007",
+      "operation": "hotel",
+      "verticesMoved": 72,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.008",
+      "operation": "hotel",
+      "verticesMoved": 355089,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.009",
+      "operation": "hotel",
+      "verticesMoved": 6198,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.010",
+      "operation": "hotel",
+      "verticesMoved": 3894,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.011",
+      "operation": "hotel",
+      "verticesMoved": 54438,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.012",
+      "operation": "hotel",
+      "verticesMoved": 738,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.013",
+      "operation": "hotel",
+      "verticesMoved": 7080,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.014",
+      "operation": "hotel",
+      "verticesMoved": 4641,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.015",
+      "operation": "hotel",
+      "verticesMoved": 1758,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.016",
+      "operation": "hotel",
+      "verticesMoved": 1716,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.017",
+      "operation": "hotel",
+      "verticesMoved": 2070,
+      "verticesKept": 0
+    },
+    {
+      "object": "Circular ruined hotel with exterior entrance solid mesh.018",
+      "operation": "hotel",
+      "verticesMoved": 119061,
+      "verticesKept": 0
+    },
+    {
+      "object": "Broken radial dome steelwork solid mesh",
+      "operation": "full courtyard placement and uniform depth scale"
+    },
+    {
+      "object": "Broken radial dome steelwork solid mesh.001",
+      "operation": "full courtyard placement and uniform depth scale"
+    },
+    {
+      "object": "Broken radial dome steelwork solid mesh.002",
+      "operation": "full courtyard placement and uniform depth scale"
+    },
+    {
+      "object": "Broken radial dome steelwork solid mesh.003",
+      "operation": "full courtyard placement and uniform depth scale"
+    },
+    {
+      "object": "Brick and masonry debris solid mesh",
+      "operation": "rubble",
+      "verticesMoved": 792,
+      "verticesKept": 540
+    },
+    {
+      "object": "Brick and masonry debris solid mesh.001",
+      "operation": "rubble",
+      "verticesMoved": 1548,
+      "verticesKept": 1080
+    },
+    {
+      "object": "Individual three-dimensional ivy leaves",
+      "operation": "ivy",
+      "verticesMoved": 4320,
+      "verticesKept": 123
+    },
+    {
+      "object": "Continuous forest terrain",
+      "operation": "uniformly scaled environment with attached tree roots"
+    },
+    {
+      "object": "Branching tree crowns surrounding the ruined hotel",
+      "operation": "uniformly scaled environment with attached tree roots"
+    },
+    {
+      "object": "Forest trunks",
+      "operation": "uniformly scaled environment with attached tree roots"
+    },
+    {
+      "object": "Live planar reflective shallow water",
+      "operation": "courtyard placement; water stays horizontal"
+    }
+  ],
+  "bodyWorldHash": "bda994f4f36c980ac7e48122ea45f395ce5defbd723d5c82f514aeca5561de47",
+  "bodyAndFootClearancesPreserved": true,
+  "posterSourcePreserved": "Suzume_scene_Hunyuan_v19.blend",
+  "oneToOneComplete": false,
+  "visuallyReviewed": false,
+  "limitations": [
+    "Movie bay types and individual window dimensions still require correction.",
+    "The lower podium and architectural scale are inferred; the waterline fit is intentionally incomplete.",
+    "Front reference camera and character stay at v19 settings."
+  ]
+}

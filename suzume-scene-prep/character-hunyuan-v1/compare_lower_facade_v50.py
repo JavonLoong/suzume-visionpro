@@ -1,0 +1,10 @@
+from pathlib import Path
+from PIL import Image,ImageDraw
+import json,numpy as np
+R=Path(__file__).parent;O=R/'poster-lower-facade-v50';D=json.loads((O/'lower-facade-geometry-v50.json').read_text());C=np.array(D['camera']['position']);rot=np.array(D['camera']['rotation']);f=D['camera']['focalPixels'];edges=(np.arange(33)-16.5)*np.pi/16;edges[13:21]=[-.745387,-.567705,-.415142,-.217486,.006904,.147421,.411245,.678266]
+canvas=Image.new('RGB',(900,1023),(20,26,29));draw=ImageDraw.Draw(canvas)
+for i,(file,label) in enumerate([('reference-lower-facade-v50.png','Reference'),('lower-facade-before-v50.png','Before v49'),('lower-facade-detail-v50.png','After v50')]):draw.text((8,i*341+5),label,fill='white');canvas.paste(Image.open(O/file).convert('RGB'),(0,i*341+26))
+canvas.save(O/'lower-facade-comparison-v50.png');anchors=[]
+for rec in D['openings']:
+ a0,a1=edges[rec['bay']:rec['bay']+2];a=(a0+a1)/2;rad=np.array([np.sin(a),np.cos(a),0]);t=np.array([np.cos(a),-np.sin(a),0]);chord=23.5*np.cos((a1-a0)/2);p=np.array([rad*chord+t*rec['x']+[0,0,z] for z in rec['z'][::-1]]);q=(p-C)@rot;uv=np.c_[354+f*q[:,0]/-q[:,2],500-f*q[:,1]/-q[:,2]];u0,u1,vt,vb,_=rec['reference'];want=np.array([[(u0+u1)/2,vt],[(u0+u1)/2,vb]]);error=np.linalg.norm(uv-want,axis=1);anchors.append({'opening':rec['id'],'imageAnchors':want.tolist(),'modeledAnchors':uv.tolist(),'pixelError':error.tolist(),'leftEdgeClippedByBay':rec['id']=='left rectangular window'})
+report={'revision':50,'nativeSha256':json.loads((O/'verification-v50.json').read_text())['nativeSha256'],'scope':'Top and bottom center anchors of modeled openings at 708x1000. The clipped left window is excluded from the maximum. Depth, light, full curves and hidden surfaces are not validated by this metric.','manualUncertaintyPixels':1.5,'maximumAnchorErrorPixels':max(max(q['pixelError']) for q in anchors if not q['leftEdgeClippedByBay']),'anchors':anchors,'oneToOneComplete':False};(O/'lower-facade-projection-v50.json').write_text(json.dumps(report,indent=2));print('LOWER_FACADE_50_ANCHOR_ERROR',report['maximumAnchorErrorPixels'])

@@ -1,0 +1,11 @@
+{
+  "basis": "Visual inspection of v29 and v30 portal renders, source code, and native-horizon-inspection-v30.json read from the saved v30 scene",
+  "visibleProblem": "The meadow ends in a nearly horizontal dark band beneath the clouds; the reference has uneven distant silhouettes and low blue-violet haze.",
+  "source": "night-world.js:36-42",
+  "sourceGround": "400 by 400 meter PlaneGeometry, 200 by 200 subdivisions. Its far edge is at native Y=200 after axis conversion.",
+  "existingRevision24Change": "The inferred distant 18 meter hill was flattened to 1.2 meters; plants follow that height change. Preserve the character and near-portal terrain.",
+  "actualNativeFinding": "40401 ground vertices, world X/Y bounds -200..200, height -0.299..1.394 meters. Far-edge height is -0.247..0.224 meters, which projects to a nearly flat distant cutoff.",
+  "proposedNextWork": "Extend the ground with inferred solid distant ridges, then consider shallow 3D haze aligned to the reference. Preserve near-door terrain and plants. Avoid turning low cloud boxes into scenery cards.",
+  "referenceCaution": "Only the visible distant silhouette can be constrained by a single frame. Hidden terrain and fog depth remain inferred.",
+  "unchangedDuringV30": true
+}

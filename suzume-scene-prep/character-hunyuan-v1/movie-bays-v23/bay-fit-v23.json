@@ -1,0 +1,363 @@
+{
+  "revision": 23,
+  "reference": "reference-opening-50525.jpg",
+  "referenceDimensions": [
+    2552,
+    1656
+  ],
+  "method": "Manual rectangular and arched window landmarks, fixed v20 courtyard placement and fixed foreground camera.",
+  "bays": [
+    {
+      "index": 12,
+      "edges": [
+        -0.8835729338221293,
+        -0.745387
+      ],
+      "angle": -0.8144799669110647,
+      "chordRadius": 23.443929713797772,
+      "bayWidth": 3.2667863254827423,
+      "openings": [
+        {
+          "type": "rectangle",
+          "name": "rectangle 1",
+          "x": 0.20236486836322443,
+          "bottom": 1.0048019378112003,
+          "width": 2.02892626447627,
+          "height": 1.6922297967668969,
+          "panels": 6,
+          "targets": [
+            [
+              -350,
+              437
+            ],
+            [
+              147,
+              437
+            ],
+            [
+              147,
+              674
+            ],
+            [
+              -350,
+              674
+            ]
+          ],
+          "projected": [
+            [
+              -349.9082133350248,
+              411.83788469137744
+            ],
+            [
+              144.28572570328447,
+              466.1183077416819
+            ],
+            [
+              146.074338370659,
+              684.7844430232483
+            ],
+            [
+              -346.93856864752615,
+              664.640076513731
+            ]
+          ],
+          "meanErrorPixels": 18.76969712485312,
+          "partiallyOccluded": true
+        }
+      ],
+      "observedLowerStory": true,
+      "upperStory": "Retain the existing complete geometric upper story; its height and aperture arrangement remain subject to further movie calibration."
+    },
+    {
+      "index": 13,
+      "edges": [
+        -0.745387,
+        -0.567705
+      ],
+      "angle": -0.6565460000000001,
+      "chordRadius": 23.4073214826693,
+      "bayWidth": 4.192036454022075,
+      "openings": [
+        {
+          "type": "rectangle",
+          "name": "rectangle 1",
+          "x": -1.4897038194492935,
+          "bottom": 1.149154385817589,
+          "width": 0.8673761660268128,
+          "height": 1.9032357898600434,
+          "panels": 3,
+          "targets": [
+            [
+              259,
+              441
+            ],
+            [
+              420,
+              441
+            ],
+            [
+              420,
+              674
+            ],
+            [
+              259,
+              674
+            ]
+          ],
+          "projected": [
+            [
+              258.53956621134535,
+              433.473513723017
+            ],
+            [
+              418.86421617073404,
+              448.8547920728911
+            ],
+            [
+              420.2770370518476,
+              676.9381955770882
+            ],
+            [
+              260.28713616472373,
+              671.1693191741371
+            ]
+          ],
+          "meanErrorPixels": 5.384461191696503,
+          "partiallyOccluded": false
+        },
+        {
+          "type": "rectangle",
+          "name": "rectangle 2",
+          "x": -0.22585576888224682,
+          "bottom": 1.217563750204564,
+          "width": 1.0765535346268582,
+          "height": 2.0166755878729767,
+          "panels": 3,
+          "targets": [
+            [
+              470,
+              441
+            ],
+            [
+              648,
+              441
+            ],
+            [
+              648,
+              674
+            ],
+            [
+              470,
+              674
+            ]
+          ],
+          "projected": [
+            [
+              469.8160214669306,
+              432.21650548623455
+            ],
+            [
+              646.9486547849571,
+              450.22518638146107
+            ],
+            [
+              647.981652858012,
+              677.4550047429626
+            ],
+            [
+              471.2052880356838,
+              670.700833773619
+            ]
+          ],
+          "meanErrorPixels": 6.25945331305191,
+          "partiallyOccluded": false
+        },
+        {
+          "type": "arch",
+          "name": "arched window",
+          "x": 1.0457317673795792,
+          "bottom": 1.287580504473431,
+          "width": 0.7579253490006259,
+          "height": 2.0522943260054345,
+          "rise": 0.4954727239044936,
+          "panels": 2,
+          "targets": [
+            [
+              758,
+              450
+            ],
+            [
+              702,
+              504
+            ],
+            [
+              814,
+              504
+            ],
+            [
+              702,
+              674
+            ],
+            [
+              814,
+              674
+            ]
+          ],
+          "projected": [
+            [
+              758.2964574678406,
+              449.9988909710817
+            ],
+            [
+              701.8340780797201,
+              499.0967077206159
+            ],
+            [
+              813.3712188782254,
+              509.06668284079507
+            ],
+            [
+              702.5508836066033,
+              671.7848128393782
+            ],
+            [
+              813.9305260710751,
+              676.285422007393
+            ]
+          ],
+          "meanErrorPixels": 2.9754487796287425
+        }
+      ],
+      "observedLowerStory": true,
+      "upperStory": "Retain the existing complete geometric upper story; its height and aperture arrangement remain subject to further movie calibration."
+    },
+    {
+      "index": 14,
+      "edges": [
+        -0.567705,
+        -0.415142
+      ],
+      "angle": -0.4914235,
+      "chordRadius": 23.43166145728929,
+      "bayWidth": 3.6037545147502463,
+      "openings": [],
+      "observedLowerStory": false,
+      "upperStory": "Retain the existing complete geometric upper story; its height and aperture arrangement remain subject to further movie calibration."
+    },
+    {
+      "index": 15,
+      "edges": [
+        -0.415142,
+        -0.217486
+      ],
+      "angle": -0.316314,
+      "chordRadius": 23.385331436386092,
+      "bayWidth": 4.659358562963315,
+      "openings": [
+        {
+          "type": "rectangle",
+          "name": "rectangle 1",
+          "x": -0.3283779305532728,
+          "bottom": 1.4935352927268912,
+          "width": 1.3707514584016327,
+          "height": 2.484772015922092,
+          "panels": 3,
+          "targets": [
+            [
+              1509,
+              440
+            ],
+            [
+              1668,
+              440
+            ],
+            [
+              1668,
+              674
+            ],
+            [
+              1509,
+              674
+            ]
+          ],
+          "projected": [
+            [
+              1509.2311218394918,
+              437.86252010346067
+            ],
+            [
+              1668.296127971622,
+              442.1634912443283
+            ],
+            [
+              1667.6366045516565,
+              674.808322109527
+            ],
+            [
+              1508.8344912737834,
+              673.1996122180775
+            ]
+          ],
+          "meanErrorPixels": 1.509293637411281,
+          "partiallyOccluded": true
+        },
+        {
+          "type": "rectangle",
+          "name": "rectangle 2",
+          "x": 1.337501438432731,
+          "bottom": 1.5143402671971968,
+          "width": 1.400366981698294,
+          "height": 2.5193648309564187,
+          "panels": 3,
+          "targets": [
+            [
+              1700,
+              440
+            ],
+            [
+              1858,
+              440
+            ],
+            [
+              1858,
+              674
+            ],
+            [
+              1700,
+              674
+            ]
+          ],
+          "projected": [
+            [
+              1700.3942514100963,
+              437.8473855951991
+            ],
+            [
+              1858.4550929266281,
+              442.18089637955393
+            ],
+            [
+              1857.4759277860603,
+              674.8135361675857
+            ],
+            [
+              1699.672505741558,
+              673.1926402345963
+            ]
+          ],
+          "meanErrorPixels": 1.5638180391823526,
+          "partiallyOccluded": false
+        }
+      ],
+      "observedLowerStory": true,
+      "upperStory": "Retain the existing complete geometric upper story; its height and aperture arrangement remain subject to further movie calibration."
+    }
+  ],
+  "oneToOneComplete": false,
+  "limitations": [
+    "Partially occluded window edges are inferred.",
+    "The occluded entrance of bay 14 is retained from the existing model.",
+    "Upper levels and absolute courtyard dimensions have not been re-fitted in this step.",
+    "Landmark residuals are not whole-scene fidelity scores."
+  ]
+}

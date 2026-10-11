@@ -1,0 +1,88 @@
+{
+  "revision": 45,
+  "resources": [
+    {
+      "path": "viewer/three.min.js",
+      "bytes": 603445,
+      "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2"
+    },
+    {
+      "path": "viewer/GLTFLoader.js",
+      "bytes": 96550,
+      "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6"
+    },
+    {
+      "path": "poster-left-steel-v44/browser-steel-v44.json",
+      "bytes": 9846,
+      "sha256": "304aae042d4d1c980984083ee632f12e292714d1cf36d62e00ba3752a6e44409"
+    },
+    {
+      "path": "poster-left-steel-v44/steel-v44.bin",
+      "bytes": 8635776,
+      "sha256": "bf9e23e7d3d7c1cf1a241c076e6c6089afca354cad37aac8942e48eee226efee"
+    },
+    {
+      "path": "poster-lower-clouds-v43/browser-clouds-v43.json",
+      "bytes": 2651,
+      "sha256": "5726325a98e51b22e3b6565d21a29beec1f144f614af3d6b11f011695e62c92e"
+    },
+    {
+      "path": "poster-lower-clouds-v43/lower-clouds-v43.bin",
+      "bytes": 47734152,
+      "sha256": "7cc0b8913c29141004e3bd858102079f666db4935ee07f557908912399ed6b5e"
+    },
+    {
+      "path": "poster-horizon-v42/browser-clouds-v42.json",
+      "bytes": 24973,
+      "sha256": "ca63e8ceab4df8e369ba97144eec02abf0a3aa4912f00f8e5808847ae45ba211"
+    },
+    {
+      "path": "poster-horizon-v42/clouds-v42.bin",
+      "bytes": 40353300,
+      "sha256": "60a58debf8e1b14a65639d31a6a23cd7548c79dfb1bc3e56a3512469481f4f66"
+    },
+    {
+      "path": "viewer/character-v37/suzume-posed-v37.gltf",
+      "bytes": 22588,
+      "sha256": "8b2a96b9094ba514c546b673ac66d5f9b97316fe7aaf159fff8e88876feecf45"
+    },
+    {
+      "path": "viewer/character-v37/suzume-posed-v37.bin",
+      "bytes": 15758024,
+      "sha256": "5c62d0925d3724310ba3a898afb16f2bb36d6098a9b72b41d09f8040938b950d"
+    },
+    {
+      "path": "viewer/character-v37/texture-0.png",
+      "bytes": 4037877,
+      "sha256": "e187d9879e97e465b12de1fcb6b9f611d4521ff8314c3e16ec67db87c2421992"
+    },
+    {
+      "path": "viewer/character-v37/texture-1.png",
+      "bytes": 14494428,
+      "sha256": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7"
+    },
+    {
+      "path": "viewer/character-v37/texture-2.png",
+      "bytes": 7558005,
+      "sha256": "dd4d1a90b768caf9f6aae4e87e528543b02b1ca0fffa0ecaeec6dec2fd03c971"
+    },
+    {
+      "path": "viewer/poster-v45.html",
+      "bytes": 1010033,
+      "sha256": "fa784dffdd7f345c00e4002d939e9015ca2ea8c63c263f8a589d420314fccaaf"
+    },
+    {
+      "path": "poster-rooftops-v45/browser-rooftops-v45.json",
+      "bytes": 4137,
+      "sha256": "00e239e444efa8c0b5d3a0ecc0ed56de84a2469913c8bc3ba6e87947a9c3d160"
+    },
+    {
+      "path": "poster-rooftops-v45/rooftops-v45.bin",
+      "bytes": 16889088,
+      "sha256": "15041d18bbd678ec77c162412a5ba3cc6c0d2d9288557a7d597d4f9baba54a88"
+    }
+  ],
+  "nativeDownloadAvailable": true,
+  "browserRuntimeVerified": false,
+  "scope": "HTTP resource bytes only. Browser control last failed in v44."
+}

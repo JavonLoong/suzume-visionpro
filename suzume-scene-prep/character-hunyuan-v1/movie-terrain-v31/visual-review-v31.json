@@ -1,0 +1,30 @@
+{
+  "revision": 31,
+  "frontReviewed": true,
+  "wideNightReviewed": true,
+  "reviewedImages": ["trial-horizon-and-mist-v31.png", "trial-visible-mist-v31.png", "movie-front-v31.png", "night-wide-v31.png"],
+  "wideNightFindings": [
+    "The broader night view renders the extended terrain and low mist without visible gaps through the meadow.",
+    "The skyline changes are subtle at this wider lens; distant vegetation remains sparse and the composition still appears too empty.",
+    "The forward sky remains dark blue-violet. Wider off-axis sunset color and the bright star composition in reference 50528 are still missing.",
+    "This is one shallow oblique wide view, not a complete all-angle visual validation."
+  ],
+  "frontFindings": [
+    "The distant dark skyline now rises gently to the right, following the visible reference rather than remaining horizontal.",
+    "A low blue-violet mist layer is visible beneath the skyline. The right selected patch is substantially closer to the reference.",
+    "The left mist remains slightly too bright, and fine atmospheric/vegetation texture is still missing.",
+    "The close meadow, character, door, courtyard and water remain consistent with the previous candidate."
+  ],
+  "colorEvidence": "Selected mist medians: reference left [19,15,33], v31 [22,17,38]; reference right [26,22,43], v31 [25,21,44]. These local samples are not an overall similarity score.",
+  "remaining": [
+    "Restore the wider off-axis sunset colors and star arrangement seen in the close door reference, preserving the narrow front sky calibration.",
+    "Refine distant vegetation, fine mist structure and the slightly bright left haze.",
+    "Refine cloud silhouettes and the sparse wider night composition.",
+    "Calibrate the character silhouette, ponytail, pose and clothing details while preserving foot clearance and portal partition.",
+    "Refine water glints, paving and remaining courtyard surface seams.",
+    "Finish the separate closed-door poster scene and inspect hidden geometry from multiple angles.",
+    "Verify current browser GPU output, interaction and cross-engine appearance in a responsive browser."
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

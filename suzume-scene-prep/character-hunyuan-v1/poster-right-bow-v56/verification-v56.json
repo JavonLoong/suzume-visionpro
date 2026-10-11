@@ -1,0 +1,83 @@
+{
+  "revision": 56,
+  "sourceNativeSha256": "d0928992e11245a530630597987eabcc3daa085a7cb8c3e296a769c1b94a50ae",
+  "nativeSha256": "3dd43cd0153cf25492f279474dac52098d40eff0c20ae6878a6a5bf8806bb0e1",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "sharedNodeGroupsPreserved": true,
+  "allExistingPackedImageBytesPreserved": true,
+  "preservedOriginalPackedImages": 25,
+  "packedImageCount": 28,
+  "newPaintImageSha256": "d4ac11581febe4658120b76108f6ac7cb5b0e6437798af6dc2155a996404d3c5",
+  "changedOriginalMeshes": [
+    {
+      "name": "Broken radial dome steelwork solid mesh",
+      "key": "mesh0",
+      "removedTriangles": 980,
+      "retainedTriangles": 17152,
+      "maximumRetainedNormalError": 0.0
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.001",
+      "key": "mesh1",
+      "removedTriangles": 2460,
+      "retainedTriangles": 11388,
+      "maximumRetainedNormalError": 0.0
+    }
+  ],
+  "retainedOriginalCoordinatesUVsAndNormalsPreserved": true,
+  "addedMember": {
+    "name": "Poster measured right bowed I-beam v56",
+    "triangles": 7700,
+    "nonManifoldEdges": 0,
+    "signedVolume": 0.05900116603414462,
+    "maximumVertexErrorMeters": 9.535302751828567e-07,
+    "textureUVPreservedExactly": true
+  },
+  "supportJoint": {
+    "support": "Poster right I-section post 2 v39",
+    "sharedInteriorPoints": [
+      [
+        6.87173142,
+        19.10155249,
+        3.63958254
+      ]
+    ],
+    "solidOverlapVerified": true
+  },
+  "fittedTopBoundaryMaximumErrorPixels": 2.7284841053187847e-12,
+  "fittedBottomBoundaryMaximumErrorPixels": 4.092726157978177e-12,
+  "measurementUncertaintyPixels": 0.6,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false,
+  "surfaceMaterialUpdates": [
+    {
+      "material": "Poster restored right facade pigments v54",
+      "previousAtlas": "poster-right-facade-v54/right-facade-pigments-v54.png",
+      "previousAtlasSha256": "e28398e180a79ad26d292ee8187c8671b26c17ef979114175ba0da5992f2db5d",
+      "newAtlas": "right-facade-beam-mask-v56.png",
+      "newImageName": "Right facade narrow beam mask v56",
+      "atlasSha256": "992834f13cc7a4d6bd0b86a3d8cd2e8321ff221f8f9e9c6281c3765343d56f4a",
+      "browserTarget": "Poster right arcade prior54_0 v55",
+      "observedPixelsRestored": 17951,
+      "hiddenPixelsInferred": 5611,
+      "outsidePatchPreservedExactly": true,
+      "observedPixelsEqualGradedSourceExactly": true
+    },
+    {
+      "material": "Poster calibrated right arcade pigments v55",
+      "previousAtlas": "poster-right-arches-v55/right-arcade-pigments-v55.png",
+      "previousAtlasSha256": "f2a21cb3080c4489cf0805493909cf6b4ed65e0999be585ef69675e8a6170678",
+      "newAtlas": "right-arcade-beam-mask-v56.png",
+      "newImageName": "Right arcade narrow beam mask v56",
+      "atlasSha256": "992834f13cc7a4d6bd0b86a3d8cd2e8321ff221f8f9e9c6281c3765343d56f4a",
+      "browserTarget": "Poster right arcade new0 v55",
+      "observedPixelsRestored": 17951,
+      "hiddenPixelsInferred": 5611,
+      "outsidePatchPreservedExactly": true,
+      "observedPixelsEqualGradedSourceExactly": true
+    }
+  ]
+}

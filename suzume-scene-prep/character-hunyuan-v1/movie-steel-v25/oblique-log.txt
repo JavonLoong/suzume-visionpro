@@ -1,0 +1,5 @@
+00:03.218  blend            | Read blend: "D:\虚拟C盘\JavonLoongSkill\suzume-scene-prep\character-hunyuan-v1\movie-steel-v25\Suzume_scene_movie_steel_v25.blend"
+04:00.797  render           | Saved: 'D:\虚拟C盘\JavonLoongSkill\suzume-scene-prep\character-hunyuan-v1\movie-steel-v25\movie-left-oblique-v25.png'
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

@@ -1,0 +1,62 @@
+{
+  "front": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 1138824,
+    "sha256": "8717c34c93f3db4fefce3c00fc9d8ed797b7406ec2b20a80a8e280d81e9d7f3d",
+    "foregroundBounds": [
+      238,
+      13,
+      754,
+      1502
+    ],
+    "foregroundHeight": 1490
+  },
+  "back": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 1483647,
+    "sha256": "3111b861d9aec59e16bb515603afda3fade244c91a6db53f2b413f9b5cb820bb",
+    "foregroundBounds": [
+      233,
+      19,
+      757,
+      1500
+    ],
+    "foregroundHeight": 1482
+  },
+  "left": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 1500948,
+    "sha256": "58f9b54e214260be2efab207ea2c65fb2b3bbabad86a1c0aad2d09fd896a826d",
+    "foregroundBounds": [
+      391,
+      15,
+      646,
+      1488
+    ],
+    "foregroundHeight": 1474
+  },
+  "right": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 1476206,
+    "sha256": "635eda8d35a64a9065e3e5468de634050c810becb40243d46ec8d0a72335b45b",
+    "foregroundBounds": [
+      359,
+      15,
+      624,
+      1484
+    ],
+    "foregroundHeight": 1470
+  }
+}

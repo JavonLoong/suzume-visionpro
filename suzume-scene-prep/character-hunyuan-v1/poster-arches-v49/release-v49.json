@@ -1,0 +1,32 @@
+{
+  "revision": 49,
+  "nativeFile": "poster-arches-v49/Suzume_dual_scene_arches_v49.blend",
+  "nativeSha256": "bbcfec64ae4a3614fbcd92d3ba0522942deb54a439a842201d7fbcadf3e248f5",
+  "primaryNativeAlias": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene.blend",
+  "posterScene": "Official poster courtyard v38",
+  "movieScene": "Daytime circular hotel",
+  "nightScene": "Night meadow through the door",
+  "movieRevision37Preserved": true,
+  "reconstructedArchUnits": 29,
+  "closedNewSolids": 68,
+  "upperWindowOldSillRemoved": true,
+  "partitionRecessClearanceVerified": true,
+  "posterBrowser": "http://127.0.0.1:8931/viewer/poster-v49.html",
+  "movieBrowser": "http://127.0.0.1:8931/viewer/candidate-v37.html",
+  "browserRuntimeVerified": false,
+  "browserDefaultRemainsRevision": 17,
+  "oneToOneComplete": false,
+  "remaining": [
+    "Refine the remaining arch groups around the courtyard, gray infill and glazing behavior, hidden rooms, and cornice seam/weathering detail. The new reference-facing group is an incremental geometric improvement; no single source image establishes its hidden construction.",
+    "Refine the two thin foreground hanger tips against the source. The first current modeled tip is approximately five pixels from the newly inspected source tip and the second roughly three pixels at 708x1000. Their photograph traces have now been removed from the wall atlas, exposing the remaining geometry alignment error.",
+    "Refine the upper oculus and remaining lower facade windows, doors, relief, right rooftop equipment and ground debris. Align actual apertures with the reference appearance throughout the rotatable scene.",
+    "Add better view-dependent glazing reflections and concealed frame/room detail. The new glass is a solid pane with fixed reference surface color; masked portions and unobserved construction remain inferred.",
+    "Refine the fascia surface wear, small joints and transitions. The main left black band has been corrected with solid facing, but the inferred hidden section and uniform finish are not an exact architectural reconstruction.",
+    "Match distinct ivy clumps and hanging trails. Left roof leaf size and native colors are improved, but leaf placement, other rooftop leaf sizes and vine stems remain approximate.",
+    "Refine railing paint variation and end supports, equipment weathering, tank shading, pipe bends and inferred hidden equipment surfaces.",
+    "Refine pale steel edges, corrosion and irregular damage; rebuilt steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water, steel and railing materials with native rendering."
+  ]
+}

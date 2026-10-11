@@ -1,0 +1,29 @@
+{
+  "revision": 43,
+  "nativeSha256": "23cec288419994ad8bb8768d786b33b27064cb1f33d061e9de62ad66656e2b7e",
+  "frontReviewed": true,
+  "lowerSkyDetailReviewed": true,
+  "obliqueReviewed": true,
+  "referenceComparisonReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The final front and high-resolution detail restore three blue-grey cloud strata below the v42 central bank. Large empty-blue regions around the door and behind the right skyline now contain cloud layers closer to the reference.",
+    "The fixed visible-sky mask contains 9651 pixels and excludes the manually identified door, foliage, steel and rooftop silhouette. Its RGB mean absolute error decreases from 30.0878 to 16.4017 on a 0 to 255 scale. This tests local colors only; it is not a whole-scene equivalence metric.",
+    "The first oblique candidate was rejected: some grey-green facade or foliage pigment had been extrapolated across hidden cloud surfaces. The repaired source filter requires blue sky chroma in both reference images, and unobserved surfaces use inferred illumination rather than repeated nearest-sample color.",
+    "The subsequent side trial revealed repetitive lobes. The final geometry blends those ridges and adds smooth three-dimensional turbulence in unconstrained regions, with softer inferred shading. An expanded depth grid contains the entire displaced surface; all three banks are single closed components after native reopening.",
+    "The reviewed final side view has no large green block. The lower cloud backs are still somewhat regular and band-like, so their shape and lighting remain approximations requiring refinement.",
+    "The final oblique image is the reviewed side-trial render of this exact native SHA, copied without image changes to the final filename. The front and detail were rendered again from the same saved file after the repair.",
+    "Existing poster objects and materials, movie character geometry and transforms, night scene and node groups are preserved. Actual browser/GPU display remains unverified because opening and binding the browser timed out in the previous revision."
+  ],
+  "remaining": [
+    "Rebuild the left poster steelwork: missing upper broken tie and brackets, incorrectly high horizontal ties, multi-edge support sections, pale paint, hanging rods and grounded joints. See left-steel-next-diagnosis.json and its enlarged comparison.",
+    "Align facade openings, rooftop equipment, parapet silhouette, ivy and shore debris. Existing facade geometry must be checked before using it as an attachment target.",
+    "Refine lower-cloud ridge contours, pale gaps, occluded shapes and back lighting; some hidden banks remain too regular. Refine the five dominant clouds and other faint fragments.",
+    "Align submerged poster stone outlines and major water glints; reduce angular straightness from oblique views and tune reflected facade detail.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate water and steel materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false
+}

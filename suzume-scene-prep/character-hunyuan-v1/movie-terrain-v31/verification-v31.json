@@ -1,0 +1,83 @@
+{
+  "revision": 31,
+  "freshReopenVerified": true,
+  "preservedDayMeshes": 2362,
+  "oldNightMeshesExceptGroundPreserved": 23,
+  "oldMaterialGraphsPreserved": 110,
+  "nearGroundVerticesExactlyPreserved": 5681,
+  "nearRadius": 85,
+  "bodyHeadFeetAndPortalPreserved": true,
+  "newObjectsSharedWithPortalRealm": true,
+  "closedTerrainExtension": true,
+  "extensionSignedVolume": 31407188.504953038,
+  "actualMeshSkylineSamples": [
+    {
+      "referencePixel": [
+        975.0,
+        623.0
+      ],
+      "meshSkylineY": 622.7799224853516,
+      "errorPixels": -0.2200775146484375
+    },
+    {
+      "referencePixel": [
+        1010.0,
+        622.0
+      ],
+      "meshSkylineY": 621.6083908081055,
+      "errorPixels": -0.39160919189453125
+    },
+    {
+      "referencePixel": [
+        1050.0,
+        618.0
+      ],
+      "meshSkylineY": 618.9510726928711,
+      "errorPixels": 0.9510726928710938
+    },
+    {
+      "referencePixel": [
+        1090.0,
+        617.0
+      ],
+      "meshSkylineY": 616.8605804443359,
+      "errorPixels": -0.1394195556640625
+    },
+    {
+      "referencePixel": [
+        1290.0,
+        604.0
+      ],
+      "meshSkylineY": 603.3135223388672,
+      "errorPixels": -0.6864776611328125
+    },
+    {
+      "referencePixel": [
+        1330.0,
+        598.0
+      ],
+      "meshSkylineY": 598.3605194091797,
+      "errorPixels": 0.3605194091796875
+    },
+    {
+      "referencePixel": [
+        1380.0,
+        595.0
+      ],
+      "meshSkylineY": 595.2460098266602,
+      "errorPixels": 0.24600982666015625
+    },
+    {
+      "referencePixel": [
+        1420.0,
+        596.0
+      ],
+      "meshSkylineY": 595.9503936767578,
+      "errorPixels": -0.0496063232421875
+    }
+  ],
+  "maximumAnnotatedSkylineErrorPixels": 0.9510726928710938,
+  "fogVolumes": 2,
+  "referenceImageUsedInTerrainOrFog": false,
+  "oneToOneComplete": false
+}

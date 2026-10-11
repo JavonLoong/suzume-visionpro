@@ -1,0 +1,438 @@
+{
+  "scope": "Three manually selected plaster patches only; not a whole-image score.",
+  "phase": "Initial light selection with v22 plaster and v21 window materials. The final scene also darkens glazing and window frames; final-color-comparison-v22.json records that result.",
+  "trials": [
+    {
+      "name": "facade-trial-0",
+      "patches": [
+        {
+          "region": "upper plaster",
+          "renderMedian": [
+            160.0,
+            167.0,
+            159.0
+          ],
+          "referenceMedian": [
+            248.0,
+            240.0,
+            229.0
+          ],
+          "rgbDistance": 134.06341782902598
+        },
+        {
+          "region": "below oculus",
+          "renderMedian": [
+            163.0,
+            169.0,
+            161.5
+          ],
+          "referenceMedian": [
+            212.0,
+            206.0,
+            185.0
+          ],
+          "rgbDistance": 65.74382100243338
+        },
+        {
+          "region": "between windows",
+          "renderMedian": [
+            168.0,
+            171.5,
+            162.0
+          ],
+          "referenceMedian": [
+            236.0,
+            234.0,
+            219.0
+          ],
+          "rgbDistance": 108.53225327062918
+        }
+      ],
+      "meanRgbDistance": 102.7798307006962
+    },
+    {
+      "name": "facade-trial-1200",
+      "patches": [
+        {
+          "region": "upper plaster",
+          "renderMedian": [
+            207.0,
+            208.0,
+            201.0
+          ],
+          "referenceMedian": [
+            248.0,
+            240.0,
+            229.0
+          ],
+          "rgbDistance": 59.06775770248944
+        },
+        {
+          "region": "below oculus",
+          "renderMedian": [
+            190.0,
+            192.0,
+            185.0
+          ],
+          "referenceMedian": [
+            212.0,
+            206.0,
+            185.0
+          ],
+          "rgbDistance": 26.076809620810597
+        },
+        {
+          "region": "between windows",
+          "renderMedian": [
+            199.0,
+            199.0,
+            191.0
+          ],
+          "referenceMedian": [
+            236.0,
+            234.0,
+            219.0
+          ],
+          "rgbDistance": 58.12056434688156
+        }
+      ],
+      "meanRgbDistance": 47.755043890060534
+    },
+    {
+      "name": "facade-trial-2400",
+      "patches": [
+        {
+          "region": "upper plaster",
+          "renderMedian": [
+            222.0,
+            222.0,
+            217.0
+          ],
+          "referenceMedian": [
+            248.0,
+            240.0,
+            229.0
+          ],
+          "rgbDistance": 33.823069050575526
+        },
+        {
+          "region": "below oculus",
+          "renderMedian": [
+            203.0,
+            205.0,
+            198.0
+          ],
+          "referenceMedian": [
+            212.0,
+            206.0,
+            185.0
+          ],
+          "rgbDistance": 15.84297951775486
+        },
+        {
+          "region": "between windows",
+          "renderMedian": [
+            211.0,
+            211.0,
+            204.0
+          ],
+          "referenceMedian": [
+            236.0,
+            234.0,
+            219.0
+          ],
+          "rgbDistance": 37.134889255254286
+        }
+      ],
+      "meanRgbDistance": 28.933645941194886
+    },
+    {
+      "name": "facade-trial-3600",
+      "patches": [
+        {
+          "region": "upper plaster",
+          "renderMedian": [
+            231.0,
+            230.0,
+            225.0
+          ],
+          "referenceMedian": [
+            248.0,
+            240.0,
+            229.0
+          ],
+          "rgbDistance": 20.12461179749811
+        },
+        {
+          "region": "below oculus",
+          "renderMedian": [
+            212.0,
+            212.5,
+            206.0
+          ],
+          "referenceMedian": [
+            212.0,
+            206.0,
+            185.0
+          ],
+          "rgbDistance": 21.982947936980608
+        },
+        {
+          "region": "between windows",
+          "renderMedian": [
+            219.0,
+            219.0,
+            212.0
+          ],
+          "referenceMedian": [
+            236.0,
+            234.0,
+            219.0
+          ],
+          "rgbDistance": 23.727621035409346
+        }
+      ],
+      "meanRgbDistance": 21.94506025662935
+    },
+    {
+      "name": "facade-trial-4800-high-warm",
+      "patches": [
+        {
+          "region": "upper plaster",
+          "renderMedian": [
+            230.0,
+            229.0,
+            220.0
+          ],
+          "referenceMedian": [
+            248.0,
+            240.0,
+            229.0
+          ],
+          "rgbDistance": 22.93468988235943
+        },
+        {
+          "region": "below oculus",
+          "renderMedian": [
+            205.0,
+            205.0,
+            195.0
+          ],
+          "referenceMedian": [
+            212.0,
+            206.0,
+            185.0
+          ],
+          "rgbDistance": 12.24744871391589
+        },
+        {
+          "region": "between windows",
+          "renderMedian": [
+            213.0,
+            211.0,
+            201.0
+          ],
+          "referenceMedian": [
+            236.0,
+            234.0,
+            219.0
+          ],
+          "rgbDistance": 37.17526059088221
+        }
+      ],
+      "meanRgbDistance": 24.119133062385846
+    },
+    {
+      "name": "facade-trial-4800-warm",
+      "patches": [
+        {
+          "region": "upper plaster",
+          "renderMedian": [
+            236.0,
+            234.0,
+            226.0
+          ],
+          "referenceMedian": [
+            248.0,
+            240.0,
+            229.0
+          ],
+          "rgbDistance": 13.74772708486752
+        },
+        {
+          "region": "below oculus",
+          "renderMedian": [
+            218.0,
+            217.0,
+            207.0
+          ],
+          "referenceMedian": [
+            212.0,
+            206.0,
+            185.0
+          ],
+          "rgbDistance": 25.317977802344327
+        },
+        {
+          "region": "between windows",
+          "renderMedian": [
+            225.0,
+            222.0,
+            213.0
+          ],
+          "referenceMedian": [
+            236.0,
+            234.0,
+            219.0
+          ],
+          "rgbDistance": 17.349351572897472
+        }
+      ],
+      "meanRgbDistance": 18.80501882003644
+    },
+    {
+      "name": "facade-trial-4800",
+      "patches": [
+        {
+          "region": "upper plaster",
+          "renderMedian": [
+            236.0,
+            235.5,
+            231.0
+          ],
+          "referenceMedian": [
+            248.0,
+            240.0,
+            229.0
+          ],
+          "rgbDistance": 12.971121771072847
+        },
+        {
+          "region": "below oculus",
+          "renderMedian": [
+            218.0,
+            218.5,
+            212.0
+          ],
+          "referenceMedian": [
+            212.0,
+            206.0,
+            185.0
+          ],
+          "rgbDistance": 30.35210042155238
+        },
+        {
+          "region": "between windows",
+          "renderMedian": [
+            225.0,
+            224.0,
+            218.0
+          ],
+          "referenceMedian": [
+            236.0,
+            234.0,
+            219.0
+          ],
+          "rgbDistance": 14.89966442575134
+        }
+      ],
+      "meanRgbDistance": 19.407628872792188
+    },
+    {
+      "name": "facade-trial-600",
+      "patches": [
+        {
+          "region": "upper plaster",
+          "renderMedian": [
+            192.0,
+            194.0,
+            186.0
+          ],
+          "referenceMedian": [
+            248.0,
+            240.0,
+            229.0
+          ],
+          "rgbDistance": 84.26743143112884
+        },
+        {
+          "region": "below oculus",
+          "renderMedian": [
+            179.0,
+            183.0,
+            175.0
+          ],
+          "referenceMedian": [
+            212.0,
+            206.0,
+            185.0
+          ],
+          "rgbDistance": 41.44876355212541
+        },
+        {
+          "region": "between windows",
+          "renderMedian": [
+            187.0,
+            189.0,
+            180.0
+          ],
+          "referenceMedian": [
+            236.0,
+            234.0,
+            219.0
+          ],
+          "rgbDistance": 77.1167945391923
+        }
+      ],
+      "meanRgbDistance": 67.61099650748218
+    },
+    {
+      "name": "facade-trial-6000-high-warm",
+      "patches": [
+        {
+          "region": "upper plaster",
+          "renderMedian": [
+            234.0,
+            233.0,
+            225.0
+          ],
+          "referenceMedian": [
+            248.0,
+            240.0,
+            229.0
+          ],
+          "rgbDistance": 16.15549442140351
+        },
+        {
+          "region": "below oculus",
+          "renderMedian": [
+            210.0,
+            209.0,
+            199.0
+          ],
+          "referenceMedian": [
+            212.0,
+            206.0,
+            185.0
+          ],
+          "rgbDistance": 14.45683229480096
+        },
+        {
+          "region": "between windows",
+          "renderMedian": [
+            218.0,
+            215.0,
+            206.0
+          ],
+          "referenceMedian": [
+            236.0,
+            234.0,
+            219.0
+          ],
+          "rgbDistance": 29.223278392404914
+        }
+      ],
+      "meanRgbDistance": 19.945201702869795
+    }
+  ]
+}

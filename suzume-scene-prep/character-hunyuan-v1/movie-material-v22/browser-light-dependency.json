@@ -1,0 +1,8 @@
+{
+  "source": "https://raw.githubusercontent.com/mrdoob/three.js/r128/examples/js/lights/RectAreaLightUniformsLib.js",
+  "threeRevision": 128,
+  "bytes": 313787,
+  "sha256": "6c75370ecfd2b94a88a2648e9551ab4cf223b5a0efda4f99020cb636e913e07c",
+  "documentation": "https://threejs.org/docs/pages/RectAreaLight.html",
+  "limitation": "WebGL RectAreaLight has no shadow support; native lighting and browser output require separate visual validation."
+}

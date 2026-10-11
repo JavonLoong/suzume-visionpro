@@ -1,0 +1,42 @@
+{
+  "revision": 48,
+  "nativeSha256": "c51a6b4680ec62ee46f04c02e5a6c12b015b63356dd07ed0ebf090c8a9962725",
+  "frontReviewed": true,
+  "windowDetailReviewed": true,
+  "obliqueReviewed": true,
+  "obliqueDetailReviewed": true,
+  "referenceComparisonReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The earlier upper physical windows were too far left and too high, while reference-painted bright windows partly lay on solid walls. Two clerestory wall sections now contain four observed openings, including one partly visible left opening and one crossing the old bay boundary.",
+    "The crossing window required clearing two inferred room partitions at upper-storey height. Their lower footprints and roof-contact pieces were rebuilt as closed solids. Five structural probes find no remaining wall within one meter immediately behind the panes.",
+    "Thirty-three new closed solids contain 10208 triangles. The four observed windows use five solid glazing pieces; every piece intersects at least five frame members in the final mesh. All old retained face positions and UVs pass the saved-file checks. Movie and night scene states remain unchanged.",
+    "Twelve manually observed corners of the three fully visible upper windows differ from the reconstructed opening corners by at most 0.5184 pixels at 708x1000. The manual uncertainty is 1.5 pixels. This is a local alignment result, not a whole-scene fidelity score.",
+    "The initial close oblique render revealed two thin foreground steel rods still painted into the original facade texture, creating duplicate rods after rotation. Their traces were removed in an isolated atlas copy. Exactly 707 source-resolution pixels are inside the additional mask; every old facade pixel outside it is unchanged. The new clerestory also uses a source-resolution atlas with these rods excluded. Hidden colors are interpolated.",
+    "The final close oblique render confirms that the duplicate diagonal rod traces have disappeared from the wall, with the actual three-dimensional rods remaining in front. It also makes the still-unrepaired mismatch between arch paintings and underlying arch geometry visible; that row is the next structural target.",
+    "Final front, detail, oblique and close oblique renders all come from the saved native SHA in this review. The silhouette and broader courtyard remain intact. The fixed glazing appearance, partial left-window colors, weathering and hidden architecture remain approximate.",
+    "Chained v46-v48 Three.js construction, the seven changed facade buckets, new material overrides, two atlas PNGs, and 22 HTTP resources were verified. Browser GPU execution is still unverified; the last actual browser connection attempt failed in v47."
+  ],
+  "remaining": [
+    "Reconstruct the arched clerestory row beneath the repaired upper windows. The close oblique view shows that painted arch groups and modeled opening positions/sizes still disagree. Rebuild true apertures and rims rather than only adjusting their colors.",
+    "Refine the two thin foreground hanger tips against the source. The first current modeled tip is approximately five pixels from the newly inspected source tip and the second roughly three pixels at 708x1000. Their photograph traces have now been removed from the wall atlas, exposing the remaining geometry alignment error.",
+    "Refine the upper oculus and remaining lower facade windows, doors, relief, right rooftop equipment and ground debris. Align actual apertures with the reference appearance throughout the rotatable scene.",
+    "Add better view-dependent glazing reflections and concealed frame/room detail. The new glass is a solid pane with fixed reference surface color; masked portions and unobserved construction remain inferred.",
+    "Refine the fascia surface wear, small joints and transitions. The main left black band has been corrected with solid facing, but the inferred hidden section and uniform finish are not an exact architectural reconstruction.",
+    "Match distinct ivy clumps and hanging trails. Left roof leaf size and native colors are improved, but leaf placement, other rooftop leaf sizes and vine stems remain approximate.",
+    "Refine railing paint variation and end supports, equipment weathering, tank shading, pipe bends and inferred hidden equipment surfaces.",
+    "Refine pale steel edges, corrosion and irregular damage; rebuilt steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water, steel and railing materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false,
+  "reviewedImageSha256": {
+    "poster-front-v48.png": "28767409bacb22c625192b75c488311cc1a19007fb7e38d890b07834a1f8a41e",
+    "upper-window-detail-v48.png": "8425d601b94eff2c17503a55cf0988e73b95c989b15f611c179d461a3e241217",
+    "poster-oblique-v48.png": "83dc7fae942f6a60b92b258f32298820327ea37fb9b6efd36cd82b8dda7ec9af",
+    "upper-window-oblique-detail-v48.png": "51d86f74e3837be5e6dd1fcc0faf0cb063849905829d87f5f844f96ed0dae468"
+  }
+}

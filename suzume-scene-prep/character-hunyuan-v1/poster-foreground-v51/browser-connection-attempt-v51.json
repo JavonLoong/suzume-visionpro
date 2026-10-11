@@ -1,0 +1,7 @@
+{
+  "revision": 51,
+  "attempt": "cua.rewriteDocumentation followed by cua.getState",
+  "result": "js execution timed out; kernel reset",
+  "timeoutMilliseconds": 10000,
+  "browserRuntimeVerified": false
+}

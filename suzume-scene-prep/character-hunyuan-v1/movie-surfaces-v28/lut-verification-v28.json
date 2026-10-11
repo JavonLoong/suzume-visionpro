@@ -1,0 +1,7 @@
+{
+  "sampleCount": 22143,
+  "medianMaxChannelError255": 0.08354991674423218,
+  "p99MaxChannelError255": 1.0037869215011597,
+  "maxChannelError255": 6.833005905151367,
+  "scope": "Inverse display LUT interpolation on sampled valid reference colors only; not scene fidelity."
+}

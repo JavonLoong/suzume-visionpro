@@ -1,0 +1,758 @@
+[
+  {
+    "revision": 30,
+    "clouds": [
+      {
+        "name": "main silver blue bank",
+        "pixel": [
+          1170,
+          496
+        ],
+        "depth": 290,
+        "halfSize": [
+          66,
+          23,
+          6.2
+        ],
+        "tilt": 0.095,
+        "tone": "main",
+        "seed": 1.0,
+        "center": [
+          -7.8531841080872775,
+          290.0,
+          6.565948446048567
+        ]
+      },
+      {
+        "name": "right trailing wisp",
+        "pixel": [
+          1440,
+          474
+        ],
+        "depth": 315,
+        "halfSize": [
+          42,
+          15,
+          3.6
+        ],
+        "tilt": 0.13,
+        "tone": "main",
+        "seed": 3.5,
+        "center": [
+          13.562481385756136,
+          315.0,
+          8.664168784909652
+        ]
+      },
+      {
+        "name": "upper faint wisps",
+        "pixel": [
+          1260,
+          402
+        ],
+        "depth": 330,
+        "halfSize": [
+          68,
+          17,
+          2.6
+        ],
+        "tilt": 0.12,
+        "tone": "dim",
+        "seed": 6.0,
+        "center": [
+          -1.2129522094397327,
+          330.0,
+          15.055844499223952
+        ]
+      },
+      {
+        "name": "left purple veil",
+        "pixel": [
+          975,
+          424
+        ],
+        "depth": 310,
+        "halfSize": [
+          44,
+          19,
+          4.2
+        ],
+        "tilt": 0.13,
+        "tone": "purple",
+        "seed": 8.5,
+        "center": [
+          -24.058648538938513,
+          310.0,
+          12.582405870364735
+        ]
+      },
+      {
+        "name": "lower blue bank",
+        "pixel": [
+          1210,
+          551
+        ],
+        "depth": 250,
+        "halfSize": [
+          62,
+          18,
+          2.3
+        ],
+        "tilt": 0.065,
+        "tone": "dim",
+        "seed": 11.0,
+        "center": [
+          -4.175103915580252,
+          250.00000000000003,
+          2.4820687496719898
+        ]
+      },
+      {
+        "name": "far left continuation",
+        "center": [
+          -140,
+          280,
+          14
+        ],
+        "halfSize": [
+          90,
+          26,
+          5.5
+        ],
+        "tilt": 0.08,
+        "tone": "dim",
+        "seed": 13.0
+      },
+      {
+        "name": "far right continuation",
+        "center": [
+          145,
+          295,
+          16
+        ],
+        "halfSize": [
+          95,
+          27,
+          5.0
+        ],
+        "tilt": 0.1,
+        "tone": "purple",
+        "seed": 16.0
+      },
+      {
+        "name": "upper night bank",
+        "center": [
+          -65,
+          335,
+          30
+        ],
+        "halfSize": [
+          100,
+          26,
+          5.3
+        ],
+        "tilt": 0.06,
+        "tone": "dim",
+        "seed": 19.0
+      },
+      {
+        "name": "side night bank",
+        "center": [
+          180,
+          140,
+          28
+        ],
+        "halfSize": [
+          85,
+          25,
+          6.0
+        ],
+        "tilt": 0.05,
+        "tone": "dim",
+        "seed": 23.0
+      },
+      {
+        "name": "back night bank",
+        "center": [
+          -110,
+          -180,
+          38
+        ],
+        "halfSize": [
+          110,
+          28,
+          8.0
+        ],
+        "tilt": -0.06,
+        "tone": "purple",
+        "seed": 27.0
+      }
+    ],
+    "cloudDisplayColors": {
+      "main": [
+        85,
+        88,
+        102
+      ],
+      "dim": [
+        32,
+        44,
+        73
+      ],
+      "purple": [
+        49,
+        32,
+        63
+      ]
+    },
+    "cloudLinearColors": {
+      "main": [
+        0.05584674478419794,
+        0.05700629760664721,
+        0.07807685625802276
+      ],
+      "dim": [
+        0.012413614154021778,
+        0.015998044608471165,
+        0.04332605882549262
+      ],
+      "purple": [
+        0.023125706114160993,
+        0.009116451943655306,
+        0.03358764363396492
+      ]
+    },
+    "skyDisplayColors": {
+      "leftHorizon": [
+        26,
+        18,
+        55
+      ],
+      "rightHorizon": [
+        18,
+        25,
+        57
+      ],
+      "leftLow": [
+        29,
+        19,
+        66
+      ],
+      "rightLow": [
+        27,
+        27,
+        74
+      ],
+      "zenith": [
+        5,
+        10,
+        32
+      ]
+    },
+    "skyLinearColors": {
+      "leftHorizon": [
+        0.009381469236390739,
+        0.0032949177516940825,
+        0.027145955240658954
+      ],
+      "rightHorizon": [
+        0.006220091426660266,
+        0.00609985241638103,
+        0.028718049837256968
+      ],
+      "leftLow": [
+        0.010914189523438091,
+        0.002706734783630728,
+        0.03683785728911795
+      ],
+      "rightLow": [
+        0.01032592524991282,
+        0.005407649807882144,
+        0.044796887469273176
+      ],
+      "zenith": [
+        0.0022067687766515244,
+        0.0022410219119101313,
+        0.011882728000818204
+      ]
+    },
+    "density": 0.065,
+    "emissionGain": 1.15,
+    "turbulence": 1.0,
+    "cameraParameters": {
+      "lensMm": 86.54434612692005,
+      "distance": 11.7300315454759,
+      "cameraX": 0.15354844661181763,
+      "cameraZ": 2.8782074998654252,
+      "pitch": 0.07098138634927482,
+      "courtyardX": 0.06987433711729285,
+      "courtyardY": 2.468481461225616,
+      "windowSill": 1.6900559610458885,
+      "arcadeBase": 5.329656385323066,
+      "highRoof": 7.331622841915744,
+      "lowRoof": 5.269525045032644,
+      "edge12": -0.6550226268157784,
+      "edge13": -0.4200226268157784,
+      "edge14": -0.15040402205052789,
+      "edge15": 0.06531638800593045,
+      "edge16": 0.25546756757609357,
+      "edge17": 0.495473647951517
+    },
+    "referencePatchBoxes": {
+      "skyLeft": [
+        995,
+        290,
+        1080,
+        345
+      ],
+      "skyMiddle": [
+        1150,
+        285,
+        1230,
+        350
+      ],
+      "skyRight": [
+        1310,
+        295,
+        1400,
+        360
+      ],
+      "mainCloudLeft": [
+        980,
+        478,
+        1080,
+        515
+      ],
+      "mainCloudRight": [
+        1350,
+        464,
+        1420,
+        502
+      ],
+      "lowerBlueHaze": [
+        980,
+        570,
+        1060,
+        601
+      ]
+    },
+    "referencePatchMedians": {
+      "skyLeft": [
+        29.0,
+        19.0,
+        66.0
+      ],
+      "skyMiddle": [
+        28.0,
+        21.0,
+        69.0
+      ],
+      "skyRight": [
+        27.0,
+        27.0,
+        74.0
+      ],
+      "mainCloudLeft": [
+        82.0,
+        76.0,
+        82.0
+      ],
+      "mainCloudRight": [
+        73.0,
+        78.0,
+        85.0
+      ],
+      "lowerBlueHaze": [
+        37.0,
+        39.0,
+        68.0
+      ]
+    },
+    "referenceImageUsedInSkyOrClouds": false,
+    "oneToOneComplete": false,
+    "limitations": [
+      "Cloud centers are lifted from a single reference camera onto inferred depth planes. Full cloud depth and hidden shapes are inferred.",
+      "Analytic three-dimensional density and emission approximate painted cloud appearance; they are not measured atmospheric data."
+    ],
+    "fieldRevision": 2,
+    "name": "filaments"
+  },
+  {
+    "revision": 30,
+    "clouds": [
+      {
+        "name": "main silver blue bank",
+        "pixel": [
+          1170,
+          496
+        ],
+        "depth": 290,
+        "halfSize": [
+          66,
+          23,
+          6.2
+        ],
+        "tilt": 0.095,
+        "tone": "main",
+        "seed": 1.0,
+        "center": [
+          -7.8531841080872775,
+          290.0,
+          6.565948446048567
+        ]
+      },
+      {
+        "name": "right trailing wisp",
+        "pixel": [
+          1440,
+          474
+        ],
+        "depth": 315,
+        "halfSize": [
+          42,
+          15,
+          3.6
+        ],
+        "tilt": 0.13,
+        "tone": "main",
+        "seed": 3.5,
+        "center": [
+          13.562481385756136,
+          315.0,
+          8.664168784909652
+        ]
+      },
+      {
+        "name": "upper faint wisps",
+        "pixel": [
+          1260,
+          402
+        ],
+        "depth": 330,
+        "halfSize": [
+          68,
+          17,
+          2.6
+        ],
+        "tilt": 0.12,
+        "tone": "dim",
+        "seed": 6.0,
+        "center": [
+          -1.2129522094397327,
+          330.0,
+          15.055844499223952
+        ]
+      },
+      {
+        "name": "left purple veil",
+        "pixel": [
+          975,
+          424
+        ],
+        "depth": 310,
+        "halfSize": [
+          44,
+          19,
+          4.2
+        ],
+        "tilt": 0.13,
+        "tone": "purple",
+        "seed": 8.5,
+        "center": [
+          -24.058648538938513,
+          310.0,
+          12.582405870364735
+        ]
+      },
+      {
+        "name": "lower blue bank",
+        "pixel": [
+          1210,
+          551
+        ],
+        "depth": 250,
+        "halfSize": [
+          62,
+          18,
+          2.3
+        ],
+        "tilt": 0.065,
+        "tone": "dim",
+        "seed": 11.0,
+        "center": [
+          -4.175103915580252,
+          250.00000000000003,
+          2.4820687496719898
+        ]
+      },
+      {
+        "name": "far left continuation",
+        "center": [
+          -140,
+          280,
+          14
+        ],
+        "halfSize": [
+          90,
+          26,
+          5.5
+        ],
+        "tilt": 0.08,
+        "tone": "dim",
+        "seed": 13.0
+      },
+      {
+        "name": "far right continuation",
+        "center": [
+          145,
+          295,
+          16
+        ],
+        "halfSize": [
+          95,
+          27,
+          5.0
+        ],
+        "tilt": 0.1,
+        "tone": "purple",
+        "seed": 16.0
+      },
+      {
+        "name": "upper night bank",
+        "center": [
+          -65,
+          335,
+          30
+        ],
+        "halfSize": [
+          100,
+          26,
+          5.3
+        ],
+        "tilt": 0.06,
+        "tone": "dim",
+        "seed": 19.0
+      },
+      {
+        "name": "side night bank",
+        "center": [
+          180,
+          140,
+          28
+        ],
+        "halfSize": [
+          85,
+          25,
+          6.0
+        ],
+        "tilt": 0.05,
+        "tone": "dim",
+        "seed": 23.0
+      },
+      {
+        "name": "back night bank",
+        "center": [
+          -110,
+          -180,
+          38
+        ],
+        "halfSize": [
+          110,
+          28,
+          8.0
+        ],
+        "tilt": -0.06,
+        "tone": "purple",
+        "seed": 27.0
+      }
+    ],
+    "cloudDisplayColors": {
+      "main": [
+        85,
+        88,
+        102
+      ],
+      "dim": [
+        32,
+        44,
+        73
+      ],
+      "purple": [
+        49,
+        32,
+        63
+      ]
+    },
+    "cloudLinearColors": {
+      "main": [
+        0.05584674478419794,
+        0.05700629760664721,
+        0.07807685625802276
+      ],
+      "dim": [
+        0.012413614154021778,
+        0.015998044608471165,
+        0.04332605882549262
+      ],
+      "purple": [
+        0.023125706114160993,
+        0.009116451943655306,
+        0.03358764363396492
+      ]
+    },
+    "skyDisplayColors": {
+      "leftHorizon": [
+        26,
+        18,
+        55
+      ],
+      "rightHorizon": [
+        18,
+        25,
+        57
+      ],
+      "leftLow": [
+        29,
+        19,
+        66
+      ],
+      "rightLow": [
+        27,
+        27,
+        74
+      ],
+      "zenith": [
+        5,
+        10,
+        32
+      ]
+    },
+    "skyLinearColors": {
+      "leftHorizon": [
+        0.009381469236390739,
+        0.0032949177516940825,
+        0.027145955240658954
+      ],
+      "rightHorizon": [
+        0.006220091426660266,
+        0.00609985241638103,
+        0.028718049837256968
+      ],
+      "leftLow": [
+        0.010914189523438091,
+        0.002706734783630728,
+        0.03683785728911795
+      ],
+      "rightLow": [
+        0.01032592524991282,
+        0.005407649807882144,
+        0.044796887469273176
+      ],
+      "zenith": [
+        0.0022067687766515244,
+        0.0022410219119101313,
+        0.011882728000818204
+      ]
+    },
+    "density": 0.085,
+    "emissionGain": 1.05,
+    "turbulence": 1.7,
+    "cameraParameters": {
+      "lensMm": 86.54434612692005,
+      "distance": 11.7300315454759,
+      "cameraX": 0.15354844661181763,
+      "cameraZ": 2.8782074998654252,
+      "pitch": 0.07098138634927482,
+      "courtyardX": 0.06987433711729285,
+      "courtyardY": 2.468481461225616,
+      "windowSill": 1.6900559610458885,
+      "arcadeBase": 5.329656385323066,
+      "highRoof": 7.331622841915744,
+      "lowRoof": 5.269525045032644,
+      "edge12": -0.6550226268157784,
+      "edge13": -0.4200226268157784,
+      "edge14": -0.15040402205052789,
+      "edge15": 0.06531638800593045,
+      "edge16": 0.25546756757609357,
+      "edge17": 0.495473647951517
+    },
+    "referencePatchBoxes": {
+      "skyLeft": [
+        995,
+        290,
+        1080,
+        345
+      ],
+      "skyMiddle": [
+        1150,
+        285,
+        1230,
+        350
+      ],
+      "skyRight": [
+        1310,
+        295,
+        1400,
+        360
+      ],
+      "mainCloudLeft": [
+        980,
+        478,
+        1080,
+        515
+      ],
+      "mainCloudRight": [
+        1350,
+        464,
+        1420,
+        502
+      ],
+      "lowerBlueHaze": [
+        980,
+        570,
+        1060,
+        601
+      ]
+    },
+    "referencePatchMedians": {
+      "skyLeft": [
+        29.0,
+        19.0,
+        66.0
+      ],
+      "skyMiddle": [
+        28.0,
+        21.0,
+        69.0
+      ],
+      "skyRight": [
+        27.0,
+        27.0,
+        74.0
+      ],
+      "mainCloudLeft": [
+        82.0,
+        76.0,
+        82.0
+      ],
+      "mainCloudRight": [
+        73.0,
+        78.0,
+        85.0
+      ],
+      "lowerBlueHaze": [
+        37.0,
+        39.0,
+        68.0
+      ]
+    },
+    "referenceImageUsedInSkyOrClouds": false,
+    "oneToOneComplete": false,
+    "limitations": [
+      "Cloud centers are lifted from a single reference camera onto inferred depth planes. Full cloud depth and hidden shapes are inferred.",
+      "Analytic three-dimensional density and emission approximate painted cloud appearance; they are not measured atmospheric data."
+    ],
+    "fieldRevision": 2,
+    "name": "broken"
+  }
+]

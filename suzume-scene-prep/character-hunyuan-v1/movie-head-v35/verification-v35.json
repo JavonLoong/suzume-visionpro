@@ -1,0 +1,53 @@
+{
+  "revision": 35,
+  "freshReopenVerified": true,
+  "nativeSha256": "6b4abbc9ae4157ce88e02edb03069e1db68f108abf7d55ccefb04c2fe5566cf7",
+  "bodyFeetAndGripPreserved": true,
+  "sharedRigAndSpatialPartitionVerified": true,
+  "closedPonytailParts": [
+    {
+      "name": "Head part :: Solid ponytail lock 5",
+      "vertices": 960,
+      "faces": 942,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Head part :: Solid ponytail lock 4",
+      "vertices": 960,
+      "faces": 942,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Head part :: Solid ponytail lock 3",
+      "vertices": 960,
+      "faces": 942,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Head part :: Solid ponytail lock 2",
+      "vertices": 960,
+      "faces": 942,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Head part :: Solid ponytail lock 1",
+      "vertices": 960,
+      "faces": 942,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Head part :: Solid ponytail lock 0",
+      "vertices": 960,
+      "faces": 942,
+      "boundaryEdges": 0
+    }
+  ],
+  "materialRegions": 12,
+  "closedAndOpenVisibilityVerified": true,
+  "partTriangles": {
+    "Suzume Hunyuan textured surface \u2014 complete evaluated mesh": 408817,
+    "Suzume mathematical head v35 \u2014 complete evaluated mesh": 135992
+  },
+  "oneToOneComplete": false,
+  "browserRuntimeVerified": false
+}

@@ -1,0 +1,889 @@
+{
+  "revision": 55,
+  "nativeSha256": "d0928992e11245a530630597987eabcc3daa085a7cb8c3e296a769c1b94a50ae",
+  "sourceNativeSha256": "d405c34fe691c40542fa1483386b75b942d5c47903667bd097e0b217baad341d",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "otherPosterObjectsMaterialsCameraLightingPreserved": true,
+  "sharedNodeGroupsPreserved": true,
+  "allExistingPackedImageBytesPreserved": true,
+  "packedImageCount": 25,
+  "preservedOriginalPackedImages": 24,
+  "restoredAtlasSha256": "f2a21cb3080c4489cf0805493909cf6b4ed65e0999be585ef69675e8a6170678",
+  "unchangedOriginalFacePositionsAndUVsPreserved": true,
+  "changedOriginalMeshes": [
+    {
+      "key": "mesh0",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.019",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 92,
+      "keptTriangles": 7375,
+      "newClipTriangles": 24,
+      "finalTriangles": 7399
+    },
+    {
+      "key": "mesh1",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.020",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 95,
+      "keptTriangles": 1390,
+      "newClipTriangles": 25,
+      "finalTriangles": 1415
+    },
+    {
+      "key": "mesh2",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.021",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 34,
+      "keptTriangles": 926,
+      "newClipTriangles": 63,
+      "finalTriangles": 989
+    },
+    {
+      "key": "mesh6",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.025",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 6,
+      "keptTriangles": 1288,
+      "newClipTriangles": 15,
+      "finalTriangles": 1303
+    },
+    {
+      "key": "mesh8",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 10763,
+      "keptTriangles": 90820,
+      "newClipTriangles": 280,
+      "finalTriangles": 91100
+    },
+    {
+      "key": "mesh9",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.028",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 67,
+      "keptTriangles": 1730,
+      "newClipTriangles": 39,
+      "finalTriangles": 1769
+    },
+    {
+      "key": "mesh13",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.032",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 35,
+      "keptTriangles": 1484,
+      "newClipTriangles": 45,
+      "finalTriangles": 1529
+    },
+    {
+      "key": "mesh17",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.036",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 236,
+      "keptTriangles": 674,
+      "newClipTriangles": 246,
+      "finalTriangles": 920
+    },
+    {
+      "key": "mesh18",
+      "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+      "removedTriangles": 0,
+      "clippedOriginalTriangles": 0,
+      "boundaryTrimmedOriginalTriangles": 6400,
+      "keptTriangles": 3483,
+      "newClipTriangles": 150,
+      "finalTriangles": 3633
+    }
+  ],
+  "replacedPriorCornices": [
+    "Poster right lower cornice bay 18 v54",
+    "Poster right lower cornice bay 19 v54"
+  ],
+  "addedSolids": [
+    {
+      "name": "Poster right large 0 v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.021896372026937484,
+      "maximumVertexErrorMeters": 9.533935561023554e-07
+    },
+    {
+      "name": "Poster right large 0 v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008821099501921219,
+      "maximumVertexErrorMeters": 9.451855476072524e-07
+    },
+    {
+      "name": "Poster right large 0 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.026826330212483554,
+      "maximumVertexErrorMeters": 9.535156237916453e-07
+    },
+    {
+      "name": "Poster right large 1 v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.019879942011247057,
+      "maximumVertexErrorMeters": 9.535791001269445e-07
+    },
+    {
+      "name": "Poster right large 1 v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007988054420412435,
+      "maximumVertexErrorMeters": 9.527734370351482e-07
+    },
+    {
+      "name": "Poster right large 1 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.021876380119265567,
+      "maximumVertexErrorMeters": 9.535986329467505e-07
+    },
+    {
+      "name": "Poster right large 2 v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.02171686460836309,
+      "maximumVertexErrorMeters": 9.507226579330563e-07
+    },
+    {
+      "name": "Poster right large 2 v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008746889735381427,
+      "maximumVertexErrorMeters": 9.238134772715512e-07
+    },
+    {
+      "name": "Poster right large 2 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.02593317598509864,
+      "maximumVertexErrorMeters": 9.535888665368475e-07
+    },
+    {
+      "name": "Poster right large 3 v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.021665582408428856,
+      "maximumVertexErrorMeters": 9.517919927759522e-07
+    },
+    {
+      "name": "Poster right large 3 v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008725470272933217,
+      "maximumVertexErrorMeters": 9.530371087862477e-07
+    },
+    {
+      "name": "Poster right large 3 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.02576168952641977,
+      "maximumVertexErrorMeters": 9.535351566114514e-07
+    },
+    {
+      "name": "Poster right large 4 v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.021722128099257096,
+      "maximumVertexErrorMeters": 9.522558599428521e-07
+    },
+    {
+      "name": "Poster right large 4 v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008749085562257831,
+      "maximumVertexErrorMeters": 9.517529306890538e-07
+    },
+    {
+      "name": "Poster right large 4 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.02588451002345373,
+      "maximumVertexErrorMeters": 9.534472660277515e-07
+    },
+    {
+      "name": "Poster right large 5 v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.02068411419359177,
+      "maximumVertexErrorMeters": 9.508837877092446e-07
+    },
+    {
+      "name": "Poster right large 5 v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008320158970695213,
+      "maximumVertexErrorMeters": 9.536621092820496e-07
+    },
+    {
+      "name": "Poster right large 5 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.023703929444011895,
+      "maximumVertexErrorMeters": 9.527392563768444e-07
+    },
+    {
+      "name": "Poster right large 6 v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.019837777377087897,
+      "maximumVertexErrorMeters": 9.533544904627433e-07
+    },
+    {
+      "name": "Poster right large 6 v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0007970666714711694,
+      "maximumVertexErrorMeters": 9.50898439100456e-07
+    },
+    {
+      "name": "Poster right large 6 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.021665728897533914,
+      "maximumVertexErrorMeters": 9.525830080292508e-07
+    },
+    {
+      "name": "Poster right large 7 v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.021025461595760176,
+      "maximumVertexErrorMeters": 9.532665998790435e-07
+    },
+    {
+      "name": "Poster right large 7 v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008461149783446347,
+      "maximumVertexErrorMeters": 9.46635740461943e-07
+    },
+    {
+      "name": "Poster right large 7 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0243084490751807,
+      "maximumVertexErrorMeters": 9.53041993767556e-07
+    },
+    {
+      "name": "Poster right large 8 v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.020740278659446696,
+      "maximumVertexErrorMeters": 9.520019546016556e-07
+    },
+    {
+      "name": "Poster right large 8 v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008343498483578456,
+      "maximumVertexErrorMeters": 9.524023454332564e-07
+    },
+    {
+      "name": "Poster right large 8 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.023851600903997815,
+      "maximumVertexErrorMeters": 9.535839851082528e-07
+    },
+    {
+      "name": "Poster right large 9 v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.021261526988652177,
+      "maximumVertexErrorMeters": 9.523242177067459e-07
+    },
+    {
+      "name": "Poster right large 9 v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0008558640197772766,
+      "maximumVertexErrorMeters": 9.499804676238455e-07
+    },
+    {
+      "name": "Poster right large 9 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.024987449855082593,
+      "maximumVertexErrorMeters": 9.513037113606515e-07
+    },
+    {
+      "name": "Poster right small 0 v55 molded surround",
+      "kind": "surround",
+      "triangles": 864,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0032437783231642108,
+      "maximumVertexErrorMeters": 9.496582045187552e-07
+    },
+    {
+      "name": "Poster right small 0 v55 inner bead",
+      "kind": "molding",
+      "triangles": 216,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00012863576886503999,
+      "maximumVertexErrorMeters": 9.505224625172559e-07
+    },
+    {
+      "name": "Poster right small 0 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 1664,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0020410379444301832,
+      "maximumVertexErrorMeters": 9.531249993699475e-07
+    },
+    {
+      "name": "Poster right small 1 v55 molded surround",
+      "kind": "surround",
+      "triangles": 864,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0032855605019301093,
+      "maximumVertexErrorMeters": 9.431396499337552e-07
+    },
+    {
+      "name": "Poster right small 1 v55 inner bead",
+      "kind": "molding",
+      "triangles": 216,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00013036271427906794,
+      "maximumVertexErrorMeters": 9.53193360686555e-07
+    },
+    {
+      "name": "Poster right small 1 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 1664,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0020380694701572005,
+      "maximumVertexErrorMeters": 9.520556645270517e-07
+    },
+    {
+      "name": "Poster right small 2 v55 molded surround",
+      "kind": "surround",
+      "triangles": 864,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0030877151049565925,
+      "maximumVertexErrorMeters": 9.526562507744529e-07
+    },
+    {
+      "name": "Poster right small 2 v55 inner bead",
+      "kind": "molding",
+      "triangles": 216,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00012218422187301346,
+      "maximumVertexErrorMeters": 9.474560549449507e-07
+    },
+    {
+      "name": "Poster right small 2 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 1664,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0018709517537558213,
+      "maximumVertexErrorMeters": 9.531689464381543e-07
+    },
+    {
+      "name": "Poster right small 3 v55 molded surround",
+      "kind": "surround",
+      "triangles": 864,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.003052446546825318,
+      "maximumVertexErrorMeters": 9.519091790366474e-07
+    },
+    {
+      "name": "Poster right small 3 v55 inner bead",
+      "kind": "molding",
+      "triangles": 216,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0001207325078668559,
+      "maximumVertexErrorMeters": 9.39599608784647e-07
+    },
+    {
+      "name": "Poster right small 3 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 1664,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0017996437130760703,
+      "maximumVertexErrorMeters": 9.532031235437444e-07
+    },
+    {
+      "name": "Poster right small 4 v55 molded surround",
+      "kind": "surround",
+      "triangles": 864,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.003017086324408758,
+      "maximumVertexErrorMeters": 9.520751937941441e-07
+    },
+    {
+      "name": "Poster right small 4 v55 inner bead",
+      "kind": "molding",
+      "triangles": 216,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.00011927046830354339,
+      "maximumVertexErrorMeters": 9.236230482656538e-07
+    },
+    {
+      "name": "Poster right small 4 v55 recessed insert",
+      "kind": "insert",
+      "triangles": 1664,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.001728411040681719,
+      "maximumVertexErrorMeters": 9.534277332079455e-07
+    },
+    {
+      "name": "Poster right left pointed v55 molded surround",
+      "kind": "surround",
+      "triangles": 1632,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01354881930384604,
+      "maximumVertexErrorMeters": 9.528466797803503e-07
+    },
+    {
+      "name": "Poster right left pointed v55 inner bead",
+      "kind": "molding",
+      "triangles": 408,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.0005372589274723304,
+      "maximumVertexErrorMeters": 9.493408192895458e-07
+    },
+    {
+      "name": "Poster right left pointed v55 recessed insert",
+      "kind": "insert",
+      "triangles": 3200,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.009204274823767693,
+      "maximumVertexErrorMeters": 9.531787092953437e-07
+    },
+    {
+      "name": "Poster right broad gray recess v55",
+      "kind": "insert",
+      "triangles": 4352,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.06803453029779588,
+      "maximumVertexErrorMeters": 9.523046884396535e-07
+    },
+    {
+      "name": "Poster right broken recess masonry stub v55",
+      "kind": "broken stub",
+      "triangles": 256,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01069024705767586,
+      "maximumVertexErrorMeters": 9.401025380384453e-07
+    },
+    {
+      "name": "Poster curved right upper wall v55",
+      "kind": "wall",
+      "triangles": 217600,
+      "nonManifoldEdges": 0,
+      "signedVolume": 4.4738909379783145,
+      "maximumVertexErrorMeters": 9.536718756919527e-07
+    },
+    {
+      "name": "Poster right graded lower cornice v55",
+      "kind": "cornice",
+      "triangles": 3236,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.781009518892309,
+      "maximumVertexErrorMeters": 9.534374996178485e-07
+    },
+    {
+      "name": "Poster right sloping crown band v55",
+      "kind": "crown",
+      "triangles": 2876,
+      "nonManifoldEdges": 0,
+      "signedVolume": 1.869087458731737,
+      "maximumVertexErrorMeters": 9.532519520405458e-07
+    },
+    {
+      "name": "Poster right roof transition strip v55",
+      "kind": "roof",
+      "triangles": 2156,
+      "nonManifoldEdges": 0,
+      "signedVolume": 2.3207567563277034,
+      "maximumVertexErrorMeters": 9.532958991087526e-07
+    },
+    {
+      "name": "Poster right left recess lintel v55",
+      "kind": "lintel",
+      "triangles": 192,
+      "nonManifoldEdges": 0,
+      "signedVolume": 0.01278147073280574,
+      "maximumVertexErrorMeters": 9.451123048620502e-07
+    }
+  ],
+  "structuralOpeningProbes": [
+    {
+      "archId": "large 0",
+      "point": [
+        7.852623250189972,
+        21.905004179195583,
+        4.877316110478725
+      ],
+      "direction": [
+        0.3374569510180478,
+        0.9413409617187616,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "large 1",
+      "point": [
+        8.622524836250731,
+        21.6135366251856,
+        4.901044406346736
+      ],
+      "direction": [
+        0.3705425370112046,
+        0.9288154974295487,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "large 2",
+      "point": [
+        9.40300635764668,
+        21.285590699768143,
+        4.9180844088906825
+      ],
+      "direction": [
+        0.40408278288124966,
+        0.9147224194141875,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "large 3",
+      "point": [
+        10.124653931193025,
+        20.95195176525513,
+        4.944623630141061
+      ],
+      "direction": [
+        0.43509471126742694,
+        0.9003846912443116,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "large 4",
+      "point": [
+        10.845667359438607,
+        20.587967348147995,
+        4.9716622649000675
+      ],
+      "direction": [
+        0.4660793880291624,
+        0.884742902799656,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "large 5",
+      "point": [
+        11.524820028963594,
+        20.21562324787439,
+        5.130424057778802
+      ],
+      "direction": [
+        0.495265149504237,
+        0.8687418671196558,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "large 6",
+      "point": [
+        12.210601166168747,
+        19.80894038460307,
+        5.034530957299604
+      ],
+      "direction": [
+        0.5247357613308443,
+        0.8512651647874117,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "large 7",
+      "point": [
+        12.934644195829394,
+        19.34393650546075,
+        5.047377036902375
+      ],
+      "direction": [
+        0.5558506315354274,
+        0.831282187600376,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "large 8",
+      "point": [
+        13.602892216820035,
+        18.879995321439488,
+        5.052760396839615
+      ],
+      "direction": [
+        0.5845677789780849,
+        0.8113448784460459,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "large 9",
+      "point": [
+        14.273295782104977,
+        18.378409276010377,
+        5.067280195592891
+      ],
+      "direction": [
+        0.6133775583199389,
+        0.7897898270739311,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "small 0",
+      "point": [
+        3.863797460244064,
+        22.946981701003978,
+        4.844032685927516
+      ],
+      "direction": [
+        0.1660420051673427,
+        0.9861186807479149,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "small 1",
+      "point": [
+        4.091858858749794,
+        22.907413452419082,
+        4.856192322318256
+      ],
+      "direction": [
+        0.1758426668994325,
+        0.9844182833012068,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "small 2",
+      "point": [
+        6.302213520466563,
+        22.400334924782896,
+        4.866088796445133
+      ],
+      "direction": [
+        0.27082997509525414,
+        0.9626271991741684,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "small 3",
+      "point": [
+        6.597641053805649,
+        22.315107719326345,
+        4.874206169493385
+      ],
+      "direction": [
+        0.2835256146886828,
+        0.9589646634863063,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "small 4",
+      "point": [
+        6.88642990396011,
+        22.227685061153892,
+        4.8773665576506104
+      ],
+      "direction": [
+        0.2959359649316764,
+        0.9552077808832786,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "left pointed",
+      "point": [
+        4.547558776677622,
+        22.82131918125379,
+        4.954250108543411
+      ],
+      "direction": [
+        0.19542581764837225,
+        0.9807184865171377,
+        0.0
+      ],
+      "distance": 0.105
+    },
+    {
+      "archId": "broad gray recess",
+      "point": [
+        5.531911913007134,
+        22.602894739097685,
+        5.11276244672626
+      ],
+      "direction": [
+        0.23772719866811923,
+        0.9713319612848167,
+        0
+      ],
+      "distance": 0.1
+    }
+  ],
+  "lowerWallContacts": [
+    {
+      "theta": 0.157421,
+      "lowerWallTopZ": 4.440000057220459,
+      "object": "Poster right lower facade wall bay 18 v54"
+    },
+    {
+      "theta": 0.221276625,
+      "lowerWallTopZ": 4.440000057220459,
+      "object": "Poster right lower facade wall bay 18 v54"
+    },
+    {
+      "theta": 0.28513225,
+      "lowerWallTopZ": 4.440000057220459,
+      "object": "Poster right lower facade wall bay 18 v54"
+    },
+    {
+      "theta": 0.348987875,
+      "lowerWallTopZ": 4.440000057220459,
+      "object": "Poster right lower facade wall bay 18 v54"
+    },
+    {
+      "theta": 0.41284350000000003,
+      "lowerWallTopZ": 4.440000057220459,
+      "object": "Poster right lower facade wall bay 19 v54"
+    },
+    {
+      "theta": 0.476699125,
+      "lowerWallTopZ": 4.440000057220459,
+      "object": "Poster right lower facade wall bay 19 v54"
+    },
+    {
+      "theta": 0.54055475,
+      "lowerWallTopZ": 4.440000057220459,
+      "object": "Poster right lower facade wall bay 19 v54"
+    },
+    {
+      "theta": 0.604410375,
+      "lowerWallTopZ": 4.440000057220459,
+      "object": "Poster right lower facade wall bay 19 v54"
+    },
+    {
+      "theta": 0.668266,
+      "lowerWallTopZ": 4.440000057220459,
+      "object": "Poster right lower facade wall bay 19 v54"
+    }
+  ],
+  "roofTransitionContacts": [
+    {
+      "theta": 0.157421,
+      "originalRoofTopZ": 5.940001010894775,
+      "object": "Circular ruined hotel with exterior entrance solid mesh.027"
+    },
+    {
+      "theta": 0.221276625,
+      "originalRoofTopZ": 5.940001010894775,
+      "object": "Circular ruined hotel with exterior entrance solid mesh.027"
+    },
+    {
+      "theta": 0.28513225,
+      "originalRoofTopZ": 5.940001010894775,
+      "object": "Circular ruined hotel with exterior entrance solid mesh.027"
+    },
+    {
+      "theta": 0.348987875,
+      "originalRoofTopZ": 5.940001010894775,
+      "object": "Circular ruined hotel with exterior entrance solid mesh.027"
+    },
+    {
+      "theta": 0.41284350000000003,
+      "originalRoofTopZ": 5.940001010894775,
+      "object": "Circular ruined hotel with exterior entrance solid mesh.027"
+    },
+    {
+      "theta": 0.476699125,
+      "originalRoofTopZ": 5.940001010894775,
+      "object": "Circular ruined hotel with exterior entrance solid mesh.027"
+    },
+    {
+      "theta": 0.54055475,
+      "originalRoofTopZ": 5.940001010894775,
+      "object": "Circular ruined hotel with exterior entrance solid mesh.027"
+    },
+    {
+      "theta": 0.604410375,
+      "originalRoofTopZ": 5.940001010894775,
+      "object": "Circular ruined hotel with exterior entrance solid mesh.027"
+    },
+    {
+      "theta": 0.668266,
+      "originalRoofTopZ": 5.940001010894775,
+      "object": "Circular ruined hotel with exterior entrance solid mesh.027"
+    }
+  ],
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

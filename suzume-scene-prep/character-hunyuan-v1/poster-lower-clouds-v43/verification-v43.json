@@ -1,0 +1,39 @@
+{
+  "revision": 43,
+  "nativeSha256": "23cec288419994ad8bb8768d786b33b27064cb1f33d061e9de62ad66656e2b7e",
+  "sourceNativeSha256": "f1359f25cd0f11caa6c598c7b8d2afe12aed02ef7254cdf7c60caf9b0def9a2c",
+  "freshReopenVerified": true,
+  "movieStatePreservedExactly": true,
+  "nightScenePreservedExactly": true,
+  "allExistingPosterObjectsAndMaterialsPreserved": true,
+  "sharedNodeGroupsPreserved": true,
+  "addedClosedClouds": [
+    {
+      "name": "Lower grey-blue stratus bank v43",
+      "triangles": 360306,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 14048.914411751259,
+      "minimumTriangleArea": 2.950322486316992e-10,
+      "maximumWorldVertexErrorMeters": 2.163627675599855e-05
+    },
+    {
+      "name": "Lower layered horizon cloud v43",
+      "triangles": 478798,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 33119.425123890105,
+      "minimumTriangleArea": 4.263462638487425e-10,
+      "maximumWorldVertexErrorMeters": 1.6934708355620387e-05
+    },
+    {
+      "name": "Distant low horizon billows v43",
+      "triangles": 752032,
+      "nonManifoldEdges": 0,
+      "signedLocalVolume": 104520.71510696696,
+      "minimumTriangleArea": 3.1907007591591707e-10,
+      "maximumWorldVertexErrorMeters": 1.951617605300271e-05
+    }
+  ],
+  "posterObjectCount": 251,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

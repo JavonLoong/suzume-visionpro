@@ -1,0 +1,330 @@
+{
+  "revision": 44,
+  "checks": [
+    {
+      "a": "Poster left outer splayed I-column v44",
+      "b": "Poster left outer splayed I-column footing v44",
+      "verified": true,
+      "insidePoint": [
+        -14.8237711,
+        13.6188275,
+        0.2751854
+      ],
+      "source": "Poster left outer splayed I-column v44",
+      "inside": "Poster left outer splayed I-column footing v44"
+    },
+    {
+      "a": "Poster left outer splayed I-column v44",
+      "b": "Poster left long upper tie v44",
+      "verified": true,
+      "insidePoint": [
+        -13.7962601,
+        13.7543277,
+        9.2497217
+      ],
+      "source": "Poster left outer splayed I-column v44",
+      "inside": "Poster left long upper tie v44"
+    },
+    {
+      "a": "Poster left outer splayed I-column v44",
+      "b": "Poster left long lower tie v44",
+      "verified": true,
+      "insidePoint": [
+        -14.3623434,
+        14.1626165,
+        7.379596
+      ],
+      "source": "Poster left outer splayed I-column v44",
+      "inside": "Poster left long lower tie v44"
+    },
+    {
+      "a": "Poster left middle bowed I-column v44",
+      "b": "Poster left middle bowed I-column footing v44",
+      "verified": true,
+      "insidePoint": [
+        -8.4800663,
+        18.2625273,
+        0.1809073
+      ],
+      "source": "Poster left middle bowed I-column v44",
+      "inside": "Poster left middle bowed I-column footing v44"
+    },
+    {
+      "a": "Poster left middle bowed I-column v44",
+      "b": "Poster left long upper tie v44",
+      "verified": true,
+      "insidePoint": [
+        -8.2350537,
+        17.717925,
+        9.2931627
+      ],
+      "source": "Poster left middle bowed I-column v44",
+      "inside": "Poster left long upper tie v44"
+    },
+    {
+      "a": "Poster left middle bowed I-column v44",
+      "b": "Poster left long lower tie v44",
+      "verified": true,
+      "insidePoint": [
+        -8.3328364,
+        18.4418818,
+        7.416559
+      ],
+      "source": "Poster left middle bowed I-column v44",
+      "inside": "Poster left long lower tie v44"
+    },
+    {
+      "a": "Poster left back I-column v44",
+      "b": "Poster left back I-column footing v44",
+      "verified": true,
+      "insidePoint": [
+        -4.554855,
+        19.6082635,
+        0.0450235
+      ],
+      "source": "Poster left back I-column v44",
+      "inside": "Poster left back I-column footing v44"
+    },
+    {
+      "a": "Poster left back I-column v44",
+      "b": "Poster left long upper tie v44",
+      "verified": true,
+      "insidePoint": [
+        -4.708357,
+        18.7218262,
+        9.1621891
+      ],
+      "source": "Poster left back I-column v44",
+      "inside": "Poster left long upper tie v44"
+    },
+    {
+      "a": "Poster left back I-column v44",
+      "b": "Poster left long lower tie v44",
+      "verified": true,
+      "insidePoint": [
+        -4.6424943,
+        19.7027714,
+        7.416141
+      ],
+      "source": "Poster left back I-column v44",
+      "inside": "Poster left long lower tie v44"
+    },
+    {
+      "a": "Poster left outer splayed I-column v44",
+      "b": "Poster left upper broken tie v44",
+      "verified": true,
+      "insidePoint": [
+        -12.9703865,
+        12.835956,
+        10.8977349
+      ],
+      "source": "Poster left outer splayed I-column v44",
+      "inside": "Poster left upper broken tie v44"
+    },
+    {
+      "a": "Poster left middle bowed I-column v44",
+      "b": "Poster left first broken bowed beam v44",
+      "verified": true,
+      "insidePoint": [
+        -8.4449858,
+        18.2787764,
+        5.2726264
+      ],
+      "source": "Poster left middle bowed I-column v44",
+      "inside": "Poster left first broken bowed beam v44"
+    },
+    {
+      "a": "Poster left middle bowed I-column v44",
+      "b": "Poster left second broken bowed beam v44",
+      "verified": true,
+      "insidePoint": [
+        -8.3426487,
+        18.3638059,
+        4.4528669
+      ],
+      "source": "Poster left middle bowed I-column v44",
+      "inside": "Poster left second broken bowed beam v44"
+    },
+    {
+      "a": "Poster left back I-column v44",
+      "b": "Poster left second broken bowed beam v44",
+      "verified": true,
+      "insidePoint": [
+        -4.4591647,
+        19.666134,
+        5.0554389
+      ],
+      "source": "Poster left back I-column v44",
+      "inside": "Poster left second broken bowed beam v44"
+    },
+    {
+      "a": "Poster left upper right curved bracket v44",
+      "b": "Poster left outer splayed I-column v44",
+      "verified": true,
+      "insidePoint": [
+        -13.5365931,
+        13.4571929,
+        9.8942996
+      ],
+      "source": "Poster left upper right curved bracket v44",
+      "inside": "Poster left outer splayed I-column v44"
+    },
+    {
+      "a": "Poster left upper right curved bracket v44",
+      "b": "Poster left upper broken tie v44",
+      "verified": true,
+      "insidePoint": [
+        -12.3010066,
+        13.649416,
+        10.8766133
+      ],
+      "source": "Poster left upper right curved bracket v44",
+      "inside": "Poster left upper broken tie v44"
+    },
+    {
+      "a": "Poster left upper left curved bracket v44",
+      "b": "Poster left outer splayed I-column v44",
+      "verified": true,
+      "insidePoint": [
+        -13.2475581,
+        13.1307753,
+        10.5267263
+      ],
+      "source": "Poster left upper left curved bracket v44",
+      "inside": "Poster left outer splayed I-column v44"
+    },
+    {
+      "a": "Poster left upper cross brace v44",
+      "b": "Poster left upper right curved bracket v44",
+      "verified": true,
+      "insidePoint": [
+        -12.8692979,
+        13.428148,
+        10.5771611
+      ],
+      "source": "Poster left upper cross brace v44",
+      "inside": "Poster left upper right curved bracket v44"
+    },
+    {
+      "a": "Poster left upper left diagonal v44",
+      "b": "Poster left upper cross brace v44",
+      "verified": true,
+      "insidePoint": [
+        -13.818746,
+        12.41813,
+        10.5389033
+      ],
+      "source": "Poster left upper left diagonal v44",
+      "inside": "Poster left upper cross brace v44"
+    },
+    {
+      "a": "Poster left upper left diagonal v44",
+      "b": "Poster left upper broken tie v44",
+      "verified": true,
+      "insidePoint": [
+        -13.4173554,
+        12.5399624,
+        10.914861
+      ],
+      "source": "Poster left upper left diagonal v44",
+      "inside": "Poster left upper broken tie v44"
+    },
+    {
+      "a": "Poster left upper center diagonal v44",
+      "b": "Poster left upper broken tie v44",
+      "verified": true,
+      "insidePoint": [
+        -12.8446224,
+        12.9794454,
+        10.9743012
+      ],
+      "source": "Poster left upper center diagonal v44",
+      "inside": "Poster left upper broken tie v44"
+    },
+    {
+      "a": "Poster left upper center diagonal v44",
+      "b": "Poster left upper cross brace v44",
+      "verified": true,
+      "insidePoint": [
+        -12.72196,
+        13.4917509,
+        10.6493254
+      ],
+      "source": "Poster left upper center diagonal v44",
+      "inside": "Poster left upper cross brace v44"
+    },
+    {
+      "a": "Poster left upper right upright v44",
+      "b": "Poster left upper broken tie v44",
+      "verified": true,
+      "insidePoint": [
+        -12.3905481,
+        13.4265823,
+        10.9677623
+      ],
+      "source": "Poster left upper right upright v44",
+      "inside": "Poster left upper broken tie v44"
+    },
+    {
+      "a": "Poster left upper right upright v44",
+      "b": "Poster left upper cross brace v44",
+      "verified": true,
+      "insidePoint": [
+        -12.6864932,
+        13.5905278,
+        10.5705988
+      ],
+      "source": "Poster left upper right upright v44",
+      "inside": "Poster left upper cross brace v44"
+    },
+    {
+      "a": "Poster left hanging upper rod v44",
+      "b": "Poster left long upper tie v44",
+      "verified": true,
+      "insidePoint": [
+        -12.8208527,
+        14.5383584,
+        9.2783203
+      ],
+      "source": "Poster left hanging upper rod v44",
+      "inside": "Poster left long upper tie v44"
+    },
+    {
+      "a": "Poster left hanging upper rod v44",
+      "b": "Poster left long lower tie v44",
+      "verified": true,
+      "insidePoint": [
+        -13.2502822,
+        15.1113086,
+        7.4917422
+      ],
+      "source": "Poster left hanging upper rod v44",
+      "inside": "Poster left long lower tie v44"
+    },
+    {
+      "a": "Poster left first bowed upright v44",
+      "b": "Poster left first broken bowed beam v44",
+      "verified": true,
+      "insidePoint": [
+        -12.1916058,
+        16.2062846,
+        4.4731532
+      ],
+      "source": "Poster left first bowed upright v44",
+      "inside": "Poster left first broken bowed beam v44"
+    },
+    {
+      "a": "Poster left second bowed upright v44",
+      "b": "Poster left first broken bowed beam v44",
+      "verified": true,
+      "insidePoint": [
+        -10.2694196,
+        17.4905476,
+        5.2866448
+      ],
+      "source": "Poster left second bowed upright v44",
+      "inside": "Poster left first broken bowed beam v44"
+    }
+  ],
+  "allCheckedConnectionsIntersect": true
+}

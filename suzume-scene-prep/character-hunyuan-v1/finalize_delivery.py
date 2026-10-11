@@ -1,0 +1,24 @@
+from pathlib import Path
+import json,hashlib,shutil,zipfile
+R=Path(__file__).parent;V=Path('C:/Users/15410/.codex/visualizations/2026/10/09/01a11f38-1f1d-7dc0-912a-5e87b1c5f103')
+native=V/'suzume-full-scene-hunyuan-v14.blend'
+shutil.copy2(native,R/'Suzume_scene_Hunyuan_v14.blend')
+shutil.copy2(native,V/'suzume-full-scene.blend')
+s=json.loads((R/'status.json').read_text(encoding='utf-8'));s['revision']=2;s['status']='integrated_local_preview'
+s['hunyuan'].update({'localModelExported':True,'creationId':'6e49a03a-129c-4166-b88a-533ed925f2ee','originalFile':'Suzume_Hunyuan31_original.glb','originalBytes':41629188,'sha256':hashlib.sha256((R/'Suzume_Hunyuan31_original.glb').read_bytes()).hexdigest(),'vertices':298028,'embeddedTextures':3,'textureResolution':[4096,4096]})
+s['scene']={'currentNative':'Suzume_scene_Hunyuan_v14.blend','browserViewer':'http://127.0.0.1:8931/viewer/','browserAsset':'viewer/suzume-posed.gltf','integrationComplete':True,'oneToOneComplete':False,'nativeRigBones':20,'browserTriangles':500000,'nativeTexturesPackedAndReopened':True,'inlinePrototype':'The older inline v13 widget remains an archived procedural prototype; use the local v14 viewer for the actual Hunyuan character.'}
+s['next']=['Refine face, hairpins and sleeve shape against film reference','Fit individual fingers around knob rather than grouped finger bones','Improve film silhouette, stride and night lighting; no one-to-one claim']
+(R/'status.json').write_text(json.dumps(s,ensure_ascii=False,indent=2),encoding='utf-8')
+a=json.loads((R/'integration-audit.json').read_text(encoding='utf-8'));a['visualReview']='Reviewed corrected front and side studio renders, front native render, side native render, browser orbit and rear view. No arm/skirt membrane remains. Right sleeve and grouped fingers still require refinement.';a['nativeSideRender']='16 samples without denoising, after separate-process retry for memory limit';a['technicalIntegrationComplete']=True;a['oneToOneComplete']=False
+(R/'integration-audit.json').write_text(json.dumps(a,ensure_ascii=False,indent=2),encoding='utf-8')
+page=(R/'index.html').read_text(encoding='utf-8').replace('依据电影人物参考生成的统一站姿建模图。用于混元 3D 多视图输入，尚非已验收的三维人物模型。','依据电影人物参考生成统一 A-pose 四视图，已提交混元 3D 3.1，完成真实模型下载、贴图修复、骨骼绑定与场景接入。当前为重建版本，尚未达到影片一比一标准。')
+extra='<p><a href="http://127.0.0.1:8931/viewer/">打开可旋转完整场景</a> · <a href="Suzume_scene_Hunyuan_v14.blend">完整 Blender 场景</a> · <a href="Suzume_Hunyuan31_original.glb">混元原始 GLB</a> · <a href="Suzume_Hunyuan31_rigged.blend">带骨骼人物</a></p><div class="views"><figure><img src="model-front.png"><figcaption>实际模型 · 正面</figcaption></figure><figure><img src="model-left.png"><figcaption>实际模型 · 左侧</figcaption></figure><figure><img src="model-back.png"><figcaption>实际模型 · 背面</figcaption></figure><figure><img src="model-right.png"><figcaption>实际模型 · 右侧</figcaption></figure></div>'
+if '实际模型 · 正面' not in page:page=page.replace('</html>',extra+'</html>')
+(R/'index.html').write_text(page,encoding='utf-8')
+with zipfile.ZipFile(R/'Suzume-multiview-inputs.zip','w',zipfile.ZIP_DEFLATED) as z:
+ for name in ['front.png','back.png','left.png','right.png','prompts.json','status.json','view-image-check.json']:z.write(R/name,name)
+f=json.loads((V/'fidelity-audit.json').read_text(encoding='utf-8'));f.update({'goal_status':'active','last_turn_classification':'substantial_progress','current_stage':'hunyuan-character-integration-v14','native_model_file':'suzume-full-scene.blend','native_model_copy':str(R/'Suzume_scene_Hunyuan_v14.blend'),'model_revision':'v14: actual Hunyuan 3D 3.1 character from four consistent views; 500k triangles, three packed 4K textures, editable 20-bone rig and portal continuation. Film likeness and pose details remain approximate.','current_browser_viewer':'http://127.0.0.1:8931/viewer/','inline_fragment_status':'Legacy v13 procedural preview; current Hunyuan geometry is in the standalone local viewer and native Blender file.','hunyuan_character_audit':str(R/'integration-audit.json'),'one_to_one_complete':False})
+f['implemented_changes'].append('Actual Hunyuan character generated from four consistent references, downloaded and packed; coordinate-normalised manual rig, posed mesh and native/browser portal integration validated.')
+(V/'fidelity-audit.json').write_text(json.dumps(f,ensure_ascii=False,indent=2),encoding='utf-8')
+(R/'使用说明.txt').write_text('铃芽之旅：混元人物与完整场景 v14\n\n打开本地预览：http://127.0.0.1:8931/viewer/\n若预览服务已关闭，在本目录运行 python open_scene.py。\n鼠标拖动旋转；滚轮缩放；右键或 Shift 拖动平移。\n\n完整场景：Suzume_scene_Hunyuan_v14.blend\nBlender 第 1 帧为关门庭院，第 72 帧为开门人物场景。\n人物骨骼名称 Suzume Hunyuan rig，可进入 Pose Mode 编辑。\n门后空间使用 Cycles Ray Portal；材质预览不代表最终门后渲染。\n原始 GLB、内嵌贴图修复后的 A-pose Blender 与带骨骼人物另行保留。\n\n来源流程：电影参考 -> 一致的四张 A-pose 图 -> 混元 3D 3.1（500k）-> 贴图核验 -> 骨骼与权重 -> 接入场景。\n本次实际提交 1 次，免费额度 13 -> 12。\n\n当前限制：人物脸型、袖口变形、手指贴合、步态、夜景与建筑细节仍需继续校准，尚未达到影片一比一。网页人物为静态姿态网格，Blender 文件保留可编辑骨骼。\n',encoding='utf-8')
+print('DELIVERY_UPDATED',native.stat().st_size)

@@ -1,0 +1,17 @@
+{
+  "revision": 28,
+  "selectedNativeAndBrowserTrianglesMatch": true,
+  "selectedTriangles": 14678,
+  "trianglesByBay": {
+    "12": 3317,
+    "13": 4092,
+    "14": 3428,
+    "15": 2963,
+    "16": 878
+  },
+  "eligibilityAttributePreservedAfterActualBake": true,
+  "shaderInsertionAndFixedCameraUniformsChecked": true,
+  "inlineScriptsParsed": 1,
+  "browserRuntimeVerified": false,
+  "oneToOneComplete": false
+}

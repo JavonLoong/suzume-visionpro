@@ -1,0 +1,80 @@
+{
+  "scope": "Isolated 8x8 constant-world swatches, not a complete scene appearance test.",
+  "samples": [
+    {
+      "patch": "left shaded wall",
+      "requestedLinear": [
+        0.0600348533160581,
+        0.06164123100255858,
+        0.11558913379527141
+      ],
+      "actualSocketLinear": [
+        0.0600348524749279,
+        0.061641231179237366,
+        0.11558913439512253
+      ],
+      "targetSrgb255": [
+        88.0,
+        94.0,
+        124.0
+      ],
+      "image": "color-test-left-shaded-wall.png",
+      "renderedMedianSrgb255": [
+        88.0,
+        94.0,
+        124.0
+      ],
+      "maxChannelError255": 0.0
+    },
+    {
+      "patch": "clear sky",
+      "requestedLinear": [
+        -0.09946489134200946,
+        0.32423378946035825,
+        1.4865281293838277
+      ],
+      "actualSocketLinear": [
+        0.0,
+        0.3242338001728058,
+        1.4865281581878662
+      ],
+      "targetSrgb255": [
+        111.0,
+        178.0,
+        234.0
+      ],
+      "image": "color-test-clear-sky.png",
+      "renderedMedianSrgb255": [
+        137.0,
+        181.0,
+        232.0
+      ],
+      "maxChannelError255": 26.0
+    },
+    {
+      "patch": "clear sky via signed vector node",
+      "requestedLinear": [
+        -0.09946489134200946,
+        0.32423378946035825,
+        1.4865281293838277
+      ],
+      "actualLinkedLinear": [
+        -0.09946489334106445,
+        0.3242338001728058,
+        1.4865281581878662
+      ],
+      "targetSrgb255": [
+        111.0,
+        178.0,
+        234.0
+      ],
+      "image": "color-test-clear-sky-linked.png",
+      "renderedMedianSrgb255": [
+        111.0,
+        178.0,
+        234.0
+      ],
+      "maxChannelError255": 0.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "revision": 31,
+  "actualGeometryAndRenderHelperExecuted": true,
+  "nearGroundVerticesPreserved": 5681,
+  "changedGroundVertices": 34720,
+  "nativeExtensionVerticesMatched": 37888,
+  "nativeExtensionTriangles": 75776,
+  "depthTextureAttached": true,
+  "separateSourceAndDestinationTargetsVerified": true,
+  "portalReflectionAndStandaloneRenderPathsHooked": true,
+  "resizeAndDestinationRestorationVerified": true,
+  "inlineScriptsParsed": 1,
+  "browserRuntimeVerified": false,
+  "gpuShaderCompilationVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false
+}

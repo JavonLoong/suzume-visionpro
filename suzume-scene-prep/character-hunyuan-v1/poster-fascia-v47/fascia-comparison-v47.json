@@ -1,0 +1,21 @@
+{
+  "scope": "One unobstructed local fascia strip, x=75..95 and y=559..562 at 708x1000. RGB median diagnostic, not whole-scene equivalence.",
+  "referenceRGBMedian": [
+    80.0,
+    98.0,
+    108.5
+  ],
+  "beforeRGBMedian": [
+    5.0,
+    22.0,
+    27.0
+  ],
+  "afterRGBMedian": [
+    85.0,
+    98.0,
+    106.0
+  ],
+  "beforeRGBDistance": 134.325165177639,
+  "afterRGBDistance": 5.5901699437494745,
+  "oneToOneComplete": false
+}

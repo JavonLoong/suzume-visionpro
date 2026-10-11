@@ -1,0 +1,53 @@
+{
+  "revision": 55,
+  "nativeSha256": "d0928992e11245a530630597987eabcc3daa085a7cb8c3e296a769c1b94a50ae",
+  "frontReviewed": true,
+  "detailReviewed": true,
+  "obliqueReviewed": true,
+  "obliqueDetailReviewed": true,
+  "referenceComparisonReviewed": true,
+  "acceptedAsIncrementalImprovement": true,
+  "observations": [
+    "The right upper storey now uses a continuous curved wall with ten large arches, five small arched recesses, one pointed arch and a broad gray recess with a broken masonry stub. This replaces the generic black arch openings. Each modeled surround, bead, infill and wall has depth; no camera-facing cards were introduced.",
+    "Large arch caps were fitted to visible dark boundaries in the reference. The lower cornice and crown use varying-height profiles rather than uniform horizontal strips. A roof transition joins the new crown to the existing roof at Z=5.94 m. Foreground-beam-occluded bases and unobserved sections are inferred.",
+    "Fifty-five closed solid assemblies contain 302028 triangles. The saved/reopened geometry has positive signed volume, no non-manifold edges and maximum vertex error below 2 micrometers. Seventeen probes verify structural recess clearance, nine verify contact with the lower walls and nine verify the rear roof transition.",
+    "Nine original mesh buckets were trimmed at explicit replacement volumes. Their unaffected triangle positions and UVs remain unchanged. Two prior v54 flat cornices were replaced; all other v54 right facade assemblies remain preserved.",
+    "An isolated texture restores 4714 visible source pixels (4712 changed pixel values) around the rightmost caps and cornice that an old vertical-post exclusion mask had blurred. The true foreground-beam exclusion is retained and every pixel outside the patch is unchanged.",
+    "The full front, cropped detail, close oblique, full opposite-side oblique and equal-resolution reference/before/after comparison were inspected. The new arcade is an incremental geometric improvement; the oversized dark foreground beam, coarse ivy, foreground equipment and broader material differences remain visible.",
+    "Movie and night scenes, shared node groups, unaffected poster objects, camera, lighting and materials are preserved. All 24 previously packed images retain their exact bytes; the corrected arcade atlas adds one packed image.",
+    "The actual Three.js construction chain through v55 was executed in Node. Twelve prior geometry buckets are replaced by fifteen native-exported buckets containing 436961 triangles. Positions, normals and UVs match the native data; untouched geometry/materials and ivy matrices/colors are preserved. All 38 HTTP resources match local bytes.",
+    "Browser/GPU display remains unverified. The v55 control inventory attempt via cua.getState timed out after 20 seconds and reset its kernel. Node construction and HTTP checks do not establish browser appearance equivalence."
+  ],
+  "remaining": [
+    "Reconstruct materials in previously occluded regions for rotated views. The close oblique still exposes blurred foreground-post/beam exclusion patches, and the boundary into the unmodified neighboring bay is visibly approximate.",
+    "Refine right arcade glazing/grilles, gray backing, chipped cap edges and concealed room depth. Ten large caps follow measured reference boundaries; partially occluded bases, infill and hidden construction remain inferred.",
+    "Correct the right foreground curved steel beam: it remains visibly too thick and dark against the reference. Refine its profile, pale edges, corrosion and irregular damage.",
+    "Correct the right foreground: the two tilted old equipment units, oversized regular umbrella, large ivy leaves, straight raised bank and random debris differ from the reference. Reconstruct the observed broken umbrella, foliage clumps and low wet ground.",
+    "Refine the new right door/window construction: broken glass silhouettes, precise grille offsets, door-leaf pose and hardware, facade wear and hidden room depth. Fixed reference colors on solid glazing still approximate reflection behavior.",
+    "Refine the broken low frame paint, corrosion, short board damage and concealed connections. Its identity is ambiguous in the single reference, and its depth and rear structure remain inferred.",
+    "Refine wet sediment coloration, small edge erosion, submerged fragments and stone facets/moss. The new bank is dimensionally closer but too smooth and uniform; hidden stone depth is inferred.",
+    "Refine foliage color, branching, density and exact climbing paths. Lower stems now meet the ground, but source vegetation distribution and plant material appearance remain approximate.",
+    "Refine chair frame/seat wear, pipe corrosion and bends, strap weathering and nearby fragments. The chair interpretation and concealed construction remain inferred from one partly occluded view.",
+    "Refine the new window panes and grilles: broken-glass boundaries, view-dependent reflection, sealing/bead detail, door hardware, worn stair edges and subtle facade moldings. Hidden construction remains inferred.",
+    "Refine the remaining arch groups around the courtyard, gray infill and glazing behavior, hidden rooms, and cornice seam/weathering detail. The new reference-facing group is an incremental geometric improvement; no single source image establishes its hidden construction.",
+    "Refine the two thin foreground hanger tips against the source. The first current modeled tip is approximately five pixels from the newly inspected source tip and the second roughly three pixels at 708x1000. Their photograph traces have now been removed from the wall atlas, exposing the remaining geometry alignment error.",
+    "Add better view-dependent glazing reflections and concealed frame/room detail. The new glass is a solid pane with fixed reference surface color; masked portions and unobserved construction remain inferred.",
+    "Refine the fascia surface wear, small joints and transitions. The main left black band has been corrected with solid facing, but the inferred hidden section and uniform finish are not an exact architectural reconstruction.",
+    "Match distinct ivy clumps and hanging trails. Left roof leaf size and native colors are improved, but leaf placement, other rooftop leaf sizes and vine stems remain approximate.",
+    "Refine railing paint variation and end supports, equipment weathering, tank shading, pipe bends and inferred hidden equipment surfaces.",
+    "Refine pale steel edges, corrosion and irregular damage; rebuilt steel remains cleaner than the reference.",
+    "Refine cloud contours and hidden backs, submerged stone outlines, reflected facade detail and water glints from oblique views.",
+    "Continue movie character neck/chest blending, expression and material style, close-up camera and night-world detail.",
+    "Verify both browser candidates in a functioning browser and reconcile approximate web water, steel and railing materials with native rendering."
+  ],
+  "browserRuntimeVerified": false,
+  "nativeBrowserAppearanceEquivalenceVerified": false,
+  "oneToOneComplete": false,
+  "reviewedImageSha256": {
+    "poster-front-v55.png": "427e782f7bc303682c547801dd909e6dba6ae3affd7889d4ec406f016d314d78",
+    "right-arches-detail-v55.png": "f2fd2a0bb49034e545f44596bb290898aad26471a332dcdd0735bdf54299a537",
+    "poster-oblique-v55.png": "e26d6a855c9d05ab2918bd40f3494c4eacc274b4c139cb42bb238ec2632ad05e",
+    "right-arches-oblique-detail-v55.png": "3ccc347c09c458ecdcd01db8b6182287510e2db71406d43d69e179346d1c5210",
+    "right-arches-comparison-v55.png": "cc6df798b992834d22670f0a332f4edf5ca1d14829a748460f843c3eb2c9088b"
+  }
+}

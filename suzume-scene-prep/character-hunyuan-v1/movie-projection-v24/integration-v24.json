@@ -1,0 +1,291 @@
+{
+  "revision": 24,
+  "parameters": {
+    "lensMm": 86.54434612692005,
+    "distance": 11.7300315454759,
+    "cameraX": 0.15354844661181763,
+    "cameraZ": 2.8782074998654252,
+    "pitch": 0.07098138634927482,
+    "courtyardX": 0.06987433711729285,
+    "courtyardY": 2.468481461225616,
+    "windowSill": 1.6900559610458885,
+    "arcadeBase": 5.329656385323066,
+    "highRoof": 7.331622841915744,
+    "lowRoof": 5.269525045032644,
+    "edge12": -0.6550226268157784,
+    "edge13": -0.4200226268157784,
+    "edge14": -0.15040402205052789,
+    "edge15": 0.06531638800593045,
+    "edge16": 0.25546756757609357,
+    "edge17": 0.495473647951517
+  },
+  "courtyardRadius": 23.5,
+  "newObjects": 789,
+  "changes": [
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.001",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.002",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.003",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.004",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.005",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.006",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.007",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.008",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.009",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.010",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.011",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.012",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.013",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.014",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.015",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.016",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.017",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Circular ruined hotel with exterior entrance solid mesh.018",
+      "operation": "Continuous ring and shared levels"
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh",
+      "operation": "Source-scale environment",
+      "vertices": 64308,
+      "nearGeometryPreserved": null
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.001",
+      "operation": "Source-scale environment",
+      "vertices": 63468,
+      "nearGeometryPreserved": null
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.002",
+      "operation": "Source-scale environment",
+      "vertices": 936,
+      "nearGeometryPreserved": null
+    },
+    {
+      "name": "Broken radial dome steelwork solid mesh.003",
+      "operation": "Source-scale environment",
+      "vertices": 1728,
+      "nearGeometryPreserved": null
+    },
+    {
+      "name": "Brick and masonry debris solid mesh",
+      "operation": "Source-scale environment",
+      "vertices": 1332,
+      "nearGeometryPreserved": true
+    },
+    {
+      "name": "Brick and masonry debris solid mesh.001",
+      "operation": "Source-scale environment",
+      "vertices": 2628,
+      "nearGeometryPreserved": true
+    },
+    {
+      "name": "Individual three-dimensional ivy leaves",
+      "operation": "Source-scale environment",
+      "vertices": 4443,
+      "nearGeometryPreserved": true
+    },
+    {
+      "name": "Continuous forest terrain",
+      "operation": "Source-scale environment",
+      "vertices": 14641,
+      "nearGeometryPreserved": null
+    },
+    {
+      "name": "Branching tree crowns surrounding the ruined hotel",
+      "operation": "Source-scale environment",
+      "vertices": 720,
+      "nearGeometryPreserved": null
+    },
+    {
+      "name": "Forest trunks",
+      "operation": "Source-scale environment",
+      "vertices": 720,
+      "nearGeometryPreserved": null
+    },
+    {
+      "name": "Live planar reflective shallow water",
+      "operation": "Source-scale environment",
+      "vertices": 130,
+      "nearGeometryPreserved": null
+    }
+  ],
+  "nightLandscapeChanges": [
+    {
+      "name": "Rolling meadow ground",
+      "maximumHeightReduction": 16.79997109941199,
+      "near12MetersUnchanged": true
+    },
+    {
+      "name": "Individual meadow flowers",
+      "maximumHeightReduction": 3.5556574952031115,
+      "near12MetersUnchanged": true
+    },
+    {
+      "name": "Modeled flower stems",
+      "maximumHeightReduction": 3.5556574952031115,
+      "near12MetersUnchanged": true
+    },
+    {
+      "name": "Spatial grass blades",
+      "maximumHeightReduction": 4.163927099659157,
+      "near12MetersUnchanged": true
+    }
+  ],
+  "cloudHeightFactor": 0.25,
+  "lights": [
+    {
+      "name": "Cool courtyard fill on the left facade v23",
+      "type": "AREA",
+      "position": [
+        -5.869667053222656,
+        21.659385681152344,
+        4.900000095367432
+      ],
+      "target": [
+        -6.770026206970215,
+        24.73011016845703,
+        3.5
+      ],
+      "color": [
+        0.44999998807907104,
+        0.2800000011920929,
+        1.0
+      ],
+      "powerWatts": 64,
+      "dimensions": [
+        7,
+        5
+      ],
+      "angleRadians": null
+    },
+    {
+      "name": "Localized sunlight around the arched window v23",
+      "type": "SPOT",
+      "position": [
+        -3.422683000564575,
+        22.37685775756836,
+        5.0
+      ],
+      "target": [
+        -4.323041915893555,
+        25.447582244873047,
+        2.799999952316284
+      ],
+      "color": [
+        1.0,
+        0.7799999713897705,
+        0.7200000286102295
+      ],
+      "powerWatts": 1200,
+      "dimensions": null,
+      "angleRadians": 0.39269909262657166
+    },
+    {
+      "name": "Soft courtyard fill on the movie facade v22",
+      "type": "AREA",
+      "position": [
+        7.342105865478516,
+        20.917953491210938,
+        4.949999809265137
+      ],
+      "target": [
+        8.625592231750488,
+        24.17412567138672,
+        3.700000047683716
+      ],
+      "color": [
+        1.0,
+        0.8999999761581421,
+        0.7200000286102295
+      ],
+      "powerWatts": 1000,
+      "dimensions": [
+        5.5,
+        4.5
+      ],
+      "angleRadians": null
+    }
+  ],
+  "characters": {
+    "Suzume Hunyuan textured surface": {
+      "vertices": 241846,
+      "worldHash": "bda994f4f36c980ac7e48122ea45f395ce5defbd723d5c82f514aeca5561de47"
+    },
+    "Suzume independent Hunyuan head": {
+      "vertices": 171025,
+      "worldHash": "18c45d8888b875316b92a28d4c4881644c277126dd04df9f8ea9894ccb9a483d"
+    },
+    "Left gold hairpin": {
+      "vertices": 104,
+      "worldHash": "98cf3c457b11f456db8495b46ac528e8263197b9b10ae42787b1e707ea707ff9"
+    },
+    "Left red hairpin diagonal": {
+      "vertices": 104,
+      "worldHash": "101fc7b7e687be5adf86afd93e3fd5f0a81a3af1d6a38aea750406d6880565d9"
+    },
+    "Left red hairpin crossbar": {
+      "vertices": 104,
+      "worldHash": "8bfd65fcffae78cba0225f8a869a59689e1251d35afb64ed9a869565614d5dbd"
+    }
+  },
+  "fiveWallsWatertight": true,
+  "oneToOneComplete": false,
+  "visualReviewPending": false,
+  "visualReview": "visual-review-v24.json"
+}

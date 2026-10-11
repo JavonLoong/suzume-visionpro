@@ -1,0 +1,42 @@
+{
+  "revision": 23,
+  "nativeLowerWallGeometryMatches": true,
+  "properReplacementOrder": true,
+  "independentPrefixProtectsRightBay": true,
+  "walls": [
+    {
+      "bay": 12,
+      "vertices": 96,
+      "maximumNativeDifference": 9.162798981776632e-7,
+      "actualWindowOpenings": [
+        "rectangle 1"
+      ]
+    },
+    {
+      "bay": 13,
+      "vertices": 444,
+      "maximumNativeDifference": 9.520055748168943e-7,
+      "actualWindowOpenings": [
+        "rectangle 1",
+        "rectangle 2",
+        "arched window"
+      ]
+    },
+    {
+      "bay": 14,
+      "vertices": 324,
+      "maximumNativeDifference": 9.519585724149238e-7,
+      "actualWindowOpenings": []
+    },
+    {
+      "bay": 15,
+      "vertices": 156,
+      "maximumNativeDifference": 0.000001793308292974416,
+      "actualWindowOpenings": [
+        "rectangle 1",
+        "rectangle 2"
+      ]
+    }
+  ],
+  "browserRuntimeVerified": false
+}
