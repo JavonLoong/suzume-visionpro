@@ -10,7 +10,7 @@ manifest=json.loads((RES/'AssetManifest.json').read_text(encoding='utf-8'))
 report={'assets':{},'xcodeCompiled':False,'headsetTested':False,'sourceUnmodified':False}
 report['sourceUnmodified']=hashlib.sha256(Path(manifest['source']).read_bytes()).hexdigest()==manifest['sourceSHA256']
 assert report['sourceUnmodified']
-for name in ('DreamWorld','DoorFrame','DoorLeaf'):
+for name in ('DreamWorld','DoorFrame','DoorLeaf','Character'):
     path=RES/(name+'.usdz')
     stage=Usd.Stage.Open(str(path));assert stage
     assert str(UsdGeom.GetStageUpAxis(stage))=='Y'
@@ -48,6 +48,12 @@ for name in ('DreamWorld','DoorFrame','DoorLeaf'):
         ground=next(m for m in meshes if '/NearMeadow/' in m['path'])
         lo,hi=ground['bounds']
         assert hi[1]-lo[1]<20 and hi[2]-lo[2]>100, 'Ground must be horizontal in the exported Y-up coordinates'
+    if name=='Character':
+        lo=[min(m['bounds'][0][axis] for m in meshes) for axis in range(3)]
+        hi=[max(m['bounds'][1][axis] for m in meshes) for axis in range(3)]
+        height=hi[1]-lo[1]
+        assert 1.60 <= height <= 1.64, f'Character height must be 1.62 m, got {height}'
+        assert row['triangles'] < 100000, f'Character budget exceeded: {row["triangles"]}'
     print('USD_VALIDATED',name,'triangles',row['triangles'],'failed',len(failed),'errors',len(errors),flush=True)
     if errors or failed: print(json.dumps({'errors':errors,'failed':failed},ensure_ascii=True),flush=True)
     assert not errors and not failed,(name,errors,failed)

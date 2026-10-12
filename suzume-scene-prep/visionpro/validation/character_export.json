@@ -1,0 +1,14 @@
+{
+  "source": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\visionpro-character\\Suzume_character_VisionPro_merged_100k.glb",
+  "sourceSHA256": "f24333f629cf15dbfa99d286f5c336ebfcc473d3d48a3f31eb465d510a9f0a36",
+  "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\visionpro\\VisionProPortal\\VisionProPortal\\Resources\\Character.usdz",
+  "outputSHA256": "c68a07f571ad65ee9ef63dc91e5d4b342ba34f729efb79103459eb7e7163d7d4",
+  "bytes": 22268636,
+  "triangles": 91573,
+  "objects": 2,
+  "targetHeightMetres": 1.62,
+  "scale": 1.3832628145070456,
+  "origin": "feet centre",
+  "upAxis": "Y",
+  "maximumTextureSize": 2048
+}

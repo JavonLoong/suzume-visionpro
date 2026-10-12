@@ -1,0 +1,219 @@
+{
+  "status": "content_and_source_adaptation_ready",
+  "swiftCompilation": "not_run_no_Mac",
+  "headsetValidation": "not_run_no_device",
+  "offlinePreview": "pass",
+  "usdzCompliance": "pass",
+  "files": [
+    {
+      "path": "cursor-original-source-20261011.zip",
+      "bytes": 17197,
+      "sha256": "70ed382300936b1a5884e1bbab70bfe2dbf654773ced2527eb88a56b598a52bb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5395,
+      "sha256": "6c1732b52237377a52f1384b962117c92780a2f92101262774272077bf2b7e7a"
+    },
+    {
+      "path": "tools/build_preview.py",
+      "bytes": 915,
+      "sha256": "b141d59a1548f31ec17e173a714b5ea97f1be0199c6f741e69d9404ff112b924"
+    },
+    {
+      "path": "tools/export_character_asset.py",
+      "bytes": 4280,
+      "sha256": "5fe22287f5c3fa3296d5f56f63c08468216ad33728a80bfd350496a1c4df9879"
+    },
+    {
+      "path": "tools/export_v56_assets.py",
+      "bytes": 15106,
+      "sha256": "e85ac94719802a4eeacd0a4a952144fedc486dba45aacbcfcbecb7052bf457fe"
+    },
+    {
+      "path": "tools/inspect_v56.py",
+      "bytes": 2170,
+      "sha256": "2c56fa4980fa3461b4d2b382706b359f6ae91aeb62c84bbf9240a02df1f2d32d"
+    },
+    {
+      "path": "tools/make_xcode_project.py",
+      "bytes": 6873,
+      "sha256": "c81d9c6c413fd3ece962024f75e6be214c025974aaa9879690fd89fe2234ded5"
+    },
+    {
+      "path": "tools/package_delivery.py",
+      "bytes": 2921,
+      "sha256": "74b405cad2e69a5d9a93528d29fc8750bef06b7b0754e118c42c97adc968557d"
+    },
+    {
+      "path": "tools/portal_preview.html",
+      "bytes": 9226,
+      "sha256": "8fc849cd9ba6da4be4808f74c9f0ce8f97ee618915e313e1b82002f9676b354e"
+    },
+    {
+      "path": "tools/validate_assets.py",
+      "bytes": 4128,
+      "sha256": "d630282cb2a3e1cb1e8ee1dad13a07a47ed4c5bd93e9322dd3d6570353464816"
+    },
+    {
+      "path": "tools/verify_preview.cjs",
+      "bytes": 2259,
+      "sha256": "5d7c7ac2f212d8855131d587989011e37971490a1a0006d57580b3b579761b16"
+    },
+    {
+      "path": "USDZ导出流程.md",
+      "bytes": 2872,
+      "sha256": "3badc39640baf249959ed1035d0509a1d9271df7004292cccf3e3fd37170420c"
+    },
+    {
+      "path": "validation/asset_validation.json",
+      "bytes": 12883,
+      "sha256": "ca490e48c8c21c783aef3d36c5ce75944ec7b92092253b88b06af319437f9e5b"
+    },
+    {
+      "path": "validation/character_export.json",
+      "bytes": 698,
+      "sha256": "696060798045a35f2a3a272e8b41d861ce0d396ac516847e3268de51a1dee206"
+    },
+    {
+      "path": "validation/export_manifest.json",
+      "bytes": 3000,
+      "sha256": "06c31d4ae78eb5a94dc3916a4654fcda4a3916b70e8f044b986c6c3017e9eb18"
+    },
+    {
+      "path": "validation/hunyuan_character_selection.json",
+      "bytes": 1542,
+      "sha256": "f3d03dfde62f6c7c89cd02ddca381fc9eaa959bf3f62a45a1cc977d4bf246e70"
+    },
+    {
+      "path": "validation/portal-front.png",
+      "bytes": 233201,
+      "sha256": "bb68f42a5ffe27cdad36ce5880603b754dad1570a21e98527bd4129f50cf8213"
+    },
+    {
+      "path": "validation/portal-side.png",
+      "bytes": 252168,
+      "sha256": "eadf1295505e6ac010c1f597107bfd31484cf3f2c5887d676cb965848a5a1d65"
+    },
+    {
+      "path": "validation/preview_validation.json",
+      "bytes": 712,
+      "sha256": "9a02d0167d29f83fc85065f77b78d969f189a6c84ade58c9bd2e1defbbf1f85e"
+    },
+    {
+      "path": "validation/sky_clean_v2.json",
+      "bytes": 615,
+      "sha256": "7aaf854475dd649f0bc7a16a2adfc538cf0d703517d034d80c49d0e9d4049d17"
+    },
+    {
+      "path": "validation/world-full.png",
+      "bytes": 531894,
+      "sha256": "b819dd679f432c1dd73ec919f667dee052f20fc214affa363ad5044af865b348"
+    },
+    {
+      "path": "VisionProPortal/build-on-mac.sh",
+      "bytes": 639,
+      "sha256": "0411d5d73c347d6e51f573b693f1239f95fa788178e1c5b2aa91a579b7dc3f9d"
+    },
+    {
+      "path": "VisionProPortal/project.yml",
+      "bytes": 1004,
+      "sha256": "50d823184e3ea89b1b7ddcc92d0c9e561748baf3346a52c2c5031d30afb6b95e"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/ContentView.swift",
+      "bytes": 3896,
+      "sha256": "39c72e147ddcc67d2f0c8a23ac73800b1310277383f5a8964b262e8b6356a528"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/DoorOcclusion.swift",
+      "bytes": 503,
+      "sha256": "0d61a8f62b8f7929e26608c2d0cc89146bdab0dd02b1da95d766afa1729b21eb"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/DreamWorldBuilder.swift",
+      "bytes": 2503,
+      "sha256": "c17e6516a4b1904864b44736f7f886d3d7e905d53fb9f5afce32b928ea442e19"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/Info.plist",
+      "bytes": 950,
+      "sha256": "053f6f1f19fdf6f17d71eb2e046bdeb86e7075a1e278e0afb4160ee0701334f5"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/PortalConfig.swift",
+      "bytes": 2062,
+      "sha256": "a79d0f733737ebab050002985bfe14855d8e9f8d822973d97b9730e1091401f7"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/PortalImmersiveView.swift",
+      "bytes": 1137,
+      "sha256": "a4940eb8ac60e39c722bbee1469d2aacd67ffff9f70f6bbb0a7f4aa7b4a88e25"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/PortalSystem.swift",
+      "bytes": 2907,
+      "sha256": "c77051a22a89561f53deecf64f666dc2c1f1f91fbac3c9b3216f1a045795c96d"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/Resources/AssetManifest.json",
+      "bytes": 3000,
+      "sha256": "06c31d4ae78eb5a94dc3916a4654fcda4a3916b70e8f044b986c6c3017e9eb18"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/Resources/Character.usdz",
+      "bytes": 22268636,
+      "sha256": "c68a07f571ad65ee9ef63dc91e5d4b342ba34f729efb79103459eb7e7163d7d4"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/Resources/DoorFrame.usdz",
+      "bytes": 692963,
+      "sha256": "642ace38b3e4467be5eee0686f47a1b4f4d8ecb6f764e4f07edd5b761f5aa1d8"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/Resources/DoorLeaf.usdz",
+      "bytes": 924605,
+      "sha256": "31773ad1e891cabe02fde3eff65c84eb9311c5c92b30324effda17c3a9961034"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/Resources/DreamWorld.usdz",
+      "bytes": 35900075,
+      "sha256": "68058754aa8cda3af06de6cdf71664128c95f0a0bc712bc875b5e1f5bd0d4efe"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/Resources/NightSky.png",
+      "bytes": 1772215,
+      "sha256": "f828e2842a6b092b7472063fb6c52365b40225f6376f43240f7686c0eb4c9eef"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal/VisionProPortalApp.swift",
+      "bytes": 415,
+      "sha256": "ed676cd0a2aed22ac743d10e1ce8e97fe1a9c3793bfc2b1fe601987031f5eb28"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal.xcodeproj/project.pbxproj",
+      "bytes": 9123,
+      "sha256": "eb4601fa7bcafd3c795df48314be54e2328c5e44341a4e4bb48dd4fa62d3704d"
+    },
+    {
+      "path": "VisionProPortal/VisionProPortal.xcodeproj/xcshareddata/xcschemes/VisionProPortal.xcscheme",
+      "bytes": 1475,
+      "sha256": "07941bab4471546b16761e61bb516b8c75dfa6802f60a1b031dd27854d60b2b6"
+    },
+    {
+      "path": "技术方案.md",
+      "bytes": 4080,
+      "sha256": "df637452881542d42b39544e93a0243568e78072ca4e009660d670fb55006784"
+    },
+    {
+      "path": "续接记录.md",
+      "bytes": 1403,
+      "sha256": "f1a44f3ebf082eff7a62343de5c8b88d8e780bf095f34e36b75da6670983ffae"
+    },
+    {
+      "path": "铃芽之旅_VisionPro适配_离线预览.html",
+      "bytes": 43944496,
+      "sha256": "715d1ae30cfbf53ea5406f7bb78619106d4a179f3d98e6637d8cd3a1966fb0aa"
+    }
+  ]
+}

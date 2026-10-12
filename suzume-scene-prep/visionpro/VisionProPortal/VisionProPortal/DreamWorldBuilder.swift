@@ -1,6 +1,7 @@
 import Foundation
 import RealityKit
 import ImageIO
+import simd
 
 @MainActor
 enum DreamWorldBuilder {
@@ -22,6 +23,11 @@ enum DreamWorldBuilder {
         world.components.set(WorldComponent())
         let model = try await Entity(contentsOf: resource("DreamWorld", extension: "usdz"))
         world.addChild(model)
+        let character = try await Entity(contentsOf: resource("Character", extension: "usdz"))
+        character.name = "SuzumeCharacter"
+        character.position = [0, 0, -2.7]
+        character.orientation = simd_quatf(angle: .pi, axis: [0, 1, 0])
+        world.addChild(character)
         // 天空只显示一次色彩，避免 USD 发光材质与环境光再次叠加。
         let skyTexture = try await TextureResource(named: "NightSky.png", in: .main)
         var skyMaterial = UnlitMaterial()
@@ -38,6 +44,7 @@ enum DreamWorldBuilder {
         let environment = try await EnvironmentResource(equirectangular: image, withName: "NightSkyIBL")
         world.components.set(ImageBasedLightComponent(source: .single(environment), intensityExponent: 1))
         model.components.set(ImageBasedLightReceiverComponent(imageBasedLight: world))
+        character.components.set(ImageBasedLightReceiverComponent(imageBasedLight: world))
         return world
     }
 }

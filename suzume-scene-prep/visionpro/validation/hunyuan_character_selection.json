@@ -1,0 +1,45 @@
+{
+  "generatedWith": "Tencent Hunyuan 3D 3.1 multiview",
+  "inputs": ["front.png", "left.png", "right.png", "back.png"],
+  "candidates": {
+    "head1p5m": {
+      "triangles": 1500000,
+      "sha256": "65f3e1e9378db30824e40d7c2ceee02443ca7226674de6df5ef29c64d74c79bf",
+      "use": "Blender close-up master"
+    },
+    "head500k": {
+      "triangles": 499968,
+      "sha256": "e06f96d4dcc064c9446f8a393b8e40bec60d1ab9b19a1ea2c3af66c6894b12ff",
+      "use": "medium-detail backup"
+    },
+    "head50k": {
+      "triangles": 49992,
+      "sha256": "8138a236f851904b28e44fa43b163460648fb69d3cfc5019899d38e8afbcdc8b",
+      "use": "Vision Pro composite"
+    },
+    "body50k": {
+      "triangles": 50000,
+      "sha256": "089633b29080063f8fc3bb637d92f7038cb763127606161e3ce1660dbdc72d1c",
+      "use": "Vision Pro composite"
+    },
+    "body500k": {
+      "triangles": 500000,
+      "vertices": 304283,
+      "sha256": "3fd7199e46ead7c24d7ccca9131238240398e1d33f47b53a0b1bdc34988f59fa",
+      "use": "Blender close-up master"
+    }
+  },
+  "selected": {
+    "visionPro": {
+      "triangles": 91573,
+      "heightMetres": 1.62,
+      "asset": "../VisionProPortal/VisionProPortal/Resources/Character.usdz"
+    },
+    "blenderMaster": {
+      "triangles": 1916499,
+      "sha256": "f9920f8127b6793fe32b1ce3de55742848532b7d4eebdd6fcbd731e8bceaa827"
+    }
+  },
+  "quotaAfterLatestGeneration": 17,
+  "note": "The newer Studio surface displayed a separate 30-run counter; the stable image-to-3D surface deducted the body 500k generation from 18 to 17."
+}

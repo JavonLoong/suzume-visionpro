@@ -393,6 +393,60 @@
       "complianceErrors": [],
       "complianceFailedChecks": [],
       "complianceWarnings": []
+    },
+    "Character": {
+      "bytes": 22268636,
+      "sha256": "c68a07f571ad65ee9ef63dc91e5d4b342ba34f729efb79103459eb7e7163d7d4",
+      "upAxis": "Y",
+      "metersPerUnit": 1,
+      "triangles": 91573,
+      "meshes": [
+        {
+          "path": "/SuzumeCharacter/SuzumeCharacter_Suzume_VisionPro_Body_50k/node_0",
+          "vertices": 27107,
+          "triangles": 41581,
+          "bounds": [
+            [
+              -0.28486984968185425,
+              4.967469987371722e-08,
+              -0.1589859724044803
+            ],
+            [
+              0.28486984968185425,
+              1.3208928108215334,
+              0.1473261117935181
+            ]
+          ]
+        },
+        {
+          "path": "/SuzumeCharacter/SuzumeCharacter_Suzume_VisionPro_Head_50k/node_0_001",
+          "vertices": 36785,
+          "triangles": 49992,
+          "bounds": [
+            [
+              -0.10980106145143509,
+              1.210355043411255,
+              -0.15303018689155617
+            ],
+            [
+              0.11046380549669266,
+              1.620000004768372,
+              0.1589862704277036
+            ]
+          ]
+        }
+      ],
+      "textures": [
+        "./textures/01_texture_pbr_20250901.png",
+        "./textures/03_texture_pbr_20250901_metallic_texture_pbr_20250901_roughness.png",
+        "./textures/05_texture_pbr_20250901_normal.png",
+        "./textures/02_texture_pbr_20250901_001.png",
+        "./textures/04_texture_pbr_20250901_metallic_texture_pbr_20250901_roughness_001.png",
+        "./textures/06_texture_pbr_20250901_normal_001.png"
+      ],
+      "complianceErrors": [],
+      "complianceFailedChecks": [],
+      "complianceWarnings": []
     }
   },
   "xcodeCompiled": false,

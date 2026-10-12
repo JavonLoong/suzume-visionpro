@@ -58,11 +58,29 @@
       "sha256": "31773ad1e891cabe02fde3eff65c84eb9311c5c92b30324effda17c3a9961034",
       "triangles": 3372,
       "objects": 7
+    },
+    "Character.usdz": {
+      "bytes": 22268636,
+      "sha256": "c68a07f571ad65ee9ef63dc91e5d4b342ba34f729efb79103459eb7e7163d7d4",
+      "triangles": 91573,
+      "objects": 2
     }
   },
   "limitations": [
     "Distant procedural clouds and sky are baked to a panorama; ground, flowers, grass, stars and door remain geometry.",
     "Low volumetric mist and clipped/rigged character fragments are excluded.",
     "Manual alignment only. No device build, tracking or performance validation on this Windows host."
-  ]
+  ],
+  "character": {
+    "source": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\visionpro-character\\Suzume_character_VisionPro_merged_100k.glb",
+    "sourceSHA256": "f24333f629cf15dbfa99d286f5c336ebfcc473d3d48a3f31eb465d510a9f0a36",
+    "heightMetres": 1.62,
+    "origin": "feet centre",
+    "placement": [
+      0.0,
+      0.0,
+      -2.7
+    ],
+    "yawDegrees": 180.0
+  }
 }

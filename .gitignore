@@ -11,6 +11,7 @@ xcuserdata/
 node_modules/
 python-deps/
 color-pipeline-deps/
+suzume-scene-prep/visionpro/validation/character-textures/
 *.log
 userpref*.blend
 *.blend1

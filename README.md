@@ -2,12 +2,12 @@
 
 将已有的铃芽之旅三维场景适配为 visionOS 门户体验：通过实体门洞观看门后的花海与星空，门洞之外保留现实透视。这个仓库同时保存建模脚本、历代场景、人物多视图资料和离线预览，方便继续开发。
 
-**当前是开发快照，尚未经过 Xcode 编译或 Vision Pro 实测。** 本地 USDZ 结构校验已通过；门框定位、现实门扇和行人的遮挡、运行性能仍需后续验证。桌面网页预览不等于头显效果。
+**当前 v0.3 是可交给实验室 Mac 的开发快照，尚未经过 Xcode 编译或 Vision Pro 实测。** 花海、门框、门扇和轻量角色四份 USDZ 的结构校验已通过；门框定位、现实门扇和行人的遮挡、运行性能仍需后续验证。桌面网页预览不等于头显效果。
 
 ## 从这里开始
 
-- **没有 Mac 或头显：** 下载 [Vision Pro 适配离线预览](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/VisionPro-preview-offline.html)，在桌面浏览器中打开。
-- **继续 visionOS 开发：** 打开 [Xcode 工程](suzume-scene-prep/visionpro/VisionProPortal/VisionProPortal.xcodeproj)。工程已包含花海、门框、门扇 USDZ、天空纹理和尺寸清单。
+- **桌面检查 v57：** 下载 [v57 完整交付包](suzume-scene-prep/visionpro/铃芽之旅_VisionPro适配_v57.zip)，或直接打开 [单文件离线预览](suzume-scene-prep/visionpro/铃芽之旅_VisionPro适配_离线预览.html)。
+- **继续 visionOS 开发：** 打开 [Xcode 工程](suzume-scene-prep/visionpro/VisionProPortal/VisionProPortal.xcodeproj)。工程已包含花海、门框、门扇、轻量角色 USDZ、天空纹理和尺寸清单。
 - **继续 Blender 建模：** 下载 [v56 源模型包](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/01-source-v56.zip)，包括原始命名版与中文版 `.blend`。
 - **查看之前交付的场景：** 下载 [离线 HTML 合集](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/02-offline-html.zip)，包含 v49、v38、v37 和全部场景整合页。
 
@@ -42,7 +42,7 @@ bash build-on-mac.sh
 
 当前应用支持进入 / 退出混合沉浸空间、按比例调整门洞尺寸、手动调节位置和朝向、选择门框显示或遮挡模式。保存的位置是会话坐标参数，不是已实现的持久空间锚点。
 
-门后世界保留地形、花草和星星的三维几何；远处天空和云层采用烘焙纹理，低空体积雾与局部角色片段没有纳入这版运行资产。门扇作为独立资源归档，不代表已完成现实门扇跟踪。
+门后世界保留地形、花草、星星和铃芽角色的三维几何；角色高 1.62 m、91,573 个三角面，位于门后 2.7 m。远处天空和云层采用烘焙纹理，低空体积雾没有纳入这版运行资产。门扇作为独立资源归档，不代表已完成现实门扇跟踪。
 
 ## 完整资产归档
 

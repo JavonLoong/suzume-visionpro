@@ -16,7 +16,7 @@ source_refs=[];source_build=[];resource_refs=[];resource_build=[]
 for path in sorted(APP.glob('*.swift')):
     ref=add('file:'+path.name,'PBXFileReference',lastKnownFileType='sourcecode.swift',path=path.name,sourceTree='<group>')
     source_refs.append(ref);source_build.append(add('build:'+path.name,'PBXBuildFile',fileRef=ref))
-for name in ('DreamWorld.usdz','DoorFrame.usdz','DoorLeaf.usdz','NightSky.png','AssetManifest.json'):
+for name in ('DreamWorld.usdz','DoorFrame.usdz','DoorLeaf.usdz','Character.usdz','NightSky.png','AssetManifest.json'):
     path=APP/'Resources'/name
     assert path.is_file(),path
     kind={'.usdz':'file.usdz','.png':'image.png','.json':'text.json'}[path.suffix]
@@ -40,7 +40,7 @@ frameworks=add('frameworks-phase','PBXFrameworksBuildPhase',buildActionMask=2147
 base={'PRODUCT_NAME':'$(TARGET_NAME)','PRODUCT_BUNDLE_IDENTIFIER':'com.javonloong.SuzumePortal',
  'INFOPLIST_FILE':'VisionProPortal/Info.plist','GENERATE_INFOPLIST_FILE':'NO','SDKROOT':'xros',
  'SUPPORTED_PLATFORMS':'xros xrsimulator','TARGETED_DEVICE_FAMILY':'7','XROS_DEPLOYMENT_TARGET':'2.0',
- 'SWIFT_VERSION':'5.0','CURRENT_PROJECT_VERSION':'2','MARKETING_VERSION':'0.2','CODE_SIGN_STYLE':'Automatic',
+ 'SWIFT_VERSION':'5.0','CURRENT_PROJECT_VERSION':'3','MARKETING_VERSION':'0.3','CODE_SIGN_STYLE':'Automatic',
  'LD_RUNPATH_SEARCH_PATHS':['$(inherited)','@executable_path/Frameworks']}
 configs=[];projects=[]
 for name in ('Debug','Release'):

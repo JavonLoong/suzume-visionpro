@@ -1,76 +1,38 @@
-> 历史草案：此文保留 Cursor 初始方案，部分占位描述和 API 示例已被后续工程替换。当前代码、资源和验证状态见[仓库首页](../../README.md)。
+# v56 到 Vision Pro 的可复现导出
 
-# USDZ 导出流程 — 把铃芽建模转成 RealityKit 资产
+源文件：`../character-hunyuan-v1/poster-right-bow-v56/Suzume_dual_scene_right_bow_v56.blend`。工具只读取源模型，不保存或覆盖它。
 
-RealityKit / visionOS 原生的 3D 资产格式是 **USDZ**（或 `Entity.load(named:)` 支持的 `.usdz` / `.usda`）。现有建模在 `suzume-scene-prep/character-hunyuan-v1/` 下，是 `.blend`（Blender）和 `.glb` 文件。下面是转成 USDZ 的三条路，按可靠性排序。
+## 导出与验证
 
----
+Windows PowerShell 示例，在 `visionpro` 目录执行：
 
-## 路线一：Blender 直接导出（推荐，本机可做）
-
-Blender 4.x 原生支持 USD 导出。
-
-1. 打开最新场景，例如门后梦幻世界：
-   `character-hunyuan-v1/movie-night-v30/Suzume_scene_movie_night_v30.blend`
-   或海报双场景：
-   `character-hunyuan-v1/poster-right-bow-v56/Suzume_dual_scene_right_bow_v56.blend`
-2. 确认要导出的对象（建议只导出「门后世界」，不含门外园林）：
-   - 门后星空 / 花海 / 水面夜景部分；
-   - 白门 + 门扇单独导出（供 `DoorOcclusion` 兜底）。
-3. `File → Export → Universal Scene Description (.usdc/.usda)`。
-   - 选 `.usda`（文本格式，便于检查）或 `.usdc`（二进制）。
-   - 勾选 **Selection Only**（只导出选中对象）。
-4. 导出得到 `DreamWorld.usda`、`SuzumeDoor.usda`。
-
-**注意**：Blender 导出的 USD 通常不带 USDZ 打包（贴图可能外置）。如果模型贴图多，见路线三。
-
-## 路线二：Reality Converter（macOS，最稳）
-
-Apple 官方免费的 Reality Converter 能把 `.obj` / `.gltf` / `.usd` 等转成 `.usdz`，并正确打包贴图。
-
-1. 在 Blender 里 `Export → glTF 2.0 (.glb)` 导出中间格式（贴图会内嵌）。
-2. Mac 上打开 Reality Converter（App Store 下载），拖入 `.glb`。
-3. 调整材质、尺寸、坐标，导出为 `.usdz`。
-
-这是贴图最不容易丢的路线，但需要 Mac。
-
-## 路线三：本机 Python + USD 工具链（进阶）
-
-若必须全在 Windows 完成，可装 Pixar 官方 USD 的 Python 绑定（`usd-core` pip 包）和 `usdzip`：
-
-```bash
-pip install usd-core
+```powershell
+& 'C:\Program Files\Blender Foundation\Blender 5.0\blender.exe' --background --threads 4 --python-exit-code 1 '..\character-hunyuan-v1\poster-right-bow-v56\Suzume_dual_scene_right_bow_v56.blend' --python 'tools\export_v56_assets.py'
+& 'C:\Program Files\Blender Foundation\Blender 5.0\blender.exe' --background --python-exit-code 1 --python 'tools\export_character_asset.py'
+& 'C:\Program Files\Blender Foundation\Blender 5.0\blender.exe' --background --threads 4 --python-exit-code 1 --python 'tools\validate_assets.py'
+python tools\make_xcode_project.py
+python tools\build_preview.py
+node tools\verify_preview.cjs
 ```
 
-然后：
-1. 先由 Blender 导出 `.usda` / `.usdc`（路线一）。
-2. 用 `usdzip` 把 `.usda` 与其依赖贴图打包成 `.usdz`：
-   ```bash
-   usdzip DreamWorld.usdz DreamWorld.usda
-   ```
+前两步使用 Blender 5 自带的 bpy 和 OpenUSD。最后一步需要 Node.js、Playwright 和脚本中指定的 Chrome 路径。Swift/Xcode 构建是单独的 Mac 阶段。
 
-**局限**：`usd-core` 的 `usdzip` 打包命令、贴图解析对 Blender 导出的复杂材质支持有限，失败率高。优先路线一、二。
+重导出脚本按原仓库目录运行，需要原始 v56 和已有 Three.js 依赖；交付压缩包不重复包含大型源 blend。打开现成 HTML 或在 Mac 构建已有 Xcode 工程不需要这些源依赖。
 
-## 导出后的坐标与尺度核对（重要）
+`export_v56_assets.py` 在源“Night meadow through the door”场景提取花海，在“Official poster courtyard v38”提取门洞与门框。每次取源对象世界矩阵前显式激活对应场景、更新依赖图，避免跨场景读取陈旧父级矩阵，把地面导出成竖直面。
 
-现有建模约定：**门槛中心为原点，Z 向上，门高 2.10 m（占位）**。而 RealityKit 默认坐标也是米制、Y 向上（或 visionOS 用 Z 向上）。导出后要核对：
+Blender 5 可直接输出 `.usdz`，本流程不需要 Reality Converter。导出开启 USD Preview Surface、贴图打包、米制与 Y-up 转换；不导出相机、源灯光、骨架、体积节点或 MaterialX。
 
-1. **单位**：确认 USD 文件里 1 单位 = 1 米。Blender 导出时选 scale 1.0，别用 cm。
-2. **朝向**：Blender 的 Z 向上 vs USD/RealityKit 的 Y 向上。导出时在 Blender 里把场景转成 Y 向上，或导出后在 USD 里加 `-Z→Y` 的旋转。
-3. **门洞尺寸**：导出的门洞净开口要与 `PortalConfig.doorWidth/doorHeight` 一致；不一致就在 Blender 里量好再改 `PortalConfig`。
+`validate_assets.py` 使用 `UsdUtils.ComplianceChecker(arkit=True)`；同时检查未解析的纹理引用、64 字节包对齐、单位、地面轴向和源文件哈希。验证后从**已交付的 USDZ**回读，再导出 GLB 供桌面预览使用。
 
-## 分件清单（对应需求「区分三类模型」）
+## 天空缓存
 
-| 用途 | 资产 | 说明 |
-|---|---|---|
-| 实体打印参考 | 白门、门框、砖基、园林构件 | 视觉模型 ≠ 可制造模型，打印前另做拆件/厚度/支撑 |
-| 门后实时渲染 | 星空/花海/水面夜景 | 给 portal 的 target 世界，导出 USDZ |
-| 对齐+遮挡兜底 | 门框净开口、门扇 | 简化对应模型，导出 USDZ 供 `DoorOcclusion` |
+`NightSky.png` 与 `validation/sky_clean_v2.json` 构成当前天空缓存。源天空或源文件变化后，移走这两个文件再导出，以重新烘焙。改变门洞、地形或植物时也应重新运行完整验证。
 
-## 落地步骤小结
+## 工程生成
 
-1. 本机：Blender 导出门后世界 + 白门 → `.usda`。
-2. （可选）Mac Reality Converter → `.usdz`（贴图最稳）。
-3. 把 `.usdz` 放进 `VisionProPortal/VisionProPortal/Resources/`。
-4. 改 `DreamWorldBuilder.swift` / `DoorOcclusion.swift`，用 `Entity.load(named:)` 加载。
-5. 在 Vision Pro 上核对坐标、尺度、门洞对齐。
+`export_character_asset.py` 把合成 GLB 规范化到脚底中心、1.62 m、Y-up，并将六张源 4K 贴图缩至 2K 后重新打包为 `Character.usdz`。
+
+`make_xcode_project.py` 生成原生 `.xcodeproj`、共享 scheme 与 Info.plist，包含 7 个 Swift 文件和 6 个运行资源，不依赖安装 XcodeGen。`project.yml` 仍作为可选的 XcodeGen 描述保留。
+
+工程生成成功只是文件结构就绪，不代表 Swift 编译通过。Mac 上使用 `VisionProPortal/build-on-mac.sh` 执行实际模拟器构建。

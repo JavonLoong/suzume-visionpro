@@ -1,77 +1,59 @@
-> 历史草案：此文保留 Cursor 初始方案，部分占位描述和 API 示例已被后续工程替换。当前代码、资源和验证状态见[仓库首页](../../README.md)。
+# 铃芽之旅 · Apple Vision Pro 适配 v0.3
 
-# 铃芽之旅 · 梦幻门（visionOS 门户体验）
+基于 v56 的门框、门扇和花海已经转换为 USDZ；混元 3D 四视图角色也已做成独立轻量 USDZ，并作为 `WorldComponent` 的子实体放在门后 2.7 米处。实验室已有 Mac 和 Vision Pro，下一阶段可以直接进入 Xcode 构建与实机校准。**当前 Windows 交付尚未声称已通过 Xcode 编译或头显验收。**
 
-把「实体白门」和「门后梦幻世界」结合起来的 Apple Vision Pro 应用：戴上眼镜，透过真实门洞看到门后的星空 / 花海 / 水面世界，门外保持现实透视。
+## 现在可以查看
 
-> 重要：visionOS 应用只能在 **macOS + Xcode 16+** 上构建，并在 **Vision Pro 真机（或 Vision Pro 模拟器）** 上运行。本仓库提供完整 Swift 源码、技术方案和 USDZ 导出流程，但**无法在 Windows 上编译、上机**。
+- 双击 `铃芽之旅_VisionPro适配_离线预览.html`：独立文件，无需端口、服务器或联网。可以左右移动、调整观察高度与距离、查看完整花海。
+- 预览使用交付 USDZ 回读得到的几何，门外网格仅代表现实空间。这是桌面几何预览，不是 visionOS 模拟器。
+- `validation/portal-front.png`、`portal-side.png`、`world-full.png`：已检查的画面。
 
-## 一、文件清单
+## 交付内容
 
-```
-visionpro/
-├── 技术方案.md                  # 需求 → 实现方案（对齐/遮挡/视差）
-├── USDZ导出流程.md              # 把 .blend 场景导出成 RealityKit 资产
-├── README.md                    # 本文件
-└── VisionProPortal/
-    └── VisionProPortal/
-        ├── VisionProPortalApp.swift    # @main 入口
-        ├── ContentView.swift           # 主窗口（进入/退出）
-        ├── PortalImmersiveView.swift   # 沉浸空间视图
-        ├── PortalSystem.swift          # PortalComponent 核心组装
-        ├── DreamWorldBuilder.swift     # 门后梦幻世界（星空/水面/花海）
-        ├── DoorOcclusion.swift         # 虚拟门框+门扇（遮挡兜底）
-        └── PortalConfig.swift          # 所有可调参数（实机只改这里）
-```
+| 文件 | 用途 |
+| --- | --- |
+| `VisionProPortal/VisionProPortal.xcodeproj` | 可交给 Mac 上 Xcode 打开的原生工程 |
+| `VisionProPortal/VisionProPortal/*.swift` | RealityKit 门户、加载、校准与状态处理源码 |
+| `Resources/DreamWorld.usdz` | v56 花海、地形、三维星点、远景天空；378,100 个三角面 |
+| `Resources/DoorFrame.usdz` | 原比例门框；964 个三角面 |
+| `Resources/DoorLeaf.usdz` | 独立门扇；3,372 个三角面；当前应用不自动显示或跟踪门扇 |
+| `Resources/Character.usdz` | 混元四视图合成的轻量铃芽角色；91,573 个三角面；1.62 m；22.3 MB |
+| `Resources/NightSky.png` | 从源场景烘焙的远景天空与环境照明输入 |
+| `Resources/AssetManifest.json` | 源文件哈希、尺寸、导出数量与简化记录 |
+| `validation/asset_validation.json` | USDZ 包、坐标、资源引用和合规检查结果 |
 
-## 二、在 Mac 上组装（两种方式任选）
+表中 `Resources` 位于 `VisionProPortal/VisionProPortal/Resources`。
 
-### 方式 A：XcodeGen（推荐，一键生成工程）
+## 已做的适配
 
-1. 安装 XcodeGen：`brew install xcodegen`
-2. 在本目录运行：`xcodegen generate`
-3. 双击生成的 `VisionProPortal.xcodeproj` 打开。
+1. 使用 `PortalMaterial + PortalComponent + WorldComponent`，门后世界加入实际实体树。门洞局部原点与模型统一为门槛中点，避免平面中心与模型底部错位。
+2. 模型统一为米、Y 向上、朝 -Z 看入门内。源净开口约 1.42301 × 3.40；默认净高缩放至 2.10 m，净宽为 0.878918 m。宽、高与世界一起等比缩放。
+3. 真实几何导出为移动端候选版本：2,500 朵花、对应的 2,500 根花茎与 5,000 组草，按固定种子选择并优先保留近处细节。原始 v56 未改动。
+4. Cycles 的程序天空与远景体积云转换为可移植纹理；近处地形、花草和星点仍是几何。草地颜色烘焙到纹理；门框门扇采用源 UV 贴图和基础 PBR 材质。材质效果不等同于原 Cycles 渲染。
+5. 混元 3D 生成分成两档：191.65 万三角面的 Blender 近景母版，以及 91,573 三角面的 Vision Pro 角色。实机资产把贴图降至 2K，USDZ 从 55.7 MB 降至 22.3 MB。
+6. 角色属于门后 `WorldComponent`，和花海使用同一 IBL，只通过门户显示；离线门洞预览也使用同一份交付 USDZ 回读几何。
+7. 主界面中文，加入位置、门槛高度、朝向、净高、照明调节，以及显示门框／仅遮挡／隐藏门框三种模式。
+8. 异步加载显示真实错误；进入沉浸空间区分成功、取消与失败；离开时清理实体。参数可保存，但保存参数不是持久空间锚点。
 
-（`project.yml` 已写好，见仓库根；若你没装 XcodeGen，用方式 B。）
+## 已验证与待验证
 
-### 方式 B：Xcode 手动新建（最稳）
+已通过四份 USDZ 的 OpenUSD ARKit 合规检查，错误、失败项和警告均为 0；验证了贴图解析、单位、Y 轴朝向、地形水平、角色 1.62 m 身高、角色三角面预算以及 USDZ 压缩包格式。离线 HTML 在复制到独立目录并断网的 Chrome 中通过加载与视角切换检查，无 HTTP 请求或浏览器错误。源 v56 SHA-256 与导出前一致。
 
-1. Xcode → File → New → Project → **visionOS → App**。
-2. 模板选 **Immersive Space**（或 Window），语言 Swift，命名 `VisionProPortal`。
-3. 用本仓库 `VisionProPortal/` 下的同名 `.swift` 文件**覆盖**模板生成的同名文件（App、ContentView、ImmersiveView）。
-4. 把 `PortalSystem.swift`、`DreamWorldBuilder.swift`、`DoorOcclusion.swift`、`PortalConfig.swift` **拖进** Xcode 项目（勾选 Copy items if needed）。
-5. 若模板没有 `ImmersiveSpace(id:)`，按 `VisionProPortalApp.swift` 里的写法补上 `ImmersiveSpace` 和 `.immersionStyle(.mixed)`。
+尚待 Mac/头显验证：Swift 类型检查与 Xcode 构建、RealityKit 实际材质、系统遮挡行为、头部视差、性能与稳定定位。本地几何检查不替代这些验证。
 
-## 三、运行
+尚未开发：实体门识别、自动对齐、跨会话世界锚点、活动门扇或真实行人自动遮挡、多人同步，以及人跨门后切换整片沉浸世界。当前方案只针对已确认的“从实体门洞看另一个三维世界”。
 
-1. 选择运行目标：`Apple Vision Pro`（真机）或 `Vision Pro Simulator`（模拟器，无需设备）。
-2. 点 Run。
-3. 主窗口点「进入梦幻门」，即进入混合沉浸空间。
-4. 透过门洞应看到门后的星空 / 花海 / 水面；门外是现实（模拟器里是虚拟环境）。
+## 以后有 Mac 时
 
-## 四、替换成真正的建模资产（USDZ）
+1. 安装带 visionOS SDK 的 Xcode 16 或更新版本；项目最低目标 visionOS 2.0。
+2. 打开 `VisionProPortal/VisionProPortal.xcodeproj`。无需先安装 XcodeGen。
+3. 或在工程目录执行 `bash build-on-mac.sh`，脚本进行无需签名的模拟器构建，结果保存到 `BuildLogs/simulator-build.log`。
+4. 模拟器构建通过后，再配置个人开发者签名和头显进行测试。对齐时先显示门框，将四个内角与实体门重合，再选“门框仅作遮挡”。
 
-当前梦幻世界是程序化几何（占位）。要接入现有铃芽建模：
+初次进入位置为当前沉浸空间原点前方 2 m。重新进入、系统重新定位或改变实体安装位置后，需要重新核对门洞；本版本不声称具备永久定位。
 
-1. 按 `USDZ导出流程.md`，把门后梦幻世界导出成 `DreamWorld.usdz`，把白门/门扇导出成 `SuzumeDoor.usdz`。
-2. 把 `.usdz` 放进 `VisionProPortal/VisionProPortal/Resources/`（或 RealityKitContent 包）。
-3. 在 `DreamWorldBuilder.build()` 里，把 `makeStarField()/makeWater()/makeFlowerField()` 换成：
-   ```swift
-   if let asset = try? await Entity.load(named: "DreamWorld") {
-       world.addChild(asset)
-   }
-   ```
-4. 在 `DoorOcclusion.makeDoorAssembly()` 里，把程序化门框/门扇换成加载 `SuzumeDoor.usdz`。
+## 继续开发
 
-## 五、实机校准（必须戴真机做）
+见 `技术方案.md`、`USDZ导出流程.md` 和 `续接记录.md`。旧 Cursor 原型保留在 `cursor-original-source-20261011.zip`。
 
-1. 打开 app，进入沉浸空间。
-2. 改 `PortalConfig.swift` 里的 `portalPosition` / `portalRotationY` / `doorWidth` / `doorHeight`，把虚拟门洞四角对齐到实体门框四角。
-3. 确认：转头、左右移动、靠近时，门后世界有正确视差且稳定留在门框内。
-4. 若门扇/人会穿帮，按 `技术方案.md` 第 5 节逐步升级遮挡方案（虚拟门扇 → Scene Reconstruction → OcclusionMaterial）。
-
-## 六、已知边界（诚实说明）
-
-- 本仓库代码**未经过编译验证**（Windows 无 Xcode）。首次构建如遇 API 名称差异（不同 Xcode/RealityKit 版本），按编译器提示微调即可。
-- 「实体门对齐」「真人遮挡虚拟世界」**必须在实机验证**，无法在代码里保证。
-- 需求文档里「门扇能否活动、是否允许跨门进入、用电影哪一幕、是否多人观看」均为**待确认项**，本代码默认：门扇关闭、只门外观看、单人。
+官方依据：[RealityKit PortalComponent](https://developer.apple.com/documentation/realitykit/portalcomponent)、[WorldComponent](https://developer.apple.com/documentation/realitykit/worldcomponent)、[PortalMaterial](https://developer.apple.com/documentation/realitykit/portalmaterial)。
