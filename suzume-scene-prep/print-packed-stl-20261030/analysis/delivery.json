@@ -1,0 +1,15 @@
+{
+  "file": "D:\\虚拟C盘\\第一组.zip",
+  "files": [
+    "第1盘.stl",
+    "第2盘.stl",
+    "第3盘.stl",
+    "第4盘.stl"
+  ],
+  "plates": 4,
+  "total_parts": 66,
+  "base_included": false,
+  "all_plates_slice_successfully": true,
+  "sha256": "fa2d5f4e675380be783da5c603b8c94e57dd23495b6094e0de338f62f3484905",
+  "size_MB": 142.37
+}

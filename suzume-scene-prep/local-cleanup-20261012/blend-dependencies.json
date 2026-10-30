@@ -1,0 +1,98 @@
+[
+  {
+    "file": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\poster-right-bow-v56\\Suzume_dual_scene_right_bow_v56.blend",
+    "scenes": [
+      {
+        "name": "Daytime circular hotel",
+        "objects": 2490
+      },
+      {
+        "name": "Night meadow through the door",
+        "objects": 33
+      },
+      {
+        "name": "Official poster courtyard v38",
+        "objects": 904
+      }
+    ],
+    "externalPaths": [
+      "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene-through-v12.blend",
+      "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\Suzume_Hunyuan31_rigged.blend",
+      "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\head-hunyuan-v1\\clean-v18\\Suzume-clean-head-v18.blend"
+    ],
+    "unpackedImages": []
+  },
+  {
+    "file": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\poster-right-bow-v56\\铃芽之旅_v56_中文版.blend",
+    "scenes": [
+      {
+        "name": "官方海报·庭院场景",
+        "objects": 904
+      },
+      {
+        "name": "白昼·环形废弃酒店",
+        "objects": 2490
+      },
+      {
+        "name": "门后异世界·夜色草原",
+        "objects": 33
+      }
+    ],
+    "externalPaths": [
+      "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene-through-v12.blend",
+      "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\Suzume_Hunyuan31_rigged.blend",
+      "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\head-hunyuan-v1\\clean-v18\\Suzume-clean-head-v18.blend"
+    ],
+    "unpackedImages": []
+  },
+  {
+    "file": "C:\\Users\\15410\\.codex\\visualizations\\2026\\10\\09\\01a11f38-1f1d-7dc0-912a-5e87b1c5f103\\suzume-full-scene-through-v12.blend",
+    "scenes": [
+      {
+        "name": "Daytime circular hotel",
+        "objects": 233
+      },
+      {
+        "name": "Night meadow through the door",
+        "objects": 26
+      }
+    ],
+    "externalPaths": [],
+    "unpackedImages": []
+  },
+  {
+    "file": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\Suzume_Hunyuan31_rigged.blend",
+    "scenes": [
+      {
+        "name": "Scene",
+        "objects": 6
+      }
+    ],
+    "externalPaths": [],
+    "unpackedImages": []
+  },
+  {
+    "file": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\head-hunyuan-v1\\clean-v18\\Suzume-clean-head-v18.blend",
+    "scenes": [
+      {
+        "name": "Clean head comparison v18",
+        "objects": 62
+      }
+    ],
+    "externalPaths": [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.0\\5.0\\datafiles\\assets\\brushes\\essentials_brushes-gp_draw.blend"
+    ],
+    "unpackedImages": []
+  },
+  {
+    "file": "C:\\Program Files\\Blender Foundation\\Blender 5.0\\5.0\\datafiles\\assets\\brushes\\essentials_brushes-gp_draw.blend",
+    "scenes": [
+      {
+        "name": "Scene",
+        "objects": 0
+      }
+    ],
+    "externalPaths": [],
+    "unpackedImages": []
+  }
+]

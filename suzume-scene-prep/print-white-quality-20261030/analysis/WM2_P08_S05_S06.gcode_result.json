@@ -1,0 +1,19 @@
+{
+  "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-white-quality-20261030\\交付文件\\排盘工程\\P08_S05_S06.3mf",
+  "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-white-quality-20261030\\交付文件\\复制到SD卡\\WM2_P08_S05_S06.gcode.3mf",
+  "exit_code": 0,
+  "slicing_seconds": 23.4,
+  "seconds": 11480,
+  "grams": 58.17,
+  "outside": "false",
+  "warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "gcode_files": [
+    "Metadata/plate_1.gcode"
+  ]
+}

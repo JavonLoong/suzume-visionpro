@@ -1,0 +1,16 @@
+{
+  "scanner_candidates": 558,
+  "unclassified_candidates": 0,
+  "projected_cap_checks": [
+    {
+      "normal": [
+        -0.7071067811865476,
+        -0.7071067811865475,
+        0.0
+      ],
+      "offset": 0.12,
+      "area_mm2": 588.6855130564031,
+      "overlap_mm2": 9.094947017729282e-13
+    }
+  ]
+}

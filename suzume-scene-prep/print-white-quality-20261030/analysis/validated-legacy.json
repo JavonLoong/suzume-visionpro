@@ -1,0 +1,71 @@
+[
+  {
+    "id": "S01_钢架",
+    "watertight": true,
+    "normal_consistency": true,
+    "self_intersection_scan_faces": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "removed_tiny_components": 0,
+    "cleaned_face_flags": 53,
+    "volume_mm3": 10652.853761834462,
+    "bounds_mm": [
+      [
+        86.171097,
+        0.12,
+        5.0
+      ],
+      [
+        145.251465,
+        102.651989,
+        104.197739
+      ]
+    ]
+  },
+  {
+    "id": "S02_钢架",
+    "watertight": true,
+    "normal_consistency": true,
+    "self_intersection_scan_faces": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "removed_tiny_components": 4,
+    "cleaned_face_flags": 397,
+    "volume_mm3": 10758.579564806234,
+    "bounds_mm": [
+      [
+        0.12,
+        60.588017,
+        5.0
+      ],
+      [
+        103.587791,
+        145.313477,
+        114.024597
+      ]
+    ]
+  },
+  {
+    "id": "S03_钢架",
+    "watertight": true,
+    "normal_consistency": true,
+    "self_intersection_scan_faces": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "removed_tiny_components": 0,
+    "cleaned_face_flags": 478,
+    "volume_mm3": 9533.159996209206,
+    "bounds_mm": [
+      [
+        -102.63291931152344,
+        84.61859130859375,
+        5.0
+      ],
+      [
+        -0.11999999731779099,
+        145.29678344726562,
+        83.5536880493164
+      ]
+    ]
+  }
+]

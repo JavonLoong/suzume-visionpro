@@ -1,4 +1,38 @@
-# 完整资料下载
+# 完整项目下载
+
+本次快照时间：`2026-10-30T23:44:43.714920+08:00`。共 3,187 个项目文件，其中 1,903 个随 Git 提供。官方 PICO SDK 另按固定提交拉取。
+
+[本次 Release](https://github.com/JavonLoong/suzume-visionpro/releases/tag/complete-project-2026-10-30) · [协同开发说明](COLLABORATION.md) · [逐文件清单](PROJECT_MANIFEST.json)
+
+Pico / Unity 的场景、模型、贴图、脚本和项目设置已直接入库。大型制作文件与安装包按下表下载。
+
+| 下载 | 大小 | 内容 |
+| --- | ---: | --- |
+| [scene-updates-01.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/scene-updates-01.zip) | 468.9 MiB | 新增或更新的 Blender / 场景制作资料 |
+| [print-project-01.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/print-project-01.zip) | 461.2 MiB | 打印模型、切片文件和检查资料；具体状态见包内记录 |
+| [print-project-02.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/print-project-02.zip) | 839.3 MiB | 打印模型、切片文件和检查资料；具体状态见包内记录 |
+| [print-project-03.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/print-project-03.zip) | 60.3 MiB | 打印模型、切片文件和检查资料；具体状态见包内记录 |
+| [pico-installers-v1.11-01.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/pico-installers-v1.11-01.zip) | 74.5 MiB | Pico APK 安装包；版本与实测状态见 Release 说明 |
+| [print-updates-evening-01.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/print-updates-evening-01.zip) | 541.7 MiB | 项目资料 |
+| [print-updates-evening-02.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/print-updates-evening-02.zip) | 769.8 MiB | 项目资料 |
+| [print-updates-evening-03.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/print-updates-evening-03.zip) | 15.1 MiB | 项目资料 |
+
+每个 ZIP 都是独立文件，不是需要拼接的分卷。旧归档中未改动的文件继续引用原下载地址。
+
+推荐按本次清单恢复，避免把历史包里的旧文件覆盖到当前代码上：
+
+```shell
+python tools/project_assets.py
+python tools/project_assets.py --restore
+python tools/project_assets.py --verify
+```
+
+下载工具会校验整个压缩包和恢复后的文件，不覆盖已有修改。PICO SDK 使用 `python tools/prepare_pico.py` 准备。
+
+[本次下载文件校验值](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/SHA256SUMS.txt)
+
+## 2026-10-11 历史完整归档
+
 
 代码、当前 visionOS 资源与工程文件已在 Git 中。以下大文件归档在同一仓库的 Release。
 

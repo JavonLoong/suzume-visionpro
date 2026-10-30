@@ -1,0 +1,19 @@
+{
+  "bodySource": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\fullbody-candidate-01\\Suzume_fullbody_Hunyuan31_50k.glb",
+  "headSource": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\head-candidate-03\\Suzume_head_Hunyuan31_50k.glb",
+  "bodyCutZ": 0.955,
+  "headScale": 0.28,
+  "headLocation": [
+    -0.0044999998062849045,
+    0.0,
+    0.875
+  ],
+  "dimensions": [
+    0.4118809998035431,
+    0.22987142205238342,
+    1.1711440086364746
+  ],
+  "vertices": 63871,
+  "triangles": 91573,
+  "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\visionpro-character\\Suzume_character_VisionPro_merged_100k.glb"
+}

@@ -1,0 +1,267 @@
+{
+  "validation": [
+    {
+      "plate": "P01_SMALL",
+      "object_count": 50,
+      "all_objects_have_toolpaths": true,
+      "outside": false,
+      "gcode_md5": "a8a38d2e57cdcf4759a837575001dec8",
+      "file_sha256": "1b64b192bb5a4073a34301f7da4594497b99800397d0bfa9f3eda0d9b1e52fa7",
+      "printer_model_id": "BL-P001",
+      "gcode_bytes": 2082869
+    },
+    {
+      "plate": "P02_W01_W02",
+      "object_count": 2,
+      "all_objects_have_toolpaths": true,
+      "outside": false,
+      "gcode_md5": "4108b6fc9518e51359e0d28fadb23a2d",
+      "file_sha256": "9cfaae0e2f7b7caa43793b6247b6b589e55253056edfef1530f4b4541a587300",
+      "printer_model_id": "BL-P001",
+      "gcode_bytes": 32962322
+    },
+    {
+      "plate": "P03_W03_W04",
+      "object_count": 2,
+      "all_objects_have_toolpaths": true,
+      "outside": false,
+      "gcode_md5": "0bfcf74e4446580336e5f0f23da3c9ba",
+      "file_sha256": "b064fadbe918bb9cb858f4ba519d9cdbe1bfb144688250bb9c1b1d1ab464fdb7",
+      "printer_model_id": "BL-P001",
+      "gcode_bytes": 34006440
+    },
+    {
+      "plate": "P04_W05_W06",
+      "object_count": 2,
+      "all_objects_have_toolpaths": true,
+      "outside": false,
+      "gcode_md5": "af0de5ffc2176dbdc3a715213822ab5c",
+      "file_sha256": "4a3e91530c022e2e31efb65bb647df1878d02cc0686329d1adec6026f258736c",
+      "printer_model_id": "BL-P001",
+      "gcode_bytes": 17727432
+    },
+    {
+      "plate": "P05_W07_W08",
+      "object_count": 2,
+      "all_objects_have_toolpaths": true,
+      "outside": false,
+      "gcode_md5": "bdad83046a1c83e9406fda8305906206",
+      "file_sha256": "36e917e60f5519943a9792f845f9edcdbc9c282fc03053034fc667e7461273a9",
+      "printer_model_id": "BL-P001",
+      "gcode_bytes": 17585470
+    },
+    {
+      "plate": "P06_S01_S02",
+      "object_count": 2,
+      "all_objects_have_toolpaths": true,
+      "outside": false,
+      "gcode_md5": "476f07c6693b81f13fa19a3d1ce11c3b",
+      "file_sha256": "c93c28f21d8d5a2ad3167b7fa144bdfda1bf14992bb3764f3746e3e68c99c075",
+      "printer_model_id": "BL-P001",
+      "gcode_bytes": 9673533
+    },
+    {
+      "plate": "P07_S03_S04",
+      "object_count": 2,
+      "all_objects_have_toolpaths": true,
+      "outside": false,
+      "gcode_md5": "119acc5d79bf36e6d48228748d229c32",
+      "file_sha256": "e13f17a14e40a6a219adad2637e8a1a735e9d320b3bafa06327123d8d0c27220",
+      "printer_model_id": "BL-P001",
+      "gcode_bytes": 8536254
+    },
+    {
+      "plate": "P08_S05_S06",
+      "object_count": 2,
+      "all_objects_have_toolpaths": true,
+      "outside": false,
+      "gcode_md5": "5e773c4f6f75c67137b585c5fa16d5da",
+      "file_sha256": "d1e733698895e526ca006479a04d6a6a7160c2a87ed97618a6a92bb5a6a6db50",
+      "printer_model_id": "BL-P001",
+      "gcode_bytes": 14788790
+    },
+    {
+      "plate": "P09_S07_S08",
+      "object_count": 2,
+      "all_objects_have_toolpaths": true,
+      "outside": false,
+      "gcode_md5": "50244aa22926f12b8730440cf046b64d",
+      "file_sha256": "3ab2fcc9e14bf41432347449d0f69ab67e68a9a0a6d4c34419345ebdef62c8a1",
+      "printer_model_id": "BL-P001",
+      "gcode_bytes": 10020726
+    }
+  ],
+  "slice_results": [
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\排盘工程\\P01_SMALL.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\复制到SD卡\\P01_SMALL.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 3.4,
+      "seconds": 2129,
+      "grams": 7.12,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ]
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\排盘工程\\P02_W01_W02.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\复制到SD卡\\P02_W01_W02.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 28.1,
+      "seconds": 20429,
+      "grams": 131.91,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ]
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\排盘工程\\P03_W03_W04.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\复制到SD卡\\P03_W03_W04.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 26.3,
+      "seconds": 21405,
+      "grams": 148.36,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ]
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\排盘工程\\P04_W05_W06.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\复制到SD卡\\P04_W05_W06.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 17.9,
+      "seconds": 12538,
+      "grams": 88.66,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ]
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\排盘工程\\P05_W07_W08.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\复制到SD卡\\P05_W07_W08.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 18.9,
+      "seconds": 12626,
+      "grams": 88.66,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ]
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\排盘工程\\P06_S01_S02.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\复制到SD卡\\P06_S01_S02.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 9.9,
+      "seconds": 6506,
+      "grams": 35.37,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ]
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\排盘工程\\P07_S03_S04.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\复制到SD卡\\P07_S03_S04.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 9.0,
+      "seconds": 5824,
+      "grams": 29.44,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ]
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\排盘工程\\P08_S05_S06.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\复制到SD卡\\P08_S05_S06.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 12.1,
+      "seconds": 9632,
+      "grams": 54.61,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ]
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\排盘工程\\P09_S07_S08.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\交付文件\\复制到SD卡\\P09_S07_S08.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 9.8,
+      "seconds": 6774,
+      "grams": 36.6,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ]
+    }
+  ]
+}

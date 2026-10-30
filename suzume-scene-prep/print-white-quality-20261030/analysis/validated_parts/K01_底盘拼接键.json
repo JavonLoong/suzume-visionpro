@@ -1,0 +1,78 @@
+{
+  "row": {
+    "id": "K01_底盘拼接键",
+    "category": "连接件",
+    "quantity": 8,
+    "size_mm": [
+      12.0,
+      6.0,
+      2.0
+    ],
+    "triangles": 12,
+    "watertight": true,
+    "volume_mm3": 144.0,
+    "components": 1,
+    "assembly_bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        12.0,
+        6.0,
+        2.0
+      ]
+    ],
+    "assembly_to_print_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stl_sha256": "3ed38586c749466414c917ea2accc7e8fa4db54b13bdf556d6430a7df7f56738"
+  },
+  "report": {
+    "id": "K01_底盘拼接键",
+    "watertight": true,
+    "normal_consistency": true,
+    "self_intersection_scan_faces": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "removed_tiny_components": 0,
+    "cleaned_face_flags": 0,
+    "volume_mm3": 144.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        12.0,
+        6.0,
+        2.0
+      ]
+    ]
+  }
+}

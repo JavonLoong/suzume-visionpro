@@ -1,0 +1,31 @@
+{
+  "model": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\blender-master-character\\Suzume_character_Blender_master_2m.glb",
+  "mesh_count": 2,
+  "vertices": 1134900,
+  "triangles": 1916499,
+  "bounds_min": [
+    -0.21090200543403625,
+    -0.10316028445959091,
+    -3.125193615005628e-08
+  ],
+  "bounds_max": [
+    0.20771299302577972,
+    0.12438692897558212,
+    1.1720675230026245
+  ],
+  "dimensions": [
+    0.4186149835586548,
+    0.22754721343517303,
+    1.1720675230026245
+  ],
+  "materials": [
+    "Material.001",
+    "Material.002"
+  ],
+  "renders": [
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\blender-master-character\\render-y_minus.png",
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\blender-master-character\\render-y_plus.png",
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\blender-master-character\\render-x_minus.png",
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\blender-master-character\\render-x_plus.png"
+  ]
+}

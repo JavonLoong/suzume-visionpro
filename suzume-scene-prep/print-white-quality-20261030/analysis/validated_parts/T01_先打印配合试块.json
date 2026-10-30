@@ -1,0 +1,78 @@
+{
+  "row": {
+    "id": "T01_先打印配合试块",
+    "category": "试装件",
+    "quantity": 1,
+    "size_mm": [
+      38.0,
+      18.0,
+      5.0
+    ],
+    "triangles": 334,
+    "watertight": true,
+    "volume_mm3": 3169.743,
+    "components": 1,
+    "assembly_bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        38.0,
+        18.0,
+        5.0
+      ]
+    ],
+    "assembly_to_print_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stl_sha256": "9d3790482f26243cc12ce0d5534045e77583925e0d672afd97c440b64626cd1c"
+  },
+  "report": {
+    "id": "T01_先打印配合试块",
+    "watertight": true,
+    "normal_consistency": true,
+    "self_intersection_scan_faces": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "removed_tiny_components": 0,
+    "cleaned_face_flags": 0,
+    "volume_mm3": 3169.7429256834926,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        38.0,
+        18.0,
+        5.0
+      ]
+    ]
+  }
+}

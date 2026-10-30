@@ -1,0 +1,10 @@
+{
+  "part": "B02",
+  "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-400mm-20261030\\交付文件\\拓竹X1C工程_逐件\\B02_底盘.3mf",
+  "exit_code": 0,
+  "seconds": 1.6,
+  "sliced_file_exists": true,
+  "gcode_files": [
+    "Metadata/plate_1.gcode"
+  ]
+}

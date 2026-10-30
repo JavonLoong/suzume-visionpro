@@ -1,0 +1,35 @@
+# Unity 生成目录（不入库）
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/_compile_test/
+
+# 编译产物
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# PICO / Android 构建产物
+*.apk
+*.aab
+*.obb

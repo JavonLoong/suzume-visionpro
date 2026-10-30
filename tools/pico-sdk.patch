@@ -1,0 +1,97 @@
+diff --git a/Editor/Unity.XR.PICO.Editor.asmdef b/Editor/Unity.XR.PICO.Editor.asmdef
+index 81ce889..d0f3ed7 100644
+--- a/Editor/Unity.XR.PICO.Editor.asmdef
++++ b/Editor/Unity.XR.PICO.Editor.asmdef
+@@ -11,8 +11,6 @@
+         "Unity.RenderPipelines.Universal.Runtime",
+         "Unity.XR.Interaction.Toolkit",
+         "Unity.InputSystem",
+-        "Unity.XR.Hands.Samples.VisualizerSample",
+-        "Unity.XR.Hands",
+         "Unity.XR.OpenXR",
+         "Unity.XR.OpenXR.Editor",
+         "Pico.Spatializer"
+diff --git a/Runtime/Scripts/OpenXRFeatures/Features/PassthroughFeature.cs b/Runtime/Scripts/OpenXRFeatures/Features/PassthroughFeature.cs
+index 89ded35..aa5a610 100644
+--- a/Runtime/Scripts/OpenXRFeatures/Features/PassthroughFeature.cs
++++ b/Runtime/Scripts/OpenXRFeatures/Features/PassthroughFeature.cs
+@@ -80,6 +80,9 @@ namespace Unity.XR.OpenXR.Features.PICOSupport
+         }
+         protected override void OnSessionBegin(ulong xrSessionId)
+         {
++            // PICO Ultra advertises AlphaBlend. Unity otherwise chooses Opaque,
++            // which can ignore the projection alpha even when its clear color is zero.
++            ConfigureEnvironmentBlend();
+             if (!isRefreshRecenterSpace)
+             {
+                 OpenXRSettings.RefreshRecenterSpace(); 
+@@ -103,6 +106,27 @@ namespace Unity.XR.OpenXR.Features.PICOSupport
+             passthroughPause();
+             isPause = true;
+         }
++
++        // Local reliability fix: the stock property stores intent even if native
++        // initialization failed. Return native results and allow subsequent retries.
++        public static bool EnsureVideoSeeThrough()
++        {
++            ConfigureEnvironmentBlend();
++            bool changed = _enableVideoSeeThrough != 1;
++            _enableVideoSeeThrough = 1;
++            isPause = false;
++            bool ready = EnableSeeThroughManual(true);
++            if (changed && ready) EnableVideoSeeThroughAction?.Invoke(true);
++            return ready;
++        }
++
++        static void ConfigureEnvironmentBlend()
++        {
++            var before = GetEnvironmentBlendMode();
++            SetEnvironmentBlendMode(XrEnvironmentBlendMode.AlphaBlend);
++            var after = GetEnvironmentBlendMode();
++            Debug.Log("[PassthroughNative] environmentBlend=" + before + " -> " + after);
++        }
+         
+         //This interface has been changed to a private interface.
+         //Please use the EnableVideoSeeThrough .
+@@ -116,11 +140,15 @@ namespace Unity.XR.OpenXR.Features.PICOSupport
+             if (!isInit)
+             {
+                 isInit = initializePassthrough();
++                Debug.Log("[PassthroughNative] initialize=" + isInit);
+             }
++            if (!isInit) return false;
+ 
+             if (value)
+             {
+-                createFullScreenLayer();
++                bool created = createFullScreenLayer();
++                Debug.Log("[PassthroughNative] fullScreenLayer=" + created);
++                if (!created) return false;
+                 if (!isPause)
+                 {
+                     passthroughStart();
+@@ -538,4 +566,4 @@ namespace Unity.XR.OpenXR.Features.PICOSupport
+         private static extern void updatePassthroughMeshTransform(int id, GeometryInstanceTransform transform);
+     }
+ }
+-#endif
+\ No newline at end of file
++#endif
+diff --git a/Runtime/Unity.XR.PICO.asmdef b/Runtime/Unity.XR.PICO.asmdef
+index 9102428..2a5e5e5 100644
+--- a/Runtime/Unity.XR.PICO.asmdef
++++ b/Runtime/Unity.XR.PICO.asmdef
+@@ -5,13 +5,9 @@
+         "Unity.XR.Management",
+         "Unity.InputSystem",
+         "Unity.Subsystem.Registration",
+-        "Unity.XR.PICO.LivePreview",
+         "Unity.XR.Interaction.Toolkit",
+-        "Unity.XR.Hands",
+-        "Unity.XR.ARSubsystems",
+         "Unity.XR.OpenXR",
+         "Unity.XR.OpenXR.Editor",
+-        "Unity.XR.CompositionLayers",
+         "Unity.XR.CoreUtils"
+     ],
+     "includePlatforms": [],

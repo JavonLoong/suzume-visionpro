@@ -1,0 +1,107 @@
+[
+  {
+    "part": "sample",
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-400mm-20261030\\交付文件\\00_先试装_白门与连接件_X1C.3mf",
+    "exit_code": 0,
+    "seconds": 1.1,
+    "sliced_file_exists": true,
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "label": "白门与连接件试装盘",
+    "estimated_seconds": 2002,
+    "estimated_grams": 4.89,
+    "outside_print_volume": false,
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ]
+  },
+  {
+    "part": "B02",
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-400mm-20261030\\交付文件\\拓竹X1C工程_逐件\\B02_底盘.3mf",
+    "exit_code": 0,
+    "seconds": 1.6,
+    "sliced_file_exists": true,
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "label": "B02 底盘",
+    "estimated_seconds": 7304,
+    "estimated_grams": 92.88,
+    "outside_print_volume": false,
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ]
+  },
+  {
+    "part": "W02",
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-400mm-20261030\\交付文件\\拓竹X1C工程_逐件\\W02_环形建筑.3mf",
+    "exit_code": 0,
+    "seconds": 30.6,
+    "sliced_file_exists": true,
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "label": "W02 建筑",
+    "estimated_seconds": 31211,
+    "estimated_grams": 77.47,
+    "outside_print_volume": false,
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ]
+  },
+  {
+    "part": "W03",
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-400mm-20261030\\交付文件\\拓竹X1C工程_逐件\\W03_环形建筑.3mf",
+    "exit_code": 0,
+    "seconds": 32.7,
+    "sliced_file_exists": true,
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "label": "W03 建筑",
+    "estimated_seconds": 34916,
+    "estimated_grams": 92.16,
+    "outside_print_volume": false,
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ]
+  },
+  {
+    "part": "S05",
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-400mm-20261030\\交付文件\\拓竹X1C工程_逐件\\S05_钢架.3mf",
+    "exit_code": 0,
+    "seconds": 12.0,
+    "sliced_file_exists": true,
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "label": "S05 最高钢架",
+    "estimated_seconds": 11968,
+    "estimated_grams": 29.99,
+    "outside_print_volume": false,
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ]
+  }
+]

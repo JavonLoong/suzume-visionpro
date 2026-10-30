@@ -1,0 +1,10 @@
+{
+  "part": "sample",
+  "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-400mm-20261030\\交付文件\\00_先试装_白门与连接件_X1C.3mf",
+  "exit_code": 0,
+  "seconds": 1.1,
+  "sliced_file_exists": true,
+  "gcode_files": [
+    "Metadata/plate_1.gcode"
+  ]
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "part": "B01_底盘",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 156774.236,
+    "sha256": "a39eaf20259f145f3ceba672fb751d3a9bebcc088e94ebce5fc2a119eccfb584"
+  },
+  {
+    "part": "B02_底盘",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 156824.223,
+    "sha256": "8c2fb8d2c322a084de089d5d9e7ac78aa3067fb40ae35dca0112e2ff862b46fb"
+  },
+  {
+    "part": "B03_底盘",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 156933.495,
+    "sha256": "5f98a34cc655fb128e3669cae9397990fe64bbe51dd9b4b6c241f52c0caadfc8"
+  },
+  {
+    "part": "B04_底盘",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 156846.414,
+    "sha256": "ee052b7bb5a2cca2f9f405ec6d417637800638d1b37b46262dbb6237e79822de"
+  },
+  {
+    "part": "W01_环形建筑",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 67535.928,
+    "sha256": "83e2c7e6afd2d612b8e188f19feaf94bd4808d26413a2a53614f86d8b0850541"
+  },
+  {
+    "part": "W02_环形建筑",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 60986.944,
+    "sha256": "3007717c3929f988e660ffe8f007c9da7ae2652d29de919b47849bc6388bb53f"
+  },
+  {
+    "part": "W03_环形建筑_附件13",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 21.737,
+    "sha256": "66f20aac125859c213aae39ce0d6dabcdb17772e04e019759f7311ba975375c1"
+  },
+  {
+    "part": "W03_环形建筑",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 72542.792,
+    "sha256": "124936c8bc44b86941fa64cb5b2f970639c13eb68aae2db4a49175a6dcdde9ff"
+  },
+  {
+    "part": "W04_环形建筑_附件05",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 22.054,
+    "sha256": "81b6d4b39800d07b4a9d07cfe974e40251c4579057195ce038739bc8f3c57435"
+  },
+  {
+    "part": "W04_环形建筑",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 78772.87,
+    "sha256": "0f7870b5dfa6d3c713a2360799468016150575d9431f06ac293f89669571a58e"
+  },
+  {
+    "part": "W05_环形建筑",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 67068.608,
+    "sha256": "cf1d76869cf6bb0cf909c77534de3469ee97e5a27c97b2ac6cc049f7e40e922d"
+  },
+  {
+    "part": "W06_环形建筑",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 32927.87,
+    "sha256": "afc69868ffdda32ed59c9b96ce42b64603ea9ce60e4f26caa7b91671a9c2006b"
+  },
+  {
+    "part": "W07_环形建筑",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 32851.016,
+    "sha256": "751eeeac7ffcceb2b7b5586063916a087baaac96ba7f86abb093f1b5d5f3ec81"
+  },
+  {
+    "part": "W08_环形建筑_附件17",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 18.218,
+    "sha256": "858072c987cdf54f8b2aa45e9ebd25d0e2b698ced4f34051a6c949b4f37b306d"
+  },
+  {
+    "part": "W08_环形建筑_附件18",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 19.776,
+    "sha256": "c50029aac17528f9dd2d44cff6ff77e9ab09671a4e7e423994272cac834cb168"
+  },
+  {
+    "part": "W08_环形建筑_附件33",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 22.417,
+    "sha256": "7fba84a7bb1de19262001fe93ff5cd2c5c5a69bb6f247d077dc94e767de6abbe"
+  },
+  {
+    "part": "W08_环形建筑_附件34",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 23.195,
+    "sha256": "97d52100aa9fc6e0502415ba25bc8d257e2d88dfb8d6c9d0bc2a2933655ae4a3"
+  },
+  {
+    "part": "W08_环形建筑_附件35",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 24.875,
+    "sha256": "5e1016948df0d7ded99c4c25413af085a9ebc54984937aca4503dbd36df5d904"
+  },
+  {
+    "part": "W08_环形建筑",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 67589.48,
+    "sha256": "d8dae028d6e049b6df84af36333d7dd3ce5646b10b83b729e232c3d26eb34a22"
+  },
+  {
+    "part": "S01_钢架",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 8251.318,
+    "sha256": "1990b7de9ad71416b44602cd6bc3b6396842697d564d378b0ebea2f931195fb2"
+  },
+  {
+    "part": "S02_钢架",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 7827.571,
+    "sha256": "6f8e03d9e2246f3b6f67f94cbbec51a24255a6a943c4bbe6237b7360ceb5c216"
+  },
+  {
+    "part": "S03_钢架",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 7375.793,
+    "sha256": "de2300fe08751ddb3e40a34a22f417c043fbaf5c2767425c356db2e036934903"
+  },
+  {
+    "part": "S04_钢架",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 8494.297,
+    "sha256": "c54e8279f7786f19bc08c0eb23a8dcca869cc4f97b88a7be6a17f4d43720eca9"
+  },
+  {
+    "part": "S05_钢架",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 9527.665,
+    "sha256": "ea6ce445f7a3fc33523112d949d941dbcb4a249d58fe09c0bba9bf7745a48009"
+  },
+  {
+    "part": "S06_钢架",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 10106.519,
+    "sha256": "a1427c7147e8bc63811be367416135817f28ef08626320fb089c6d57c194ce69"
+  },
+  {
+    "part": "S07_钢架",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 9388.59,
+    "sha256": "cfd7a88eb1abe33fd9687d0a1baf4112c6d6638b83da71ca83a4e2876af7699f"
+  },
+  {
+    "part": "S08_钢架",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 7846.167,
+    "sha256": "a345d33628ef53af2a85d2ade0fcf820b2e2badbf1e00d245127d3d0555f372d"
+  },
+  {
+    "part": "D01_门框与台阶",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 510.599,
+    "sha256": "a06e20aa9c0bc3e272cdd427153d8413c0f82ec1e94147831ce59bb7e79b2070"
+  },
+  {
+    "part": "D02_六格门扇",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 296.043,
+    "sha256": "c520c7579c75f626932fb61a27008db588c93be27d3d2179796310e3afc71696"
+  },
+  {
+    "part": "K01_底盘拼接键",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 144.0,
+    "sha256": "3ed38586c749466414c917ea2accc7e8fa4db54b13bdf556d6430a7df7f56738"
+  },
+  {
+    "part": "K02_模块定位销",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 26.688,
+    "sha256": "a972807e870775d8e197d08e9e1efa06cff595507a200069481a015d39f93ef4"
+  },
+  {
+    "part": "T01_先打印配合试块",
+    "watertight": true,
+    "winding_consistent": true,
+    "bed_fit": true,
+    "units": "millimeter",
+    "volume_mm3": 3169.743,
+    "sha256": "9d3790482f26243cc12ce0d5534045e77583925e0d672afd97c440b64626cd1c"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\01-source-v56.zip",
+    "bytes": 434702186,
+    "sha256": "72c4e5e549ea0b7a80a34d923051b71fa4a2af412f5720f4beb64cf7c2dce758",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/01-source-v56.zip"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\02-offline-html.zip",
+    "bytes": 427305009,
+    "sha256": "39496f1ffcdffef3c8bdf2d4c44cdd4f09c912d73ba81e45981e6a5dfac206db",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/02-offline-html.zip"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\03-blender-history-01.zip",
+    "bytes": 1376070280,
+    "sha256": "4229136a3c1ad8064be63d09c5083a59438e6ab994ce132b708e01bc0b066dac",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/03-blender-history-01.zip"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\03-blender-history-02.zip",
+    "bytes": 1430644697,
+    "sha256": "b50787bd3e7661631cec4554c2eb3cfc90f6cda306d27ad97e62ab6ae74b5993",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/03-blender-history-02.zip"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\03-blender-history-03.zip",
+    "bytes": 1359749935,
+    "sha256": "cda8791c4c8c567467ceca5c2cf21b7b469ca690b17be72b9a5cc79d59effe31",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/03-blender-history-03.zip"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\03-blender-history-04.zip",
+    "bytes": 1440136318,
+    "sha256": "1c2b98b2bbbe72230041c991500d9b30d559881c0deeeeb1f7d75608478a5243",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/03-blender-history-04.zip"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\03-blender-history-05.zip",
+    "bytes": 282967914,
+    "sha256": "6641ff36290497d7a4a531990ad9cd8c2e0bb06399936f5b419db388242d9b74",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/03-blender-history-05.zip"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\04-scene-assets-01.zip",
+    "bytes": 937251637,
+    "sha256": "e0280c3f41fd54ebf1ded280235f93764464017de37413631bd793475732a882",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/04-scene-assets-01.zip"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\04-scene-assets-02.zip",
+    "bytes": 555563944,
+    "sha256": "c986d4148b493e9cf3b495c9a93adfdb77518e3dbd07605d027040303562ac19",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/04-scene-assets-02.zip"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\PUBLICATION_MANIFEST.json",
+    "bytes": 549840,
+    "sha256": "f3464205e892bf2b42c256586efd35768ac061bc1733e4e08da78c0d9c757c88",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/PUBLICATION_MANIFEST.json"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\SHA256SUMS.txt",
+    "bytes": 915,
+    "sha256": "0dc5506755fb4b3effdbe55ba956bea3b91108ab1c36e42eedc0fce3cf49b95e",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/SHA256SUMS.txt"
+  },
+  {
+    "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-visionpro-publishing\\release-assets\\VisionPro-preview-offline.html",
+    "bytes": 20437726,
+    "sha256": "81de27880ffae1989d223e5ffbc410082a4373bcb2d0c666abbee922270c670a",
+    "backup": "https://github.com/JavonLoong/suzume-visionpro/releases/download/project-snapshot-2026-10-11/VisionPro-preview-offline.html"
+  }
+]

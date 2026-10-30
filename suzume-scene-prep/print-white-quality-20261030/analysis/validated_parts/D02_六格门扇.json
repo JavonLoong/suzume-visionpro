@@ -1,0 +1,78 @@
+{
+  "row": {
+    "id": "D02_六格门扇",
+    "category": "白门",
+    "quantity": 1,
+    "size_mm": [
+      11.35,
+      22.3,
+      4.35
+    ],
+    "triangles": 1374,
+    "watertight": true,
+    "volume_mm3": 295.909,
+    "components": 1,
+    "assembly_bounds_mm": [
+      [
+        -4.5,
+        -3.5500000000000003,
+        7.75
+      ],
+      [
+        6.85,
+        0.8,
+        30.05
+      ]
+    ],
+    "assembly_to_print_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        4.5
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        30.05
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        3.5500000000000003
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stl_sha256": "29c482c81577dc8c1c9261da19a85cc59e1ce23875c0ecc0784cfca514e41e41"
+  },
+  "report": {
+    "id": "D02_六格门扇",
+    "watertight": true,
+    "normal_consistency": true,
+    "self_intersection_scan_faces": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "removed_tiny_components": 0,
+    "cleaned_face_flags": 0,
+    "volume_mm3": 295.9093864888376,
+    "bounds_mm": [
+      [
+        -4.5,
+        -3.5500000000000003,
+        7.75
+      ],
+      [
+        6.85,
+        0.8,
+        30.05
+      ]
+    ]
+  }
+}

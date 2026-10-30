@@ -1,0 +1,31 @@
+{
+  "model": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\visionpro-character\\Suzume_character_VisionPro_merged_100k.glb",
+  "mesh_count": 2,
+  "vertices": 63892,
+  "triangles": 91573,
+  "bounds_min": [
+    -0.2087019979953766,
+    -0.10965850949287415,
+    -3.066694631570499e-08
+  ],
+  "bounds_max": [
+    0.2031790018081665,
+    0.12021299451589584,
+    1.1711440086364746
+  ],
+  "dimensions": [
+    0.4118809998035431,
+    0.22987151145935059,
+    1.1711440086364746
+  ],
+  "materials": [
+    "Material.001",
+    "Material.002"
+  ],
+  "renders": [
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\visionpro-character\\render-y_minus.png",
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\visionpro-character\\render-y_plus.png",
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\visionpro-character\\render-x_minus.png",
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\visionpro-character\\render-x_plus.png"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "purpose": "Blender close-up master; do not ship to Vision Pro",
+  "bodySource": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\fullbody-candidate-02\\Suzume_fullbody_Hunyuan31_500k.glb",
+  "bodySourceSHA256": "3fd7199e46ead7c24d7ccca9131238240398e1d33f47b53a0b1bdc34988f59fa",
+  "headSource": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\head-candidate-01\\Suzume_head_Hunyuan31_1p5m.glb",
+  "headSourceSHA256": "65f3e1e9378db30824e40d7c2ceee02443ca7226674de6df5ef29c64d74c79bf",
+  "bodyCutZ": 0.955,
+  "headScale": 0.28,
+  "headLocation": [
+    -0.0044999998062849045,
+    0.0,
+    0.875
+  ],
+  "dimensions": [
+    0.4186149835586548,
+    0.2275470793247223,
+    1.172067403793335
+  ],
+  "vertices": 1134721,
+  "triangles": 1916499,
+  "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\blender-master-character\\Suzume_character_Blender_master_2m.glb",
+  "outputSHA256": "f9920f8127b6793fe32b1ce3de55742848532b7d4eebdd6fcbd731e8bceaa827",
+  "bytes": 114985800
+}

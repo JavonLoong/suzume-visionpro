@@ -87,8 +87,8 @@
     },
     {
       "path": "validation/portal-front.png",
-      "bytes": 233201,
-      "sha256": "bb68f42a5ffe27cdad36ce5880603b754dad1570a21e98527bd4129f50cf8213"
+      "bytes": 233207,
+      "sha256": "43359c143f3c18cf393d9a47ee6462e3c16c5ca920adfb4592bc3063f2303749"
     },
     {
       "path": "validation/portal-side.png",
@@ -98,7 +98,7 @@
     {
       "path": "validation/preview_validation.json",
       "bytes": 712,
-      "sha256": "9a02d0167d29f83fc85065f77b78d969f189a6c84ade58c9bd2e1defbbf1f85e"
+      "sha256": "416cfd0e207656be7eb52e77d3ffb688a9d38de1f566bc9473e58a7bbf18d6eb"
     },
     {
       "path": "validation/sky_clean_v2.json",
@@ -107,8 +107,8 @@
     },
     {
       "path": "validation/world-full.png",
-      "bytes": 531894,
-      "sha256": "b819dd679f432c1dd73ec919f667dee052f20fc214affa363ad5044af865b348"
+      "bytes": 531893,
+      "sha256": "cfd5c3231929b4a7ea2fc901abc44ac16da44eea0ab6446cbbae2827ac987c62"
     },
     {
       "path": "VisionProPortal/build-on-mac.sh",

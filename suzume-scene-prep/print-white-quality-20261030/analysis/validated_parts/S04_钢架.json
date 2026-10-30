@@ -1,0 +1,78 @@
+{
+  "row": {
+    "id": "S04_钢架",
+    "category": "钢架",
+    "quantity": 1,
+    "size_mm": [
+      67.4837,
+      102.5143,
+      94.0826
+    ],
+    "triangles": 96056,
+    "watertight": true,
+    "volume_mm3": 11171.283,
+    "components": 1,
+    "assembly_bounds_mm": [
+      [
+        -145.29769897460938,
+        0.12000000000000455,
+        5.0
+      ],
+      [
+        -77.81395721435547,
+        102.63428848883957,
+        99.08257293701172
+      ]
+    ],
+    "assembly_to_print_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        145.29769897460938
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.12000000000000455
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -5.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stl_sha256": "30413bd1dad8c3fef60641a11a333f6de0099dfc3ef014042ae79b8e7733279e"
+  },
+  "report": {
+    "id": "S04_钢架",
+    "watertight": true,
+    "normal_consistency": true,
+    "self_intersection_scan_faces": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "removed_tiny_components": 0,
+    "cleaned_face_flags": 647,
+    "volume_mm3": 11171.283441821077,
+    "bounds_mm": [
+      [
+        -145.29769897460938,
+        0.12000000000000455,
+        5.0
+      ],
+      [
+        -77.81395721435547,
+        102.63428848883957,
+        99.08257293701172
+      ]
+    ]
+  }
+}

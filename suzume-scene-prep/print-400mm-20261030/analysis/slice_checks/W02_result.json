@@ -1,0 +1,10 @@
+{
+  "part": "W02",
+  "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-400mm-20261030\\交付文件\\拓竹X1C工程_逐件\\W02_环形建筑.3mf",
+  "exit_code": 0,
+  "seconds": 30.6,
+  "sliced_file_exists": true,
+  "gcode_files": [
+    "Metadata/plate_1.gcode"
+  ]
+}

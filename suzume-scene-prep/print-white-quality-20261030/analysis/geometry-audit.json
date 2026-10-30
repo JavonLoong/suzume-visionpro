@@ -1,0 +1,1354 @@
+[
+  {
+    "id": "W01_环形建筑",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 67535.92784059397,
+    "self_intersecting_faces": 58163,
+    "zero_area_faces": 323,
+    "components": [
+      {
+        "volume_mm3": 67535.92784059397,
+        "faces": 286026,
+        "bounds_mm": [
+          [
+            107.20785439993247,
+            0.12000000000000455,
+            5.0
+          ],
+          [
+            196.49816538247697,
+            138.860895646413,
+            54.92523956298828
+          ]
+        ],
+        "extent_mm": [
+          89.2903109825445,
+          138.740895646413,
+          49.92523956298828
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1109,
+    "thickness_percentiles_mm": [
+      0.0019325518364716571,
+      0.019897758829066695,
+      0.4893748380449913,
+      2.4887807236519595
+    ],
+    "sample_fraction_below_04": 0.09467989179440937,
+    "sample_fraction_below_08": 0.13165013525698827,
+    "seconds": 5.2
+  },
+  {
+    "id": "W02_环形建筑",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 60986.94354628113,
+    "self_intersecting_faces": 106871,
+    "zero_area_faces": 122,
+    "components": [
+      {
+        "volume_mm3": 60777.69215567125,
+        "faces": 429184,
+        "bounds_mm": [
+          [
+            0.12000000000000455,
+            107.20785439993244,
+            5.0
+          ],
+          [
+            138.86089564641304,
+            196.4981653867042,
+            56.799522399902344
+          ]
+        ],
+        "extent_mm": [
+          138.74089564641304,
+          89.29031098677174,
+          51.799522399902344
+        ],
+        "touches_mounting_plane": true
+      },
+      {
+        "volume_mm3": 81.1769735186308,
+        "faces": 6888,
+        "bounds_mm": [
+          [
+            51.954044342041016,
+            122.37060546875,
+            6.301618576049805
+          ],
+          [
+            69.92472076416016,
+            140.17181396484375,
+            14.857744216918945
+          ]
+        ],
+        "extent_mm": [
+          17.97067642211914,
+          17.80120849609375,
+          8.55612564086914
+        ],
+        "touches_mounting_plane": false
+      },
+      {
+        "volume_mm3": 0.00015140667457151183,
+        "faces": 4,
+        "bounds_mm": [
+          [
+            56.174278259277344,
+            124.26701354980469,
+            10.614408786684946
+          ],
+          [
+            56.40761091671777,
+            124.48043060302734,
+            10.66827010071447
+          ]
+        ],
+        "extent_mm": [
+          0.2333326574404282,
+          0.21341705322265625,
+          0.053861314029523655
+        ],
+        "touches_mounting_plane": false
+      },
+      {
+        "volume_mm3": 9.54048096080129e-08,
+        "faces": 20,
+        "bounds_mm": [
+          [
+            55.27704625792038,
+            127.51273345947266,
+            11.40191650390625
+          ],
+          [
+            56.00668716430664,
+            128.12073639498786,
+            11.577695846557617
+          ]
+        ],
+        "extent_mm": [
+          0.7296409063862583,
+          0.6080029355152021,
+          0.1757793426513672
+        ],
+        "touches_mounting_plane": false
+      },
+      {
+        "volume_mm3": 128.0742655891203,
+        "faces": 2542,
+        "bounds_mm": [
+          [
+            91.18755340576172,
+            98.3418960571289,
+            5.0
+          ],
+          [
+            103.32225799560547,
+            108.99969482421875,
+            15.409056663513184
+          ]
+        ],
+        "extent_mm": [
+          12.13470458984375,
+          10.657798767089844,
+          10.409056663513184
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1099,
+    "thickness_percentiles_mm": [
+      0.0015453937824534652,
+      0.01683037629530968,
+      0.1671474556347033,
+      2.363380130593225
+    ],
+    "sample_fraction_below_04": 0.13011828935395814,
+    "sample_fraction_below_08": 0.2602365787079163,
+    "seconds": 8.5
+  },
+  {
+    "id": "W03_环形建筑_附件13",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 21.737147680119218,
+    "self_intersecting_faces": 0,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 21.737147680119218,
+        "faces": 68,
+        "bounds_mm": [
+          [
+            -11.259305953979492,
+            164.0197296142578,
+            15.13202953338623
+          ],
+          [
+            -8.165679931640625,
+            165.4480438232422,
+            21.77557373046875
+          ]
+        ],
+        "extent_mm": [
+          3.093626022338867,
+          1.428314208984375,
+          6.6435441970825195
+        ],
+        "touches_mounting_plane": false
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      0.4859952382929165,
+      1.0832011819611198,
+      1.0871154720642455,
+      1.1132561266096588
+    ],
+    "sample_fraction_below_04": 0.006,
+    "sample_fraction_below_08": 0.02,
+    "seconds": 0.0
+  },
+  {
+    "id": "W03_环形建筑",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 72542.79196077462,
+    "self_intersecting_faces": 74543,
+    "zero_area_faces": 286,
+    "components": [
+      {
+        "volume_mm3": 72542.79196077462,
+        "faces": 348454,
+        "bounds_mm": [
+          [
+            -138.86090043804083,
+            107.20785439993247,
+            5.0
+          ],
+          [
+            -0.12000000000000455,
+            196.4989610597628,
+            66.91864776611328
+          ]
+        ],
+        "extent_mm": [
+          138.74090043804082,
+          89.29110665983032,
+          61.91864776611328
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1139,
+    "thickness_percentiles_mm": [
+      0.0044131490282476975,
+      0.16042315712538033,
+      0.5330305015107004,
+      2.4781928514646774
+    ],
+    "sample_fraction_below_04": 0.07023705004389816,
+    "sample_fraction_below_08": 0.1334503950834065,
+    "seconds": 26.5
+  },
+  {
+    "id": "W04_环形建筑_附件05",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 22.05377918653115,
+    "self_intersecting_faces": 0,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 22.05377918653115,
+        "faces": 142,
+        "bounds_mm": [
+          [
+            -140.19931030273438,
+            87.7360610961914,
+            15.065357208251953
+          ],
+          [
+            -137.70704650878906,
+            90.73577880859375,
+            21.84223747253418
+          ]
+        ],
+        "extent_mm": [
+          2.4922637939453125,
+          2.9997177124023438,
+          6.776880264282227
+        ],
+        "touches_mounting_plane": false
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      1.0255586280153162,
+      1.090626258449275,
+      1.104624749725186,
+      1.1385458958700223
+    ],
+    "sample_fraction_below_04": 0.002,
+    "sample_fraction_below_08": 0.004,
+    "seconds": 0.0
+  },
+  {
+    "id": "W04_环形建筑",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 78772.86952201187,
+    "self_intersecting_faces": 45635,
+    "zero_area_faces": 20,
+    "components": [
+      {
+        "volume_mm3": 78772.86952201187,
+        "faces": 298628,
+        "bounds_mm": [
+          [
+            -196.49896105919896,
+            0.12000000000000455,
+            5.0
+          ],
+          [
+            -107.2083699563603,
+            138.86090043804083,
+            61.35124206542969
+          ]
+        ],
+        "extent_mm": [
+          89.29059110283866,
+          138.74090043804082,
+          56.35124206542969
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1140,
+    "thickness_percentiles_mm": [
+      0.002271522253977195,
+      0.030193256558149528,
+      0.6764786346323217,
+      2.4771023567264394
+    ],
+    "sample_fraction_below_04": 0.0868421052631579,
+    "sample_fraction_below_08": 0.10877192982456141,
+    "seconds": 4.8
+  },
+  {
+    "id": "W05_环形建筑",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 67068.60780972386,
+    "self_intersecting_faces": 73290,
+    "zero_area_faces": 240,
+    "components": [
+      {
+        "volume_mm3": 66940.7739031107,
+        "faces": 385996,
+        "bounds_mm": [
+          [
+            -196.49816538247697,
+            -138.86089564641304,
+            5.0
+          ],
+          [
+            -94.63511280209748,
+            -0.11999999999996193,
+            55.2547721862793
+          ]
+        ],
+        "extent_mm": [
+          101.86305258037949,
+          138.74089564641307,
+          50.2547721862793
+        ],
+        "touches_mounting_plane": true
+      },
+      {
+        "volume_mm3": 127.83390661320027,
+        "faces": 3152,
+        "bounds_mm": [
+          [
+            -142.2209930419922,
+            -12.938385963439941,
+            5.205204963684082
+          ],
+          [
+            -134.3153076171875,
+            -0.1289903074502945,
+            14.898063659667969
+          ]
+        ],
+        "extent_mm": [
+          7.9056854248046875,
+          12.809395655989647,
+          9.692858695983887
+        ],
+        "touches_mounting_plane": false
+      }
+    ],
+    "samples": 1134,
+    "thickness_percentiles_mm": [
+      0.0017508948988098866,
+      0.0227769313653999,
+      0.0701209790846426,
+      2.4847029877968083
+    ],
+    "sample_fraction_below_04": 0.12522045855379188,
+    "sample_fraction_below_08": 0.14814814814814814,
+    "seconds": 6.2
+  },
+  {
+    "id": "W06_环形建筑",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 32927.870322357594,
+    "self_intersecting_faces": 24608,
+    "zero_area_faces": 48,
+    "components": [
+      {
+        "volume_mm3": 32927.870322357594,
+        "faces": 227248,
+        "bounds_mm": [
+          [
+            -138.86089566923675,
+            -196.4981653867042,
+            4.999788288267779
+          ],
+          [
+            -0.12000000000000455,
+            -94.63456521992542,
+            43.55812454223633
+          ]
+        ],
+        "extent_mm": [
+          138.74089566923675,
+          101.86360016677877,
+          38.55833625396855
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1120,
+    "thickness_percentiles_mm": [
+      0.0005078653053350373,
+      0.00281814216325701,
+      0.10653971535492776,
+      2.4207437960773617
+    ],
+    "sample_fraction_below_04": 0.13839285714285715,
+    "sample_fraction_below_08": 0.1705357142857143,
+    "seconds": 3.0
+  },
+  {
+    "id": "W07_环形建筑",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 32851.01595933778,
+    "self_intersecting_faces": 16408,
+    "zero_area_faces": 43,
+    "components": [
+      {
+        "volume_mm3": 32851.01595933778,
+        "faces": 151920,
+        "bounds_mm": [
+          [
+            0.11999999999996146,
+            -196.498291015625,
+            5.0
+          ],
+          [
+            138.8609004380408,
+            -94.63511311074473,
+            43.55812454223633
+          ]
+        ],
+        "extent_mm": [
+          138.74090043804085,
+          101.86317790488027,
+          38.55812454223633
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1161,
+    "thickness_percentiles_mm": [
+      0.0006559454705115026,
+      0.003836131103789861,
+      0.13851287234915077,
+      2.5578217746366914
+    ],
+    "sample_fraction_below_04": 0.12058570198105081,
+    "sample_fraction_below_08": 0.17829457364341086,
+    "seconds": 2.2
+  },
+  {
+    "id": "W08_环形建筑_附件17",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 18.21757924110595,
+    "self_intersecting_faces": 0,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 18.21757924110595,
+        "faces": 144,
+        "bounds_mm": [
+          [
+            131.0246124267578,
+            -100.59709930419922,
+            15.642295837402344
+          ],
+          [
+            133.577392578125,
+            -97.65753936767578,
+            21.265283584594727
+          ]
+        ],
+        "extent_mm": [
+          2.5527801513671875,
+          2.9395599365234375,
+          5.622987747192383
+        ],
+        "touches_mounting_plane": false
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      1.0484688619570088,
+      1.1115629944512464,
+      1.1183562617033411,
+      1.1350840795326058
+    ],
+    "sample_fraction_below_04": 0.002,
+    "sample_fraction_below_08": 0.006,
+    "seconds": 0.0
+  },
+  {
+    "id": "W08_环形建筑_附件18",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 19.776370135302688,
+    "self_intersecting_faces": 0,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 19.776370135302688,
+        "faces": 136,
+        "bounds_mm": [
+          [
+            136.02284240722656,
+            -93.22065734863281,
+            15.378504753112793
+          ],
+          [
+            138.51617431640625,
+            -90.19426727294922,
+            21.52907371520996
+          ]
+        ],
+        "extent_mm": [
+          2.4933319091796875,
+          3.0263900756835938,
+          6.150568962097168
+        ],
+        "touches_mounting_plane": false
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      0.3150306206177253,
+      1.0836444951223838,
+      1.0985072973319254,
+      1.127623117358021
+    ],
+    "sample_fraction_below_04": 0.014,
+    "sample_fraction_below_08": 0.02,
+    "seconds": 0.0
+  },
+  {
+    "id": "W08_环形建筑_附件33",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 22.41650623540674,
+    "self_intersecting_faces": 0,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 22.41650623540674,
+        "faces": 104,
+        "bounds_mm": [
+          [
+            152.34115600585938,
+            -62.50032043457031,
+            14.54593276977539
+          ],
+          [
+            154.5109405517578,
+            -59.36524963378906,
+            21.332685470581055
+          ]
+        ],
+        "extent_mm": [
+          2.1697845458984375,
+          3.13507080078125,
+          6.786752700805664
+        ],
+        "touches_mounting_plane": false
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      0.20731089531823038,
+      1.0742365509712735,
+      1.076360255980132,
+      1.116651177995775
+    ],
+    "sample_fraction_below_04": 0.014,
+    "sample_fraction_below_08": 0.02,
+    "seconds": 0.0
+  },
+  {
+    "id": "W08_环形建筑_附件34",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 23.195082504286194,
+    "self_intersecting_faces": 4,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 23.195082504286194,
+        "faces": 80,
+        "bounds_mm": [
+          [
+            160.49827575683594,
+            -36.6646728515625,
+            14.845337867736816
+          ],
+          [
+            162.169677734375,
+            -33.64572525024414,
+            22.062253952026367
+          ]
+        ],
+        "extent_mm": [
+          1.6714019775390625,
+          3.0189476013183594,
+          7.216916084289551
+        ],
+        "touches_mounting_plane": false
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      1.0363756146907896,
+      1.1024586783474295,
+      1.1067288978840206,
+      1.1285165235314314
+    ],
+    "sample_fraction_below_04": 0.006,
+    "sample_fraction_below_08": 0.008,
+    "seconds": 0.0
+  },
+  {
+    "id": "W08_环形建筑_附件35",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 24.875339164951466,
+    "self_intersecting_faces": 0,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 24.875339164951466,
+        "faces": 116,
+        "bounds_mm": [
+          [
+            162.8280792236328,
+            -24.977365493774414,
+            14.601683616638184
+          ],
+          [
+            164.4694061279297,
+            -21.90360450744629,
+            22.305898666381836
+          ]
+        ],
+        "extent_mm": [
+          1.641326904296875,
+          3.073760986328125,
+          7.704215049743652
+        ],
+        "touches_mounting_plane": false
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      1.0685035360316604,
+      1.0798753227504103,
+      1.0896825582058423,
+      1.1304246048365663
+    ],
+    "sample_fraction_below_04": 0.002,
+    "sample_fraction_below_08": 0.004,
+    "seconds": 0.0
+  },
+  {
+    "id": "W08_环形建筑",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 67589.4803676803,
+    "self_intersecting_faces": 78194,
+    "zero_area_faces": 193,
+    "components": [
+      {
+        "volume_mm3": 67374.46860587584,
+        "faces": 387978,
+        "bounds_mm": [
+          [
+            94.63511279792966,
+            -138.86089566923678,
+            5.0
+          ],
+          [
+            196.49896105919896,
+            -0.12000000000003791,
+            56.79951477050781
+          ]
+        ],
+        "extent_mm": [
+          101.8638482612693,
+          138.74089566923675,
+          51.79951477050781
+        ],
+        "touches_mounting_plane": true
+      },
+      {
+        "volume_mm3": 127.62836077966283,
+        "faces": 2144,
+        "bounds_mm": [
+          [
+            112.83585357666016,
+            -89.15937805175781,
+            5.779315948486328
+          ],
+          [
+            121.73149108886719,
+            -76.19572448730469,
+            14.258988380432129
+          ]
+        ],
+        "extent_mm": [
+          8.895637512207031,
+          12.963653564453125,
+          8.4796724319458
+        ],
+        "touches_mounting_plane": false
+      },
+      {
+        "volume_mm3": 87.38340102095663,
+        "faces": 6992,
+        "bounds_mm": [
+          [
+            109.67841339111328,
+            -43.72026769680056,
+            5.0
+          ],
+          [
+            125.02787780761719,
+            -26.853870391845703,
+            16.595075607299805
+          ]
+        ],
+        "extent_mm": [
+          15.349464416503906,
+          16.86639730495486,
+          11.595075607299805
+        ],
+        "touches_mounting_plane": true
+      },
+      {
+        "volume_mm3": 3.799194338756824e-09,
+        "faces": 4,
+        "bounds_mm": [
+          [
+            115.53103979673988,
+            -36.6932412109217,
+            15.755973326035729
+          ],
+          [
+            115.66446685791016,
+            -36.63935089111328,
+            15.901104927062988
+          ]
+        ],
+        "extent_mm": [
+          0.13342706117028058,
+          0.053890319808417075,
+          0.1451316010272592
+        ],
+        "touches_mounting_plane": false
+      }
+    ],
+    "samples": 1129,
+    "thickness_percentiles_mm": [
+      0.0023537785538018086,
+      0.04154048227850534,
+      0.5498910752860035,
+      2.4767213834689437
+    ],
+    "sample_fraction_below_04": 0.09477413640389726,
+    "sample_fraction_below_08": 0.13728963684676704,
+    "seconds": 6.4
+  },
+  {
+    "id": "S01_钢架",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 8251.317551627013,
+    "self_intersecting_faces": 184,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 8251.317551627013,
+        "faces": 32412,
+        "bounds_mm": [
+          [
+            86.34803197475406,
+            0.12000000000000455,
+            5.0
+          ],
+          [
+            144.99911499023438,
+            102.44504007657466,
+            103.95524597167969
+          ]
+        ],
+        "extent_mm": [
+          58.65108301548031,
+          102.32504007657465,
+          98.95524597167969
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1200,
+    "thickness_percentiles_mm": [
+      0.6157265021062556,
+      1.2231720237908204,
+      1.558014976504223,
+      2.3774077197985166
+    ],
+    "sample_fraction_below_04": 0.005833333333333334,
+    "sample_fraction_below_08": 0.025,
+    "seconds": 0.5
+  },
+  {
+    "id": "S02_钢架",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 7827.570872828819,
+    "self_intersecting_faces": 611,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 7827.570872828819,
+        "faces": 50646,
+        "bounds_mm": [
+          [
+            0.12000000000000455,
+            60.84611511230469,
+            5.0
+          ],
+          [
+            102.44504007657466,
+            144.99911499023438,
+            113.75749969482422
+          ]
+        ],
+        "extent_mm": [
+          102.32504007657465,
+          84.15299987792969,
+          108.75749969482422
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1200,
+    "thickness_percentiles_mm": [
+      0.39312295332634406,
+      0.636079091369846,
+      0.6977230565061033,
+      2.371233973020056
+    ],
+    "sample_fraction_below_04": 0.011666666666666667,
+    "sample_fraction_below_08": 0.19833333333333333,
+    "seconds": 0.9
+  },
+  {
+    "id": "S03_钢架",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 7375.792599922643,
+    "self_intersecting_faces": 1138,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 7375.792599922643,
+        "faces": 42436,
+        "bounds_mm": [
+          [
+            -102.44504093306539,
+            84.72874450683594,
+            5.0
+          ],
+          [
+            -0.12000000000000455,
+            144.99832207534774,
+            83.35044125081481
+          ]
+        ],
+        "extent_mm": [
+          102.32504093306538,
+          60.26957756851181,
+          78.35044125081481
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1199,
+    "thickness_percentiles_mm": [
+      0.17997268016459986,
+      0.6430607048428876,
+      0.7103837904706468,
+      2.3685855559931404
+    ],
+    "sample_fraction_below_04": 0.02335279399499583,
+    "sample_fraction_below_08": 0.23519599666388658,
+    "seconds": 0.7
+  },
+  {
+    "id": "S04_钢架",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 8494.296651755329,
+    "self_intersecting_faces": 29,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 8494.296651755329,
+        "faces": 39400,
+        "bounds_mm": [
+          [
+            -144.99832153320312,
+            0.11999999731779099,
+            5.0
+          ],
+          [
+            -78.09432983398438,
+            102.44503784179688,
+            98.77709197998047
+          ]
+        ],
+        "extent_mm": [
+          66.90399169921875,
+          102.32503784447908,
+          93.77709197998047
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1200,
+    "thickness_percentiles_mm": [
+      0.39841768402864775,
+      0.7253017047404458,
+      0.8423804809409532,
+      2.3643185333298593
+    ],
+    "sample_fraction_below_04": 0.011666666666666667,
+    "sample_fraction_below_08": 0.08166666666666667,
+    "seconds": 0.7
+  },
+  {
+    "id": "S05_钢架",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 9527.66513514198,
+    "self_intersecting_faces": 188,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 9527.66513514198,
+        "faces": 51246,
+        "bounds_mm": [
+          [
+            -144.99911499023438,
+            -102.44504003217858,
+            5.0
+          ],
+          [
+            -49.51478958129883,
+            -0.11999999999996736,
+            120.46338653564453
+          ]
+        ],
+        "extent_mm": [
+          95.48432540893555,
+          102.32504003217862,
+          115.46338653564453
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1200,
+    "thickness_percentiles_mm": [
+      0.6215637980754263,
+      1.2316352294921842,
+      1.5415143395626858,
+      2.3642893670526623
+    ],
+    "sample_fraction_below_04": 0.005833333333333334,
+    "sample_fraction_below_08": 0.025833333333333333,
+    "seconds": 1.0
+  },
+  {
+    "id": "S06_钢架",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 10106.519289159343,
+    "self_intersecting_faces": 272,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 10106.519289159343,
+        "faces": 51492,
+        "bounds_mm": [
+          [
+            -102.44504003217861,
+            -144.99911499023438,
+            5.0
+          ],
+          [
+            -0.12000000000000455,
+            -61.6063346862793,
+            115.58274841308594
+          ]
+        ],
+        "extent_mm": [
+          102.3250400321786,
+          83.39278030395508,
+          110.58274841308594
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1199,
+    "thickness_percentiles_mm": [
+      0.6213619182316237,
+      1.4893548748060423,
+      1.5906325988301993,
+      2.3901211612626625
+    ],
+    "sample_fraction_below_04": 0.0025020850708924102,
+    "sample_fraction_below_08": 0.019182652210175146,
+    "seconds": 0.9
+  },
+  {
+    "id": "S07_钢架",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 9388.589969003246,
+    "self_intersecting_faces": 207,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 9388.589969003246,
+        "faces": 44454,
+        "bounds_mm": [
+          [
+            0.11999999999998603,
+            -144.99832207533555,
+            5.0
+          ],
+          [
+            102.44504093306536,
+            -75.006103515625,
+            114.69087219238281
+          ]
+        ],
+        "extent_mm": [
+          102.32504093306537,
+          69.99221855971055,
+          109.69087219238281
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1200,
+    "thickness_percentiles_mm": [
+      0.6096428418817542,
+      1.3892975067863107,
+      1.5823847148480636,
+      2.39076239425202
+    ],
+    "sample_fraction_below_04": 0.0075,
+    "sample_fraction_below_08": 0.025,
+    "seconds": 0.7
+  },
+  {
+    "id": "S08_钢架",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 7846.167077823088,
+    "self_intersecting_faces": 211,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 7846.167077823088,
+        "faces": 28156,
+        "bounds_mm": [
+          [
+            86.3496911449112,
+            -102.44331602451385,
+            5.0
+          ],
+          [
+            144.99832207498423,
+            -0.12000000000003785,
+            85.05802154541016
+          ]
+        ],
+        "extent_mm": [
+          58.648630930073026,
+          102.32331602451382,
+          80.05802154541016
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 1200,
+    "thickness_percentiles_mm": [
+      0.4626263131691294,
+      0.7481487548396974,
+      1.230033966157452,
+      2.370438282322252
+    ],
+    "sample_fraction_below_04": 0.01,
+    "sample_fraction_below_08": 0.055,
+    "seconds": 0.4
+  },
+  {
+    "id": "D01_门框与台阶",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 510.59923788381747,
+    "self_intersecting_faces": 0,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 510.59923788381747,
+        "faces": 1164,
+        "bounds_mm": [
+          [
+            -9.0,
+            -4.0,
+            5.0
+          ],
+          [
+            9.0,
+            4.0,
+            31.9
+          ]
+        ],
+        "extent_mm": [
+          18.0,
+          8.0,
+          26.9
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      0.4516190449090529,
+      0.6961404730931425,
+      1.3998999999999988,
+      1.7999
+    ],
+    "sample_fraction_below_04": 0.01,
+    "sample_fraction_below_08": 0.064,
+    "seconds": 0.0
+  },
+  {
+    "id": "D02_六格门扇",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 296.0429012578389,
+    "self_intersecting_faces": 6,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 296.0429012578389,
+        "faces": 700,
+        "bounds_mm": [
+          [
+            -4.5,
+            -3.5500000000000003,
+            7.75
+          ],
+          [
+            6.843499381007466,
+            0.8,
+            30.05
+          ]
+        ],
+        "extent_mm": [
+          11.343499381007465,
+          4.3500000000000005,
+          22.3
+        ],
+        "touches_mounting_plane": false
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      0.6991777783035515,
+      0.6999000000000004,
+      0.7134546482121616,
+      1.1499000000000001
+    ],
+    "sample_fraction_below_04": 0.0,
+    "sample_fraction_below_08": 0.146,
+    "seconds": 0.0
+  },
+  {
+    "id": "K01_底盘拼接键",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 144.0,
+    "self_intersecting_faces": 0,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 144.0,
+        "faces": 12,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            12.0,
+            6.0,
+            2.0
+          ]
+        ],
+        "extent_mm": [
+          12.0,
+          6.0,
+          2.0
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      1.9999,
+      1.9999,
+      1.9999,
+      1.9999
+    ],
+    "sample_fraction_below_04": 0.0,
+    "sample_fraction_below_08": 0.0,
+    "seconds": 0.0
+  },
+  {
+    "id": "K02_模块定位销",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 26.68835605180634,
+    "self_intersecting_faces": 0,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 26.68835605180634,
+        "faces": 124,
+        "bounds_mm": [
+          [
+            -1.5,
+            -1.5,
+            0.0
+          ],
+          [
+            1.5,
+            1.5,
+            3.8
+          ]
+        ],
+        "extent_mm": [
+          3.0,
+          3.0,
+          3.8
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      2.98545418001659,
+      2.98545418001659,
+      2.9854541800165904,
+      2.9854541800165904
+    ],
+    "sample_fraction_below_04": 0.0,
+    "sample_fraction_below_08": 0.0,
+    "seconds": 0.0
+  },
+  {
+    "id": "T01_先打印配合试块",
+    "watertight": true,
+    "consistent_normals": true,
+    "volume_mm3": 3169.7429256834926,
+    "self_intersecting_faces": 0,
+    "zero_area_faces": 0,
+    "components": [
+      {
+        "volume_mm3": 3169.7429256834926,
+        "faces": 334,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            38.0,
+            18.0,
+            5.0
+          ]
+        ],
+        "extent_mm": [
+          38.0,
+          18.0,
+          5.0
+        ],
+        "touches_mounting_plane": true
+      }
+    ],
+    "samples": 500,
+    "thickness_percentiles_mm": [
+      1.8999,
+      2.8998999999999997,
+      2.8998999999999997,
+      4.9999
+    ],
+    "sample_fraction_below_04": 0.0,
+    "sample_fraction_below_08": 0.0,
+    "seconds": 0.0
+  }
+]

@@ -1,4 +1,23 @@
-# 铃芽之旅 · Apple Vision Pro 适配
+# 铃芽之旅 · Pico / Unity / Vision Pro 完整项目
+
+这里是项目的统一协作入口，包含 Pico / Unity 源码、场景、模型、贴图、Vision Pro 工程、场景制作脚本，以及 Blender 和打印资料的下载索引。
+
+**2026-10-30 晚间更新：PICO v1.11（versionCode 12）。** [直接下载 APK](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/SuzumePortal-PICO.apk) · [完整发布记录](docs/PICO-v1.11.md)。保留山坡与平缓花海，用手柄两次瞄准确定每个门角；显示两条射线的最近点和距离，最终确认四角后才显示虚拟场景。前台保亮及休眠恢复处理已加入；用户已在本机连续完成四角，未再出现此前的黑屏，尚未进行长时间测试。
+
+**继续开发 Pico：** 阅读 [协同开发说明](COLLABORATION.md)，按说明拉取官方 SDK 后，用 Unity **2022.3.62f3** 打开 [picounity](suzume-scene-prep/picounity/)。`Assets`、`.meta`、包清单和项目设置均已入库。
+
+**直接试用或取完整制作资料：** 查看 [完整项目发布页](https://github.com/JavonLoong/suzume-visionpro/releases/tag/complete-project-2026-10-30) 和 [下载清单](DOWNLOADS.md)。大文件放在同一仓库的 Release；不会随普通 `git clone` 一起下载。每个文件的存放位置和 SHA-256 见 [本次文件清单](PROJECT_MANIFEST.json)。
+
+**版本范围：** 这是一次有时间记录的项目快照。本机之后的修改需要提交和推送才会出现在 GitHub；具体安装包版本与检查结果以对应 Release 说明为准。`PUBLICATION_MANIFEST.json` 保留 2026-10-11 历史归档记录。
+
+| 要做的事 | 入口 |
+| --- | --- |
+| 修改 Pico 场景、门框定位和手柄交互 | [Pico / Unity 工程](suzume-scene-prep/picounity/) |
+| 换电脑准备环境、多人合作 | [COLLABORATION.md](COLLABORATION.md) |
+| 修改 Vision Pro 应用 | [VisionProPortal](suzume-scene-prep/visionpro/VisionProPortal/) |
+| 取 Blender、打印模型、历史资料和 APK | [DOWNLOADS.md](DOWNLOADS.md) |
+
+## Vision Pro 分支说明
 
 将已有的铃芽之旅三维场景适配为 visionOS 门户体验：通过实体门洞观看门后的花海与星空，门洞之外保留现实透视。这个仓库同时保存建模脚本、历代场景、人物多视图资料和离线预览，方便继续开发。
 
@@ -25,7 +44,7 @@
 | 实体园林与梦幻门的原始需求 | [体验需求](suzume-scene-prep/AppleVisionPro_实体园林与梦幻门_体验需求.txt) |
 | 早期建模路线及参考来源 | [建模准备说明](suzume-scene-prep/建模准备说明.md) |
 | 人物多视图、头模和历史建模代码 | [character-hunyuan-v1](suzume-scene-prep/character-hunyuan-v1/) |
-| 每个文件的位置、大小、SHA-256 | [PUBLICATION_MANIFEST.json](PUBLICATION_MANIFEST.json) |
+| 2026-10-11 历史归档的位置、大小、SHA-256 | [PUBLICATION_MANIFEST.json](PUBLICATION_MANIFEST.json) |
 | 大文件下载与恢复 | [下载清单](DOWNLOADS.md) |
 
 ## 在 Mac 上编译

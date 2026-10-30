@@ -1,0 +1,78 @@
+{
+  "row": {
+    "id": "D01_门框与台阶",
+    "category": "白门",
+    "quantity": 1,
+    "size_mm": [
+      18.0,
+      26.9,
+      8.0
+    ],
+    "triangles": 1164,
+    "watertight": true,
+    "volume_mm3": 510.599,
+    "components": 1,
+    "assembly_bounds_mm": [
+      [
+        -9.0,
+        -4.0,
+        5.0
+      ],
+      [
+        9.0,
+        4.0,
+        31.9
+      ]
+    ],
+    "assembly_to_print_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        9.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        31.9
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        4.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stl_sha256": "a06e20aa9c0bc3e272cdd427153d8413c0f82ec1e94147831ce59bb7e79b2070"
+  },
+  "report": {
+    "id": "D01_门框与台阶",
+    "watertight": true,
+    "normal_consistency": true,
+    "self_intersection_scan_faces": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "removed_tiny_components": 0,
+    "cleaned_face_flags": 0,
+    "volume_mm3": 510.59923788381747,
+    "bounds_mm": [
+      [
+        -9.0,
+        -4.0,
+        5.0
+      ],
+      [
+        9.0,
+        4.0,
+        31.9
+      ]
+    ]
+  }
+}

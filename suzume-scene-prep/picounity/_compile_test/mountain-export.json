@@ -1,0 +1,18 @@
+{
+  "source": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\poster-right-bow-v56\\Suzume_dual_scene_right_bow_v56.blend",
+  "sourceObject": "Rolling meadow ground.001",
+  "groundHeightSamples": {
+    "(0, 0)": -0.147705078125,
+    "(0, 2.7)": -0.1943359375,
+    "(0, 10)": -0.117431640625,
+    "(0, 30)": 0.399169921875,
+    "(12, 20)": 0.09027099609375
+  },
+  "plantsAdjusted": [
+    "Individual_meadow_flowers_PortableMesh",
+    "Modeled_flower_stems_PortableMesh",
+    "Spatial_grass_blades_PortableMesh"
+  ],
+  "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\picounity\\Assets\\Resources\\Worlds\\MountainWorld.fbx",
+  "bytes": 22340220
+}

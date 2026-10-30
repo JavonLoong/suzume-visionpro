@@ -1,0 +1,11 @@
+{
+  "all647PlannedFilesRemoved": true,
+  "protectedFilesUnchanged": 116,
+  "latestEntryLinksExist": true,
+  "remainingBytes": {
+    "suzume-scene-prep": 1549279765,
+    "suzume-visionpro-public": 267291752,
+    "suzume-visionpro-publishing": 575045
+  },
+  "latestOfflineValidation": "passed: two scenes, camera changes and door toggle; no network requests or browser errors"
+}

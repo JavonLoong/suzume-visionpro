@@ -1,0 +1,78 @@
+{
+  "row": {
+    "id": "W03_环形建筑",
+    "category": "环形建筑",
+    "quantity": 1,
+    "size_mm": [
+      138.8664,
+      89.6018,
+      62.1348
+    ],
+    "triangles": 307614,
+    "watertight": true,
+    "volume_mm3": 84798.96,
+    "components": 1,
+    "assembly_bounds_mm": [
+      [
+        -138.98641160423887,
+        107.08476143299697,
+        5.0
+      ],
+      [
+        -0.12000000000000455,
+        196.6865234375,
+        67.13480377197266
+      ]
+    ],
+    "assembly_to_print_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        138.98641160423887
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -107.08476143299697
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -5.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stl_sha256": "5615acb23153f77e837dbef4afa426e1fee2052cb88d6fe59c7280aaccc611ba"
+  },
+  "report": {
+    "id": "W03_环形建筑",
+    "watertight": true,
+    "normal_consistency": true,
+    "self_intersection_scan_faces": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "removed_tiny_components": 13,
+    "cleaned_face_flags": 608,
+    "volume_mm3": 84798.9599902598,
+    "bounds_mm": [
+      [
+        -138.98641160423887,
+        107.08476143299697,
+        5.0
+      ],
+      [
+        -0.12000000000000455,
+        196.6865234375,
+        67.13480377197266
+      ]
+    ]
+  }
+}

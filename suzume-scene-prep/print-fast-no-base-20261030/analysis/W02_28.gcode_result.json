@@ -1,0 +1,19 @@
+{
+  "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\trials\\W02_28.3mf",
+  "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-fast-no-base-20261030\\trials\\W02_28.gcode.3mf",
+  "exit_code": 0,
+  "slicing_seconds": 15.0,
+  "seconds": 9930,
+  "grams": 63.2,
+  "outside": "false",
+  "warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "gcode_files": [
+    "Metadata/plate_1.gcode"
+  ]
+}

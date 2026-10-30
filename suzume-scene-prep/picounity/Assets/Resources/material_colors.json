@@ -1,0 +1,731 @@
+{
+ "三维草叶原型": {
+  "material": "三维草叶",
+  "color": [
+   0.0185,
+   0.0595,
+   0.0319,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "OUTPUT_MATERIAL"
+  ]
+ },
+ "低矮草原薄雾第31版0": {
+  "material": "低矮草原薄雾第31版0",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD"
+  ]
+ },
+ "低矮草原薄雾第31版1": {
+  "material": "低矮草原薄雾第31版1",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD"
+  ]
+ },
+ "可开合门扇与铰链表面": {
+  "material": "带外部入口的环形废弃酒店实体网格.005",
+  "color": [
+   0.5089,
+   0.3712,
+   0.0953,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "OUTPUT_MATERIAL"
+  ]
+ },
+ "可开合门扇与铰链表面.001": {
+  "material": "可开合门扇与铰链表面",
+  "color": [
+   0.0561,
+   0.0908,
+   0.0648,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "OUTPUT_MATERIAL"
+  ]
+ },
+ "可开合门扇与铰链表面.002": {
+  "material": "可开合门扇与铰链表面.001",
+  "color": [
+   0.8879,
+   0.8796,
+   0.7379,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "TEX_IMAGE"
+  ]
+ },
+ "可开合门扇与铰链表面.003": {
+  "material": "参考色彩上实体门前方",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 1.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "EMISSION",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "TEX_IMAGE"
+  ]
+ },
+ "可开合门扇与铰链表面.004": {
+  "material": "可开合门扇与铰链表面.002",
+  "color": [
+   0.3712,
+   0.402,
+   0.3613,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "TEX_IMAGE"
+  ]
+ },
+ "可开合门扇与铰链表面.005": {
+  "material": "材质.002",
+  "color": [
+   0.7231,
+   0.7682,
+   0.6724,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "TEX_IMAGE"
+  ]
+ },
+ "可开合门扇与铰链表面.006": {
+  "material": "可开合门扇与铰链表面.003",
+  "color": [
+   0.3813,
+   0.2542,
+   0.0802,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "OUTPUT_MATERIAL"
+  ]
+ },
+ "完整六格白门与门框表面": {
+  "material": "可开合门扇与铰链表面",
+  "color": [
+   0.0561,
+   0.0908,
+   0.0648,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "OUTPUT_MATERIAL"
+  ]
+ },
+ "完整六格白门与门框表面.001": {
+  "material": "可开合门扇与铰链表面.001",
+  "color": [
+   0.8879,
+   0.8796,
+   0.7379,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "TEX_IMAGE"
+  ]
+ },
+ "完整六格白门与门框表面.002": {
+  "material": "参考色彩上实体门前方",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 1.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "EMISSION",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "TEX_IMAGE"
+  ]
+ },
+ "完整六格白门与门框表面.003": {
+  "material": "材质.002",
+  "color": [
+   0.7231,
+   0.7682,
+   0.6724,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "TEX_IMAGE"
+  ]
+ },
+ "完整六格白门与门框表面.004": {
+  "material": "可开合门扇与铰链表面.002",
+  "color": [
+   0.3712,
+   0.402,
+   0.3613,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "TEX_IMAGE"
+  ]
+ },
+ "完整六格白门与门框表面.005": {
+  "material": "可开合门扇与铰链表面.003",
+  "color": [
+   0.3813,
+   0.2542,
+   0.0802,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "OUTPUT_MATERIAL"
+  ]
+ },
+ "浅水与平面反射": {
+  "material": "浅水与平面反射",
+  "color": [
+   0.5,
+   0.8,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0416,
+   0.1102,
+   0.2419
+  ],
+  "emission_strength": 1.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "BSDF_REFRACTION",
+   "BSDF_TRANSPARENT",
+   "BUMP",
+   "EMISSION",
+   "LIGHT_PATH",
+   "MATH",
+   "MIX_SHADER",
+   "NEW_GEOMETRY",
+   "OUTPUT_MATERIAL",
+   "SEPXYZ",
+   "VALUE",
+   "VECT_MATH"
+  ]
+ },
+ "环绕夜空": {
+  "material": "空间校准夜晚天空第12版",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 1.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "EMISSION",
+   "MATH",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "空间暮光云体积0": {
+  "material": "空间暮光云体积0",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "空间暮光云体积1": {
+  "material": "空间暮光云体积1",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "空间暮光云体积2": {
+  "material": "空间暮光云体积2",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "空间暮光云体积3": {
+  "material": "空间暮光云体积3",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "空间暮光云体积4": {
+  "material": "空间暮光云体积4",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "空间暮光云体积5": {
+  "material": "空间暮光云体积5",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "空间暮光云体积6": {
+  "material": "空间暮光云体积6",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "空间暮光云体积7": {
+  "material": "空间暮光云体积7",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "空间暮光云体积8": {
+  "material": "空间暮光云体积8",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "空间暮光云体积9": {
+  "material": "空间暮光云体积9",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "COMBXYZ",
+   "MATH",
+   "OUTPUT_MATERIAL",
+   "PRINCIPLED_VOLUME",
+   "SEPXYZ",
+   "TEX_COORD",
+   "VECT_MATH"
+  ]
+ },
+ "立体发光星辰": {
+  "material": "原生星光",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.48,
+   0.62,
+   1.0
+  ],
+  "emission_strength": 2.6,
+  "node_kinds": [
+   "EMISSION",
+   "OUTPUT_MATERIAL"
+  ]
+ },
+ "立体花茎原型": {
+  "material": "立体花茎",
+  "color": [
+   0.0242,
+   0.0666,
+   0.0382,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "OUTPUT_MATERIAL"
+  ]
+ },
+ "草原独立花朵原型": {
+  "material": "草原独立花朵顶点色",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   0.0009,
+   0.0027,
+   0.0056
+  ],
+  "emission_strength": 0.16,
+  "node_kinds": [
+   "ATTRIBUTE",
+   "BSDF_PRINCIPLED",
+   "OUTPUT_MATERIAL"
+  ]
+ },
+ "起伏草原地面": {
+  "material": "起伏草原地面",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "TEX_COORD",
+   "TEX_IMAGE",
+   "VECT_MATH"
+  ]
+ },
+ "连续远景草原第31版": {
+  "material": "起伏草原地面",
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "emission_strength": 0.0,
+  "node_kinds": [
+   "BSDF_PRINCIPLED",
+   "MIX_RGB",
+   "OUTPUT_MATERIAL",
+   "TEX_COORD",
+   "TEX_IMAGE",
+   "VECT_MATH"
+  ]
+ }
+}

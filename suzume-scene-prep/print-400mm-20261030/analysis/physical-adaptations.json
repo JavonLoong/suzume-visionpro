@@ -1,0 +1,2561 @@
+{
+  "wall": {
+    "source_components": 6231,
+    "kept": 2950,
+    "dropped": [
+      {
+        "component": 3531,
+        "faces": 165,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1899630145770346e-05,
+          0.7855405482371518,
+          31.641032899218697
+        ]
+      },
+      {
+        "component": 3536,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.4998833323860554e-16,
+          0.5528256325134162,
+          5.650647217110516
+        ]
+      },
+      {
+        "component": 3793,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.259558939049439e-22,
+          2.7586279885789806,
+          4.137938879277245
+        ]
+      },
+      {
+        "component": 3796,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          4.440897634899448e-16,
+          2.7586211549021966,
+          4.137930868772744
+        ]
+      },
+      {
+        "component": 3857,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.887085149103588e-17,
+          2.0505497501528525e-06,
+          3.6213530647119763
+        ]
+      },
+      {
+        "component": 3860,
+        "faces": 5,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.3020689766334976e-15,
+          1.1174452826693868e-05,
+          2.7061933203459625
+        ]
+      },
+      {
+        "component": 3862,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.3566059337884534e-16,
+          2.499199058525265e-07,
+          3.6213446927919906
+        ]
+      },
+      {
+        "component": 3867,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.2850434277698333e-18,
+          4.796395901571338e-06,
+          1.66147912788659
+        ]
+      },
+      {
+        "component": 3874,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.3301295698878665e-17,
+          8.332213633794126e-08,
+          0.7486425046993102
+        ]
+      },
+      {
+        "component": 3897,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.6103646954274104e-15,
+          0.6237463942386956,
+          5.7875366848744045
+        ]
+      },
+      {
+        "component": 3915,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.6580132145808406e-08,
+          0.5023045126688037,
+          1.5259261036923764
+        ]
+      },
+      {
+        "component": 4003,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.677975480214256e-18,
+          0.18599937702047567,
+          0.3448187760895274
+        ]
+      },
+      {
+        "component": 4014,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.677975480214256e-18,
+          0.18599937702047567,
+          0.3448187760895274
+        ]
+      },
+      {
+        "component": 4240,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.6707657507128958e-17,
+          0.17241280654381172,
+          0.2758603829891365
+        ]
+      },
+      {
+        "component": 4242,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.148345830679315e-06,
+          0.17241763071236255,
+          0.27586418429788606
+        ]
+      },
+      {
+        "component": 4244,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          4.589025220516323e-20,
+          0.17241654088281994,
+          0.2758736353281855
+        ]
+      },
+      {
+        "component": 4246,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.148345831716098e-06,
+          0.1724176307123594,
+          0.27586418429790116
+        ]
+      },
+      {
+        "component": 4248,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.6707657507128958e-17,
+          0.17241280654381172,
+          0.2758603829891365
+        ]
+      },
+      {
+        "component": 4250,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.148345830679315e-06,
+          0.17241763071236255,
+          0.27586418429788606
+        ]
+      },
+      {
+        "component": 4252,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          4.589025220516323e-20,
+          0.17241654088281994,
+          0.2758736353281855
+        ]
+      },
+      {
+        "component": 4254,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.148345831716098e-06,
+          0.1724176307123594,
+          0.27586418429790116
+        ]
+      },
+      {
+        "component": 4388,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          4.444717778527936e-15,
+          0.17241445080987713,
+          0.2758608653374859
+        ]
+      },
+      {
+        "component": 4390,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.5104577635511e-17,
+          0.1724161194813122,
+          0.2758620766069799
+        ]
+      },
+      {
+        "component": 4392,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.235645246866007e-22,
+          0.17241676503530465,
+          0.27586555131837825
+        ]
+      },
+      {
+        "component": 4394,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.1716672863170564e-15,
+          0.1724161194812905,
+          0.2758620766069222
+        ]
+      },
+      {
+        "component": 4396,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          4.444717778527936e-15,
+          0.17241445080987713,
+          0.2758608653374859
+        ]
+      },
+      {
+        "component": 4398,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.5104577635511e-17,
+          0.1724161194813122,
+          0.2758620766069799
+        ]
+      },
+      {
+        "component": 4400,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.235645246866007e-22,
+          0.17241676503530465,
+          0.27586555131837825
+        ]
+      },
+      {
+        "component": 4402,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.1716672863170564e-15,
+          0.1724161194812905,
+          0.2758620766069222
+        ]
+      },
+      {
+        "component": 4591,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.754699340802041e-15,
+          0.18599937702047467,
+          0.3448187760895258
+        ]
+      },
+      {
+        "component": 4602,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.754699340802041e-15,
+          0.18599937702047467,
+          0.3448187760895258
+        ]
+      },
+      {
+        "component": 4855,
+        "faces": 60,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.426689895461566e-05,
+          4.401194561984434,
+          30.608364686730226
+        ]
+      },
+      {
+        "component": 4856,
+        "faces": 327,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.0533511019782826e-05,
+          28.259369495840303,
+          35.658980452632264
+        ]
+      },
+      {
+        "component": 4880,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          7.395019909052732e-07,
+          7.736447753377043,
+          14.438467711323414
+        ]
+      },
+      {
+        "component": 4881,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.99455932452725e-06,
+          1.2332613099485752,
+          2.868131857560151
+        ]
+      },
+      {
+        "component": 4882,
+        "faces": 4,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          8.79174744215104e-06,
+          8.557205984652551,
+          35.45429498034794
+        ]
+      },
+      {
+        "component": 4883,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.14621607275403e-16,
+          1.9998681956324231,
+          4.636571844230291
+        ]
+      },
+      {
+        "component": 4884,
+        "faces": 3,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.8311414782973095e-06,
+          2.033239340483948,
+          4.500913116756083
+        ]
+      },
+      {
+        "component": 4885,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.6172856884159664e-17,
+          1.9998681956324342,
+          3.1759427053332763
+        ]
+      },
+      {
+        "component": 4888,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.978438404236474e-18,
+          1.9998681956324327,
+          3.1270081821090376
+        ]
+      },
+      {
+        "component": 4889,
+        "faces": 3,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.176004911703148e-08,
+          2.306840698868119,
+          3.414043581678092
+        ]
+      },
+      {
+        "component": 4890,
+        "faces": 9,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          4.876148376863758e-07,
+          2.9819007906417054,
+          3.4773974082558388
+        ]
+      },
+      {
+        "component": 4891,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.238592061343494e-22,
+          0.939073743226378,
+          7.140735515092948
+        ]
+      },
+      {
+        "component": 4893,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          5.267333772425998e-15,
+          14.75861976886619,
+          26.8151497057779
+        ]
+      },
+      {
+        "component": 4894,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.8596440832712496e-15,
+          14.75861976886619,
+          26.81515031283602
+        ]
+      },
+      {
+        "component": 4897,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.0318576284074594e-05,
+          2.137933898048053,
+          1.7241432157709373
+        ]
+      },
+      {
+        "component": 4899,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.0382784968578365e-05,
+          2.1379316065604157,
+          1.724139824342941
+        ]
+      },
+      {
+        "component": 4901,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2388583795645087e-05,
+          2.8275864233775643,
+          4.827588369662731
+        ]
+      },
+      {
+        "component": 4902,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2365337499450473e-05,
+          2.8275886194251214,
+          4.827588216353539
+        ]
+      },
+      {
+        "component": 4903,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2463509520099241e-05,
+          2.8275876047410344,
+          4.827588858914348
+        ]
+      },
+      {
+        "component": 4904,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.0650226866659944e-05,
+          2.1379318763084623,
+          1.7241386109170618
+        ]
+      },
+      {
+        "component": 4906,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.0335186618949306e-05,
+          2.1379326726050527,
+          1.7241414021073167
+        ]
+      },
+      {
+        "component": 4908,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2117956883110204e-05,
+          2.8275877659540196,
+          4.827588925678536
+        ]
+      },
+      {
+        "component": 4909,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.215433523591199e-05,
+          2.8275885734661528,
+          4.827588197321779
+        ]
+      },
+      {
+        "component": 4910,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          14.758619768866193,
+          26.81514970187486
+        ]
+      },
+      {
+        "component": 4911,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.235156594866877e-27,
+          2.137930805502055,
+          1.7241381761862944
+        ]
+      },
+      {
+        "component": 4913,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.702162250757716e-27,
+          2.13793128404629,
+          1.7241388844319294
+        ]
+      },
+      {
+        "component": 4915,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.357392012620626e-27,
+          2.8275868048719177,
+          4.827588352756618
+        ]
+      },
+      {
+        "component": 4916,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          9.592548607487504e-28,
+          2.8275860430952715,
+          4.827588207513129
+        ]
+      },
+      {
+        "component": 4917,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          8.70902439363997e-28,
+          2.827586182232567,
+          4.827588180015836
+        ]
+      },
+      {
+        "component": 4918,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.020586428646762e-27,
+          2.1379306503763127,
+          1.7241379466002398
+        ]
+      },
+      {
+        "component": 4920,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.208810534618833e-27,
+          2.1379308073035785,
+          1.7241381788525492
+        ]
+      },
+      {
+        "component": 4922,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.332148463653554e-27,
+          2.827586086143251,
+          4.82758822534108
+        ]
+      },
+      {
+        "component": 4923,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.205930718818192e-27,
+          2.827587408386809,
+          4.827588772936289
+        ]
+      },
+      {
+        "component": 4924,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          4.3146755374820483e-16,
+          14.75861976886619,
+          26.81514957731607
+        ]
+      },
+      {
+        "component": 4925,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.3069570619031887e-05,
+          2.137930668526183,
+          1.7241384360708225
+        ]
+      },
+      {
+        "component": 4927,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.09272335929442e-05,
+          2.137931511292324,
+          1.7241396833499019
+        ]
+      },
+      {
+        "component": 4929,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1033111985718766e-05,
+          2.827587717204726,
+          4.827588905485783
+        ]
+      },
+      {
+        "component": 4930,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1078319952224992e-05,
+          2.8275875239247883,
+          4.8275888254402695
+        ]
+      },
+      {
+        "component": 4931,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2463509520340168e-05,
+          2.827587604741038,
+          4.8275888589143605
+        ]
+      },
+      {
+        "component": 4932,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2668361410102008e-05,
+          2.1379327410642457,
+          1.724141503435213
+        ]
+      },
+      {
+        "component": 4934,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1285103956405483e-05,
+          2.1379312605126604,
+          1.7241393122023334
+        ]
+      },
+      {
+        "component": 4936,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1025930369146338e-05,
+          2.827587972920054,
+          4.8275890113872855
+        ]
+      },
+      {
+        "component": 4937,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1573516434504426e-05,
+          2.8275893972532886,
+          4.82758960126295
+        ]
+      },
+      {
+        "component": 4938,
+        "faces": 32,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1036985332545384e-05,
+          5.931033759281545,
+          5.9310344767658325
+        ]
+      },
+      {
+        "component": 4939,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          9.959255633461479e-06,
+          2.137936029633969,
+          1.7241456357094436
+        ]
+      },
+      {
+        "component": 4941,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1433291936868486e-05,
+          2.137933161083817,
+          1.7241413902010785
+        ]
+      },
+      {
+        "component": 4943,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.174219404073991e-05,
+          2.8275864140894704,
+          4.827588655014111
+        ]
+      },
+      {
+        "component": 4944,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.6482211376477434e-05,
+          2.8275873959452635,
+          4.827589888116163
+        ]
+      },
+      {
+        "component": 4945,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.058814253724382e-05,
+          2.8275831127724222,
+          4.827588546046596
+        ]
+      },
+      {
+        "component": 4946,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1473236106166924e-05,
+          2.1379338004693422,
+          1.7241392983206156
+        ]
+      },
+      {
+        "component": 4948,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.0128291353278865e-05,
+          2.1379341961728833,
+          1.7241459603410236
+        ]
+      },
+      {
+        "component": 4950,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1799562402889686e-05,
+          2.8275884242599125,
+          4.827588229261437
+        ]
+      },
+      {
+        "component": 4951,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.3316337404311219e-05,
+          2.827581334960594,
+          4.827589894501151
+        ]
+      },
+      {
+        "component": 4952,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.5410203100125302e-15,
+          14.758619768866192,
+          26.815149705777905
+        ]
+      },
+      {
+        "component": 4953,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1510103146556707e-05,
+          2.1379349694916514,
+          1.7241477772944052
+        ]
+      },
+      {
+        "component": 4955,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1809740795803748e-05,
+          2.137933283965647,
+          1.7241379746606742
+        ]
+      },
+      {
+        "component": 4957,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2126909249639941e-05,
+          2.827592369820073,
+          4.827589150577367
+        ]
+      },
+      {
+        "component": 4958,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.273532351645044e-05,
+          2.827604221012333,
+          4.827591793879908
+        ]
+      },
+      {
+        "component": 4959,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.019042332068588e-05,
+          2.8275858186841902,
+          4.827589464042397
+        ]
+      },
+      {
+        "component": 4960,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.0492861747169493e-05,
+          2.1379328893356444,
+          1.724144698641133
+        ]
+      },
+      {
+        "component": 4962,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1151209398890384e-05,
+          2.1379328328108667,
+          1.7241446149861162
+        ]
+      },
+      {
+        "component": 4964,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.0146755285294838e-05,
+          2.8275827182180806,
+          4.827588180015839
+        ]
+      },
+      {
+        "component": 4965,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.6247804113331565e-06,
+          2.827586698750471,
+          4.8275898285138235
+        ]
+      },
+      {
+        "component": 4966,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.967190243866496e-15,
+          14.758619768866199,
+          18.924828883359414
+        ]
+      },
+      {
+        "component": 4967,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2911438952116306e-05,
+          2.1379339384612948,
+          1.7241434365236303
+        ]
+      },
+      {
+        "component": 4969,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          9.689767711140317e-06,
+          2.1379334655053124,
+          1.7241427365300788
+        ]
+      },
+      {
+        "component": 4971,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1837542055991137e-05,
+          2.8275989017393393,
+          4.827589985986922
+        ]
+      },
+      {
+        "component": 4972,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.0751782098466945e-05,
+          2.827591781118146,
+          4.827590775471723
+        ]
+      },
+      {
+        "component": 4973,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.5225066494354762e-05,
+          2.8275869473700306,
+          4.82758877362499
+        ]
+      },
+      {
+        "component": 4974,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2524860375925555e-05,
+          2.137940016877184,
+          1.7241572165446577
+        ]
+      },
+      {
+        "component": 4976,
+        "faces": 384,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.3265404364207497e-05,
+          14.77821834350376,
+          30.620833637714917
+        ]
+      },
+      {
+        "component": 4977,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          5.766018246704289e-15,
+          14.758619768866193,
+          28.0284445790571
+        ]
+      },
+      {
+        "component": 4978,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.969132316398477e-15,
+          14.758619768866192,
+          26.815149705777902
+        ]
+      },
+      {
+        "component": 4979,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.6350101419298305e-15,
+          14.75861976886619,
+          26.815150312836025
+        ]
+      },
+      {
+        "component": 4982,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          14.758619768866193,
+          26.81514970187486
+        ]
+      },
+      {
+        "component": 4983,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          8.049034420917594e-16,
+          14.75861976886619,
+          26.815149577316074
+        ]
+      },
+      {
+        "component": 4984,
+        "faces": 21,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2171832369747962e-05,
+          9.241382003160078,
+          19.172415088628853
+        ]
+      },
+      {
+        "component": 4985,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          7.357888241652532e-15,
+          14.75861976886619,
+          26.8151497057779
+        ]
+      },
+      {
+        "component": 5032,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.300510239916204e-13,
+          0.012864620506418335,
+          5.142297881780126
+        ]
+      },
+      {
+        "component": 5036,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.784876426787191e-22,
+          2.068966966794685,
+          3.448277282019401
+        ]
+      },
+      {
+        "component": 5037,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.7719929646961333e-16,
+          2.068973276859994,
+          3.44827848774115
+        ]
+      },
+      {
+        "component": 5040,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.771999324631723e-16,
+          2.0689690639732063,
+          3.4482803303359546
+        ]
+      },
+      {
+        "component": 5041,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.668899813360559e-16,
+          2.068969063983242,
+          3.4482834339213952
+        ]
+      },
+      {
+        "component": 5042,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.5465651006483698e-15,
+          0.8771200981993821,
+          5.823339545405625
+        ]
+      },
+      {
+        "component": 5046,
+        "faces": 11,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.5062502795517199e-05,
+          0.852734703045527,
+          7.2960290331231015
+        ]
+      },
+      {
+        "component": 5047,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.1370332124114217e-17,
+          0.18965472852789667,
+          9.689653330835812
+        ]
+      },
+      {
+        "component": 5049,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          7.212885215066177e-16,
+          2.068965809642359,
+          3.448280591965019
+        ]
+      },
+      {
+        "component": 5052,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.631587481450488e-15,
+          4.579964880110076,
+          13.999866617137007
+        ]
+      },
+      {
+        "component": 5084,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.5922495794065085e-06,
+          0.5312946823880667,
+          1.0619155619881344
+        ]
+      },
+      {
+        "component": 5085,
+        "faces": 3,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          4.134584998547369e-06,
+          0.6830614849178047,
+          5.610375497387777
+        ]
+      },
+      {
+        "component": 5086,
+        "faces": 3,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.267987763539268e-05,
+          0.4927549718420371,
+          2.3229032210247156
+        ]
+      },
+      {
+        "component": 5089,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.9585457000378597e-16,
+          0.48327233269349923,
+          1.791259809857185
+        ]
+      },
+      {
+        "component": 5091,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          4.248461595237975e-22,
+          1.1081879065495865,
+          8.32648311618626
+        ]
+      },
+      {
+        "component": 5094,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          8.560194067010596e-07,
+          0.9434428652480096,
+          21.247322076532605
+        ]
+      },
+      {
+        "component": 5096,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.7503093394486837e-17,
+          1.32183486989995,
+          24.758752461137465
+        ]
+      },
+      {
+        "component": 5109,
+        "faces": 10,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          5.494539274223188e-06,
+          1.189676180982576,
+          24.77221567527596
+        ]
+      },
+      {
+        "component": 5110,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.2184943008000635e-14,
+          0.8923627737597319,
+          24.770823648586582
+        ]
+      },
+      {
+        "component": 5115,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          4.126764894043079e-06,
+          1.3221152500208166,
+          24.758752735396335
+        ]
+      },
+      {
+        "component": 5145,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          9.145714069978536e-15,
+          1.3221152500273075,
+          24.758752461137465
+        ]
+      },
+      {
+        "component": 5153,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.517057711256996e-16,
+          1.0569009613248928,
+          1.6135355483128284
+        ]
+      },
+      {
+        "component": 5154,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          5.209718769938296e-06,
+          1.0791818928461212,
+          3.2065597953925056
+        ]
+      },
+      {
+        "component": 5155,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1885733960783457e-16,
+          1.4037350891814984,
+          2.0039592464779954
+        ]
+      },
+      {
+        "component": 5156,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1751584580132822e-05,
+          0.37931604701311766,
+          2.422414976975018
+        ]
+      },
+      {
+        "component": 5157,
+        "faces": 18,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.3623940127846167e-05,
+          1.1378493036507675,
+          9.156658629847922
+        ]
+      },
+      {
+        "component": 5158,
+        "faces": 32,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1407644718092377e-05,
+          3.4482758620689564,
+          3.448277466581315
+        ]
+      },
+      {
+        "component": 5159,
+        "faces": 6,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.145078878854698e-07,
+          0.06724665411689082,
+          0.3931424632745604
+        ]
+      },
+      {
+        "component": 5160,
+        "faces": 6,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          5.684155399453944e-06,
+          0.15415397615216783,
+          0.2891545089308962
+        ]
+      },
+      {
+        "component": 5167,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.4266288349973907e-15,
+          0.034253185802684626,
+          0.250812501277635
+        ]
+      },
+      {
+        "component": 5217,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.1624766194901723e-18,
+          3.4083125085848653e-06,
+          1.307110548933498
+        ]
+      },
+      {
+        "component": 5218,
+        "faces": 3,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.776663354418699e-16,
+          4.334602084374909e-06,
+          2.0526408584109923
+        ]
+      },
+      {
+        "component": 5220,
+        "faces": 3,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.948136515871075e-15,
+          6.544478559295957e-06,
+          2.7061933203458204
+        ]
+      },
+      {
+        "component": 5224,
+        "faces": 3,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          2.0958217923636397e-15,
+          2.8040651978744944e-06,
+          2.7061933203461095
+        ]
+      },
+      {
+        "component": 5225,
+        "faces": 3,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          8.730461347383965e-16,
+          8.292263457582186e-06,
+          2.7061933203449113
+        ]
+      },
+      {
+        "component": 5228,
+        "faces": 5,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.3136942532903888e-15,
+          9.299315961987553e-06,
+          2.706186503774828
+        ]
+      },
+      {
+        "component": 5805,
+        "faces": 32,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.3883951931889808e-28,
+          3.1724145820965948,
+          29.478747618059487
+        ]
+      },
+      {
+        "component": 5807,
+        "faces": 32,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.8301573001127474e-28,
+          3.1724228001485266,
+          25.341391182818576
+        ]
+      },
+      {
+        "component": 5813,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          0.3792017305066776,
+          7.96921158551959
+        ]
+      },
+      {
+        "component": 5814,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          1.515428325822521,
+          8.00855708681743
+        ]
+      },
+      {
+        "component": 5815,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          1.134945121003685,
+          8.023905480921403
+        ]
+      },
+      {
+        "component": 5816,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          1.5100227099685757,
+          8.07240093231167
+        ]
+      },
+      {
+        "component": 5817,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          0.3792017305066776,
+          7.96921158551959
+        ]
+      },
+      {
+        "component": 5819,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          1.515428325822521,
+          8.00855708681743
+        ]
+      },
+      {
+        "component": 5820,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          1.134945121003685,
+          8.023905480921403
+        ]
+      },
+      {
+        "component": 5821,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          1.5100227099685757,
+          8.07240093231167
+        ]
+      },
+      {
+        "component": 5823,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          1.5100070869080549,
+          8.064237376680188
+        ]
+      },
+      {
+        "component": 5824,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          1.5172352697712275,
+          15.908331343401798
+        ]
+      },
+      {
+        "component": 5825,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          1.5100070869080549,
+          8.064237376680188
+        ]
+      },
+      {
+        "component": 5827,
+        "faces": 1,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          1.5172352697712275,
+          15.908331343401798
+        ]
+      },
+      {
+        "component": 5957,
+        "faces": 32,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          9.119232064354896e-28,
+          3.172414443879009,
+          29.478747618059458
+        ]
+      },
+      {
+        "component": 5968,
+        "faces": 32,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          6.452882204707877e-28,
+          3.1724230037570162,
+          25.341391182818484
+        ]
+      },
+      {
+        "component": 6024,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          0.141225887549416,
+          0.4261011378272531
+        ]
+      },
+      {
+        "component": 6032,
+        "faces": 2,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0,
+          0.141225887549416,
+          0.4261011378272531
+        ]
+      },
+      {
+        "component": 6171,
+        "faces": 16,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.11157343536772879,
+          0.22003338117680935,
+          0.4754841868511238
+        ]
+      },
+      {
+        "component": 6172,
+        "faces": 16,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.11276522585662585,
+          0.22176867338312842,
+          0.4747076942400798
+        ]
+      },
+      {
+        "component": 6173,
+        "faces": 16,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.11143558843087548,
+          0.21981458021640582,
+          0.4757403959038816
+        ]
+      },
+      {
+        "component": 6174,
+        "faces": 16,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.11245430673850418,
+          0.22133347765002087,
+          0.47543100971121394
+        ]
+      },
+      {
+        "component": 6175,
+        "faces": 16,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.11215132607506703,
+          0.22102279534589386,
+          0.47532056182844096
+        ]
+      }
+    ],
+    "triangles": 581477
+  },
+  "steel": {
+    "source_components": 1425,
+    "kept": 1425,
+    "dropped": [],
+    "triangles": 94312
+  },
+  "ground": {
+    "source_components": 2696,
+    "kept": 2689,
+    "dropped": [
+      {
+        "component": 0,
+        "faces": 96,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          3.1832309056420283e-16,
+          386.2068965517241,
+          386.2068965517245
+        ]
+      },
+      {
+        "component": 2684,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.13139702969890493,
+          0.15172628312167732,
+          0.12413895621212441
+        ]
+      },
+      {
+        "component": 2685,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.13139680698624445,
+          0.15172628312168657,
+          0.12413895621212444
+        ]
+      },
+      {
+        "component": 2689,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.13139702969894096,
+          0.15172628312167058,
+          0.12413895621216292
+        ]
+      },
+      {
+        "component": 2690,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.13139680698625533,
+          0.15172628312167982,
+          0.12413895621216293
+        ]
+      },
+      {
+        "component": 2694,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.13139700067454374,
+          0.1517297854323521,
+          0.12414047293909003
+        ]
+      },
+      {
+        "component": 2695,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.13139679514128577,
+          0.1517297854323521,
+          0.12414047293909003
+        ]
+      }
+    ],
+    "triangles": 62974
+  },
+  "frame": {
+    "source_components": 45,
+    "kept": 11,
+    "dropped": [
+      {
+        "component": 11,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0344827257353687,
+          0.303424174290722,
+          0.6528188442361825
+        ]
+      },
+      {
+        "component": 12,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536868,
+          0.1237238109348775,
+          0.3096422244762581
+        ]
+      },
+      {
+        "component": 13,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536866,
+          0.16035315657923643,
+          0.5984322778109896
+        ]
+      },
+      {
+        "component": 14,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.034482725735368806,
+          0.2914921990756378,
+          0.2953666087076936
+        ]
+      },
+      {
+        "component": 15,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536871,
+          0.286240854623518,
+          0.3571267785697176
+        ]
+      },
+      {
+        "component": 16,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536886,
+          0.20283165776070966,
+          0.33580516946727273
+        ]
+      },
+      {
+        "component": 17,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.034482725735368744,
+          0.0956823243856384,
+          0.2790089311270906
+        ]
+      },
+      {
+        "component": 18,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536872,
+          0.1629147036322248,
+          0.17434385592108903
+        ]
+      },
+      {
+        "component": 19,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536871,
+          0.276836379717289,
+          0.5597953138680344
+        ]
+      },
+      {
+        "component": 20,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.034482725735368716,
+          0.22771997926979726,
+          0.2896432218880516
+        ]
+      },
+      {
+        "component": 21,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536877,
+          0.18475244973690153,
+          0.40386956313561245
+        ]
+      },
+      {
+        "component": 22,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.034482725735368785,
+          0.12724003699388664,
+          0.5511760711669981
+        ]
+      },
+      {
+        "component": 23,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536868,
+          0.24296275046033333,
+          0.3015567516458477
+        ]
+      },
+      {
+        "component": 24,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536869,
+          0.19774409782048163,
+          0.5647725072400381
+        ]
+      },
+      {
+        "component": 25,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.034482725735368744,
+          0.21358810964144936,
+          0.3861386200477369
+        ]
+      },
+      {
+        "component": 26,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536882,
+          0.13275581346981635,
+          0.3766454499343376
+        ]
+      },
+      {
+        "component": 27,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0344827257353688,
+          0.13763378983086216,
+          0.14647862006878226
+        ]
+      },
+      {
+        "component": 28,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536904,
+          0.11963186592891496,
+          0.2602557485808914
+        ]
+      },
+      {
+        "component": 29,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.034482725735368674,
+          0.11953141540106671,
+          0.6676591675857099
+        ]
+      },
+      {
+        "component": 30,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.03448272573536901,
+          0.16481848133360444,
+          0.44025059404044753
+        ]
+      },
+      {
+        "component": 31,
+        "faces": 92,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0055172833903086044,
+          0.808216427549161,
+          1.975162220498667
+        ]
+      },
+      {
+        "component": 32,
+        "faces": 96,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517283390308762,
+          0.29934999958392855,
+          1.9598144797203931
+        ]
+      },
+      {
+        "component": 33,
+        "faces": 44,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517283390308527,
+          0.4023606195324064,
+          0.9044770759724557
+        ]
+      },
+      {
+        "component": 34,
+        "faces": 48,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0055172833903091145,
+          0.2706302976313746,
+          2.287431874414102
+        ]
+      },
+      {
+        "component": 35,
+        "faces": 26,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517283390309633,
+          0.06045754069772512,
+          4.883903734521409
+        ]
+      },
+      {
+        "component": 36,
+        "faces": 76,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517283390308613,
+          0.6247860081458636,
+          2.1259808033694068
+        ]
+      },
+      {
+        "component": 37,
+        "faces": 36,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517283390308367,
+          0.36792584553725316,
+          0.5424108091196332
+        ]
+      },
+      {
+        "component": 38,
+        "faces": 72,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.00551728339030852,
+          0.21154945988257817,
+          1.3090643189063376
+        ]
+      },
+      {
+        "component": 39,
+        "faces": 36,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517283390308421,
+          0.10357968632214047,
+          0.6434675303722218
+        ]
+      },
+      {
+        "component": 40,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517283390308382,
+          0.10237956436015172,
+          0.20550062750038325
+        ]
+      },
+      {
+        "component": 41,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517283390308433,
+          0.061058041374881245,
+          0.684532399640974
+        ]
+      },
+      {
+        "component": 42,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517283390308396,
+          0.06505397212902249,
+          0.1588463998453402
+        ]
+      },
+      {
+        "component": 43,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517283390308396,
+          0.06441793492179443,
+          0.4563796202170086
+        ]
+      },
+      {
+        "component": 44,
+        "faces": 4,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.5657668683108232e-16,
+          0.005517283390308405,
+          0.0689707352847875
+        ]
+      }
+    ],
+    "triangles": 132
+  },
+  "leaf": {
+    "source_components": 126,
+    "kept": 80,
+    "dropped": [
+      {
+        "component": 1,
+        "faces": 12,
+        "reason": "door weathering / sub-resolution detail"
+      },
+      {
+        "component": 3,
+        "faces": 12,
+        "reason": "door weathering / sub-resolution detail"
+      },
+      {
+        "component": 5,
+        "faces": 12,
+        "reason": "door weathering / sub-resolution detail"
+      },
+      {
+        "component": 7,
+        "faces": 48,
+        "reason": "door weathering / sub-resolution detail"
+      },
+      {
+        "component": 10,
+        "faces": 48,
+        "reason": "door weathering / sub-resolution detail"
+      },
+      {
+        "component": 12,
+        "faces": 10,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          1.542299272857333e-16,
+          0.14574999537905065,
+          0.15741627791832394
+        ]
+      },
+      {
+        "component": 86,
+        "faces": 296,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994232,
+          1.633530945067868,
+          2.955734559993039
+        ]
+      },
+      {
+        "component": 87,
+        "faces": 72,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994107,
+          0.7472989557766145,
+          1.0865255731685974
+        ]
+      },
+      {
+        "component": 88,
+        "faces": 120,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994699,
+          0.8478218706187355,
+          2.002867736257734
+        ]
+      },
+      {
+        "component": 89,
+        "faces": 84,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994005,
+          0.19742699080122808,
+          3.5944961376352893
+        ]
+      },
+      {
+        "component": 90,
+        "faces": 40,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994003,
+          0.4429226341166541,
+          0.5926584714005402
+        ]
+      },
+      {
+        "component": 91,
+        "faces": 76,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994003,
+          0.39224358501982237,
+          1.336120732478658
+        ]
+      },
+      {
+        "component": 92,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994003,
+          0.1633199729717585,
+          2.5650896508826273
+        ]
+      },
+      {
+        "component": 93,
+        "faces": 40,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993958,
+          0.2056842204927508,
+          1.8308729179633223
+        ]
+      },
+      {
+        "component": 94,
+        "faces": 20,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993984,
+          0.33773208610696676,
+          0.5038296814265546
+        ]
+      },
+      {
+        "component": 95,
+        "faces": 20,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993899,
+          0.15201339844055187,
+          0.4641130829814215
+        ]
+      },
+      {
+        "component": 96,
+        "faces": 36,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994145,
+          0.3062963652511505,
+          0.7128585581260264
+        ]
+      },
+      {
+        "component": 97,
+        "faces": 44,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993951,
+          0.17803334351026212,
+          1.3354126749330741
+        ]
+      },
+      {
+        "component": 98,
+        "faces": 40,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993976,
+          0.2727436804491367,
+          1.3206461736450903
+        ]
+      },
+      {
+        "component": 99,
+        "faces": 56,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994083,
+          0.20317901026017138,
+          1.1256222090613182
+        ]
+      },
+      {
+        "component": 100,
+        "faces": 56,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994226,
+          0.20932717098308318,
+          1.079012640389307
+        ]
+      },
+      {
+        "component": 101,
+        "faces": 40,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.00551723200699413,
+          0.3330485972478948,
+          0.5656940970395765
+        ]
+      },
+      {
+        "component": 102,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993939,
+          0.10223877399539033,
+          1.6270460511634162
+        ]
+      },
+      {
+        "component": 103,
+        "faces": 36,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993956,
+          0.3525049816246092,
+          0.454970410049655
+        ]
+      },
+      {
+        "component": 104,
+        "faces": 40,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0055172320069941045,
+          0.2519523150855779,
+          0.5623372717914996
+        ]
+      },
+      {
+        "component": 105,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994008,
+          0.20856414172238302,
+          0.40070859164435424
+        ]
+      },
+      {
+        "component": 106,
+        "faces": 24,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0055172320069939145,
+          0.11206506703069319,
+          0.4400404575501565
+        ]
+      },
+      {
+        "component": 107,
+        "faces": 20,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993994,
+          0.17612293776109772,
+          0.24799766730666375
+        ]
+      },
+      {
+        "component": 108,
+        "faces": 16,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993908,
+          0.16951218256649322,
+          0.26522510171633085
+        ]
+      },
+      {
+        "component": 109,
+        "faces": 16,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994018,
+          0.14404604032691318,
+          0.44536003274219643
+        ]
+      },
+      {
+        "component": 110,
+        "faces": 16,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993883,
+          0.10140429248065835,
+          0.5443094495813139
+        ]
+      },
+      {
+        "component": 111,
+        "faces": 20,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993953,
+          0.1499994692125194,
+          0.3797172989095412
+        ]
+      },
+      {
+        "component": 112,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993899,
+          0.0584554826585873,
+          0.6651282939542926
+        ]
+      },
+      {
+        "component": 113,
+        "faces": 20,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993942,
+          0.09695317053596035,
+          0.3463550870816724
+        ]
+      },
+      {
+        "component": 114,
+        "faces": 16,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.00551723200699392,
+          0.1510358187536725,
+          0.2494688922738697
+        ]
+      },
+      {
+        "component": 115,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993952,
+          0.10122855376373968,
+          0.41218096162889256
+        ]
+      },
+      {
+        "component": 116,
+        "faces": 8,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993874,
+          0.05521995914426731,
+          0.20378019375211534
+        ]
+      },
+      {
+        "component": 117,
+        "faces": 20,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0055172320069939145,
+          0.15375665269177352,
+          0.2563532207953392
+        ]
+      },
+      {
+        "component": 118,
+        "faces": 20,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993913,
+          0.05020221608189937,
+          0.39527717539377316
+        ]
+      },
+      {
+        "component": 119,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993941,
+          0.15696198077397272,
+          0.15883293812923227
+        ]
+      },
+      {
+        "component": 120,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993937,
+          0.052923479880589194,
+          0.35192620036318567
+        ]
+      },
+      {
+        "component": 121,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993894,
+          0.0476616551506866,
+          0.29609623575345495
+        ]
+      },
+      {
+        "component": 122,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.0055172320069938816,
+          0.09882166710995426,
+          0.2009310202258392
+        ]
+      },
+      {
+        "component": 123,
+        "faces": 16,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993963,
+          0.09771914310443236,
+          0.19834934284736705
+        ]
+      },
+      {
+        "component": 124,
+        "faces": 8,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006994081,
+          0.05432002608218642,
+          0.30595348590346577
+        ]
+      },
+      {
+        "component": 125,
+        "faces": 12,
+        "reason": "paint decal / sub-resolution chip",
+        "pca_extents_mm": [
+          0.005517232006993938,
+          0.06153311951780693,
+          0.15635374788521555
+        ]
+      }
+    ],
+    "triangles": 1748
+  }
+}

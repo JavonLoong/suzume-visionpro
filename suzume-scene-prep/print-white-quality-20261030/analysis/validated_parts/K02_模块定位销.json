@@ -1,0 +1,78 @@
+{
+  "row": {
+    "id": "K02_模块定位销",
+    "category": "连接件",
+    "quantity": 32,
+    "size_mm": [
+      3.0,
+      3.0,
+      3.8
+    ],
+    "triangles": 124,
+    "watertight": true,
+    "volume_mm3": 26.688,
+    "components": 1,
+    "assembly_bounds_mm": [
+      [
+        -1.5,
+        -1.5,
+        0.0
+      ],
+      [
+        1.5,
+        1.5,
+        3.8
+      ]
+    ],
+    "assembly_to_print_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        1.5
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stl_sha256": "a972807e870775d8e197d08e9e1efa06cff595507a200069481a015d39f93ef4"
+  },
+  "report": {
+    "id": "K02_模块定位销",
+    "watertight": true,
+    "normal_consistency": true,
+    "self_intersection_scan_faces": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "removed_tiny_components": 0,
+    "cleaned_face_flags": 0,
+    "volume_mm3": 26.68835605180634,
+    "bounds_mm": [
+      [
+        -1.5,
+        -1.5,
+        0.0
+      ],
+      [
+        1.5,
+        1.5,
+        3.8
+      ]
+    ]
+  }
+}

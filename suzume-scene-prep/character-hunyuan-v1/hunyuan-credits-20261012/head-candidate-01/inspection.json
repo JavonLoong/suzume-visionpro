@@ -1,0 +1,30 @@
+{
+  "model": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\head-candidate-01\\Suzume_head_Hunyuan31_1p5m.glb",
+  "mesh_count": 1,
+  "vertices": 881783,
+  "triangles": 1500000,
+  "bounds_min": [
+    -0.271914005279541,
+    -0.3622521758079529,
+    -4.867176528478012e-08
+  ],
+  "bounds_max": [
+    0.28622201085090637,
+    0.4442390501499176,
+    1.060955286026001
+  ],
+  "dimensions": [
+    0.558135986328125,
+    0.8064912557601929,
+    1.060955286026001
+  ],
+  "materials": [
+    "Material.001"
+  ],
+  "renders": [
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\head-candidate-01\\render-y_minus.png",
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\head-candidate-01\\render-y_plus.png",
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\head-candidate-01\\render-x_minus.png",
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\hunyuan-credits-20261012\\head-candidate-01\\render-x_plus.png"
+  ]
+}

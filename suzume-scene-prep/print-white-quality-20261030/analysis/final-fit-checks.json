@@ -1,0 +1,309 @@
+{
+  "mounting_sockets_and_assembly": [
+    {
+      "part": "W01_环形建筑",
+      "socket_angle": 12.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W01_环形建筑",
+      "socket_angle": 32.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W02_环形建筑",
+      "socket_angle": 57.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W02_环形建筑",
+      "socket_angle": 77.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W03_环形建筑",
+      "socket_angle": 102.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W03_环形建筑",
+      "socket_angle": 122.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W04_环形建筑",
+      "socket_angle": 147.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W04_环形建筑",
+      "socket_angle": 167.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W05_环形建筑",
+      "socket_angle": 192.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W05_环形建筑",
+      "socket_angle": 212.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W06_环形建筑",
+      "socket_angle": 237.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W06_环形建筑",
+      "socket_angle": 257.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W07_环形建筑",
+      "socket_angle": 282.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W07_环形建筑",
+      "socket_angle": 302.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W08_环形建筑",
+      "socket_angle": 327.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "W08_环形建筑",
+      "socket_angle": 347.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S01_钢架",
+      "socket_angle": 12.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S01_钢架",
+      "socket_angle": 32.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S02_钢架",
+      "socket_angle": 57.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S02_钢架",
+      "socket_angle": 77.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S03_钢架",
+      "socket_angle": 102.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S03_钢架",
+      "socket_angle": 122.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S04_钢架",
+      "socket_angle": 147.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S04_钢架",
+      "socket_angle": 167.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S05_钢架",
+      "socket_angle": 192.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S05_钢架",
+      "socket_angle": 212.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S06_钢架",
+      "socket_angle": 237.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S06_钢架",
+      "socket_angle": 257.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S07_钢架",
+      "socket_angle": 282.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S07_钢架",
+      "socket_angle": 302.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S08_钢架",
+      "socket_angle": 327.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "part": "S08_钢架",
+      "socket_angle": 347.5,
+      "intrusion_mm3": 0.0
+    },
+    {
+      "pair": [
+        "W01_环形建筑",
+        "S01_钢架"
+      ],
+      "interference_mm3": 0.0
+    },
+    {
+      "pair": [
+        "W02_环形建筑",
+        "S02_钢架"
+      ],
+      "interference_mm3": 0.0
+    },
+    {
+      "pair": [
+        "W03_环形建筑",
+        "S03_钢架"
+      ],
+      "interference_mm3": 0.0
+    },
+    {
+      "pair": [
+        "W04_环形建筑",
+        "S04_钢架"
+      ],
+      "interference_mm3": 0.0
+    },
+    {
+      "pair": [
+        "W05_环形建筑",
+        "S05_钢架"
+      ],
+      "interference_mm3": 1.5504091066542713e-17
+    },
+    {
+      "pair": [
+        "W06_环形建筑",
+        "S06_钢架"
+      ],
+      "interference_mm3": 0.0
+    },
+    {
+      "pair": [
+        "W07_环形建筑",
+        "S07_钢架"
+      ],
+      "interference_mm3": 7.047314121155779e-19
+    },
+    {
+      "pair": [
+        "W08_环形建筑",
+        "S08_钢架"
+      ],
+      "interference_mm3": 2.2926301970153246e-16
+    }
+  ],
+  "door_angles": [
+    {
+      "angle": 0,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle": 15,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle": 30,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle": 45,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle": 60,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle": 75,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle": 90,
+      "interference_mm3": 0.0
+    }
+  ],
+  "steel_normal_ray_samples": [
+    {
+      "part": "S01_钢架",
+      "sample_count": 772,
+      "p05_mm": 1.6331054236363378,
+      "median_mm": 2.2646874112323503,
+      "fraction_below_08": 0.0012953367875647669
+    },
+    {
+      "part": "S02_钢架",
+      "sample_count": 834,
+      "p05_mm": 1.1560049239124977,
+      "median_mm": 2.2946999567244046,
+      "fraction_below_08": 0.009592326139088728
+    },
+    {
+      "part": "S03_钢架",
+      "sample_count": 692,
+      "p05_mm": 0.657218092190904,
+      "median_mm": 2.560114356612228,
+      "fraction_below_08": 0.07369942196531792
+    },
+    {
+      "part": "S04_钢架",
+      "sample_count": 847,
+      "p05_mm": 1.1645381323169242,
+      "median_mm": 2.2027517820241913,
+      "fraction_below_08": 0.0070838252656434475
+    },
+    {
+      "part": "S05_钢架",
+      "sample_count": 955,
+      "p05_mm": 1.7557058691424139,
+      "median_mm": 2.2409033933888316,
+      "fraction_below_08": 0.0
+    },
+    {
+      "part": "S06_钢架",
+      "sample_count": 1004,
+      "p05_mm": 1.7958938570256922,
+      "median_mm": 2.6356392335626784,
+      "fraction_below_08": 0.00398406374501992
+    },
+    {
+      "part": "S07_钢架",
+      "sample_count": 962,
+      "p05_mm": 1.9778826649721273,
+      "median_mm": 2.7198269959191412,
+      "fraction_below_08": 0.002079002079002079
+    },
+    {
+      "part": "S08_钢架",
+      "sample_count": 764,
+      "p05_mm": 1.3136571568654694,
+      "median_mm": 2.2149812212859685,
+      "fraction_below_08": 0.003926701570680628
+    }
+  ],
+  "sampling_limit": "抽样只用于检查细杆改善；锐边、杆端和倒角处厚度自然趋近0，不把抽样最小值当作全部结构的最小厚度。"
+}

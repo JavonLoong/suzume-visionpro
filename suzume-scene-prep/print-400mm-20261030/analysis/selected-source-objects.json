@@ -1,0 +1,3536 @@
+{
+  "source": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\character-hunyuan-v1\\poster-right-bow-v56\\Suzume_dual_scene_right_bow_v56.blend",
+  "scene": "Official poster courtyard v38",
+  "selected": {
+    "wall": [
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.019",
+        "vertices": 22197,
+        "triangles": 7399
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.020",
+        "vertices": 4245,
+        "triangles": 1415
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.021",
+        "vertices": 2967,
+        "triangles": 989
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.022",
+        "vertices": 5106,
+        "triangles": 1702
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.023",
+        "vertices": 1788,
+        "triangles": 596
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.024",
+        "vertices": 144,
+        "triangles": 48
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.025",
+        "vertices": 3909,
+        "triangles": 1303
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.026",
+        "vertices": 72,
+        "triangles": 24
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.027",
+        "vertices": 273300,
+        "triangles": 91100
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.028",
+        "vertices": 5307,
+        "triangles": 1769
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.029",
+        "vertices": 2745,
+        "triangles": 915
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.030",
+        "vertices": 37917,
+        "triangles": 12639
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.031",
+        "vertices": 612,
+        "triangles": 204
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.032",
+        "vertices": 4587,
+        "triangles": 1529
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.033",
+        "vertices": 4422,
+        "triangles": 1474
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.034",
+        "vertices": 1224,
+        "triangles": 408
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.035",
+        "vertices": 1068,
+        "triangles": 356
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.036",
+        "vertices": 2760,
+        "triangles": 920
+      },
+      {
+        "name": "Circular ruined hotel with exterior entrance solid mesh.037",
+        "vertices": 10899,
+        "triangles": 3633
+      },
+      {
+        "name": "Poster rooftop left service house v45",
+        "vertices": 542,
+        "triangles": 984
+      },
+      {
+        "name": "Poster rooftop right service house v45",
+        "vertices": 542,
+        "triangles": 984
+      },
+      {
+        "name": "Poster rooftop central water tank v45",
+        "vertices": 1862,
+        "triangles": 3648
+      },
+      {
+        "name": "Poster rooftop partly visible left water tank v45",
+        "vertices": 1162,
+        "triangles": 2304
+      },
+      {
+        "name": "Poster dense balcony rail bay 12 v46",
+        "vertices": 672,
+        "triangles": 1008
+      },
+      {
+        "name": "Poster dense balcony rail bay 13 v46",
+        "vertices": 848,
+        "triangles": 1272
+      },
+      {
+        "name": "Poster dense balcony rail bay 14 v46",
+        "vertices": 736,
+        "triangles": 1104
+      },
+      {
+        "name": "Poster dense balcony rail bay 15 v46",
+        "vertices": 944,
+        "triangles": 1416
+      },
+      {
+        "name": "Poster molded roof fascia bay 12 v47",
+        "vertices": 18,
+        "triangles": 32
+      },
+      {
+        "name": "Poster molded roof fascia bay 13 v47",
+        "vertices": 18,
+        "triangles": 32
+      },
+      {
+        "name": "Poster molded roof fascia bay 14 v47",
+        "vertices": 18,
+        "triangles": 32
+      },
+      {
+        "name": "Poster molded roof fascia bay 15 v47",
+        "vertices": 18,
+        "triangles": 32
+      },
+      {
+        "name": "Poster upper-storey divider bay 13 roof contact v48",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster upper-storey divider bay 14 roof contact v48",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster corrected clerestory wall bay 13 v48",
+        "vertices": 2174,
+        "triangles": 4352
+      },
+      {
+        "name": "Poster corrected clerestory wall bay 14 v48",
+        "vertices": 1536,
+        "triangles": 3072
+      },
+      {
+        "name": "Poster observed upper window 0 bay 13 upper frame v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 0 bay 13 lower frame v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 0 bay 13 left jamb v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 0 bay 13 right jamb v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 0 bay 13 solid glazing v48",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster observed upper window 1 bay 13 upper frame v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 1 bay 13 lower frame v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 1 bay 13 left jamb v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 1 bay 13 right jamb v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 1 bay 13 solid glazing v48",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster observed upper window 2 bay 13 upper frame v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 2 bay 13 lower frame v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 2 bay 13 left jamb v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 2 bay 13 solid glazing v48",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster observed upper window 2 bay 14 upper frame v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 2 bay 14 lower frame v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 2 bay 14 right jamb v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 2 bay 14 solid glazing v48",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster observed upper window 3 bay 14 upper frame v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 3 bay 14 lower frame v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 3 bay 14 left jamb v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 3 bay 14 right jamb v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 3 bay 14 solid glazing v48",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster observed upper window 0 central mullion v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 1 central mullion v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 2 central mullion v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster observed upper window 3 central mullion v48",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster pointed 0 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 0 glazing v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 1 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 1 glazing v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 2 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 2 glazing v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 3 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 3 glazing v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 4 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 4 recessed infill v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 5 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 5 recessed infill v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 6 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 6 recessed infill v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 7 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 7 recessed infill v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 8 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 8 recessed infill v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 9 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 9 recessed infill v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 10 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 10 recessed infill v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 11 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 11 recessed infill v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster pointed 12 molded surround v49",
+        "vertices": 210,
+        "triangles": 420
+      },
+      {
+        "name": "Poster pointed 12 recessed infill v49",
+        "vertices": 274,
+        "triangles": 544
+      },
+      {
+        "name": "Poster small 0 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 0 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 1 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 1 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 2 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 2 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 3 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 3 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 4 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 4 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 5 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 5 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 6 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 6 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 7 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 7 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 8 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 8 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 9 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 9 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 10 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 10 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 11 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 11 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 12 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 12 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 13 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 13 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 14 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 14 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster small 15 molded surround v49",
+        "vertices": 162,
+        "triangles": 324
+      },
+      {
+        "name": "Poster small 15 recessed infill v49",
+        "vertices": 210,
+        "triangles": 416
+      },
+      {
+        "name": "Poster arched clerestory wall bay 13 v49",
+        "vertices": 10956,
+        "triangles": 21952
+      },
+      {
+        "name": "Poster arched clerestory wall bay 14 v49",
+        "vertices": 8912,
+        "triangles": 17856
+      },
+      {
+        "name": "Poster arched clerestory wall bay 15 v49",
+        "vertices": 9680,
+        "triangles": 19392
+      },
+      {
+        "name": "Poster sloping clerestory cornice bay 13 v49",
+        "vertices": 468,
+        "triangles": 932
+      },
+      {
+        "name": "Poster sloping clerestory cornice bay 14 v49",
+        "vertices": 405,
+        "triangles": 806
+      },
+      {
+        "name": "Poster sloping clerestory cornice bay 15 v49",
+        "vertices": 522,
+        "triangles": 1040
+      },
+      {
+        "name": "Poster upper-storey divider bay 13 lower v49",
+        "vertices": 18,
+        "triangles": 32
+      },
+      {
+        "name": "Poster upper-storey divider bay 13 rear v49",
+        "vertices": 18,
+        "triangles": 32
+      },
+      {
+        "name": "Poster upper-storey divider bay 14 lower v49",
+        "vertices": 16,
+        "triangles": 28
+      },
+      {
+        "name": "Poster upper-storey divider bay 14 rear v49",
+        "vertices": 14,
+        "triangles": 24
+      },
+      {
+        "name": "Poster left rectangular window v50 surround",
+        "vertices": 64,
+        "triangles": 128
+      },
+      {
+        "name": "Poster left rectangular window v50 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster left rectangular window v50 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 transom upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 transom upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 transom upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 transom upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 transom upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 transom crossbar",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left rectangular window v50 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster left arched window v50 glazing",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster left arched window v50 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 fan spoke 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 fan spoke 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 fan spoke 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster left arched window v50 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster entrance v50 fan glazing",
+        "vertices": 1538,
+        "triangles": 3072
+      },
+      {
+        "name": "Poster entrance v50 fan curved rail 0",
+        "vertices": 196,
+        "triangles": 388
+      },
+      {
+        "name": "Poster entrance v50 fan curved rail 1",
+        "vertices": 196,
+        "triangles": 388
+      },
+      {
+        "name": "Poster entrance v50 fan spoke 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 fan spoke 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 fan spoke 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 fan spoke 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 fan spoke 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 lower panel",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 stile 0",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 stile 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 rail 0",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 rail 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 rail 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 grille upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 grille upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 grille upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 grille upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 grille crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 grille crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 grille crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 lower panel molding",
+        "vertices": 16,
+        "triangles": 32
+      },
+      {
+        "name": "Poster entrance v50 leaf 0 pull handle",
+        "vertices": 16,
+        "triangles": 28
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 lower panel",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 stile 0",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 stile 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 rail 0",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 rail 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 rail 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 grille upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 grille upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 grille upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 grille upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 grille crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 grille crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 grille crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 lower panel molding",
+        "vertices": 16,
+        "triangles": 32
+      },
+      {
+        "name": "Poster entrance v50 leaf 1 pull handle",
+        "vertices": 16,
+        "triangles": 28
+      },
+      {
+        "name": "Poster entrance v50 step 0",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster entrance v50 step 1",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster entrance v50 step 2",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster entrance v50 stair cheek -1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 stair cheek 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 interior floor",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 back wall foot",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 side wall foot -1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster entrance v50 side wall foot 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 surround",
+        "vertices": 64,
+        "triangles": 128
+      },
+      {
+        "name": "Poster wide window 0 v50 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster wide window 0 v50 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 transom upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 transom upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 transom upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 transom upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 transom upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 transom crossbar",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 0 v50 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 surround",
+        "vertices": 64,
+        "triangles": 128
+      },
+      {
+        "name": "Poster wide window 1 v50 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster wide window 1 v50 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 transom upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 transom upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 transom upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 transom upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 transom upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 transom crossbar",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 1 v50 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 surround",
+        "vertices": 64,
+        "triangles": 128
+      },
+      {
+        "name": "Poster wide window 2 v50 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster wide window 2 v50 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 transom upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 transom upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 transom upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 transom upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 transom upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 transom crossbar",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster wide window 2 v50 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower facade wall bay 13 v50",
+        "vertices": 1918,
+        "triangles": 3840
+      },
+      {
+        "name": "Poster window group hood bay 13 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster window group hood drip bay 13 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower-storey upper molding bay 13 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier bay 13 side -1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier base bay 13 side -1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier capital bay 13 side -1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier bay 13 side 1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier base bay 13 side 1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier capital bay 13 side 1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower facade wall bay 14 v50",
+        "vertices": 1760,
+        "triangles": 3520
+      },
+      {
+        "name": "Poster entrance lintel ledge v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower-storey upper molding bay 14 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier bay 14 side 1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier base bay 14 side 1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier capital bay 14 side 1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower facade wall bay 15 v50",
+        "vertices": 572,
+        "triangles": 1152
+      },
+      {
+        "name": "Poster window group hood bay 15 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster window group hood drip bay 15 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower-storey upper molding bay 15 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier bay 15 side 1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier base bay 15 side 1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster lower pier capital bay 15 side 1 v50",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right entrance v54 fan glazing",
+        "vertices": 1538,
+        "triangles": 3072
+      },
+      {
+        "name": "Poster right entrance v54 fan curved rail 0",
+        "vertices": 196,
+        "triangles": 388
+      },
+      {
+        "name": "Poster right entrance v54 fan curved rail 1",
+        "vertices": 196,
+        "triangles": 388
+      },
+      {
+        "name": "Poster right entrance v54 fan spoke 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 fan spoke 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 fan spoke 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 fan spoke 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 fan spoke 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 fan spoke 6",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 0 lower panel",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster right entrance v54 leaf 0 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster right entrance v54 leaf 0 stile 0",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 0 stile 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 0 rail 0",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 0 rail 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 0 rail 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 0 center glazing upright",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 0 glazing diamond",
+        "vertices": 16,
+        "triangles": 32
+      },
+      {
+        "name": "Poster right entrance v54 leaf 0 pull handle",
+        "vertices": 16,
+        "triangles": 28
+      },
+      {
+        "name": "Poster right entrance v54 leaf 1 lower panel",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster right entrance v54 leaf 1 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster right entrance v54 leaf 1 stile 0",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 1 stile 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 1 rail 0",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 1 rail 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 1 rail 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 1 center glazing upright",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 leaf 1 glazing diamond",
+        "vertices": 16,
+        "triangles": 32
+      },
+      {
+        "name": "Poster right entrance v54 leaf 1 pull handle",
+        "vertices": 16,
+        "triangles": 28
+      },
+      {
+        "name": "Poster right entrance v54 step 0",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster right entrance v54 step 1",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster right entrance v54 step 2",
+        "vertices": 26,
+        "triangles": 48
+      },
+      {
+        "name": "Poster right entrance v54 stair foundation",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 interior floor",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 back wall foot",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 side wall foot -1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right entrance v54 side wall foot 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right narrow arch v54 glazing",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right narrow arch v54 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 fan spoke 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 fan spoke 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 fan spoke 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right narrow arch v54 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 surround",
+        "vertices": 64,
+        "triangles": 128
+      },
+      {
+        "name": "Poster right double window 0 v54 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster right double window 0 v54 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 transom upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 transom upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 transom upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 transom upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 transom upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 transom upright 6",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 transom crossbar",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 0 v54 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 surround",
+        "vertices": 64,
+        "triangles": 128
+      },
+      {
+        "name": "Poster right double window 1 v54 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster right double window 1 v54 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 transom upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 transom upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 transom upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 transom upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 transom upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 transom upright 6",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 transom crossbar",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right double window 1 v54 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 surround",
+        "vertices": 64,
+        "triangles": 128
+      },
+      {
+        "name": "Poster right triple window 0 v54 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster right triple window 0 v54 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 transom upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 transom upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 transom upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 transom upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 transom upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 transom upright 6",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 transom crossbar",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 0 v54 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 surround",
+        "vertices": 64,
+        "triangles": 128
+      },
+      {
+        "name": "Poster right triple window 1 v54 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster right triple window 1 v54 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 transom upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 transom upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 transom upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 transom upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 transom upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 transom upright 6",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 transom crossbar",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 1 v54 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 surround",
+        "vertices": 64,
+        "triangles": 128
+      },
+      {
+        "name": "Poster right triple window 2 v54 glazing",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster right triple window 2 v54 upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 crossbar 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 crossbar 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 crossbar 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 transom",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 transom upright 1",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 transom upright 2",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 transom upright 3",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 transom upright 4",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 transom upright 5",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 transom upright 6",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 transom crossbar",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right triple window 2 v54 sill",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower facade wall bay 17 v54",
+        "vertices": 1760,
+        "triangles": 3520
+      },
+      {
+        "name": "Poster right entrance lintel ledge v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower cornice bay 17 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier bay 17 side -1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier base bay 17 side -1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier capital bay 17 side -1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 17 side -1 0 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 17 side -1 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 17 side -1 2 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 17 side -1 3 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier bay 17 side 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier base bay 17 side 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier capital bay 17 side 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 17 side 1 0 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 17 side 1 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 17 side 1 2 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 17 side 1 3 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower facade wall bay 18 v54",
+        "vertices": 2076,
+        "triangles": 4160
+      },
+      {
+        "name": "Poster right window group hood bay 18 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right hood drip bay 18 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right window group sill bay 18 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier bay 18 side 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier base bay 18 side 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier capital bay 18 side 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 18 side 1 0 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 18 side 1 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 18 side 1 2 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 18 side 1 3 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower facade wall bay 19 v54",
+        "vertices": 572,
+        "triangles": 1152
+      },
+      {
+        "name": "Poster right window group hood bay 19 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right hood drip bay 19 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right window group sill bay 19 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier bay 19 side 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier base bay 19 side 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right lower pier capital bay 19 side 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 19 side 1 0 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 19 side 1 1 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 19 side 1 2 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right pier capital groove bay 19 side 1 3 v54",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster right window fan rim v54",
+        "vertices": 384,
+        "triangles": 768
+      },
+      {
+        "name": "Poster right window fan recess v54",
+        "vertices": 192,
+        "triangles": 380
+      },
+      {
+        "name": "Poster right window fan blade 0 v54",
+        "vertices": 10,
+        "triangles": 16
+      },
+      {
+        "name": "Poster right window fan blade 1 v54",
+        "vertices": 10,
+        "triangles": 16
+      },
+      {
+        "name": "Poster right window fan blade 2 v54",
+        "vertices": 10,
+        "triangles": 16
+      },
+      {
+        "name": "Poster right window fan blade 3 v54",
+        "vertices": 10,
+        "triangles": 16
+      },
+      {
+        "name": "Poster right window fan blade 4 v54",
+        "vertices": 10,
+        "triangles": 16
+      },
+      {
+        "name": "Poster right large 0 v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right large 0 v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right large 0 v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right large 1 v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right large 1 v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right large 1 v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right large 2 v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right large 2 v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right large 2 v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right large 3 v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right large 3 v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right large 3 v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right large 4 v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right large 4 v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right large 4 v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right large 5 v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right large 5 v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right large 5 v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right large 6 v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right large 6 v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right large 6 v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right large 7 v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right large 7 v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right large 7 v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right large 8 v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right large 8 v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right large 8 v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right large 9 v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right large 9 v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right large 9 v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right small 0 v55 molded surround",
+        "vertices": 432,
+        "triangles": 864
+      },
+      {
+        "name": "Poster right small 0 v55 inner bead",
+        "vertices": 108,
+        "triangles": 216
+      },
+      {
+        "name": "Poster right small 0 v55 recessed insert",
+        "vertices": 834,
+        "triangles": 1664
+      },
+      {
+        "name": "Poster right small 1 v55 molded surround",
+        "vertices": 432,
+        "triangles": 864
+      },
+      {
+        "name": "Poster right small 1 v55 inner bead",
+        "vertices": 108,
+        "triangles": 216
+      },
+      {
+        "name": "Poster right small 1 v55 recessed insert",
+        "vertices": 834,
+        "triangles": 1664
+      },
+      {
+        "name": "Poster right small 2 v55 molded surround",
+        "vertices": 432,
+        "triangles": 864
+      },
+      {
+        "name": "Poster right small 2 v55 inner bead",
+        "vertices": 108,
+        "triangles": 216
+      },
+      {
+        "name": "Poster right small 2 v55 recessed insert",
+        "vertices": 834,
+        "triangles": 1664
+      },
+      {
+        "name": "Poster right small 3 v55 molded surround",
+        "vertices": 432,
+        "triangles": 864
+      },
+      {
+        "name": "Poster right small 3 v55 inner bead",
+        "vertices": 108,
+        "triangles": 216
+      },
+      {
+        "name": "Poster right small 3 v55 recessed insert",
+        "vertices": 834,
+        "triangles": 1664
+      },
+      {
+        "name": "Poster right small 4 v55 molded surround",
+        "vertices": 432,
+        "triangles": 864
+      },
+      {
+        "name": "Poster right small 4 v55 inner bead",
+        "vertices": 108,
+        "triangles": 216
+      },
+      {
+        "name": "Poster right small 4 v55 recessed insert",
+        "vertices": 834,
+        "triangles": 1664
+      },
+      {
+        "name": "Poster right left pointed v55 molded surround",
+        "vertices": 816,
+        "triangles": 1632
+      },
+      {
+        "name": "Poster right left pointed v55 inner bead",
+        "vertices": 204,
+        "triangles": 408
+      },
+      {
+        "name": "Poster right left pointed v55 recessed insert",
+        "vertices": 1602,
+        "triangles": 3200
+      },
+      {
+        "name": "Poster right broad gray recess v55",
+        "vertices": 2178,
+        "triangles": 4352
+      },
+      {
+        "name": "Poster right broken recess masonry stub v55",
+        "vertices": 130,
+        "triangles": 256
+      },
+      {
+        "name": "Poster curved right upper wall v55",
+        "vertices": 108776,
+        "triangles": 217600
+      },
+      {
+        "name": "Poster right graded lower cornice v55",
+        "vertices": 1620,
+        "triangles": 3236
+      },
+      {
+        "name": "Poster right sloping crown band v55",
+        "vertices": 1440,
+        "triangles": 2876
+      },
+      {
+        "name": "Poster right roof transition strip v55",
+        "vertices": 1080,
+        "triangles": 2156
+      },
+      {
+        "name": "Poster right left recess lintel v55",
+        "vertices": 98,
+        "triangles": 192
+      }
+    ],
+    "steel": [
+      {
+        "name": "Broken radial dome steelwork solid mesh",
+        "vertices": 51456,
+        "triangles": 17152
+      },
+      {
+        "name": "Broken radial dome steelwork solid mesh.001",
+        "vertices": 34164,
+        "triangles": 11388
+      },
+      {
+        "name": "Broken radial dome steelwork solid mesh.002",
+        "vertices": 720,
+        "triangles": 240
+      },
+      {
+        "name": "Broken radial dome steelwork solid mesh.003",
+        "vertices": 1440,
+        "triangles": 480
+      },
+      {
+        "name": "Poster right I-section post 2 v39",
+        "vertices": 1920,
+        "triangles": 3836
+      },
+      {
+        "name": "Poster right I-section post 3 v39",
+        "vertices": 1920,
+        "triangles": 3836
+      },
+      {
+        "name": "Poster inner grounded footing v39",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster Upper continuous tie v39",
+        "vertices": 1500,
+        "triangles": 2996
+      },
+      {
+        "name": "Poster Bent broken central beam v39",
+        "vertices": 2076,
+        "triangles": 4148
+      },
+      {
+        "name": "Poster Short broken right tie v39",
+        "vertices": 792,
+        "triangles": 1580
+      },
+      {
+        "name": "Poster Lower broken ring beam v39",
+        "vertices": 1692,
+        "triangles": 3380
+      },
+      {
+        "name": "Poster Curved left supporting bracket v39",
+        "vertices": 420,
+        "triangles": 836
+      },
+      {
+        "name": "Poster Curved right supporting bracket v39",
+        "vertices": 480,
+        "triangles": 956
+      },
+      {
+        "name": "Poster Bracket horizontal brace v39",
+        "vertices": 252,
+        "triangles": 500
+      },
+      {
+        "name": "Poster Bracket left upright v39",
+        "vertices": 120,
+        "triangles": 236
+      },
+      {
+        "name": "Poster Bracket diagonal brace v39",
+        "vertices": 120,
+        "triangles": 236
+      },
+      {
+        "name": "Poster Bracket right diagonal v39",
+        "vertices": 120,
+        "triangles": 236
+      },
+      {
+        "name": "Poster Bracket right upright v39",
+        "vertices": 120,
+        "triangles": 236
+      },
+      {
+        "name": "Poster Hanging central tie v39",
+        "vertices": 288,
+        "triangles": 572
+      },
+      {
+        "name": "Poster Hanging lower tie v39",
+        "vertices": 252,
+        "triangles": 500
+      },
+      {
+        "name": "Poster left outer splayed I-column v44",
+        "vertices": 4080,
+        "triangles": 8156
+      },
+      {
+        "name": "Poster left outer splayed I-column footing v44",
+        "vertices": 24,
+        "triangles": 44
+      },
+      {
+        "name": "Poster left middle bowed I-column v44",
+        "vertices": 2040,
+        "triangles": 4076
+      },
+      {
+        "name": "Poster left middle bowed I-column footing v44",
+        "vertices": 24,
+        "triangles": 44
+      },
+      {
+        "name": "Poster left back I-column v44",
+        "vertices": 2040,
+        "triangles": 4076
+      },
+      {
+        "name": "Poster left back I-column footing v44",
+        "vertices": 24,
+        "triangles": 44
+      },
+      {
+        "name": "Poster left upper broken tie v44",
+        "vertices": 900,
+        "triangles": 1796
+      },
+      {
+        "name": "Poster left long upper tie v44",
+        "vertices": 1848,
+        "triangles": 3692
+      },
+      {
+        "name": "Poster left long lower tie v44",
+        "vertices": 1836,
+        "triangles": 3668
+      },
+      {
+        "name": "Poster left upper right curved bracket v44",
+        "vertices": 444,
+        "triangles": 884
+      },
+      {
+        "name": "Poster left upper left curved bracket v44",
+        "vertices": 252,
+        "triangles": 500
+      },
+      {
+        "name": "Poster left upper cross brace v44",
+        "vertices": 300,
+        "triangles": 596
+      },
+      {
+        "name": "Poster left upper left diagonal v44",
+        "vertices": 168,
+        "triangles": 332
+      },
+      {
+        "name": "Poster left upper center diagonal v44",
+        "vertices": 168,
+        "triangles": 332
+      },
+      {
+        "name": "Poster left upper right upright v44",
+        "vertices": 168,
+        "triangles": 332
+      },
+      {
+        "name": "Poster left first broken bowed beam v44",
+        "vertices": 876,
+        "triangles": 1748
+      },
+      {
+        "name": "Poster left second broken bowed beam v44",
+        "vertices": 780,
+        "triangles": 1556
+      },
+      {
+        "name": "Poster left hanging upper rod v44",
+        "vertices": 300,
+        "triangles": 596
+      },
+      {
+        "name": "Poster left first bowed upright v44",
+        "vertices": 240,
+        "triangles": 476
+      },
+      {
+        "name": "Poster left second bowed upright v44",
+        "vertices": 156,
+        "triangles": 308
+      },
+      {
+        "name": "Poster measured right bowed I-beam v56",
+        "vertices": 3852,
+        "triangles": 7700
+      }
+    ],
+    "ground": [
+      {
+        "name": "Flooded polygon flagstones and broken slabs solid mesh.007",
+        "vertices": 288,
+        "triangles": 96
+      },
+      {
+        "name": "Flooded polygon flagstones and broken slabs solid mesh.008",
+        "vertices": 22128,
+        "triangles": 7376
+      },
+      {
+        "name": "Flooded polygon flagstones and broken slabs solid mesh.009",
+        "vertices": 24828,
+        "triangles": 8276
+      },
+      {
+        "name": "Flooded polygon flagstones and broken slabs solid mesh.010",
+        "vertices": 22776,
+        "triangles": 7592
+      },
+      {
+        "name": "Flooded polygon flagstones and broken slabs solid mesh.011",
+        "vertices": 22416,
+        "triangles": 7472
+      },
+      {
+        "name": "Flooded polygon flagstones and broken slabs solid mesh.012",
+        "vertices": 23268,
+        "triangles": 7756
+      },
+      {
+        "name": "Flooded polygon flagstones and broken slabs solid mesh.013",
+        "vertices": 22704,
+        "triangles": 7568
+      },
+      {
+        "name": "Brick and masonry debris solid mesh.002",
+        "vertices": 1296,
+        "triangles": 432
+      },
+      {
+        "name": "Brick and masonry debris solid mesh.003",
+        "vertices": 2412,
+        "triangles": 804
+      },
+      {
+        "name": "Poster retained rear floor bay 13 v52",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster retained rear floor bay 15 v52",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster retained rear floor bay 16 v52",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster irregular shallow shoreline v52",
+        "vertices": 4591,
+        "triangles": 9178
+      },
+      {
+        "name": "Poster sediment root collar 0 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 1 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 2 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 3 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 4 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 5 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 6 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 7 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 8 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 9 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 10 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 11 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster sediment root collar 12 v52",
+        "vertices": 36,
+        "triangles": 68
+      },
+      {
+        "name": "Poster observed left small shard v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster observed low left stone v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster observed entrance broken slab v52",
+        "vertices": 14,
+        "triangles": 24
+      },
+      {
+        "name": "Poster observed chair front stone v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster observed pipe small fragment v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster observed right isolated stone v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 0 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 1 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 2 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 3 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 4 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 5 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 6 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 7 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 8 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 9 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 10 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 11 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 12 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 13 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 14 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 15 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 16 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 17 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 18 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 19 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 20 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 21 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 22 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 23 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 24 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 25 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 26 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster bank fragment 27 v52",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "name": "Poster broken stair foundation v52",
+        "vertices": 14,
+        "triangles": 24
+      },
+      {
+        "name": "Poster low frame upper back rail v53",
+        "vertices": 322,
+        "triangles": 640
+      },
+      {
+        "name": "Poster low frame short lower back rail v53",
+        "vertices": 146,
+        "triangles": 288
+      },
+      {
+        "name": "Poster low frame lower front rail v53",
+        "vertices": 258,
+        "triangles": 512
+      },
+      {
+        "name": "Poster low frame sagging inner rail v53",
+        "vertices": 122,
+        "triangles": 240
+      },
+      {
+        "name": "Poster low frame bent right outer frame v53",
+        "vertices": 202,
+        "triangles": 400
+      },
+      {
+        "name": "Poster low frame bent right inner frame v53",
+        "vertices": 154,
+        "triangles": 304
+      },
+      {
+        "name": "Poster low frame front damaged upright v53",
+        "vertices": 98,
+        "triangles": 192
+      },
+      {
+        "name": "Poster low frame left rear grounded leg v53",
+        "vertices": 202,
+        "triangles": 400
+      },
+      {
+        "name": "Poster low frame left rear foot shoe v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster low frame middle rear grounded leg v53",
+        "vertices": 138,
+        "triangles": 272
+      },
+      {
+        "name": "Poster low frame middle rear foot shoe v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster low frame left front grounded leg v53",
+        "vertices": 114,
+        "triangles": 224
+      },
+      {
+        "name": "Poster low frame left front foot shoe v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster low frame middle front grounded leg v53",
+        "vertices": 106,
+        "triangles": 208
+      },
+      {
+        "name": "Poster low frame middle front foot shoe v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster low frame right outer grounded leg v53",
+        "vertices": 50,
+        "triangles": 96
+      },
+      {
+        "name": "Poster low frame right outer foot shoe v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster low frame right inner grounded leg v53",
+        "vertices": 74,
+        "triangles": 144
+      },
+      {
+        "name": "Poster low frame right inner foot shoe v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster low frame broken board 0 v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster low frame broken board 1 v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster low frame broken board 2 v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster low frame broken board 3 v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster pipe exposed strap 0 v53",
+        "vertices": 132,
+        "triangles": 260
+      },
+      {
+        "name": "Poster pipe support upright 0 v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster pipe support foot 0 v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster pipe support bolt 0 0.515 v53",
+        "vertices": 14,
+        "triangles": 24
+      },
+      {
+        "name": "Poster pipe support bolt 0 0.300 v53",
+        "vertices": 14,
+        "triangles": 24
+      },
+      {
+        "name": "Poster pipe exposed strap 1 v53",
+        "vertices": 132,
+        "triangles": 260
+      },
+      {
+        "name": "Poster pipe support upright 1 v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster pipe support foot 1 v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster pipe support bolt 1 0.515 v53",
+        "vertices": 14,
+        "triangles": 24
+      },
+      {
+        "name": "Poster pipe support bolt 1 0.300 v53",
+        "vertices": 14,
+        "triangles": 24
+      },
+      {
+        "name": "Poster pipe exposed strap 2 v53",
+        "vertices": 132,
+        "triangles": 260
+      },
+      {
+        "name": "Poster pipe support upright 2 v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster pipe support foot 2 v53",
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Poster pipe support bolt 2 0.515 v53",
+        "vertices": 14,
+        "triangles": 24
+      },
+      {
+        "name": "Poster pipe support bolt 2 0.300 v53",
+        "vertices": 14,
+        "triangles": 24
+      }
+    ],
+    "frame": [
+      {
+        "name": "Complete six-panel white door and frame surface.006",
+        "vertices": 180,
+        "triangles": 60
+      },
+      {
+        "name": "Complete six-panel white door and frame surface.007",
+        "vertices": 90,
+        "triangles": 30
+      },
+      {
+        "name": "Complete six-panel white door and frame surface.008",
+        "vertices": 546,
+        "triangles": 182
+      },
+      {
+        "name": "Complete six-panel white door and frame surface.009",
+        "vertices": 90,
+        "triangles": 30
+      },
+      {
+        "name": "Complete six-panel white door and frame surface.010",
+        "vertices": 600,
+        "triangles": 200
+      },
+      {
+        "name": "Complete six-panel white door and frame surface.011",
+        "vertices": 1386,
+        "triangles": 462
+      }
+    ],
+    "leaf": [
+      {
+        "name": "Animated door leaf and hinges surface.014",
+        "vertices": 3012,
+        "triangles": 1004
+      },
+      {
+        "name": "Animated door leaf and hinges surface.015",
+        "vertices": 30,
+        "triangles": 10
+      },
+      {
+        "name": "Animated door leaf and hinges surface.016",
+        "vertices": 390,
+        "triangles": 130
+      },
+      {
+        "name": "Animated door leaf and hinges surface.017",
+        "vertices": 1422,
+        "triangles": 474
+      },
+      {
+        "name": "Animated door leaf and hinges surface.018",
+        "vertices": 360,
+        "triangles": 120
+      },
+      {
+        "name": "Animated door leaf and hinges surface.019",
+        "vertices": 1440,
+        "triangles": 480
+      },
+      {
+        "name": "Animated door leaf and hinges surface.020",
+        "vertices": 3462,
+        "triangles": 1154
+      }
+    ],
+    "pedestal": [
+      {
+        "name": "Mesh.007",
+        "vertices": 24,
+        "triangles": 12
+      },
+      {
+        "name": "Mesh.008",
+        "vertices": 24,
+        "triangles": 12
+      },
+      {
+        "name": "Mesh.009",
+        "vertices": 24,
+        "triangles": 12
+      }
+    ]
+  },
+  "excluded": [
+    "Mesh.010",
+    "Mesh.011",
+    "Mesh.012",
+    "Mesh.013",
+    "Individual three-dimensional ivy leaves.001",
+    "Continuous forest terrain.001",
+    "Branching tree crowns surrounding the ruined hotel.001",
+    "Forest trunks.001",
+    "Reference-shaped closed cloud volume 0.001",
+    "Reference-shaped closed cloud volume 1.001",
+    "Reference-shaped closed cloud volume 2.001",
+    "Reference-shaped closed cloud volume 3.001",
+    "Reference-shaped closed cloud volume 4.001",
+    "Distant reference closed cloud 0.001",
+    "Distant reference closed cloud 2.001",
+    "Distant reference closed cloud 4.001",
+    "Distant reference closed cloud 5.001",
+    "Distant reference closed cloud 6.001",
+    "Distant reference closed cloud 7.001",
+    "Distant reference closed cloud 8.001",
+    "Distant reference closed cloud 9.001",
+    "Distant reference closed cloud 10.001",
+    "Distant reference closed cloud 11.001",
+    "Distant reference closed cloud 12.001",
+    "Distant reference closed cloud 13.001",
+    "Distant reference closed cloud 14.001",
+    "Distant reference closed cloud 15.001",
+    "Distant reference closed cloud 16.001",
+    "Distant reference closed cloud 17.001",
+    "Distant reference closed cloud 18.001",
+    "Distant reference closed cloud 19.001",
+    "Distant reference closed cloud 20.001",
+    "Distant reference closed cloud 21.001",
+    "Distant reference closed cloud 22.001",
+    "Distant reference closed cloud 23.001",
+    "Distant reference closed cloud 24.001",
+    "Distant reference closed cloud 25.001",
+    "Distant reference closed cloud 26.001",
+    "Distant reference closed cloud 27.001",
+    "Surrounding solid cloud 0.001",
+    "Surrounding solid cloud 1.001",
+    "Surrounding solid cloud 2.001",
+    "Surrounding solid cloud 3.001",
+    "Surrounding solid cloud 4.001",
+    "Surrounding solid cloud 5.001",
+    "Surrounding solid cloud 6.001",
+    "Surrounding solid cloud 7.001",
+    "Surrounding solid cloud 8.001",
+    "Surrounding solid cloud 9.001",
+    "Surrounding solid cloud 10.001",
+    "Surrounding solid cloud 11.001",
+    "Surrounding solid cloud 12.001",
+    "Surrounding solid cloud 13.001",
+    "Spatial doorway portal aperture.001",
+    "Live planar reflective shallow water.001",
+    "Restored central horizon cloud bank v42",
+    "Lower grey-blue stratus bank v43",
+    "Lower layered horizon cloud v43",
+    "Distant low horizon billows v43",
+    "Poster low corroded hollow pipe v51",
+    "Poster pipe collar 0 v51",
+    "Poster pipe collar 1 v51",
+    "Poster curved standpipe v51",
+    "Poster standpipe joint 0 v51",
+    "Poster standpipe joint 1 v51",
+    "Poster standpipe foot v51",
+    "Poster discarded chair back frame v51",
+    "Poster chair leg frame -1 v51",
+    "Poster chair side brace -1 v51",
+    "Poster chair leg frame 1 v51",
+    "Poster chair side brace 1 v51",
+    "Poster chair seat crossbar 0 v51",
+    "Poster chair seat crossbar 1 v51",
+    "Poster chair worn back panel v51",
+    "Poster chair seat panel v51",
+    "Poster chair landing stone v51",
+    "Poster fine left margin v51",
+    "Poster fine left window shrub v51",
+    "Poster fine pier growth v51",
+    "Poster fine entry left growth v51",
+    "Poster fine pipe left thicket v51",
+    "Poster fine pipe ground creeper v51",
+    "Poster fine return pipe growth v51",
+    "Poster fine right ground growth v51",
+    "Poster fine grass patch 0 v51",
+    "Poster fine grass patch 1 v51",
+    "Poster fine grass patch 2 v51",
+    "Poster fine grass patch 3 v51",
+    "Poster fine grass patch 4 v51",
+    "Poster fine steel-climbing vine v51",
+    "Poster thin facade climbing trail v51"
+  ]
+}

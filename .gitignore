@@ -38,6 +38,14 @@ suzume-scene-prep/character-hunyuan-v1/离线HTML/
 !suzume-scene-prep/visionpro/*.zip
 !docs/previews/*.png
 
+# Pico application inputs are source assets, including binary models and textures.
+!suzume-scene-prep/picounity/Assets/**
+*.keystore
+*.jks
+*.p12
+*.pfx
+.project-assets-cache/
+
 # Large geometry tables supplied in Release archives.
 /suzume-scene-prep/character-hunyuan-v1/movie-bays-v23/bay-geometry-v23.json
 /suzume-scene-prep/character-hunyuan-v1/movie-projection-v24/bay-geometry-v24.json

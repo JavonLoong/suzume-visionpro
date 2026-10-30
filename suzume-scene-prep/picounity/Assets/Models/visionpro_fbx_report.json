@@ -1,0 +1,538 @@
+{
+  "DreamWorld": {
+    "fbx_size": 25413804,
+    "meshes": [
+      {
+        "name": "Closed_continuous_far_meadow_v31_001",
+        "parent": null,
+        "vertices": 37888,
+        "polygons": 75776,
+        "bounds_blender_xyz": [
+          [
+            -315.0,
+            -315.0444641113281,
+            -34.10647201538086
+          ],
+          [
+            315.0,
+            314.9555358886719,
+            -1.8950337171554565
+          ]
+        ],
+        "materials": [
+          "DistantMeadow_PBR"
+        ],
+        "textures": [
+          "DistantMeadow_BaseColor.png"
+        ]
+      },
+      {
+        "name": "DistantSkyMesh",
+        "parent": null,
+        "vertices": 8385,
+        "polygons": 16384,
+        "bounds_blender_xyz": [
+          [
+            -330.0,
+            -330.0,
+            -328.3999938964844
+          ],
+          [
+            330.0,
+            330.0,
+            331.6000061035156
+          ]
+        ],
+        "materials": [
+          "DistantSky_Emission"
+        ],
+        "textures": [
+          "NightSky.png"
+        ]
+      },
+      {
+        "name": "Geometry_C7FAF2CB_003",
+        "parent": null,
+        "vertices": 40401,
+        "polygons": 80000,
+        "bounds_blender_xyz": [
+          [
+            -123.52941131591797,
+            -123.57388305664062,
+            -3.22354793548584
+          ],
+          [
+            123.52941131591797,
+            123.48493957519531,
+            0.620395302772522
+          ]
+        ],
+        "materials": [
+          "NearMeadow_PBR"
+        ],
+        "textures": [
+          "NearMeadow_BaseColor.png"
+        ]
+      },
+      {
+        "name": "Individual_meadow_flowers_PortableMesh",
+        "parent": null,
+        "vertices": 262500,
+        "polygons": 87500,
+        "bounds_blender_xyz": [
+          [
+            -19.733705520629883,
+            0.07180701196193695,
+            -0.2538875937461853
+          ],
+          [
+            19.425722122192383,
+            41.108455657958984,
+            0.2320808321237564
+          ]
+        ],
+        "materials": [
+          "FlowerPalette_PBR"
+        ],
+        "textures": [
+          "FlowerPalette.png"
+        ]
+      },
+      {
+        "name": "Modeled_flower_stems_PortableMesh",
+        "parent": null,
+        "vertices": 85000,
+        "polygons": 50000,
+        "bounds_blender_xyz": [
+          [
+            -19.696271896362305,
+            0.09938634186983109,
+            -0.31226029992103577
+          ],
+          [
+            19.39682388305664,
+            41.06966018676758,
+            0.20254719257354736
+          ]
+        ],
+        "materials": [
+          "Modeled_flower_stems_PBR"
+        ],
+        "textures": []
+      },
+      {
+        "name": "Solid_native_stars_002",
+        "parent": null,
+        "vertices": 6330,
+        "polygons": 8440,
+        "bounds_blender_xyz": [
+          [
+            -253.62486267089844,
+            -246.54222106933594,
+            39.23001480102539
+          ],
+          [
+            245.68429565429688,
+            244.37838745117188,
+            263.60107421875
+          ]
+        ],
+        "materials": [
+          "Starlight"
+        ],
+        "textures": []
+      },
+      {
+        "name": "Spatial_grass_blades_PortableMesh",
+        "parent": null,
+        "vertices": 180000,
+        "polygons": 60000,
+        "bounds_blender_xyz": [
+          [
+            -21.008394241333008,
+            0.06450144946575165,
+            -0.3138822019100189
+          ],
+          [
+            21.01985740661621,
+            43.17052459716797,
+            0.25238552689552307
+          ]
+        ],
+        "materials": [
+          "Spatial_grass_blades_PBR"
+        ],
+        "textures": []
+      }
+    ]
+  },
+  "DoorFrame": {
+    "fbx_size": 103532,
+    "meshes": [
+      {
+        "name": "Geometry_283D72A6_003",
+        "parent": null,
+        "vertices": 546,
+        "polygons": 182,
+        "bounds_blender_xyz": [
+          [
+            -0.5765179395675659,
+            -0.14391201734542847,
+            -0.024705827236175537
+          ],
+          [
+            0.5766430497169495,
+            -0.11858819425106049,
+            2.2188971042633057
+          ]
+        ],
+        "materials": [
+          "Reference_pigments_on_the_solid_door_front_002_Portable"
+        ],
+        "textures": [
+          "model-texture-E6DD59F3-52BA-49F3-A943-D0F386B577E6.png"
+        ]
+      },
+      {
+        "name": "Geometry_49F1B541_003",
+        "parent": null,
+        "vertices": 90,
+        "polygons": 30,
+        "bounds_blender_xyz": [
+          [
+            -0.5357266068458557,
+            -0.12476495653390884,
+            -0.012352891266345978
+          ],
+          [
+            0.5357266068458557,
+            0.035823285579681396,
+            2.1988234519958496
+          ]
+        ],
+        "materials": [
+          "Animated_door_leaf_and_hinges_surface_009_Portable"
+        ],
+        "textures": [
+          "model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+        ]
+      },
+      {
+        "name": "Geometry_5CED9BA5_003",
+        "parent": null,
+        "vertices": 90,
+        "polygons": 30,
+        "bounds_blender_xyz": [
+          [
+            -0.5765179395675659,
+            -0.14391201734542847,
+            -0.024705827236175537
+          ],
+          [
+            0.5765179395675659,
+            0.04755857586860657,
+            2.2188971042633057
+          ]
+        ],
+        "materials": [
+          "Material_007_Portable"
+        ],
+        "textures": [
+          "model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+        ]
+      },
+      {
+        "name": "Geometry_5FC5CEBB_003",
+        "parent": null,
+        "vertices": 180,
+        "polygons": 60,
+        "bounds_blender_xyz": [
+          [
+            -0.5411654710769653,
+            -0.12970584630966187,
+            -0.012352906167507172
+          ],
+          [
+            0.5411654710769653,
+            0.03088238090276718,
+            2.116985321044922
+          ]
+        ],
+        "materials": [
+          "Animated_door_leaf_and_hinges_surface_008_Portable"
+        ],
+        "textures": []
+      },
+      {
+        "name": "Geometry_72F6F0D5_003",
+        "parent": null,
+        "vertices": 600,
+        "polygons": 200,
+        "bounds_blender_xyz": [
+          [
+            -0.5261412858963013,
+            -0.12136788666248322,
+            0.13353049755096436
+          ],
+          [
+            0.5276418328285217,
+            -0.11827939748764038,
+            2.153042793273926
+          ]
+        ],
+        "materials": [
+          "Animated_door_leaf_and_hinges_surface_010_Portable"
+        ],
+        "textures": [
+          "model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+        ]
+      },
+      {
+        "name": "Geometry_BAA9574F_003",
+        "parent": null,
+        "vertices": 1386,
+        "polygons": 462,
+        "bounds_blender_xyz": [
+          [
+            -0.5295752286911011,
+            -0.12044140696525574,
+            0.01114240288734436
+          ],
+          [
+            0.5766430497169495,
+            -0.11994702368974686,
+            2.036017894744873
+          ]
+        ],
+        "materials": [
+          "Animated_door_leaf_and_hinges_surface_011_Portable"
+        ],
+        "textures": []
+      }
+    ]
+  },
+  "DoorLeaf": {
+    "fbx_size": 310796,
+    "meshes": [
+      {
+        "name": "Geometry_066F172D_005",
+        "parent": null,
+        "vertices": 3462,
+        "polygons": 1154,
+        "bounds_blender_xyz": [
+          [
+            -0.4178069531917572,
+            -0.12847080826759338,
+            0.032055940479040146
+          ],
+          [
+            0.46105119585990906,
+            -0.10821173340082169,
+            2.051786422729492
+          ]
+        ],
+        "materials": [
+          "Animated_door_leaf_and_hinges_surface_015_Portable"
+        ],
+        "textures": []
+      },
+      {
+        "name": "Geometry_0742C95F_005",
+        "parent": null,
+        "vertices": 30,
+        "polygons": 10,
+        "bounds_blender_xyz": [
+          [
+            -0.4190632998943329,
+            -0.13341185450553894,
+            0.9478333592414856
+          ],
+          [
+            -0.40601006150245667,
+            -0.13341185450553894,
+            0.9619314074516296
+          ]
+        ],
+        "materials": [
+          "Animated_door_leaf_and_hinges_surface_012_Portable"
+        ],
+        "textures": []
+      },
+      {
+        "name": "Geometry_0BC887AE_005",
+        "parent": null,
+        "vertices": 390,
+        "polygons": 130,
+        "bounds_blender_xyz": [
+          [
+            -0.43293240666389465,
+            -0.1275443434715271,
+            0.012352969497442245
+          ],
+          [
+            0.4372834265232086,
+            -0.029338236898183823,
+            2.1123530864715576
+          ]
+        ],
+        "materials": [
+          "Animated_door_leaf_and_hinges_surface_013_Portable"
+        ],
+        "textures": [
+          "model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+        ]
+      },
+      {
+        "name": "Geometry_5932C1F0_005",
+        "parent": null,
+        "vertices": 1422,
+        "polygons": 474,
+        "bounds_blender_xyz": [
+          [
+            -0.43293240666389465,
+            -0.13866199553012848,
+            0.012352969497442245
+          ],
+          [
+            0.46105119585990906,
+            -0.03366176411509514,
+            2.1123530864715576
+          ]
+        ],
+        "materials": [
+          "Reference_pigments_on_the_solid_door_front_003_Portable"
+        ],
+        "textures": [
+          "model-texture-E6DD59F3-52BA-49F3-A943-D0F386B577E6.png"
+        ]
+      },
+      {
+        "name": "Geometry_7378BEF7_005",
+        "parent": null,
+        "vertices": 360,
+        "polygons": 120,
+        "bounds_blender_xyz": [
+          [
+            -0.3457413613796234,
+            -0.11673551797866821,
+            0.2547115087509155
+          ],
+          [
+            0.40762701630592346,
+            -0.04014705866575241,
+            1.9750127792358398
+          ]
+        ],
+        "materials": [
+          "Animated_door_leaf_and_hinges_surface_014_Portable"
+        ],
+        "textures": [
+          "model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+        ]
+      },
+      {
+        "name": "Geometry_A04354BC_005",
+        "parent": null,
+        "vertices": 3012,
+        "polygons": 1004,
+        "bounds_blender_xyz": [
+          [
+            -0.44408199191093445,
+            -0.21541069447994232,
+            0.22852946817874908
+          ],
+          [
+            0.45414385199546814,
+            0.05852814018726349,
+            1.8467648029327393
+          ]
+        ],
+        "materials": [
+          "Circular_ruined_hotel_with_exterior_entrance_solid_mesh_036_Portable"
+        ],
+        "textures": []
+      },
+      {
+        "name": "Geometry_D93CF93C_005",
+        "parent": null,
+        "vertices": 1440,
+        "polygons": 480,
+        "bounds_blender_xyz": [
+          [
+            -0.3558032810688019,
+            -0.13866199553012848,
+            0.24297621846199036
+          ],
+          [
+            0.41768887639045715,
+            -0.018220581114292145,
+            1.9867479801177979
+          ]
+        ],
+        "materials": [
+          "Material_008_Portable"
+        ],
+        "textures": [
+          "model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+        ]
+      }
+    ]
+  },
+  "Character": {
+    "fbx_size": 6572684,
+    "meshes": [
+      {
+        "name": "node_0",
+        "parent": null,
+        "vertices": 27107,
+        "polygons": 41581,
+        "bounds_blender_xyz": [
+          [
+            -0.28486984968185425,
+            -0.14732611179351807,
+            4.967469990901918e-08
+          ],
+          [
+            0.28486984968185425,
+            0.15898597240447998,
+            1.3208928108215332
+          ]
+        ],
+        "materials": [
+          "Material_001"
+        ],
+        "textures": [
+          "01_texture_pbr_20250901.png",
+          "03_texture_pbr_20250901_metallic_texture_pbr_20250901_roughness.png",
+          "05_texture_pbr_20250901_normal.png"
+        ]
+      },
+      {
+        "name": "node_0_001",
+        "parent": null,
+        "vertices": 36785,
+        "polygons": 49992,
+        "bounds_blender_xyz": [
+          [
+            -0.10980106145143509,
+            -0.15898627042770386,
+            1.2103550434112549
+          ],
+          [
+            0.11046380549669266,
+            0.1530301868915558,
+            1.6200000047683716
+          ]
+        ],
+        "materials": [
+          "Material_002"
+        ],
+        "textures": [
+          "02_texture_pbr_20250901_001.png",
+          "04_texture_pbr_20250901_metallic_texture_pbr_20250901_roughness_001.png",
+          "06_texture_pbr_20250901_normal_001.png"
+        ]
+      }
+    ]
+  }
+}

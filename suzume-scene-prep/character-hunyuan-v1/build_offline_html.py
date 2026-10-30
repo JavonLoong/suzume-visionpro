@@ -82,10 +82,11 @@ def build(filename,title,scenes,renders,model=None,initial=None):
     return {'file':filename,'bytes':target.stat().st_size,'assets':len(keys),'scenes':[s['id'] for s in scenes],
             'includesNativeBlend':bool(model),'embeddedBytes':sum(x['bytes'] for x in manifest.values()),'resources':manifest}
 
-reports=[]
-reports.append(build('铃芽之旅_全部场景_离线珍藏.html','铃芽之旅 · 门的两侧',SCENES,RENDERS,MODEL))
-for scene,filename in zip(SCENES,['铃芽之旅_v49_旋转场景.html','铃芽之旅_v38_海报庭院.html','铃芽之旅_v37_电影开门.html']):
-    reports.append(build(filename,scene['label']+' · 铃芽之旅',[scene],RENDERS if scene['id']=='v49' else []))
-reports.append(build('铃芽之旅_v49_原始渲染.html','铃芽之旅 · v49 原始渲染',[],RENDERS,initial='renders'))
-(OUT/'打包清单.json').write_text(json.dumps(reports,ensure_ascii=False,indent=2),encoding='utf-8')
-print('OFFLINE_HTML_BUILT',json.dumps([{k:v for k,v in x.items() if k!='resources'} for x in reports],ensure_ascii=False),flush=True)
+if __name__ == '__main__':
+    reports=[]
+    reports.append(build('铃芽之旅_全部场景_离线珍藏.html','铃芽之旅 · 门的两侧',SCENES,RENDERS,MODEL))
+    for scene,filename in zip(SCENES,['铃芽之旅_v49_旋转场景.html','铃芽之旅_v38_海报庭院.html','铃芽之旅_v37_电影开门.html']):
+        reports.append(build(filename,scene['label']+' · 铃芽之旅',[scene],RENDERS if scene['id']=='v49' else []))
+    reports.append(build('铃芽之旅_v49_原始渲染.html','铃芽之旅 · v49 原始渲染',[],RENDERS,initial='renders'))
+    (OUT/'打包清单.json').write_text(json.dumps(reports,ensure_ascii=False,indent=2),encoding='utf-8')
+    print('OFFLINE_HTML_BUILT',json.dumps([{k:v for k,v in x.items() if k!='resources'} for x in reports],ensure_ascii=False),flush=True)

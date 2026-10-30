@@ -1,0 +1,3 @@
+[submodule "suzume-scene-prep/picounity/Packages/com.unity.xr.picoxr"]
+	path = suzume-scene-prep/picounity/Packages/com.unity.xr.picoxr
+	url = https://github.com/Pico-Developer/PICO-Unity-Integration-SDK.git

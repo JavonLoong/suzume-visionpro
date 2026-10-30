@@ -1,0 +1,230 @@
+[
+  {
+    "part": "B01_底盘",
+    "faces_before": 15112,
+    "faces_after": 15112,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "B02_底盘",
+    "faces_before": 21622,
+    "faces_after": 21622,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "B03_底盘",
+    "faces_before": 17270,
+    "faces_after": 17270,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "B04_底盘",
+    "faces_before": 9262,
+    "faces_after": 9262,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W01_环形建筑",
+    "faces_before": 286026,
+    "faces_after": 286026,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W02_环形建筑",
+    "faces_before": 310920,
+    "faces_after": 62078,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W02_环形建筑_散件01",
+    "faces_before": 2424,
+    "faces_after": 2424,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W02_环形建筑_散件02",
+    "faces_before": 6502,
+    "faces_after": 6502,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W02_环形建筑_散件03",
+    "faces_before": 450,
+    "faces_after": 450,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W03_环形建筑_附件13",
+    "faces_before": 68,
+    "faces_after": 68,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W03_环形建筑",
+    "faces_before": 286312,
+    "faces_after": 91308,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W04_环形建筑_附件05",
+    "faces_before": 142,
+    "faces_after": 142,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W04_环形建筑",
+    "faces_before": 177556,
+    "faces_after": 114938,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W05_环形建筑",
+    "faces_before": 185362,
+    "faces_after": 88376,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W05_环形建筑_散件01",
+    "faces_before": 3068,
+    "faces_after": 3068,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W06_环形建筑",
+    "faces_before": 137482,
+    "faces_after": 94992,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W07_环形建筑",
+    "faces_before": 151920,
+    "faces_after": 151920,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W08_环形建筑_附件17",
+    "faces_before": 144,
+    "faces_after": 144,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W08_环形建筑_附件18",
+    "faces_before": 136,
+    "faces_after": 136,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W08_环形建筑_附件33",
+    "faces_before": 104,
+    "faces_after": 104,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W08_环形建筑_附件34",
+    "faces_before": 80,
+    "faces_after": 80,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W08_环形建筑_附件35",
+    "faces_before": 116,
+    "faces_after": 116,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W08_环形建筑",
+    "faces_before": 198984,
+    "faces_after": 109336,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W08_环形建筑_散件01",
+    "faces_before": 2002,
+    "faces_after": 2002,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "W08_环形建筑_散件02",
+    "faces_before": 6174,
+    "faces_after": 6174,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "S01_钢架",
+    "faces_before": 32412,
+    "faces_after": 32412,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "S02_钢架",
+    "faces_before": 50646,
+    "faces_after": 50646,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "S03_钢架",
+    "faces_before": 42436,
+    "faces_after": 42436,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "S04_钢架",
+    "faces_before": 43428,
+    "faces_after": 39400,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "S05_钢架",
+    "faces_before": 51246,
+    "faces_after": 51246,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "S06_钢架",
+    "faces_before": 51492,
+    "faces_after": 51492,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "S07_钢架",
+    "faces_before": 44454,
+    "faces_after": 44454,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "S08_钢架",
+    "faces_before": 28156,
+    "faces_after": 28156,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "D01_门框与台阶",
+    "faces_before": 1164,
+    "faces_after": 1164,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "D02_六格门扇",
+    "faces_before": 700,
+    "faces_after": 700,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "K01_底盘拼接键",
+    "faces_before": 12,
+    "faces_after": 12,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "K02_模块定位销",
+    "faces_before": 124,
+    "faces_after": 124,
+    "roundtrip_watertight": true
+  },
+  {
+    "part": "T01_先打印配合试块",
+    "faces_before": 334,
+    "faces_after": 334,
+    "roundtrip_watertight": true
+  }
+]
