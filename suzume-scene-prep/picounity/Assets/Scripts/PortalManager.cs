@@ -351,7 +351,7 @@ public class PortalManager : MonoBehaviour
     /// </summary>
     public void UpdatePortalState()
     {
-        float uniformScale = Mathf.Max(0.2f, portalHeight / PortalConfig.BaseDoorHeight);
+        float uniformScale = Mathf.Max(0.005f, portalHeight / PortalConfig.BaseDoorHeight);
         transform.position = portalPosition;
         transform.rotation = Quaternion.Euler(0f, portalYaw, 0f);
         float widthScale = portalWidth > 0f ? portalWidth / PortalConfig.BaseDoorWidth : uniformScale;
@@ -571,8 +571,8 @@ public class PortalManager : MonoBehaviour
         if (!PlayerPrefs.HasKey(CalibPrefKey)) return;
         var json = PlayerPrefs.GetString(CalibPrefKey);
         var data = JsonUtility.FromJson<CalibrationData>(json);
-        portalHeight = data.height > 0.3f ? data.height : PortalConfig.BaseDoorHeight;
-        portalWidth = data.width >= .35f ? data.width : 0f;
+        portalHeight = data.height > 0.02f ? data.height : PortalConfig.BaseDoorHeight;
+        portalWidth = data.width >= .01f ? data.width : 0f;
         portalPosition = new Vector3(data.x, data.y, data.z);
         portalYaw = data.yaw;
         lightMultiplier = data.light > 0.1f ? data.light : PortalConfig.LightMultiplier;

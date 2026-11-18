@@ -1,5 +1,19 @@
 # 完整项目下载
 
+## 2026-11-18 · PICO v1.12 门框视觉定位
+
+[本次 Release](https://github.com/JavonLoong/suzume-visionpro/releases/tag/pico-v1.12-door-vision-2026-11-18) · [发布与验收记录](docs/PICO-v1.12-door-vision.md) · [SHA-256](https://github.com/JavonLoong/suzume-visionpro/releases/download/pico-v1.12-door-vision-2026-11-18/SHA256SUMS.txt)
+
+| 下载 | 大小 | 内容 |
+| --- | ---: | --- |
+| [SuzumePortal-PICO-v1.12.apk](https://github.com/JavonLoong/suzume-visionpro/releases/download/pico-v1.12-door-vision-2026-11-18/SuzumePortal-PICO-v1.12.apk) | 101.3 MiB | PICO 4 Ultra 安装包；已构建，尚未在本次更新中真机运行 |
+| [door-keypoint-train-20261118.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/pico-v1.12-door-vision-2026-11-18/door-keypoint-train-20261118.zip) | 137.2 MiB | 3,600 张 960×720 训练图、标注和叠加检查图 |
+| [door-keypoint-independent500-20261118.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/pico-v1.12-door-vision-2026-11-18/door-keypoint-independent500-20261118.zip) | 11.6 MiB | 与训练集分开的 500 张渲染评估图和标注 |
+
+模型代码、ONNX、PyTorch 权重和训练检查点直接在 [door-keypoint-model-20261118](suzume-scene-prep/door-keypoint-model-20261118/)；Unity 接入代码在 [picounity](suzume-scene-prep/picounity/)。大数据包放 Release，不会随普通 `git clone` 下载。
+
+---
+
 本次快照时间：`2026-10-30T23:44:43.714920+08:00`。共 3,187 个项目文件，其中 1,903 个随 Git 提供。官方 PICO SDK 另按固定提交拉取。
 
 [本次 Release](https://github.com/JavonLoong/suzume-visionpro/releases/tag/complete-project-2026-10-30) · [协同开发说明](COLLABORATION.md) · [逐文件清单](PROJECT_MANIFEST.json)

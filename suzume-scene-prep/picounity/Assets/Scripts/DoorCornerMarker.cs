@@ -44,7 +44,7 @@ public class DoorCornerMarker : MonoBehaviour
     Material _material;
     int _count;
     bool _busy, _providerReady, _persistent, _help = true;
-    bool _previousWasBrowse, _selectedMountain;
+    bool _previousWasBrowse, _selectedMountain, _automatic;
     Task _prepareTask;
     ulong _anchor;
     SavedPlacement _saved;
@@ -228,6 +228,7 @@ public class DoorCornerMarker : MonoBehaviour
             _previous = new PreviousPlacement { position = _portal.portalPosition, yaw = _portal.portalYaw, width = _portal.portalWidth, height = _portal.portalHeight, frame = _portal.frameMode, leaf = _portal.showDoorLeaf, fullView = _portal.fullMeadowView };
         }
         _mode = Mode.Collect; _count = 0; _help = true; _noticeUntil = 0;_hasFirstRay=false;_rayHit=false;_hasDisplayRay=false;
+        _automatic = false; _outline.startWidth = _outline.endWidth = .006f;
         _portal.calibrationHidden = true; _portal.fullMeadowView = false;
         _portal.UpdatePortalState();
         PicoPassthroughSetup.RequestEnable();
@@ -238,7 +239,7 @@ public class DoorCornerMarker : MonoBehaviour
     void Add(Vector3 point)
     {
         for (int i = 0; i < _count; i++)
-            if (Vector3.Distance(point, _corners[i]) < .08f) { Notice("error_duplicate"); return; }
+            if (Vector3.Distance(point, _corners[i]) < .008f) { Notice("error_duplicate"); return; }
         _firstRays[_count]=_firstRay;_hasFirstRay=false;_noticeUntil=0;
         _corners[_count] = point; _marks[_count].position = point; _marks[_count].gameObject.SetActive(true); _count++;
         PortalControllerInput.Pulse(true);
@@ -256,8 +257,32 @@ public class DoorCornerMarker : MonoBehaviour
         _outline.enabled = true;
         Debug.Log($"[DoorCorner] preview width={_fit.width:F3} height={_fit.height:F3}");
     }
+    // Shows a pose found without the controller as the usual preview outline; the trigger then
+    // confirms it and stores the anchor, the secondary button or the left trigger rejects it.
+    public bool PreviewAutomaticPlacement(Vector3 center, Quaternion rotation, float width, float height)
+    {
+        if (_portal == null || _busy || _paused || !_focused || IsEditing || width <= 0 || height <= 0) return false;
+        _previousWasBrowse = IsBrowsing;
+        _previous = new PreviousPlacement { position = _portal.portalPosition, yaw = _portal.portalYaw, width = _portal.portalWidth, height = _portal.portalHeight, frame = _portal.frameMode, leaf = _portal.showDoorLeaf, fullView = _portal.fullMeadowView };
+        _automatic = true; _hasFirstRay = false; _rayHit = false; _hasDisplayRay = false;
+        _fit = new DoorCalibrationMath.Placement { center = center, rotation = rotation, width = width, height = height };
+        Vector3 side = rotation * Vector3.right * (width * .5f), rise = rotation * Vector3.up * height;
+        _corners[0] = center + side; _corners[1] = center - side; _corners[2] = center + side + rise; _corners[3] = center - side + rise;
+        _count = 4; _mode = Mode.Preview; _status = "preview"; _noticeUntil = 0; _help = true;
+        _portal.calibrationHidden = true; _portal.fullMeadowView = false;
+        Apply(center, rotation, width, height);
+        PicoPassthroughSetup.RequestEnable();
+        foreach (var mark in _marks) mark.gameObject.SetActive(false);
+        _outline.startWidth = _outline.endWidth = Mathf.Min(.006f, width * .05f);
+        _outline.SetPositions(new[] { _corners[0], _corners[1], _corners[3], _corners[2], _corners[0] });
+        _outline.enabled = true;
+        PortalControllerInput.Pulse(true);
+        Debug.Log($"[DoorCorner] automatic preview width={width:F4} height={height:F4} at {center:F4}");
+        return true;
+    }
     void Undo()
     {
+        if (_automatic) { Cancel(); return; }
         if(_hasFirstRay) { _hasFirstRay=false;_rayHit=false;_noticeUntil=0;PortalControllerInput.Pulse(false);return; }
         if (_count == 0) return;
         _count--; _marks[_count].gameObject.SetActive(false); _mode = Mode.Collect; _noticeUntil = 0;
@@ -267,7 +292,7 @@ public class DoorCornerMarker : MonoBehaviour
     }
     void Cancel()
     {
-        _mode = _previousWasBrowse ? Mode.Browse : Mode.Ready;
+        _mode = _previousWasBrowse ? Mode.Browse : Mode.Ready; _automatic = false;
         _portal.calibrationHidden = !IsBrowsing;_hasFirstRay=false;_rayHit=false;_hasDisplayRay=false;_count=0;
         if(IsBrowsing) _selectedMountain=_portal.mountainLandscape;
         _portal.frameMode = _previous.frame; _portal.showDoorLeaf = _previous.leaf; _portal.fullMeadowView = _previous.fullView;
@@ -351,7 +376,7 @@ public class DoorCornerMarker : MonoBehaviour
                 var json = PlayerPrefs.GetString(PlacementKey, "");
                 if (string.IsNullOrEmpty(json)) return;
                 var saved = JsonUtility.FromJson<SavedPlacement>(json);
-                if (!Guid.TryParse(saved.uuid, out Guid uuid) || saved.width < .35f || saved.height < .5f) return;
+                if (!Guid.TryParse(saved.uuid, out Guid uuid) || saved.width < .01f || saved.height < .02f) return;
                 var query = await PXR_MixedReality.QuerySpatialAnchorAsync(new[] { uuid }, timeout.Token);
                 if (query.result != PxrResult.SUCCESS || this == null) return;
                 foreach (var h in query.anchorHandleList)

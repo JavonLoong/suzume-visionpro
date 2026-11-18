@@ -17,18 +17,20 @@ public static class DoorCalibrationMath
             if (float.IsNaN(v.x + v.y + v.z) || float.IsInfinity(v.x + v.y + v.z)) return false;
         Vector3 bottom = p[1] - p[0]; bottom.y = 0;
         float width = bottom.magnitude;
-        if (width < .35f || width > 3f) { error = "error_width"; return false; }
+        if (width < .01f || width > 3f) { error = "error_width"; return false; }
         Vector3 right = bottom / width;
         Vector3 towardViewer = Vector3.Cross(-right, Vector3.up);
         Vector3 center = (p[0] + p[1]) * .5f;
         if (Vector3.Dot(towardViewer, viewer - center) < .05f) { error = "error_order"; return false; }
         float h1 = p[2].y - p[0].y, h2 = p[3].y - p[1].y;
-        if (h1 < .5f || h2 < .5f || h1 > 3.5f || h2 > 3.5f) { error = "error_height"; return false; }
-        if (Mathf.Abs(p[0].y - p[1].y) > .18f || Mathf.Abs(h1 - h2) > .2f) return false;
+        if (h1 < .02f || h2 < .02f || h1 > 3.5f || h2 > 3.5f) { error = "error_height"; return false; }
+        // Shape tolerances are those of a walk-through door; they shrink with a door below half a metre (desk-top model).
+        float tolerance = Mathf.Min(1f, (h1 + h2) * .5f / .5f);
+        if (Mathf.Abs(p[0].y - p[1].y) > .18f * tolerance || Mathf.Abs(h1 - h2) > .2f * tolerance) return false;
         foreach (int i in new[] { 2, 3 })
         {
             Vector3 edge = p[i] - p[i - 2]; edge.y = 0;
-            if (edge.magnitude > .22f) return false;
+            if (edge.magnitude > .22f * tolerance) return false;
         }
         placement = new Placement { center = center, rotation = Quaternion.LookRotation(towardViewer, Vector3.up), width = width, height = (h1 + h2) * .5f };
         error = null; return true;

@@ -2,7 +2,9 @@
 
 这里是项目的统一协作入口，包含 Pico / Unity 源码、场景、模型、贴图、Vision Pro 工程、场景制作脚本，以及 Blender 和打印资料的下载索引。
 
-**2026-10-30 晚间更新：PICO v1.11（versionCode 12）。** [直接下载 APK](https://github.com/JavonLoong/suzume-visionpro/releases/download/complete-project-2026-10-30/SuzumePortal-PICO.apk) · [完整发布记录](docs/PICO-v1.11.md)。保留山坡与平缓花海，用手柄两次瞄准确定每个门角；显示两条射线的最近点和距离，最终确认四角后才显示虚拟场景。前台保亮及休眠恢复处理已加入；用户已在本机连续完成四角，未再出现此前的黑屏，尚未进行长时间测试。
+**2026-11-18 更新：PICO v1.12（versionCode 13）。** [直接下载 APK](https://github.com/JavonLoong/suzume-visionpro/releases/download/pico-v1.12-door-vision-2026-11-18/SuzumePortal-PICO-v1.12.apk) · [完整发布记录](docs/PICO-v1.12-door-vision.md)。应用已加入从相机画面识别实体小门的自动定位流程，不要求给门增加标记或配件；检测模型、训练与评估代码、最终权重、Unity 推理和手动四点兜底均已入库。编辑器检查和 APK 构建已通过，但头显未连接，因此 PICO 4 Ultra 相机取图、图像方向、外参方向、真机速度与端到端自动定位仍未验证。
+
+**上一版人工定位：** [PICO v1.11 发布记录](docs/PICO-v1.11.md)。该版用手柄两次瞄准确定每个门角，已在真机完成一次连续四角定位，可在自动识别失败时继续作为兜底。
 
 **继续开发 Pico：** 阅读 [协同开发说明](COLLABORATION.md)，按说明拉取官方 SDK 后，用 Unity **2022.3.62f3** 打开 [picounity](suzume-scene-prep/picounity/)。`Assets`、`.meta`、包清单和项目设置均已入库。
 

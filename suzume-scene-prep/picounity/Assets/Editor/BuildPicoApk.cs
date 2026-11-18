@@ -37,8 +37,8 @@ public static class BuildPicoApk
         PlayerSettings.companyName = "Suzume";
         PlayerSettings.productName = "Suzume Portal";
         PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, PackageId);
-        PlayerSettings.bundleVersion = "1.11";
-        PlayerSettings.Android.bundleVersionCode = 12;
+        PlayerSettings.bundleVersion = "1.12";
+        PlayerSettings.Android.bundleVersionCode = 13;
         PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
         PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel29;

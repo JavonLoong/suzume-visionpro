@@ -1,0 +1,29 @@
+门框关键点模型（2026-11-18）
+
+内容
+  door_net.onnx            最终模型（同一份已放入 picounity/Assets/Resources/DoorNet/）
+  run1/door_net.pt         PyTorch 权重；run1/last.ckpt 可用 --resume 续训
+  common.py                网络结构、取样、解码、两遍检测流程（头显端 C# 与此一致）
+  train.py                 训练：python train.py <数据集目录> --out run1 --epochs 160 --workers 8
+  evaluate.py              评估：python evaluate.py door_net.onnx <数据集目录> [--split all] [--scale S] [--dump 文件]
+  export_onnx.py           导出并与 PyTorch 结果比对
+  eval_*.txt               评估结果
+  unity_reference.txt      Unity 编辑器检查 DoorDetectorTrialCheck 用的 Python 参考结果
+
+模型
+  输入 1x288x384 灰度图（0~1），输出 72x96 的 12 通道：4 个角点热图 + 每个角点的 (dx, dy) 偏移。
+  角点顺序：左下、右下、左上、右上（从正面看门洞内角）。约 109 万参数。
+  检测流程：先看整幅画面，再对找到的门裁剪放大重看两次；任一角点置信度低于 0.3 即判为没有门。
+
+训练数据
+  ../door-keypoint-train-20261118：3600 张 960x720 渲染图（50/60/70 毫米三档，430 张无门），序号末位为 9 的作验证。
+
+结果（全部是渲染图，没有实拍）
+  训练集的验证部分（309 扇门）：漏检 30；最差角点误差中位 1.3 像素、90% 分位 3.2 像素（约为门高的 0.9% / 1.8%）；
+    单帧位姿误差中位 1.1 毫米 / 1.0 度；41 张无门图片误检 0。
+  独立渲染的 500 张（../door-keypoint-dataset-20261118，480 扇完整可见）：漏检 42；最差角点中位 0.9 像素、90% 分位 2.4 像素；
+    单帧位姿中位 1.1 毫米 / 0.9 度；误差超过 5 像素的 14 张（靠多帧一致性检查剔除）。
+  Unity 内推理与 Python 对比（360 张）：角点差中位 0.05 像素，有无门的判断 358 张一致。
+
+未验证
+  对真实门、真实头显相机画面的效果。

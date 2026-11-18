@@ -1,0 +1,41 @@
+{
+ "model": "door_net.onnx",
+ "dataset": "door-keypoint-dataset-20261118",
+ "split": "all",
+ "scale": 3.2,
+ "doors": 480,
+ "missed": 41,
+ "empty_images": 0,
+ "false_detections": 0,
+ "worst_corner_px_p50_p90_p99_max": [
+  0.906,
+  2.496,
+  7.701,
+  92.485
+ ],
+ "first_pass_only_px": [
+  1.963,
+  4.53,
+  17.975,
+  21.919
+ ],
+ "worst_corner_over_door_height": [
+  0.01,
+  0.023,
+  0.109,
+  1.459
+ ],
+ "gross_errors_over_5px": 15,
+ "single_frame_position_mm": [
+  1.11,
+  4.306,
+  16.09,
+  1671.036
+ ],
+ "single_frame_rotation_deg": [
+  0.931,
+  3.288,
+  19.21,
+  129.34
+ ]
+}

@@ -16,6 +16,7 @@ public class PicoManifest : IAndroidManifestRequirementProvider
             NewElements = new List<ManifestElement>
             {
                 Feature("android.hardware.vr.headtracking"),
+                Permission("android.permission.CAMERA"),
                 Category("org.khronos.openxr.intent.category.IMMERSIVE_HMD"),
                 Category("com.picovr.intent.category.VR")
             }
@@ -33,6 +34,15 @@ public class PicoManifest : IAndroidManifestRequirementProvider
                 { "required", "true" },
                 { "version", "1" }
             }
+        };
+    }
+
+    static ManifestElement Permission(string name)
+    {
+        return new ManifestElement
+        {
+            ElementPath = new List<string> { "manifest", "uses-permission" },
+            Attributes = new Dictionary<string, string> { { "name", name } }
         };
     }
 
