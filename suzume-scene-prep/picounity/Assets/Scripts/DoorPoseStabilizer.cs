@@ -23,6 +23,23 @@ public sealed class DoorPoseStabilizer
     float _lastSeen = float.NegativeInfinity;
     int _driftCount;
 
+    // A worker owns a snapshot; publish it only if the user's target is still current.
+    public DoorPoseStabilizer Snapshot()
+    {
+        var copy=new DoorPoseStabilizer();copy.CopyFrom(this);return copy;
+    }
+    public void CopyFrom(DoorPoseStabilizer other)
+    {
+        assumeUpright=other.assumeUpright;minimumObservations=other.minimumObservations;windowSize=other.windowSize;
+        stableSolutions=other.stableSolutions;driftSolutions=other.driftSolutions;maximumAge=other.maximumAge;
+        lostAfter=other.lostAfter;maximumRmsPixels=other.maximumRmsPixels;positionToleranceRatio=other.positionToleranceRatio;
+        minimumPositionTolerance=other.minimumPositionTolerance;yawToleranceDegrees=other.yawToleranceDegrees;
+        CurrentState=other.CurrentState;Current=other.Current;LockedSolution=other.LockedSolution;
+        _lastSeen=other._lastSeen;_driftCount=other._driftCount;
+        _window.Clear();_window.AddRange(other._window);_recent.Clear();_recent.AddRange(other._recent);
+    }
+    float Angle(DoorPoseSolver.Solution a,DoorPoseSolver.Solution b)=>assumeUpright?Mathf.Abs(Mathf.DeltaAngle(a.yawDegrees,b.yawDegrees)):Quaternion.Angle(a.rotation,b.rotation);
+
     public void Reset()
     {
         _window.Clear(); _recent.Clear(); _driftCount = 0; CurrentState = State.Searching;
@@ -55,7 +72,7 @@ public sealed class DoorPoseStabilizer
         {
             bool moved = solution.rmsPixels <= maximumRmsPixels && _window.Count >= minimumObservations
                 && (Vector3.Distance(solution.position, LockedSolution.position) > tolerance * 2
-                    || Mathf.Abs(Mathf.DeltaAngle(solution.yawDegrees, LockedSolution.yawDegrees)) > yawToleranceDegrees * 2);
+                    || Angle(solution,LockedSolution) > yawToleranceDegrees * 2);
             _driftCount = moved ? _driftCount + 1 : 0;
             if (_driftCount < driftSolutions) return Event.None;
             // Observations from before the move would drag the new estimate back to the old place.
@@ -70,7 +87,7 @@ public sealed class DoorPoseStabilizer
         if (_window.Count < minimumObservations || _recent.Count < stableSolutions) return Event.None;
         foreach (var other in _recent)
             if (Vector3.Distance(other.position, solution.position) > tolerance
-                || Mathf.Abs(Mathf.DeltaAngle(other.yawDegrees, solution.yawDegrees)) > yawToleranceDegrees) return Event.None;
+                || Angle(other,solution) > yawToleranceDegrees) return Event.None;
         LockedSolution = solution; CurrentState = State.Locked; _driftCount = 0;
         return Event.Locked;
     }

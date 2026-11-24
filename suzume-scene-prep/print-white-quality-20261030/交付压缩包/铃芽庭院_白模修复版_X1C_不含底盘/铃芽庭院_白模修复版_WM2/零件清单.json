@@ -1,0 +1,4623 @@
+{
+  "project": "铃芽庭院 400 mm 白模修复版 WM2（不含底盘）",
+  "source_scene": "Official poster courtyard v38 in v56 blend",
+  "diameter_mm": 400,
+  "source_span_m": 58,
+  "scale_mm_per_source_unit": 6.896551724137931,
+  "assumed_printer": "Bambu Lab X1 Carbon",
+  "assumed_nozzle_mm": 0.4,
+  "assumed_material": "PLA",
+  "base_thickness_mm": 5,
+  "radial_seam_gap_mm": 0.2,
+  "module_seam_gap_mm": 0.24,
+  "socket_diameter_mm": 3.4,
+  "pin_diameter_mm": 3,
+  "pin_length_mm": 3.8,
+  "hinge_metal_pin_diameter_mm": 1,
+  "hinge_bore_mm": 1.3,
+  "hinge_knuckle_gap_mm": 0.35,
+  "parts": [
+    {
+      "id": "W01_环形建筑",
+      "category": "环形建筑",
+      "quantity": 1,
+      "size_mm": [
+        89.6067,
+        138.8788,
+        49.8956
+      ],
+      "triangles": 289084,
+      "watertight": true,
+      "volume_mm3": 80608.836,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          107.08515064841251,
+          0.12000000000000455,
+          5.0
+        ],
+        [
+          196.6918182373047,
+          138.9987608344362,
+          54.89564895629883
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -107.08515064841251
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.12000000000000455
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "b5e5c10af9c20f4759d4460b322a70425a1fcdd1674ca618b99b4643cc6ae8ee"
+    },
+    {
+      "id": "W02_环形建筑",
+      "category": "环形建筑",
+      "quantity": 1,
+      "size_mm": [
+        138.8791,
+        89.6067,
+        52.0014
+      ],
+      "triangles": 297134,
+      "watertight": true,
+      "volume_mm3": 90236.545,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          0.12000000000000455,
+          107.08371397828296,
+          5.0
+        ],
+        [
+          138.9990545755567,
+          196.69039916992188,
+          57.00144958496094
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.12000000000000455
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -107.08371397828296
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "75fdcf6acc8ad64c1b747371a6bebcab55908808884102017b62f3c8290aab30"
+    },
+    {
+      "id": "W03_环形建筑_附件13",
+      "category": "独立建筑附件",
+      "quantity": 1,
+      "size_mm": [
+        6.6435,
+        1.4283,
+        3.0936
+      ],
+      "triangles": 68,
+      "watertight": true,
+      "volume_mm3": 21.737,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -11.259305953979492,
+          164.0197296142578,
+          15.13202953338623
+        ],
+        [
+          -8.165679931640625,
+          165.4480438232422,
+          21.77557373046875
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          -15.13202953338623
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -164.0197296142578
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          -8.165679931640627
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "1c846c073c4e04fce0706ee3e844c2515c845a2299e51c41f99b7b836c8cfad7"
+    },
+    {
+      "id": "W03_环形建筑",
+      "category": "环形建筑",
+      "quantity": 1,
+      "size_mm": [
+        138.8664,
+        89.6018,
+        62.1348
+      ],
+      "triangles": 307614,
+      "watertight": true,
+      "volume_mm3": 84798.96,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -138.98641160423887,
+          107.08476143299697,
+          5.0
+        ],
+        [
+          -0.12000000000000455,
+          196.6865234375,
+          67.13480377197266
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          138.98641160423887
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -107.08476143299697
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "5615acb23153f77e837dbef4afa426e1fee2052cb88d6fe59c7280aaccc611ba"
+    },
+    {
+      "id": "W04_环形建筑_附件05",
+      "category": "独立建筑附件",
+      "quantity": 1,
+      "size_mm": [
+        6.7769,
+        2.9997,
+        2.4923
+      ],
+      "triangles": 142,
+      "watertight": true,
+      "volume_mm3": 22.054,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -140.19931030273438,
+          87.7360610961914,
+          15.065357208251953
+        ],
+        [
+          -137.70704650878906,
+          90.73577880859375,
+          21.84223747253418
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          -15.065357208251944
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -87.7360610961914
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          -137.70704650878906
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "0fb913eebc4ea036fc2f2b28a627e2459b005822330dddccd023637dfc2ae3af"
+    },
+    {
+      "id": "W04_环形建筑",
+      "category": "环形建筑",
+      "quantity": 1,
+      "size_mm": [
+        89.6071,
+        138.8645,
+        56.5639
+      ],
+      "triangles": 305832,
+      "watertight": true,
+      "volume_mm3": 92135.843,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -196.69081115722656,
+          0.12000000000000455,
+          5.0
+        ],
+        [
+          -107.08371645413597,
+          138.98448533346385,
+          61.56391143798828
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          196.69081115722656
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.12000000000000455
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "a81005f086df578e4e06823e9f7a4e92b7ba6f653bba0ae24ad7fbc786735767"
+    },
+    {
+      "id": "W05_环形建筑",
+      "category": "环形建筑",
+      "quantity": 1,
+      "size_mm": [
+        102.9784,
+        138.8383,
+        50.4552
+      ],
+      "triangles": 210848,
+      "watertight": true,
+      "volume_mm3": 81041.205,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -197.5552215576172,
+          -138.9582773234606,
+          5.0
+        ],
+        [
+          -94.57681853323781,
+          -0.11999999999996067,
+          55.455223083496094
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          197.5552215576172
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          138.9582773234606
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "5251caf564a31dbd7971d226f65d63a522359f6a399ffa69fa95db2312845f6b"
+    },
+    {
+      "id": "W06_环形建筑",
+      "category": "环形建筑",
+      "quantity": 1,
+      "size_mm": [
+        138.8804,
+        102.1824,
+        38.7769
+      ],
+      "triangles": 97672,
+      "watertight": true,
+      "volume_mm3": 38124.739,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -139.00042851636087,
+          -196.69248962402344,
+          5.0
+        ],
+        [
+          -0.12000000000000455,
+          -94.51010030560639,
+          43.776939392089844
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          139.00042851636087
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          196.69248962402344
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "545bab8f8bdc6a4c04e0339f637feeab44be63365ed758070d8cd2d01f40926c"
+    },
+    {
+      "id": "W07_环形建筑",
+      "category": "环形建筑",
+      "quantity": 1,
+      "size_mm": [
+        138.8672,
+        102.187,
+        38.7807
+      ],
+      "triangles": 95156,
+      "watertight": true,
+      "volume_mm3": 37864.262,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          0.11999999999996011,
+          -196.70790100097656,
+          5.0
+        ],
+        [
+          138.9872010696574,
+          -94.52087611594698,
+          43.78068161010742
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.11999999999996011
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          196.70790100097656
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "1098d5d27ab7ffdcaac4fae716db7a5421d6b6178bc7dc6de0a29c3b221761d4"
+    },
+    {
+      "id": "W08_环形建筑_附件17",
+      "category": "独立建筑附件",
+      "quantity": 1,
+      "size_mm": [
+        5.623,
+        2.9396,
+        2.5528
+      ],
+      "triangles": 144,
+      "watertight": true,
+      "volume_mm3": 18.218,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          131.0246124267578,
+          -100.59709930419922,
+          15.642295837402344
+        ],
+        [
+          133.577392578125,
+          -97.65753936767578,
+          21.265283584594727
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          -15.642295837402353
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          100.59709930419922
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          133.577392578125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "906fce157c13f0add6fb5a3ff20518b201c92b6d49d6f521e63a92f74e0efda0"
+    },
+    {
+      "id": "W08_环形建筑_附件18",
+      "category": "独立建筑附件",
+      "quantity": 1,
+      "size_mm": [
+        6.1506,
+        3.0264,
+        2.4933
+      ],
+      "triangles": 136,
+      "watertight": true,
+      "volume_mm3": 19.776,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          136.02284240722656,
+          -93.22065734863281,
+          15.378504753112793
+        ],
+        [
+          138.51617431640625,
+          -90.19426727294922,
+          21.52907371520996
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          -15.378504753112802
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          93.22065734863281
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          138.51617431640625
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "31490aba099210f5895995161e8e1fbab868f8a3c5db4281a68c6add22dcfd7d"
+    },
+    {
+      "id": "W08_环形建筑_附件33",
+      "category": "独立建筑附件",
+      "quantity": 1,
+      "size_mm": [
+        6.7868,
+        3.1351,
+        2.1698
+      ],
+      "triangles": 104,
+      "watertight": true,
+      "volume_mm3": 22.417,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          152.34115600585938,
+          -62.50032043457031,
+          14.54593276977539
+        ],
+        [
+          154.5109405517578,
+          -59.36524963378906,
+          21.332685470581055
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          -14.5459327697754
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          62.50032043457031
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          154.5109405517578
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "ee8fb47161373993cbd6f1fc41fb0112ab919cecbdead3b83ab2ba56f27ccd5b"
+    },
+    {
+      "id": "W08_环形建筑_附件34",
+      "category": "独立建筑附件",
+      "quantity": 1,
+      "size_mm": [
+        7.2169,
+        3.0189,
+        1.6714
+      ],
+      "triangles": 58,
+      "watertight": true,
+      "volume_mm3": 23.493,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          160.49827575683594,
+          -36.6646728515625,
+          14.845337867736816
+        ],
+        [
+          162.169677734375,
+          -33.64572525024414,
+          22.062253952026367
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          -14.845337867736827
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          36.6646728515625
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          162.169677734375
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "4e01a901bc743aa2d3f05fd28272c28d1d1747bcb948d3a916c587cb93b72594"
+    },
+    {
+      "id": "W08_环形建筑_附件35",
+      "category": "独立建筑附件",
+      "quantity": 1,
+      "size_mm": [
+        7.7042,
+        3.0738,
+        1.6413
+      ],
+      "triangles": 116,
+      "watertight": true,
+      "volume_mm3": 24.875,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          162.8280792236328,
+          -24.977365493774414,
+          14.601683616638184
+        ],
+        [
+          164.4694061279297,
+          -21.90360450744629,
+          22.305898666381836
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          -14.601683616638194
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          24.977365493774414
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          164.4694061279297
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "fe9cc0129087ab76ef24fc8ed6c31244e765287893eb855b44d594dc028a0306"
+    },
+    {
+      "id": "W08_环形建筑",
+      "category": "环形建筑",
+      "quantity": 1,
+      "size_mm": [
+        102.1894,
+        138.8643,
+        52.0018
+      ],
+      "triangles": 256262,
+      "watertight": true,
+      "volume_mm3": 79994.066,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          94.51038065685927,
+          -138.98430531713026,
+          5.0
+        ],
+        [
+          196.69973754882812,
+          -0.12000000000003837,
+          57.0018196105957
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -94.51038065685927
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          138.98430531713026
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "4c0d748d4373af8c87587437228efd4f6d8f0a0dcf50776629ff9a005fcef183"
+    },
+    {
+      "id": "S01_钢架",
+      "category": "钢架",
+      "quantity": 1,
+      "size_mm": [
+        59.0804,
+        102.532,
+        99.1977
+      ],
+      "triangles": 87552,
+      "watertight": true,
+      "volume_mm3": 10652.854,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          86.171097,
+          0.12,
+          5.0
+        ],
+        [
+          145.251465,
+          102.651989,
+          104.197739
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -86.171097
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.12
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "56c09a2f9e2c88e2fef7fcaca7bf44a8a3ff5845c60c0b5b24d69fc87f185edc"
+    },
+    {
+      "id": "S02_钢架",
+      "category": "钢架",
+      "quantity": 1,
+      "size_mm": [
+        103.4678,
+        84.7255,
+        109.0246
+      ],
+      "triangles": 99128,
+      "watertight": true,
+      "volume_mm3": 10731.379,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          0.12,
+          60.588017,
+          5.0
+        ],
+        [
+          103.587791,
+          145.313477,
+          114.024597
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.12
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -60.588017
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "9fc55d4e67e2cba3f9f193b188164f65429ae6a763ced607360a53e4f4ac3c4c"
+    },
+    {
+      "id": "S03_钢架",
+      "category": "钢架",
+      "quantity": 1,
+      "size_mm": [
+        102.5129,
+        60.6782,
+        78.5537
+      ],
+      "triangles": 76206,
+      "watertight": true,
+      "volume_mm3": 9533.16,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -102.63291931152344,
+          84.61859130859375,
+          5.0
+        ],
+        [
+          -0.11999999731779099,
+          145.29678344726562,
+          83.5536880493164
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          102.63291931152344
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -84.61859130859375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "9b26ca0feca6e0e45bf93468867e7abb62dbb9d61e48f86a90399c5bb01ae439"
+    },
+    {
+      "id": "S04_钢架",
+      "category": "钢架",
+      "quantity": 1,
+      "size_mm": [
+        67.4837,
+        102.5143,
+        94.0826
+      ],
+      "triangles": 96056,
+      "watertight": true,
+      "volume_mm3": 11171.283,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -145.29769897460938,
+          0.12000000000000455,
+          5.0
+        ],
+        [
+          -77.81395721435547,
+          102.63428848883957,
+          99.08257293701172
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          145.29769897460938
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.12000000000000455
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "30413bd1dad8c3fef60641a11a333f6de0099dfc3ef014042ae79b8e7733279e"
+    },
+    {
+      "id": "S05_钢架",
+      "category": "钢架",
+      "quantity": 1,
+      "size_mm": [
+        96.0614,
+        99.6775,
+        115.7144
+      ],
+      "triangles": 133662,
+      "watertight": true,
+      "volume_mm3": 12435.893,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -145.31454467773438,
+          -99.79753378129993,
+          5.0
+        ],
+        [
+          -49.253108978271484,
+          -0.11999999999996662,
+          120.71436309814453
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          145.31454467773438
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          99.79753378129993
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "8f3a378b91f39408f656878a9c76c80fb33692ee6f296beae1ad23a5f3c94f1d"
+    },
+    {
+      "id": "S06_钢架",
+      "category": "钢架",
+      "quantity": 1,
+      "size_mm": [
+        99.6628,
+        83.9731,
+        110.8653
+      ],
+      "triangles": 142068,
+      "watertight": true,
+      "volume_mm3": 12140.431,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -99.78283565637079,
+          -145.31495666503906,
+          5.0
+        ],
+        [
+          -0.12000000000000455,
+          -61.3418083190918,
+          115.86528778076172
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          99.78283565637079
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          145.31495666503906
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "151600d0e0845d42fb6170133b0bd0bf316a7d135c7ab36fe3744e516de2997c"
+    },
+    {
+      "id": "S07_钢架",
+      "category": "钢架",
+      "quantity": 1,
+      "size_mm": [
+        99.6658,
+        70.5626,
+        109.97
+      ],
+      "triangles": 114726,
+      "watertight": true,
+      "volume_mm3": 10965.536,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          0.11999999999998566,
+          -145.29612731933594,
+          5.0
+        ],
+        [
+          99.78577482858381,
+          -74.7335205078125,
+          114.97004699707031
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.11999999999998566
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          145.29612731933594
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "c82a890fa3d715ca1bc459202257798a3519c5b465f5d30e35e7c500c3afd874"
+    },
+    {
+      "id": "S08_钢架",
+      "category": "钢架",
+      "quantity": 1,
+      "size_mm": [
+        59.105,
+        102.4638,
+        80.352
+      ],
+      "triangles": 99824,
+      "watertight": true,
+      "volume_mm3": 9859.948,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          86.19348519258413,
+          -102.58375755612998,
+          5.0
+        ],
+        [
+          145.29852294921875,
+          -0.12000000000003816,
+          85.35195922851562
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -86.19348519258413
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          102.58375755612998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "110115317d24e2eb3164c88b9169ca3627ee3714bc396ac163f182aefe2ea566"
+    },
+    {
+      "id": "D01_门框与台阶",
+      "category": "白门",
+      "quantity": 1,
+      "size_mm": [
+        18.0,
+        26.9,
+        8.0
+      ],
+      "triangles": 1164,
+      "watertight": true,
+      "volume_mm3": 510.599,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -9.0,
+          -4.0,
+          5.0
+        ],
+        [
+          9.0,
+          4.0,
+          31.9
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          9.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          31.9
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "a06e20aa9c0bc3e272cdd427153d8413c0f82ec1e94147831ce59bb7e79b2070"
+    },
+    {
+      "id": "D02_六格门扇",
+      "category": "白门",
+      "quantity": 1,
+      "size_mm": [
+        11.35,
+        22.3,
+        4.35
+      ],
+      "triangles": 1374,
+      "watertight": true,
+      "volume_mm3": 295.909,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -4.5,
+          -3.5500000000000003,
+          7.75
+        ],
+        [
+          6.85,
+          0.8,
+          30.05
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.5
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          30.05
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          3.5500000000000003
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "29c482c81577dc8c1c9261da19a85cc59e1ce23875c0ecc0784cfca514e41e41"
+    },
+    {
+      "id": "K01_底盘拼接键",
+      "category": "连接件",
+      "quantity": 8,
+      "size_mm": [
+        12.0,
+        6.0,
+        2.0
+      ],
+      "triangles": 12,
+      "watertight": true,
+      "volume_mm3": 144.0,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          12.0,
+          6.0,
+          2.0
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "3ed38586c749466414c917ea2accc7e8fa4db54b13bdf556d6430a7df7f56738"
+    },
+    {
+      "id": "K02_模块定位销",
+      "category": "连接件",
+      "quantity": 32,
+      "size_mm": [
+        3.0,
+        3.0,
+        3.8
+      ],
+      "triangles": 124,
+      "watertight": true,
+      "volume_mm3": 26.688,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          -1.5,
+          -1.5,
+          0.0
+        ],
+        [
+          1.5,
+          1.5,
+          3.8
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "a972807e870775d8e197d08e9e1efa06cff595507a200069481a015d39f93ef4"
+    },
+    {
+      "id": "T01_先打印配合试块",
+      "category": "试装件",
+      "quantity": 1,
+      "size_mm": [
+        38.0,
+        18.0,
+        5.0
+      ],
+      "triangles": 334,
+      "watertight": true,
+      "volume_mm3": 3169.743,
+      "components": 1,
+      "assembly_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          38.0,
+          18.0,
+          5.0
+        ]
+      ],
+      "assembly_to_print_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "stl_sha256": "9d3790482f26243cc12ce0d5534045e77583925e0d672afd97c440b64626cd1c"
+    }
+  ],
+  "limits": [
+    "400 mm 为底盘外径。本包不打印底盘；排除远景树林、天空、人物和虚拟异世界。",
+    "保留实际窗洞和拱门；移除不可独立打印的薄碎片，实体表面已修复，钢架加固，接触处预留约 0.2 mm 装配余量。",
+    "六格门保留独立门扇、门框和金属销轴结构；细小表面装饰适当简化。",
+    "切片固定为 X1 Carbon、0.4 mm 喷嘴、白色 PLA、纹理 PEI 板。尚未试打，请先打印 P01 核对配合。",
+    "9 盘均包含实际 G-code；没有连接打印机或启动打印任务。"
+  ],
+  "export_validation": [
+    {
+      "id": "W01_环形建筑",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 6,
+      "cleaned_face_flags": 488,
+      "volume_mm3": 80608.83590302222,
+      "bounds_mm": [
+        [
+          107.08515064841251,
+          0.12000000000000455,
+          5.0
+        ],
+        [
+          196.6918182373047,
+          138.9987608344362,
+          54.89564895629883
+        ]
+      ],
+      "analytic_cut_raw_candidates": 488,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 1,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W02_环形建筑",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 47,
+      "cleaned_face_flags": 8071,
+      "volume_mm3": 90236.54476010829,
+      "bounds_mm": [
+        [
+          0.12000000000000455,
+          107.08371397828296,
+          5.0
+        ],
+        [
+          138.9990545755567,
+          196.69039916992188,
+          57.00144958496094
+        ]
+      ],
+      "analytic_cut_raw_candidates": 770,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 1,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W03_环形建筑_附件13",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 21.737147680119218,
+      "bounds_mm": [
+        [
+          -11.259305953979492,
+          164.0197296142578,
+          15.13202953338623
+        ],
+        [
+          -8.165679931640625,
+          165.4480438232422,
+          21.77557373046875
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W03_环形建筑",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 13,
+      "cleaned_face_flags": 608,
+      "volume_mm3": 84798.9599902598,
+      "bounds_mm": [
+        [
+          -138.98641160423887,
+          107.08476143299697,
+          5.0
+        ],
+        [
+          -0.12000000000000455,
+          196.6865234375,
+          67.13480377197266
+        ]
+      ],
+      "analytic_cut_raw_candidates": 608,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 1,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W04_环形建筑_附件05",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 22.05377918653115,
+      "bounds_mm": [
+        [
+          -140.19931030273438,
+          87.7360610961914,
+          15.065357208251953
+        ],
+        [
+          -137.70704650878906,
+          90.73577880859375,
+          21.84223747253418
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W04_环形建筑",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 1,
+      "cleaned_face_flags": 2383,
+      "volume_mm3": 92135.843059959,
+      "bounds_mm": [
+        [
+          -196.69081115722656,
+          0.12000000000000455,
+          5.0
+        ],
+        [
+          -107.08371645413597,
+          138.98448533346385,
+          61.56391143798828
+        ]
+      ],
+      "analytic_cut_raw_candidates": 558,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 1,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W05_环形建筑",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 1,
+      "cleaned_face_flags": 404,
+      "volume_mm3": 81041.20494586365,
+      "bounds_mm": [
+        [
+          -197.5552215576172,
+          -138.9582773234606,
+          5.0
+        ],
+        [
+          -94.57681853323781,
+          -0.11999999999996067,
+          55.455223083496094
+        ]
+      ],
+      "analytic_cut_raw_candidates": 404,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 2,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W06_环形建筑",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 2258,
+      "volume_mm3": 38124.73852871566,
+      "bounds_mm": [
+        [
+          -139.00042851636087,
+          -196.69248962402344,
+          5.0
+        ],
+        [
+          -0.12000000000000455,
+          -94.51010030560639,
+          43.776939392089844
+        ]
+      ],
+      "analytic_cut_raw_candidates": 295,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 1,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W07_环形建筑",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 1,
+      "cleaned_face_flags": 2427,
+      "volume_mm3": 37864.26238583837,
+      "bounds_mm": [
+        [
+          0.11999999999996011,
+          -196.70790100097656,
+          5.0
+        ],
+        [
+          138.9872010696574,
+          -94.52087611594698,
+          43.78068161010742
+        ]
+      ],
+      "analytic_cut_raw_candidates": 469,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 2,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W08_环形建筑_附件17",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 18.21757924110595,
+      "bounds_mm": [
+        [
+          131.0246124267578,
+          -100.59709930419922,
+          15.642295837402344
+        ],
+        [
+          133.577392578125,
+          -97.65753936767578,
+          21.265283584594727
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W08_环形建筑_附件18",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 19.776370135302688,
+      "bounds_mm": [
+        [
+          136.02284240722656,
+          -93.22065734863281,
+          15.378504753112793
+        ],
+        [
+          138.51617431640625,
+          -90.19426727294922,
+          21.52907371520996
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W08_环形建筑_附件33",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 22.41650623540674,
+      "bounds_mm": [
+        [
+          152.34115600585938,
+          -62.50032043457031,
+          14.54593276977539
+        ],
+        [
+          154.5109405517578,
+          -59.36524963378906,
+          21.332685470581055
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W08_环形建筑_附件34",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 23.493390515319984,
+      "bounds_mm": [
+        [
+          160.49827575683594,
+          -36.6646728515625,
+          14.845337867736816
+        ],
+        [
+          162.169677734375,
+          -33.64572525024414,
+          22.062253952026367
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W08_环形建筑_附件35",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 24.875339164951466,
+      "bounds_mm": [
+        [
+          162.8280792236328,
+          -24.977365493774414,
+          14.601683616638184
+        ],
+        [
+          164.4694061279297,
+          -21.90360450744629,
+          22.305898666381836
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "W08_环形建筑",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 1,
+      "cleaned_face_flags": 3897,
+      "volume_mm3": 79994.06601104328,
+      "bounds_mm": [
+        [
+          94.51038065685927,
+          -138.98430531713026,
+          5.0
+        ],
+        [
+          196.69973754882812,
+          -0.12000000000003837,
+          57.0018196105957
+        ]
+      ],
+      "analytic_cut_raw_candidates": 646,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 2,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "S01_钢架",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 10652.853761834462,
+      "bounds_mm": [
+        [
+          86.171097,
+          0.12,
+          5.0
+        ],
+        [
+          145.251465,
+          102.651989,
+          104.197739
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "S02_钢架",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 10731.378908002176,
+      "bounds_mm": [
+        [
+          0.12,
+          60.588017,
+          5.0
+        ],
+        [
+          103.587791,
+          145.313477,
+          114.024597
+        ]
+      ],
+      "assembly_clearance_cut_mm": 0.2,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "S03_钢架",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 9533.159996209206,
+      "bounds_mm": [
+        [
+          -102.63291931152344,
+          84.61859130859375,
+          5.0
+        ],
+        [
+          -0.11999999731779099,
+          145.29678344726562,
+          83.5536880493164
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "S04_钢架",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 647,
+      "volume_mm3": 11171.283441821077,
+      "bounds_mm": [
+        [
+          -145.29769897460938,
+          0.12000000000000455,
+          5.0
+        ],
+        [
+          -77.81395721435547,
+          102.63428848883957,
+          99.08257293701172
+        ]
+      ],
+      "analytic_cut_raw_candidates": 483,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 1,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "S05_钢架",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 2,
+      "cleaned_face_flags": 177,
+      "volume_mm3": 12435.89317634989,
+      "bounds_mm": [
+        [
+          -145.31454467773438,
+          -99.79753378129993,
+          5.0
+        ],
+        [
+          -49.253108978271484,
+          -0.11999999999996662,
+          120.71436309814453
+        ]
+      ],
+      "assembly_clearance_cut_mm": 0.2,
+      "analytic_cut_raw_candidates": 106,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 2,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "S06_钢架",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 3,
+      "cleaned_face_flags": 287,
+      "volume_mm3": 12140.431427981712,
+      "bounds_mm": [
+        [
+          -99.78283565637079,
+          -145.31495666503906,
+          5.0
+        ],
+        [
+          -0.12000000000000455,
+          -61.3418083190918,
+          115.86528778076172
+        ]
+      ],
+      "assembly_clearance_cut_mm": 0.2,
+      "analytic_cut_raw_candidates": 50,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 1,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "S07_钢架",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 2,
+      "cleaned_face_flags": 172,
+      "volume_mm3": 10965.536414588854,
+      "bounds_mm": [
+        [
+          0.11999999999998566,
+          -145.29612731933594,
+          5.0
+        ],
+        [
+          99.78577482858381,
+          -74.7335205078125,
+          114.97004699707031
+        ]
+      ],
+      "assembly_clearance_cut_mm": 0.2,
+      "analytic_cut_raw_candidates": 78,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 2,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "S08_钢架",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 4,
+      "cleaned_face_flags": 419,
+      "volume_mm3": 9859.947664941246,
+      "bounds_mm": [
+        [
+          86.19348519258413,
+          -102.58375755612998,
+          5.0
+        ],
+        [
+          145.29852294921875,
+          -0.12000000000003816,
+          85.35195922851562
+        ]
+      ],
+      "assembly_clearance_cut_mm": 0.2,
+      "analytic_cut_raw_candidates": 53,
+      "analytic_cut_unclassified_candidates": 0,
+      "projected_cut_planes_verified": 2,
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "D01_门框与台阶",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 510.59923788381747,
+      "bounds_mm": [
+        [
+          -9.0,
+          -4.0,
+          5.0
+        ],
+        [
+          9.0,
+          4.0,
+          31.9
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "D02_六格门扇",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 295.9093864888376,
+      "bounds_mm": [
+        [
+          -4.5,
+          -3.5500000000000003,
+          7.75
+        ],
+        [
+          6.85,
+          0.8,
+          30.05
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "K01_底盘拼接键",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 144.0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          12.0,
+          6.0,
+          2.0
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "K02_模块定位销",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 26.68835605180634,
+      "bounds_mm": [
+        [
+          -1.5,
+          -1.5,
+          0.0
+        ],
+        [
+          1.5,
+          1.5,
+          3.8
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    },
+    {
+      "id": "T01_先打印配合试块",
+      "watertight": true,
+      "normal_consistency": true,
+      "zero_area_faces": 0,
+      "components": 1,
+      "removed_tiny_components": 0,
+      "cleaned_face_flags": 0,
+      "volume_mm3": 3169.7429256834926,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          38.0,
+          18.0,
+          5.0
+        ]
+      ],
+      "intersection_validation": "输入表面已修复并扫描；斜切面的共面候选已投影校验；装配接触裁切使用 Manifold 实体差集。"
+    }
+  ],
+  "door_clearance_checks": [
+    {
+      "angle_deg": 0,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle_deg": 15,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle_deg": 30,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle_deg": 45,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle_deg": 60,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle_deg": 75,
+      "interference_mm3": 0.0
+    },
+    {
+      "angle_deg": 90,
+      "interference_mm3": 0.0
+    }
+  ],
+  "assembly_note": "底盘外圈半径122毫米以外清平至Z=5，避免墙体/钢架底托与水底石块互相穿插；中心白门台阶下清平。",
+  "quality_revision": "白模可靠版：实体重建、钢架加厚、游离景物接到底托、白门把手接缝修正。",
+  "source_history": {
+    "adaptation_notes": [
+      {
+        "base": 1,
+        "unsupported_ground_islands_excluded": 4,
+        "excluded_volume_mm3": 44.24367581628123
+      },
+      {
+        "base": 2,
+        "unsupported_ground_islands_excluded": 8,
+        "excluded_volume_mm3": -37.55757037477163
+      },
+      {
+        "base": 3,
+        "unsupported_ground_islands_excluded": 9,
+        "excluded_volume_mm3": 18.98990133833669
+      },
+      {
+        "base": 4,
+        "unsupported_ground_islands_excluded": 4,
+        "excluded_volume_mm3": 41.11007628102882
+      },
+      {
+        "module": "W01_环形建筑",
+        "detached_components": [
+          {
+            "volume": -16.625474640992437,
+            "bounds": [
+              111.99515890292615,
+              102.00220489501953,
+              28.564409381362736,
+              123.90579223632812,
+              113.49980163574219,
+              29.15989112854004
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -5.389407237155197e-08,
+            "bounds": [
+              122.53927612304688,
+              110.06033325195312,
+              28.374534606933594,
+              122.78650665283203,
+              110.30038452148438,
+              28.745065689086914
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.00015208928078504214,
+            "bounds": [
+              120.0093994140625,
+              104.05191802978516,
+              34.02192687988281,
+              120.29198455810547,
+              104.33011627197266,
+              34.0824089050293
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.00011088679704725213,
+            "bounds": [
+              120.29198455810547,
+              103.77033996582031,
+              34.02235412597656,
+              120.57722473144531,
+              104.05191802978516,
+              34.081851959228516
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.00028863413748000943,
+            "bounds": [
+              119.15641021728516,
+              104.88468170166016,
+              34.018898010253906,
+              119.44277954101562,
+              105.16568756103516,
+              34.084075927734375
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.00023964452428464067,
+            "bounds": [
+              119.44277954101562,
+              104.60772705078125,
+              34.02019500732422,
+              119.72618103027344,
+              104.88468170166016,
+              34.08351516723633
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0001955034920623766,
+            "bounds": [
+              119.72618103027344,
+              104.33011627197266,
+              34.021236419677734,
+              120.0093994140625,
+              104.60772705078125,
+              34.08296203613281
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0006256386860234997,
+            "bounds": [
+              117.42896270751953,
+              109.70024108886719,
+              43.44794845581055,
+              118.10281372070312,
+              110.48888397216797,
+              44.67711639404297
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.006346296796692907,
+            "bounds": [
+              148.74935913085938,
+              123.82894897460938,
+              45.95219802856445,
+              149.1773223876953,
+              124.25811767578125,
+              46.109764099121094
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0064438392938196976,
+            "bounds": [
+              148.46685791015625,
+              124.10646057128906,
+              45.9502067565918,
+              148.89862060546875,
+              124.5394287109375,
+              46.11001205444336
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.006251629790367308,
+            "bounds": [
+              149.0318145751953,
+              123.55138397216797,
+              45.95415496826172,
+              149.45606994628906,
+              123.97683715820312,
+              46.10951232910156
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      },
+      {
+        "module": "W02_环形建筑",
+        "detached_components": [
+          {
+            "volume": 0.41138442731869956,
+            "bounds": [
+              4.07867431640625,
+              146.03977966308594,
+              5.0,
+              18.758766174316406,
+              148.1338348388672,
+              8.419936180114746
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.06049832449049493,
+            "bounds": [
+              52.095001220703125,
+              144.18002319335938,
+              8.650909423828125,
+              53.2504997253418,
+              145.37757873535156,
+              10.504684448242188
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 1.4722886201301577e-05,
+            "bounds": [
+              52.77131652832031,
+              127.39257049560547,
+              10.914515495300293,
+              53.634857177734375,
+              128.12855529785156,
+              11.650505065917969
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0005382526889826326,
+            "bounds": [
+              53.912288665771484,
+              136.17303466796875,
+              12.605144500732422,
+              54.149749755859375,
+              136.485107421875,
+              12.70550537109375
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 9.235820441766062,
+            "bounds": [
+              23.71487045288086,
+              151.92710876464844,
+              10.041404724121094,
+              27.04635238647461,
+              153.85621643066406,
+              15.524734497070312
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.059781385243805135,
+            "bounds": [
+              29.392902374267578,
+              150.7000274658203,
+              8.646361351013184,
+              30.5862979888916,
+              151.7892303466797,
+              10.393964767456055
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 1.9364383918585304e-07,
+            "bounds": [
+              66.84814453125,
+              156.41290283203125,
+              14.699999809265137,
+              66.94913482666016,
+              156.64041137695312,
+              15.260000228881836
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -2.2297242448232613e-07,
+            "bounds": [
+              68.81689453125,
+              160.8482666015625,
+              11.598098754882812,
+              68.94983673095703,
+              161.14776611328125,
+              12.180000305175781
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0011729310844452634,
+            "bounds": [
+              66.5982666015625,
+              153.33096313476562,
+              24.219999313354492,
+              66.69247436523438,
+              153.54759216308594,
+              37.660037994384766
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 9.366023660632716e-09,
+            "bounds": [
+              67.71929931640625,
+              158.37551879882812,
+              22.81999969482422,
+              67.7805404663086,
+              158.51348876953125,
+              23.3799991607666
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 3.378720600330458e-07,
+            "bounds": [
+              68.17113494873047,
+              159.408935546875,
+              22.259998321533203,
+              68.43794250488281,
+              160.0166473388672,
+              23.661447525024414
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.707633530494706e-07,
+            "bounds": [
+              68.53086853027344,
+              157.81307983398438,
+              26.459793090820312,
+              68.63053131103516,
+              158.03851318359375,
+              26.740385055541992
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 1.4790165570022738e-07,
+            "bounds": [
+              68.56788635253906,
+              160.3212127685547,
+              22.539840698242188,
+              68.6667251586914,
+              160.54766845703125,
+              23.099761962890625
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 5.734303711869804e-07,
+            "bounds": [
+              69.38870239257812,
+              159.76589965820312,
+              25.61996841430664,
+              69.50410461425781,
+              159.987548828125,
+              31.780061721801758
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.03797441425727845,
+            "bounds": [
+              0.12000000000000455,
+              159.79779439803198,
+              34.98223919747502,
+              0.6755650043487549,
+              160.2646357125552,
+              35.59131622314453
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.3055164072739434e-05,
+            "bounds": [
+              27.259262084960938,
+              175.373291015625,
+              42.14350891113281,
+              27.264068603515625,
+              175.56077575683594,
+              42.7015266418457
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -8.120826659992544e-07,
+            "bounds": [
+              66.59821319580078,
+              153.33070373535156,
+              37.37992477416992,
+              66.6993179321289,
+              153.54623413085938,
+              39.340145111083984
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -2.2065329563503155e-08,
+            "bounds": [
+              66.86537170410156,
+              156.36871337890625,
+              42.41861343383789,
+              66.9966812133789,
+              156.66915893554688,
+              42.71622085571289
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.00016585434287876705,
+            "bounds": [
+              81.4936294555664,
+              138.09486389160156,
+              15.207719802856445,
+              81.94906616210938,
+              138.55702209472656,
+              15.652650833129883
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0001554436286990285,
+            "bounds": [
+              133.66883850097656,
+              138.42987060546875,
+              11.061726570129395,
+              133.95010375976562,
+              138.7086944580078,
+              11.120911598205566
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.25934037126669673,
+            "bounds": [
+              103.64253997802734,
+              130.2890625,
+              39.264122009277344,
+              104.36738586425781,
+              130.99081420898438,
+              43.10029220581055
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.0917425348998255e-07,
+            "bounds": [
+              70.80146026611328,
+              165.37254333496094,
+              13.020477294921875,
+              70.8957748413086,
+              165.5853729248047,
+              13.579996109008789
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -5.402233208912305e-08,
+            "bounds": [
+              72.48989868164062,
+              167.02638244628906,
+              11.897432327270508,
+              72.5960464477539,
+              167.26866149902344,
+              13.020428657531738
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -4.848240246299747e-08,
+            "bounds": [
+              72.7451171875,
+              167.614013671875,
+              12.460391998291016,
+              72.83898162841797,
+              167.8283233642578,
+              13.019997596740723
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.0452368123999316e-06,
+            "bounds": [
+              69.62712097167969,
+              160.3233642578125,
+              22.54083251953125,
+              70.11848449707031,
+              161.41680908203125,
+              30.379894256591797
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0003114566276406413,
+            "bounds": [
+              71.97880554199219,
+              168.13327026367188,
+              20.580028533935547,
+              72.2776107788086,
+              168.82662963867188,
+              22.82000732421875
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.0990329172028829e-06,
+            "bounds": [
+              72.97366333007812,
+              170.39511108398438,
+              21.139999389648438,
+              73.45301055908203,
+              171.47528076171875,
+              22.540000915527344
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.1856903925039577e-07,
+            "bounds": [
+              74.16064453125,
+              170.81886291503906,
+              29.540000915527344,
+              74.45264434814453,
+              171.4980926513672,
+              30.100000381469727
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 2.91123191083556e-08,
+            "bounds": [
+              73.87661743164062,
+              172.3743133544922,
+              11.898656845092773,
+              73.96990966796875,
+              172.58485412597656,
+              12.459999084472656
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -3.2009417334892935e-08,
+            "bounds": [
+              74.72183227539062,
+              174.33447265625,
+              25.6200008392334,
+              74.78203582763672,
+              174.4701385498047,
+              25.899999618530273
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -2.6777917992368283e-08,
+            "bounds": [
+              75.84041595458984,
+              176.8551025390625,
+              28.420000076293945,
+              75.90118408203125,
+              176.99203491210938,
+              28.700000762939453
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 4.2108907309269393e-07,
+            "bounds": [
+              69.64571380615234,
+              160.33181762695312,
+              33.180023193359375,
+              69.76963806152344,
+              160.6217498779297,
+              34.61851119995117
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 1.0010119526625326e-06,
+            "bounds": [
+              69.74845886230469,
+              160.5733642578125,
+              34.58057403564453,
+              70.1096420288086,
+              161.4087677001953,
+              37.37997055053711
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.00028388467926334727,
+            "bounds": [
+              71.85880279541016,
+              167.8785400390625,
+              33.45997619628906,
+              72.27761840820312,
+              168.82664489746094,
+              34.58002471923828
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.1234386535015524e-05,
+            "bounds": [
+              73.42286682128906,
+              169.1027069091797,
+              31.5,
+              73.67329406738281,
+              169.6852264404297,
+              39.33993911743164
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -5.716885424589954e-08,
+            "bounds": [
+              70.6759262084961,
+              162.7917022705078,
+              38.7798957824707,
+              70.92662811279297,
+              163.3531494140625,
+              44.49627685546875
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 4.775357827682247e-07,
+            "bounds": [
+              71.89038848876953,
+              165.64797973632812,
+              38.78068542480469,
+              72.0178451538086,
+              165.89138793945312,
+              44.495357513427734
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 6.934521734809108e-08,
+            "bounds": [
+              69.94408416748047,
+              161.16676330566406,
+              40.739986419677734,
+              70.05990600585938,
+              161.39981079101562,
+              44.48949432373047
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0001710736263253257,
+            "bounds": [
+              72.44952392578125,
+              161.68466186523438,
+              43.26658630371094,
+              72.55581665039062,
+              161.9033966064453,
+              44.10733413696289
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 9.963332918710055e-07,
+            "bounds": [
+              71.41178131103516,
+              164.5081787109375,
+              41.29962158203125,
+              71.75971984863281,
+              165.31103515625,
+              44.504329681396484
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.4503607396565248e-07,
+            "bounds": [
+              72.74075317382812,
+              167.61178588867188,
+              42.700008392333984,
+              72.84333038330078,
+              167.8448486328125,
+              44.4904670715332
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -8.080961529967345e-08,
+            "bounds": [
+              71.91376495361328,
+              167.88816833496094,
+              43.81977462768555,
+              72.01229858398438,
+              168.11293029785156,
+              44.50407791137695
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 4.259358890815884e-07,
+            "bounds": [
+              72.76361083984375,
+              169.83323669433594,
+              41.860076904296875,
+              72.8689956665039,
+              170.0709991455078,
+              44.49736785888672
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 3.7789968709411176e-08,
+            "bounds": [
+              74.43830108642578,
+              171.5221710205078,
+              44.10137939453125,
+              74.54000854492188,
+              171.7558135986328,
+              44.511531829833984
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -7.262337309299483e-08,
+            "bounds": [
+              87.5064697265625,
+              171.60617065429688,
+              44.10380935668945,
+              87.71056365966797,
+              171.72984313964844,
+              44.45885467529297
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.0862073085426971e-07,
+            "bounds": [
+              88.90115356445312,
+              170.75216674804688,
+              44.1003532409668,
+              89.1200180053711,
+              170.88478088378906,
+              44.46331787109375
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 6.001013863610183e-08,
+            "bounds": [
+              90.29761505126953,
+              169.89785766601562,
+              44.094993591308594,
+              90.52998352050781,
+              170.0386505126953,
+              44.46754837036133
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.1779649700116579e-08,
+            "bounds": [
+              98.14189147949219,
+              165.1544952392578,
+              44.0992546081543,
+              98.35845184326172,
+              165.28570556640625,
+              44.463138580322266
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.5182263379820427e-07,
+            "bounds": [
+              99.53781127929688,
+              164.3002166748047,
+              44.0959587097168,
+              99.76834106445312,
+              164.4398956298828,
+              44.4676628112793
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 1.4510915942456126e-07,
+            "bounds": [
+              73.86181640625,
+              172.3624267578125,
+              40.17999267578125,
+              73.97553253173828,
+              172.59042358398438,
+              44.49203109741211
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -7.453996908465647e-06,
+            "bounds": [
+              74.72187042236328,
+              174.30648803710938,
+              40.46000671386719,
+              74.83428955078125,
+              174.55320739746094,
+              44.49600601196289
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -7.173526143846448e-08,
+            "bounds": [
+              74.98265838623047,
+              174.88951110839844,
+              43.81983184814453,
+              75.0835952758789,
+              175.11732482910156,
+              44.50288772583008
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -7.181215494807963e-07,
+            "bounds": [
+              75.83838653564453,
+              176.83885192871094,
+              42.42000198364258,
+              75.9393081665039,
+              177.06912231445312,
+              44.492401123046875
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -3.7627783333604725e-08,
+            "bounds": [
+              107.38070678710938,
+              159.5568084716797,
+              44.098724365234375,
+              107.59687805175781,
+              159.6877899169922,
+              44.46111297607422
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 1.164471059578176e-07,
+            "bounds": [
+              108.77641296386719,
+              158.7025909423828,
+              44.09689712524414,
+              109.00668334960938,
+              158.8421173095703,
+              44.465999603271484
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.6088001908443061e-07,
+            "bounds": [
+              116.61703491210938,
+              153.9591522216797,
+              44.10203170776367,
+              116.83526611328125,
+              154.0913848876953,
+              44.4575309753418
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      },
+      {
+        "module": "W03_环形建筑",
+        "detached_components": [
+          {
+            "volume": -0.006485766804093573,
+            "bounds": [
+              -115.3080825805664,
+              118.23179626464844,
+              28.0849552154541,
+              -114.86644744873047,
+              118.66177368164062,
+              28.247718811035156
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -5.524928701157052,
+            "bounds": [
+              -113.81784000577095,
+              112.37817210282914,
+              28.571292877197266,
+              -108.8142318725586,
+              117.37761688232422,
+              29.11994171142578
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005753510429978376,
+            "bounds": [
+              -115.01670837402344,
+              118.53526306152344,
+              28.08697509765625,
+              -114.6077880859375,
+              118.93167877197266,
+              28.230016708374023
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.001110957293499748,
+            "bounds": [
+              -136.5409355191113,
+              136.66989751903262,
+              8.592061533142173,
+              -136.1639404296875,
+              137.0252227783203,
+              8.894425392150879
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 3.4779171013589236e-08,
+            "bounds": [
+              -136.5001941143415,
+              136.6698930608513,
+              8.828634052911806,
+              -136.1639404296875,
+              137.0252227783203,
+              9.079068223211777
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.13620651634248643,
+            "bounds": [
+              -113.11659016156034,
+              113.03623993250099,
+              43.2487539645482,
+              -109.85762023925781,
+              116.37854766845703,
+              44.406421991648955
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -7.405712328101277e-12,
+            "bounds": [
+              -112.86653389552782,
+              113.03623943566859,
+              44.28569846016167,
+              -112.8326416015625,
+              113.072265625,
+              44.29398788033164
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0017538265308053604,
+            "bounds": [
+              -109.92839050292969,
+              116.30734252929688,
+              44.29945755004883,
+              -109.59446716308594,
+              116.65374755859375,
+              44.400146484375
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0029674667443724267,
+            "bounds": [
+              -113.61647033691406,
+              119.91520690917969,
+              36.87964630126953,
+              -113.23472595214844,
+              120.29646301269531,
+              37.148536682128906
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 7.257881207441102e-09,
+            "bounds": [
+              -135.48007080557753,
+              135.64977363733698,
+              51.38014512128942,
+              -135.41712951660156,
+              135.7166748046875,
+              51.504284215390335
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.004566269764386455,
+            "bounds": [
+              -62.92322540283203,
+              146.8979949951172,
+              43.679222106933594,
+              -62.45088195800781,
+              147.39370727539062,
+              44.230552673339844
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -2.288745895029365e-07,
+            "bounds": [
+              -23.094343185424805,
+              162.93971252441406,
+              9.9399995803833,
+              -21.999826431274414,
+              163.05455017089844,
+              11.0600004196167
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 21.775057233238265,
+            "bounds": [
+              -11.259305953979492,
+              164.0197296142578,
+              15.13202953338623,
+              -8.165679931640625,
+              165.4480438232422,
+              21.77557373046875
+            ],
+            "retained_as_loose_part": true
+          },
+          {
+            "volume": -0.0022740106217753464,
+            "bounds": [
+              -47.48741912841797,
+              151.9319610595703,
+              43.93671798706055,
+              -47.18092346191406,
+              152.27450561523438,
+              44.23054885864258
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.002142732023835525,
+            "bounds": [
+              -46.63969802856445,
+              152.2094268798828,
+              43.94162368774414,
+              -46.3397331237793,
+              152.548583984375,
+              44.23054885864258
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.002049760383833532,
+            "bounds": [
+              -45.792762756347656,
+              152.4866180419922,
+              43.94550704956055,
+              -45.498069763183594,
+              152.8245391845703,
+              44.23054885864258
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      },
+      {
+        "module": "W04_环形建筑",
+        "detached_components": [
+          {
+            "volume": 0.0014192949781633485,
+            "bounds": [
+              -159.74356188073466,
+              0.12000000000000455,
+              13.874288558959961,
+              -159.43840754883735,
+              6.019994735717773,
+              13.884640689580953
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0010259317239902886,
+            "bounds": [
+              -159.7430419921875,
+              6.019994735717773,
+              13.867873191833496,
+              -159.4454803466797,
+              12.739995002746582,
+              13.877886772155762
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0003085120998354094,
+            "bounds": [
+              -139.5535888671875,
+              70.25963592529297,
+              8.065555572509766,
+              -139.45497131347656,
+              70.40962982177734,
+              8.559368133544922
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0007634472579830381,
+            "bounds": [
+              -139.57020568847656,
+              70.1675796508789,
+              8.543705940246582,
+              -139.42193603515625,
+              70.41389465332031,
+              8.77663516998291
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 22.053994985495983,
+            "bounds": [
+              -140.19931030273438,
+              87.7360610961914,
+              15.065357208251953,
+              -137.70704650878906,
+              90.73577880859375,
+              21.84223747253418
+            ],
+            "retained_as_loose_part": true
+          },
+          {
+            "volume": 0.0010240957612045667,
+            "bounds": [
+              -110.98393249511719,
+              110.49199676513672,
+              7.888847040219195,
+              -110.78542118784576,
+              110.69073095152496,
+              8.075595493443206
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      },
+      {
+        "module": "W05_环形建筑",
+        "detached_components": [
+          {
+            "volume": -17.26539610746835,
+            "bounds": [
+              -110.22315216064453,
+              -98.91853332519531,
+              9.178887367248535,
+              -98.04872918986723,
+              -86.61858367919922,
+              10.09154020456708
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -17.449545439559525,
+            "bounds": [
+              -109.73053741455078,
+              -98.03106937741147,
+              8.28262710571289,
+              -97.19532195344581,
+              -85.74693298339844,
+              9.194989884651074
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005243537200312912,
+            "bounds": [
+              -97.35189819335938,
+              -95.67267608642578,
+              8.167465209960938,
+              -96.9679183959961,
+              -95.2879638671875,
+              8.297633171081543
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005258893611117643,
+            "bounds": [
+              -97.07179260253906,
+              -95.95257568359375,
+              8.167515754699707,
+              -96.68728637695312,
+              -95.56733703613281,
+              8.298032760620117
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005273989235145882,
+            "bounds": [
+              -96.79168701171875,
+              -96.23247528076172,
+              8.16757583618164,
+              -96.40665435791016,
+              -95.84671783447266,
+              8.298434257507324
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005119146983001199,
+            "bounds": [
+              -99.59266662597656,
+              -93.43341827392578,
+              8.167095184326172,
+              -99.21304321289062,
+              -93.05304718017578,
+              8.294424057006836
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005103304674659498,
+            "bounds": [
+              -99.87276458740234,
+              -93.15351104736328,
+              8.167057037353516,
+              -99.49369049072266,
+              -92.773681640625,
+              8.294022560119629
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0051508978856189686,
+            "bounds": [
+              -99.03247833251953,
+              -93.99324798583984,
+              8.167171478271484,
+              -98.65174102783203,
+              -93.61176300048828,
+              8.295226097106934
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0051352245769561294,
+            "bounds": [
+              -99.31257629394531,
+              -93.71333312988281,
+              8.167129516601562,
+              -98.93238830566406,
+              -93.3323974609375,
+              8.294824600219727
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005166699611973927,
+            "bounds": [
+              -98.75238800048828,
+              -94.27314758300781,
+              8.167214393615723,
+              -98.37110137939453,
+              -93.89112091064453,
+              8.295626640319824
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.00518214710991273,
+            "bounds": [
+              -98.4722900390625,
+              -94.55306243896484,
+              8.16726016998291,
+              -98.09046173095703,
+              -94.17048645019531,
+              8.296028137207031
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005213150759495633,
+            "bounds": [
+              -97.91210174560547,
+              -95.11286926269531,
+              8.167353630065918,
+              -97.52918243408203,
+              -94.72921752929688,
+              8.296830177307129
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005197885853470946,
+            "bounds": [
+              -98.19219970703125,
+              -94.83296966552734,
+              8.167304039001465,
+              -97.809814453125,
+              -94.4498519897461,
+              8.296429634094238
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005228519285165656,
+            "bounds": [
+              -97.63200378417969,
+              -95.39277648925781,
+              8.167405128479004,
+              -97.24854278564453,
+              -95.00858306884766,
+              8.29723072052002
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 8.482894497952032e-09,
+            "bounds": [
+              -108.53736877441406,
+              -99.24225616455078,
+              20.3739013671875,
+              -108.20980072021484,
+              -98.9796371459961,
+              20.511253356933594
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -2.0096377673084476e-08,
+            "bounds": [
+              -107.9782943725586,
+              -99.27824401855469,
+              20.652503967285156,
+              -107.64840698242188,
+              -98.96538543701172,
+              20.746883392333984
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 1.1708868813301637e-09,
+            "bounds": [
+              -100.55128479003906,
+              -100.33058615947094,
+              20.757439760392742,
+              -100.34292602539062,
+              -100.16265869140625,
+              20.789762496948242
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -3.5819522036057913e-06,
+            "bounds": [
+              -96.75566101074219,
+              -95.37149047851562,
+              20.46928596496582,
+              -96.47820281982422,
+              -95.26217651367188,
+              20.51910972595215
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      },
+      {
+        "module": "W06_环形建筑",
+        "detached_components": [
+          {
+            "volume": 10.931960502990165,
+            "bounds": [
+              -109.97071838378906,
+              -116.42781066894531,
+              16.502477645874023,
+              -108.16256713867188,
+              -114.60874938964844,
+              37.9816780090332
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 3.2916687904458244e-05,
+            "bounds": [
+              -106.73961047665163,
+              -106.98030090332031,
+              17.61960792541504,
+              -106.26118469238281,
+              -106.87824249267578,
+              17.683897018432617
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0004282682996097891,
+            "bounds": [
+              -106.31444298432513,
+              -106.9900894165039,
+              17.672870635986328,
+              -104.1286392211914,
+              -105.55538177490234,
+              18.55156135559082
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.000634196106440707,
+            "bounds": [
+              -104.31257629394531,
+              -106.97540283203125,
+              17.87371826171875,
+              -104.01256561279297,
+              -106.71184539794922,
+              17.988985061645508
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 6.664186144723598,
+            "bounds": [
+              -104.45536583867585,
+              -107.89598846435547,
+              17.54146957397461,
+              -100.91783905029297,
+              -102.25786734758077,
+              21.028742635077066
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -12.05026691493247,
+            "bounds": [
+              -98.91853332519531,
+              -106.91390991210938,
+              9.183229446411133,
+              -89.87263488769531,
+              -98.0487277366106,
+              10.091539247087661
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -12.113723406980778,
+            "bounds": [
+              -98.03106970573657,
+              -106.21920776367188,
+              8.287017822265625,
+              -88.47452545166016,
+              -96.64689446889876,
+              20.14606021288633
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005258893611117421,
+            "bounds": [
+              -95.95257568359375,
+              -97.07179260253906,
+              8.167515754699707,
+              -95.56733703613281,
+              -96.68728637695312,
+              8.298032760620117
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005243657177992939,
+            "bounds": [
+              -95.67267608642578,
+              -97.35189819335938,
+              8.167464256286621,
+              -95.2879638671875,
+              -96.9679183959961,
+              8.297632217407227
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005273737751704699,
+            "bounds": [
+              -96.23247528076172,
+              -96.79168701171875,
+              8.16757583618164,
+              -95.84671783447266,
+              -96.40665435791016,
+              8.298433303833008
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.9345292532345398,
+            "bounds": [
+              -97.63407555968837,
+              -97.85385131835938,
+              8.23633994721291,
+              -95.3725814819336,
+              -95.79062368740527,
+              21.389598253625728
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.00014598523406064712,
+            "bounds": [
+              -96.47718884141399,
+              -96.64689446889876,
+              8.241963660143636,
+              -96.14634704589844,
+              -96.37239733559332,
+              20.14606021288633
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005119182406220044,
+            "bounds": [
+              -93.43341827392578,
+              -99.59266662597656,
+              8.167091369628906,
+              -93.05303955078125,
+              -99.21304321289062,
+              8.294425010681152
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005213150759495633,
+            "bounds": [
+              -95.11286926269531,
+              -97.91210174560547,
+              8.167353630065918,
+              -94.72921752929688,
+              -97.52918243408203,
+              8.296830177307129
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005182208613237149,
+            "bounds": [
+              -94.55306243896484,
+              -98.4722900390625,
+              8.16726016998291,
+              -94.17048645019531,
+              -98.09046173095703,
+              8.296028137207031
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.00519781577395563,
+            "bounds": [
+              -94.83296966552734,
+              -98.19219970703125,
+              8.167306900024414,
+              -94.4498519897461,
+              -97.809814453125,
+              8.296429634094238
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005150912185447151,
+            "bounds": [
+              -93.99324798583984,
+              -99.03247833251953,
+              8.167171478271484,
+              -93.61176300048828,
+              -98.65174102783203,
+              8.29522705078125
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0051667123534782505,
+            "bounds": [
+              -94.27314758300781,
+              -98.75238800048828,
+              8.167214393615723,
+              -93.89112091064453,
+              -98.37110137939453,
+              8.29562759399414
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.00513523886145853,
+            "bounds": [
+              -93.71333312988281,
+              -99.31257629394531,
+              8.167129516601562,
+              -93.3323974609375,
+              -98.93238830566406,
+              8.294825553894043
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005103344593515469,
+            "bounds": [
+              -93.15351104736328,
+              -99.87276458740234,
+              8.167057037353516,
+              -92.773681640625,
+              -99.49369049072266,
+              8.294023513793945
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.005228519285165656,
+            "bounds": [
+              -95.39277648925781,
+              -97.63200378417969,
+              8.167405128479004,
+              -95.00858306884766,
+              -97.24854278564453,
+              8.29723072052002
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.003643524561051305,
+            "bounds": [
+              -97.67688751220703,
+              -103.94731140136719,
+              18.7569580078125,
+              -97.31802368164062,
+              -103.65303802490234,
+              18.987964630126953
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 7.100475581196904,
+            "bounds": [
+              -101.78353118896484,
+              -103.7635726928711,
+              18.554601669311523,
+              -95.76226043701172,
+              -100.09319305419922,
+              21.679614658876375
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -3.6473679521087377e-08,
+            "bounds": [
+              -101.50361633300781,
+              -103.76063537597656,
+              19.551870346069336,
+              -101.20978546142578,
+              -103.43437194824219,
+              19.676897048950195
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.003748321561899774,
+            "bounds": [
+              -96.74471282958984,
+              -100.95336151123047,
+              19.534870147705078,
+              -96.01524353027344,
+              -99.78346252441406,
+              19.741857528686523
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      },
+      {
+        "module": "W07_环形建筑",
+        "detached_components": [
+          {
+            "volume": -191.54949192307848,
+            "bounds": [
+              86.72186279296875,
+              -116.1824951171875,
+              5.011896527422337,
+              107.04121812745086,
+              -94.63511280209754,
+              6.5053337447782145
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -12.300909902252373,
+            "bounds": [
+              89.87261199951172,
+              -106.91390991210938,
+              9.183225631713867,
+              98.91853332519531,
+              -98.04872773661064,
+              10.091541083495397
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0023968695661232553,
+            "bounds": [
+              92.77368927001953,
+              -99.87275695800781,
+              8.167060852050781,
+              93.15351104736328,
+              -99.49369049072266,
+              8.294023513793945
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.002401931935639104,
+            "bounds": [
+              93.05304718017578,
+              -99.59266662597656,
+              8.167095184326172,
+              93.43341827392578,
+              -99.21304321289062,
+              8.294424057006836
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.002406972908720356,
+            "bounds": [
+              93.3323974609375,
+              -99.31257629394531,
+              8.167129516601562,
+              93.71333312988281,
+              -98.93238830566406,
+              8.294824600219727
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.002411865069743821,
+            "bounds": [
+              93.61176300048828,
+              -99.03247833251953,
+              8.167171478271484,
+              93.99324798583984,
+              -98.65174102783203,
+              8.295226097106934
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024167565517640294,
+            "bounds": [
+              93.89112091064453,
+              -98.75238800048828,
+              8.167214393615723,
+              94.27314758300781,
+              -98.37110137939453,
+              8.295626640319824
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.002421566321056265,
+            "bounds": [
+              94.17048645019531,
+              -98.4722900390625,
+              8.16726016998291,
+              94.55306243896484,
+              -98.09046173095703,
+              8.296028137207031
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.002426377847422917,
+            "bounds": [
+              94.4498519897461,
+              -98.19219970703125,
+              8.167306900024414,
+              94.83296966552734,
+              -97.809814453125,
+              8.296428680419922
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.002431142646961801,
+            "bounds": [
+              94.72921752929688,
+              -97.91210174560547,
+              8.167353630065918,
+              95.11286926269531,
+              -97.52918243408203,
+              8.296830177307129
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024358324244529023,
+            "bounds": [
+              95.00858306884766,
+              -97.63200378417969,
+              8.167405128479004,
+              95.39277648925781,
+              -97.24854278564453,
+              8.29723072052002
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024405366370462145,
+            "bounds": [
+              95.2879638671875,
+              -97.35189819335938,
+              8.167464256286621,
+              95.67267608642578,
+              -96.9679183959961,
+              8.297632217407227
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024452277947173418,
+            "bounds": [
+              95.56733703613281,
+              -97.07179260253906,
+              8.167515754699707,
+              95.95257568359375,
+              -96.68728637695312,
+              8.298032760620117
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024499230433221164,
+            "bounds": [
+              95.84671783447266,
+              -96.79168701171875,
+              8.16757583618164,
+              96.23247528076172,
+              -96.40665435791016,
+              8.298434257507324
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0001725221918412658,
+            "bounds": [
+              96.14635467529297,
+              -96.49217852561031,
+              8.231692220907458,
+              96.32247289812544,
+              -96.37233800962773,
+              8.298437157271925
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 1.5261084355412628e-07,
+            "bounds": [
+              96.14635467529297,
+              -96.49205017089844,
+              8.241968043473626,
+              96.23434960935327,
+              -96.37240252247786,
+              8.298437104335513
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 10.821664033794715,
+            "bounds": [
+              108.48078918457031,
+              -116.13291931152344,
+              16.54707908630371,
+              110.30254364013672,
+              -114.33045959472656,
+              37.99593734741211
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      },
+      {
+        "module": "W08_环形建筑",
+        "detached_components": [
+          {
+            "volume": -878.1388200424693,
+            "bounds": [
+              119.27504770773712,
+              -136.16748745957364,
+              7.399998188018799,
+              149.39578247070312,
+              -107.73235321044922,
+              9.511466026306152
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 1.0113573390216346e-18,
+            "bounds": [
+              96.36902704374093,
+              -96.23434579465606,
+              8.225059839847338,
+              96.40405142214081,
+              -96.19932141625618,
+              8.29843710979218
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.00017254082093261236,
+            "bounds": [
+              96.37233546575071,
+              -96.32247290085309,
+              8.231690805257006,
+              96.49217852833783,
+              -96.14634704589844,
+              8.298437159947799
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024498081141116346,
+            "bounds": [
+              96.40665435791016,
+              -96.23247528076172,
+              8.16757583618164,
+              96.79168701171875,
+              -95.84671783447266,
+              8.298433303833008
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024452277947173418,
+            "bounds": [
+              96.68728637695312,
+              -95.95257568359375,
+              8.167515754699707,
+              97.07179260253906,
+              -95.56733703613281,
+              8.298032760620117
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 1.5102612588389214e-07,
+            "bounds": [
+              96.3723973355933,
+              -96.23434579465606,
+              8.241963660143625,
+              96.49205017089844,
+              -96.14634704589844,
+              8.29843710979218
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024405130215787857,
+            "bounds": [
+              96.9679183959961,
+              -95.67267608642578,
+              8.167466163635254,
+              97.35189819335938,
+              -95.2879638671875,
+              8.297632217407227
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024358324244529023,
+            "bounds": [
+              97.24854278564453,
+              -95.39277648925781,
+              8.167405128479004,
+              97.63200378417969,
+              -95.00858306884766,
+              8.29723072052002
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.002431142646961801,
+            "bounds": [
+              97.52918243408203,
+              -95.11286926269531,
+              8.167353630065918,
+              97.91210174560547,
+              -94.72921752929688,
+              8.296830177307129
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.002426436423094494,
+            "bounds": [
+              97.809814453125,
+              -94.83296966552734,
+              8.167303085327148,
+              98.19219970703125,
+              -94.44984436035156,
+              8.296429634094238
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.002421628781527102,
+            "bounds": [
+              98.09046173095703,
+              -94.55306243896484,
+              8.16726016998291,
+              98.4722900390625,
+              -94.17048645019531,
+              8.296028137207031
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.002416762655796975,
+            "bounds": [
+              98.37110137939453,
+              -94.27314758300781,
+              8.167214393615723,
+              98.75238800048828,
+              -93.89112091064453,
+              8.29562759399414
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024118765067329268,
+            "bounds": [
+              98.65174102783203,
+              -93.99324798583984,
+              8.167171478271484,
+              99.03247833251953,
+              -93.61176300048828,
+              8.29522705078125
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024069972856515798,
+            "bounds": [
+              98.93238830566406,
+              -93.71333312988281,
+              8.167129516601562,
+              99.31257629394531,
+              -93.3323974609375,
+              8.294825553894043
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0024020552564356923,
+            "bounds": [
+              99.2130355834961,
+              -93.43342590332031,
+              8.167091369628906,
+              99.59266662597656,
+              -93.05303955078125,
+              8.294425010681152
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0023969500705360303,
+            "bounds": [
+              99.49369049072266,
+              -93.15351104736328,
+              8.167057037353516,
+              99.87276458740234,
+              -92.773681640625,
+              8.294024467468262
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 18.217579241105486,
+            "bounds": [
+              131.0246124267578,
+              -100.59709930419922,
+              15.642295837402344,
+              133.577392578125,
+              -97.65753936767578,
+              21.265283584594727
+            ],
+            "retained_as_loose_part": true
+          },
+          {
+            "volume": 19.740289996606517,
+            "bounds": [
+              136.02284240722656,
+              -93.22065734863281,
+              15.378504753112793,
+              138.51617431640625,
+              -90.19426727294922,
+              21.52907371520996
+            ],
+            "retained_as_loose_part": true
+          },
+          {
+            "volume": 0.0005257395533211583,
+            "bounds": [
+              139.4219512939453,
+              -70.41389465332031,
+              8.065567016601562,
+              139.57022094726562,
+              -70.16758728027344,
+              8.77663803100586
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0001917183337141748,
+            "bounds": [
+              139.9567108154297,
+              -70.05015563964844,
+              8.918425559997559,
+              140.2638397216797,
+              -69.96034240722656,
+              8.999871253967285
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 3.829560241315477e-08,
+            "bounds": [
+              119.95578002929688,
+              -41.304237365722656,
+              10.77286148071289,
+              120.56687927246094,
+              -41.10075759887695,
+              11.196887016296387
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -4.983475290765149e-08,
+            "bounds": [
+              112.02959442138672,
+              -35.417076110839844,
+              12.009476661682129,
+              112.42032623291016,
+              -34.96908187866211,
+              12.183728218078613
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.0709242043507872e-08,
+            "bounds": [
+              117.0906982421875,
+              -39.20398712158203,
+              12.7358980178833,
+              117.33766174316406,
+              -38.986202239990234,
+              13.006413459777832
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -5.046749668169426e-08,
+            "bounds": [
+              117.09095001220703,
+              -38.92396926879883,
+              13.295855522155762,
+              117.3377456665039,
+              -38.706390380859375,
+              13.566182136535645
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.3956998343861438e-07,
+            "bounds": [
+              117.6265869140625,
+              -39.04182434082031,
+              14.37926197052002,
+              118.45645141601562,
+              -38.38776397705078,
+              15.512298583984375
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.317429373232093e-07,
+            "bounds": [
+              116.50432586669922,
+              -37.8201789855957,
+              15.282320976257324,
+              117.12452697753906,
+              -37.28094482421875,
+              15.846221923828125
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -1.407658704877246e-08,
+            "bounds": [
+              121.89806365966797,
+              -42.2815055847168,
+              7.6997904777526855,
+              122.24333953857422,
+              -42.16257095336914,
+              8.299866676330566
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 6.186167240962437e-08,
+            "bounds": [
+              123.30184173583984,
+              -42.56861114501953,
+              7.980037689208984,
+              123.66539001464844,
+              -42.456417083740234,
+              8.822868347167969
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -8.724226199796625e-08,
+            "bounds": [
+              122.18339538574219,
+              -42.344913482666016,
+              8.25009536743164,
+              122.81884002685547,
+              -42.184974670410156,
+              8.838643074035645
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 6.436143873411737e-08,
+            "bounds": [
+              120.13697814941406,
+              -41.1976203918457,
+              11.180987358093262,
+              120.51934814453125,
+              -41.09684371948242,
+              11.457403182983398
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -7.501657332385434e-05,
+            "bounds": [
+              122.58771514892578,
+              -41.15531539916992,
+              13.56136703491211,
+              122.70372772216797,
+              -41.08723831176758,
+              13.723053932189941
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0479476562811747,
+            "bounds": [
+              160.215087890625,
+              -84.47373962402344,
+              44.01858901977539,
+              160.930908203125,
+              -83.79598999023438,
+              44.71805953979492
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 22.41650623540632,
+            "bounds": [
+              152.34115600585938,
+              -62.50032043457031,
+              14.54593276977539,
+              154.5109405517578,
+              -59.36524963378906,
+              21.332685470581055
+            ],
+            "retained_as_loose_part": true
+          },
+          {
+            "volume": 23.249501091283076,
+            "bounds": [
+              160.49827575683594,
+              -36.6646728515625,
+              14.845335960388184,
+              162.169677734375,
+              -33.64531326293945,
+              22.062253952026367
+            ],
+            "retained_as_loose_part": true
+          },
+          {
+            "volume": 24.870298486987284,
+            "bounds": [
+              162.8280792236328,
+              -24.977365493774414,
+              14.601683616638184,
+              164.4694061279297,
+              -21.90360450744629,
+              22.305898666381836
+            ],
+            "retained_as_loose_part": true
+          }
+        ]
+      },
+      {
+        "module": "S01_钢架",
+        "detached_components": [
+          {
+            "volume": 1.9046779335492987,
+            "bounds": [
+              79.41578912371388,
+              74.79454040527344,
+              93.24945831298828,
+              88.95563507080078,
+              80.78174769794093,
+              97.47566535337158
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      },
+      {
+        "module": "S04_钢架",
+        "detached_components": [
+          {
+            "volume": -7.055186229474892e-05,
+            "bounds": [
+              -105.37598419189453,
+              91.69175720214844,
+              45.186588287353516,
+              -104.8316879272461,
+              92.16921997070312,
+              45.71339416503906
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": -0.0005302441834312832,
+            "bounds": [
+              -103.53450012207031,
+              93.3189697265625,
+              42.815460205078125,
+              -103.33395385742188,
+              93.44710540771484,
+              43.09324264526367
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.00027780244115301056,
+            "bounds": [
+              -104.83149719238281,
+              93.764892578125,
+              43.30665969848633,
+              -104.73639678955078,
+              94.01901245117188,
+              43.511444091796875
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 0.0005274486466202016,
+            "bounds": [
+              -102.90034484863281,
+              94.33042907714844,
+              42.926544189453125,
+              -102.5736083984375,
+              94.67190551757812,
+              43.262630462646484
+            ],
+            "retained_as_loose_part": false
+          },
+          {
+            "volume": 9.061034249471323e-05,
+            "bounds": [
+              -103.18043518066406,
+              94.0139389038086,
+              43.195289611816406,
+              -102.83023834228516,
+              94.22467803955078,
+              43.5406379699707
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      },
+      {
+        "module": "S05_钢架",
+        "detached_components": [
+          {
+            "volume": 0.005203324131867454,
+            "bounds": [
+              -112.5611572265625,
+              -84.29830169677734,
+              46.757843017578125,
+              -112.00651550292969,
+              -83.74832153320312,
+              47.307823181152344
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      },
+      {
+        "module": "S07_钢架",
+        "detached_components": [
+          {
+            "volume": -0.010689243093642609,
+            "bounds": [
+              83.74832153320312,
+              -112.5611572265625,
+              46.757843017578125,
+              84.29830169677734,
+              -112.00651550292969,
+              47.30782699584961
+            ],
+            "retained_as_loose_part": false
+          }
+        ]
+      }
+    ],
+    "recovery_note": "恢复原建筑主体，取消自动补洞造成的变形。重合接触点沿各自法线移动0.0006毫米，使导出的STL保留各自封闭表面。"
+  }
+}

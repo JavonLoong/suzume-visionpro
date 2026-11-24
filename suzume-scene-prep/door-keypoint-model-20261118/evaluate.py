@@ -4,7 +4,7 @@ python evaluate.py MODEL(.pt|.onnx) DATASET_DIR [--split val|all] [--scale S] [-
 --scale S enlarges the image first (stands in for the headset's higher-resolution camera).
 --dump writes per-image detections (pixels in the original image) for the Unity comparison.
 """
-import sys, json, math, os
+import sys, json, math
 from pathlib import Path
 import numpy as np, cv2, torch
 from common import *
@@ -66,11 +66,10 @@ print(json.dumps(dict(
     single_frame_position_mm=q(t_err), single_frame_rotation_deg=q(r_err)), ensure_ascii=False, indent=1))
 if dump:
     # name python_found fully_labelled, 8 detected pixel values, 8 labelled pixel values
-    dump_path = Path(dump).resolve()
-    lines = [Path(os.path.relpath(root.resolve(), dump_path.parent)).as_posix()]
+    lines = [str(root.resolve())]
     for name, (res, kp) in records.items():
         found = res is not None
         vals = (res[0] / scale).ravel() if found else np.zeros(8)
         lines.append(' '.join([name, str(int(found)), str(int((kp[:, 2] > 0).all()))]
                               + [f'{v:.3f}' for v in vals] + [f'{v:.3f}' for v in kp[:, :2].ravel()]))
-    dump_path.write_text('\n'.join(lines), encoding='utf8')
+    Path(dump).write_text('\n'.join(lines), encoding='utf8')

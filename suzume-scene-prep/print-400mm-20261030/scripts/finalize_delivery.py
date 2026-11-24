@@ -34,9 +34,9 @@ for src in O.glob('*.blend1'):
  dst=R/'analysis/withdrawn'/src.name;dst.parent.mkdir(exist_ok=True,parents=True)
  assert src.resolve().is_relative_to(R.resolve()) and dst.resolve().is_relative_to(R.resolve())
  shutil.move(src,dst)
-archive=Path('D:/虚拟C盘/铃芽庭院_400mm_X1C_分件首版.zip')
+archive=R/'交付压缩包'/'铃芽庭院_400mm_X1C_分件首版.zip';archive.parent.mkdir(parents=True,exist_ok=True)
 if archive.exists():
- archive=Path('D:/虚拟C盘/铃芽庭院_400mm_X1C_分件首版_20261030.zip')
+ archive=R/'交付压缩包'/'铃芽庭院_400mm_X1C_分件首版_20261030.zip'
 assert not archive.exists(),str(archive)
 files=[p for p in O.rglob('*') if p.is_file()]
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=4) as z:

@@ -1,0 +1,14 @@
+OFFLINE ONLY. Recorded monitor photos; repeated still images are not live tracking or independent validation.
+Synthetic exact-projection cases=48; maxPositionMm=0.00051; maxRotationDeg=0.00000; maxWorkerMathMsOnPC=5.50. These are mathematical errors, not headset accuracy.
+frame=000 firstAcceptedCrop=1 fullRotationRms=3.088px uprightRms=7.374px threshold=3.740px repeatedStillLockAt=6 uprightState=Sampling
+frame=000 acceptedCrops=9/26
+frame=001 firstAcceptedCrop=1 fullRotationRms=3.163px uprightRms=7.380px threshold=3.806px repeatedStillLockAt=6 uprightState=Sampling
+frame=001 acceptedCrops=9/26
+frame=002 firstAcceptedCrop=1 fullRotationRms=3.065px uprightRms=7.839px threshold=3.791px repeatedStillLockAt=6 uprightState=Sampling
+frame=002 acceptedCrops=7/26
+frame=003 firstAcceptedCrop=1 fullRotationRms=2.988px uprightRms=12.824px threshold=6.030px repeatedStillLockAt=6 uprightState=Sampling
+frame=003 acceptedCrops=11/26
+frame=004 firstAcceptedCrop=1 fullRotationRms=2.834px uprightRms=13.213px threshold=6.070px repeatedStillLockAt=6 uprightState=Sampling
+frame=004 acceptedCrops=11/26
+frame=005 acceptedCrops=0/26
+frame=006 acceptedCrops=0/26

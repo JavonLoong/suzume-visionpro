@@ -4,7 +4,7 @@ using UnityEngine;
 /// Readable world-space guide cards, shared by headset runtime and the offline preview.
 public class PortalGuideView : MonoBehaviour
 {
-    public enum Context { Browse, Ready, Placement }
+    public enum Context { Browse, Ready, Placement, Guided }
     readonly Dictionary<string, Texture2D> _textures = new Dictionary<string, Texture2D>();
     Renderer _card, _footer;
     PortalGapReadout _gap;
@@ -15,18 +15,17 @@ public class PortalGuideView : MonoBehaviour
         transform.SetParent(camera.transform, false);
         _card = CreateCard("InstructionCard", new Vector3(0,-.40f,1.45f), new Vector3(1.12f,.392f,1));
         _footer = CreateCard("ControllerLegend", new Vector3(0,-.665f,1.45f), new Vector3(1.12f,.101f,1));
+        _footer.enabled=false;
         _gap=new GameObject("RayGapReadout").AddComponent<PortalGapReadout>();_gap.Initialize(transform);
     }
     public void ShowRayGap(float gap,bool visible) { if(_gap!=null)_gap.Show(gap,visible); }
     public void Show(string page, bool visible, bool mountain, Context context=Context.Browse)
     {
         _visible = visible;
-        bool compact=context!=Context.Browse;
-        _card.transform.localPosition=compact ? new Vector3(0,-.50f,1.6f) : new Vector3(0,-.40f,1.45f);
-        _card.transform.localScale=compact ? new Vector3(1.12f,.2315f,1) : new Vector3(1.12f,.392f,1);
-        SetTexture(_card,(compact ? "compact_" : "")+page);
-        string footer=context==Context.Ready ? "footer_ready_" : (context==Context.Placement ? "footer_placement_" : "footer_");
-        SetTexture(_footer,footer+(mountain ? "mountain" : "flat"));
+        _card.transform.localPosition=new Vector3(0,-.43f,1.8f);
+        _card.transform.localScale=new Vector3(.94f,page.StartsWith("tune_")&&page!="tune_invalid"?.188f:.141f,1);
+        SetTexture(_card,"slim_"+page);
+        _footer.enabled=false;
         if (!Application.isPlaying) { _card.enabled = visible; _card.sharedMaterial.color = Color.white; }
     }
     void Update()

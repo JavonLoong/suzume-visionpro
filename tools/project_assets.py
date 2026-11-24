@@ -71,7 +71,9 @@ def main():
     args = parser.parse_args()
     manifest = json.loads((ROOT / 'PROJECT_MANIFEST.json').read_text(encoding='utf-8'))
     prefixes = {'all': 'suzume-scene-prep/', 'pico': 'suzume-scene-prep/picounity/',
-                'visionpro': 'suzume-scene-prep/visionpro/', 'print': 'suzume-scene-prep/print-'}
+                'visionpro': 'suzume-scene-prep/visionpro/',
+                'print': ('suzume-scene-prep/print-', 'suzume-scene-prep/一体底座_',
+                          'suzume-scene-prep/去中心盘/')}
     rows = [r for r in manifest['files'] if r['path'].startswith(prefixes[args.scope])]
     if args.verify:
         failed = []

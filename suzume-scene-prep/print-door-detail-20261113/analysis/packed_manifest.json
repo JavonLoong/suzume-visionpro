@@ -1,0 +1,178 @@
+[
+  {
+    "id": "白门_1.25倍",
+    "group": "单档",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "door",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\整盘STL\\单档\\白门_1.25倍.stl",
+    "sha256": "574a06e16e5d1fc1003ace70d367ac392e7e771604d9394d553a8c5ccc62d665",
+    "components": 3,
+    "size_mm": [
+      165.8226828731261,
+      45.30213605485591,
+      50.0
+    ],
+    "placements": [
+      {
+        "id": "50毫米插座板",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "50毫米门框",
+        "x": 103,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "50毫米门扇",
+        "x": 170,
+        "y": 40,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "白门_1.5倍",
+    "group": "单档",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "door",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\整盘STL\\单档\\白门_1.5倍.stl",
+    "sha256": "b833e2282991178823dfe72d373e1c1517a6f571e1f03fae3059e7bc587d1115",
+    "components": 3,
+    "size_mm": [
+      169.70133635930915,
+      54.66208152073523,
+      60.0
+    ],
+    "placements": [
+      {
+        "id": "60毫米插座板",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "60毫米门框",
+        "x": 103,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "60毫米门扇",
+        "x": 170,
+        "y": 40,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "白门_1.75倍",
+    "group": "单档",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "door",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\整盘STL\\单档\\白门_1.75倍.stl",
+    "sha256": "3336285226e371e7e0abeb66dd694db872dcf1b6b8e53952c079d905b2270323",
+    "components": 3,
+    "size_mm": [
+      173.57998984549224,
+      64.02202698661455,
+      70.0
+    ],
+    "placements": [
+      {
+        "id": "70毫米插座板",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "70毫米门框",
+        "x": 103,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "70毫米门扇",
+        "x": 170,
+        "y": 40,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "三档同盘",
+    "group": "同盘",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "door",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\整盘STL\\同盘\\三档同盘.stl",
+    "sha256": "61eee5d5fe94b83d1896790c675a442443083c17d63628d40569a2252eb3c77b",
+    "components": 9,
+    "size_mm": [
+      216.0,
+      154.02202698661455,
+      70.0
+    ],
+    "placements": [
+      {
+        "id": "50毫米插座板",
+        "x": 24,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "50毫米门框",
+        "x": 24,
+        "y": 95,
+        "rotation_z": 0
+      },
+      {
+        "id": "50毫米门扇",
+        "x": 24,
+        "y": 130,
+        "rotation_z": 0
+      },
+      {
+        "id": "60毫米插座板",
+        "x": 100,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "60毫米门框",
+        "x": 100,
+        "y": 95,
+        "rotation_z": 0
+      },
+      {
+        "id": "60毫米门扇",
+        "x": 100,
+        "y": 130,
+        "rotation_z": 0
+      },
+      {
+        "id": "70毫米插座板",
+        "x": 176,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "70毫米门框",
+        "x": 176,
+        "y": 95,
+        "rotation_z": 0
+      },
+      {
+        "id": "70毫米门扇",
+        "x": 176,
+        "y": 130,
+        "rotation_z": 0
+      }
+    ]
+  }
+]

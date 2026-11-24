@@ -101,7 +101,7 @@ lines=['铃芽庭院：除底盘外，X1 Carbon 加速切片包','日期：2026-
  'Bambu Studio 官方源码（切片文件结构）：https://github.com/bambulab/BambuStudio/blob/v02.01.01.52/src/libslic3r/Format/bbs_3mf.cpp',
  'X1 Carbon 官方规格：https://public-cdn.bambulab.com/store/bambulab-X1-carbon-tech-specs.pdf']
 (O/'先读我_直接打印说明.txt').write_text('\n'.join(lines)+'\n',encoding='utf-8-sig')
-archive=Path('D:/虚拟C盘/铃芽庭院_不含底盘_X1C_已切片加速版.zip');assert not archive.exists(),str(archive)
+archive=R/'交付压缩包'/'铃芽庭院_不含底盘_X1C_已切片加速版.zip';archive.parent.mkdir(parents=True,exist_ok=True);assert not archive.exists(),str(archive)
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=2) as z:
  for p in O.rglob('*'):
   if p.is_file():z.write(p,Path('铃芽庭院_已切片加速版')/p.relative_to(O))

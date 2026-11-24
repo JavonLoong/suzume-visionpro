@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "size_mm": [
+    500.0,
+    500.0,
+    14.0
+  ],
+  "one_closed_solid": true,
+  "upper_opening_diameter_mm": 116.5,
+  "upper_opening_depth_mm": 9,
+  "lower_through_hole_diameter_mm": 104,
+  "ledge_thickness_mm": 5,
+  "ledge_radial_width_mm": 6.25,
+  "original_preserved": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\一体底座_500毫米_20261120",
+  "original_npz_sha256": "10dd7bb5acddf578812d9a7b4b2be67f8e88e1437721716458a362e09ecccfcf",
+  "change_only_inside_central_cut": true,
+  "stl_3mf_agree": true,
+  "volume_mm3": 2395016.493202233,
+  "slice_tested": false,
+  "physical_tested": false,
+  "stl_sha256": "95f1604eadca1649e9dd9e8e1ee500bbf2e57a1147f95bb98a8bc72d342e8668"
+}

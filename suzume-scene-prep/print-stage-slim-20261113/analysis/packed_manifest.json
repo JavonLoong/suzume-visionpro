@@ -1,0 +1,394 @@
+[
+  {
+    "id": "底座1",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\底座\\底座1.stl",
+    "sha256": "5898cbd07c091d4fe480fabfb8c76f9a4d5da91c39abd1654332be099e611c41",
+    "components": 5,
+    "size_mm": [
+      182.63919764585356,
+      212.63919764585356,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板11",
+        "x": 25,
+        "y": 40
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "底座2",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\底座\\底座2.stl",
+    "sha256": "d192775c54468742b38aa77526f1e903abc65504527e440de647f5d3597c4916",
+    "components": 5,
+    "size_mm": [
+      199.7,
+      229.85,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板12",
+        "x": 25,
+        "y": 40
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "底座3",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\底座\\底座3.stl",
+    "sha256": "0c404cbc073f8f8bac85a3501676ce6270022bcc8223d529f600f4143f3884bd",
+    "components": 5,
+    "size_mm": [
+      182.63919764585356,
+      212.63919764585356,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板13",
+        "x": 25,
+        "y": 40
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "底座4",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\底座\\底座4.stl",
+    "sha256": "7324ba7fe0f1a71b86c238fc7a4f0ecf921e42a72b11300a0e8e599bb1c9c8e3",
+    "components": 5,
+    "size_mm": [
+      199.85,
+      229.7,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板21",
+        "x": 25,
+        "y": 40
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "底座5",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\底座\\底座5.stl",
+    "sha256": "332db5878873003065c128b6e4ff057b88328ff7f8637db60935b7ee0966d302",
+    "components": 5,
+    "size_mm": [
+      199.7,
+      229.7,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板22",
+        "x": 25,
+        "y": 40
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "底座6",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\底座\\底座6.stl",
+    "sha256": "606023876713161ea4de75bd5acea3e0c168e4be26af64ff41055934934e4f74",
+    "components": 5,
+    "size_mm": [
+      199.85,
+      229.7,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板23",
+        "x": 25,
+        "y": 40
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "底座7",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\底座\\底座7.stl",
+    "sha256": "a831060e447b762516872ae74352eccb74f5db54fd607e38ce536b03ea432b6f",
+    "components": 1,
+    "size_mm": [
+      182.63919764585356,
+      182.63919764585356,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板31",
+        "x": 25,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "底座8",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\底座\\底座8.stl",
+    "sha256": "798e2798ec6869f131833e74a9220928bae30c8f7b723259712a701e758ff2e7",
+    "components": 1,
+    "size_mm": [
+      199.7,
+      199.85,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板32",
+        "x": 25,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "底座9",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\底座\\底座9.stl",
+    "sha256": "ad5b8c5bc2f634a7e682a048f56088c43d8d93f44e951f08fb69b3f21c02948a",
+    "components": 1,
+    "size_mm": [
+      182.63919764585356,
+      182.63919764585356,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板33",
+        "x": 25,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "白门",
+    "group": "门",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "door",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\门\\白门.stl",
+    "sha256": "2564139e42d13778019c7bc50ea4d9fb09835d64d2ec8b42a689631fd0e244ef",
+    "components": 3,
+    "size_mm": [
+      131.87732342007436,
+      44.0,
+      40.0
+    ],
+    "placements": [
+      {
+        "id": "40毫米插座板",
+        "x": 25,
+        "y": 40
+      },
+      {
+        "id": "40毫米门框",
+        "x": 100,
+        "y": 40
+      },
+      {
+        "id": "40毫米门扇",
+        "x": 140,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "试配",
+    "group": "试配",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "trial",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-slim-20261113\\整盘STL\\试配\\试配.stl",
+    "sha256": "75e8ef238292cec074df254f37ac7759514bdbf0391289fedffd85ceb03ea7ad",
+    "components": 5,
+    "size_mm": [
+      119.0,
+      46.0,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "配合试件",
+        "x": 25,
+        "y": 40
+      },
+      {
+        "id": "配合试件",
+        "x": 120,
+        "y": 40
+      },
+      {
+        "id": "配合试件",
+        "x": 25,
+        "y": 70
+      },
+      {
+        "id": "配合试件",
+        "x": 65,
+        "y": 70
+      },
+      {
+        "id": "配合试件",
+        "x": 105,
+        "y": 70
+      }
+    ]
+  }
+]

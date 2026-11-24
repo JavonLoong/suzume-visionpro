@@ -1,0 +1,102 @@
+[
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim01.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim01.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 2.2,
+    "seconds": 4732,
+    "grams": 21.98,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "白门_1.25倍",
+    "group": "单档",
+    "quantity": 1,
+    "layer_height_mm": 0.16,
+    "stl_sha256": "893de0a5d060a3ebde2955a42aefd122dcd1b3cbc1764277c15772fa1d0498eb",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim02.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim02.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 2.4,
+    "seconds": 5553,
+    "grams": 27.06,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "白门_1.5倍",
+    "group": "单档",
+    "quantity": 1,
+    "layer_height_mm": 0.16,
+    "stl_sha256": "a3538a2e29a86f2c18054bfdd1720e2b1717c2cf4568ca5d7b184eeb3f532ffa",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim03.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim03.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 3.1,
+    "seconds": 6384,
+    "grams": 32.83,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "白门_1.75倍",
+    "group": "单档",
+    "quantity": 1,
+    "layer_height_mm": 0.16,
+    "stl_sha256": "abb7a637e0aa5002942a7a43e1d57d14428f74a820c873884feb86e641250b91",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim04.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim04.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 5.9,
+    "seconds": 14677,
+    "grams": 79.47,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "三档同盘",
+    "group": "同盘",
+    "quantity": 1,
+    "layer_height_mm": 0.16,
+    "stl_sha256": "fd02af3fc81bed2bfe675becd47367505677bab0c952038903752ea498311f3d",
+    "md5_valid": true
+  }
+]

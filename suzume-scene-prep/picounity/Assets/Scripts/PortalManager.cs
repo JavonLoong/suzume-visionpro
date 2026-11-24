@@ -48,6 +48,23 @@ public class PortalManager : MonoBehaviour
     [Tooltip("门朝向旋转角（度）")]
     [Range(-180f, 180f)]
     public float portalYaw = PortalConfig.PortalRotationY;
+    public bool useFullRotation;
+    public Quaternion portalRotation = Quaternion.identity;
+    public Vector3[] adjustedOpening;
+    PortalQuadWarp _quadWarp;
+    public Vector3[] GetWorldCorners()
+    {
+        if(adjustedOpening!=null&&adjustedOpening.Length==4)
+        { var p=new Vector3[4];for(int i=0;i<4;i++)p[i]=transform.TransformPoint(adjustedOpening[i]);return p; }
+        return DoorQuadPlacement.Rectangle(portalPosition,transform.rotation,portalWidth>0?portalWidth:PortalConfig.BaseDoorWidth*portalHeight/PortalConfig.BaseDoorHeight,portalHeight);
+    }
+    public void SetWorldCorners(Vector3[] points)
+    {
+        adjustedOpening=points==null?null:new Vector3[4];
+        if(points!=null)for(int i=0;i<4;i++)adjustedOpening[i]=transform.InverseTransformPoint(points[i]);
+        if(_quadWarp==null)_quadWarp=GetComponent<PortalQuadWarp>()??gameObject.AddComponent<PortalQuadWarp>();
+        _quadWarp.Apply(adjustedOpening);
+    }
 
     [Tooltip("门后花海与角色曝光亮度倍率")]
     [Range(0.2f, 3.0f)]
@@ -353,9 +370,10 @@ public class PortalManager : MonoBehaviour
     {
         float uniformScale = Mathf.Max(0.005f, portalHeight / PortalConfig.BaseDoorHeight);
         transform.position = portalPosition;
-        transform.rotation = Quaternion.Euler(0f, portalYaw, 0f);
+        transform.rotation = useFullRotation ? portalRotation : Quaternion.Euler(0f, portalYaw, 0f);
         float widthScale = portalWidth > 0f ? portalWidth / PortalConfig.BaseDoorWidth : uniformScale;
         transform.localScale = new Vector3(widthScale, uniformScale, uniformScale);
+        if(adjustedOpening!=null) { if(_quadWarp==null)_quadWarp=GetComponent<PortalQuadWarp>()??gameObject.AddComponent<PortalQuadWarp>(); _quadWarp.Apply(adjustedOpening); }
         if (_dreamGo != null)
         {
             float sc = dreamWorldScale > 0f ? dreamWorldScale : PortalConfig.DreamWorldScale;
@@ -487,6 +505,12 @@ public class PortalManager : MonoBehaviour
     {
         Vector3 normalIntoPortal = -transform.forward.normalized;
         Vector3 planePoint = transform.position + normalIntoPortal * 0.005f;
+        if(adjustedOpening!=null&&adjustedOpening.Length==4)
+        {
+            float front=float.NegativeInfinity;
+            foreach(var p in adjustedOpening)front=Mathf.Max(front,p.z*transform.lossyScale.z);
+            planePoint=transform.position+transform.forward*front+normalIntoPortal*.0002f;
+        }
         float d = -Vector3.Dot(normalIntoPortal, planePoint);
         return new Vector4(normalIntoPortal.x, normalIntoPortal.y, normalIntoPortal.z, d);
     }
@@ -533,6 +557,7 @@ public class PortalManager : MonoBehaviour
         public float width;
         public float x, y, z;
         public float yaw;
+        public bool fullRotation; public Quaternion rotation; public Vector3[] corners;
         public float light;
         public float atmosphere;
         public float wind;
@@ -552,7 +577,7 @@ public class PortalManager : MonoBehaviour
             x = portalPosition.x,
             y = portalPosition.y,
             z = portalPosition.z,
-            yaw = portalYaw,
+            yaw = portalYaw, fullRotation=useFullRotation, rotation=portalRotation, corners=adjustedOpening,
             light = lightMultiplier,
             atmosphere = atmosphereIntensity,
             wind = windStrength,
@@ -575,6 +600,8 @@ public class PortalManager : MonoBehaviour
         portalWidth = data.width >= .01f ? data.width : 0f;
         portalPosition = new Vector3(data.x, data.y, data.z);
         portalYaw = data.yaw;
+        useFullRotation=data.fullRotation&&Quaternion.Dot(data.rotation,data.rotation)>.5f; portalRotation=data.rotation;
+        adjustedOpening=data.corners!=null&&data.corners.Length==4?data.corners:null;
         lightMultiplier = data.light > 0.1f ? data.light : PortalConfig.LightMultiplier;
         atmosphereIntensity = data.atmosphere > 0.1f ? data.atmosphere : PortalConfig.AtmosphereIntensity;
         windStrength = data.wind >= 0f ? data.wind : PortalConfig.WindStrength;
@@ -592,6 +619,7 @@ public class PortalManager : MonoBehaviour
         portalWidth = 0f;
         portalPosition = PortalConfig.PortalPosition;
         portalYaw = PortalConfig.PortalRotationY;
+        useFullRotation=false;portalRotation=Quaternion.identity;SetWorldCorners(null);
         lightMultiplier = PortalConfig.LightMultiplier;
         atmosphereIntensity = PortalConfig.AtmosphereIntensity;
         windStrength = PortalConfig.WindStrength;

@@ -1,0 +1,742 @@
+[
+  {
+    "file": "铃芽之旅_全部场景_离线珍藏.html",
+    "bytes": 307247883,
+    "assets": 35,
+    "scenes": [
+      "v49",
+      "v38",
+      "v37"
+    ],
+    "includesNativeBlend": true,
+    "embeddedBytes": 322983798,
+    "resources": {
+      "movie-surfaces-v28/reference-opening.jpg": {
+        "gzip": false,
+        "mime": "image/jpeg",
+        "bytes": 3346707,
+        "packedBytes": 3346707,
+        "sha256": "a80f1bcad3be67c8d14610348be42d58245c9375b694e60e9e78467f1a9fed07",
+        "id": "embedded-0"
+      },
+      "movie-surfaces-v28/surface-validity-mask-v28.png": {
+        "gzip": true,
+        "mime": "image/png",
+        "bytes": 27977,
+        "packedBytes": 24631,
+        "sha256": "f8c75000ac4849f23d1b732b6f462cb94e83f1198f055e494810b5ceee8113c3",
+        "id": "embedded-1"
+      },
+      "movie-terrain-v31/extension-indices-v31.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 909312,
+        "packedBytes": 233668,
+        "sha256": "8aabc2af1e7424af705b5006510ff5ea342338675b7b71da1778641bcf516f06",
+        "id": "embedded-2"
+      },
+      "movie-terrain-v31/extension-vertices-v31.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 454656,
+        "packedBytes": 193305,
+        "sha256": "20381bfb251a80ee239f53833048818f8b9f83dae29b3df733219af091937a18",
+        "id": "embedded-3"
+      },
+      "movie-terrain-v31/ground-world-v31.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 484812,
+        "packedBytes": 256898,
+        "sha256": "3b243e5c8167e300966990ff0ef5aa35f5dc33db61ef964e224af86ed781d4ab",
+        "id": "embedded-4"
+      },
+      "poster-arches-v49/arched-facade-v49.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 21599136,
+        "packedBytes": 7507838,
+        "sha256": "a3b33947266eeee8c0065246c4cd2ac58584c2b1b426473f5d32112947039115",
+        "id": "embedded-5"
+      },
+      "poster-arches-v49/browser-arches-v49.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 10063,
+        "packedBytes": 1137,
+        "sha256": "cc3a81fd79b1a560f9ce1a1a2bdbc4f9b89945aaad596915f92d6c8c9ee964a5",
+        "id": "embedded-6"
+      },
+      "poster-arches-v49/poster-front-v49.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 1183585,
+        "packedBytes": 1183585,
+        "sha256": "21ad470b9444e5441b222116a1c945727028aa4ff4e855488705c143dfdb72ca",
+        "id": "embedded-7"
+      },
+      "poster-arches-v49/poster-oblique-v49.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 630970,
+        "packedBytes": 630970,
+        "sha256": "59923997c8f77ee22ce1e7394e61e54d56b23db31f732fc4422c957fb1bbd357",
+        "id": "embedded-8"
+      },
+      "poster-fascia-v47/browser-fascia-v47.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 41355,
+        "packedBytes": 5454,
+        "sha256": "0dfb973f22263763f14ddd22044fac319ce87c070aefa2e3e642a097b7df4651",
+        "id": "embedded-9"
+      },
+      "poster-horizon-v42/browser-clouds-v42.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 24973,
+        "packedBytes": 3923,
+        "sha256": "ca63e8ceab4df8e369ba97144eec02abf0a3aa4912f00f8e5808847ae45ba211",
+        "id": "embedded-10"
+      },
+      "poster-horizon-v42/clouds-v42.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 40353300,
+        "packedBytes": 23789211,
+        "sha256": "60a58debf8e1b14a65639d31a6a23cd7548c79dfb1bc3e56a3512469481f4f66",
+        "id": "embedded-11"
+      },
+      "poster-left-steel-v44/browser-steel-v44.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 9846,
+        "packedBytes": 1577,
+        "sha256": "304aae042d4d1c980984083ee632f12e292714d1cf36d62e00ba3752a6e44409",
+        "id": "embedded-12"
+      },
+      "poster-left-steel-v44/steel-v44.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 8635776,
+        "packedBytes": 2604702,
+        "sha256": "bf9e23e7d3d7c1cf1a241c076e6c6089afca354cad37aac8942e48eee226efee",
+        "id": "embedded-13"
+      },
+      "poster-lower-clouds-v43/browser-clouds-v43.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 2651,
+        "packedBytes": 684,
+        "sha256": "5726325a98e51b22e3b6565d21a29beec1f144f614af3d6b11f011695e62c92e",
+        "id": "embedded-14"
+      },
+      "poster-lower-clouds-v43/lower-clouds-v43.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 47734152,
+        "packedBytes": 28166778,
+        "sha256": "7cc0b8913c29141004e3bd858102079f666db4935ee07f557908912399ed6b5e",
+        "id": "embedded-15"
+      },
+      "poster-railings-v46/browser-railings-v46.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 5106,
+        "packedBytes": 1144,
+        "sha256": "33a7cb18916df34f9a439097156249ff9ed95048e5299692e4e824e7da8d326a",
+        "id": "embedded-16"
+      },
+      "poster-railings-v46/facade-railings-v46.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 18953664,
+        "packedBytes": 6745093,
+        "sha256": "b219584eac293ef4cba052bfba3f25ad54e2092723270818e6793a35688e477c",
+        "id": "embedded-17"
+      },
+      "poster-railings-v46/ivy-scale-v46.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 202358,
+        "packedBytes": 75305,
+        "sha256": "c12373691969c142734d55da7a4e3a7a5818d63b09eeeff7e7ef137550745ce0",
+        "id": "embedded-18"
+      },
+      "poster-upper-windows-v48/browser-upper-windows-v48.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 8825,
+        "packedBytes": 1296,
+        "sha256": "5d28a4ed707b67c20220431f147f41ea893f2ba3f16bd0b21c5193855025bd04",
+        "id": "embedded-19"
+      },
+      "poster-upper-windows-v48/clean-facade-pigments-v48.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 561948,
+        "packedBytes": 561948,
+        "sha256": "fda84b04aabad3d6ad74f7faaad99e7db16097afdce3f47db12b1e8d6c1f04cc",
+        "id": "embedded-20"
+      },
+      "poster-upper-windows-v48/upper-facade-pigments-v48.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 1816018,
+        "packedBytes": 1816018,
+        "sha256": "7c2bd2eb3d6f8b703bfce8283690581ab683d0034e85c9894f810ad6a4cece64",
+        "id": "embedded-21"
+      },
+      "poster-upper-windows-v48/upper-facade-v48.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 17928576,
+        "packedBytes": 6497518,
+        "sha256": "4f9edb451da4064623056289f0c1b79348c0117359ac4c58a70d9a5135eb20ab",
+        "id": "embedded-22"
+      },
+      "poster-v38/Suzume_dual_scene_v38.blend": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 112013580,
+        "packedBytes": 109674433,
+        "sha256": "b56b84831d608b8dc98134708a89fdcf49c28242534c717aad1fe0efe81a483f",
+        "id": "embedded-23"
+      },
+      "viewer/GLTFLoader.js": {
+        "gzip": true,
+        "mime": "application/javascript",
+        "bytes": 96550,
+        "packedBytes": 21976,
+        "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6",
+        "id": "embedded-24"
+      },
+      "viewer/RectAreaLightUniformsLib.js": {
+        "gzip": true,
+        "mime": "application/javascript",
+        "bytes": 313787,
+        "packedBytes": 109367,
+        "sha256": "6c75370ecfd2b94a88a2648e9551ab4cf223b5a0efda4f99020cb636e913e07c",
+        "id": "embedded-25"
+      },
+      "viewer/candidate-v37.html": {
+        "gzip": true,
+        "mime": "text/html",
+        "bytes": 1149245,
+        "packedBytes": 752084,
+        "sha256": "e0475f535598170975910cb0feeeecc8c8f5932ff1f1778ab5c2d08105ae37e0",
+        "id": "embedded-26"
+      },
+      "viewer/character-v37/suzume-posed-v37.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 15758024,
+        "packedBytes": 9989473,
+        "sha256": "5c62d0925d3724310ba3a898afb16f2bb36d6098a9b72b41d09f8040938b950d",
+        "id": "embedded-27"
+      },
+      "viewer/character-v37/suzume-posed-v37.gltf": {
+        "gzip": true,
+        "mime": "model/gltf+json",
+        "bytes": 22588,
+        "packedBytes": 3855,
+        "sha256": "8b2a96b9094ba514c546b673ac66d5f9b97316fe7aaf159fff8e88876feecf45",
+        "id": "embedded-28"
+      },
+      "viewer/character-v37/texture-0.png": {
+        "gzip": true,
+        "mime": "image/png",
+        "bytes": 4037877,
+        "packedBytes": 3884232,
+        "sha256": "e187d9879e97e465b12de1fcb6b9f611d4521ff8314c3e16ec67db87c2421992",
+        "id": "embedded-29"
+      },
+      "viewer/character-v37/texture-1.png": {
+        "gzip": true,
+        "mime": "image/png",
+        "bytes": 14494428,
+        "packedBytes": 13204861,
+        "sha256": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7",
+        "id": "embedded-30"
+      },
+      "viewer/character-v37/texture-2.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 7558005,
+        "packedBytes": 7558005,
+        "sha256": "dd4d1a90b768caf9f6aae4e87e528543b02b1ca0fffa0ecaeec6dec2fd03c971",
+        "id": "embedded-31"
+      },
+      "viewer/poster-v38.html": {
+        "gzip": true,
+        "mime": "text/html",
+        "bytes": 990375,
+        "packedBytes": 707600,
+        "sha256": "74accf669d46c5c6197991d664cdd94529c77e60a61cecfed20905ce3f4468e7",
+        "id": "embedded-32"
+      },
+      "viewer/poster-v49.html": {
+        "gzip": true,
+        "mime": "text/html",
+        "bytes": 1020128,
+        "packedBytes": 713351,
+        "sha256": "842c3504cb0a038854d5f7d7a40cc81f5ce6b0ab95f659c6548955d5ce623c37",
+        "id": "embedded-33"
+      },
+      "viewer/three.min.js": {
+        "gzip": true,
+        "mime": "application/javascript",
+        "bytes": 603445,
+        "packedBytes": 149202,
+        "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
+        "id": "embedded-34"
+      }
+    }
+  },
+  {
+    "file": "铃芽之旅_v49_旋转场景.html",
+    "bytes": 153512443,
+    "assets": 26,
+    "scenes": [
+      "v49"
+    ],
+    "includesNativeBlend": false,
+    "embeddedBytes": 203293347,
+    "resources": {
+      "poster-arches-v49/arched-facade-v49.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 21599136,
+        "packedBytes": 7507838,
+        "sha256": "a3b33947266eeee8c0065246c4cd2ac58584c2b1b426473f5d32112947039115",
+        "id": "embedded-0"
+      },
+      "poster-arches-v49/browser-arches-v49.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 10063,
+        "packedBytes": 1137,
+        "sha256": "cc3a81fd79b1a560f9ce1a1a2bdbc4f9b89945aaad596915f92d6c8c9ee964a5",
+        "id": "embedded-1"
+      },
+      "poster-arches-v49/poster-front-v49.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 1183585,
+        "packedBytes": 1183585,
+        "sha256": "21ad470b9444e5441b222116a1c945727028aa4ff4e855488705c143dfdb72ca",
+        "id": "embedded-2"
+      },
+      "poster-arches-v49/poster-oblique-v49.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 630970,
+        "packedBytes": 630970,
+        "sha256": "59923997c8f77ee22ce1e7394e61e54d56b23db31f732fc4422c957fb1bbd357",
+        "id": "embedded-3"
+      },
+      "poster-fascia-v47/browser-fascia-v47.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 41355,
+        "packedBytes": 5454,
+        "sha256": "0dfb973f22263763f14ddd22044fac319ce87c070aefa2e3e642a097b7df4651",
+        "id": "embedded-4"
+      },
+      "poster-horizon-v42/browser-clouds-v42.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 24973,
+        "packedBytes": 3923,
+        "sha256": "ca63e8ceab4df8e369ba97144eec02abf0a3aa4912f00f8e5808847ae45ba211",
+        "id": "embedded-5"
+      },
+      "poster-horizon-v42/clouds-v42.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 40353300,
+        "packedBytes": 23789211,
+        "sha256": "60a58debf8e1b14a65639d31a6a23cd7548c79dfb1bc3e56a3512469481f4f66",
+        "id": "embedded-6"
+      },
+      "poster-left-steel-v44/browser-steel-v44.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 9846,
+        "packedBytes": 1577,
+        "sha256": "304aae042d4d1c980984083ee632f12e292714d1cf36d62e00ba3752a6e44409",
+        "id": "embedded-7"
+      },
+      "poster-left-steel-v44/steel-v44.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 8635776,
+        "packedBytes": 2604702,
+        "sha256": "bf9e23e7d3d7c1cf1a241c076e6c6089afca354cad37aac8942e48eee226efee",
+        "id": "embedded-8"
+      },
+      "poster-lower-clouds-v43/browser-clouds-v43.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 2651,
+        "packedBytes": 684,
+        "sha256": "5726325a98e51b22e3b6565d21a29beec1f144f614af3d6b11f011695e62c92e",
+        "id": "embedded-9"
+      },
+      "poster-lower-clouds-v43/lower-clouds-v43.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 47734152,
+        "packedBytes": 28166778,
+        "sha256": "7cc0b8913c29141004e3bd858102079f666db4935ee07f557908912399ed6b5e",
+        "id": "embedded-10"
+      },
+      "poster-railings-v46/browser-railings-v46.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 5106,
+        "packedBytes": 1144,
+        "sha256": "33a7cb18916df34f9a439097156249ff9ed95048e5299692e4e824e7da8d326a",
+        "id": "embedded-11"
+      },
+      "poster-railings-v46/facade-railings-v46.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 18953664,
+        "packedBytes": 6745093,
+        "sha256": "b219584eac293ef4cba052bfba3f25ad54e2092723270818e6793a35688e477c",
+        "id": "embedded-12"
+      },
+      "poster-railings-v46/ivy-scale-v46.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 202358,
+        "packedBytes": 75305,
+        "sha256": "c12373691969c142734d55da7a4e3a7a5818d63b09eeeff7e7ef137550745ce0",
+        "id": "embedded-13"
+      },
+      "poster-upper-windows-v48/browser-upper-windows-v48.json": {
+        "gzip": true,
+        "mime": "application/json",
+        "bytes": 8825,
+        "packedBytes": 1296,
+        "sha256": "5d28a4ed707b67c20220431f147f41ea893f2ba3f16bd0b21c5193855025bd04",
+        "id": "embedded-14"
+      },
+      "poster-upper-windows-v48/clean-facade-pigments-v48.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 561948,
+        "packedBytes": 561948,
+        "sha256": "fda84b04aabad3d6ad74f7faaad99e7db16097afdce3f47db12b1e8d6c1f04cc",
+        "id": "embedded-15"
+      },
+      "poster-upper-windows-v48/upper-facade-pigments-v48.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 1816018,
+        "packedBytes": 1816018,
+        "sha256": "7c2bd2eb3d6f8b703bfce8283690581ab683d0034e85c9894f810ad6a4cece64",
+        "id": "embedded-16"
+      },
+      "poster-upper-windows-v48/upper-facade-v48.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 17928576,
+        "packedBytes": 6497518,
+        "sha256": "4f9edb451da4064623056289f0c1b79348c0117359ac4c58a70d9a5135eb20ab",
+        "id": "embedded-17"
+      },
+      "viewer/GLTFLoader.js": {
+        "gzip": true,
+        "mime": "application/javascript",
+        "bytes": 96550,
+        "packedBytes": 21976,
+        "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6",
+        "id": "embedded-18"
+      },
+      "viewer/character-v37/suzume-posed-v37.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 15758024,
+        "packedBytes": 9989473,
+        "sha256": "5c62d0925d3724310ba3a898afb16f2bb36d6098a9b72b41d09f8040938b950d",
+        "id": "embedded-19"
+      },
+      "viewer/character-v37/suzume-posed-v37.gltf": {
+        "gzip": true,
+        "mime": "model/gltf+json",
+        "bytes": 22588,
+        "packedBytes": 3855,
+        "sha256": "8b2a96b9094ba514c546b673ac66d5f9b97316fe7aaf159fff8e88876feecf45",
+        "id": "embedded-20"
+      },
+      "viewer/character-v37/texture-0.png": {
+        "gzip": true,
+        "mime": "image/png",
+        "bytes": 4037877,
+        "packedBytes": 3884232,
+        "sha256": "e187d9879e97e465b12de1fcb6b9f611d4521ff8314c3e16ec67db87c2421992",
+        "id": "embedded-21"
+      },
+      "viewer/character-v37/texture-1.png": {
+        "gzip": true,
+        "mime": "image/png",
+        "bytes": 14494428,
+        "packedBytes": 13204861,
+        "sha256": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7",
+        "id": "embedded-22"
+      },
+      "viewer/character-v37/texture-2.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 7558005,
+        "packedBytes": 7558005,
+        "sha256": "dd4d1a90b768caf9f6aae4e87e528543b02b1ca0fffa0ecaeec6dec2fd03c971",
+        "id": "embedded-23"
+      },
+      "viewer/poster-v49.html": {
+        "gzip": true,
+        "mime": "text/html",
+        "bytes": 1020128,
+        "packedBytes": 713351,
+        "sha256": "842c3504cb0a038854d5f7d7a40cc81f5ce6b0ab95f659c6548955d5ce623c37",
+        "id": "embedded-24"
+      },
+      "viewer/three.min.js": {
+        "gzip": true,
+        "mime": "application/javascript",
+        "bytes": 603445,
+        "packedBytes": 149202,
+        "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
+        "id": "embedded-25"
+      }
+    }
+  },
+  {
+    "file": "铃芽之旅_v38_海报庭院.html",
+    "bytes": 47372995,
+    "assets": 8,
+    "scenes": [
+      "v38"
+    ],
+    "includesNativeBlend": false,
+    "embeddedBytes": 43561292,
+    "resources": {
+      "viewer/GLTFLoader.js": {
+        "gzip": true,
+        "mime": "application/javascript",
+        "bytes": 96550,
+        "packedBytes": 21976,
+        "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6",
+        "id": "embedded-0"
+      },
+      "viewer/character-v37/suzume-posed-v37.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 15758024,
+        "packedBytes": 9989473,
+        "sha256": "5c62d0925d3724310ba3a898afb16f2bb36d6098a9b72b41d09f8040938b950d",
+        "id": "embedded-1"
+      },
+      "viewer/character-v37/suzume-posed-v37.gltf": {
+        "gzip": true,
+        "mime": "model/gltf+json",
+        "bytes": 22588,
+        "packedBytes": 3855,
+        "sha256": "8b2a96b9094ba514c546b673ac66d5f9b97316fe7aaf159fff8e88876feecf45",
+        "id": "embedded-2"
+      },
+      "viewer/character-v37/texture-0.png": {
+        "gzip": true,
+        "mime": "image/png",
+        "bytes": 4037877,
+        "packedBytes": 3884232,
+        "sha256": "e187d9879e97e465b12de1fcb6b9f611d4521ff8314c3e16ec67db87c2421992",
+        "id": "embedded-3"
+      },
+      "viewer/character-v37/texture-1.png": {
+        "gzip": true,
+        "mime": "image/png",
+        "bytes": 14494428,
+        "packedBytes": 13204861,
+        "sha256": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7",
+        "id": "embedded-4"
+      },
+      "viewer/character-v37/texture-2.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 7558005,
+        "packedBytes": 7558005,
+        "sha256": "dd4d1a90b768caf9f6aae4e87e528543b02b1ca0fffa0ecaeec6dec2fd03c971",
+        "id": "embedded-5"
+      },
+      "viewer/poster-v38.html": {
+        "gzip": true,
+        "mime": "text/html",
+        "bytes": 990375,
+        "packedBytes": 707600,
+        "sha256": "74accf669d46c5c6197991d664cdd94529c77e60a61cecfed20905ce3f4468e7",
+        "id": "embedded-6"
+      },
+      "viewer/three.min.js": {
+        "gzip": true,
+        "mime": "application/javascript",
+        "bytes": 603445,
+        "packedBytes": 149202,
+        "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
+        "id": "embedded-7"
+      }
+    }
+  },
+  {
+    "file": "铃芽之旅_v37_电影开门.html",
+    "bytes": 52987065,
+    "assets": 14,
+    "scenes": [
+      "v37"
+    ],
+    "includesNativeBlend": false,
+    "embeddedBytes": 49257413,
+    "resources": {
+      "movie-surfaces-v28/reference-opening.jpg": {
+        "gzip": false,
+        "mime": "image/jpeg",
+        "bytes": 3346707,
+        "packedBytes": 3346707,
+        "sha256": "a80f1bcad3be67c8d14610348be42d58245c9375b694e60e9e78467f1a9fed07",
+        "id": "embedded-0"
+      },
+      "movie-surfaces-v28/surface-validity-mask-v28.png": {
+        "gzip": true,
+        "mime": "image/png",
+        "bytes": 27977,
+        "packedBytes": 24631,
+        "sha256": "f8c75000ac4849f23d1b732b6f462cb94e83f1198f055e494810b5ceee8113c3",
+        "id": "embedded-1"
+      },
+      "movie-terrain-v31/extension-indices-v31.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 909312,
+        "packedBytes": 233668,
+        "sha256": "8aabc2af1e7424af705b5006510ff5ea342338675b7b71da1778641bcf516f06",
+        "id": "embedded-2"
+      },
+      "movie-terrain-v31/extension-vertices-v31.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 454656,
+        "packedBytes": 193305,
+        "sha256": "20381bfb251a80ee239f53833048818f8b9f83dae29b3df733219af091937a18",
+        "id": "embedded-3"
+      },
+      "movie-terrain-v31/ground-world-v31.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 484812,
+        "packedBytes": 256898,
+        "sha256": "3b243e5c8167e300966990ff0ef5aa35f5dc33db61ef964e224af86ed781d4ab",
+        "id": "embedded-4"
+      },
+      "viewer/GLTFLoader.js": {
+        "gzip": true,
+        "mime": "application/javascript",
+        "bytes": 96550,
+        "packedBytes": 21976,
+        "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6",
+        "id": "embedded-5"
+      },
+      "viewer/RectAreaLightUniformsLib.js": {
+        "gzip": true,
+        "mime": "application/javascript",
+        "bytes": 313787,
+        "packedBytes": 109367,
+        "sha256": "6c75370ecfd2b94a88a2648e9551ab4cf223b5a0efda4f99020cb636e913e07c",
+        "id": "embedded-6"
+      },
+      "viewer/candidate-v37.html": {
+        "gzip": true,
+        "mime": "text/html",
+        "bytes": 1149245,
+        "packedBytes": 752084,
+        "sha256": "e0475f535598170975910cb0feeeecc8c8f5932ff1f1778ab5c2d08105ae37e0",
+        "id": "embedded-7"
+      },
+      "viewer/character-v37/suzume-posed-v37.bin": {
+        "gzip": true,
+        "mime": "application/octet-stream",
+        "bytes": 15758024,
+        "packedBytes": 9989473,
+        "sha256": "5c62d0925d3724310ba3a898afb16f2bb36d6098a9b72b41d09f8040938b950d",
+        "id": "embedded-8"
+      },
+      "viewer/character-v37/suzume-posed-v37.gltf": {
+        "gzip": true,
+        "mime": "model/gltf+json",
+        "bytes": 22588,
+        "packedBytes": 3855,
+        "sha256": "8b2a96b9094ba514c546b673ac66d5f9b97316fe7aaf159fff8e88876feecf45",
+        "id": "embedded-9"
+      },
+      "viewer/character-v37/texture-0.png": {
+        "gzip": true,
+        "mime": "image/png",
+        "bytes": 4037877,
+        "packedBytes": 3884232,
+        "sha256": "e187d9879e97e465b12de1fcb6b9f611d4521ff8314c3e16ec67db87c2421992",
+        "id": "embedded-10"
+      },
+      "viewer/character-v37/texture-1.png": {
+        "gzip": true,
+        "mime": "image/png",
+        "bytes": 14494428,
+        "packedBytes": 13204861,
+        "sha256": "c7a5361ee8346ee081d1adbcd046a68c65fb8b6a85303c4331924f7b874a6cf7",
+        "id": "embedded-11"
+      },
+      "viewer/character-v37/texture-2.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 7558005,
+        "packedBytes": 7558005,
+        "sha256": "dd4d1a90b768caf9f6aae4e87e528543b02b1ca0fffa0ecaeec6dec2fd03c971",
+        "id": "embedded-12"
+      },
+      "viewer/three.min.js": {
+        "gzip": true,
+        "mime": "application/javascript",
+        "bytes": 603445,
+        "packedBytes": 149202,
+        "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
+        "id": "embedded-13"
+      }
+    }
+  },
+  {
+    "file": "铃芽之旅_v49_原始渲染.html",
+    "bytes": 2431726,
+    "assets": 2,
+    "scenes": [],
+    "includesNativeBlend": false,
+    "embeddedBytes": 1814555,
+    "resources": {
+      "poster-arches-v49/poster-front-v49.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 1183585,
+        "packedBytes": 1183585,
+        "sha256": "21ad470b9444e5441b222116a1c945727028aa4ff4e855488705c143dfdb72ca",
+        "id": "embedded-0"
+      },
+      "poster-arches-v49/poster-oblique-v49.png": {
+        "gzip": false,
+        "mime": "image/png",
+        "bytes": 630970,
+        "packedBytes": 630970,
+        "sha256": "59923997c8f77ee22ce1e7394e61e54d56b23db31f732fc4422c957fb1bbd357",
+        "id": "embedded-1"
+      }
+    }
+  }
+]

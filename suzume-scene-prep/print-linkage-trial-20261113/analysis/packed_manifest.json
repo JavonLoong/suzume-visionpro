@@ -1,0 +1,47 @@
+[
+  {
+    "id": "门扇50",
+    "group": "拉杆试配",
+    "quantity": 1,
+    "packed": true,
+    "components": 1,
+    "settings_kind": "door",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\STL\\门扇50.stl",
+    "sha256": "e96a2ebecfda8773aae7d661130bd2eca9820ed323feab5c4544f35c86c26353",
+    "size_mm": [
+      20.82268287312609,
+      45.30213605485591,
+      18.508173405969266
+    ]
+  },
+  {
+    "id": "门扇60",
+    "group": "拉杆试配",
+    "quantity": 1,
+    "packed": true,
+    "components": 1,
+    "settings_kind": "door",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\STL\\门扇60.stl",
+    "sha256": "b6f70d5a428032bcc68a7335dd57b13bf8d7f24367229aff7e953907d515c1a6",
+    "size_mm": [
+      24.701336359309167,
+      54.66208152073523,
+      19.680258536492136
+    ]
+  },
+  {
+    "id": "门扇70",
+    "group": "拉杆试配",
+    "quantity": 1,
+    "packed": true,
+    "components": 1,
+    "settings_kind": "door",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\STL\\门扇70.stl",
+    "sha256": "78a54799043e1089dc22bf6e8db9d4b9f7c616e236a1cf14ed1fa6e2bb20fd7d",
+    "size_mm": [
+      28.579989845492243,
+      64.02202698661455,
+      20.852343667015
+    ]
+  }
+]

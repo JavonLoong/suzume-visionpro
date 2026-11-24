@@ -1,0 +1,75 @@
+{
+  "version": "1.13.0",
+  "versionCode": 22,
+  "package": "com.suzume.portal",
+  "label": "铃芽之旅·11.18版",
+  "installed": false,
+  "device_validation": "PENDING: build and PC regression passed; headset validation not performed for 1.13.0",
+  "apk": "SuzumePortal-PICO-v1.13.0.apk",
+  "apk_bytes": 112331960,
+  "apk_sha256": "691938a31d0b7dea05930df2fce2d34a9971465271722a08bb7b4f78f46502e3",
+  "model_files": [
+    {
+      "name": "door_net.onnx",
+      "sha256": "3dfd2eaa2577cddc6d007406351cd41bca9c5dd54f93709febea6bea74df6988",
+      "unchanged_from_1_12_8": true
+    }
+  ],
+  "changed_scripts": [
+    {
+      "file": "Assets\\Scripts\\DoorAutoLocator.cs",
+      "sha256": "191f5ceb9ef050a27be51f0ade22c3d4cda313d9fd6b9e4cc993a9ac6c17e8c9",
+      "before_sha256": "3ebf14c0f6b263266a451866a645b24c86fc79d58bc70f9505c7eaf703f75003"
+    },
+    {
+      "file": "Assets\\Scripts\\DoorCornerMarker.cs",
+      "sha256": "2ad7f2f1ab753d12575850c16bfb66025e5f0b865f20db2817afbb6d644d9c08",
+      "before_sha256": "761e4afd46bda00683ccb6c5f3a41217695aba74ad1ae942eab8c012991abbc5"
+    },
+    {
+      "file": "Assets\\Scripts\\DoorPoseStabilizer.cs",
+      "sha256": "fc3ecf3ace8e93f6ec3d4bda1e07083bf90cd74c2736c852c736b3bbeda2c0e1",
+      "before_sha256": "f832b98fa844ad1398701880cadee2ca6b84466022859b054a25d43ac8b19703"
+    },
+    {
+      "file": "Assets\\Scripts\\DoorQuadPlacement.cs",
+      "sha256": "ee6ef6ac4a2b735d1decd6086578675c350cf027bf0acfaf39a93b1404ea9e03",
+      "before_sha256": null
+    },
+    {
+      "file": "Assets\\Scripts\\DoorShowcaseRuntimeProbe.cs",
+      "sha256": "19987afebdf5ce205957eabe6d10b350442158ecadce7b5082a881e89f57276e",
+      "before_sha256": null
+    },
+    {
+      "file": "Assets\\Scripts\\EnterpriseDoorCamera.cs",
+      "sha256": "f1f1ff7e3772a8eb1f3cad9ef1ad0bf4ef5c459c33f18be84eb1e97deb58ffd0",
+      "before_sha256": "d9be4559d1d6e8a3f707de4f17348a73ccf746e7bca8fa83970c6cd15f0dbafd"
+    },
+    {
+      "file": "Assets\\Scripts\\PicoDoorCamera.cs",
+      "sha256": "0459ff3b879ebdebb885a8f1c2146ac0e3c75a35f96c7f9d4cbe6a78275b65c9",
+      "before_sha256": "d2c3209f2a472b09504b7ee97aad000149ac7b3ceaf46905b6511418e0cd102c"
+    },
+    {
+      "file": "Assets\\Scripts\\PortalControllerInput.cs",
+      "sha256": "bde0738ae840dced01d4a309c597bcf17f92e2ce41ed02f6b7bb4cd6d91f6cb2",
+      "before_sha256": "e16a6a56c5cb7f3fec40904c19bfa0ea5f6d6f60d27675e89a77bf72b1730cb4"
+    },
+    {
+      "file": "Assets\\Scripts\\PortalGuideView.cs",
+      "sha256": "0ce76c60b7093f157dc8d92b9b8bdda75dd0146a7b5e37884c02412f6abad5bc",
+      "before_sha256": "b3b5531490700af9288c63b650743fc8ef0a6dda99e5ca3a970bbb43afa95631"
+    },
+    {
+      "file": "Assets\\Scripts\\PortalManager.cs",
+      "sha256": "1012944cf6b4f91bbd56631bd6abc112c7bef2d4c67d02f083e255ab2026082c",
+      "before_sha256": "71ef3af6813df875cbfd84b5b9bfcfd239889187154db90567d4b65f58056965"
+    },
+    {
+      "file": "Assets\\Scripts\\PortalQuadWarp.cs",
+      "sha256": "a6f2140e75c6d0b6e51706ceb2d3c5a12d75b090a819f4985039ec55a5c740e4",
+      "before_sha256": null
+    }
+  ]
+}

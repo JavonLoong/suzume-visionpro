@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-01",
+  "stl_archive": "D:\\虚拟C盘\\第一组.zip",
+  "stl_count": 4,
+  "archive_sha256": "273130a8c2c0460124ec0ff69765efec785bdb51fee460765afec9123082b91a",
+  "direct_print_directory": "D:\\虚拟C盘\\第一组_直接打印",
+  "direct_print_files": [
+    {
+      "plate": 1,
+      "path": "D:\\虚拟C盘\\第一组_直接打印\\1.gcode.3mf",
+      "printer": "Bambu Lab X1 Carbon",
+      "nozzle_mm": 0.4,
+      "material": "PLA",
+      "plate_type": "Textured PEI Plate",
+      "nozzle_C": 220,
+      "bed_C": 55,
+      "layer_height_mm": 0.2,
+      "estimated_seconds": 40223,
+      "estimated_grams": 213.46,
+      "support_used": true,
+      "outside": false,
+      "gcode_md5": "6ebca1afd1d6bc2781ac9d078dd500ed",
+      "file_sha256": "fdd3a0481f6b477c90fc61cb9ce2fbbf44b34235ce4be85c48785565febdc1c6",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ]
+    },
+    {
+      "plate": 2,
+      "path": "D:\\虚拟C盘\\第一组_直接打印\\2.gcode.3mf",
+      "printer": "Bambu Lab X1 Carbon",
+      "nozzle_mm": 0.4,
+      "material": "PLA",
+      "plate_type": "Textured PEI Plate",
+      "nozzle_C": 220,
+      "bed_C": 55,
+      "layer_height_mm": 0.2,
+      "estimated_seconds": 44978,
+      "estimated_grams": 229.96,
+      "support_used": true,
+      "outside": false,
+      "gcode_md5": "b0aabdf6f70b3c448e93dd10c0f4b509",
+      "file_sha256": "2e22622b85080512034bba30693eafcf75c108b6ede38f41bd8c26c8d5a9aae8",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ]
+    },
+    {
+      "plate": 3,
+      "path": "D:\\虚拟C盘\\第一组_直接打印\\3.gcode.3mf",
+      "printer": "Bambu Lab X1 Carbon",
+      "nozzle_mm": 0.4,
+      "material": "PLA",
+      "plate_type": "Textured PEI Plate",
+      "nozzle_C": 220,
+      "bed_C": 55,
+      "layer_height_mm": 0.2,
+      "estimated_seconds": 37721,
+      "estimated_grams": 172.19,
+      "support_used": true,
+      "outside": false,
+      "gcode_md5": "c1bec03625bff002a40643fd0a17f374",
+      "file_sha256": "8bea07a249c848a924a63f11b5a0a9135562ac7093d91d966235dd05b4a4985d",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ]
+    },
+    {
+      "plate": 4,
+      "path": "D:\\虚拟C盘\\第一组_直接打印\\4.gcode.3mf",
+      "printer": "Bambu Lab X1 Carbon",
+      "nozzle_mm": 0.4,
+      "material": "PLA",
+      "plate_type": "Textured PEI Plate",
+      "nozzle_C": 220,
+      "bed_C": 55,
+      "layer_height_mm": 0.16,
+      "estimated_seconds": 18888,
+      "estimated_grams": 69.18,
+      "support_used": true,
+      "outside": false,
+      "gcode_md5": "5a79d65678a50e19bd8fa74b17dc0887",
+      "file_sha256": "a99cd52d8e2a21664d45bf755abf48de79d6530585c019c71642ba98428d29bc",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ]
+    }
+  ],
+  "actual_print_test": false,
+  "printer_job_started": false
+}

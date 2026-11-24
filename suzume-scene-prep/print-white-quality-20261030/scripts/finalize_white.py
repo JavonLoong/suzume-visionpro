@@ -127,7 +127,7 @@ X1 Carbon 官方规格：https://public-cdn.bambulab.com/store/bambulab-X1-carbo
 模型厚度与打印设计：https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 '''
 (O/'先读我_白模修复版打印说明.txt').write_text(text,encoding='utf-8-sig')
-archive=Path('D:/虚拟C盘/铃芽庭院_白模修复版_X1C_不含底盘.zip');assert not archive.exists(),str(archive)
+archive=R/'交付压缩包'/'铃芽庭院_白模修复版_X1C_不含底盘.zip';archive.parent.mkdir(parents=True,exist_ok=True);assert not archive.exists(),str(archive)
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=2) as z:
  for p in O.rglob('*'):
   if p.is_file():z.write(p,Path('铃芽庭院_白模修复版_WM2')/p.relative_to(O))

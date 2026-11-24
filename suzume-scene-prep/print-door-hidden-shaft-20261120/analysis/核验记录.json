@@ -1,0 +1,1265 @@
+{
+  "status": "门侧几何试配草案；非舵机整机定稿",
+  "height_above_deck_mm": 60,
+  "height_assumption": "沿用原工程默认60毫米，未由用户确认",
+  "shaft_diameter_mm": 1,
+  "fixed_bore_mm": 1.4,
+  "moving_bond_bore_mm": 1.2,
+  "shaft_xy_mm": [
+    12.15,
+    -0.75
+  ],
+  "shaft_bottom_z_mm": -5.8,
+  "deck_top_z_mm": 8,
+  "table_z_mm": -6,
+  "servo": "unknown; coupling and mount not designed",
+  "rod_to_leaf": "provisional bonded joint, material/adhesive/strength untested",
+  "checks": [
+    {
+      "name": "rod_frame",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "rod_leaf",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_116mm_centre_plate",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_1",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_1",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_2",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_2",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_3",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_3",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_4",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_4",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_6",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_6",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_7",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_7",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_8",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_8",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_9",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_9",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_10",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_10",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_11",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_11",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_12",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_12",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_13",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_13",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_14",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_14",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_15",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_15",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_16",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_16",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_17",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_17",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_18",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_18",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_19",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_19",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_20",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_20",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_21",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_21",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_22",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_22",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_23",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_23",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_24",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_24",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_26",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_26",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_27",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_27",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_28",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_28",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_29",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_29",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_30",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_30",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_31",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_31",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_32",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_32",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_33",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_33",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_34",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_34",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_35",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_35",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_36",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_36",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_37",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_37",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_38",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_38",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_39",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_39",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_40",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_40",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_41",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_41",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_42",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_42",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_43",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_43",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_44",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_44",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_45",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_45",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_46",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_46",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_47",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_47",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_48",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_48",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_49",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_49",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_50",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_50",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_51",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_51",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_52",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_52",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_53",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_53",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_54",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_54",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_55",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_55",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_56",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_56",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_57",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_57",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_58",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_58",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_59",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_59",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_60",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_60",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_61",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_61",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_62",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_62",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_63",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_63",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_64",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_64",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_65",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_65",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_66",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_66",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_67",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_67",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_68",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_68",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_69",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_69",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_70",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_70",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_71",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_71",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_72",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_72",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_73",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_73",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_74",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_74",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_76",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_76",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_77",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_77",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_78",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_78",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_79",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_79",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_80",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_80",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_81",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_81",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_82",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_82",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_83",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_83",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_84",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_84",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_85",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_85",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_86",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_86",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_87",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_87",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_88",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_88",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_89",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_89",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_90",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_90",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_91",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_91",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_92",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_92",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_93",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_93",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_94",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_94",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_95",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_95",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_96",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_96",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_97",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_97",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_98",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_98",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_99",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_99",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_100",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_100",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_101",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_101",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_102",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_102",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_103",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_103",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_104",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_104",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_frame_105",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "leaf_centre_105",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_0.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_0.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_0.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_0.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_1.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_1.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_1.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_1.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_2.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_2.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_2.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_2.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_3.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_3.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_3.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_3.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_4.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_4.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_4.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_4.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_5.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_5.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_5.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_5.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_6.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_6.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_6.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_6.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_7.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_7.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_7.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_7.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_8.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_8.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_8.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_8.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_9.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_9.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_9.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_9.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_10.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_10.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_10.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_10.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_11.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_11.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_11.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_11.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_12.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_12.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_12.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_12.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_13.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_13.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_13.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_13.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_14.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_14.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_14.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_14.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_15.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_15.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_15.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_15.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_16.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_16.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_16.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_16.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_17.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_17.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_17.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_17.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_18.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_18.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_18.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_18.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_19.0",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_19.25",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_19.5",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_19.75",
+      "intersection_mm3": 0
+    },
+    {
+      "name": "frame_insert_20.0",
+      "intersection_mm3": 0
+    }
+  ],
+  "parts": [
+    {
+      "name": "01_门框与居中底脚",
+      "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-hidden-shaft-20261120\\试配STL_非整机定稿\\01_门框与居中底脚.stl",
+      "volume_mm3": 9309.622032786856,
+      "size_mm": [
+        79.5,
+        13.5,
+        74.0
+      ],
+      "self_intersection_faces": 0,
+      "sha256": "f695ea3865acef55d3543b5f64785fbcdb8478719f7b3ec9893529e2cd36b1cd"
+    },
+    {
+      "name": "02_内藏轴门扇",
+      "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-hidden-shaft-20261120\\试配STL_非整机定稿\\02_内藏轴门扇.stl",
+      "volume_mm3": 2762.2333600719962,
+      "size_mm": [
+        24.61904061061898,
+        54.662081520735235,
+        7.130507781708822
+      ],
+      "self_intersection_faces": 0,
+      "sha256": "4f864a4712da79e3bd7e3c55618b37d27606f9a5431cd7560504a9c2cacca539"
+    }
+  ],
+  "opening_checked_deg": [
+    0,
+    105
+  ],
+  "actual_print_or_servo_test": false,
+  "sliced": false,
+  "leaf_front_insertion_samples": 121,
+  "courtyard_collision_checked": [
+    "W01_环形建筑",
+    "W02_环形建筑",
+    "W03_环形建筑_附件13",
+    "W03_环形建筑",
+    "W04_环形建筑_附件05",
+    "W04_环形建筑",
+    "W05_环形建筑",
+    "W06_环形建筑",
+    "W07_环形建筑",
+    "W08_环形建筑_附件17",
+    "W08_环形建筑_附件18",
+    "W08_环形建筑_附件33",
+    "W08_环形建筑_附件34",
+    "W08_环形建筑_附件35",
+    "W08_环形建筑",
+    "S01_钢架",
+    "S02_钢架",
+    "S03_钢架",
+    "S04_钢架",
+    "S05_钢架",
+    "S06_钢架",
+    "S07_钢架",
+    "S08_钢架"
+  ],
+  "source_hashes": {
+    "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\analysis\\software_source.json": "5cd9518003a810e2f7b4f8b8c02da07c58f53e46746d880b0dc8a78f99221071",
+    "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽\\09_可换中心圆盘_116毫米_居中长槽.npz": "6749de81443d9013cd2041043e5af281fda56db28663c8008712d77f02458884"
+  }
+}

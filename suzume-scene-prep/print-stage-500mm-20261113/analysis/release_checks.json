@@ -1,0 +1,46 @@
+{
+  "status": "静态装配试打版；舵机传动未定型",
+  "archives": [
+    {
+      "archive": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\交付\\底座.zip",
+      "stl_count": 7,
+      "components": 33,
+      "sha256": "e98dcc5b71dae350caa7175b47d577df9ee09761bc2520b56ed05155c56a6114",
+      "seconds": 55665,
+      "grams": 702.09
+    },
+    {
+      "archive": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\交付\\白门.zip",
+      "stl_count": 1,
+      "components": 3,
+      "sha256": "e1488572e71b46c602e194efb46b67911b99484f577405c40030413962bf2af7",
+      "seconds": 3983,
+      "grams": 17.98
+    },
+    {
+      "archive": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\交付\\试配.zip",
+      "stl_count": 1,
+      "components": 5,
+      "sha256": "bc422b794a7b578f1eded0a172f96b54165703ff863b6264d064ed183753c7e9",
+      "seconds": 2341,
+      "grams": 15.44
+    }
+  ],
+  "physical_print_test": false,
+  "servo_fit_confirmed": false,
+  "checks": {
+    "closed_shells": true,
+    "native_slicing": true,
+    "gcode_hashes": true,
+    "bed_bounds": true,
+    "assembled_interference": true
+  },
+  "not_claimed": [
+    "实物配合已验证",
+    "舵机已能安装",
+    "门轴已能被舵机带动",
+    "承重和长时刚度已验证"
+  ],
+  "published_base_archive": "D:\\虚拟C盘\\底座.zip",
+  "stage_diameter_mm": 500
+}

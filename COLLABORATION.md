@@ -1,5 +1,7 @@
 # 协同开发
 
+当前快照：2026-11-24，PICO 1.13.0（待头显实测）。功能、操作与验证边界见 [本次发布说明](docs/PICO-v1.13.0-project-update.md)。
+
 这个仓库统一保存铃芽之旅的 Pico / Unity、Vision Pro、场景制作脚本和资料索引。
 源码、当前应用必需模型和贴图随 Git 提供。大型 Blender、打印文件和历史场景保存在同一仓库的 Releases，位置见 [DOWNLOADS.md](DOWNLOADS.md)。
 

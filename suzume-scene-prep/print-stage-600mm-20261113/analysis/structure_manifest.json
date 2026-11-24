@@ -1,0 +1,2492 @@
+{
+  "date": "2026-11-13",
+  "stage_diameter_mm": 600,
+  "courtyard_diameter_mm": 400,
+  "radial_border_mm": 100,
+  "deck_thickness_mm": 8,
+  "underclearance_mm": 80,
+  "total_height_mm": 88,
+  "slot_depth_mm": 3,
+  "nominal_slot_clearance_per_side_mm": 0.25,
+  "source_sha256": "f1a5161cba0a5df3d44ea017879b917a726c360144d38223ccf5c81178d4be5b",
+  "stage_choice": "60厘米圆形；结构样机，未做实体试配，不承诺零间隙或通用舵机即插即用。",
+  "servo_model": null,
+  "servo_horn_verified": false,
+  "actual_print_test": false,
+  "electronics_implemented": false,
+  "parts": [
+    {
+      "id": "底板11",
+      "group": "底座结构",
+      "quantity": 1,
+      "print_size_mm": [
+        182.63919764585356,
+        182.63919764585356,
+        8.0
+      ],
+      "volume_mm3": 165047.92392743754,
+      "faces": 5480,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        282.78919764585356,
+        282.78919764585356,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\底板11.stl",
+      "sha256": "1ba573a226998a0af46a3c8edde5b72acd1e7fc264a00cdaa3241a73d481c080"
+    },
+    {
+      "id": "底板12",
+      "group": "底座结构",
+      "quantity": 1,
+      "print_size_mm": [
+        199.7,
+        199.85,
+        8.0
+      ],
+      "volume_mm3": 264542.85953331104,
+      "faces": 19028,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        99.85,
+        300.0,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\底板12.stl",
+      "sha256": "66e007ddf9775ad739166270e04ac949172106d0c47f9e0c72d419c6206b5da2"
+    },
+    {
+      "id": "底板13",
+      "group": "底座结构",
+      "quantity": 1,
+      "print_size_mm": [
+        182.63919764585356,
+        182.63919764585356,
+        8.0
+      ],
+      "volume_mm3": 165046.65956593203,
+      "faces": 4854,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        -100.15,
+        282.78919764585356,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\底板13.stl",
+      "sha256": "e07cb27737bc8124c033596ef560b97b828a931886ae560f28a9e6e7b537f62f"
+    },
+    {
+      "id": "底板21",
+      "group": "底座结构",
+      "quantity": 1,
+      "print_size_mm": [
+        199.85,
+        199.7,
+        8.0
+      ],
+      "volume_mm3": 265586.91330535535,
+      "faces": 25462,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        300.0,
+        99.85,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\底板21.stl",
+      "sha256": "1d561ef6a125ba97a413704558c9f8f826947d2664a8eda9bcb1ef03f14fa676"
+    },
+    {
+      "id": "底板22",
+      "group": "底座结构",
+      "quantity": 1,
+      "print_size_mm": [
+        199.7,
+        199.7,
+        8.0
+      ],
+      "volume_mm3": 193187.79863521922,
+      "faces": 9222,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        99.85,
+        99.85,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\底板22.stl",
+      "sha256": "832b40a2be52cc9b54d78593e4ad710c1b03b527ee04e8e6c6f95557a40d758a"
+    },
+    {
+      "id": "底板23",
+      "group": "底座结构",
+      "quantity": 1,
+      "print_size_mm": [
+        199.85,
+        199.7,
+        8.0
+      ],
+      "volume_mm3": 265507.0944445119,
+      "faces": 25958,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        -100.15,
+        99.85,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\底板23.stl",
+      "sha256": "ab6ea70938f23079ca96c520f151add44e2e1382fc72e2250ae22c67225a8df1"
+    },
+    {
+      "id": "底板31",
+      "group": "底座结构",
+      "quantity": 1,
+      "print_size_mm": [
+        182.63919764585356,
+        182.63919764585356,
+        8.0
+      ],
+      "volume_mm3": 165258.80898503124,
+      "faces": 5400,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        282.78919764585356,
+        -100.15,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\底板31.stl",
+      "sha256": "a89260f50bbe0fe09e9e82be1538ae37cf8cae6613f837f25922bb98b416a99e"
+    },
+    {
+      "id": "底板32",
+      "group": "底座结构",
+      "quantity": 1,
+      "print_size_mm": [
+        199.7,
+        199.85,
+        8.0
+      ],
+      "volume_mm3": 265935.51805925154,
+      "faces": 21324,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        99.85,
+        -100.15,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\底板32.stl",
+      "sha256": "9eceb856f0231e2b89f153740ba4f8a2e68c613a2cc9c5092946b5fab59fd221"
+    },
+    {
+      "id": "底板33",
+      "group": "底座结构",
+      "quantity": 1,
+      "print_size_mm": [
+        182.63919764585356,
+        182.63919764585356,
+        8.0
+      ],
+      "volume_mm3": 165220.1779675959,
+      "faces": 6234,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        -100.15,
+        -100.15,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\底板33.stl",
+      "sha256": "932b722695a5970084e329c008495fe6832fe564438ee57749d65a410c506b8c"
+    },
+    {
+      "id": "围边_打印7件",
+      "group": "底座结构",
+      "quantity": 7,
+      "print_size_mm": [
+        228.56729388262966,
+        36.561093695025704,
+        80.0
+      ],
+      "volume_mm3": 72250.87503271084,
+      "faces": 2998,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        67.5
+      ],
+      "print_translation": [
+        114.28364694131483,
+        -262.4389063049743,
+        80.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\围边_打印7件.stl",
+      "sha256": "93fca5a15dc661f932dc61395d0249595b43fd7dfd1e84a5a3fb669eb8de069e"
+    },
+    {
+      "id": "出线围边_打印1件",
+      "group": "底座结构",
+      "quantity": 1,
+      "print_size_mm": [
+        228.56729388262966,
+        36.561093695025704,
+        80.0
+      ],
+      "volume_mm3": 71525.81397644554,
+      "faces": 3016,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        67.5
+      ],
+      "print_translation": [
+        114.28364694131483,
+        -262.4389063049743,
+        80.0
+      ],
+      "note": "16 mm 宽底部出线缺口；底部保持可检修",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\出线围边_打印1件.stl",
+      "sha256": "1385bc9589c6e94a9d387c1176c09f7fc2f9ae09c217d08ed288a1d4fb63b990"
+    },
+    {
+      "id": "中央支脚_打印4件",
+      "group": "底座结构",
+      "quantity": 4,
+      "print_size_mm": [
+        44.0,
+        44.0,
+        80.0
+      ],
+      "volume_mm3": 24082.783860393753,
+      "faces": 1676,
+      "components": 1,
+      "rotation_degrees": [
+        180,
+        0,
+        0
+      ],
+      "print_translation": [
+        22.0,
+        22.0,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\中央支脚_打印4件.stl",
+      "sha256": "9cf93299899e2aa1334733989ea247092cea962214553d465b4bb5c2bcd0f37e"
+    },
+    {
+      "id": "接缝压条_打印12件",
+      "group": "底座结构",
+      "quantity": 12,
+      "print_size_mm": [
+        52.0,
+        20.0,
+        5.0
+      ],
+      "volume_mm3": 4995.512465115706,
+      "faces": 580,
+      "components": 1,
+      "rotation_degrees": [
+        180,
+        0,
+        0
+      ],
+      "print_translation": [
+        26.0,
+        10.0,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\底座结构\\接缝压条_打印12件.stl",
+      "sha256": "b8e6a79f1566ab43d3ac445d15c130d4cf4ff7e8fd4ade2302858c5ac3646ea3"
+    },
+    {
+      "id": "门轴_打印1件",
+      "group": "门通用件",
+      "quantity": 1,
+      "print_size_mm": [
+        9.237604307034013,
+        9.0,
+        52.0
+      ],
+      "volume_mm3": 3011.5642412562315,
+      "faces": 348,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        4.618802153517007,
+        4.5,
+        24.0
+      ],
+      "note": "试制轴；9 mm 圆轴段、8 mm 对边六角端。先试转再接舵机。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\门通用件\\门轴_打印1件.stl",
+      "sha256": "48473f424fb5e61ef059769ecce93707d6eec40011d428aa5f65806c2b7d37b5"
+    },
+    {
+      "id": "门轴承托垫圈",
+      "group": "门通用件",
+      "quantity": 1,
+      "print_size_mm": [
+        14.0,
+        14.0,
+        2.0
+      ],
+      "volume_mm3": 162.84959762914517,
+      "faces": 512,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        7.0,
+        7.0,
+        -8.0
+      ],
+      "note": "垫在门扇下轴套与固定门框之间，门重传到门框，不压舵机。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\门通用件\\门轴承托垫圈.stl",
+      "sha256": "737277665d1f828799cbee53abc6a0e14a74146fa7d42c36b90884460042ce64"
+    },
+    {
+      "id": "舵盘接头",
+      "group": "门通用件",
+      "quantity": 1,
+      "print_size_mm": [
+        54.0,
+        32.0,
+        20.0
+      ],
+      "volume_mm3": 9440.397202124897,
+      "faces": 848,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        27.0,
+        16.0,
+        29.5
+      ],
+      "note": "夹持原配舵盘；不打印舵机花键。舵盘孔距与厚度需实物确认。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\门通用件\\舵盘接头.stl",
+      "sha256": "bb0197b41b6dba68b464975a3eb838d970a9735968e9b38bbdf33922b347bbc3"
+    },
+    {
+      "id": "舵盘夹片",
+      "group": "门通用件",
+      "quantity": 1,
+      "print_size_mm": [
+        54.0,
+        32.0,
+        3.0
+      ],
+      "volume_mm3": 4403.601512949593,
+      "faces": 552,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        27.0,
+        16.0,
+        35.5
+      ],
+      "note": "夹片间距由螺丝和垫片适配原配舵盘；图中 3 mm 仅为占位。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\门通用件\\舵盘夹片.stl",
+      "sha256": "e125be60acb283cdbd156fb30eb01f984ac3632682e5b3f083c3208b2d24d2ed"
+    },
+    {
+      "id": "舵机升降托架",
+      "group": "门通用件",
+      "quantity": 1,
+      "print_size_mm": [
+        144.0,
+        100.0,
+        16.0
+      ],
+      "volume_mm3": 19880.964183674096,
+      "faces": 1432,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        72.0,
+        50.0,
+        -0.0
+      ],
+      "note": "安装高度与输出轴位置待现有舵机试装；不是某个型号的专用底座。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\门通用件\\舵机升降托架.stl",
+      "sha256": "d274f5444fa301cb4cf280625e35290b4e91ac075e6e68ed270e3b7670fe91f6"
+    },
+    {
+      "id": "舵机滑动横梁_打印2件",
+      "group": "门通用件",
+      "quantity": 2,
+      "print_size_mm": [
+        144.0,
+        12.0,
+        4.0
+      ],
+      "volume_mm3": 5252.999092938475,
+      "faces": 672,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        72.0,
+        6.0,
+        -0.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\门通用件\\舵机滑动横梁_打印2件.stl",
+      "sha256": "80fc6b2b24b0869a56f54e1e3d5c2ddcfe4e30e41fb31201130a37c2ab48a985"
+    },
+    {
+      "id": "升降吊耳_打印4件",
+      "group": "门通用件",
+      "quantity": 4,
+      "print_size_mm": [
+        70.0,
+        14.0,
+        14.0
+      ],
+      "volume_mm3": 3809.0829988985774,
+      "faces": 552,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        90,
+        0
+      ],
+      "print_translation": [
+        66.0,
+        7.0,
+        4.0
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\门通用件\\升降吊耳_打印4件.stl",
+      "sha256": "e5e56547c032ab6bef3c857e051a1c6db5d5072a3ae895d0af51e57bdaa391fc"
+    },
+    {
+      "id": "主门插座板",
+      "group": "主门",
+      "quantity": 1,
+      "print_size_mm": [
+        176.0,
+        106.0,
+        8.0
+      ],
+      "volume_mm3": 116060.65896105785,
+      "faces": 5496,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        88.0,
+        33.0,
+        -0.0
+      ],
+      "note": "外轮廓统一 176×106 mm，缺角防反插；嵌入后用四颗 M3 螺丝锁紧。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\主门\\主门插座板.stl",
+      "sha256": "d9e4b004e869520efc6b26ae2aa517540606e63a5aede8e7e4a58caa2eeb6986"
+    },
+    {
+      "id": "主门门框",
+      "group": "主门",
+      "quantity": 1,
+      "print_size_mm": [
+        70.0,
+        105.0,
+        12.0
+      ],
+      "volume_mm3": 32469.2327281099,
+      "faces": 2126,
+      "components": 1,
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "print_translation": [
+        35.0,
+        -3.0,
+        41.0
+      ],
+      "note": "门洞宽高为 50×82 mm；门框横梁装 M4 螺母，M4×20 螺钉作固定上轴，门扇绕螺钉转动。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\主门\\主门门框.stl",
+      "sha256": "d2d954ffe193a10617b62968202341882762cbacbc19ae0966f0905e0920ef89"
+    },
+    {
+      "id": "主门门扇",
+      "group": "主门",
+      "quantity": 1,
+      "print_size_mm": [
+        50.8,
+        78.0,
+        12.600000000000001
+      ],
+      "volume_mm3": 25127.29812953365,
+      "faces": 982,
+      "components": 1,
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "print_translation": [
+        23.8,
+        -18.0,
+        40.6
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\主门\\主门门扇.stl",
+      "sha256": "6885f6fb3a64c99a9cb847915e6be33e7361719216e7af75dec3a49e4485f534"
+    },
+    {
+      "id": "小门插座板",
+      "group": "小门",
+      "quantity": 1,
+      "print_size_mm": [
+        176.0,
+        106.0,
+        8.0
+      ],
+      "volume_mm3": 116060.65896105785,
+      "faces": 5496,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        88.0,
+        33.0,
+        -0.0
+      ],
+      "note": "外轮廓统一 176×106 mm，缺角防反插；嵌入后用四颗 M3 螺丝锁紧。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\小门\\小门插座板.stl",
+      "sha256": "2ecbfd36a8e41f5d2040abf3cd645b70022cdb8bbd710226ed7c3c6ce158dd42"
+    },
+    {
+      "id": "小门门框",
+      "group": "小门",
+      "quantity": 1,
+      "print_size_mm": [
+        60.0,
+        85.0,
+        12.0
+      ],
+      "volume_mm3": 26027.974944802103,
+      "faces": 2128,
+      "components": 1,
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "print_translation": [
+        30.0,
+        -3.0,
+        41.0
+      ],
+      "note": "门洞宽高为 40×62 mm；门框横梁装 M4 螺母，M4×20 螺钉作固定上轴，门扇绕螺钉转动。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\小门\\小门门框.stl",
+      "sha256": "90e42bf1e689465e67b5b2ab2385488dfded12ee478e202281a43d1fa6ea1d1b"
+    },
+    {
+      "id": "小门门扇",
+      "group": "小门",
+      "quantity": 1,
+      "print_size_mm": [
+        40.8,
+        58.0,
+        12.600000000000001
+      ],
+      "volume_mm3": 15000.371669518077,
+      "faces": 976,
+      "components": 1,
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "print_translation": [
+        18.8,
+        -18.0,
+        40.6
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\小门\\小门门扇.stl",
+      "sha256": "77be3944e3eeb69bcfdcce571449429bca10cedeedcf498d90a39ea410761ee2"
+    },
+    {
+      "id": "大门插座板",
+      "group": "大门",
+      "quantity": 1,
+      "print_size_mm": [
+        176.0,
+        106.0,
+        8.0
+      ],
+      "volume_mm3": 116060.65896105785,
+      "faces": 5496,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        88.0,
+        33.0,
+        -0.0
+      ],
+      "note": "外轮廓统一 176×106 mm，缺角防反插；嵌入后用四颗 M3 螺丝锁紧。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\大门\\大门插座板.stl",
+      "sha256": "7664ab68c3fd721fa8da4ccfbfe832306bcca42a64c1d2353995884f99917db5"
+    },
+    {
+      "id": "大门门框",
+      "group": "大门",
+      "quantity": 1,
+      "print_size_mm": [
+        80.0,
+        125.0,
+        12.0
+      ],
+      "volume_mm3": 38910.490511417695,
+      "faces": 2132,
+      "components": 1,
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "print_translation": [
+        40.0,
+        -3.0,
+        41.0
+      ],
+      "note": "门洞宽高为 60×102 mm；门框横梁装 M4 螺母，M4×20 螺钉作固定上轴，门扇绕螺钉转动。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\大门\\大门门框.stl",
+      "sha256": "4af41164091385e119c71a51088cb1bf7ff8658a4fc69936baa89e7cd099dc54"
+    },
+    {
+      "id": "大门门扇",
+      "group": "大门",
+      "quantity": 1,
+      "print_size_mm": [
+        60.8,
+        98.0,
+        12.600000000000001
+      ],
+      "volume_mm3": 37844.49812953365,
+      "faces": 972,
+      "components": 1,
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "print_translation": [
+        28.8,
+        -18.0,
+        40.6
+      ],
+      "note": "",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\大门\\大门门扇.stl",
+      "sha256": "6628c5b78d46e39687038b978921b471dae02c64cefebe5f6ab6cf653ac78719"
+    },
+    {
+      "id": "侧向垫圈_打印4件",
+      "group": "门通用件",
+      "quantity": 4,
+      "print_size_mm": [
+        8.0,
+        8.0,
+        4.0
+      ],
+      "volume_mm3": 164.48060284422908,
+      "faces": 512,
+      "components": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        4.0,
+        4.0,
+        -0.0
+      ],
+      "note": "4 mm 厚，放在托架侧耳与升降吊耳之间。",
+      "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\STL\\门通用件\\侧向垫圈_打印4件.stl",
+      "sha256": "ce176244e24e1b86c43eb1491eb91e20d46a38433734467acca20a2704219b94"
+    }
+  ],
+  "sockets": [
+    {
+      "part": "W01_环形建筑",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 6371.9802880011675
+    },
+    {
+      "part": "W02_环形建筑",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 6299.961423234887
+    },
+    {
+      "part": "W03_环形建筑",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 6284.355440984152
+    },
+    {
+      "part": "W04_环形建筑",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 6282.86425599434
+    },
+    {
+      "part": "W05_环形建筑",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 6663.042750574087
+    },
+    {
+      "part": "W06_环形建筑",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 7100.832544693593
+    },
+    {
+      "part": "W07_环形建筑",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 7098.76768020243
+    },
+    {
+      "part": "W08_环形建筑",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 6574.753757521723
+    },
+    {
+      "part": "S01_钢架",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 2531.0544202026786
+    },
+    {
+      "part": "S02_钢架",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 2550.122595678448
+    },
+    {
+      "part": "S03_钢架",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 2531.2137647092654
+    },
+    {
+      "part": "S04_钢架",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 2529.9546179543445
+    },
+    {
+      "part": "S05_钢架",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 2438.0153315304087
+    },
+    {
+      "part": "S06_钢架",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 2098.627158194997
+    },
+    {
+      "part": "S07_钢架",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 2085.939841583702
+    },
+    {
+      "part": "S08_钢架",
+      "depth_mm": 3,
+      "clearance_per_side_mm": 0.25,
+      "entry_relief_per_side_mm": 0.55,
+      "profile_area_mm2": 2427.9808869988124
+    }
+  ],
+  "door_variants": [
+    {
+      "label": "主门",
+      "opening_width_mm": 50,
+      "opening_height_mm": 82,
+      "pivot_xy": [
+        20.0,
+        35.0
+      ],
+      "shaft_frame_datum_z": 8,
+      "tested_opening_degrees": [
+        0,
+        105
+      ],
+      "cassette_outer_mm": [
+        176,
+        106
+      ],
+      "view_angle_degrees_at_500mm": [
+        5.724810452223496,
+        9.375531695256361
+      ]
+    },
+    {
+      "label": "小门",
+      "opening_width_mm": 40,
+      "opening_height_mm": 62,
+      "pivot_xy": [
+        15.0,
+        35.0
+      ],
+      "shaft_frame_datum_z": 8,
+      "tested_opening_degrees": [
+        0,
+        105
+      ],
+      "cassette_outer_mm": [
+        176,
+        106
+      ],
+      "view_angle_degrees_at_500mm": [
+        4.581220085277059,
+        7.095594139335781
+      ]
+    },
+    {
+      "label": "大门",
+      "opening_width_mm": 60,
+      "opening_height_mm": 102,
+      "pivot_xy": [
+        25.0,
+        35.0
+      ],
+      "shaft_frame_datum_z": 8,
+      "tested_opening_degrees": [
+        0,
+        105
+      ],
+      "cassette_outer_mm": [
+        176,
+        106
+      ],
+      "view_angle_degrees_at_500mm": [
+        6.867260724901044,
+        11.648055032290145
+      ]
+    }
+  ],
+  "geometry_checks": [
+    {
+      "check": "W01_环形建筑落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W01_环形建筑插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W01_环形建筑插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W01_环形建筑插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W02_环形建筑落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W02_环形建筑插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W02_环形建筑插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W02_环形建筑插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W03_环形建筑_附件13落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W03_环形建筑落座",
+      "interference_mm3": 3.1048102690010404e-14,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W03_环形建筑插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W03_环形建筑插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W03_环形建筑插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W04_环形建筑_附件05落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W04_环形建筑落座",
+      "interference_mm3": 3.5883533676060014e-14,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W04_环形建筑插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W04_环形建筑插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W04_环形建筑插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W05_环形建筑落座",
+      "interference_mm3": 4.5311172420373654e-14,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W05_环形建筑插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W05_环形建筑插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W05_环形建筑插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W06_环形建筑落座",
+      "interference_mm3": 4.2883611449812605e-14,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W06_环形建筑插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W06_环形建筑插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W06_环形建筑插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W07_环形建筑落座",
+      "interference_mm3": 2.3062284176284308e-15,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W07_环形建筑插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W07_环形建筑插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W07_环形建筑插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W08_环形建筑_附件17落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W08_环形建筑_附件18落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W08_环形建筑_附件33落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W08_环形建筑_附件34落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W08_环形建筑_附件35落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W08_环形建筑落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W08_环形建筑插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W08_环形建筑插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "W08_环形建筑插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S01_钢架落座",
+      "interference_mm3": 7.886876695999547e-15,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S01_钢架插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S01_钢架插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S01_钢架插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S02_钢架落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S02_钢架插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S02_钢架插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S02_钢架插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S03_钢架落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S03_钢架插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S03_钢架插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S03_钢架插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S04_钢架落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S04_钢架插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S04_钢架插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S04_钢架插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S05_钢架落座",
+      "interference_mm3": 8.369292928659826e-15,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S05_钢架插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S05_钢架插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S05_钢架插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S06_钢架落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S06_钢架插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S06_钢架插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S06_钢架插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S07_钢架落座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S07_钢架插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S07_钢架插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S07_钢架插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S08_钢架落座",
+      "interference_mm3": 1.473328874692889e-14,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S08_钢架插入过程_1",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S08_钢架插入过程_2",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "S08_钢架插入过程_4",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头1与底板和旧部件",
+      "interference_mm3": 1.3183898417423734e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头2与底板和旧部件",
+      "interference_mm3": 1.3183898417423734e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头3与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头4与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头5与底板和旧部件",
+      "interference_mm3": 1.3183898417423734e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头6与底板和旧部件",
+      "interference_mm3": 1.3183898417423734e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头7与底板和旧部件",
+      "interference_mm3": 1.734723475976807e-17,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头8与底板和旧部件",
+      "interference_mm3": 1.3183898417423734e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头9与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头10与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头11与底板和旧部件",
+      "interference_mm3": 1.734723475976807e-17,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头12与底板和旧部件",
+      "interference_mm3": 1.3183898417423734e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头13与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头14与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头15与底板和旧部件",
+      "interference_mm3": 1.6176296413483726e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头16与底板和旧部件",
+      "interference_mm3": 1.6176296413483726e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头17与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头18与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头19与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头20与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头21与底板和旧部件",
+      "interference_mm3": 1.6176296413483726e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头22与底板和旧部件",
+      "interference_mm3": 1.6176296413483726e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头23与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头24与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头25与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头26与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头27与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头28与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头29与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头30与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头31与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头32与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头33与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头34与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头35与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头36与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头37与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头38与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头39与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头40与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头41与底板和旧部件",
+      "interference_mm3": 2.636779683484747e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头42与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头43与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头44与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头45与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头46与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头47与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头48与底板和旧部件",
+      "interference_mm3": 2.636779683484747e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头49与底板和旧部件",
+      "interference_mm3": 2.636779683484747e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头50与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头51与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头52与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头53与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头54与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头55与底板和旧部件",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "M3低圆头56与底板和旧部件",
+      "interference_mm3": 3.8163916471489756e-16,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门插座与台面",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门门框与插座",
+      "interference_mm3": 1.91018804506643e-15,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门门框与庭院",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门M4上轴与门框门扇",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门门轴与门扇",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门门轴与固定座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门承托垫圈与门轴门框",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门承托垫圈接触面积",
+      "area_mm2": 71.74865487275902
+    },
+    {
+      "check": "主门接头与插座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门接头与门轴",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门0度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门3度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门6度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门9度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门12度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门15度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门18度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门21度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门24度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门27度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门30度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门33度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门36度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门39度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门42度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门45度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门48度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门51度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门54度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门57度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门60度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门63度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门66度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门69度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门72度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门75度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门78度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门81度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门84度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门87度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门90度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门93度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门96度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门99度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门102度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门开门105度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "主门连续扫掠余量与庭院",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门插座与台面",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门门框与插座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门门框与庭院",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门M4上轴与门框门扇",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门门轴与门扇",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门门轴与固定座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门承托垫圈与门轴门框",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门承托垫圈接触面积",
+      "area_mm2": 71.74865487275902
+    },
+    {
+      "check": "小门接头与插座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门接头与门轴",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门0度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门3度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门6度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门9度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门12度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门15度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门18度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门21度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门24度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门27度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门30度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门33度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门36度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门39度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门42度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门45度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门48度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门51度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门54度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门57度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门60度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门63度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门66度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门69度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门72度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门75度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门78度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门81度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门84度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门87度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门90度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门93度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门96度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门99度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门102度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门开门105度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "小门连续扫掠余量与庭院",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门插座与台面",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门门框与插座",
+      "interference_mm3": 1.1551301703897378e-14,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门门框与庭院",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门M4上轴与门框门扇",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门门轴与门扇",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门门轴与固定座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门承托垫圈与门轴门框",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门承托垫圈接触面积",
+      "area_mm2": 71.74865487275902
+    },
+    {
+      "check": "大门接头与插座",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门接头与门轴",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门0度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门3度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门6度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门9度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门12度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门15度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门18度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门21度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门24度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门27度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门30度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门33度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门36度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门39度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门42度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门45度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门48度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门51度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门54度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门57度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门60度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门63度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门66度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门69度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门72度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门75度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门78度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门81度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门84度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门87度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门90度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门93度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门96度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门99度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门102度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门开门105度",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    },
+    {
+      "check": "大门连续扫掠余量与庭院",
+      "interference_mm3": 0.0,
+      "allowed_mm3": 0.005
+    }
+  ],
+  "positions": {
+    "bridge_points": [
+      [
+        -100,
+        -210,
+        0
+      ],
+      [
+        -100,
+        0,
+        0
+      ],
+      [
+        -100,
+        210,
+        0
+      ],
+      [
+        100,
+        -210,
+        0
+      ],
+      [
+        100,
+        0,
+        0
+      ],
+      [
+        100,
+        210,
+        0
+      ],
+      [
+        -210,
+        -100,
+        90
+      ],
+      [
+        0,
+        -100,
+        90
+      ],
+      [
+        210,
+        -100,
+        90
+      ],
+      [
+        -210,
+        100,
+        90
+      ],
+      [
+        0,
+        100,
+        90
+      ],
+      [
+        210,
+        100,
+        90
+      ]
+    ],
+    "post_centers": [
+      [
+        -100,
+        -100
+      ],
+      [
+        -100,
+        100
+      ],
+      [
+        100,
+        -100
+      ],
+      [
+        100,
+        100
+      ]
+    ],
+    "skirt_holes": [
+      [
+        289.53347938558915,
+        51.052564234077515
+      ],
+      [
+        240.8307010209636,
+        168.63147228720754
+      ],
+      [
+        168.63147228720754,
+        240.8307010209636
+      ],
+      [
+        51.05256423407754,
+        289.53347938558915
+      ],
+      [
+        -51.05256423407751,
+        289.53347938558915
+      ],
+      [
+        -168.63147228720757,
+        240.83070102096355
+      ],
+      [
+        -240.83070102096363,
+        168.63147228720752
+      ],
+      [
+        -289.53347938558915,
+        51.0525642340775
+      ],
+      [
+        -289.53347938558915,
+        -51.05256423407756
+      ],
+      [
+        -240.8307010209636,
+        -168.63147228720757
+      ],
+      [
+        -168.63147228720763,
+        -240.83070102096352
+      ],
+      [
+        -51.052564234077515,
+        -289.53347938558915
+      ],
+      [
+        51.05256423407741,
+        -289.5334793855892
+      ],
+      [
+        168.63147228720754,
+        -240.8307010209636
+      ],
+      [
+        240.83070102096352,
+        -168.63147228720766
+      ],
+      [
+        289.53347938558915,
+        -51.052564234077536
+      ]
+    ],
+    "cassette_bolts": [
+      [
+        -80,
+        -25.0
+      ],
+      [
+        -80,
+        65.0
+      ],
+      [
+        80,
+        -25.0
+      ],
+      [
+        80,
+        65.0
+      ]
+    ]
+  },
+  "pending": [
+    "用小试块确认槽口余量",
+    "核实现有舵机尺寸、原配舵盘孔距和厚度",
+    "打印单扇门并手动转动后再接舵机",
+    "控制角度、供电及远距离线材由后续电子联调确定"
+  ]
+}

@@ -11,6 +11,7 @@ public sealed class DoorCameraFrame
     public int width, height;
     public float fx, fy, cx, cy, time;
     public Matrix4x4 cameraToWorld;
+    public bool poseCorrected; public float captureAge;
 }
 
 // Finds the four inner corners of the door opening in a camera frame.
@@ -18,6 +19,12 @@ public sealed class DoorCameraFrame
 public interface IDoorKeypointDetector
 {
     bool TryDetect(DoorCameraFrame frame, Vector2[] pixels, float[] confidence);
+}
+
+public interface IDoorGuidedDetector
+{
+    bool TryDetectGuided(DoorCameraFrame frame, Rect searchRegion, Vector2[] pixels, float[] confidence);
+    void Reset();
 }
 
 // PICO 4 Ultra colour camera through PXR_CameraImage (system 5.15.0 or later, android.permission.CAMERA).
@@ -31,8 +38,9 @@ public sealed class PicoDoorCamera : IDisposable
     byte[] _rgba;
     Matrix4x4 _headToCamera = Matrix4x4.identity;
     float _fx, _fy, _cx, _cy;
+    EnterpriseDoorCamera _enterprise;
 
-    public bool IsRunning => _capturing;
+    public bool IsRunning => _enterprise != null ? _enterprise.IsRunning : _capturing;
     public int Width { get; private set; }
     public int Height { get; private set; }
     public string Failure { get; private set; }
@@ -46,8 +54,16 @@ public sealed class PicoDoorCamera : IDisposable
     {
         try
         {
-            if (PXR_CameraImage.GetAvailableCameras(out var cameras) != PxrResult.SUCCESS || cameras == null || Array.IndexOf(cameras, _id) < 0)
-                return Fail("camera not available");
+            var available = PXR_CameraImage.GetAvailableCameras(out var cameras);
+            if (available != PxrResult.SUCCESS || cameras == null || Array.IndexOf(cameras, _id) < 0)
+            {
+                Debug.LogWarning("[DoorCamera] OpenXR enumeration=" + available + "; checking enterprise camera compatibility");
+                if (!EnterpriseDoorCamera.IsSupportedDevice()) return Fail("camera API unavailable on this device/system");
+                _enterprise = new EnterpriseDoorCamera();
+                if (!await _enterprise.StartAsync(_lifetime.Token)) return Fail(_enterprise.Failure);
+                Width = _enterprise.Width; Height = _enterprise.Height;
+                return true;
+            }
             if (PXR_CameraImage.GetCameraImageResolutionCapability(_id, out var resolutions) != PxrResult.SUCCESS || resolutions.Length == 0)
                 return Fail("no resolution list");
             // The door is only a few centimetres tall, so take the resolution closest to the preferred width.
@@ -80,6 +96,7 @@ public sealed class PicoDoorCamera : IDisposable
     // headToWorld must be sampled on the main thread; the copy and grey conversion may run on a worker.
     public bool TryAcquire(Matrix4x4 headToWorld, float time, DoorCameraFrame frame)
     {
+        if (_enterprise != null) return _enterprise.TryAcquire(headToWorld, time, frame);
         if (!_capturing) return false;
         if (PXR_CameraImage.AcquireCameraImage(_id, _lastCapture, out ulong image, out long captured) != PxrResult.SUCCESS) return false;
         try
@@ -116,6 +133,7 @@ public sealed class PicoDoorCamera : IDisposable
     }
     void Release()
     {
+        _enterprise?.Dispose();
         if (_capturing) PXR_CameraImage.EndCameraCapture(_id);
         if (_session) PXR_CameraImage.DestroyCameraCaptureSession(_id);
         if (_device) PXR_CameraImage.DestroyCameraDevice(_id);

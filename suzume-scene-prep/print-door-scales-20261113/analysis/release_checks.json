@@ -1,0 +1,135 @@
+{
+  "status": "三档白门静态试配版",
+  "baseline_height_mm": 40,
+  "linear_factors": [
+    1.25,
+    1.5,
+    1.75
+  ],
+  "archives": [
+    {
+      "name": "白门",
+      "archive": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\交付\\白门.zip",
+      "sha256": "690f2d437f65df6edcbc3e98c4a9b110569122867473b1897bd1ce7b3e8ef912",
+      "stl_count": 3,
+      "parts": 9,
+      "published_path": "D:\\虚拟C盘\\白门.zip"
+    },
+    {
+      "name": "三档",
+      "archive": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\交付\\三档.zip",
+      "sha256": "c699b78b0b930b82c56818c7e3f2caba0dae46f4a5402435d5a2e61d090c89ba",
+      "stl_count": 1,
+      "parts": 9,
+      "published_path": "D:\\虚拟C盘\\三档.zip"
+    }
+  ],
+  "base_unchanged": {
+    "path": "D:\\虚拟C盘\\底座.zip",
+    "sha256": "e98dcc5b71dae350caa7175b47d577df9ee09761bc2520b56ed05155c56a6114"
+  },
+  "native_slicing": [
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim01.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim01.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 2.2,
+      "seconds": 4732,
+      "grams": 21.98,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "白门_1.25倍",
+      "group": "单档",
+      "quantity": 1,
+      "layer_height_mm": 0.16,
+      "stl_sha256": "893de0a5d060a3ebde2955a42aefd122dcd1b3cbc1764277c15772fa1d0498eb",
+      "md5_valid": true
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim02.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim02.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 2.4,
+      "seconds": 5553,
+      "grams": 27.06,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "白门_1.5倍",
+      "group": "单档",
+      "quantity": 1,
+      "layer_height_mm": 0.16,
+      "stl_sha256": "a3538a2e29a86f2c18054bfdd1720e2b1717c2cf4568ca5d7b184eeb3f532ffa",
+      "md5_valid": true
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim03.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim03.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 3.1,
+      "seconds": 6384,
+      "grams": 32.83,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "白门_1.75倍",
+      "group": "单档",
+      "quantity": 1,
+      "layer_height_mm": 0.16,
+      "stl_sha256": "abb7a637e0aa5002942a7a43e1d57d14428f74a820c873884feb86e641250b91",
+      "md5_valid": true
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim04.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\analysis\\slice_projects\\Slim04.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 5.9,
+      "seconds": 14677,
+      "grams": 79.47,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "三档同盘",
+      "group": "同盘",
+      "quantity": 1,
+      "layer_height_mm": 0.16,
+      "stl_sha256": "fd02af3fc81bed2bfe675becd47367505677bab0c952038903752ea498311f3d",
+      "md5_valid": true
+    }
+  ],
+  "physical_fit_test": false,
+  "servo_drive_finished": false
+}

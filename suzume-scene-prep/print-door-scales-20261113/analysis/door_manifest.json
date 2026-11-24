@@ -1,0 +1,2929 @@
+{
+  "date": "2026-11-13",
+  "status": "三档白门静态试配，舵机传动未定型",
+  "baseline_door_height_mm": 40,
+  "stage_diameter_mm": 500,
+  "courtyard_diameter_mm": 400,
+  "base_project": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113",
+  "main_door": "60毫米",
+  "door_variants": [
+    {
+      "label": "50毫米",
+      "factor": 1.25,
+      "outer_height_mm": 50,
+      "scale_from_source": 1.858736059479554,
+      "pivot_xy": [
+        10.223048327137546,
+        10.91078066914498
+      ],
+      "outer_frame_width_mm": 25.27881040892193,
+      "outer_pedestal_width_mm": 33.45724907063197,
+      "opening_width_mm": 18.587360594795538,
+      "opening_height_mm": 42.9368029739777,
+      "hinge_wall_mm": 1.309293680297398,
+      "cassette_dots": 1,
+      "cassette_mm": [
+        64,
+        44
+      ],
+      "pedestal_pocket_depth_mm": 1.2
+    },
+    {
+      "label": "60毫米",
+      "factor": 1.5,
+      "outer_height_mm": 60,
+      "scale_from_source": 2.2304832713754648,
+      "pivot_xy": [
+        12.267657992565056,
+        10.092936802973977
+      ],
+      "outer_frame_width_mm": 30.33457249070632,
+      "outer_pedestal_width_mm": 40.14869888475837,
+      "opening_width_mm": 22.30483271375465,
+      "opening_height_mm": 51.52416356877324,
+      "hinge_wall_mm": 1.8111524163568775,
+      "cassette_dots": 2,
+      "cassette_mm": [
+        64,
+        44
+      ],
+      "pedestal_pocket_depth_mm": 1.2
+    },
+    {
+      "label": "70毫米",
+      "factor": 1.75,
+      "outer_height_mm": 70,
+      "scale_from_source": 2.6022304832713754,
+      "pivot_xy": [
+        14.312267657992564,
+        9.275092936802974
+      ],
+      "outer_frame_width_mm": 35.3903345724907,
+      "outer_pedestal_width_mm": 46.84014869888476,
+      "opening_width_mm": 26.022304832713754,
+      "opening_height_mm": 60.111524163568774,
+      "hinge_wall_mm": 2.3130111524163572,
+      "cassette_dots": 3,
+      "cassette_mm": [
+        64,
+        44
+      ],
+      "pedestal_pocket_depth_mm": 1.2
+    }
+  ],
+  "parts": [
+    {
+      "id": "50毫米门框",
+      "group": "50毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\STL\\50毫米\\50毫米门框.stl",
+      "size_mm": [
+        33.45724907063197,
+        14.869888475836433,
+        50.0
+      ],
+      "sha256": "2e9fe5de3bc1ae4e54012714c4dd2689063b697f307b59723b5c7b4d8f10400a",
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        16.728624535315983,
+        -7.565055762081784,
+        -6.8
+      ]
+    },
+    {
+      "id": "50毫米门扇",
+      "group": "50毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\STL\\50毫米\\50毫米门扇.stl",
+      "size_mm": [
+        21.096654275092938,
+        41.44981412639406,
+        8.085501858736059
+      ],
+      "sha256": "ad5edd49364e708e83a6e0242b3c1248208b6673ea8e79a876335f4b0b7f3d8c",
+      "rotate": [
+        -90,
+        0,
+        0
+      ],
+      "shift": [
+        8.364312267657992,
+        -11.911524163568775,
+        16.486988847583643
+      ]
+    },
+    {
+      "id": "50毫米插座板",
+      "group": "50毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\STL\\50毫米\\50毫米插座板.stl",
+      "size_mm": [
+        64.0,
+        44.0,
+        8.0
+      ],
+      "sha256": "fa34ffeefb5e88c0233a763b7a5e4cbbe6f21d6e5bef2d553748bc4749b05228",
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        32.0,
+        7.0,
+        -0.0
+      ]
+    },
+    {
+      "id": "60毫米门框",
+      "group": "60毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\STL\\60毫米\\60毫米门框.stl",
+      "size_mm": [
+        40.14869888475837,
+        17.843866171003718,
+        60.0
+      ],
+      "sha256": "0b8da7abb7ba3b5851a0b322981c548532f1a85f1cacffa8ccf27748f3642aae",
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        20.074349442379184,
+        -6.078066914498141,
+        -6.8
+      ]
+    },
+    {
+      "id": "60毫米门扇",
+      "group": "60毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\STL\\60毫米\\60毫米门扇.stl",
+      "size_mm": [
+        25.315985130111525,
+        49.739776951672866,
+        9.702602230483272
+      ],
+      "sha256": "5c8b6020f7e32f87724327a284b5be7b4836eabb419ed14fc309bf906d6e926e",
+      "rotate": [
+        -90,
+        0,
+        0
+      ],
+      "shift": [
+        10.037174721189592,
+        -12.933828996282529,
+        16.78438661710037
+      ]
+    },
+    {
+      "id": "60毫米插座板",
+      "group": "60毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\STL\\60毫米\\60毫米插座板.stl",
+      "size_mm": [
+        64.0,
+        44.0,
+        8.0
+      ],
+      "sha256": "a774486545b803a1bbb8b0ed0c3e4e7c0b3055ff5298bb3a851a6689a69c7515",
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        32.0,
+        7.0,
+        -0.0
+      ]
+    },
+    {
+      "id": "70毫米门框",
+      "group": "70毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\STL\\70毫米\\70毫米门框.stl",
+      "size_mm": [
+        46.84014869888476,
+        20.817843866171003,
+        70.0
+      ],
+      "sha256": "d2db1c1c045677ba67d8471081ffee9fc7e1dfcb076381a5709781d2ed5dd650",
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        23.42007434944238,
+        -4.591078066914498,
+        -6.8
+      ]
+    },
+    {
+      "id": "70毫米门扇",
+      "group": "70毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\STL\\70毫米\\70毫米门扇.stl",
+      "size_mm": [
+        29.53531598513011,
+        58.02973977695166,
+        11.319702602230485
+      ],
+      "sha256": "5358e051c95807d8c4de279b1e372f30bed25a38c8fb2c743df2d48bbc72aee5",
+      "rotate": [
+        -90,
+        0,
+        0
+      ],
+      "shift": [
+        11.71003717472119,
+        -13.956133828996283,
+        17.0817843866171
+      ]
+    },
+    {
+      "id": "70毫米插座板",
+      "group": "70毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-scales-20261113\\STL\\70毫米\\70毫米插座板.stl",
+      "size_mm": [
+        64.0,
+        44.0,
+        8.0
+      ],
+      "sha256": "2b54d30125ef70b6f50c2219a5bf42c00f7ce03dba94a2609ac5ce206a56ebc6",
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        32.0,
+        7.0,
+        -0.0
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "check": "补孔只改变原门轴通道",
+      "interference_mm3": 0
+    },
+    {
+      "check": "补孔只改变原门扇轴道",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米共用底座槽",
+      "interference_mm3": 1.4525202617971704e-14
+    },
+    {
+      "check": "50毫米门框落座",
+      "interference_mm3": 3.429866577667082e-14
+    },
+    {
+      "check": "50毫米门框不碰底座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米门轴贯通",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米轴套实心环9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米轴套实心环26",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米轴套实心环12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米轴套实心环23",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门0度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门0轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门1度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门1轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门2度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门2轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门3度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门3轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门4度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门4轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门5度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门5轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门6度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门6轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门7度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门7轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门8度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门8轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门9度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门9轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门10度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门10轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门11度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门11轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门12度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门12轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门13度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门13轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门14度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门14轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门15度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门15轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门16度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门16轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门17度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门17轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门18度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门18轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门19度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门19轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门20度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门20轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门21度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门21轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门22度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门22轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门23度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门23轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门24度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门24轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门25度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门25轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门26度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门26轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门27度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门27轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门28度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门28轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门29度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门29轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门30度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门30轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门31度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门31轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门32度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门32轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门33度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门33轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门34度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门34轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门35度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门35轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门36度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门36轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门37度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门37轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门38度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门38轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门39度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门39轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门40度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门40轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门41度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门41轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门42度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门42轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门43度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门43轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门44度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门44轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门45度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门45轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门46度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门46轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门47度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门47轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门48度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门48轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门49度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门49轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门50度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门50轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门51度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门51轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门52度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门52轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门53度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门53轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门54度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门54轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门55度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门55轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门56度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门56轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门57度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门57轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门58度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门58轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门59度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门59轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门60度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门60轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门61度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门61轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门62度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门62轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门63度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门63轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门64度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门64轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门65度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门65轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门66度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门66轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门67度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门67轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门68度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门68轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门69度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门69轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门70度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门70轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门71度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门71轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门72度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门72轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门73度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门73轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门74度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门74轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门75度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门75轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门76度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门76轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门77度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门77轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门78度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门78轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门79度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门79轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门80度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门80轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门81度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门81轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门82度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门82轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门83度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门83轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门84度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门84轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门85度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门85轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门86度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门86轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门87度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门87轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门88度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门88轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门89度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门89轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门90度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门90轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门91度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门91轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门92度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门92轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门93度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门93轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门94度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门94轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门95度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门95轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门96度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门96轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门97度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门97轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门98度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门98轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门99度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门99轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门100度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门100轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门101度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门101轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门102度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门102轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门103度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门103轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门104度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门104轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门105度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门105轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米共用底座槽",
+      "interference_mm3": 1.4525202617971704e-14
+    },
+    {
+      "check": "60毫米门框落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米门框不碰底座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米门轴贯通",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米轴套实心环9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米轴套实心环26",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米轴套实心环12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米轴套实心环23",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门0度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门0轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门1度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门1轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门2度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门2轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门3度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门3轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门4度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门4轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门5度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门5轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门6度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门6轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门7度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门7轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门8度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门8轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门9度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门9轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门10度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门10轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门11度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门11轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门12度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门12轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门13度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门13轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门14度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门14轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门15度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门15轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门16度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门16轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门17度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门17轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门18度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门18轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门19度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门19轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门20度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门20轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门21度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门21轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门22度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门22轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门23度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门23轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门24度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门24轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门25度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门25轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门26度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门26轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门27度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门27轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门28度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门28轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门29度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门29轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门30度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门30轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门31度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门31轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门32度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门32轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门33度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门33轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门34度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门34轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门35度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门35轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门36度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门36轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门37度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门37轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门38度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门38轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门39度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门39轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门40度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门40轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门41度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门41轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门42度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门42轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门43度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门43轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门44度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门44轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门45度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门45轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门46度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门46轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门47度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门47轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门48度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门48轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门49度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门49轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门50度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门50轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门51度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门51轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门52度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门52轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门53度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门53轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门54度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门54轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门55度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门55轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门56度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门56轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门57度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门57轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门58度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门58轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门59度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门59轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门60度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门60轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门61度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门61轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门62度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门62轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门63度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门63轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门64度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门64轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门65度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门65轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门66度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门66轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门67度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门67轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门68度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门68轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门69度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门69轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门70度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门70轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门71度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门71轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门72度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门72轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门73度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门73轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门74度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门74轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门75度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门75轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门76度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门76轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门77度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门77轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门78度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门78轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门79度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门79轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门80度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门80轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门81度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门81轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门82度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门82轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门83度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门83轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门84度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门84轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门85度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门85轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门86度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门86轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门87度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门87轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门88度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门88轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门89度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门89轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门90度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门90轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门91度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门91轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门92度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门92轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门93度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门93轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门94度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门94轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门95度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门95轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门96度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门96轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门97度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门97轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门98度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门98轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门99度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门99轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门100度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门100轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门101度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门101轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门102度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门102轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门103度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门103轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门104度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门104轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门105度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门105轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米共用底座槽",
+      "interference_mm3": 1.4525202617971704e-14
+    },
+    {
+      "check": "70毫米门框落座",
+      "interference_mm3": 1.0813650753333456e-15
+    },
+    {
+      "check": "70毫米门框不碰底座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米门轴贯通",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米轴套实心环9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米轴套实心环26",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米轴套实心环12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米轴套实心环23",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门0度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门0轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门1度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门1轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门2度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门2轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门3度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门3轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门4度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门4轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门5度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门5轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门6度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门6轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门7度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门7轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门8度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门8轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门9度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门9轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门10度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门10轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门11度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门11轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门12度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门12轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门13度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门13轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门14度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门14轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门15度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门15轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门16度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门16轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门17度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门17轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门18度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门18轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门19度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门19轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门20度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门20轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门21度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门21轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门22度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门22轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门23度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门23轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门24度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门24轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门25度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门25轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门26度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门26轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门27度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门27轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门28度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门28轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门29度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门29轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门30度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门30轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门31度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门31轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门32度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门32轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门33度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门33轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门34度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门34轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门35度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门35轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门36度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门36轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门37度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门37轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门38度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门38轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门39度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门39轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门40度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门40轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门41度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门41轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门42度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门42轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门43度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门43轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门44度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门44轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门45度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门45轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门46度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门46轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门47度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门47轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门48度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门48轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门49度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门49轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门50度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门50轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门51度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门51轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门52度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门52轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门53度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门53轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门54度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门54轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门55度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门55轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门56度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门56轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门57度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门57轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门58度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门58轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门59度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门59轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门60度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门60轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门61度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门61轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门62度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门62轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门63度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门63轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门64度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门64轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门65度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门65轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门66度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门66轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门67度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门67轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门68度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门68轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门69度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门69轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门70度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门70轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门71度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门71轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门72度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门72轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门73度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门73轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门74度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门74轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门75度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门75轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门76度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门76轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门77度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门77轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门78度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门78轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门79度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门79轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门80度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门80轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门81度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门81轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门82度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门82轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门83度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门83轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门84度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门84轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门85度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门85轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门86度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门86轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门87度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门87轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门88度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门88轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门89度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门89轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门90度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门90轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门91度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门91轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门92度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门92轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门93度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门93轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门94度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门94轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门95度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门95轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门96度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门96轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门97度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门97轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门98度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门98轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门99度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门99轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门100度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门100轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门101度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门101轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门102度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门102轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门103度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门103轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门104度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门104轴孔",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门105度",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门105轴孔",
+      "interference_mm3": 0
+    }
+  ],
+  "shaft_bore_mm": 2.4,
+  "shaft_nominal_mm": 2,
+  "actual_print_test": false,
+  "mounting_interface": "保持 64×44 mm 插座板、下方缺角定位舌与 M2 孔位。每档使用专属浅槽和轴孔位置。",
+  "actuation_status": "门轴孔已贯通；舵机支架、轴与门扇的传扭连接仍需按舵机实物定型。"
+}

@@ -1,5 +1,20 @@
 # 完整项目下载
 
+## 2026-11-24 · 最新源码、模型与 PICO 1.13.0
+
+[本次 Release](https://github.com/JavonLoong/suzume-visionpro/releases/tag/project-update-2026-11-24) · [发布和测试说明](docs/PICO-v1.13.0-project-update.md) · [SHA-256](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/SHA256SUMS.txt)
+
+| 下载 | 大小 | 内容 |
+| --- | ---: | --- |
+| [SuzumePortal-PICO-v1.13.0.apk](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/SuzumePortal-PICO-v1.13.0.apk) | 107.1 MiB | 识别固定与四角微调；待头显实测 |
+| [project-assets-20261124-01.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/project-assets-20261124-01.zip) | 49.2 MiB | 4 个项目文件；路径见清单 |
+| [project-assets-20261124-02.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/project-assets-20261124-02.zip) | 508.1 MiB | 204 个项目文件；路径见清单 |
+| [project-assets-20261124-03.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/project-assets-20261124-03.zip) | 526.0 MiB | 419 个项目文件；路径见清单 |
+| [project-assets-20261124-04.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/project-assets-20261124-04.zip) | 589.3 MiB | 181 个项目文件；路径见清单 |
+| [project-assets-20261124-05.zip](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/project-assets-20261124-05.zip) | 24.7 MiB | 36 个项目文件；路径见清单 |
+
+五个 ZIP 是独立归档，不是需要拼接的分卷。九块底座在 `project-assets-20261124-05.zip` 的 `suzume-scene-prep/print-deliverables/` 内。完整恢复还会使用先前未改变的归档，运行 `python tools/project_assets.py --restore` 自动按清单获取；只取打印相关资料可加 `--scope print`。
+
 ## 2026-11-18 · PICO v1.12 门框视觉定位
 
 [本次 Release](https://github.com/JavonLoong/suzume-visionpro/releases/tag/pico-v1.12-door-vision-2026-11-18) · [发布与验收记录](docs/PICO-v1.12-door-vision.md) · [SHA-256](https://github.com/JavonLoong/suzume-visionpro/releases/download/pico-v1.12-door-vision-2026-11-18/SHA256SUMS.txt)
@@ -14,7 +29,7 @@
 
 ---
 
-本次快照时间：`2026-10-30T23:44:43.714920+08:00`。共 3,187 个项目文件，其中 1,903 个随 Git 提供。官方 PICO SDK 另按固定提交拉取。
+2026-10-30 历史快照时间：`2026-10-30T23:44:43.714920+08:00`。共 3,187 个项目文件，其中 1,903 个随 Git 提供。官方 PICO SDK 另按固定提交拉取。
 
 [本次 Release](https://github.com/JavonLoong/suzume-visionpro/releases/tag/complete-project-2026-10-30) · [协同开发说明](COLLABORATION.md) · [逐文件清单](PROJECT_MANIFEST.json)
 

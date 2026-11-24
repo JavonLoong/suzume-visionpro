@@ -10,7 +10,8 @@ public static class PortalControllerInput
 {
     public struct Hand
     {
-        public bool tracked, trigger, grip, primary, secondary;
+        public bool tracked, trigger, grip, primary, secondary, stickClick;
+        public Vector2 stick;
         public Vector3 position;
         public Quaternion rotation;
     }
@@ -23,7 +24,7 @@ public static class PortalControllerInput
         _actions?.Dispose();
         _actions = new InputActionMap("PortalHands");
         foreach (string hand in new[] { "LeftHand", "RightHand" })
-            foreach (string control in new[] { "devicePosition", "deviceRotation", "pointerPosition", "pointerRotation", "isTracked", "trackingState", "trigger", "triggerPressed", "grip", "gripPressed", "primaryButton", "secondaryButton" })
+            foreach (string control in new[] { "devicePosition", "deviceRotation", "pointerPosition", "pointerRotation", "isTracked", "trackingState", "trigger", "triggerPressed", "grip", "gripPressed", "primaryButton", "secondaryButton", "thumbstick", "thumbstickClicked" })
                 _actions.AddAction(hand + control, InputActionType.PassThrough, "<XRController>{" + hand + "}/" + control);
         _actions.Enable();
     }
@@ -45,7 +46,8 @@ public static class PortalControllerInput
             if (pos == null || rot == null) continue;
             return new Hand { tracked = true, position = pos.ReadValue(), rotation = rot.ReadValue(),
                 trigger = Button(device, "triggerPressed", "trigger"), grip = Button(device, "gripPressed", "grip"),
-                primary = Button(device, "primaryButton"), secondary = Button(device, "secondaryButton") };
+                primary = Button(device, "primaryButton"), secondary = Button(device, "secondaryButton"), stickClick=Button(device,"thumbstickClicked"),
+                stick=device.TryGetChildControl<Vector2Control>("thumbstick")?.ReadValue() ?? Vector2.zero };
         }
         Devices.Clear();
         InputDevices.GetDevicesWithCharacteristics(InputDeviceCharacteristics.Controller | (right ? InputDeviceCharacteristics.Right : InputDeviceCharacteristics.Left), Devices);
@@ -58,6 +60,8 @@ public static class PortalControllerInput
             device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.gripButton, out h.grip);
             device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.primaryButton, out h.primary);
             device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.secondaryButton, out h.secondary);
+            device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.primary2DAxis,out h.stick);
+            device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.primary2DAxisClick,out h.stickClick);
             return h;
         }
         return default;

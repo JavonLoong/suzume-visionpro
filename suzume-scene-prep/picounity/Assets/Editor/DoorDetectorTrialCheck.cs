@@ -16,11 +16,7 @@ public static class DoorDetectorTrialCheck
     public static void Run()
     {
         string[] lines = File.ReadAllLines(Path.GetFullPath(Reference));
-        string declaredRoot = lines[0];
-        string referenceFolder = Path.GetDirectoryName(Path.GetFullPath(Reference)) ?? ".";
-        string root = Path.IsPathRooted(declaredRoot)
-            ? declaredRoot
-            : Path.GetFullPath(Path.Combine(referenceFolder, declaredRoot));
+        string root = lines[0];
         Require(Directory.Exists(root), "dataset missing: " + root);
         foreach (var type in new[] { WorkerFactory.Type.CSharpBurst, WorkerFactory.Type.ComputePrecompiled })
         {

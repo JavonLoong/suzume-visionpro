@@ -1,0 +1,475 @@
+{
+  "result": "PASS",
+  "dimensions_mm": [
+    500.0,
+    500.0,
+    14.0
+  ],
+  "components": 1,
+  "watertight": true,
+  "winding_consistent": true,
+  "volume_mm3": 2484736.004862744,
+  "source": "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽",
+  "source_parts": [
+    {
+      "file": "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽\\01_外围底板_配W01与S01.npz",
+      "sha256": "18b220cb9aaceb8d458e8742043e169cef157b995d1f87d91b3d32193371434e"
+    },
+    {
+      "file": "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽\\02_外围底板_配W02与S02.npz",
+      "sha256": "07607b25e5e9348efe3a7398b4c3174d93281afc56d215bfe821076b27f9063b"
+    },
+    {
+      "file": "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽\\03_外围底板_配W03与S03.npz",
+      "sha256": "c97b330ff955b409bc1f6bd8a4fcac00cb71e445b0d4d4d50ba269d38bf1372d"
+    },
+    {
+      "file": "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽\\04_外围底板_配W04与S04.npz",
+      "sha256": "283b8d950f904f45f0b98fff08ad27a22d64d69b8b7f37dba166bce61eda4ce6"
+    },
+    {
+      "file": "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽\\05_外围底板_配W05与S05.npz",
+      "sha256": "cb0bc654a26060104ce64ef47feb5acdff69a21b3ffe560e0af1b2d47a616ac0"
+    },
+    {
+      "file": "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽\\06_外围底板_配W06与S06.npz",
+      "sha256": "aaebe81496a740a55f7af0d984b3da7f3d05e7e23b66c413065a2028654145b2"
+    },
+    {
+      "file": "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽\\07_外围底板_配W07与S07.npz",
+      "sha256": "169bd63edcb718f2998a97a08002668f14db49a9d19663f9d91eb3b4bd6d9cb1"
+    },
+    {
+      "file": "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽\\08_外围底板_配W08与S08.npz",
+      "sha256": "6259c6cb5471b5d9cadd58f317235cd52f2cf946dca9af1b5d41bf10a2033aeb"
+    },
+    {
+      "file": "D:\\虚拟C盘\\学习秋\\底座_严格九块_116毫米居中长槽\\09_可换中心圆盘_116毫米_居中长槽.npz",
+      "sha256": "6749de81443d9013cd2041043e5af281fda56db28663c8008712d77f02458884"
+    }
+  ],
+  "added_volume_mm3": 12045.372919108593,
+  "central_upper_slot_mm": [
+    80,
+    14,
+    3
+  ],
+  "central_lower_slot_xy_mm": [
+    68,
+    7
+  ],
+  "underside_relief_diameter_depth_mm": [
+    104,
+    5
+  ],
+  "slice_tested": false,
+  "physical_print_tested": false,
+  "changes": [
+    "8外围块和中心盘合为1个封闭实体",
+    "填满外围接缝、燕尾配合间隙、中央环形间隙",
+    "取消外围M3和中心M2拼接孔及螺母槽、中心拆卸缺口",
+    "保留建筑钢架凹槽、32定位盲孔、编号点坑、居中双层长槽和中心底面避空"
+  ],
+  "checks": [
+    {
+      "check": "建筑钢架槽保持畅通",
+      "volume_mm3": 8.166563225580834e-13,
+      "pass": true
+    },
+    {
+      "check": "槽口导入保持畅通",
+      "volume_mm3": 1.034001047147225e-13,
+      "pass": true
+    },
+    {
+      "check": "中央80x14槽保持畅通",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "中央68x7通槽保持畅通",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔01保持畅通",
+      "volume_mm3": 1.8207657603852567e-14,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔02保持畅通",
+      "volume_mm3": 3.858025010572419e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔03保持畅通",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔04保持畅通",
+      "volume_mm3": 4.468647674116255e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔05保持畅通",
+      "volume_mm3": 8.354428260304303e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔06保持畅通",
+      "volume_mm3": 2.4424906541753444e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔07保持畅通",
+      "volume_mm3": 1.942890293094024e-16,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔08保持畅通",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔09保持畅通",
+      "volume_mm3": 1.3322676295501878e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔10保持畅通",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔11保持畅通",
+      "volume_mm3": 1.174060848541103e-14,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔12保持畅通",
+      "volume_mm3": 7.13318293321663e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔13保持畅通",
+      "volume_mm3": 1.6653345369377348e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔14保持畅通",
+      "volume_mm3": 5.662137425588298e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔15保持畅通",
+      "volume_mm3": 1.3600232051658168e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔16保持畅通",
+      "volume_mm3": 7.993605777301127e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔17保持畅通",
+      "volume_mm3": 2.6645352591003757e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔18保持畅通",
+      "volume_mm3": 8.43769498715119e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔19保持畅通",
+      "volume_mm3": 2.6645352591003757e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔20保持畅通",
+      "volume_mm3": 1.2850831510036187e-14,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔21保持畅通",
+      "volume_mm3": 1.2989609388114332e-14,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔22保持畅通",
+      "volume_mm3": 7.438494264988549e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔23保持畅通",
+      "volume_mm3": 1.0547118733938987e-14,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔24保持畅通",
+      "volume_mm3": 2.3869795029440866e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔25保持畅通",
+      "volume_mm3": 4.440892098500626e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔26保持畅通",
+      "volume_mm3": 4.440892098500626e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔27保持畅通",
+      "volume_mm3": 1.509903313490213e-14,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔28保持畅通",
+      "volume_mm3": 1.304512053934559e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔29保持畅通",
+      "volume_mm3": 2.095545958979983e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔30保持畅通",
+      "volume_mm3": 1.4155343563970746e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔31保持畅通",
+      "volume_mm3": 1.6653345369377348e-15,
+      "pass": true
+    },
+    {
+      "check": "定位盲孔32保持畅通",
+      "volume_mm3": 2.886579864025407e-15,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W01_环形建筑",
+      "volume_mm3": 2.9789748791270005e-13,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W02_环形建筑",
+      "volume_mm3": 4.483890473220235e-14,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W03_环形建筑_附件13",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W03_环形建筑",
+      "volume_mm3": 1.2372392234262942e-13,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W04_环形建筑_附件05",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W04_环形建筑",
+      "volume_mm3": 1.5429293194933995e-12,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W05_环形建筑",
+      "volume_mm3": 6.34445080521563e-13,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W06_环形建筑",
+      "volume_mm3": 1.3686622138349584e-12,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W07_环形建筑",
+      "volume_mm3": 3.972669533628582e-13,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W08_环形建筑_附件17",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W08_环形建筑_附件18",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W08_环形建筑_附件33",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W08_环形建筑_附件34",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W08_环形建筑_附件35",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_W08_环形建筑",
+      "volume_mm3": 1.1728131462259347e-12,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_S01_钢架",
+      "volume_mm3": 1.9542300930932478e-13,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_S02_钢架",
+      "volume_mm3": 1.7274878777224602e-13,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_S03_钢架",
+      "volume_mm3": 4.086515309840495e-14,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_S04_钢架",
+      "volume_mm3": 2.3529491284310215e-13,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_S05_钢架",
+      "volume_mm3": 2.732018317892193e-13,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_S06_钢架",
+      "volume_mm3": 3.008595834638907e-13,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_S07_钢架",
+      "volume_mm3": 1.792670597941107e-13,
+      "pass": true
+    },
+    {
+      "check": "原建筑钢架无穿插_S08_钢架",
+      "volume_mm3": 6.956482406296435e-14,
+      "pass": true
+    },
+    {
+      "check": "原设计门底脚上拔_0",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原设计门底脚上拔_0.25",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原设计门底脚上拔_1",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原设计门底脚上拔_3",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原设计门底脚上拔_6",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原设计门底脚上拔_10",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原设计门底脚上拔_15",
+      "volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "原零件与重建实体差异_01_外围底板_配W01与S01",
+      "residual_mm3": 0.2312316586115084,
+      "relative_volume": 7.756138573204655e-07,
+      "source_simplification_mm": 0.002,
+      "pass": true
+    },
+    {
+      "check": "原零件与重建实体差异_02_外围底板_配W02与S02",
+      "residual_mm3": 0.21516416042265873,
+      "relative_volume": 7.213588026845822e-07,
+      "source_simplification_mm": 0.002,
+      "pass": true
+    },
+    {
+      "check": "原零件与重建实体差异_03_外围底板_配W03与S03",
+      "residual_mm3": 0.217911692935386,
+      "relative_volume": 7.304195427983328e-07,
+      "source_simplification_mm": 0.002,
+      "pass": true
+    },
+    {
+      "check": "原零件与重建实体差异_04_外围底板_配W04与S04",
+      "residual_mm3": 0.24549884089068366,
+      "relative_volume": 8.226859188473112e-07,
+      "source_simplification_mm": 0.002,
+      "pass": true
+    },
+    {
+      "check": "原零件与重建实体差异_05_外围底板_配W05与S05",
+      "residual_mm3": 0.23559481221821932,
+      "relative_volume": 7.910455332053262e-07,
+      "source_simplification_mm": 0.002,
+      "pass": true
+    },
+    {
+      "check": "原零件与重建实体差异_06_外围底板_配W06与S06",
+      "residual_mm3": 0.2329237274549537,
+      "relative_volume": 7.828528034352117e-07,
+      "source_simplification_mm": 0.002,
+      "pass": true
+    },
+    {
+      "check": "原零件与重建实体差异_07_外围底板_配W07与S07",
+      "residual_mm3": 0.20248466539604043,
+      "relative_volume": 6.80631590029602e-07,
+      "source_simplification_mm": 0.002,
+      "pass": true
+    },
+    {
+      "check": "原零件与重建实体差异_08_外围底板_配W08与S08",
+      "residual_mm3": 0.2475636095405984,
+      "relative_volume": 8.305951715965058e-07,
+      "source_simplification_mm": 0.002,
+      "pass": true
+    },
+    {
+      "check": "原零件与重建实体差异_09_可换中心圆盘_116毫米_居中长槽",
+      "residual_mm3": 0.0,
+      "relative_volume": 0.0,
+      "source_simplification_mm": 0.002,
+      "pass": true
+    }
+  ],
+  "stl_sha256": "2b5d2277e9c17739dfb9acbe1f745353078bf388dd99fe339c038f74e4eb5548",
+  "model_3mf_verified": {
+    "unit": "millimeter",
+    "objects": 1,
+    "watertight": true,
+    "matches_stl_volume_within_mm3": 0.01
+  }
+}
