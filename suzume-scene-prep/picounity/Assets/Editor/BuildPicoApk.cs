@@ -19,7 +19,14 @@ public static class BuildPicoApk
     const string PackageId = "com.suzume.portal";
     const string ApkPath = "Builds/SuzumePortal-PICO.apk";
 
-    public static void Build()
+    public static void Build() { BuildVariant(false); }
+    public static void BuildSeparateTrial()
+    {
+        string id=PlayerSettings.GetApplicationIdentifier(BuildTargetGroup.Android),name=PlayerSettings.productName;
+        try { BuildVariant(true); }
+        finally { PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android,id);PlayerSettings.productName=name; }
+    }
+    static void BuildVariant(bool physicalTrial)
     {
         Directory.CreateDirectory("Builds");
 
@@ -35,10 +42,10 @@ public static class BuildPicoApk
             Fail("无法切换到 Android 构建目标");
 
         PlayerSettings.companyName = "Suzume";
-        PlayerSettings.productName = "铃芽之旅·11.18版";
-        PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, PackageId);
-        PlayerSettings.bundleVersion = "1.13.0";
-        PlayerSettings.Android.bundleVersionCode = 22;
+        PlayerSettings.productName = physicalTrial ? "铃芽之旅·实体门联调" : "铃芽之旅·11.18版";
+        PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, physicalTrial ? "com.suzume.portal.bletrial" : PackageId);
+        PlayerSettings.bundleVersion = "1.13.1";
+        PlayerSettings.Android.bundleVersionCode = 23;
         PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
         PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel29;
@@ -75,7 +82,7 @@ public static class BuildPicoApk
         var options = new BuildPlayerOptions
         {
             scenes = new[] { "Assets/Scenes/SuzumePortal.unity" },
-            locationPathName = ApkPath,
+            locationPathName = physicalTrial ? "Builds/SuzumePortal-PICO-PhysicalDoor-v1.13.1.apk" : ApkPath,
             target = BuildTarget.Android,
             targetGroup = BuildTargetGroup.Android,
             options = BuildOptions.CompressWithLz4
@@ -85,7 +92,7 @@ public static class BuildPicoApk
         if (report.summary.result != BuildResult.Succeeded)
             Fail("打包失败: " + report.summary.result + " 错误数 " + report.summary.totalErrors);
 
-        Debug.Log("APK 已生成: " + Path.GetFullPath(ApkPath) + " 大小 " + report.summary.totalSize);
+        Debug.Log("APK 已生成: " + Path.GetFullPath(options.locationPathName) + " 大小 " + report.summary.totalSize);
     }
 
     static void EnableOpenXR()

@@ -54,14 +54,15 @@ public class PortalManager : MonoBehaviour
     PortalQuadWarp _quadWarp;
     public Vector3[] GetWorldCorners()
     {
-        if(adjustedOpening!=null&&adjustedOpening.Length==4)
+        if(DoorQuadPlacement.HasFourFiniteCorners(adjustedOpening))
         { var p=new Vector3[4];for(int i=0;i<4;i++)p[i]=transform.TransformPoint(adjustedOpening[i]);return p; }
         return DoorQuadPlacement.Rectangle(portalPosition,transform.rotation,portalWidth>0?portalWidth:PortalConfig.BaseDoorWidth*portalHeight/PortalConfig.BaseDoorHeight,portalHeight);
     }
     public void SetWorldCorners(Vector3[] points)
     {
-        adjustedOpening=points==null?null:new Vector3[4];
-        if(points!=null)for(int i=0;i<4;i++)adjustedOpening[i]=transform.InverseTransformPoint(points[i]);
+        bool valid=DoorQuadPlacement.HasFourFiniteCorners(points);
+        adjustedOpening=valid?new Vector3[4]:null;
+        if(valid)for(int i=0;i<4;i++)adjustedOpening[i]=transform.InverseTransformPoint(points[i]);
         if(_quadWarp==null)_quadWarp=GetComponent<PortalQuadWarp>()??gameObject.AddComponent<PortalQuadWarp>();
         _quadWarp.Apply(adjustedOpening);
     }
@@ -373,7 +374,10 @@ public class PortalManager : MonoBehaviour
         transform.rotation = useFullRotation ? portalRotation : Quaternion.Euler(0f, portalYaw, 0f);
         float widthScale = portalWidth > 0f ? portalWidth / PortalConfig.BaseDoorWidth : uniformScale;
         transform.localScale = new Vector3(widthScale, uniformScale, uniformScale);
-        if(adjustedOpening!=null) { if(_quadWarp==null)_quadWarp=GetComponent<PortalQuadWarp>()??gameObject.AddComponent<PortalQuadWarp>(); _quadWarp.Apply(adjustedOpening); }
+        // Unity may deserialize an unset array as empty. Reset a previous warp as well.
+        if(!DoorQuadPlacement.HasFourFiniteCorners(adjustedOpening))adjustedOpening=null;
+        if(adjustedOpening!=null && _quadWarp==null)_quadWarp=GetComponent<PortalQuadWarp>()??gameObject.AddComponent<PortalQuadWarp>();
+        if(_quadWarp!=null)_quadWarp.Apply(adjustedOpening);
         if (_dreamGo != null)
         {
             float sc = dreamWorldScale > 0f ? dreamWorldScale : PortalConfig.DreamWorldScale;
@@ -505,7 +509,7 @@ public class PortalManager : MonoBehaviour
     {
         Vector3 normalIntoPortal = -transform.forward.normalized;
         Vector3 planePoint = transform.position + normalIntoPortal * 0.005f;
-        if(adjustedOpening!=null&&adjustedOpening.Length==4)
+        if(DoorQuadPlacement.HasFourFiniteCorners(adjustedOpening))
         {
             float front=float.NegativeInfinity;
             foreach(var p in adjustedOpening)front=Mathf.Max(front,p.z*transform.lossyScale.z);
@@ -601,7 +605,7 @@ public class PortalManager : MonoBehaviour
         portalPosition = new Vector3(data.x, data.y, data.z);
         portalYaw = data.yaw;
         useFullRotation=data.fullRotation&&Quaternion.Dot(data.rotation,data.rotation)>.5f; portalRotation=data.rotation;
-        adjustedOpening=data.corners!=null&&data.corners.Length==4?data.corners:null;
+        adjustedOpening=DoorQuadPlacement.HasFourFiniteCorners(data.corners)?data.corners:null;
         lightMultiplier = data.light > 0.1f ? data.light : PortalConfig.LightMultiplier;
         atmosphereIntensity = data.atmosphere > 0.1f ? data.atmosphere : PortalConfig.AtmosphereIntensity;
         windStrength = data.wind >= 0f ? data.wind : PortalConfig.WindStrength;

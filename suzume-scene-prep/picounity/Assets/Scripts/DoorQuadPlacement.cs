@@ -42,8 +42,20 @@ public static class DoorQuadPlacement
         if(points==null)return null;var result=new Vector3[points.Length];
         for(int i=0;i<points.Length;i++)result[i]=origin+rotation*points[i];return result;
     }
+    public static bool HasFourFiniteCorners(Vector3[] corners)
+    {
+        if(corners==null || corners.Length!=4)return false;
+        foreach(var c in corners)
+            if(float.IsNaN(c.x)||float.IsNaN(c.y)||float.IsNaN(c.z)||
+               float.IsInfinity(c.x)||float.IsInfinity(c.y)||float.IsInfinity(c.z))return false;
+        // Four zero vectors are also an unset serialized value, not a door opening.
+        Vector3 across=(corners[0]-corners[1]+corners[2]-corners[3])*.5f;
+        Vector3 up=(corners[2]-corners[0]+corners[3]-corners[1])*.5f;
+        return Vector3.Cross(across,up).sqrMagnitude>1e-16f;
+    }
     public static Vector3 Warp(Vector3 p,Vector3[] corners)
     {
+        if(!HasFourFiniteCorners(corners))return p;
         float u=.5f-p.x/PortalConfig.BaseDoorWidth, v=p.y/PortalConfig.BaseDoorHeight;
         Vector3 bottom=Vector3.LerpUnclamped(corners[0],corners[1],u);
         Vector3 top=Vector3.LerpUnclamped(corners[2],corners[3],u);

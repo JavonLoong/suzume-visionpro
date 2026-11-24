@@ -12,6 +12,7 @@ public class PortalGuideView : MonoBehaviour
     float _opacity = 1f;
     public void Initialize(Camera camera)
     {
+        if(camera==null||_card!=null)return;
         transform.SetParent(camera.transform, false);
         _card = CreateCard("InstructionCard", new Vector3(0,-.40f,1.45f), new Vector3(1.12f,.392f,1));
         _footer = CreateCard("ControllerLegend", new Vector3(0,-.665f,1.45f), new Vector3(1.12f,.101f,1));
@@ -21,9 +22,11 @@ public class PortalGuideView : MonoBehaviour
     public void ShowRayGap(float gap,bool visible) { if(_gap!=null)_gap.Show(gap,visible); }
     public void Show(string page, bool visible, bool mountain, Context context=Context.Browse)
     {
+        if(_card==null) { Initialize(Camera.main);if(_card==null)return; }
         _visible = visible;
         _card.transform.localPosition=new Vector3(0,-.43f,1.8f);
         _card.transform.localScale=new Vector3(.94f,page.StartsWith("tune_")&&page!="tune_invalid"?.188f:.141f,1);
+        if(context==Context.Browse && PicoDoorBleLink.Active) { page=PicoDoorBleLink.Instance.GuidePage;_visible=true;visible=true; }
         SetTexture(_card,"slim_"+page);
         _footer.enabled=false;
         if (!Application.isPlaying) { _card.enabled = visible; _card.sharedMaterial.color = Color.white; }

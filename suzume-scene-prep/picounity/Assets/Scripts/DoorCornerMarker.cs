@@ -27,6 +27,8 @@ public class DoorCornerMarker : MonoBehaviour
     public bool CanRunGuided => IsGuiding && !_busy && !_paused && _focused;
     public string ProgressSummary => $"mode={_mode} corners={_count} firstRay={_hasFirstRay}";
     bool _paused, _focused = true;
+    public bool IsInitialized { get; private set; }
+    public bool CanControlPhysicalDoor => IsInitialized && IsBrowsing && !_busy && !_paused && _focused;
     PortalManager _portal;
     Mode _mode;
     PreviousPlacement _previous;
@@ -77,6 +79,7 @@ public class DoorCornerMarker : MonoBehaviour
     {
         Instance = this;
         _portal = FindObjectOfType<PortalManager>();
+        if(_portal==null) { Debug.LogError("[DoorCorner] PortalManager missing; initialization stopped"); enabled=false; return; }
         _selectedMountain=_portal.mountainLandscape;
         _portal.calibrationHidden=true;
         _portal.UpdatePortalState();
@@ -108,16 +111,19 @@ public class DoorCornerMarker : MonoBehaviour
         _imageCandidate.positionCount=5;_imageCandidate.enabled=false;
         _guide = new GameObject("PortalGuide").AddComponent<PortalGuideView>();
         if (Camera.main != null) _guide.Initialize(Camera.main);
+        IsInitialized=true;
+        Debug.Log("[DoorCorner] initialized Ready; left X enters manual placement");
         _prepareTask = Prepare();
     }
     void Update()
     {
         if (_imageCandidate != null && (!CanRunGuided || Time.unscaledTime > _candidateUntil)) _imageCandidate.enabled=false;
-        if (_portal == null) return;
+        if (_portal == null || !IsInitialized) return;
         ProcessInput(PortalControllerInput.Read(true),PortalControllerInput.Read(false));
     }
     void ProcessInput(PortalControllerInput.Hand right,PortalControllerInput.Hand left)
     {
+        if(!IsInitialized)return;
         // Preserve the selected corners/ray across sleep or a system dialog.
         if (_paused || !_focused) { _rayFresh=false; return; }
         if (_mode == Mode.Preview && _automatic && right.tracked && !right.trigger) _automaticPreviewReleased = true;
@@ -133,7 +139,7 @@ public class DoorCornerMarker : MonoBehaviour
         UpdateRay(right);
         if (!_busy)
         {
-            if (Rise(right.primary, _lastRight.primary, right.tracked, _lastRight.tracked))
+            if (!(IsBrowsing && PicoDoorBleLink.Active) && Rise(right.primary, _lastRight.primary, right.tracked, _lastRight.tracked))
             {
                 _selectedMountain=!_selectedMountain;
                 // During placement, choose the next landscape without rebuilding geometry
@@ -142,7 +148,7 @@ public class DoorCornerMarker : MonoBehaviour
                 PortalControllerInput.Pulse(true);
             }
             if (Rise(left.primary, _lastLeft.primary, left.tracked, _lastLeft.tracked)) Begin();
-            if (Rise(right.secondary, _lastRight.secondary, right.tracked, _lastRight.tracked))
+            if (!(IsBrowsing && PicoDoorBleLink.Active) && Rise(right.secondary, _lastRight.secondary, right.tracked, _lastRight.tracked))
             {
                 if (IsEditing || IsGuiding) Cancel(); else _help = !_help;
             }
@@ -200,6 +206,7 @@ public class DoorCornerMarker : MonoBehaviour
     }
     void UpdateRay(PortalControllerInput.Hand hand)
     {
+        if(_firstLine==null||_laser==null||_tip==null||_firstNearest==null||_secondNearest==null||_nearestBridge==null)return;
         bool active=(_mode==Mode.Ready || IsGuiding || _mode==Mode.Collect) && _count<4 && !_busy;
         _rayFresh=false;
         if(!_hasFirstRay) _rayHit=false;
