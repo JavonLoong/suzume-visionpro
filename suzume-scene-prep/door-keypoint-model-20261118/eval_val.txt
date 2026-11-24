@@ -1,4 +1,4 @@
-{
+﻿{
  "model": "door_net.onnx",
  "dataset": "door-keypoint-train-20261118",
  "split": "val",

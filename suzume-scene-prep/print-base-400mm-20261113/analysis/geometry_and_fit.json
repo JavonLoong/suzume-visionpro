@@ -1,0 +1,626 @@
+{
+  "design_date": "2026-11-13",
+  "diameter_mm": 400,
+  "thickness_mm": 5,
+  "stl_file": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-base-400mm-20261113\\STL\\底座.stl",
+  "stl_print_quantity": 4,
+  "identical_quadrants": true,
+  "print_size_mm": [
+    199.89984660180087,
+    199.89984660180087,
+    5.0
+  ],
+  "seam_gap_mm": 0.2,
+  "mounting_holes": [
+    {
+      "radius": 180,
+      "module": 1,
+      "angle": 12.5,
+      "x": 175.733281281588,
+      "y": 38.959130508858514
+    },
+    {
+      "radius": 180,
+      "module": 1,
+      "angle": 32.5,
+      "x": 151.81046024631942,
+      "y": 96.71392950242829
+    },
+    {
+      "radius": 180,
+      "module": 2,
+      "angle": 57.5,
+      "x": 96.7139295024283,
+      "y": 151.81046024631942
+    },
+    {
+      "radius": 180,
+      "module": 2,
+      "angle": 77.5,
+      "x": 38.95913050885852,
+      "y": 175.733281281588
+    },
+    {
+      "radius": 180,
+      "module": 3,
+      "angle": 102.5,
+      "x": -38.9591305088585,
+      "y": 175.733281281588
+    },
+    {
+      "radius": 180,
+      "module": 3,
+      "angle": 122.5,
+      "x": -96.71392950242831,
+      "y": 151.81046024631942
+    },
+    {
+      "radius": 180,
+      "module": 4,
+      "angle": 147.5,
+      "x": -151.81046024631942,
+      "y": 96.71392950242829
+    },
+    {
+      "radius": 180,
+      "module": 4,
+      "angle": 167.5,
+      "x": -175.733281281588,
+      "y": 38.95913050885849
+    },
+    {
+      "radius": 180,
+      "module": 5,
+      "angle": 192.5,
+      "x": -175.733281281588,
+      "y": -38.95913050885853
+    },
+    {
+      "radius": 180,
+      "module": 5,
+      "angle": 212.5,
+      "x": -151.81046024631942,
+      "y": -96.7139295024283
+    },
+    {
+      "radius": 180,
+      "module": 6,
+      "angle": 237.5,
+      "x": -96.71392950242836,
+      "y": -151.8104602463194
+    },
+    {
+      "radius": 180,
+      "module": 6,
+      "angle": 257.5,
+      "x": -38.95913050885851,
+      "y": -175.733281281588
+    },
+    {
+      "radius": 180,
+      "module": 7,
+      "angle": 282.5,
+      "x": 38.95913050885844,
+      "y": -175.73328128158803
+    },
+    {
+      "radius": 180,
+      "module": 7,
+      "angle": 302.5,
+      "x": 96.7139295024283,
+      "y": -151.81046024631942
+    },
+    {
+      "radius": 180,
+      "module": 8,
+      "angle": 327.5,
+      "x": 151.8104602463194,
+      "y": -96.71392950242836
+    },
+    {
+      "radius": 180,
+      "module": 8,
+      "angle": 347.5,
+      "x": 175.733281281588,
+      "y": -38.959130508858514
+    },
+    {
+      "radius": 134,
+      "module": 1,
+      "angle": 12.5,
+      "x": 130.82366495407106,
+      "y": 29.002908267705784
+    },
+    {
+      "radius": 134,
+      "module": 1,
+      "angle": 32.5,
+      "x": 113.01445373892669,
+      "y": 71.99814751847438
+    },
+    {
+      "radius": 134,
+      "module": 2,
+      "angle": 57.5,
+      "x": 71.9981475184744,
+      "y": 113.01445373892668
+    },
+    {
+      "radius": 134,
+      "module": 2,
+      "angle": 77.5,
+      "x": 29.002908267705788,
+      "y": 130.82366495407106
+    },
+    {
+      "radius": 134,
+      "module": 3,
+      "angle": 102.5,
+      "x": -29.002908267705774,
+      "y": 130.82366495407106
+    },
+    {
+      "radius": 134,
+      "module": 3,
+      "angle": 122.5,
+      "x": -71.99814751847441,
+      "y": 113.01445373892668
+    },
+    {
+      "radius": 134,
+      "module": 4,
+      "angle": 147.5,
+      "x": -113.01445373892669,
+      "y": 71.99814751847438
+    },
+    {
+      "radius": 134,
+      "module": 4,
+      "angle": 167.5,
+      "x": -130.82366495407106,
+      "y": 29.002908267705767
+    },
+    {
+      "radius": 134,
+      "module": 5,
+      "angle": 192.5,
+      "x": -130.82366495407106,
+      "y": -29.00290826770579
+    },
+    {
+      "radius": 134,
+      "module": 5,
+      "angle": 212.5,
+      "x": -113.01445373892668,
+      "y": -71.9981475184744
+    },
+    {
+      "radius": 134,
+      "module": 6,
+      "angle": 237.5,
+      "x": -71.99814751847444,
+      "y": -113.01445373892666
+    },
+    {
+      "radius": 134,
+      "module": 6,
+      "angle": 257.5,
+      "x": -29.002908267705777,
+      "y": -130.82366495407106
+    },
+    {
+      "radius": 134,
+      "module": 7,
+      "angle": 282.5,
+      "x": 29.00290826770573,
+      "y": -130.8236649540711
+    },
+    {
+      "radius": 134,
+      "module": 7,
+      "angle": 302.5,
+      "x": 71.9981475184744,
+      "y": -113.01445373892669
+    },
+    {
+      "radius": 134,
+      "module": 8,
+      "angle": 327.5,
+      "x": 113.01445373892666,
+      "y": -71.99814751847444
+    },
+    {
+      "radius": 134,
+      "module": 8,
+      "angle": 347.5,
+      "x": 130.82366495407106,
+      "y": -29.002908267705784
+    }
+  ],
+  "socket_diameter_mm": 3.4,
+  "socket_depth_mm": 2.2,
+  "socket_bottom_thickness_mm": 2.8,
+  "key_slot_bottom_thickness_mm": 2.9,
+  "existing_keys_required": 8,
+  "existing_pins_required": 32,
+  "keys_already_in": "第一组 第4盘",
+  "door_mount": "中心台阶底面薄涂胶固定，门扇铰链保持活动",
+  "geometry_checks": [
+    {
+      "quadrant": 1,
+      "watertight": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          0.10000000000002274,
+          0.10000000000002274,
+          0.0
+        ],
+        [
+          199.9998466018009,
+          199.9998466018009,
+          5.0
+        ]
+      ],
+      "volume_mm3": 156391.82043182928
+    },
+    {
+      "quadrant": 2,
+      "watertight": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -199.9998466018009,
+          0.10000000000002274,
+          0.0
+        ],
+        [
+          -0.10000000000002274,
+          199.9998466018009,
+          5.0
+        ]
+      ],
+      "volume_mm3": 156391.82043182926
+    },
+    {
+      "quadrant": 3,
+      "watertight": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -199.9998466018009,
+          -199.9998466018009,
+          0.0
+        ],
+        [
+          -0.10000000000002274,
+          -0.10000000000002274,
+          5.0
+        ]
+      ],
+      "volume_mm3": 156391.82043182928
+    },
+    {
+      "quadrant": 4,
+      "watertight": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          0.10000000000002274,
+          -199.9998466018009,
+          0.0
+        ],
+        [
+          199.9998466018009,
+          -0.10000000000002274,
+          5.0
+        ]
+      ],
+      "volume_mm3": 156391.82043182926
+    }
+  ],
+  "assembly_checks": [
+    {
+      "part": "W01_环形建筑",
+      "base_interference_mm3": 5.785077075473001e-14
+    },
+    {
+      "part": "W02_环形建筑",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "W03_环形建筑_附件13",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "W03_环形建筑",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "W04_环形建筑_附件05",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "W04_环形建筑",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "W05_环形建筑",
+      "base_interference_mm3": 1.4158123253464905e-13
+    },
+    {
+      "part": "W06_环形建筑",
+      "base_interference_mm3": 4.155583132140763e-15
+    },
+    {
+      "part": "W07_环形建筑",
+      "base_interference_mm3": 9.535244888453623e-14
+    },
+    {
+      "part": "W08_环形建筑_附件17",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "W08_环形建筑_附件18",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "W08_环形建筑_附件33",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "W08_环形建筑_附件34",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "W08_环形建筑_附件35",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "W08_环形建筑",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "S01_钢架",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "S02_钢架",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "S03_钢架",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "S04_钢架",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "S05_钢架",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "S06_钢架",
+      "base_interference_mm3": 7.0569327543351965e-15
+    },
+    {
+      "part": "S07_钢架",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "part": "S08_钢架",
+      "base_interference_mm3": 1.3753686893129861e-14
+    },
+    {
+      "part": "D01_门框与台阶",
+      "base_interference_mm3": 2.4771851236948805e-15
+    },
+    {
+      "part": "D02_六格门扇",
+      "base_interference_mm3": 0.0
+    },
+    {
+      "socket": "W01_环形建筑",
+      "angle": 12.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W01_环形建筑",
+      "angle": 32.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W02_环形建筑",
+      "angle": 57.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W02_环形建筑",
+      "angle": 77.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W03_环形建筑",
+      "angle": 102.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W03_环形建筑",
+      "angle": 122.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W04_环形建筑",
+      "angle": 147.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W04_环形建筑",
+      "angle": 167.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W05_环形建筑",
+      "angle": 192.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W05_环形建筑",
+      "angle": 212.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W06_环形建筑",
+      "angle": 237.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W06_环形建筑",
+      "angle": 257.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W07_环形建筑",
+      "angle": 282.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W07_环形建筑",
+      "angle": 302.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W08_环形建筑",
+      "angle": 327.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "W08_环形建筑",
+      "angle": 347.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S01_钢架",
+      "angle": 12.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S01_钢架",
+      "angle": 32.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S02_钢架",
+      "angle": 57.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S02_钢架",
+      "angle": 77.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S03_钢架",
+      "angle": 102.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S03_钢架",
+      "angle": 122.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S04_钢架",
+      "angle": 147.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S04_钢架",
+      "angle": 167.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S05_钢架",
+      "angle": 192.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S05_钢架",
+      "angle": 212.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S06_钢架",
+      "angle": 237.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S06_钢架",
+      "angle": 257.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S07_钢架",
+      "angle": 282.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S07_钢架",
+      "angle": 302.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S08_钢架",
+      "angle": 327.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "socket": "S08_钢架",
+      "angle": 347.5,
+      "pin_interference_mm3": 0.0
+    },
+    {
+      "key": 1,
+      "interference_mm3": 0.0
+    },
+    {
+      "key": 2,
+      "interference_mm3": 0.0
+    },
+    {
+      "key": 3,
+      "interference_mm3": 0.0
+    },
+    {
+      "key": 4,
+      "interference_mm3": 0.0
+    },
+    {
+      "key": 5,
+      "interference_mm3": 0.0
+    },
+    {
+      "key": 6,
+      "interference_mm3": 0.0
+    },
+    {
+      "key": 7,
+      "interference_mm3": 0.0
+    },
+    {
+      "key": 8,
+      "interference_mm3": 0.0
+    }
+  ],
+  "sha256": "a0b28d7bad8e4892c7c7be64348b5a8b7d405a8287316d31310140a3cc7ca432",
+  "source_manifest_sha256": "f1a5161cba0a5df3d44ea017879b917a726c360144d38223ccf5c81178d4be5b",
+  "actual_print_test": false,
+  "water_tight_container": false,
+  "notes": [
+    "STL 是封闭实体，内部填充由切片设置决定。",
+    "拼缝与可取出的拼接键不构成承重锁扣；拼合后粘接并从底部托住搬运。",
+    "四块平底朝下打印，无悬空结构；旧版水底碎石细节未纳入本版。",
+    "不装真实水，不预留未确认的电子元件。"
+  ]
+}

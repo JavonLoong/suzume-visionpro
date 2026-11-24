@@ -9,17 +9,22 @@ using UnityEngine;
 public class DoorCornerMarker : MonoBehaviour
 {
     const string PlacementKey = "SuzumePortal.DoorPlacement.V3";
-    enum Mode { Ready, Collect, Preview, Browse }
-    [Serializable] class SavedPlacement { public string uuid; public float width, height; }
+    enum Mode { Ready, Guide, Collect, Preview, Browse, Tune }
+    [Serializable] class SavedPlacement { public string uuid; public float width, height; public int version; public Vector3[] corners; }
     struct PreviousPlacement
     {
-        public Vector3 position; public float yaw, width, height;
+        public Vector3 position; public float yaw, width, height; public Quaternion rotation; public Vector3[] corners;
         public PortalConfig.FrameMode frame; public bool leaf, fullView;
     }
     public static DoorCornerMarker Instance { get; private set; }
-    public bool IsEditing => _mode == Mode.Collect || _mode == Mode.Preview;
+    public bool IsEditing => _mode == Mode.Collect || _mode == Mode.Preview || _mode == Mode.Tune;
+    public bool IsTuning => _mode == Mode.Tune;
+    public int AdjustmentTarget => _tuneTarget;
     public bool IsBrowsing => _mode == Mode.Browse;
     public bool IsBusy => _busy;
+    public bool AnchorProviderReady => _providerReady;
+    public bool IsGuiding => _mode == Mode.Guide;
+    public bool CanRunGuided => IsGuiding && !_busy && !_paused && _focused;
     public string ProgressSummary => $"mode={_mode} corners={_count} firstRay={_hasFirstRay}";
     bool _paused, _focused = true;
     PortalManager _portal;
@@ -33,6 +38,15 @@ public class DoorCornerMarker : MonoBehaviour
     Transform _tip;
     Transform _firstNearest, _secondNearest;
     LineRenderer _outline;
+    LineRenderer _imageCandidate;
+    float _candidateUntil;
+    Vector3[] _candidateCorners, _tuneBefore;
+    Mode _tuneModeBefore;
+    int _tuneTarget;
+    bool _fine=true, _tuneTriggerReleased, _stickNeutral=true, _leftStickReady, _rightStickReady;
+    float _repeatAt;
+    Vector3 _adjustRight, _adjustForward;
+    public bool HasImageCandidate => _imageCandidate != null && _imageCandidate.enabled;
     LineRenderer _laser;
     LineRenderer _firstLine;
     LineRenderer _nearestBridge;
@@ -45,6 +59,7 @@ public class DoorCornerMarker : MonoBehaviour
     int _count;
     bool _busy, _providerReady, _persistent, _help = true;
     bool _previousWasBrowse, _selectedMountain, _automatic;
+    bool _automaticPreviewReleased;
     Task _prepareTask;
     ulong _anchor;
     SavedPlacement _saved;
@@ -87,12 +102,17 @@ public class DoorCornerMarker : MonoBehaviour
         _outline.transform.SetParent(transform, false);
         _outline.material = new Material(_material); _outline.material.color = new Color(.3f,1f,.6f);
         _outline.startWidth = _outline.endWidth = .006f; _outline.positionCount = 5; _outline.enabled = false;
+        _imageCandidate = new GameObject("DetectedDoorCandidate").AddComponent<LineRenderer>();
+        _imageCandidate.transform.SetParent(transform,false);_imageCandidate.useWorldSpace=true;
+        _imageCandidate.sharedMaterial=new Material(_material);_imageCandidate.sharedMaterial.color=new Color(1f,.65f,.12f);
+        _imageCandidate.positionCount=5;_imageCandidate.enabled=false;
         _guide = new GameObject("PortalGuide").AddComponent<PortalGuideView>();
         if (Camera.main != null) _guide.Initialize(Camera.main);
         _prepareTask = Prepare();
     }
     void Update()
     {
+        if (_imageCandidate != null && (!CanRunGuided || Time.unscaledTime > _candidateUntil)) _imageCandidate.enabled=false;
         if (_portal == null) return;
         ProcessInput(PortalControllerInput.Read(true),PortalControllerInput.Read(false));
     }
@@ -100,6 +120,16 @@ public class DoorCornerMarker : MonoBehaviour
     {
         // Preserve the selected corners/ray across sleep or a system dialog.
         if (_paused || !_focused) { _rayFresh=false; return; }
+        if (_mode == Mode.Preview && _automatic && right.tracked && !right.trigger) _automaticPreviewReleased = true;
+        if (!_busy && Rise(right.stickClick,_lastRight.stickClick,right.tracked,_lastRight.tracked)
+            && (_mode==Mode.Preview || IsBrowsing)) BeginAdjustment();
+        if (IsTuning)
+        {
+            if(!_busy) ProcessAdjustment(right,left);
+            _lastRight=right;_lastLeft=left;
+            _guide?.Show(_busy?"busy":CurrentStatus(),true,_selectedMountain,PortalGuideView.Context.Placement);
+            return;
+        }
         UpdateRay(right);
         if (!_busy)
         {
@@ -114,9 +144,9 @@ public class DoorCornerMarker : MonoBehaviour
             if (Rise(left.primary, _lastLeft.primary, left.tracked, _lastLeft.tracked)) Begin();
             if (Rise(right.secondary, _lastRight.secondary, right.tracked, _lastRight.tracked))
             {
-                if (IsEditing) Cancel(); else _help = !_help;
+                if (IsEditing || IsGuiding) Cancel(); else _help = !_help;
             }
-            if (Rise(left.secondary, _lastLeft.secondary, left.tracked, _lastLeft.tracked) && !IsEditing)
+            if (Rise(left.secondary, _lastLeft.secondary, left.tracked, _lastLeft.tracked) && !IsEditing && !IsGuiding)
             {
                 if(_mode==Mode.Ready) RestoreSaved();
                 else
@@ -127,11 +157,13 @@ public class DoorCornerMarker : MonoBehaviour
                 }
             }
             if (IsEditing && Rise(left.trigger, _lastLeft.trigger, left.tracked, _lastLeft.tracked)) Undo();
-            else if (!IsBrowsing && PicoPassthroughSetup.IsReady && Rise(right.trigger, _lastRight.trigger, right.tracked, _lastRight.tracked))
+            else if ((!IsBrowsing || DoorAutoLocator.Instance != null) && PicoPassthroughSetup.IsReady && Rise(right.trigger, _lastRight.trigger, right.tracked, _lastRight.tracked))
             {
-                if(_mode==Mode.Ready) Begin();
-                if (_mode == Mode.Preview) _ = Confirm();
-                else if (_count < 4)
+                bool froze=IsGuiding && HasImageCandidate && FreezeCandidate();
+                bool guided = froze || ((_mode == Mode.Ready || IsGuiding || IsBrowsing) && BeginGuided(right));
+                if (!guided && _mode==Mode.Ready) Begin();
+                if (!guided && _mode == Mode.Preview && (!_automatic || _automaticPreviewReleased)) _ = Confirm();
+                else if (!guided && _mode == Mode.Collect && _count < 4)
                 {
                     if(!_hasFirstRay)
                     {
@@ -155,22 +187,23 @@ public class DoorCornerMarker : MonoBehaviour
             _nextLocate = Time.unscaledTime + .1f;
             if (PXR_MixedReality.LocateAnchor(_anchor, out var pos, out var rot) == PxrResult.SUCCESS)
             {
-                Apply(PortalControllerInput.ToWorld(pos), PortalControllerInput.ToWorld(rot), _saved.width, _saved.height);
+                ApplySaved(PortalControllerInput.ToWorld(pos), PortalControllerInput.ToWorld(rot));
                 _status = "saved";
             }
             else _status = "locating";
         }
         string status = !IsBrowsing && !PicoPassthroughSetup.IsReady ? "passthrough_wait" : (_busy ? "busy" : (!IsBrowsing && !right.tracked ? "wait" : CurrentStatus()));
         _guide?.Show(status, _help || !IsBrowsing || _busy || (_noticeUntil > Time.unscaledTime), _selectedMountain,
-            _mode==Mode.Ready ? PortalGuideView.Context.Ready : (IsBrowsing ? PortalGuideView.Context.Browse : PortalGuideView.Context.Placement));
+            _mode==Mode.Ready ? PortalGuideView.Context.Ready : (IsBrowsing ? PortalGuideView.Context.Browse :
+                (IsGuiding || (_mode == Mode.Preview && _automatic) ? PortalGuideView.Context.Guided : PortalGuideView.Context.Placement)));
         _guide?.ShowRayGap(_solution.gap,_mode==Mode.Collect && _hasFirstRay && _rayHit);
     }
     void UpdateRay(PortalControllerInput.Hand hand)
     {
-        bool active=(_mode==Mode.Ready || _mode==Mode.Collect) && _count<4 && !_busy;
+        bool active=(_mode==Mode.Ready || IsGuiding || _mode==Mode.Collect) && _count<4 && !_busy;
         _rayFresh=false;
         if(!_hasFirstRay) _rayHit=false;
-        _firstLine.enabled=_mode==Mode.Collect && _count<4 && _hasFirstRay;
+        _firstLine.enabled=(_mode==Mode.Collect && _count<4 && _hasFirstRay);
         if(active && hand.tracked && PicoPassthroughSetup.IsReady)
         {
             Ray ray=PortalControllerInput.AimRay(hand);
@@ -181,11 +214,11 @@ public class DoorCornerMarker : MonoBehaviour
             }
             else { _displayRay=ray;_hasDisplayRay=true; }
         }
-        _laser.enabled=active&&_hasDisplayRay;
+        _laser.enabled=active&&_hasDisplayRay&&(!IsGuiding || !HasImageCandidate);
         if(_laser.enabled)
         {
             _laser.SetPosition(0,_displayRay.origin);
-            _laser.SetPosition(1,_displayRay.GetPoint(_rayHit ? Mathf.Max(.3f,_solution.secondDistance) : DoorRayIntersection.MaximumDistance));
+            _laser.SetPosition(1,_displayRay.GetPoint(_rayHit ? Mathf.Max(.3f,_solution.secondDistance) : (_mode==Mode.Collect ? DoorRayIntersection.MaximumDistance : 1.5f)));
             Color feedback=hand.tracked ? new Color(.3f,1f,.6f) : new Color(.65f,.7f,.75f);
             _laser.sharedMaterial.color=feedback;
             if(_rayHit)
@@ -199,7 +232,7 @@ public class DoorCornerMarker : MonoBehaviour
         if(_firstLine.enabled)
         {
             _firstLine.SetPosition(0,_firstRay.origin);
-            _firstLine.SetPosition(1,_firstRay.GetPoint(_rayHit ? Mathf.Max(.3f,_solution.firstDistance) : DoorRayIntersection.MaximumDistance));
+            _firstLine.SetPosition(1,_firstRay.GetPoint(_rayHit ? Mathf.Max(.3f,_solution.firstDistance) : (_mode==Mode.Collect ? DoorRayIntersection.MaximumDistance : 1.5f)));
         }
         _tip.gameObject.SetActive(active&&_rayHit);
         _firstNearest.gameObject.SetActive(active&&_rayHit);_secondNearest.gameObject.SetActive(active&&_rayHit);
@@ -209,7 +242,11 @@ public class DoorCornerMarker : MonoBehaviour
     string CurrentStatus()
     {
         if (_noticeUntil > Time.unscaledTime) return _notice;
+        if(IsTuning)return "tune_"+_tuneTarget+(_fine?"_fine":"_coarse");
+        if(IsGuiding&&HasImageCandidate)return "guided_candidate";
         if (_mode == Mode.Ready) return "ready";
+        if (IsGuiding) return DoorAutoLocator.Instance != null ? DoorAutoLocator.Instance.GuideStatus : "guided_camera";
+        if (_mode == Mode.Preview && _automatic) return "guided_preview";
         if (_mode == Mode.Collect && _hasFirstRay && _rayHit)
         {
             if (_solution.parallel) return "ray_parallel";
@@ -220,13 +257,33 @@ public class DoorCornerMarker : MonoBehaviour
         return _status;
     }
     public void Notice(string label, float seconds = 3f) { _notice = label; _noticeUntil = Time.unscaledTime + seconds; }
+    bool BeginGuided(PortalControllerInput.Hand hand)
+    {
+        var locator = DoorAutoLocator.Instance;
+        Ray ray = PortalControllerInput.AimRay(hand);
+        if (locator == null || !locator.BeginGuided(ray)) return false;
+        if (!IsEditing && !IsGuiding)
+        {
+            _previousWasBrowse = IsBrowsing;
+            _previous = new PreviousPlacement { position = _portal.portalPosition, yaw = _portal.portalYaw, rotation=_portal.transform.rotation, corners=_portal.GetWorldCorners(), width = _portal.portalWidth,
+                height = _portal.portalHeight, frame = _portal.frameMode, leaf = _portal.showDoorLeaf, fullView = _portal.fullMeadowView };
+        }
+        _mode = Mode.Guide; _count = 0; _automatic = false; _help = true; _noticeUntil = 0;
+        _firstRay = ray; _hasFirstRay = false; _rayHit = false; _hasDisplayRay = false;
+        _portal.calibrationHidden = true; _portal.fullMeadowView = false; _portal.UpdatePortalState();
+        HideMarks(); PicoPassthroughSetup.RequestEnable(); PortalControllerInput.Pulse(true);
+        Debug.Log("[DoorCorner] controller-guided camera search started");
+        return true;
+    }
     void Begin()
     {
-        if (!IsEditing)
+        if (_imageCandidate != null) _imageCandidate.enabled=false;
+        if (!IsEditing && !IsGuiding)
         {
             _previousWasBrowse=IsBrowsing;
-            _previous = new PreviousPlacement { position = _portal.portalPosition, yaw = _portal.portalYaw, width = _portal.portalWidth, height = _portal.portalHeight, frame = _portal.frameMode, leaf = _portal.showDoorLeaf, fullView = _portal.fullMeadowView };
+            _previous = new PreviousPlacement { position = _portal.portalPosition, yaw = _portal.portalYaw, rotation=_portal.transform.rotation, corners=_portal.GetWorldCorners(), width = _portal.portalWidth, height = _portal.portalHeight, frame = _portal.frameMode, leaf = _portal.showDoorLeaf, fullView = _portal.fullMeadowView };
         }
+        DoorAutoLocator.Instance?.CancelGuided();
         _mode = Mode.Collect; _count = 0; _help = true; _noticeUntil = 0;_hasFirstRay=false;_rayHit=false;_hasDisplayRay=false;
         _automatic = false; _outline.startWidth = _outline.endWidth = .006f;
         _portal.calibrationHidden = true; _portal.fullMeadowView = false;
@@ -253,17 +310,35 @@ public class DoorCornerMarker : MonoBehaviour
         // Preview only the thin outline over the physical door, until explicit confirmation.
         _portal.calibrationHidden = true;
         Apply(_fit.center, _fit.rotation, _fit.width, _fit.height);
+        _portal.SetWorldCorners(_corners);
         _outline.SetPositions(new[] { _corners[0], _corners[1], _corners[3], _corners[2], _corners[0] });
         _outline.enabled = true;
         Debug.Log($"[DoorCorner] preview width={_fit.width:F3} height={_fit.height:F3}");
     }
     // Shows a pose found without the controller as the usual preview outline; the trigger then
     // confirms it and stores the anchor, the secondary button or the left trigger rejects it.
+    // Amber is a camera candidate. The first trigger freezes it; a separate trigger confirms display.
+    public bool ShowDetectedDoor(DoorPoseSolver.Solution pose, float width, float height)
+    {
+        if (!CanRunGuided || _imageCandidate == null || width<=0 || height<=0) return false;
+        Vector3 side=pose.rotation*Vector3.right*(width*.5f), rise=pose.rotation*Vector3.up*height;
+        Vector3 bl=pose.position+side,br=pose.position-side;
+        _candidateCorners=DoorQuadPlacement.Rectangle(pose.position,pose.rotation,width,height);
+        _imageCandidate.SetPositions(new[]{bl,br,br+rise,bl+rise,bl});
+        _imageCandidate.startWidth=_imageCandidate.endWidth=Mathf.Min(.002f,width*.035f);
+        _candidateUntil=Time.unscaledTime+.6f;_imageCandidate.enabled=true;
+        return true;
+    }
     public bool PreviewAutomaticPlacement(Vector3 center, Quaternion rotation, float width, float height)
     {
         if (_portal == null || _busy || _paused || !_focused || IsEditing || width <= 0 || height <= 0) return false;
-        _previousWasBrowse = IsBrowsing;
-        _previous = new PreviousPlacement { position = _portal.portalPosition, yaw = _portal.portalYaw, width = _portal.portalWidth, height = _portal.portalHeight, frame = _portal.frameMode, leaf = _portal.showDoorLeaf, fullView = _portal.fullMeadowView };
+        if (_imageCandidate != null) _imageCandidate.enabled=false;
+        if (!IsGuiding)
+        {
+            _previousWasBrowse = IsBrowsing;
+            _previous = new PreviousPlacement { position = _portal.portalPosition, yaw = _portal.portalYaw, rotation=_portal.transform.rotation, corners=_portal.GetWorldCorners(), width = _portal.portalWidth, height = _portal.portalHeight, frame = _portal.frameMode, leaf = _portal.showDoorLeaf, fullView = _portal.fullMeadowView };
+        }
+        _automaticPreviewReleased = false;
         _automatic = true; _hasFirstRay = false; _rayHit = false; _hasDisplayRay = false;
         _fit = new DoorCalibrationMath.Placement { center = center, rotation = rotation, width = width, height = height };
         Vector3 side = rotation * Vector3.right * (width * .5f), rise = rotation * Vector3.up * height;
@@ -271,6 +346,7 @@ public class DoorCornerMarker : MonoBehaviour
         _count = 4; _mode = Mode.Preview; _status = "preview"; _noticeUntil = 0; _help = true;
         _portal.calibrationHidden = true; _portal.fullMeadowView = false;
         Apply(center, rotation, width, height);
+        _portal.SetWorldCorners(_corners);
         PicoPassthroughSetup.RequestEnable();
         foreach (var mark in _marks) mark.gameObject.SetActive(false);
         _outline.startWidth = _outline.endWidth = Mathf.Min(.006f, width * .05f);
@@ -279,6 +355,101 @@ public class DoorCornerMarker : MonoBehaviour
         PortalControllerInput.Pulse(true);
         Debug.Log($"[DoorCorner] automatic preview width={width:F4} height={height:F4} at {center:F4}");
         return true;
+    }
+    bool FreezeCandidate()
+    {
+        if(_candidateCorners==null||Time.unscaledTime>_candidateUntil)return false;
+        var points=(Vector3[])_candidateCorners.Clone();
+        if(!DoorQuadPlacement.TryFit(points,out var fit))return false;
+        if(!PreviewAutomaticPlacement(fit.center,fit.rotation,fit.width,fit.height))return false;
+        Array.Copy(points,_corners,4);_fit=fit;
+        _portal.SetWorldCorners(_corners);UpdateAdjustmentOutline(false);
+        DoorAutoLocator.Instance?.CancelGuided();
+        _status="frozen_preview";Notice("frozen_preview",3f);
+        Debug.Log("[DoorCorner] user froze recognized candidate; waiting for explicit display confirmation");
+        return true;
+    }
+    void ApplySaved(Vector3 position,Quaternion rotation)
+    {
+        Apply(position,rotation,_saved.width,_saved.height);
+        var points=_saved.corners!=null&&_saved.corners.Length==4
+            ?DoorQuadPlacement.ToWorld(_saved.corners,position,rotation)
+            :DoorQuadPlacement.Rectangle(position,rotation,_saved.width,_saved.height);
+        Array.Copy(points,_corners,4);_count=4;
+        _fit=new DoorCalibrationMath.Placement{center=position,rotation=rotation,width=_saved.width,height=_saved.height};
+        _portal.SetWorldCorners(points);
+    }
+    void BeginAdjustment()
+    {
+        if(_busy||(_mode!=Mode.Preview&&!IsBrowsing))return;
+        _tuneModeBefore=_mode;
+        if(IsBrowsing)
+        {
+            _previousWasBrowse=true;
+            _previous=new PreviousPlacement{position=_portal.portalPosition,yaw=_portal.portalYaw,rotation=_portal.transform.rotation,
+                width=_portal.portalWidth,height=_portal.portalHeight,corners=_portal.GetWorldCorners(),
+                frame=_portal.frameMode,leaf=_portal.showDoorLeaf,fullView=_portal.fullMeadowView};
+            Array.Copy(_portal.GetWorldCorners(),_corners,4);
+        }
+        if(!DoorQuadPlacement.TryFit(_corners,out _fit))return;
+        _tuneBefore=(Vector3[])_corners.Clone();_tuneTarget=0;_fine=true;_count=4;
+        _tuneTriggerReleased=false;_stickNeutral=false;_leftStickReady=false;_rightStickReady=false;_repeatAt=0;_noticeUntil=0;
+        _adjustForward=Camera.main!=null?Vector3.ProjectOnPlane(Camera.main.transform.forward,Vector3.up).normalized:Vector3.forward;
+        if(_adjustForward.sqrMagnitude<.5f)_adjustForward=Vector3.forward;
+        _adjustRight=Vector3.Cross(Vector3.up,_adjustForward).normalized;
+        _mode=Mode.Tune;DoorAutoLocator.Instance?.CancelGuided();
+        _laser.enabled=false;_firstLine.enabled=false;_imageCandidate.enabled=false;
+        UpdateAdjustmentOutline(true);PortalControllerInput.Pulse(true);
+    }
+    void ProcessAdjustment(PortalControllerInput.Hand right,PortalControllerInput.Hand left)
+    {
+        if(right.tracked&&!right.trigger)_tuneTriggerReleased=true;
+        if(Rise(right.secondary,_lastRight.secondary,right.tracked,_lastRight.tracked))
+        {
+            Array.Copy(_tuneBefore,_corners,4);DoorQuadPlacement.TryFit(_corners,out _fit);
+            Apply(_fit.center,_fit.rotation,_fit.width,_fit.height);_portal.SetWorldCorners(_corners);
+            _mode=_tuneModeBefore;_noticeUntil=0;
+            if(IsBrowsing)HideMarks();else UpdateAdjustmentOutline(false);
+            return;
+        }
+        if(Rise(right.primary,_lastRight.primary,right.tracked,_lastRight.tracked))_tuneTarget=(_tuneTarget+1)%5;
+        if(Rise(left.primary,_lastLeft.primary,left.tracked,_lastLeft.tracked))_tuneTarget=(_tuneTarget+4)%5;
+        if(Rise(left.secondary,_lastLeft.secondary,left.tracked,_lastLeft.tracked))_fine=!_fine;
+        if(_tuneTriggerReleased&&Rise(right.trigger,_lastRight.trigger,right.tracked,_lastRight.tracked)) { _=Confirm();return; }
+        float Axis(float v)=>Mathf.Abs(v)>.65f?Mathf.Sign(v):0;
+        if(!left.tracked)_leftStickReady=false;else if(left.stick.sqrMagnitude<.1f)_leftStickReady=true;
+        if(!right.tracked)_rightStickReady=false;else if(right.stick.sqrMagnitude<.1f)_rightStickReady=true;
+        Vector3 axis=(left.tracked&&_leftStickReady?_adjustRight*Axis(left.stick.x)+_adjustForward*Axis(left.stick.y):Vector3.zero)
+            +(right.tracked&&_rightStickReady?Vector3.up*Axis(right.stick.y):Vector3.zero);
+        if(axis==Vector3.zero){_stickNeutral=true;_repeatAt=0;}
+        else if(_stickNeutral||(_repeatAt>0&&Time.unscaledTime>=_repeatAt))
+        {
+            Vector3 delta=axis*(_fine?.0005f:.005f);
+            TryAdjust(_tuneTarget,delta);
+            _repeatAt=Time.unscaledTime+(_stickNeutral?.35f:.09f);_stickNeutral=false;
+        }
+        UpdateAdjustmentOutline(true);
+    }
+    public bool TryAdjust(int target,Vector3 delta)
+    {
+        if(!IsTuning||_busy||_paused||!_focused||target<0||target>4||delta.magnitude>.05f)return false;
+        var next=(Vector3[])_corners.Clone();
+        for(int i=0;i<4;i++)if(target==0||target==i+1)next[i]+=delta;
+        if(!DoorQuadPlacement.TryFit(next,out var fit)){Notice("tune_invalid",1f);return false;}
+        Array.Copy(next,_corners,4);_fit=fit;_noticeUntil=0;
+        Apply(fit.center,fit.rotation,fit.width,fit.height);_portal.SetWorldCorners(_corners);
+        return true;
+    }
+    void UpdateAdjustmentOutline(bool marks)
+    {
+        _outline.SetPositions(new[]{_corners[0],_corners[1],_corners[3],_corners[2],_corners[0]});
+        _outline.startWidth=_outline.endWidth=Mathf.Clamp(_fit.width*.025f,.0007f,.003f);_outline.enabled=true;
+        for(int i=0;i<4;i++)
+        {
+            _marks[i].position=_corners[i];_marks[i].localScale=Vector3.one*Mathf.Clamp(_fit.width*.09f,.0015f,.012f);
+            _marks[i].GetComponent<Renderer>().sharedMaterial.color=(_tuneTarget==0||_tuneTarget==i+1)?new Color(1f,.7f,.15f):new Color(.55f,.65f,.7f);
+            _marks[i].gameObject.SetActive(marks);
+        }
     }
     void Undo()
     {
@@ -292,11 +463,13 @@ public class DoorCornerMarker : MonoBehaviour
     }
     void Cancel()
     {
+        DoorAutoLocator.Instance?.CancelGuided();
         _mode = _previousWasBrowse ? Mode.Browse : Mode.Ready; _automatic = false;
         _portal.calibrationHidden = !IsBrowsing;_hasFirstRay=false;_rayHit=false;_hasDisplayRay=false;_count=0;
         if(IsBrowsing) _selectedMountain=_portal.mountainLandscape;
         _portal.frameMode = _previous.frame; _portal.showDoorLeaf = _previous.leaf; _portal.fullMeadowView = _previous.fullView;
-        Apply(_previous.position, Quaternion.Euler(0,_previous.yaw,0), _previous.width, _previous.height);
+        Apply(_previous.position, _previous.rotation, _previous.width, _previous.height);
+        _portal.SetWorldCorners(_previous.corners);
         HideMarks(); _status = _persistent ? "saved" : "intro"; Notice(IsBrowsing ? "cancelled" : "ready");
     }
     void RestoreSaved()
@@ -305,17 +478,19 @@ public class DoorCornerMarker : MonoBehaviour
         if(PXR_MixedReality.LocateAnchor(_anchor,out var position,out var rotation)!=PxrResult.SUCCESS) { Notice("locating");return; }
         _portal.SetLandscape(_selectedMountain);
         _portal.fullMeadowView=false;_portal.calibrationHidden=false;_mode=Mode.Browse;
-        Apply(PortalControllerInput.ToWorld(position),PortalControllerInput.ToWorld(rotation),_saved.width,_saved.height);
+        ApplySaved(PortalControllerInput.ToWorld(position),PortalControllerInput.ToWorld(rotation));
         _status="saved";_noticeUntil=0;
         Debug.Log("[DoorCorner] explicitly restored saved placement");
     }
     void Apply(Vector3 center, Quaternion rotation, float width, float height)
     {
         _portal.portalPosition = center; _portal.portalYaw = rotation.eulerAngles.y;
+        _portal.useFullRotation=true; _portal.portalRotation=rotation;
         _portal.portalWidth = width; _portal.portalHeight = height; _portal.UpdatePortalState();
     }
     async Task Confirm()
     {
+        DoorAutoLocator.Instance?.CancelGuided();
         _busy = true;
         ulong fresh = 0, previousHandle = 0;
         try
@@ -332,7 +507,8 @@ public class DoorCornerMarker : MonoBehaviour
                 var persist = await PXR_MixedReality.PersistSpatialAnchorAsync(fresh, timeout.Token);
                 if (persist != PxrResult.SUCCESS) throw new InvalidOperationException("persist " + persist);
                 if (this == null) return;
-                _saved = new SavedPlacement { uuid = create.uuid.ToString(), width = _fit.width, height = _fit.height };
+                _saved = new SavedPlacement { uuid = create.uuid.ToString(), width = _fit.width, height = _fit.height, version=4,
+                    corners=DoorQuadPlacement.ToLocal(_corners,_fit.center,_fit.rotation) };
                 PlayerPrefs.SetString(PlacementKey, JsonUtility.ToJson(_saved)); PlayerPrefs.Save();
                 _anchor = fresh; fresh = 0; _persistent = true;
                 Debug.Log("[DoorCorner] saved persistent door " + _saved.uuid);
@@ -354,6 +530,7 @@ public class DoorCornerMarker : MonoBehaviour
                 _portal.SetLandscape(_selectedMountain);
                 _busy = false; _mode = Mode.Browse; _portal.calibrationHidden = false; _portal.showDoorLeaf = _previous.leaf;
                 _portal.frameMode = _previous.frame; _portal.UpdatePortalState();
+                Apply(_fit.center,_fit.rotation,_fit.width,_fit.height);_portal.SetWorldCorners(_corners);
                 _status = _persistent ? "saved" : "session"; _noticeUntil = 0; HideMarks();
                 _portal.SaveCalibration(); PortalControllerInput.Pulse(true);
             }
@@ -376,7 +553,8 @@ public class DoorCornerMarker : MonoBehaviour
                 var json = PlayerPrefs.GetString(PlacementKey, "");
                 if (string.IsNullOrEmpty(json)) return;
                 var saved = JsonUtility.FromJson<SavedPlacement>(json);
-                if (!Guid.TryParse(saved.uuid, out Guid uuid) || saved.width < .01f || saved.height < .02f) return;
+                if (saved==null||!Guid.TryParse(saved.uuid, out Guid uuid)||!(saved.width>=.008f&&saved.width<=3f&&saved.height>=.015f&&saved.height<=3.5f)) return;
+                if(saved.corners!=null&&!DoorQuadPlacement.TryFit(saved.corners,out _))return;
                 var query = await PXR_MixedReality.QuerySpatialAnchorAsync(new[] { uuid }, timeout.Token);
                 if (query.result != PxrResult.SUCCESS || this == null) return;
                 foreach (var h in query.anchorHandleList)
@@ -389,7 +567,7 @@ public class DoorCornerMarker : MonoBehaviour
         }
         catch (Exception e) { Debug.LogWarning("[DoorCorner] startup: " + e.Message); }
     }
-    void HideMarks() { foreach (var mark in _marks) mark.gameObject.SetActive(false); _outline.enabled = false; }
+    void HideMarks() { foreach (var mark in _marks) mark.gameObject.SetActive(false); _outline.enabled = false; if (_imageCandidate != null) _imageCandidate.enabled=false; }
     Transform Sphere(string name, Color color, float diameter)
     {
         var go = GameObject.CreatePrimitive(PrimitiveType.Sphere); go.name = name;
@@ -400,12 +578,14 @@ public class DoorCornerMarker : MonoBehaviour
     }
     void OnApplicationPause(bool paused)
     {
-        _paused=paused; ResetInputEdges();
+        _paused=paused; ResetInputEdges();if(paused){_stickNeutral=false;_repeatAt=0;_tuneTriggerReleased=false;_leftStickReady=false;_rightStickReady=false;}
+        if (paused && _imageCandidate != null) _imageCandidate.enabled=false;
         Debug.Log($"[DoorCorner] pause={paused}; retained {ProgressSummary}");
     }
     void OnApplicationFocus(bool focused)
     {
-        _focused=focused; ResetInputEdges();
+        _focused=focused; ResetInputEdges();if(!focused){_stickNeutral=false;_repeatAt=0;_tuneTriggerReleased=false;_leftStickReady=false;_rightStickReady=false;}
+        if (!focused && _imageCandidate != null) _imageCandidate.enabled=false;
         Debug.Log($"[DoorCorner] focus={focused}; retained {ProgressSummary}");
     }
     void ResetInputEdges()

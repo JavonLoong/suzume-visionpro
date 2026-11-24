@@ -35,10 +35,10 @@ public static class BuildPicoApk
             Fail("无法切换到 Android 构建目标");
 
         PlayerSettings.companyName = "Suzume";
-        PlayerSettings.productName = "Suzume Portal";
+        PlayerSettings.productName = "铃芽之旅·11.18版";
         PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, PackageId);
-        PlayerSettings.bundleVersion = "1.12";
-        PlayerSettings.Android.bundleVersionCode = 13;
+        PlayerSettings.bundleVersion = "1.13.0";
+        PlayerSettings.Android.bundleVersionCode = 22;
         PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
         PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel29;

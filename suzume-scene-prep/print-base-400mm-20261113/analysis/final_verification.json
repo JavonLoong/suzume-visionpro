@@ -1,0 +1,34 @@
+{
+  "checked_on": "2026-11-13",
+  "github_main_sha": "d949a2df31095d3f23e31dd5c5a8c643afc40b5d",
+  "github_published_pico_version": "1.11",
+  "github_source": "https://github.com/JavonLoong/suzume-visionpro/releases/tag/complete-project-2026-10-30",
+  "delivered_stl_archive": "D:/虚拟C盘/底座.zip",
+  "delivered_stl_count": 1,
+  "print_quantity": 4,
+  "stl_sha256": "a0b28d7bad8e4892c7c7be64348b5a8b7d405a8287316d31310140a3cc7ca432",
+  "archive_sha256": "c08344c3e68007256dfa7241c07e6611f16ea970b7088ddd3e933aca73d54bcf",
+  "mesh_watertight": true,
+  "assembly_checks_passed": 65,
+  "slicer": "BambuStudio 02.01.01.52 (installed)",
+  "gcode_md5_valid": true,
+  "unresolved_executable_templates": false,
+  "toolpath_deposition_inside_bed": true,
+  "layer_count": 18,
+  "extrusion_movements_checked": 55045,
+  "support_used": false,
+  "slice_warning": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "estimated_seconds_each": 6519,
+  "estimated_grams_each": 89.31,
+  "estimated_seconds_all_four": 26076,
+  "estimated_grams_all_four": 357.24,
+  "physical_print_test": false,
+  "printer_job_started": false,
+  "delivery_format_note": "User delivery is STL only; the G-code archive is internal verification output and is not a new direct-print delivery."
+}

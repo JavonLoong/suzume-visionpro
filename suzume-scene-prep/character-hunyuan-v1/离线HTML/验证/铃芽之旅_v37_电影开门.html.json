@@ -1,0 +1,83 @@
+{
+  "file": "铃芽之旅_v37_电影开门.html",
+  "isolatedFile": "D:\\Users\\15410\\AppData\\Local\\Temp\\SuzumeOffline-blVlSQ\\铃芽之旅_v37_电影开门.html",
+  "networkDisabled": true,
+  "requests": [],
+  "errors": [],
+  "consoleErrors": [],
+  "scenes": [
+    {
+      "id": "v37",
+      "ready": "true",
+      "views": [
+        "poster",
+        "close",
+        "left",
+        "right",
+        "back",
+        "aerial",
+        "night",
+        "head"
+      ],
+      "door": "关门",
+      "canvasSize": [
+        736,
+        477
+      ],
+      "inspectionKeys": [
+        "layoutEvidence",
+        "facadePigmentEvidence",
+        "surfaceEvidence28",
+        "projectionEvidence24",
+        "doorSurfaceEvidence",
+        "nightEvidence",
+        "waterEvidence",
+        "doorwayLightEvidence",
+        "steelEvidence25",
+        "shoreEvidence26",
+        "lightingEvidence27",
+        "waterEvidence29",
+        "nightEvidence30",
+        "terrainEvidence31",
+        "doorRigEvidence32",
+        "portalPartitionEvidence",
+        "figureEvidence",
+        "inspectModel",
+        "compositionEvidence",
+        "setInspectionView",
+        "modelEvidence"
+      ],
+      "initialCamera": [
+        0.15354844661181763,
+        2.8782074998654252,
+        11.7300315454759
+      ],
+      "doorToggle": {
+        "before": "true",
+        "after": "false"
+      }
+    }
+  ],
+  "final": {
+    "ready": true,
+    "selected": "v37",
+    "errors": [],
+    "missing": [],
+    "requests": [
+      "/movie-surfaces-v28/reference-opening.jpg",
+      "/movie-surfaces-v28/surface-validity-mask-v28.png",
+      "/movie-terrain-v31/ground-world-v31.bin",
+      "/movie-terrain-v31/extension-vertices-v31.bin",
+      "/movie-terrain-v31/extension-indices-v31.bin",
+      "/viewer/character-v37/suzume-posed-v37.gltf",
+      "/viewer/character-v37/suzume-posed-v37.bin",
+      "/viewer/character-v37/texture-1.png",
+      "/viewer/character-v37/texture-2.png",
+      "/viewer/character-v37/texture-0.png",
+      "/viewer/character-v37/texture-1.png",
+      "/viewer/character-v37/texture-2.png",
+      "/viewer/character-v37/texture-0.png"
+    ]
+  },
+  "passed": true
+}

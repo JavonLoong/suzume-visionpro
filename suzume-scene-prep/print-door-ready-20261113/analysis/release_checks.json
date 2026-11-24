@@ -1,0 +1,163 @@
+{
+  "status": "完整门侧打印包，已包含背面拉杆耳",
+  "archives": [
+    {
+      "name": "白门",
+      "archive": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\交付\\白门.zip",
+      "sha256": "6d16b4297227c24205c59fcc9f1f3333cebd27ee9b539978424565719b3f4e2e",
+      "stl_count": 3,
+      "published_path": "D:\\虚拟C盘\\白门.zip"
+    },
+    {
+      "name": "三档",
+      "archive": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\交付\\三档.zip",
+      "sha256": "b2812cdc6c80f784b0d0ee270af011d2fbb748b608048150be89074aecdc4d62",
+      "stl_count": 1,
+      "published_path": "D:\\虚拟C盘\\三档.zip"
+    }
+  ],
+  "native_slicing": [
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\analysis\\slice_projects\\Slim01.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\analysis\\slice_projects\\Slim01.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 2.9,
+      "seconds": 5627,
+      "grams": 22.89,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "白门_1.25倍",
+      "group": "单档",
+      "quantity": 1,
+      "layer_height_mm": 0.12,
+      "stl_sha256": "05afd9ad4fe34345d256abf0eec5ed1f06bc436cceb83172888d42f2b7f242ac",
+      "md5_valid": true
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\analysis\\slice_projects\\Slim02.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\analysis\\slice_projects\\Slim02.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 3.0,
+      "seconds": 6652,
+      "grams": 27.38,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "白门_1.5倍",
+      "group": "单档",
+      "quantity": 1,
+      "layer_height_mm": 0.12,
+      "stl_sha256": "5c9aad3db8ba26b92952838d78856d4d426f460555b7c4c245a3352acc8bfd0a",
+      "md5_valid": true
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\analysis\\slice_projects\\Slim03.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\analysis\\slice_projects\\Slim03.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 3.9,
+      "seconds": 8015,
+      "grams": 34.06,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "白门_1.75倍",
+      "group": "单档",
+      "quantity": 1,
+      "layer_height_mm": 0.12,
+      "stl_sha256": "66921132b127ea77d812d48247a77313c9c9552f7704833ea36ecce719c0b0b1",
+      "md5_valid": true
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\analysis\\slice_projects\\Slim04.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\analysis\\slice_projects\\Slim04.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 7.5,
+      "seconds": 18198,
+      "grams": 84.49,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "三档同盘",
+      "group": "同盘",
+      "quantity": 1,
+      "layer_height_mm": 0.12,
+      "stl_sha256": "1ba07287b9b2817138629fbf98aedbff5edb70c0bd980fb5bb12d3bee22ba2aa",
+      "md5_valid": true
+    }
+  ],
+  "base_sha256_unchanged": "e98dcc5b71dae350caa7175b47d577df9ee09761bc2520b56ed05155c56a6114",
+  "physical_print_test": false,
+  "servo_drive_finished": false,
+  "source_geometry_hashes": [
+    {
+      "id": "50毫米门框",
+      "sha256": "5294978bf41de1138a648b03c394e0789e390c54c33a8ba6a113c71be2f30e03"
+    },
+    {
+      "id": "50毫米门扇",
+      "sha256": "e96a2ebecfda8773aae7d661130bd2eca9820ed323feab5c4544f35c86c26353"
+    },
+    {
+      "id": "50毫米插座板",
+      "sha256": "0602d24e3d8bbfbe3c12d2cbfcbf374b2f7487d011cc355224f9dadd828c84ba"
+    },
+    {
+      "id": "60毫米门框",
+      "sha256": "4b22dfdae47dae4a09d91533180672ff27aae12169c204be251a93dc5377bcb5"
+    },
+    {
+      "id": "60毫米门扇",
+      "sha256": "b6f70d5a428032bcc68a7335dd57b13bf8d7f24367229aff7e953907d515c1a6"
+    },
+    {
+      "id": "60毫米插座板",
+      "sha256": "57e5646d2892ee3113ae6a8b0f211b5c2d5f0f017ee78981b909705d69eae4e9"
+    },
+    {
+      "id": "70毫米门框",
+      "sha256": "39790e972c22b8e665c0dbf54aee7afb163390a9a260fe74d7696fbdb76816b2"
+    },
+    {
+      "id": "70毫米门扇",
+      "sha256": "78a54799043e1089dc22bf6e8db9d4b9f7c616e236a1cf14ed1fa6e2bb20fd7d"
+    },
+    {
+      "id": "70毫米插座板",
+      "sha256": "660778f105f987c8b8d6062d875273d266690fb585ba71ad406c4fea852155f8"
+    }
+  ],
+  "render_finished": true
+}

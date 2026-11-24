@@ -1,0 +1,4 @@
+baseline {'real': {'total': 54, 'detected': 54, 'median_error': 2.573836988320739, 'p90_error': 3.647599117525422}, 'synthetic': {'total': 200, 'detected': 177, 'median_error': 1.372492468860929, 'p90_error': 2.9999880279090587}} false 0 / 141
+200 {'real': {'total': 54, 'detected': 54, 'median_error': 2.512396835533611, 'p90_error': 3.747228568155301}, 'synthetic': {'total': 200, 'detected': 177, 'median_error': 1.3587483696595903, 'p90_error': 3.148601434427397}} false 0 / 141
+400 {'real': {'total': 54, 'detected': 54, 'median_error': 2.409190718085286, 'p90_error': 3.848052232096394}, 'synthetic': {'total': 200, 'detected': 177, 'median_error': 1.3996388265533144, 'p90_error': 3.029389804218383}} false 0 / 141
+600 {'real': {'total': 54, 'detected': 54, 'median_error': 2.5651975192738394, 'p90_error': 3.4816209421752093}, 'synthetic': {'total': 200, 'detected': 177, 'median_error': 1.3634200520615969, 'p90_error': 3.1619166456809062}} false 0 / 141

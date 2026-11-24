@@ -22,21 +22,17 @@ public sealed class PicoForegroundWakeLock : MonoBehaviour
         _focused = Application.isFocused;
     }
     void Start() { Apply(); TryBind(); }
-    void TryBind()
+    async void TryBind()
     {
         if (!NativeDevice || _bound || _binding || _attempts >= 3) return;
         _attempts++; _binding = true; _nextBind = Time.unscaledTime + 5f;
         try
         {
-            if (!PXR_Enterprise.InitEnterpriseService(false))
-                throw new InvalidOperationException("enterprise initialization failed");
-            PXR_Enterprise.BindEnterpriseService(connected =>
-            {
-                if (this == null || !isActiveAndEnabled) return;
-                _binding = false; _bound = connected;
-                Debug.Log("[PortalPower] enterprise service connected=" + connected);
-                Apply();
-            });
+            bool connected=await PicoEnterpriseConnection.EnsureAsync();
+            if (this == null || !isActiveAndEnabled) return;
+            _binding = false; _bound = connected;
+            Debug.Log("[PortalPower] enterprise service connected=" + connected);
+            Apply();
         }
         catch (Exception e)
         {
@@ -87,7 +83,7 @@ public sealed class PicoForegroundWakeLock : MonoBehaviour
         _focused = false; Apply();
         if (NativeDevice && (_bound || _binding))
         {
-            try { PXR_Enterprise.UnBindEnterpriseService(); }
+            try { PicoEnterpriseConnection.Disconnect(); }
             catch (Exception e) { Debug.LogWarning("[PortalPower] unbind: " + e.Message); }
         }
     }

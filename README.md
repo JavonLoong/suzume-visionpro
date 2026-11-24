@@ -2,6 +2,10 @@
 
 这里是项目的统一协作入口，包含 Pico / Unity 源码、场景、模型、贴图、Vision Pro 工程、场景制作脚本，以及 Blender 和打印资料的下载索引。
 
+**2026-11-24 最新更新：PICO 1.13.0（11.18 版，待头显实测）。** [下载 APK](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/SuzumePortal-PICO-v1.13.0.apk) · [本次发布说明](docs/PICO-v1.13.0-project-update.md) · [最新模型与制作资料](https://github.com/JavonLoong/suzume-visionpro/releases/tag/project-update-2026-11-24)。加入识别结果按键固定、整体和四角前后左右上下调整、保存与取消；后台识别和位置求解继续优化。电脑回归与打包已完成，最新包尚未进行头显现场验证。同步更新九块底座、500 毫米底座和内藏轴试配资料，具体试制状态见说明。
+
+以下为历史版本记录。
+
 **2026-11-18 更新：PICO v1.12（versionCode 13）。** [直接下载 APK](https://github.com/JavonLoong/suzume-visionpro/releases/download/pico-v1.12-door-vision-2026-11-18/SuzumePortal-PICO-v1.12.apk) · [完整发布记录](docs/PICO-v1.12-door-vision.md)。应用已加入从相机画面识别实体小门的自动定位流程，不要求给门增加标记或配件；检测模型、训练与评估代码、最终权重、Unity 推理和手动四点兜底均已入库。编辑器检查和 APK 构建已通过，但头显未连接，因此 PICO 4 Ultra 相机取图、图像方向、外参方向、真机速度与端到端自动定位仍未验证。
 
 **上一版人工定位：** [PICO v1.11 发布记录](docs/PICO-v1.11.md)。该版用手柄两次瞄准确定每个门角，已在真机完成一次连续四角定位，可在自动识别失败时继续作为兜底。

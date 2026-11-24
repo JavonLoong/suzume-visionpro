@@ -1,0 +1,30 @@
+{
+  "file": "铃芽之旅_v49_原始渲染.html",
+  "isolatedFile": "D:\\Users\\15410\\AppData\\Local\\Temp\\SuzumeOffline-Mp9eqL\\铃芽之旅_v49_原始渲染.html",
+  "networkDisabled": true,
+  "requests": [],
+  "errors": [],
+  "consoleErrors": [],
+  "scenes": [],
+  "gallery": [
+    {
+      "alt": "v49 正面渲染",
+      "width": 708,
+      "height": 1000
+    },
+    {
+      "alt": "v49 斜侧渲染",
+      "width": 720,
+      "height": 468
+    }
+  ],
+  "renderDownloadSha256": "21ad470b9444e5441b222116a1c945727028aa4ff4e855488705c143dfdb72ca",
+  "final": {
+    "ready": true,
+    "selected": "renders",
+    "errors": [],
+    "missing": [],
+    "requests": []
+  },
+  "passed": true
+}

@@ -81,12 +81,14 @@ public static class ControllerTrialCheck
                     device.pointerRotation.WriteValueIntoEvent(Quaternion.Euler(0,40,0),evt);
                     device.primaryButton.WriteValueIntoEvent(1f,evt);device.secondaryButton.WriteValueIntoEvent(1f,evt);
                     device.triggerPressed.WriteValueIntoEvent(1f,evt);device.gripPressed.WriteValueIntoEvent(1f,evt);
+                    device.thumbstick.WriteValueIntoEvent(new Vector2(.8f,-.7f),evt);device.thumbstickClicked.WriteValueIntoEvent(1f,evt);
                     InputState.Change(device,evt);
                 }
             }
             foreach(bool isRight in new[]{true,false})
             {
                 var hand=PortalControllerInput.Read(isRight);
+                Require(hand.stickClick&&Vector2.Distance(hand.stick,new Vector2(.8f,-.7f))<.001f,"PICO thumbstick mapping failed");
                 Require(hand.tracked&&hand.primary&&hand.secondary&&hand.trigger&&hand.grip,"PICO face/trigger/grip mapping failed");
                 Require(Vector3.Distance(hand.position,new Vector3(.2f,1.4f,-.3f))<.001f,"PICO pointer pose read failed");
             }

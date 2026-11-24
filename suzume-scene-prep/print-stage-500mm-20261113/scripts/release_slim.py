@@ -1,0 +1,102 @@
+"""Release checked STL archives and a plainly scoped assembly note."""
+import json,hashlib,zipfile,io,re
+from pathlib import Path
+import numpy as np,trimesh
+R=Path(__file__).resolve().parents[1];A=R/'analysis';DEST=R/'交付';DEST.mkdir(exist_ok=True)
+parts=json.loads((A/'packed_manifest.json').read_text(encoding='utf8'))
+checks=json.loads((A/'slicing_checks.json').read_text(encoding='utf8'));byid={r['id']:r for r in checks}
+release=[]
+for group,name in [('底座','底座'),('门','白门'),('试配','试配')]:
+    rows=[p for p in parts if p['group']==group];target=DEST/(name+'.zip')
+    assert not target.exists(),f'Refusing to overwrite unknown archive: {target}'
+    for p in rows:
+        file=Path(p['stl_path']);raw=file.read_bytes();sha=hashlib.sha256(raw).hexdigest();c=byid[p['id']]
+        assert sha==p['sha256']==c['stl_sha256'] and c['exit_code']==0 and c['outside']=='false' and c['md5_valid']
+        mesh=trimesh.load(file,force='mesh');assert mesh.is_watertight and mesh.is_winding_consistent
+        assert len(mesh.split())==p['components']
+    with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED) as z:
+        for p in rows:z.write(p['stl_path'],Path(p['stl_path']).name)
+    with zipfile.ZipFile(target) as z:
+        assert z.testzip() is None and all('/' not in n and n.endswith('.stl') for n in z.namelist())
+        for p in rows:assert hashlib.sha256(z.read(Path(p['stl_path']).name)).hexdigest()==p['sha256']
+    release.append({'archive':str(target),'stl_count':len(rows),'components':sum(p['components'] for p in rows),'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'seconds':sum(byid[p['id']]['seconds'] for p in rows),'grams':round(sum(byid[p['id']]['grams'] for p in rows),2)})
+    print('RELEASE',json.dumps(release[-1],ensure_ascii=False),flush=True)
+summary={'status':'静态装配试打版；舵机传动未定型','archives':release,'physical_print_test':False,'servo_fit_confirmed':False,'checks':{'closed_shells':True,'native_slicing':True,'gcode_hashes':True,'bed_bounds':True,'assembled_interference':True},'not_claimed':['实物配合已验证','舵机已能安装','门轴已能被舵机带动','承重和长时刚度已验证']}
+(A/'release_checks.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf8')
+base,door,trial=release
+note=f'''薄底座与细白门 · 2026-11-13
+
+这版先解决比例、外观、现有庭院落座与静态开门。不是电动门最终版。
+之前 88 mm 高的台座、80～120 mm 高的粗门方案已停用。
+
+一、尺寸
+庭院本体：直径 400 mm，沿用已打印部件。
+外底座：直径 500 mm；底板 8 mm，加隐藏脚垫 5 mm，总高 13 mm。
+白门：门框含台阶高 40 mm，台阶陷入插座板 1.2 mm；露出底板 38.8 mm。
+门框外宽约 20.2 mm，台阶宽约 26.8 mm；门洞约 14.9 × 34.3 mm。
+保留原模型六格门板、门把手和细门框，未加粗成大型门柱。
+圆形底座与圆庭院同心，外围各留 50 mm。当前采用 500 mm 外径；庭院凹槽与定位销位置保持原样。
+
+二、文件和盘数（ZIP 内只含 STL）
+{base['archive']}：7 个 STL，各打印 1 次，共 9 块底板、12 根接缝条、12 个脚垫。
+{door['archive']}：白门.stl，1 盘，含门框、门扇、插座板各 1 件。
+{trial['archive']}：试配.stl，1 盘，5 个小试件；先打印它，不必一开始打印整块大底座。
+底座前两盘各放两块对角底板。前六盘各带 2 根接缝条和 2 个脚垫，第七盘只有底板，避免遗漏或重复打印。
+35 mm 和 45 mm 门保存在工程中用于比较；本次交付 ZIP 只放 40 mm 门。
+35 mm 门铰链壁偏薄，尚未作为打印成品发布。
+
+三、切片验证
+本机 Bambu Studio 02.01.01.52，X1 Carbon，0.4 mm 喷嘴，白色 PLA，纹理 PEI。
+底座：0.28 mm 层高，3 圈墙，12% gyroid 填充，顶底各至少 0.84 mm，无支撑，3 mm 边裙。
+白门：0.16 mm 层高，3 圈墙，15% gyroid 填充，普通自动支撑，支撑上/下间距各 0.16 mm，3 mm 边裙。
+试配：0.20 mm 层高，3 圈墙，12% gyroid 填充，无支撑、无边裙。
+按毫米、100% 尺寸导入。保留现有朝向和同盘相对位置；不要自动缩放或把细门竖向、横向互换。
+STL 不保存这些切片参数，仍须在 Bambu Studio 选择对应参数，再切片发送打印机。
+底座预计 {base['seconds']/3600:.2f} 小时、{base['grams']:.2f} 克；白门约 {round(door['seconds']/60)} 分钟、{door['grams']:.2f} 克。
+试配约 {round(trial['seconds']/60)} 分钟、{trial['grams']:.2f} 克。以上为切片器估算，材料与实际设置会改变耗时。
+7 盘新底座均生成了有效 G-code，模型未超出打印范围；白门和试配 STL 与上一版逐字节相同，沿用已验证切片。
+打印尺寸为 X1C 256 mm 工作区，已避开前左禁区并留边裙空间。
+STL 重读检查为封闭实体、法向一致；ZIP 解压内容与已验证 STL 的 SHA256 完全一致。
+切片器保留 PLA 与 55℃ 热床相关的 bed_temperature_too_high_than_filament 提示。
+CLI 还提示找不到 machine_full/process_full 的预设缓存；工程已写入展开后的设置，导出 G-code 明确为 X1 Carbon / 0.4 / PLA / 对应层高。
+未执行实物打印、加载测试或装机测试；不能据此保证实物严丝合缝。
+
+四、先试什么
+长条试件的三组方槽用 1、2、3 个凸点标识，分别留单侧 0.15、0.25、0.35 mm 间隙。
+用带大底边的小方榫依次试插；当前模型采用中间一档，单侧 0.25 mm。
+两个小孔试件分别检验竖孔和横孔；1、2、3 点对应孔径 2.2、2.4、2.6 mm，配 2 mm 金属杆。
+最后一个小块检验 M3、M2 螺母槽。先确认能插入、能取出，再决定是否批量打印。
+门框试插插座板后不急着粘；目前是可取出的静态试配，电动版本的抗拔固定另行定型。
+
+五、装配
+从顶面看，底板位置编号 11/12/13 为下排（Y 负方向），21/22/23 为中排，31/32/33 为上排。
+第 1 盘：11 和 33；第 2 盘：13 和 31；第 3～7 盘依次为 12、21、22、23、32。
+盘号和底板位置不是同一组编号；对角底板为减少打印盘数而旋转排放，装配时按凹槽形状转回正确方向。
+见本目录的 50厘米装配图.png，颜色和盘号对应 ZIP 文件。
+先在底板背面的六角槽放入 M3 螺母，用 12 根接缝条跨接底板接缝。
+每根接缝条用 2 颗 M3×6 低头螺钉，从下往上锁；螺钉头高应不超过 1.7 mm。
+共有 24 颗 M3 螺母、24 颗 M3×6 螺钉。接缝条厚 3 mm，脚垫高 5 mm，低头螺钉不得顶桌面。
+脚垫位置见工程模型：4 个放在四处网格交点，8 个沿半径 225 mm 等分布置，可用薄双面胶固定。
+外围接缝条中心已从 ±210 mm 内移到 ±195 mm；全部接缝条和脚垫均未越出 500 mm 圆边，也没有互相相交。
+插座板用 4 颗 M2×6 低头螺钉与 4 颗 M2 螺母固定；头部外径不超过 4.4 mm、高不超过 1.6 mm。
+插座板的缺角对齐底板槽口缺角。门框台阶插入浅槽，门扇铰链与门框对齐，再穿 2 mm 金属杆试转。
+原庭院墙体和钢架插入各自凹槽。原有 32 个 3 mm 定位销沿用，非本 ZIP 新增零件。
+当前门扇每隔 3° 检查一次，0～105° 范围未与门框、插座板、既有墙体和钢架相交。
+40 mm 门铰链名义最薄径向壁约 0.81 mm，实际成形和转动阻力仍须实测。
+
+六、舵机还缺什么
+“两三厘米”暂按微型舵机考虑，但这不是完整的长、宽、高或出轴尺寸。
+13 mm 是底板加脚垫的总高，板下净空只有 5 mm，不能宣称舵机已经能塞进去。
+当前只保留贯通的 2.4 mm 门轴孔和可更换插座板。
+金属杆目前是静态转轴；它与门扇的传扭连接、舵机支架、卧放换向机构、局部小仓都未定型。
+继续设计时优先局部处理，不再把整个底座抬到 88 mm。
+需要舵机实物三向尺寸、出轴方向、舵盘和安装耳尺寸，才能确认最终结构。
+此工程未修改 VR、蓝牙或 Wi-Fi 程序。
+
+源工程：{R/'50厘米底座.blend'}
+整体预览：{R/'50厘米整体.png'}
+白门细节：{R/'四厘米白门细节.png'}
+''' 
+(R/'装配与试打说明.txt').write_text(note,encoding='utf-8-sig')
+(R.parent/'print-stage-slim-20261113/版本已更新.txt').write_text('600 mm 薄底座已改为 500 mm。当前版本在 ../print-stage-500mm-20261113，根目录 D:/虚拟C盘/底座.zip 更新为 7 盘版本。\n白门和试配文件没有改变。\n',encoding='utf-8-sig')
+print('SLIM_RELEASE_PASS',flush=True)

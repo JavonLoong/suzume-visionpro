@@ -1,0 +1,89 @@
+{
+  "archive": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\交付\\拉杆.zip",
+  "sha256": "7b346d0d5a482070b0ffe28ad535aac1863ab729761c848eee71afd302a92ff5",
+  "stl_only": true,
+  "native_slicing": [
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\analysis\\slice_projects\\Slim01.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\analysis\\slice_projects\\Slim01.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 1.4,
+      "seconds": 1793,
+      "grams": 6.1,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "门扇50",
+      "group": "拉杆试配",
+      "quantity": 1,
+      "layer_height_mm": 0.12,
+      "stl_sha256": "e96a2ebecfda8773aae7d661130bd2eca9820ed323feab5c4544f35c86c26353",
+      "md5_valid": true
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\analysis\\slice_projects\\Slim02.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\analysis\\slice_projects\\Slim02.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 1.4,
+      "seconds": 2223,
+      "grams": 8.99,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "门扇60",
+      "group": "拉杆试配",
+      "quantity": 1,
+      "layer_height_mm": 0.12,
+      "stl_sha256": "b6f70d5a428032bcc68a7335dd57b13bf8d7f24367229aff7e953907d515c1a6",
+      "md5_valid": true
+    },
+    {
+      "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\analysis\\slice_projects\\Slim03.3mf",
+      "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\analysis\\slice_projects\\Slim03.gcode.3mf",
+      "exit_code": 0,
+      "slicing_seconds": 1.1,
+      "seconds": 2827,
+      "grams": 12.06,
+      "outside": "false",
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "gcode_files": [
+        "Metadata/plate_1.gcode"
+      ],
+      "id": "门扇70",
+      "group": "拉杆试配",
+      "quantity": 1,
+      "layer_height_mm": 0.12,
+      "stl_sha256": "78a54799043e1089dc22bf6e8db9d4b9f7c616e236a1cf14ed1fa6e2bb20fd7d",
+      "md5_valid": true
+    }
+  ],
+  "original_archives_unchanged": {
+    "白门.zip": "df86eea53d00c473492eeb2713d4f6a66ca48a5ea2c359f7d273d87433f3ffaf",
+    "三档.zip": "7732f9039d02c50139fc4cf4dfb688178356e7fc4aca28cf14b4016c110a8586",
+    "底座.zip": "e98dcc5b71dae350caa7175b47d577df9ee09761bc2520b56ed05155c56a6114"
+  },
+  "actual_print_test": false,
+  "servo_mount_finished": false
+}

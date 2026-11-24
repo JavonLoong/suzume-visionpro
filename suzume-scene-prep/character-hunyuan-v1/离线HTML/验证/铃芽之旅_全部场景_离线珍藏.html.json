@@ -1,0 +1,219 @@
+{
+  "file": "铃芽之旅_全部场景_离线珍藏.html",
+  "isolatedFile": "D:\\Users\\15410\\AppData\\Local\\Temp\\SuzumeOffline-XmKrvX\\铃芽之旅_全部场景_离线珍藏.html",
+  "networkDisabled": true,
+  "requests": [],
+  "errors": [],
+  "consoleErrors": [],
+  "scenes": [
+    {
+      "id": "v49",
+      "ready": "true",
+      "views": [
+        "poster",
+        "close",
+        "left",
+        "right",
+        "back",
+        "aerial",
+        "night",
+        "head"
+      ],
+      "door": "开门",
+      "canvasSize": [
+        403,
+        569
+      ],
+      "inspectionKeys": [
+        "layoutEvidence",
+        "facadePigmentEvidence",
+        "doorSurfaceEvidence",
+        "nightEvidence",
+        "waterEvidence",
+        "posterSteelEvidence44",
+        "posterRailingsEvidence46",
+        "posterFasciaEvidence47",
+        "posterUpperWindowsEvidence48",
+        "posterArchesEvidence49",
+        "posterWaterEvidence40",
+        "posterCloudEvidence42",
+        "posterLowerCloudEvidence43",
+        "portalPartitionEvidence",
+        "figureEvidence",
+        "inspectModel",
+        "compositionEvidence",
+        "setInspectionView",
+        "modelEvidence"
+      ],
+      "initialCamera": [
+        0.45613384630455867,
+        1.7499999999999991,
+        17.53965613508374
+      ],
+      "doorToggle": {
+        "before": "false",
+        "after": "true"
+      }
+    },
+    {
+      "id": "v38",
+      "ready": "true",
+      "views": [
+        "poster",
+        "close",
+        "left",
+        "right",
+        "back",
+        "aerial",
+        "night",
+        "head"
+      ],
+      "door": "开门",
+      "canvasSize": [
+        403,
+        569
+      ],
+      "inspectionKeys": [
+        "layoutEvidence",
+        "facadePigmentEvidence",
+        "doorSurfaceEvidence",
+        "nightEvidence",
+        "waterEvidence",
+        "portalPartitionEvidence",
+        "figureEvidence",
+        "inspectModel",
+        "compositionEvidence",
+        "setInspectionView",
+        "modelEvidence"
+      ],
+      "initialCamera": [
+        0.45613384630455867,
+        1.7499999999999991,
+        17.53965613508374
+      ],
+      "doorToggle": {
+        "before": "false",
+        "after": "true"
+      }
+    },
+    {
+      "id": "v37",
+      "ready": "true",
+      "views": [
+        "poster",
+        "close",
+        "left",
+        "right",
+        "back",
+        "aerial",
+        "night",
+        "head"
+      ],
+      "door": "关门",
+      "canvasSize": [
+        878,
+        569
+      ],
+      "inspectionKeys": [
+        "layoutEvidence",
+        "facadePigmentEvidence",
+        "surfaceEvidence28",
+        "projectionEvidence24",
+        "doorSurfaceEvidence",
+        "nightEvidence",
+        "waterEvidence",
+        "doorwayLightEvidence",
+        "steelEvidence25",
+        "shoreEvidence26",
+        "lightingEvidence27",
+        "waterEvidence29",
+        "nightEvidence30",
+        "terrainEvidence31",
+        "doorRigEvidence32",
+        "portalPartitionEvidence",
+        "figureEvidence",
+        "inspectModel",
+        "compositionEvidence",
+        "setInspectionView",
+        "modelEvidence"
+      ],
+      "initialCamera": [
+        0.15354844661181763,
+        2.8782074998654252,
+        11.7300315454759
+      ],
+      "doorToggle": {
+        "before": "true",
+        "after": "false"
+      }
+    }
+  ],
+  "gallery": [
+    {
+      "alt": "v49 正面渲染",
+      "width": 708,
+      "height": 1000
+    },
+    {
+      "alt": "v49 斜侧渲染",
+      "width": 720,
+      "height": 468
+    }
+  ],
+  "renderDownloadSha256": "21ad470b9444e5441b222116a1c945727028aa4ff4e855488705c143dfdb72ca",
+  "nativeDownloadSha256": "b56b84831d608b8dc98134708a89fdcf49c28242534c717aad1fe0efe81a483f",
+  "final": {
+    "ready": true,
+    "selected": "renders",
+    "errors": [],
+    "missing": [],
+    "requests": [
+      "/poster-left-steel-v44/browser-steel-v44.json",
+      "/poster-left-steel-v44/steel-v44.bin",
+      "/poster-railings-v46/browser-railings-v46.json",
+      "/poster-railings-v46/facade-railings-v46.bin",
+      "/poster-railings-v46/ivy-scale-v46.json",
+      "/poster-fascia-v47/browser-fascia-v47.json",
+      "/poster-upper-windows-v48/browser-upper-windows-v48.json",
+      "/poster-upper-windows-v48/upper-facade-v48.bin",
+      "/poster-upper-windows-v48/upper-facade-pigments-v48.png",
+      "/poster-upper-windows-v48/clean-facade-pigments-v48.png",
+      "/poster-arches-v49/browser-arches-v49.json",
+      "/poster-arches-v49/arched-facade-v49.bin",
+      "/poster-horizon-v42/browser-clouds-v42.json",
+      "/poster-horizon-v42/clouds-v42.bin",
+      "/poster-lower-clouds-v43/browser-clouds-v43.json",
+      "/poster-lower-clouds-v43/lower-clouds-v43.bin",
+      "/viewer/character-v37/suzume-posed-v37.gltf",
+      "/viewer/character-v37/suzume-posed-v37.bin",
+      "/viewer/character-v37/texture-1.png",
+      "/viewer/character-v37/texture-2.png",
+      "/viewer/character-v37/texture-0.png",
+      "/viewer/character-v37/texture-1.png",
+      "/viewer/character-v37/texture-2.png",
+      "/viewer/character-v37/texture-0.png",
+      "/viewer/character-v37/suzume-posed-v37.gltf",
+      "/viewer/character-v37/suzume-posed-v37.bin",
+      "/viewer/character-v37/texture-1.png",
+      "/viewer/character-v37/texture-2.png",
+      "/viewer/character-v37/texture-0.png",
+      "/viewer/character-v37/texture-1.png",
+      "/viewer/character-v37/texture-2.png",
+      "/viewer/character-v37/texture-0.png",
+      "/movie-surfaces-v28/reference-opening.jpg",
+      "/movie-surfaces-v28/surface-validity-mask-v28.png",
+      "/movie-terrain-v31/ground-world-v31.bin",
+      "/movie-terrain-v31/extension-vertices-v31.bin",
+      "/movie-terrain-v31/extension-indices-v31.bin",
+      "/viewer/character-v37/suzume-posed-v37.gltf",
+      "/viewer/character-v37/suzume-posed-v37.bin",
+      "/viewer/character-v37/texture-1.png",
+      "/viewer/character-v37/texture-2.png",
+      "/viewer/character-v37/texture-0.png",
+      "/viewer/character-v37/texture-1.png",
+      "/viewer/character-v37/texture-2.png",
+      "/viewer/character-v37/texture-0.png"
+    ]
+  },
+  "passed": true
+}

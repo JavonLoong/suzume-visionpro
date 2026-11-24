@@ -1,0 +1,777 @@
+[
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check01.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check01.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.8,
+    "seconds": 5585,
+    "grams": 72.24,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "底板11",
+    "group": "底座结构",
+    "quantity": 1,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "1ba573a226998a0af46a3c8edde5b72acd1e7fc264a00cdaa3241a73d481c080",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check02.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check02.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 2.8,
+    "seconds": 9299,
+    "grams": 124.15,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "底板12",
+    "group": "底座结构",
+    "quantity": 1,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "66e007ddf9775ad739166270e04ac949172106d0c47f9e0c72d419c6206b5da2",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check03.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check03.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.2,
+    "seconds": 5556,
+    "grams": 72.13,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "底板13",
+    "group": "底座结构",
+    "quantity": 1,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "e07cb27737bc8124c033596ef560b97b828a931886ae560f28a9e6e7b537f62f",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check04.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check04.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 2.5,
+    "seconds": 9418,
+    "grams": 124.83,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "底板21",
+    "group": "底座结构",
+    "quantity": 1,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "1d561ef6a125ba97a413704558c9f8f826947d2664a8eda9bcb1ef03f14fa676",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check05.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check05.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.9,
+    "seconds": 7809,
+    "grams": 97.14,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "底板22",
+    "group": "底座结构",
+    "quantity": 1,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "832b40a2be52cc9b54d78593e4ad710c1b03b527ee04e8e6c6f95557a40d758a",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check06.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check06.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 2.7,
+    "seconds": 9434,
+    "grams": 124.87,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "底板23",
+    "group": "底座结构",
+    "quantity": 1,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "ab6ea70938f23079ca96c520f151add44e2e1382fc72e2250ae22c67225a8df1",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check07.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check07.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.3,
+    "seconds": 5594,
+    "grams": 72.46,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "底板31",
+    "group": "底座结构",
+    "quantity": 1,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "a89260f50bbe0fe09e9e82be1538ae37cf8cae6613f837f25922bb98b416a99e",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check08.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check08.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 2.5,
+    "seconds": 9401,
+    "grams": 125.02,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "底板32",
+    "group": "底座结构",
+    "quantity": 1,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "9eceb856f0231e2b89f153740ba4f8a2e68c613a2cc9c5092946b5fab59fd221",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check09.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check09.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.3,
+    "seconds": 5581,
+    "grams": 72.29,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "底板33",
+    "group": "底座结构",
+    "quantity": 1,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "932b722695a5970084e329c008495fe6832fe564438ee57749d65a410c506b8c",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check10.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check10.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 2.5,
+    "seconds": 6147,
+    "grams": 67.58,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "围边_打印7件",
+    "group": "底座结构",
+    "quantity": 7,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "93fca5a15dc661f932dc61395d0249595b43fd7dfd1e84a5a3fb669eb8de069e",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check11.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check11.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 2.7,
+    "seconds": 6132,
+    "grams": 66.88,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "出线围边_打印1件",
+    "group": "底座结构",
+    "quantity": 1,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "1385bc9589c6e94a9d387c1176c09f7fc2f9ae09c217d08ed288a1d4fb63b990",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check12.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check12.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.7,
+    "seconds": 2518,
+    "grams": 22.93,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "中央支脚_打印4件",
+    "group": "底座结构",
+    "quantity": 4,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "9cf93299899e2aa1334733989ea247092cea962214553d465b4bb5c2bcd0f37e",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check13.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check13.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 0.6,
+    "seconds": 871,
+    "grams": 4.04,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "接缝压条_打印12件",
+    "group": "底座结构",
+    "quantity": 12,
+    "layer_height_mm": 0.28,
+    "stl_sha256": "b8e6a79f1566ab43d3ac445d15c130d4cf4ff7e8fd4ade2302858c5ac3646ea3",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check14.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check14.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.1,
+    "seconds": 1934,
+    "grams": 4.09,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "门轴_打印1件",
+    "group": "门通用件",
+    "quantity": 1,
+    "layer_height_mm": 0.16,
+    "stl_sha256": "48473f424fb5e61ef059769ecce93707d6eec40011d428aa5f65806c2b7d37b5",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check15.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check15.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.0,
+    "seconds": 553,
+    "grams": 0.56,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "门轴承托垫圈",
+    "group": "门通用件",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "737277665d1f828799cbee53abc6a0e14a74146fa7d42c36b90884460042ce64",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check16.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check16.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.0,
+    "seconds": 1679,
+    "grams": 12.23,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "舵盘接头",
+    "group": "门通用件",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "bb0197b41b6dba68b464975a3eb838d970a9735968e9b38bbdf33922b347bbc3",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check17.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check17.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 0.5,
+    "seconds": 1008,
+    "grams": 4.86,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "舵盘夹片",
+    "group": "门通用件",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "e125be60acb283cdbd156fb30eb01f984ac3632682e5b3f083c3208b2d24d2ed",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check18.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check18.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.0,
+    "seconds": 2852,
+    "grams": 19.31,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "舵机升降托架",
+    "group": "门通用件",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "d274f5444fa301cb4cf280625e35290b4e91ac075e6e68ed270e3b7670fe91f6",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check19.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check19.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 0.7,
+    "seconds": 1169,
+    "grams": 5.79,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "舵机滑动横梁_打印2件",
+    "group": "门通用件",
+    "quantity": 2,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "80fc6b2b24b0869a56f54e1e3d5c2ddcfe4e30e41fb31201130a37c2ab48a985",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check20.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check20.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 0.7,
+    "seconds": 1130,
+    "grams": 4.18,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "升降吊耳_打印4件",
+    "group": "门通用件",
+    "quantity": 4,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "0b14739b98de068364be2b2a362566b124f68484343395c6c579a6a99aa6e781",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check21.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check21.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.6,
+    "seconds": 6492,
+    "grams": 64.94,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "主门插座板",
+    "group": "主门",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "d9e4b004e869520efc6b26ae2aa517540606e63a5aede8e7e4a58caa2eeb6986",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check22.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check22.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.3,
+    "seconds": 2991,
+    "grams": 22.19,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "主门门框",
+    "group": "主门",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "418cf8627d0a499f1b4dec010bdde8c0416e3811871cc2eb0c2a0da8a3b8058c",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check23.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check23.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 0.9,
+    "seconds": 2110,
+    "grams": 16.17,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "主门门扇",
+    "group": "主门",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "6885f6fb3a64c99a9cb847915e6be33e7361719216e7af75dec3a49e4485f534",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check24.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check24.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.6,
+    "seconds": 6470,
+    "grams": 64.98,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "小门插座板",
+    "group": "小门",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "2ecbfd36a8e41f5d2040abf3cd645b70022cdb8bbd710226ed7c3c6ce158dd42",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check25.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check25.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.0,
+    "seconds": 2576,
+    "grams": 18.08,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "小门门框",
+    "group": "小门",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "2b2695a5d94c0e7b4ee2bdca22ecad57b884c0a95392809eb05ec1ab58b6c3cf",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check26.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check26.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 0.8,
+    "seconds": 1620,
+    "grams": 10.53,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "小门门扇",
+    "group": "小门",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "77be3944e3eeb69bcfdcce571449429bca10cedeedcf498d90a39ea410761ee2",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check27.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check27.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.5,
+    "seconds": 6476,
+    "grams": 64.92,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "大门插座板",
+    "group": "大门",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "7664ab68c3fd721fa8da4ccfbfe832306bcca42a64c1d2353995884f99917db5",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check28.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check28.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 0.9,
+    "seconds": 3436,
+    "grams": 26.48,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "大门门框",
+    "group": "大门",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "b878a410255d7a1784a11f5d69379e118c7f87c07d05ef7680968a2c7ee08ec6",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check29.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check29.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 1.0,
+    "seconds": 2646,
+    "grams": 22.98,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "大门门扇",
+    "group": "大门",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "6628c5b78d46e39687038b978921b471dae02c64cefebe5f6ab6cf653ac78719",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check30.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check30.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 0.7,
+    "seconds": 587,
+    "grams": 0.55,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "侧向垫圈_打印4件",
+    "group": "门通用件",
+    "quantity": 4,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "ce176244e24e1b86c43eb1491eb91e20d46a38433734467acca20a2704219b94",
+    "md5_valid": true
+  },
+  {
+    "input": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check31.3mf",
+    "output": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-600mm-20261113\\analysis\\slice_projects\\Check31.gcode.3mf",
+    "exit_code": 0,
+    "slicing_seconds": 2.9,
+    "seconds": 6296,
+    "grams": 42.31,
+    "outside": "false",
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "gcode_files": [
+      "Metadata/plate_1.gcode"
+    ],
+    "id": "试配盘",
+    "group": "试配",
+    "quantity": 1,
+    "layer_height_mm": 0.2,
+    "stl_sha256": "cceb04ea60b2d73a241f36bb400cda085c0a7466ca9f8bb18bc768c2c9a5f109",
+    "md5_valid": true
+  }
+]

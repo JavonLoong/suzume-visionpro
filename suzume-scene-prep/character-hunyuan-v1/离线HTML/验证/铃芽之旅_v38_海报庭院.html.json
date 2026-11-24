@@ -1,0 +1,63 @@
+{
+  "file": "铃芽之旅_v38_海报庭院.html",
+  "isolatedFile": "D:\\Users\\15410\\AppData\\Local\\Temp\\SuzumeOffline-dbtolq\\铃芽之旅_v38_海报庭院.html",
+  "networkDisabled": true,
+  "requests": [],
+  "errors": [],
+  "consoleErrors": [],
+  "scenes": [
+    {
+      "id": "v38",
+      "ready": "true",
+      "views": [
+        "poster",
+        "close",
+        "left",
+        "right",
+        "back",
+        "aerial",
+        "night",
+        "head"
+      ],
+      "door": "开门",
+      "canvasSize": [
+        520,
+        734
+      ],
+      "inspectionKeys": [
+        "layoutEvidence",
+        "facadePigmentEvidence",
+        "doorSurfaceEvidence",
+        "nightEvidence",
+        "waterEvidence",
+        "portalPartitionEvidence",
+        "figureEvidence",
+        "inspectModel",
+        "compositionEvidence",
+        "setInspectionView",
+        "modelEvidence"
+      ],
+      "doorToggle": {
+        "before": "false",
+        "after": "true"
+      }
+    }
+  ],
+  "final": {
+    "ready": true,
+    "selected": "v38",
+    "errors": [],
+    "missing": [],
+    "requests": [
+      "/viewer/character-v37/suzume-posed-v37.gltf",
+      "/viewer/character-v37/suzume-posed-v37.bin",
+      "/viewer/character-v37/texture-1.png",
+      "/viewer/character-v37/texture-2.png",
+      "/viewer/character-v37/texture-0.png",
+      "/viewer/character-v37/texture-1.png",
+      "/viewer/character-v37/texture-2.png",
+      "/viewer/character-v37/texture-0.png"
+    ]
+  },
+  "passed": true
+}

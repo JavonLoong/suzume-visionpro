@@ -1,0 +1,1 @@
+PASS: controller stick mapping, user candidate freeze, four independent 3-D corners, whole-quad translation, actual mask mesh corners, pause guard, cancel restore, explicit confirmation, local calibration round trip, anchor-local JSON round trip, tilted pose and capture-time relative pose conversion. Hardware anchor persistence still requires headset test.

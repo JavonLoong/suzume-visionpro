@@ -1,0 +1,1869 @@
+{
+  "date": "2026-11-13",
+  "status": "外观修订与静态试配；驱动仓待实测舵机尺寸后定型",
+  "stage_diameter_mm": 500,
+  "courtyard_diameter_mm": 400,
+  "deck_thickness_mm": 8,
+  "foot_height_mm": 5,
+  "overall_stage_height_mm": 13,
+  "cassette_mm": [
+    64,
+    44
+  ],
+  "clearance_per_side_mm": 0.25,
+  "shaft_bore_mm": 2.4,
+  "shaft_nominal_mm": 2,
+  "main_door": "40毫米",
+  "door_variants": [
+    {
+      "label": "35毫米",
+      "outer_height_mm": 35,
+      "scale_from_source": 1.3011152416356877,
+      "pivot_xy": [
+        7.156133828996282,
+        12.137546468401487
+      ],
+      "outer_pedestal_width_mm": 23.42007434944238,
+      "outer_frame_width_mm": 17.69516728624535,
+      "opening_width_mm": 13.011152416356877,
+      "opening_height_mm": 30.055762081784387,
+      "hinge_wall_mm": 0.5565055762081785,
+      "pedestal_pocket_depth_mm": 1.2,
+      "release_for_static_trial": false
+    },
+    {
+      "label": "40毫米",
+      "outer_height_mm": 40,
+      "scale_from_source": 1.4869888475836432,
+      "pivot_xy": [
+        8.178438661710038,
+        11.728624535315985
+      ],
+      "outer_pedestal_width_mm": 26.765799256505577,
+      "outer_frame_width_mm": 20.223048327137548,
+      "opening_width_mm": 14.869888475836433,
+      "opening_height_mm": 34.349442379182165,
+      "hinge_wall_mm": 0.8074349442379185,
+      "pedestal_pocket_depth_mm": 1.2,
+      "release_for_static_trial": true
+    },
+    {
+      "label": "45毫米",
+      "outer_height_mm": 45,
+      "scale_from_source": 1.6728624535315986,
+      "pivot_xy": [
+        9.200743494423792,
+        11.319702602230482
+      ],
+      "outer_pedestal_width_mm": 30.111524163568774,
+      "outer_frame_width_mm": 22.75092936802974,
+      "opening_width_mm": 16.728624535315987,
+      "opening_height_mm": 38.64312267657993,
+      "hinge_wall_mm": 1.0583643122676583,
+      "pedestal_pocket_depth_mm": 1.2,
+      "release_for_static_trial": false
+    }
+  ],
+  "parts": [
+    {
+      "id": "薄底板11",
+      "group": "底座",
+      "quantity": 1,
+      "size_mm": [
+        128.9128450629926,
+        128.9128450629926,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        229.0628450629926,
+        229.0628450629926,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\薄底板11.stl",
+      "sha256": "92a312c3886410ad2664d402110106ee4260a7ac24a182453bf8a15902d9edbe"
+    },
+    {
+      "id": "薄底板12",
+      "group": "底座",
+      "quantity": 1,
+      "size_mm": [
+        199.7,
+        149.85,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        99.85,
+        250.0,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\薄底板12.stl",
+      "sha256": "7eb4184b67b76e7fd6c1fc2ecc642831d621a2268ae5ed90a4865bcfe6d4405e"
+    },
+    {
+      "id": "薄底板13",
+      "group": "底座",
+      "quantity": 1,
+      "size_mm": [
+        128.9128450629926,
+        128.9128450629926,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        -100.15,
+        229.0628450629926,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\薄底板13.stl",
+      "sha256": "c7f31fc3d89d1e9b25f49586ea2f3219ba68b924b7fbcd843db4f4070dac83b0"
+    },
+    {
+      "id": "薄底板21",
+      "group": "底座",
+      "quantity": 1,
+      "size_mm": [
+        149.85,
+        199.7,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        250.0,
+        99.85,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\薄底板21.stl",
+      "sha256": "d92389e134ebc967bc59e019623782c6875ddcc7927b72ccc7374966173eddab"
+    },
+    {
+      "id": "薄底板22",
+      "group": "底座",
+      "quantity": 1,
+      "size_mm": [
+        199.7,
+        199.7,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        99.85,
+        99.85,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\薄底板22.stl",
+      "sha256": "6fca3e44efe2eb9610d9dcc9c592420f01bb2483e40eaa9c7bb2fd5a972f972c"
+    },
+    {
+      "id": "薄底板23",
+      "group": "底座",
+      "quantity": 1,
+      "size_mm": [
+        149.85,
+        199.7,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        -100.15,
+        99.85,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\薄底板23.stl",
+      "sha256": "a34de87d2152d1893c250810574fa21741db2d3ce8fffdf57b7443f051c00c2b"
+    },
+    {
+      "id": "薄底板31",
+      "group": "底座",
+      "quantity": 1,
+      "size_mm": [
+        128.9128450629926,
+        128.9128450629926,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        229.0628450629926,
+        -100.15,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\薄底板31.stl",
+      "sha256": "e812b067f9d4d5152598d28512a41843c85d4b0ec3f236794bb0a902c3c2fb37"
+    },
+    {
+      "id": "薄底板32",
+      "group": "底座",
+      "quantity": 1,
+      "size_mm": [
+        199.7,
+        149.85,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        99.85,
+        -100.15,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\薄底板32.stl",
+      "sha256": "1c162ee9612958ebfb5a79421e1019499c8b14b016fb7b129b129a94c459999c"
+    },
+    {
+      "id": "薄底板33",
+      "group": "底座",
+      "quantity": 1,
+      "size_mm": [
+        128.9128450629926,
+        128.9128450629926,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        -100.15,
+        -100.15,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\薄底板33.stl",
+      "sha256": "d2ffcc1b5c79f050bd193a2b5e990cf037274a87b60d03c8249a60b05b505540"
+    },
+    {
+      "id": "底部接缝条_打印12件",
+      "group": "底座",
+      "quantity": 12,
+      "size_mm": [
+        52.0,
+        20.0,
+        3.0
+      ],
+      "rotate": [
+        180,
+        0,
+        0
+      ],
+      "shift": [
+        26.0,
+        10.0,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\底部接缝条_打印12件.stl",
+      "sha256": "26481e41f54e59e96888c4f45f46f4841fe68729a9691e0c8487dcbc89e71fbf"
+    },
+    {
+      "id": "隐藏脚垫_打印12件",
+      "group": "底座",
+      "quantity": 12,
+      "size_mm": [
+        20.0,
+        20.0,
+        5.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        10.0,
+        10.0,
+        5.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\底座\\隐藏脚垫_打印12件.stl",
+      "sha256": "c0012ce8473ae5f9042ce9ab0badde9ecfb10c42e5df8458177b0df9d675ba25"
+    },
+    {
+      "id": "35毫米门框",
+      "group": "35毫米",
+      "quantity": 1,
+      "size_mm": [
+        23.42007434944238,
+        10.408921933085502,
+        35.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        11.71003717472119,
+        -9.79553903345725,
+        -6.8
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\35毫米\\35毫米门框.stl",
+      "sha256": "0476877b8a12e670f16b5c759397edbf5abbdf172faaa9fd3f9410eae1fbf8d7"
+    },
+    {
+      "id": "35毫米门扇",
+      "group": "35毫米",
+      "quantity": 1,
+      "size_mm": [
+        14.767657992565056,
+        29.014869888475836,
+        5.659851301115243
+      ],
+      "rotate": [
+        -90,
+        0,
+        0
+      ],
+      "shift": [
+        5.855018587360595,
+        -10.378066914498142,
+        16.04089219330855
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\35毫米\\35毫米门扇.stl",
+      "sha256": "36b86ded14c0ea52f167ecc64fa93d080dbaa655b8b89c127704ec29ed5c4b6f"
+    },
+    {
+      "id": "35毫米插座板",
+      "group": "35毫米",
+      "quantity": 1,
+      "size_mm": [
+        64.0,
+        44.0,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        32.0,
+        7.0,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\35毫米\\35毫米插座板.stl",
+      "sha256": "1df4a32fb47dd519db73a697d58d849a89e90aef73c72a38ca7281e9cf8ef440"
+    },
+    {
+      "id": "40毫米门框",
+      "group": "40毫米",
+      "quantity": 1,
+      "size_mm": [
+        26.765799256505577,
+        11.895910780669148,
+        40.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        13.382899628252789,
+        -9.052044609665426,
+        -6.8
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\40毫米\\40毫米门框.stl",
+      "sha256": "3a17c6426f6ebf41c66852d5ff22c072b5c247649abe80609b62d8f6f3545d19"
+    },
+    {
+      "id": "40毫米门扇",
+      "group": "40毫米",
+      "quantity": 1,
+      "size_mm": [
+        16.87732342007435,
+        33.15985130111524,
+        6.468401486988849
+      ],
+      "rotate": [
+        -90,
+        0,
+        0
+      ],
+      "shift": [
+        6.691449814126394,
+        -10.889219330855017,
+        16.189591078066915
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\40毫米\\40毫米门扇.stl",
+      "sha256": "5a89807e0a67c259ec9ce9e1d88f42759fa5483f46ebcf890a0fbaf3e5b60909"
+    },
+    {
+      "id": "40毫米插座板",
+      "group": "40毫米",
+      "quantity": 1,
+      "size_mm": [
+        64.0,
+        44.0,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        32.0,
+        7.0,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\40毫米\\40毫米插座板.stl",
+      "sha256": "5ea0571db46e2da98626ee434c44ef8567fa8d90c3789bd7fc9c2217627a4aa1"
+    },
+    {
+      "id": "45毫米门框",
+      "group": "45毫米",
+      "quantity": 1,
+      "size_mm": [
+        30.111524163568774,
+        13.382899628252787,
+        45.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        15.055762081784387,
+        -8.308550185873607,
+        -6.8
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\45毫米\\45毫米门框.stl",
+      "sha256": "8859347aa42dad6293bf58d957a420d9f736789611d38d4360f1a7fd37a513b3"
+    },
+    {
+      "id": "45毫米门扇",
+      "group": "45毫米",
+      "quantity": 1,
+      "size_mm": [
+        18.986988847583643,
+        37.30483271375465,
+        7.276951672862454
+      ],
+      "rotate": [
+        -90,
+        0,
+        0
+      ],
+      "shift": [
+        7.5278810408921935,
+        -11.400371747211896,
+        16.33828996282528
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\45毫米\\45毫米门扇.stl",
+      "sha256": "cfcbcc51f6a037c109e972acb2067928269f66f483e9495eab1b7476b66def22"
+    },
+    {
+      "id": "45毫米插座板",
+      "group": "45毫米",
+      "quantity": 1,
+      "size_mm": [
+        64.0,
+        44.0,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "shift": [
+        32.0,
+        7.0,
+        -0.0
+      ],
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\STL\\45毫米\\45毫米插座板.stl",
+      "sha256": "764132b0074a43a754e35ddff2f93047a9a8f7181231fcd94c1ded137a05b254"
+    }
+  ],
+  "checks": [
+    {
+      "check": "W01_环形建筑落座",
+      "interference_mm3": 6.947108678907373e-14
+    },
+    {
+      "check": "W02_环形建筑落座",
+      "interference_mm3": 1.0431452149826676e-14
+    },
+    {
+      "check": "W03_环形建筑_附件13落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "W03_环形建筑落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "W04_环形建筑_附件05落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "W04_环形建筑落座",
+      "interference_mm3": 3.3706598710075975e-14
+    },
+    {
+      "check": "W05_环形建筑落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "W06_环形建筑落座",
+      "interference_mm3": 1.3365318475165502e-14
+    },
+    {
+      "check": "W07_环形建筑落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "W08_环形建筑_附件17落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "W08_环形建筑_附件18落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "W08_环形建筑_附件33落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "W08_环形建筑_附件34落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "W08_环形建筑_附件35落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "W08_环形建筑落座",
+      "interference_mm3": 1.7893540739907142e-13
+    },
+    {
+      "check": "S01_钢架落座",
+      "interference_mm3": 2.915016337046496e-14
+    },
+    {
+      "check": "S02_钢架落座",
+      "interference_mm3": 2.7598984492793507e-14
+    },
+    {
+      "check": "S03_钢架落座",
+      "interference_mm3": 3.7619816418688907e-14
+    },
+    {
+      "check": "S04_钢架落座",
+      "interference_mm3": 2.1727470828915817e-14
+    },
+    {
+      "check": "S05_钢架落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "S06_钢架落座",
+      "interference_mm3": 2.6103187163344238e-14
+    },
+    {
+      "check": "S07_钢架落座",
+      "interference_mm3": 1.941443391413524e-14
+    },
+    {
+      "check": "S08_钢架落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件1不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件2不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件3不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件4不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件5不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件6不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件7不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件8不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件9不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件10不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件11不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件12不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件13不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件14不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件15不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件16不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件17不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件18不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件19不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件20不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件21不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件22不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件23不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "底部零件24不越圆边",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫1与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫2与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫3与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫4与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫5与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫6与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫7与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫8与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫9与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫10与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫11与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "脚垫12与接缝条12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米插座",
+      "interference_mm3": 1.4525202617971704e-14
+    },
+    {
+      "check": "35毫米门框落座",
+      "interference_mm3": 3.847334777151712e-14
+    },
+    {
+      "check": "35毫米开门0",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门15",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门18",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门21",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门24",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门27",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门30",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门33",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门36",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门39",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门42",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门45",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门48",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门51",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门54",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门57",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门60",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门63",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门66",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门69",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门72",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门75",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门78",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门81",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门84",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门87",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门90",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门93",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门96",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门99",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门102",
+      "interference_mm3": 0
+    },
+    {
+      "check": "35毫米开门105",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米插座",
+      "interference_mm3": 1.4525202617971704e-14
+    },
+    {
+      "check": "40毫米门框落座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门0",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门15",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门18",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门21",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门24",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门27",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门30",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门33",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门36",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门39",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门42",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门45",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门48",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门51",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门54",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门57",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门60",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门63",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门66",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门69",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门72",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门75",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门78",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门81",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门84",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门87",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门90",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门93",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门96",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门99",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门102",
+      "interference_mm3": 0
+    },
+    {
+      "check": "40毫米开门105",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米插座",
+      "interference_mm3": 1.4525202617971704e-14
+    },
+    {
+      "check": "45毫米门框落座",
+      "interference_mm3": 6.706701166647733e-14
+    },
+    {
+      "check": "45毫米开门0",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门15",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门18",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门21",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门24",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门27",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门30",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门33",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门36",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门39",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门42",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门45",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门48",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门51",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门54",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门57",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门60",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门63",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门66",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门69",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门72",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门75",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门78",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门81",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门84",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门87",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门90",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门93",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门96",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门99",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门102",
+      "interference_mm3": 0
+    },
+    {
+      "check": "45毫米开门105",
+      "interference_mm3": 0
+    }
+  ],
+  "foot_positions": [
+    [
+      -100,
+      -100
+    ],
+    [
+      -100,
+      100
+    ],
+    [
+      100,
+      -100
+    ],
+    [
+      100,
+      100
+    ],
+    [
+      225.0,
+      0.0
+    ],
+    [
+      159.0990257669732,
+      159.0990257669732
+    ],
+    [
+      1.3777276490407723e-14,
+      225.0
+    ],
+    [
+      -159.09902576697317,
+      159.0990257669732
+    ],
+    [
+      -225.0,
+      2.7554552980815446e-14
+    ],
+    [
+      -159.09902576697323,
+      -159.09902576697317
+    ],
+    [
+      -4.133182947122317e-14,
+      -225.0
+    ],
+    [
+      159.09902576697314,
+      -159.09902576697323
+    ]
+  ],
+  "bridges": [
+    [
+      -100,
+      -195,
+      0
+    ],
+    [
+      -100,
+      0,
+      0
+    ],
+    [
+      -100,
+      195,
+      0
+    ],
+    [
+      100,
+      -195,
+      0
+    ],
+    [
+      100,
+      0,
+      0
+    ],
+    [
+      100,
+      195,
+      0
+    ],
+    [
+      -195,
+      -100,
+      90
+    ],
+    [
+      0,
+      -100,
+      90
+    ],
+    [
+      195,
+      -100,
+      90
+    ],
+    [
+      -195,
+      100,
+      90
+    ],
+    [
+      0,
+      100,
+      90
+    ],
+    [
+      195,
+      100,
+      90
+    ]
+  ],
+  "cassette_bolts": [
+    [
+      -28.5,
+      -3.5
+    ],
+    [
+      -28.5,
+      33.5
+    ],
+    [
+      28.5,
+      -3.5
+    ],
+    [
+      28.5,
+      33.5
+    ]
+  ],
+  "actuation_status": "只预留门轴通道；叶片与金属轴的固定、卧放舵机及换向传动尚未定型，不能据此宣称电动门完成。",
+  "unknowns": [
+    "舵机实际三维尺寸、输出轴方位和舵盘接口",
+    "卧放传动与局部仓的最终高度",
+    "打印槽口和轴孔的实物配合"
+  ],
+  "supersedes": "print-stage-slim-20261113 的 600 mm 薄底座；现在采用 500 mm 外径，庭院槽口和门保持原尺寸。",
+  "actual_print_test": false
+}

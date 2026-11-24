@@ -1,0 +1,401 @@
+[
+  {
+    "id": "底座1",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\整盘STL\\底座\\底座1.stl",
+    "sha256": "a26c52cccf56438598046ce347427899760135371e2f72f79d752f540d4c7d56",
+    "components": 6,
+    "size_mm": [
+      213.9128450629926,
+      228.91284506299263,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板11",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 180
+      },
+      {
+        "id": "薄底板33",
+        "x": 110,
+        "y": 110,
+        "rotation_z": 180
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "底座2",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\整盘STL\\底座\\底座2.stl",
+    "sha256": "208bc2f700cd8b3759a25a9f2d684ae83f42fee079734c23c2f72151ed472b7f",
+    "components": 6,
+    "size_mm": [
+      213.9128450629926,
+      228.9128450629926,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板13",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 90
+      },
+      {
+        "id": "薄底板31",
+        "x": 110,
+        "y": 110,
+        "rotation_z": 90
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "底座3",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\整盘STL\\底座\\底座3.stl",
+    "sha256": "773d1476341982290f0c604be43ca72f81fa465e122035d4a73472cc7da54421",
+    "components": 5,
+    "size_mm": [
+      199.7,
+      179.85,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板12",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "底座4",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\整盘STL\\底座\\底座4.stl",
+    "sha256": "b730ffca97a0d84e53123d454f3561dfbd394d24791401c05ca2dafa9b5f75de",
+    "components": 5,
+    "size_mm": [
+      165.0,
+      229.7,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板21",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "底座5",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\整盘STL\\底座\\底座5.stl",
+    "sha256": "ecec29bc7f6e73ca35e863bb44c84060f563d69cfdbc9d1bec7f5ad8b2c34f73",
+    "components": 5,
+    "size_mm": [
+      199.7,
+      229.7,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板22",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "底座6",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\整盘STL\\底座\\底座6.stl",
+    "sha256": "61209a9e90022af720e670659a030afc397ea7bd48da2272c50c45cd91692ebf",
+    "components": 5,
+    "size_mm": [
+      165.0,
+      229.7,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板23",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 25,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "底部接缝条_打印12件",
+        "x": 84,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 143,
+        "y": 10,
+        "rotation_z": 0
+      },
+      {
+        "id": "隐藏脚垫_打印12件",
+        "x": 170,
+        "y": 10,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "底座7",
+    "group": "底座",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "base",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\整盘STL\\底座\\底座7.stl",
+    "sha256": "3b6aa29bfb62c81042852188dd56ba28f482962148a8d24e8604b672e1d10a2f",
+    "components": 1,
+    "size_mm": [
+      199.7,
+      149.85,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "薄底板32",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "白门",
+    "group": "门",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "door",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\整盘STL\\门\\白门.stl",
+    "sha256": "2564139e42d13778019c7bc50ea4d9fb09835d64d2ec8b42a689631fd0e244ef",
+    "components": 3,
+    "size_mm": [
+      131.87732342007436,
+      44.0,
+      40.0
+    ],
+    "placements": [
+      {
+        "id": "40毫米插座板",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "40毫米门框",
+        "x": 100,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "40毫米门扇",
+        "x": 140,
+        "y": 40,
+        "rotation_z": 0
+      }
+    ]
+  },
+  {
+    "id": "试配",
+    "group": "试配",
+    "quantity": 1,
+    "packed": true,
+    "settings_kind": "trial",
+    "stl_path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113\\整盘STL\\试配\\试配.stl",
+    "sha256": "75e8ef238292cec074df254f37ac7759514bdbf0391289fedffd85ceb03ea7ad",
+    "components": 5,
+    "size_mm": [
+      119.0,
+      46.0,
+      8.0
+    ],
+    "placements": [
+      {
+        "id": "配合试件",
+        "x": 25,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "配合试件",
+        "x": 120,
+        "y": 40,
+        "rotation_z": 0
+      },
+      {
+        "id": "配合试件",
+        "x": 25,
+        "y": 70,
+        "rotation_z": 0
+      },
+      {
+        "id": "配合试件",
+        "x": 65,
+        "y": 70,
+        "rotation_z": 0
+      },
+      {
+        "id": "配合试件",
+        "x": 105,
+        "y": 70,
+        "rotation_z": 0
+      }
+    ]
+  }
+]

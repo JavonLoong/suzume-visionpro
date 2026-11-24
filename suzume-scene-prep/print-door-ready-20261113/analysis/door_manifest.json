@@ -1,0 +1,6751 @@
+{
+  "date": "2026-11-13",
+  "status": "完整门侧打印包：精细白门、背面三档拉杆孔、对应插座板",
+  "base_project": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-stage-500mm-20261113",
+  "software_source": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\analysis\\software_source.json",
+  "stage_diameter_mm": 500,
+  "courtyard_diameter_mm": 400,
+  "baseline_door_height_mm": 40,
+  "main_door": "60毫米",
+  "door_variants": [
+    {
+      "label": "50毫米",
+      "factor": 1.25,
+      "outer_height_mm": 50,
+      "outer_frame_width_mm": 24.87650160035143,
+      "pivot_xy": [
+        9.433272504051455,
+        18.375958360726703
+      ],
+      "scale_from_software": 21.572444624884014,
+      "cassette_dots": 1,
+      "opening_sign": -1,
+      "engraving_depth_mm": 0.24,
+      "pedestal_mm": [
+        27.276501600351427,
+        10.030492443031903,
+        1.7
+      ]
+    },
+    {
+      "label": "60毫米",
+      "factor": 1.5,
+      "outer_height_mm": 60,
+      "outer_frame_width_mm": 30.01627465827528,
+      "pivot_xy": [
+        11.382295748690185,
+        18.587933228645444
+      ],
+      "scale_from_software": 26.0295612829179,
+      "cassette_dots": 2,
+      "opening_sign": -1,
+      "engraving_depth_mm": 0.27999999999999997,
+      "pedestal_mm": [
+        32.41627465827528,
+        10.88389997258395,
+        1.7
+      ]
+    },
+    {
+      "label": "70毫米",
+      "factor": 1.75,
+      "outer_height_mm": 70,
+      "outer_frame_width_mm": 35.156047716199126,
+      "pivot_xy": [
+        13.331318993328917,
+        18.79990809656418
+      ],
+      "scale_from_software": 30.48667794095179,
+      "cassette_dots": 3,
+      "opening_sign": -1,
+      "engraving_depth_mm": 0.32,
+      "pedestal_mm": [
+        37.556047716199124,
+        11.737307502135994,
+        1.7
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "50毫米门框",
+      "group": "50毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\STL\\50毫米\\50毫米门框.stl",
+      "sha256": "5294978bf41de1138a648b03c394e0789e390c54c33a8ba6a113c71be2f30e03",
+      "size_mm": [
+        27.276501600351427,
+        10.030492443031903,
+        50.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "source_stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\STL\\50毫米\\50毫米门框.stl"
+    },
+    {
+      "id": "50毫米门扇",
+      "group": "50毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\STL\\50毫米\\50毫米门扇.stl",
+      "sha256": "e96a2ebecfda8773aae7d661130bd2eca9820ed323feab5c4544f35c86c26353",
+      "size_mm": [
+        20.82268287312609,
+        45.30213605485591,
+        18.508173405969266
+      ],
+      "rotate": [
+        -90,
+        0,
+        0
+      ],
+      "source_stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\STL\\门扇50.stl"
+    },
+    {
+      "id": "50毫米插座板",
+      "group": "50毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\STL\\50毫米\\50毫米插座板.stl",
+      "sha256": "0602d24e3d8bbfbe3c12d2cbfcbf374b2f7487d011cc355224f9dadd828c84ba",
+      "size_mm": [
+        64.0,
+        44.0,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "source_stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\STL\\50毫米\\50毫米插座板.stl"
+    },
+    {
+      "id": "60毫米门框",
+      "group": "60毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\STL\\60毫米\\60毫米门框.stl",
+      "sha256": "4b22dfdae47dae4a09d91533180672ff27aae12169c204be251a93dc5377bcb5",
+      "size_mm": [
+        32.41627465827528,
+        10.88389997258395,
+        60.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "source_stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\STL\\60毫米\\60毫米门框.stl"
+    },
+    {
+      "id": "60毫米门扇",
+      "group": "60毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\STL\\60毫米\\60毫米门扇.stl",
+      "sha256": "b6f70d5a428032bcc68a7335dd57b13bf8d7f24367229aff7e953907d515c1a6",
+      "size_mm": [
+        24.701336359309167,
+        54.66208152073523,
+        19.680258536492136
+      ],
+      "rotate": [
+        -90,
+        0,
+        0
+      ],
+      "source_stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\STL\\门扇60.stl"
+    },
+    {
+      "id": "60毫米插座板",
+      "group": "60毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\STL\\60毫米\\60毫米插座板.stl",
+      "sha256": "57e5646d2892ee3113ae6a8b0f211b5c2d5f0f017ee78981b909705d69eae4e9",
+      "size_mm": [
+        64.0,
+        44.0,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "source_stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\STL\\60毫米\\60毫米插座板.stl"
+    },
+    {
+      "id": "70毫米门框",
+      "group": "70毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\STL\\70毫米\\70毫米门框.stl",
+      "sha256": "39790e972c22b8e665c0dbf54aee7afb163390a9a260fe74d7696fbdb76816b2",
+      "size_mm": [
+        37.556047716199124,
+        11.737307502135994,
+        70.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "source_stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\STL\\70毫米\\70毫米门框.stl"
+    },
+    {
+      "id": "70毫米门扇",
+      "group": "70毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\STL\\70毫米\\70毫米门扇.stl",
+      "sha256": "78a54799043e1089dc22bf6e8db9d4b9f7c616e236a1cf14ed1fa6e2bb20fd7d",
+      "size_mm": [
+        28.579989845492243,
+        64.02202698661455,
+        20.852343667015
+      ],
+      "rotate": [
+        -90,
+        0,
+        0
+      ],
+      "source_stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113\\STL\\门扇70.stl"
+    },
+    {
+      "id": "70毫米插座板",
+      "group": "70毫米",
+      "quantity": 1,
+      "stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-ready-20261113\\STL\\70毫米\\70毫米插座板.stl",
+      "sha256": "660778f105f987c8b8d6062d875273d266690fb585ba71ad406c4fea852155f8",
+      "size_mm": [
+        64.0,
+        44.0,
+        8.0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "source_stl": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-door-detail-20261113\\STL\\70毫米\\70毫米插座板.stl"
+    }
+  ],
+  "checks": [
+    {
+      "check": "50毫米去除悬空止口尾料",
+      "volume_mm3": 0.15814525102275145
+    },
+    {
+      "check": "50毫米去除悬空止口尾料",
+      "volume_mm3": 0.1581452510227518
+    },
+    {
+      "check": "50毫米插座底板",
+      "interference_mm3": 1.4123204592853076e-14
+    },
+    {
+      "check": "50毫米门框插座",
+      "interference_mm3": 8.841873020966166e-14
+    },
+    {
+      "check": "50毫米轴孔贯通",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门0",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门13",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门14",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门15",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门16",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门17",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门18",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门19",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门20",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门21",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门22",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门23",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门24",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门25",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门26",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门27",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门28",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门29",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门30",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门31",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门32",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门33",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门34",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门35",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门36",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门37",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门38",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门39",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门40",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门41",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门42",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门43",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门44",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门45",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门46",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门47",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门48",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门49",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门50",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门51",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门52",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门53",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门54",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门55",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门56",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门57",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门58",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门59",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门60",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门61",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门62",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门63",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门64",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门65",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门66",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门67",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门68",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门69",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门70",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门71",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门72",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门73",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门74",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门75",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门76",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门77",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门78",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门79",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门80",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门81",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门82",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门83",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门84",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门85",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门86",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门87",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门88",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门89",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门90",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门91",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门92",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门93",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门94",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门95",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门96",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门97",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门98",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门99",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门100",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门101",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门102",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门103",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门104",
+      "interference_mm3": 0
+    },
+    {
+      "check": "50毫米开门105",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米去除悬空止口尾料",
+      "volume_mm3": 0.3198460759085713
+    },
+    {
+      "check": "60毫米去除悬空止口尾料",
+      "volume_mm3": 0.3198460759085713
+    },
+    {
+      "check": "60毫米插座底板",
+      "interference_mm3": 1.4123204592853076e-14
+    },
+    {
+      "check": "60毫米门框插座",
+      "interference_mm3": 7.573108806724349e-14
+    },
+    {
+      "check": "60毫米轴孔贯通",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门0",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门13",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门14",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门15",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门16",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门17",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门18",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门19",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门20",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门21",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门22",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门23",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门24",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门25",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门26",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门27",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门28",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门29",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门30",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门31",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门32",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门33",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门34",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门35",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门36",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门37",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门38",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门39",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门40",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门41",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门42",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门43",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门44",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门45",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门46",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门47",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门48",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门49",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门50",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门51",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门52",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门53",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门54",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门55",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门56",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门57",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门58",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门59",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门60",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门61",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门62",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门63",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门64",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门65",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门66",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门67",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门68",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门69",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门70",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门71",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门72",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门73",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门74",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门75",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门76",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门77",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门78",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门79",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门80",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门81",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门82",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门83",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门84",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门85",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门86",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门87",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门88",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门89",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门90",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门91",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门92",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门93",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门94",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门95",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门96",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门97",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门98",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门99",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门100",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门101",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门102",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门103",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门104",
+      "interference_mm3": 0
+    },
+    {
+      "check": "60毫米开门105",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米去除悬空止口尾料",
+      "volume_mm3": 0.5616733878162046
+    },
+    {
+      "check": "70毫米去除悬空止口尾料",
+      "volume_mm3": 0.5616733878162039
+    },
+    {
+      "check": "70毫米门扇接缝拓扑修复",
+      "volume_change_fraction": 1.896833801140474e-10,
+      "bounds_change_mm": 0.0
+    },
+    {
+      "check": "70毫米插座底板",
+      "interference_mm3": 1.4123204592853076e-14
+    },
+    {
+      "check": "70毫米门框插座",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米轴孔贯通",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门0",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门1",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门2",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门3",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门4",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门5",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门6",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门7",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门8",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门9",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门10",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门11",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门12",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门13",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门14",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门15",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门16",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门17",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门18",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门19",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门20",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门21",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门22",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门23",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门24",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门25",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门26",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门27",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门28",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门29",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门30",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门31",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门32",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门33",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门34",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门35",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门36",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门37",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门38",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门39",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门40",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门41",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门42",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门43",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门44",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门45",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门46",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门47",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门48",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门49",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门50",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门51",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门52",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门53",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门54",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门55",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门56",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门57",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门58",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门59",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门60",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门61",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门62",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门63",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门64",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门65",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门66",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门67",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门68",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门69",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门70",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门71",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门72",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门73",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门74",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门75",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门76",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门77",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门78",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门79",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门80",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门81",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门82",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门83",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门84",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门85",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门86",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门87",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门88",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门89",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门90",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门91",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门92",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门93",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门94",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门95",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门96",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门97",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门98",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门99",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门100",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门101",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门102",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门103",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门104",
+      "interference_mm3": 0
+    },
+    {
+      "check": "70毫米开门105",
+      "interference_mm3": 0
+    }
+  ],
+  "shaft_bore_mm": 2.4,
+  "shaft_nominal_mm": 2,
+  "actual_print_test": false,
+  "servo_drive_finished": false,
+  "preserved": [
+    "软件 FBX 的六格门板位置与比例",
+    "双面层次、细边线、分层门楣与边框",
+    "长锁板、圆把手、正面三只细合页",
+    "源磨损网格转成浅浮雕"
+  ],
+  "adapted": [
+    "单独的贴面背后补实体连接",
+    "门板芯最小 1.6 mm",
+    "把手与锁板内移 1.5 mm，避免原虚拟几何重叠切坏门框细线",
+    "2 mm 金属轴与功能合页藏到背后",
+    "隐蔽门框止口留 0.25 mm 运动间隙",
+    "浅槽对应三档台阶；公共底座接口不变",
+    "已将背面三档拉杆耳合入完整门扇；原门框及插座接口沿用"
+  ],
+  "linkage_source": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\print-linkage-trial-20261113",
+  "linkage_checks": [
+    {
+      "name": "50毫米仅增加背部摇臂",
+      "interference_mm3": 1.7971479140289707e-06
+    },
+    {
+      "name": "50毫米门扇开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米门扇开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆6孔开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆9孔开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "50毫米拉杆12孔开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米仅增加背部摇臂",
+      "interference_mm3": 1.0995276276954074e-05
+    },
+    {
+      "name": "60毫米门扇开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米门扇开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆6孔开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆9孔开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "60毫米拉杆12孔开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米仅增加背部摇臂",
+      "interference_mm3": 1.273927520214096e-05
+    },
+    {
+      "name": "70毫米门扇开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门0",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门1",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门2",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门3",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门4",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门5",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门6",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门7",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门8",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门9",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门10",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门11",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门12",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门13",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门14",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门15",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门16",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门17",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门18",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门19",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门20",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门21",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门22",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门23",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门24",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门25",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门26",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门27",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门28",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门29",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门30",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门31",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门32",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门33",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门34",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门35",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门36",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门37",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门38",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门39",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门40",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门41",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门42",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门43",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门44",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门45",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门46",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门47",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门48",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门49",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门50",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门51",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门52",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门53",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门54",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门55",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门56",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门57",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门58",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门59",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门60",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门61",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门62",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门63",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门64",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门65",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门66",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门67",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门68",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门69",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门70",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门71",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门72",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门73",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门74",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门75",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门76",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门77",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门78",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门79",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门80",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门81",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门82",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门83",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门84",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门85",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门86",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门87",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门88",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门89",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门90",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门91",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门92",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门93",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门94",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门95",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门96",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门97",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门98",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门99",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门100",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门101",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门102",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门103",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门104",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米门扇开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆6孔开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆9孔开门105",
+      "interference_mm3": 0
+    },
+    {
+      "name": "70毫米拉杆12孔开门105",
+      "interference_mm3": 0
+    }
+  ],
+  "linkage_variants": [
+    {
+      "height_mm": 50,
+      "pivot_xy": [
+        9.433272504051455,
+        18.375958360726703
+      ],
+      "horn_bottom_z_mm": 15.4,
+      "horn_top_z_mm": 17.4,
+      "horn_thickness_mm": 2,
+      "rod_plane_z_mm": 18.599999999999998,
+      "radii_mm": [
+        6,
+        9,
+        12
+      ],
+      "bore_mm": 1.2,
+      "added_volume_mm3": 87.6568900287848
+    },
+    {
+      "height_mm": 60,
+      "pivot_xy": [
+        11.382295748690185,
+        18.587933228645444
+      ],
+      "horn_bottom_z_mm": 17.0,
+      "horn_top_z_mm": 19.0,
+      "horn_thickness_mm": 2,
+      "rod_plane_z_mm": 20.2,
+      "radii_mm": [
+        6,
+        9,
+        12
+      ],
+      "bore_mm": 1.2,
+      "added_volume_mm3": 87.65676062909051
+    },
+    {
+      "height_mm": 70,
+      "pivot_xy": [
+        13.331318993328917,
+        18.79990809656418
+      ],
+      "horn_bottom_z_mm": 18.6,
+      "horn_top_z_mm": 20.6,
+      "horn_thickness_mm": 2,
+      "rod_plane_z_mm": 21.8,
+      "radii_mm": [
+        6,
+        9,
+        12
+      ],
+      "bore_mm": 1.2,
+      "added_volume_mm3": 87.6567615617987
+    }
+  ],
+  "scope": "完成门侧几何与排盘；舵机、钢丝实际长度和支架不包含在本次交付"
+}

@@ -1,0 +1,329 @@
+{
+  "files": [
+    {
+      "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\picounity\\Assets\\Models\\DoorFrame.fbx",
+      "sha256": "40c02fd3d71acaab5e185e1732d847188f481a41565af98b2750027eb7f9d231"
+    },
+    {
+      "path": "D:\\虚拟C盘\\JavonLoongSkill\\suzume-scene-prep\\picounity\\Assets\\Models\\DoorLeaf.fbx",
+      "sha256": "1d3c45a96270ab3859c5657c9dd4b57b0e076a7a6bd928c52ca406bb91b02923"
+    }
+  ],
+  "meshes": [
+    {
+      "id": "DoorFrame_00",
+      "group": "DoorFrame",
+      "name": "Geometry_283D72A6_003",
+      "vertices": 546,
+      "faces": 182,
+      "bounds": [
+        [
+          -0.5765179395675659,
+          -0.14391185343265533,
+          -0.02470581606030464
+        ],
+        [
+          0.5766430497169495,
+          -0.11858819425106049,
+          2.2188971042633057
+        ]
+      ],
+      "materials": [
+        "Reference_pigments_on_the_solid_door_front_002_Portable"
+      ],
+      "images": [
+        "D:\\Users\\15410\\AppData\\Local\\Temp\\blender_a17312\\usd_textures_tmp\\model-texture-E6DD59F3-52BA-49F3-A943-D0F386B577E6.png"
+      ]
+    },
+    {
+      "id": "DoorFrame_01",
+      "group": "DoorFrame",
+      "name": "Geometry_49F1B541_003",
+      "vertices": 90,
+      "faces": 30,
+      "bounds": [
+        [
+          -0.5357266068458557,
+          -0.12476479262113571,
+          -0.012352881953120232
+        ],
+        [
+          0.5357266068458557,
+          0.03582344576716423,
+          2.1988234519958496
+        ]
+      ],
+      "materials": [
+        "Animated_door_leaf_and_hinges_surface_009_Portable"
+      ],
+      "images": [
+        "D:\\Users\\15410\\AppData\\Local\\Temp\\blender_a17312\\usd_textures_tmp\\model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+      ]
+    },
+    {
+      "id": "DoorFrame_02",
+      "group": "DoorFrame",
+      "name": "Geometry_5CED9BA5_003",
+      "vertices": 90,
+      "faces": 30,
+      "bounds": [
+        [
+          -0.5765179395675659,
+          -0.14391185343265533,
+          -0.02470581606030464
+        ],
+        [
+          0.5765179395675659,
+          0.04755874350667,
+          2.2188971042633057
+        ]
+      ],
+      "materials": [
+        "Material_007_Portable"
+      ],
+      "images": [
+        "D:\\Users\\15410\\AppData\\Local\\Temp\\blender_a17312\\usd_textures_tmp\\model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+      ]
+    },
+    {
+      "id": "DoorFrame_03",
+      "group": "DoorFrame",
+      "name": "Geometry_5FC5CEBB_003",
+      "vertices": 180,
+      "faces": 60,
+      "bounds": [
+        [
+          -0.5411654710769653,
+          -0.12970584630966187,
+          -0.012352903373539448
+        ],
+        [
+          0.5411654710769653,
+          0.03088238276541233,
+          2.116985321044922
+        ]
+      ],
+      "materials": [
+        "Animated_door_leaf_and_hinges_surface_008_Portable"
+      ],
+      "images": []
+    },
+    {
+      "id": "DoorFrame_04",
+      "group": "DoorFrame",
+      "name": "Geometry_72F6F0D5_003",
+      "vertices": 600,
+      "faces": 200,
+      "bounds": [
+        [
+          -0.5261412858963013,
+          -0.12136773020029068,
+          0.13353051245212555
+        ],
+        [
+          0.5276418328285217,
+          -0.11827938258647919,
+          2.153042793273926
+        ]
+      ],
+      "materials": [
+        "Animated_door_leaf_and_hinges_surface_010_Portable"
+      ],
+      "images": [
+        "D:\\Users\\15410\\AppData\\Local\\Temp\\blender_a17312\\usd_textures_tmp\\model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+      ]
+    },
+    {
+      "id": "DoorFrame_05",
+      "group": "DoorFrame",
+      "name": "Geometry_BAA9574F_003",
+      "vertices": 1386,
+      "faces": 462,
+      "bounds": [
+        [
+          -0.5295752286911011,
+          -0.1204412505030632,
+          0.011142412200570107
+        ],
+        [
+          0.5766430497169495,
+          -0.11994701623916626,
+          2.036017894744873
+        ]
+      ],
+      "materials": [
+        "Animated_door_leaf_and_hinges_surface_011_Portable"
+      ],
+      "images": []
+    },
+    {
+      "id": "DoorLeaf_00",
+      "group": "DoorLeaf",
+      "name": "Geometry_066F172D_005",
+      "vertices": 3462,
+      "faces": 1154,
+      "bounds": [
+        [
+          -0.4178069531917572,
+          -0.12847065925598145,
+          0.03205594792962074
+        ],
+        [
+          0.46105119585990906,
+          -0.10821173340082169,
+          2.051786422729492
+        ]
+      ],
+      "materials": [
+        "Animated_door_leaf_and_hinges_surface_015_Portable"
+      ],
+      "images": []
+    },
+    {
+      "id": "DoorLeaf_01",
+      "group": "DoorLeaf",
+      "name": "Geometry_0742C95F_005",
+      "vertices": 30,
+      "faces": 10,
+      "bounds": [
+        [
+          -0.4190632998943329,
+          -0.13341177999973297,
+          0.9478333592414856
+        ],
+        [
+          -0.40601006150245667,
+          -0.13341177999973297,
+          0.9619314074516296
+        ]
+      ],
+      "materials": [
+        "Animated_door_leaf_and_hinges_surface_012_Portable"
+      ],
+      "images": []
+    },
+    {
+      "id": "DoorLeaf_02",
+      "group": "DoorLeaf",
+      "name": "Geometry_0BC887AE_005",
+      "vertices": 390,
+      "faces": 130,
+      "bounds": [
+        [
+          -0.43293240666389465,
+          -0.12754419445991516,
+          0.012352977879345417
+        ],
+        [
+          0.4372834265232086,
+          -0.02933821640908718,
+          2.1123530864715576
+        ]
+      ],
+      "materials": [
+        "Animated_door_leaf_and_hinges_surface_013_Portable"
+      ],
+      "images": [
+        "D:\\Users\\15410\\AppData\\Local\\Temp\\blender_a17312\\usd_textures_tmp\\model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+      ]
+    },
+    {
+      "id": "DoorLeaf_03",
+      "group": "DoorLeaf",
+      "name": "Geometry_5932C1F0_005",
+      "vertices": 1422,
+      "faces": 474,
+      "bounds": [
+        [
+          -0.43293240666389465,
+          -0.13866184651851654,
+          0.012352977879345417
+        ],
+        [
+          0.46105119585990906,
+          -0.033661745488643646,
+          2.1123530864715576
+        ]
+      ],
+      "materials": [
+        "Reference_pigments_on_the_solid_door_front_003_Portable"
+      ],
+      "images": [
+        "D:\\Users\\15410\\AppData\\Local\\Temp\\blender_a17312\\usd_textures_tmp\\model-texture-E6DD59F3-52BA-49F3-A943-D0F386B577E6.png"
+      ]
+    },
+    {
+      "id": "DoorLeaf_04",
+      "group": "DoorLeaf",
+      "name": "Geometry_7378BEF7_005",
+      "vertices": 360,
+      "faces": 120,
+      "bounds": [
+        [
+          -0.3457413613796234,
+          -0.11673536896705627,
+          0.2547115087509155
+        ],
+        [
+          0.40762701630592346,
+          -0.04014704003930092,
+          1.9750127792358398
+        ]
+      ],
+      "materials": [
+        "Animated_door_leaf_and_hinges_surface_014_Portable"
+      ],
+      "images": [
+        "D:\\Users\\15410\\AppData\\Local\\Temp\\blender_a17312\\usd_textures_tmp\\model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+      ]
+    },
+    {
+      "id": "DoorLeaf_05",
+      "group": "DoorLeaf",
+      "name": "Geometry_A04354BC_005",
+      "vertices": 3012,
+      "faces": 1004,
+      "bounds": [
+        [
+          -0.44408199191093445,
+          -0.21541061997413635,
+          0.22852946817874908
+        ],
+        [
+          0.45414385199546814,
+          0.058528218418359756,
+          1.8467648029327393
+        ]
+      ],
+      "materials": [
+        "Circular_ruined_hotel_with_exterior_entrance_solid_mesh_3866c68"
+      ],
+      "images": []
+    },
+    {
+      "id": "DoorLeaf_06",
+      "group": "DoorLeaf",
+      "name": "Geometry_D93CF93C_005",
+      "vertices": 1440,
+      "faces": 480,
+      "bounds": [
+        [
+          -0.3558032810688019,
+          -0.13866184651851654,
+          0.24297623336315155
+        ],
+        [
+          0.41768887639045715,
+          -0.018220562487840652,
+          1.9867479801177979
+        ]
+      ],
+      "materials": [
+        "Material_008_Portable"
+      ],
+      "images": [
+        "D:\\Users\\15410\\AppData\\Local\\Temp\\blender_a17312\\usd_textures_tmp\\model-texture-5C78C916-63B0-4634-87BB-FE87FBD47321.png"
+      ]
+    }
+  ]
+}
