@@ -19,6 +19,8 @@ using System.Collections.Generic;
 [ExecuteAlways]
 public class PortalManager : MonoBehaviour
 {
+    [Tooltip("Keep scenery inside the physical inner opening; never draw a replacement frame or switch to full VR.")]
+    public bool physicalOpeningOnly = true;
     [Header("门户核心材质")]
     public Material portalMaskMaterial;
     public Material portalTargetMaterial;
@@ -393,9 +395,9 @@ public class PortalManager : MonoBehaviour
             Vector3 localCam = transform.InverseTransformPoint(mainCam.transform.position);
             cameraBehindPortal = localCam.z <= 0.02f;
         }
-        bool effectiveFullMeadow = fullMeadowView || cameraBehindPortal;
+        bool effectiveFullMeadow = !physicalOpeningOnly && (fullMeadowView || cameraBehindPortal);
 
-        bool useStencil = !effectiveFullMeadow && (Application.isPlaying || !PortalConfig.DisableStencilInEditMode);
+        bool useStencil = !effectiveFullMeadow && (physicalOpeningOnly || Application.isPlaying || !PortalConfig.DisableStencilInEditMode);
         bool useClip = !effectiveFullMeadow;
         Vector4 otherworldClipPlane = ComputeWorldClipPlane();
         // 庭院侧半平面（法线指向门外 +Z，与异世界半平面严格互补）
@@ -408,7 +410,7 @@ public class PortalManager : MonoBehaviour
 
         if (_doorGo != null)
         {
-            _doorGo.SetActive(!fullMeadowView && !calibrationHidden && frameMode != PortalConfig.FrameMode.Hidden);
+            _doorGo.SetActive(!physicalOpeningOnly && !fullMeadowView && !calibrationHidden && frameMode != PortalConfig.FrameMode.Hidden);
             if (_doorGo.activeSelf)
             {
                 MaterialMapper.ApplyDoorMaterials(_doorGo, frameMode);
@@ -417,7 +419,7 @@ public class PortalManager : MonoBehaviour
 
         if (_rigidHingeCompGo != null)
         {
-            bool leafActive = !fullMeadowView && showDoorLeaf && !calibrationHidden && frameMode != PortalConfig.FrameMode.Hidden;
+            bool leafActive = !physicalOpeningOnly && !fullMeadowView && showDoorLeaf && !calibrationHidden && frameMode != PortalConfig.FrameMode.Hidden;
             _rigidHingeCompGo.SetActive(leafActive);
             if (leafActive)
             {
@@ -476,7 +478,7 @@ public class PortalManager : MonoBehaviour
         if (_outsideFloorGo != null)
         {
             bool isHeadsetDevice = Application.platform == RuntimePlatform.Android && !Application.isEditor;
-            bool showFloor = showOutsideReferenceFloor && !effectiveFullMeadow && !isHeadsetDevice && !calibrationHidden;
+            bool showFloor = !physicalOpeningOnly && showOutsideReferenceFloor && !effectiveFullMeadow && !isHeadsetDevice && !calibrationHidden;
             _outsideFloorGo.SetActive(showFloor);
             if (showFloor)
             {
@@ -508,7 +510,7 @@ public class PortalManager : MonoBehaviour
     public Vector4 ComputeWorldClipPlane()
     {
         Vector3 normalIntoPortal = -transform.forward.normalized;
-        Vector3 planePoint = transform.position + normalIntoPortal * 0.005f;
+        Vector3 planePoint = transform.position + normalIntoPortal * (physicalOpeningOnly ? .0002f : .005f);
         if(DoorQuadPlacement.HasFourFiniteCorners(adjustedOpening))
         {
             float front=float.NegativeInfinity;

@@ -24,7 +24,7 @@ public static class BuildPicoApk
     {
         string id=PlayerSettings.GetApplicationIdentifier(BuildTargetGroup.Android),name=PlayerSettings.productName;
         try { BuildVariant(true); }
-        finally { PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android,id);PlayerSettings.productName=name; }
+        finally { PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android,id);PlayerSettings.productName=name;AssetDatabase.SaveAssets(); }
     }
     static void BuildVariant(bool physicalTrial)
     {
@@ -44,8 +44,8 @@ public static class BuildPicoApk
         PlayerSettings.companyName = "Suzume";
         PlayerSettings.productName = physicalTrial ? "铃芽之旅·实体门联调" : "铃芽之旅·11.18版";
         PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, physicalTrial ? "com.suzume.portal.bletrial" : PackageId);
-        PlayerSettings.bundleVersion = "1.13.1";
-        PlayerSettings.Android.bundleVersionCode = 23;
+        PlayerSettings.bundleVersion = "1.13.5";
+        PlayerSettings.Android.bundleVersionCode = 27;
         PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
         PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel29;
@@ -82,7 +82,7 @@ public static class BuildPicoApk
         var options = new BuildPlayerOptions
         {
             scenes = new[] { "Assets/Scenes/SuzumePortal.unity" },
-            locationPathName = physicalTrial ? "Builds/SuzumePortal-PICO-PhysicalDoor-v1.13.1.apk" : ApkPath,
+            locationPathName = physicalTrial ? "Builds/SuzumePortal-PICO-PhysicalDoor-v1.13.5.apk" : ApkPath,
             target = BuildTarget.Android,
             targetGroup = BuildTargetGroup.Android,
             options = BuildOptions.CompressWithLz4
@@ -198,7 +198,8 @@ public static class BuildPicoApk
     static void Fail(string message)
     {
         Debug.LogError(message);
-        EditorApplication.Exit(1);
+        // Let batchmode report the exception after caller finally blocks restore
+        // the formal app identity. Exiting here left the project in trial mode.
         throw new System.Exception(message);
     }
 }

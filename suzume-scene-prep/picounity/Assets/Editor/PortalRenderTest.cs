@@ -31,6 +31,7 @@ public static class PortalRenderTest
         sb.AppendLine("场景搭建: OK (Assets/Scenes/SuzumePortal.unity)");
 
         var mgr = Object.FindObjectOfType<PortalManager>();
+        mgr.physicalOpeningOnly = false; // This legacy test intentionally previews the complete virtual scene.
         sb.AppendLine("PortalManager 存在: " + (mgr != null));
         if (mgr == null)
         {

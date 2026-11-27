@@ -14,6 +14,17 @@ public sealed class DoorCameraFrame
     public bool poseCorrected; public float captureAge;
 }
 
+// Unity's world pose and the native reference pose must belong to the same sampled frame.
+// Keep this value immutable while camera copying/inference waits on background work.
+public struct DoorCameraPoseSample
+{
+    public Matrix4x4 headToWorld;
+    public float time;
+    public double displayTimeMilliseconds;
+    public Pose nativeHead;
+    public bool nativeValid;
+}
+
 // Finds the four inner corners of the door opening in a camera frame.
 // Order: bottom-left, bottom-right, top-left, top-right; pixels with a top-left origin.
 public interface IDoorKeypointDetector
@@ -93,10 +104,15 @@ public sealed class PicoDoorCamera : IDisposable
         catch (Exception e) { return Fail(e.Message); }
     }
 
-    // headToWorld must be sampled on the main thread; the copy and grey conversion may run on a worker.
-    public bool TryAcquire(Matrix4x4 headToWorld, float time, DoorCameraFrame frame)
+    // Call on the main thread in the same frame as sampling Camera.main, BEFORE Task.Run.
+    public DoorCameraPoseSample SamplePose(Matrix4x4 headToWorld, float time) =>
+        _enterprise != null ? _enterprise.SamplePose(headToWorld, time)
+            : new DoorCameraPoseSample { headToWorld = headToWorld, time = time };
+
+    // The snapshot is already paired; the copy and grey conversion may run on a worker.
+    public bool TryAcquire(DoorCameraPoseSample sample, DoorCameraFrame frame)
     {
-        if (_enterprise != null) return _enterprise.TryAcquire(headToWorld, time, frame);
+        if (_enterprise != null) return _enterprise.TryAcquire(sample, frame);
         if (!_capturing) return false;
         if (PXR_CameraImage.AcquireCameraImage(_id, _lastCapture, out ulong image, out long captured) != PxrResult.SUCCESS) return false;
         try
@@ -115,9 +131,10 @@ public sealed class PicoDoorCamera : IDisposable
             }
             // Intrinsics are reported for the session size; rescale if the buffer differs.
             float sx = width / (float)Width, sy = height / (float)Height;
-            frame.width = width; frame.height = height; frame.time = time;
+            frame.width = width; frame.height = height; frame.time = sample.time;
             frame.fx = _fx * sx; frame.fy = _fy * sy; frame.cx = _cx * sx; frame.cy = _cy * sy;
-            frame.cameraToWorld = headToWorld * _headToCamera;
+            frame.cameraToWorld = sample.headToWorld * _headToCamera;
+            frame.poseCorrected = false; frame.captureAge = float.NaN;
             _lastCapture = captured;
             return true;
         }

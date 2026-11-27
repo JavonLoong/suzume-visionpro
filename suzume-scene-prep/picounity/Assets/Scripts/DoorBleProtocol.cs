@@ -54,6 +54,9 @@ public sealed class DoorBleProtocol
     static bool PositionValue(string text,out int value)=>int.TryParse(text,NumberStyles.AllowLeadingSign,CultureInfo.InvariantCulture,out value);
     public void Feed(string bytes,double now)
     {
+        // A delayed notification must not revive an expired request just because
+        // the transport drains its event queue before Update calls Tick.
+        Tick(now);
         if(State==Phase.Disconnected||State==Phase.Fault||bytes==null)return;
         foreach(char c in bytes)
         {

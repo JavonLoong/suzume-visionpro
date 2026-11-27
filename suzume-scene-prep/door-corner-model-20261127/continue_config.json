@@ -1,0 +1,26 @@
+{
+  "seed": 20261128,
+  "initial_step": 1000,
+  "steps": 3000,
+  "batch": 64,
+  "parameters": 23427,
+  "mix": {
+    "render_open": 32,
+    "render_any": 16,
+    "screen_train": 8,
+    "ai_same_source": 8
+  },
+  "headset_tested": false,
+  "independent_new_real_images": 0,
+  "corner_order": [
+    "BL",
+    "BR",
+    "TL",
+    "TR"
+  ],
+  "crop_size": 64,
+  "crop_span_width_fraction": 0.5,
+  "minimum_source_span": 12,
+  "maximum_source_span": 160,
+  "label_scope": "Visible inner-aperture corners; original global model supplies all evaluation candidates."
+}

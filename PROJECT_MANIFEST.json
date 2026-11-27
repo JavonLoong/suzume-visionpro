@@ -31926,5 +31926,14 @@
     "files": 4938,
     "gitFiles": 2821,
     "bytes": 11229719309
+  },
+  "latestSoftwareRelease": {
+    "version": "1.13.5",
+    "date": "2026-11-27",
+    "tag": "pico-v1.13.5-physical-door-2026-11-27",
+    "status": "prerelease_pending_headset_and_physical_door_validation",
+    "apk_sha256": "38bd1975e4e0b7f05d896416735d6ebc4cc6a1245b0239156e64989271c8173d",
+    "documentation": "docs/PICO-v1.13.5.md",
+    "historical_file_manifest_preserved": true
   }
 }

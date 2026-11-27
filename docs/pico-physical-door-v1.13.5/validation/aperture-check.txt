@@ -1,0 +1,6 @@
+rectangle_0.000 inside=59436 outside=345806 gap=0 spill=0
+rectangle_-0.035 inside=53551 outside=351878 gap=0 spill=0
+rectangle_0.035 inside=53551 outside=351878 gap=0 spill=0
+adjusted_0.000 inside=63502 outside=341652 gap=0 spill=0
+adjusted_-0.035 inside=57863 outside=347467 gap=0 spill=0
+adjusted_0.035 inside=56234 outside=349134 gap=0 spill=0

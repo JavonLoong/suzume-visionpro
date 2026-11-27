@@ -68,12 +68,14 @@ public static class DoorAdjustmentTrialCheck
             Require(!marker.ShowDetectedDoor(new DoorPoseSolver.Solution{position=Vector3.one,rotation=Quaternion.identity},.024f,.056f),"recognition moved frozen target");
             r.trigger=false;Send();r.stickClick=true;Send();r.stickClick=false;Send();
             Require(marker.IsTuning,"stick click did not enter adjustment");
+            Require(!portal.calibrationHidden,"tuning must preview actual scenery");
             l.stick=Vector2.right;r.stick=Vector2.up;Send();
             var moved=Get<Vector3[]>(marker,"_corners");
-            for(int i=0;i<4;i++)Require(Vector3.Distance(moved[i],frozen[i]+(Get<Vector3>(marker,"_adjustRight")+Vector3.up)*.0005f)<1e-6f,"joystick direction/step mismatch");
+            for(int i=0;i<4;i++)Require(Vector3.Distance(moved[i],frozen[i]+(Get<Vector3>(marker,"_adjustRight")+Vector3.up)*.0001f)<1e-6f,"joystick direction/step mismatch");
             l.stick=Vector2.zero;r.stick=Vector2.zero;Send();r.primary=true;Send();r.primary=false;Send();Require(marker.AdjustmentTarget==1,"A did not select bottom left");
             l.secondary=true;Send();l.secondary=false;Send();Require(!Get<bool>(marker,"_fine"),"Y did not switch step size");
             r.secondary=true;Send();r.secondary=false;Send();Equal(Get<Vector3[]>(marker,"_corners"),frozen,"cancel joystick edits changed original");
+            Require(portal.calibrationHidden,"cancel from unconfirmed preview must hide scenery again");
             r.stickClick=true;Send();r.stickClick=false;Send();
             for(int target=1;target<=4;target++)foreach(var axis in new[]{Vector3.right,Vector3.left,Vector3.up,Vector3.down,Vector3.forward,Vector3.back})
             {

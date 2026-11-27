@@ -29,7 +29,7 @@ public static class DoorPoseSolver
     public static bool SolveSingle(Observation o, float width, float height, out Solution solution)
     {
         solution = default;
-        if (width <= 0 || height <= 0 || o.fx <= 0 || o.fy <= 0) return false;
+        if (!Finite(width) || !Finite(height) || width <= 0 || height <= 0 || !ValidObservation(o)) return false;
         double[] objX = { -width * .5, width * .5, -width * .5, width * .5 }, objY = { 0, 0, height, height };
         var a = new double[8, 9];
         for (int i = 0; i < 4; i++)
@@ -75,7 +75,69 @@ public static class DoorPoseSolver
         solution.rotation = Quaternion.LookRotation(toViewer, up);
         solution.yawDegrees = solution.rotation.eulerAngles.y;
         solution.rmsPixels = (float)Math.Sqrt(best / 8);
-        return !float.IsNaN(solution.position.x + solution.position.y + solution.position.z);
+        return Finite(solution.position.x) && Finite(solution.position.y) && Finite(solution.position.z) && Finite(solution.rmsPixels);
+    }
+
+    static bool Finite(float value) => !float.IsNaN(value) && !float.IsInfinity(value);
+    public static bool ValidObservation(Observation o)
+    {
+        if(!Finite(o.fx)||!Finite(o.fy)||!Finite(o.cx)||!Finite(o.cy)||!Finite(o.time)||o.fx<=0||o.fy<=0)return false;
+        for(int i=0;i<16;i++)if(!Finite(o.cameraToWorld[i]))return false;
+        if(Mathf.Abs(o.cameraToWorld.determinant-1)> .01f)return false;
+        if(Mathf.Abs(o.cameraToWorld.m30)+Mathf.Abs(o.cameraToWorld.m31)+Mathf.Abs(o.cameraToWorld.m32)+Mathf.Abs(o.cameraToWorld.m33-1)>.001f)return false;
+        var ring=new[]{0,1,3,2};float sign=0;
+        for(int i=0;i<4;i++)
+        {
+            var p=o.Pixel(ring[i]);var a=o.Pixel(ring[(i+1)%4])-p;var b=o.Pixel(ring[(i+2)%4])-o.Pixel(ring[(i+1)%4]);
+            if(!Finite(p.x)||!Finite(p.y))return false;
+            float cross=a.x*b.y-a.y*b.x;
+            if(!Finite(cross)||Mathf.Abs(cross)<1e-4f||(sign!=0&&cross*sign<0))return false;
+            sign=cross;
+        }
+        return true;
+    }
+
+    // Fit one rigid opening to every camera observation simultaneously. Unlike
+    // averaging per-image poses, the reported error belongs to the final pose.
+    // Double arithmetic keeps subpixel derivatives meaningful far from world origin.
+    public static bool SolveMultiView(IList<Observation> observations,float width,float height,Solution initial,out Solution solution)
+    {
+        solution=default;
+        if(observations==null||observations.Count==0||!Finite(width)||!Finite(height)||width<=0||height<=0)return false;
+        var basis=Matrix4x4.Rotate(initial.rotation);
+        if(!Finite(initial.position.x)||!Finite(initial.position.y)||!Finite(initial.position.z))return false;
+        var r0=new double[9];for(int i=0;i<3;i++)for(int j=0;j<3;j++)r0[i*3+j]=basis[i,j];
+        int count=observations.Count;var inverse=new Matrix4x4[count];
+        for(int i=0;i<count;i++){if(!ValidObservation(observations[i]))return false;inverse[i]=observations[i].cameraToWorld.inverse;}
+        Func<double[],bool,double[]> residual=(x,robust)=>
+        {
+            var r=Multiply(Rodrigues(x),r0);var errors=new double[count*8];
+            for(int k=0;k<4;k++)
+            {
+                double side=(k%2==0?1:-1)*width*.5,rise=k>=2?height:0;
+                double wx=x[3]+r[0]*side+r[1]*rise,wy=x[4]+r[3]*side+r[4]*rise,wz=x[5]+r[6]*side+r[7]*rise;
+                for(int i=0;i<count;i++)
+                {
+                    var m=inverse[i];var o=observations[i];var pixel=o.Pixel(k);
+                    double px=m.m00*wx+m.m01*wy+m.m02*wz+m.m03,py=m.m10*wx+m.m11*wy+m.m12*wz+m.m13,pz=m.m20*wx+m.m21*wy+m.m22*wz+m.m23;
+                    double du=pz>1e-5?o.fx*px/pz+o.cx-pixel.x:1e6;
+                    double dv=pz>1e-5?o.cy-o.fy*py/pz-pixel.y:1e6;
+                    errors[i*8+k*2]=robust?Huber(du):du;errors[i*8+k*2+1]=robust?Huber(dv):dv;
+                }
+            }
+            return errors;
+        };
+        double[] parameters={0,0,0,initial.position.x,initial.position.y,initial.position.z};
+        Minimize(x=>residual(x,true),parameters,30);
+        var rotation=Multiply(Rodrigues(parameters),r0);
+        solution.position=new Vector3((float)parameters[3],(float)parameters[4],(float)parameters[5]);
+        solution.rotation=Quaternion.LookRotation(new Vector3((float)rotation[2],(float)rotation[5],(float)rotation[8]),new Vector3((float)rotation[1],(float)rotation[4],(float)rotation[7]));
+        solution.yawDegrees=solution.rotation.eulerAngles.y;
+        solution.rmsPixels=(float)Math.Sqrt(SquaredNorm(residual(parameters,false))/(count*8));
+        if(!Finite(solution.rmsPixels)||!Finite(solution.position.x)||!Finite(solution.position.y)||!Finite(solution.position.z))return false;
+        var forward=solution.rotation*Vector3.forward;
+        foreach(var o in observations)if(Vector3.Dot(forward,(Vector3)o.cameraToWorld.GetColumn(3)-solution.position)<=0)return false;
+        return true;
     }
 
     // Position and yaw of a door that stands upright (its vertical is world up), from any number of views.

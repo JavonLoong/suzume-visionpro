@@ -10,7 +10,9 @@ public sealed class PortalQuadWarp : MonoBehaviour
     public void Apply(Vector3[] corners)
     {
         if(!DoorQuadPlacement.HasFourFiniteCorners(corners))corners=null;
-        var mask=transform.Find("PortalMask");var frame=transform.Find("DoorAssembly");
+        var mask=transform.Find("PortalMask");
+        var portal=GetComponent<PortalManager>();
+        var frame=portal!=null&&portal.physicalOpeningOnly?null:transform.Find("DoorAssembly");
         if(mask!=lastMask||frame!=lastFrame) { Release();last=null;lastMask=mask;lastFrame=frame; }
         if(corners==null&&last==null)return;
         if(corners!=null&&last!=null) { bool same=true;for(int i=0;i<4;i++)same&=(corners[i]-last[i]).sqrMagnitude<1e-8f;if(same)return; }

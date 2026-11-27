@@ -38,11 +38,15 @@ public class DoorAutoLocator : MonoBehaviour
     // Off by default: on the 640x480 synthetic set it moved corners away from the labels
     // (median 1.17 -> 1.62 px). Re-measure on full-resolution headset images before enabling.
     public bool refineEdges = false;
+    public bool refineCorners = true;
     public bool saveDiagnosticFrames = false;
     public int maximumSavedFrames = 30;
     public readonly DoorPoseStabilizer stabilizer = new DoorPoseStabilizer { assumeUpright=false };
 
     PicoDoorCamera _camera;
+    DoorCornerRefiner _cornerRefiner;
+    readonly float[] _cornerScores=new float[4];
+    bool _refinementApplied,_refinementAttempted;
     Task<bool> _start, _acquire;
     readonly DoorCameraFrame _frame = new DoorCameraFrame();
     readonly Vector2[] _pixels = new Vector2[4], _refined = new Vector2[4];
@@ -62,8 +66,10 @@ public class DoorAutoLocator : MonoBehaviour
         using(var activity=player.GetStatic<AndroidJavaObject>("currentActivity"))
         using(var intent=activity.Call<AndroidJavaObject>("getIntent")) {
             _cameraProbe=intent.Call<bool>("getBooleanExtra","door_camera_probe",false);
+            refineCorners=intent.Call<bool>("getBooleanExtra","door_corner_refinement",refineCorners);
             if(_cameraProbe) intent.Call("removeExtra","door_camera_probe");
         }
+        if(refineCorners)_cornerRefiner=DoorCornerRefiner.Create();
         _probeUntil=Time.unscaledTime+20;
         if(_cameraProbe) Debug.Log("[DoorCamera] explicit ADB camera preflight requested; no automatic placement");
     }
@@ -123,7 +129,8 @@ public class DoorAutoLocator : MonoBehaviour
         Matrix4x4 headToWorld = Matrix4x4.TRS(head.position, head.rotation, Vector3.one);
         float time = Time.unscaledTime;
         _acquireRevision = hint.Revision;
-        _acquire = Task.Run(() => _camera.TryAcquire(headToWorld, time, _frame));
+        var sample = _camera.SamplePose(headToWorld, time);
+        _acquire = Task.Run(() => _camera.TryAcquire(sample, _frame));
     }
 
     void ProbeCamera()
@@ -139,7 +146,8 @@ public class DoorAutoLocator : MonoBehaviour
         Matrix4x4 pose=Matrix4x4.TRS(head.position,head.rotation,Vector3.one);
         float time=Time.unscaledTime;
         _acquireRevision=hint.Revision;
-        _acquire=Task.Run(()=>_camera.TryAcquire(pose,time,_frame));
+        var sample=_camera.SamplePose(pose,time);
+        _acquire=Task.Run(()=>_camera.TryAcquire(sample,_frame));
     }
 
     IEnumerator ProcessAsync(DoorCornerMarker marker, int revision)
@@ -150,22 +158,34 @@ public class DoorAutoLocator : MonoBehaviour
 
     IEnumerator ProcessFrame(DoorCornerMarker marker, int revision)
     {
+        _refinementApplied=_refinementAttempted=false;
+        System.Array.Clear(_cornerScores,0,4);
         if (!marker.CanRunGuided || !hint.Active || !(Detector is IDoorGuidedDetector guided)) yield break;
         if (!hint.TryCrop(_frame, DoorPhysicalSize.Height, out var crop))
         { GuideStatus = "guided_offscreen"; stabilizer.MarkMissing(_frame.time); yield break; }
         var watch = System.Diagnostics.Stopwatch.StartNew();
         _diagnosticCrop = crop;
         bool found = false;
-        bool Valid() => revision == hint.Revision && marker != null && marker.CanRunGuided && hint.Active;
+        bool Valid() => revision == hint.Revision && marker != null && marker.CanRunGuided && hint.Active
+            && Time.unscaledTime - _frame.time <= 1f;
         if (guided is BarracudaDoorDetector network)
             yield return network.DetectGuidedAsync(_frame, crop, _pixels, _confidence, result => found = result, Valid);
         else found = guided.TryDetectGuided(_frame, crop, _pixels, _confidence);
         if (!Valid()) yield break;
         // Old results must not pull the outline behind a moving head.
         if (Time.unscaledTime - _frame.time > 1f) { GuideStatus = "guided_search"; yield break; }
-        watch.Stop();
         bool usable = found && Plausible();
-        if (!usable) { _diagnosticGate=found ? "corner_quality" : "not_detected"; Missing(); Diagnose(found,usable,(float)watch.Elapsed.TotalMilliseconds); yield break; }
+        if (!usable) { watch.Stop(); _diagnosticGate=found ? "corner_quality" : "not_detected"; Missing(); Diagnose(found,usable,(float)watch.Elapsed.TotalMilliseconds); yield break; }
+        if(refineCorners&&_cornerRefiner!=null)
+        {
+            bool accepted=false;
+            _refinementAttempted=true;
+            yield return _cornerRefiner.RefineAsync(_frame,_pixels,_refined,_cornerScores,result=>accepted=result,Valid);
+            if(!Valid())yield break;
+            if(accepted&&Mathf.Min(Vector2.Distance(_refined[0],_refined[2]),Vector2.Distance(_refined[1],_refined[3]))>=minimumDoorPixels)
+            {_refined.CopyTo(_pixels,0);_refinementApplied=true;}
+        }
+        watch.Stop();
         if (refineEdges && DoorEdgeRefiner.Refine(_frame.gray, _frame.width, _frame.height, _pixels, _refined) > 0)
             _refined.CopyTo(_pixels, 0);
         var observation = new DoorPoseSolver.Observation
@@ -222,6 +242,7 @@ public class DoorAutoLocator : MonoBehaviour
             _pixels[0].x, _pixels[0].y, _pixels[1].x, _pixels[1].y, _pixels[2].x, _pixels[2].y, _pixels[3].x, _pixels[3].y,
             DoorPhysicalSize.Width, DoorPhysicalSize.Height);
         for (int i = 0; i < 16; i++) line += " " + _frame.cameraToWorld[i / 4, i % 4].ToString("R", System.Globalization.CultureInfo.InvariantCulture);
+        line += $"\nlocalCorners attempted={_refinementAttempted} applied={_refinementApplied} ms={(_refinementAttempted?_cornerRefiner.LastMilliseconds:0):F1} sliceMs={(_refinementAttempted?_cornerRefiner.MaximumSliceMilliseconds:0):F2} scores={_cornerScores[0]:F3},{_cornerScores[1]:F3},{_cornerScores[2]:F3},{_cornerScores[3]:F3}";
         line += $"\ncapturePose {_frame.poseCorrected} ageMs {_frame.captureAge*1000:F1}\ngate {_diagnosticGate} crop {_diagnosticCrop} poseRms {stabilizer.Current.rmsPixels:F2} observations {stabilizer.ObservationCount}";
         Debug.Log("[DoorAuto] frame " + line.Replace('\n', ';'));
         if (!saveDiagnosticFrames || _savedFrames >= maximumSavedFrames) return;
@@ -284,5 +305,5 @@ public class DoorAutoLocator : MonoBehaviour
         for (int i = 0; i < count; i++) { PortalControllerInput.Pulse(false); yield return new WaitForSecondsRealtime(.22f); }
     }
 
-    void OnDestroy() { if (Instance == this) Instance = null; _camera?.Dispose(); }
+    void OnDestroy() { if (Instance == this) Instance = null; _camera?.Dispose(); _cornerRefiner?.Dispose(); }
 }

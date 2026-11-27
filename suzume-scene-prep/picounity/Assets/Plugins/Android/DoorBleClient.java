@@ -26,7 +26,7 @@ public final class DoorBleClient {
     volatile BluetoothGatt gatt;
     BluetoothGattCharacteristic request,reply;
     volatile boolean ready,writing;
-    int generation;
+    int generation,scanEpoch;
     public DoorBleClient(Activity activity) { this.activity=activity; }
     public String poll() { String event=events.poll();return event==null?"":event; }
     void emit(String type,String value) { if(events.size()>256){events.clear();events.add("error|overflow");}else events.add(type+"|"+value); }
@@ -46,18 +46,43 @@ public final class DoorBleClient {
                 if(!BluetoothAdapter.checkBluetoothAddress(address)){emit("error","address");return;}
                 connect(adapter.getRemoteDevice(address),token);return;
             }
-            scanner=adapter.getBluetoothLeScanner();if(scanner==null){emit("error","scanner");return;}
-            scan=new ScanCallback() {
-                @Override public void onScanResult(int type,ScanResult result) {
-                    handler.post(()->{if(token==generation&&gatt==null){stopScan();connect(result.getDevice(),token);}});
-                }
-                @Override public void onScanFailed(int code) { handler.post(()->{if(token==generation)fail("scan_"+code);}); }
-            };
-            scanner.startScan(Collections.singletonList(new ScanFilter.Builder().setServiceUuid(new ParcelUuid(SERVICE)).build()),
-                new ScanSettings.Builder().setScanMode(ScanSettings.SCAN_MODE_LOW_LATENCY).build(),scan);
-            emit("state","scanning");
-            handler.postDelayed(()->{if(token==generation&&gatt==null&&scan!=null)fail("scan_timeout");},12000);
+            beginScan(token,false);
         } catch(Exception e) { fail("start_"+e.getClass().getSimpleName()); }
+    }
+    // The deployed PICO has previously timed out on service-filtered discovery.
+    // Try a bounded software-filtered scan as well; always validate the actual
+    // GATT service/characteristics before subscribing or querying. No MAC is baked in.
+    void beginScan(final int token,final boolean compatibility) {
+        stopScan();final int epoch=scanEpoch;
+        scanner=adapter.getBluetoothLeScanner();if(scanner==null){fail("scanner");return;}
+        scan=new ScanCallback() {
+            @Override public void onScanResult(int type,ScanResult result) {
+                handler.post(()->{
+                    if(token!=generation||epoch!=scanEpoch||gatt!=null||result==null)return;
+                    ScanRecord record=result.getScanRecord();if(record==null)return;
+                    List<ParcelUuid> services=record.getServiceUuids();
+                    boolean knownService=services!=null&&services.contains(new ParcelUuid(SERVICE));
+                    boolean knownName="SuzumeDoor-001".equals(record.getDeviceName());
+                    if(!knownService&&!knownName)return;
+                    stopScan();connect(result.getDevice(),token);
+                });
+            }
+            @Override public void onScanFailed(int code) {
+                handler.post(()->{if(token==generation&&epoch==scanEpoch){
+                    if(!compatibility)try{beginScan(token,true);}catch(Exception e){fail("scan_fallback");}
+                    else fail("scan_"+code);
+                }});
+            }
+        };
+        List<ScanFilter> filters=compatibility?Collections.emptyList():Arrays.asList(
+            new ScanFilter.Builder().setServiceUuid(new ParcelUuid(SERVICE)).build(),
+            new ScanFilter.Builder().setDeviceName("SuzumeDoor-001").build());
+        scanner.startScan(filters,new ScanSettings.Builder().setScanMode(ScanSettings.SCAN_MODE_LOW_LATENCY).build(),scan);
+        emit("state","scanning");
+        handler.postDelayed(()->{if(token==generation&&epoch==scanEpoch&&gatt==null&&scan!=null){
+            if(compatibility)fail("scan_timeout");
+            else try{beginScan(token,true);}catch(Exception e){fail("scan_fallback");}
+        }},6000);
     }
     void connect(BluetoothDevice device,int token) {
         try {
@@ -69,6 +94,7 @@ public final class DoorBleClient {
     }
     void fail(String reason) { closeOnMain();emit("error",reason); }
     void stopScan() {
+        scanEpoch++;
         if(scanner!=null&&scan!=null)try{scanner.stopScan(scan);}catch(Exception ignored){}
         scan=null;scanner=null;
     }

@@ -1,0 +1,68 @@
+{
+  "model": "D:\\suzume-integration-20261127\\corner-refinement\\door_corner.onnx",
+  "sha256": "04f4115f70b92b0890dbe99cf1d11d103c205f95574c36e1bf642c001652e1d1",
+  "checkpoint": "step6000.pt",
+  "onnx_max_abs_error": 1.615285873413086e-05,
+  "fixture_cases": 86,
+  "cpu_onnx_batch4_ms_median": 0.9257999990950339,
+  "parameters": 23427,
+  "policy": "All 4 corners score >= 0.5 and all displacements <= max(1.5 px, 0.08 * predicted width); otherwise preserve all original corners.",
+  "development_metrics": {
+    "ai_train_diagnostic": {
+      "positive_cases": 45,
+      "detected": 45,
+      "coarse_accurate": 45,
+      "strict_within_1pct_width": 11,
+      "median_max_error_px": 4.926636695861816,
+      "median_error_width": 0.028216470032930374,
+      "median_gap": 0.010736089961676298,
+      "median_spill": 0.01169256700029673
+    },
+    "real_reference_same_source": {
+      "positive_cases": 5,
+      "detected": 5,
+      "coarse_accurate": 5,
+      "strict_within_1pct_width": 0,
+      "median_max_error_px": 6.726626396179199,
+      "median_error_width": 0.048218920826911926,
+      "median_gap": 0.028190693621955587,
+      "median_spill": 0.026433442536688764
+    },
+    "real_scene_negative": {
+      "positive_cases": 0,
+      "detected": 0,
+      "coarse_accurate": 0,
+      "strict_within_1pct_width": 0,
+      "median_max_error_px": null,
+      "median_error_width": null,
+      "median_gap": null,
+      "median_spill": null
+    },
+    "render_val": {
+      "positive_cases": 309,
+      "detected": 277,
+      "coarse_accurate": 274,
+      "strict_within_1pct_width": 22,
+      "median_max_error_px": 1.29811692237854,
+      "median_error_width": 0.023596633225679398,
+      "median_gap": 0.00825886478609239,
+      "median_spill": 0.012776113783486595
+    },
+    "screen_same_session_val": {
+      "positive_cases": 6,
+      "detected": 6,
+      "coarse_accurate": 6,
+      "strict_within_1pct_width": 0,
+      "median_max_error_px": 2.336966872215271,
+      "median_error_width": 0.04790809936821461,
+      "median_gap": 0.016599535055543513,
+      "median_spill": 0.015576868224660041
+    }
+  },
+  "headset_tested": false,
+  "independent_real_accuracy_verified": false,
+  "apk_integrated": true,
+  "integration_version": "1.13.5",
+  "integration_apk_sha256": "38bd1975e4e0b7f05d896416735d6ebc4cc6a1245b0239156e64989271c8173d",
+  "unity_fixture_agreement": "86/86"
+}

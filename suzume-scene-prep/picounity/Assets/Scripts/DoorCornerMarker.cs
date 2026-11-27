@@ -44,6 +44,7 @@ public class DoorCornerMarker : MonoBehaviour
     float _candidateUntil;
     Vector3[] _candidateCorners, _tuneBefore;
     Mode _tuneModeBefore;
+    bool _tuneHiddenBefore;
     int _tuneTarget;
     bool _fine=true, _tuneTriggerReleased, _stickNeutral=true, _leftStickReady, _rightStickReady;
     float _repeatAt;
@@ -155,6 +156,7 @@ public class DoorCornerMarker : MonoBehaviour
             if (Rise(left.secondary, _lastLeft.secondary, left.tracked, _lastLeft.tracked) && !IsEditing && !IsGuiding)
             {
                 if(_mode==Mode.Ready) RestoreSaved();
+                else if(_portal.physicalOpeningOnly) { _help=!_help; }
                 else
                 {
                     _portal.frameMode = _portal.frameMode == PortalConfig.FrameMode.Reference ? PortalConfig.FrameMode.Occlusion : PortalConfig.FrameMode.Reference;
@@ -399,6 +401,9 @@ public class DoorCornerMarker : MonoBehaviour
             Array.Copy(_portal.GetWorldCorners(),_corners,4);
         }
         if(!DoorQuadPlacement.TryFit(_corners,out _fit))return;
+        _tuneHiddenBefore=_portal.calibrationHidden;
+        _portal.calibrationHidden=false;
+        _portal.UpdatePortalState();
         _tuneBefore=(Vector3[])_corners.Clone();_tuneTarget=0;_fine=true;_count=4;
         _tuneTriggerReleased=false;_stickNeutral=false;_leftStickReady=false;_rightStickReady=false;_repeatAt=0;_noticeUntil=0;
         _adjustForward=Camera.main!=null?Vector3.ProjectOnPlane(Camera.main.transform.forward,Vector3.up).normalized:Vector3.forward;
@@ -416,6 +421,7 @@ public class DoorCornerMarker : MonoBehaviour
             Array.Copy(_tuneBefore,_corners,4);DoorQuadPlacement.TryFit(_corners,out _fit);
             Apply(_fit.center,_fit.rotation,_fit.width,_fit.height);_portal.SetWorldCorners(_corners);
             _mode=_tuneModeBefore;_noticeUntil=0;
+            _portal.calibrationHidden=_tuneHiddenBefore;_portal.UpdatePortalState();
             if(IsBrowsing)HideMarks();else UpdateAdjustmentOutline(false);
             return;
         }
@@ -431,7 +437,7 @@ public class DoorCornerMarker : MonoBehaviour
         if(axis==Vector3.zero){_stickNeutral=true;_repeatAt=0;}
         else if(_stickNeutral||(_repeatAt>0&&Time.unscaledTime>=_repeatAt))
         {
-            Vector3 delta=axis*(_fine?.0005f:.005f);
+            Vector3 delta=axis*(_fine?.0001f:.0005f);
             TryAdjust(_tuneTarget,delta);
             _repeatAt=Time.unscaledTime+(_stickNeutral?.35f:.09f);_stickNeutral=false;
         }
@@ -450,10 +456,10 @@ public class DoorCornerMarker : MonoBehaviour
     void UpdateAdjustmentOutline(bool marks)
     {
         _outline.SetPositions(new[]{_corners[0],_corners[1],_corners[3],_corners[2],_corners[0]});
-        _outline.startWidth=_outline.endWidth=Mathf.Clamp(_fit.width*.025f,.0007f,.003f);_outline.enabled=true;
+        _outline.startWidth=_outline.endWidth=Mathf.Clamp(_fit.width*.003f,.00008f,.0003f);_outline.enabled=true;
         for(int i=0;i<4;i++)
         {
-            _marks[i].position=_corners[i];_marks[i].localScale=Vector3.one*Mathf.Clamp(_fit.width*.09f,.0015f,.012f);
+            _marks[i].position=_corners[i];_marks[i].localScale=Vector3.one*Mathf.Clamp(_fit.width*.02f,.0005f,.003f);
             _marks[i].GetComponent<Renderer>().sharedMaterial.color=(_tuneTarget==0||_tuneTarget==i+1)?new Color(1f,.7f,.15f):new Color(.55f,.65f,.7f);
             _marks[i].gameObject.SetActive(marks);
         }
