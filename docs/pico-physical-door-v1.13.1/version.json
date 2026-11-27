@@ -1,0 +1,310 @@
+{
+  "version": "1.13.1",
+  "versionCode": 23,
+  "package": "com.suzume.portal.bletrial",
+  "label": "铃芽之旅·实体门联调",
+  "apk": "SuzumePortal-PICO-PhysicalDoor-v1.13.1.apk",
+  "apk_sha256": "a0b386e8d68be984b88db520646ee0a84720a76c8c444be97d45253c541ede93",
+  "apk_bytes": 113313228,
+  "baseline": "03c86c6df4ec3e9b8d39ccb123019995acca2ea1",
+  "installed": false,
+  "device_validation": "PENDING: headset and board unavailable; no physical motion performed",
+  "pc_regression": "PASS",
+  "sources": [
+    {
+      "path": "Assets/Editor/BuildPicoApk.cs",
+      "sha256": "c059c4bc8e6e02154320d18d5382220e346ddbd1e733c72f144648fdf7c9682c",
+      "bytes": 9604
+    },
+    {
+      "path": "Assets/Editor/BuildPicoApk.cs.meta",
+      "sha256": "b411555233b3549dde1cb02b010a84688630e110f296f2e475ef7ca12ef62f91",
+      "bytes": 243
+    },
+    {
+      "path": "Assets/Editor/DoorBleManifest.cs",
+      "sha256": "513fff8e2c8bb7fffb53766f39f36ecd63cf8911c272d0594aa6cdc9e0c37475",
+      "bytes": 1494
+    },
+    {
+      "path": "Assets/Editor/DoorBleManifest.cs.meta",
+      "sha256": "9ae163c6606a1265d90364519069df3d8c327392dab190caff08379b0796b7d0",
+      "bytes": 243
+    },
+    {
+      "path": "Assets/Editor/PhysicalDoorTrialCheck.cs",
+      "sha256": "fdb201a567da95d9845db566c0821b8c667f28bbfac8f3c5e7c7b953d84c99e2",
+      "bytes": 9901
+    },
+    {
+      "path": "Assets/Editor/PhysicalDoorTrialCheck.cs.meta",
+      "sha256": "f34eab9e7122ed444b3a1cb2b6366849665cdaeb28e199b937dacc3d52ea073f",
+      "bytes": 243
+    },
+    {
+      "path": "Assets/Editor/PicoManifest.cs",
+      "sha256": "a9cfa3d79c28e8ae00be2dc06eae69f83214deb1f1fb58f8c37befcf3608d53b",
+      "bytes": 2196
+    },
+    {
+      "path": "Assets/Editor/PicoManifest.cs.meta",
+      "sha256": "9c4febd951aaac0d4fff6697978af5f7ca84ebea587160688a5cc847a285b2a1",
+      "bytes": 243
+    },
+    {
+      "path": "Assets/Plugins/Android/DoorBleClient.java",
+      "sha256": "0c2d816cf99c175d29fb054196355b2492f0b27ffd4c94e476b84cb4840f487f",
+      "bytes": 8590
+    },
+    {
+      "path": "Assets/Plugins/Android/DoorBleClient.java.meta",
+      "sha256": "d5a2b9a18fd10c2016a2963a53e1184238f5bf17639b750b675555bb7061e85c",
+      "bytes": 608
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_POSITION.png",
+      "sha256": "4fd1400b010cfbd5caac8785ee252a2f86d0c6a5fbeb343316b4b443caba0d4b",
+      "bytes": 30195
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_POSITION.png.meta",
+      "sha256": "5489e49fe182ac9f42f3687ad651fb898f2f182628731a055e126aef026f4c88",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_READ.png",
+      "sha256": "f0edcea396860a13bfb0e28dc56353e9bfad4dc8ac884fe5246801cc1238a6c5",
+      "bytes": 30735
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_READ.png.meta",
+      "sha256": "072ce782756c03d4de5d495e5e2c316cc03cfd6d3fec1f77f34c26fa43779af7",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_UART.png",
+      "sha256": "48544bd4177d29a9e228a3d69ed46fed587960cbc92010ce970b1a26605e710d",
+      "bytes": 30293
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_UART.png.meta",
+      "sha256": "7ab0134edf109db39e44fca66bbe4ac275cd2d6b2a9372f38b818e8268f7bcc4",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_UNCAL.png",
+      "sha256": "00c4d5c7f5a3e6a4345ec6522d6d34bbdeffa2a97d4d34bde827f5be74a6f0de",
+      "bytes": 30183
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_UNCAL.png.meta",
+      "sha256": "ccc4f4e0f245118363b85d6428749eefbe0f03b615e6604c3ea2648e6cfeeace",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_bluetooth_off.png",
+      "sha256": "7dae5742ded30b851b06fd955c5c7f1e6ee169448184acdd380eb8c312344335",
+      "bytes": 24298
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_bluetooth_off.png.meta",
+      "sha256": "0ba3b9557f51145f2ee341237be7edd8ffcc73c400254dfdb46765c16565c388",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_closed.png",
+      "sha256": "7638f24157ee8598170f464700bd1b508459a4e55872382847e43b50f070a315",
+      "bytes": 23312
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_closed.png.meta",
+      "sha256": "b67061f95aa35b1d5ae7ca335a5378481d3cb7e36009473fd99bb3999e2b620b",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_closing.png",
+      "sha256": "4dbf2810b640208ca8107ab317ba1f64021b64c4784ddfc25323e1eec9a198d5",
+      "bytes": 26004
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_closing.png.meta",
+      "sha256": "55435dd8e2608b14ba124d5b14d3e65ed0f8279cdfe5d3719924fcce3654953a",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_connecting.png",
+      "sha256": "5388087ee87702180e822a29c298d1792379f92c55b788d4185d19663ddc37f4",
+      "bytes": 26867
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_connecting.png.meta",
+      "sha256": "1411cb7f618549da04e723b66c269936b5319e55edf42249ed6a5cb9666d1f6c",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_disconnected.png",
+      "sha256": "97da9f4ce8894d1712ca71d91dca86a4b0879d0432a364eacaf3b8bc21a771c1",
+      "bytes": 29216
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_disconnected.png.meta",
+      "sha256": "c579abbb0a2367785a603270d4b8bc5af9e964ceca3bea1f01e602f8df7d9101",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_opened.png",
+      "sha256": "a4fb98c6f25b53d939ac12b89c8d3cba886770ce5fc58a1e0d051fef71cb4c9b",
+      "bytes": 22666
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_opened.png.meta",
+      "sha256": "08aec211d6274f5fdce0c43826fb0b9bb115d813f66e6b4987ff3805e79fcf06",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_opening.png",
+      "sha256": "f917cab853b6206d70da379c3032c56bd9f86e68f39d7a6f9001fb51d7e2bdc5",
+      "bytes": 26655
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_opening.png.meta",
+      "sha256": "27b51eb436df414ccf48e2922894186825c7e2d6d8dbe774e193f85c3227e7d9",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_permission.png",
+      "sha256": "8c58c215027f68fcd3ea010f725d3005c8705007043fb072e379a30547c14983",
+      "bytes": 32411
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_permission.png.meta",
+      "sha256": "4d0582c5c103d8b7967e71116168b3db0c4977cee3d72bcf5bc90ce9ff518c87",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_query.png",
+      "sha256": "ad7f3cfc68ae9b81f4edd40d15c87fe46586c0135cbd22962a86615c5ee9cd03",
+      "bytes": 30877
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_query.png.meta",
+      "sha256": "a8c49e1379faa0aa6b947b7e8c882598dd4c15207dc9c4abb8b6f6a5dcfe1d8b",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_ready.png",
+      "sha256": "cc0605ff9407b44e010b7a1537de07d4ba7fb38bec0502b52b97c453d4620810",
+      "bytes": 22102
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_ready.png.meta",
+      "sha256": "30a89ac245cf47f6932e200ebd71db991476c556af7de928000d96d885fc1d99",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_scan_timeout.png",
+      "sha256": "357785a656a1359db987fcf5dfb3d0c0299a9d158d4941a5fec2195ce4fe9e7b",
+      "bytes": 30937
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_scan_timeout.png.meta",
+      "sha256": "ace67402edb610d92704b9aaa230102b681140c09154da3a9c1d96da94622e5e",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_scanning.png",
+      "sha256": "77f3044b6aca9afca511d706baa256266803fb1fb504ee2a39ac0feb8d8af922",
+      "bytes": 26335
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_scanning.png.meta",
+      "sha256": "242ca601573945e66ef490e0373672855f3eb51fd0479b2f3f1712d8beaad42c",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_sending.png",
+      "sha256": "f37812687ee911cc4e47289671227cf42d828d29eca9ac9663e316e1ef494a43",
+      "bytes": 30332
+    },
+    {
+      "path": "Assets/Resources/ControllerGuide/slim_ble_sending.png.meta",
+      "sha256": "9cdea10deb4a86c4e4ce0f58a15ae5ea08d2bdbed5cee89245cdbcdaf0d090d3",
+      "bytes": 3075
+    },
+    {
+      "path": "Assets/Scripts/DoorBleProtocol.cs",
+      "sha256": "92bd699176d591f139e9b755ea36333ae23c03af7c601965b6daf52714a07f47",
+      "bytes": 5114
+    },
+    {
+      "path": "Assets/Scripts/DoorBleProtocol.cs.meta",
+      "sha256": "150c86f38fa994897a4aee3c00141b7e7caef5bac98f7ece15ef68db2623fa3f",
+      "bytes": 243
+    },
+    {
+      "path": "Assets/Scripts/DoorCornerMarker.cs",
+      "sha256": "a29e1fe12ad137970102b5aabdbc9e994ce030a9d65c5977eb42e144907fc63c",
+      "bytes": 37513
+    },
+    {
+      "path": "Assets/Scripts/DoorCornerMarker.cs.meta",
+      "sha256": "5bbd895d9ba53d88e17712a7e4968d0aba981c418e4a75507a544021973aea4d",
+      "bytes": 243
+    },
+    {
+      "path": "Assets/Scripts/DoorQuadPlacement.cs",
+      "sha256": "fabbeb2d202e2d888b97bb1772b6aa828c4ce54671a876f7ffb8735f9b39113b",
+      "bytes": 3390
+    },
+    {
+      "path": "Assets/Scripts/DoorQuadPlacement.cs.meta",
+      "sha256": "0d9937853a214e3d38861b7aeedd663ea52b73140c47b990babce47653bdd267",
+      "bytes": 243
+    },
+    {
+      "path": "Assets/Scripts/PicoDoorBleLink.cs",
+      "sha256": "52ad8c7b081d2f19e7632cac77ec3985e73ca5ef99b3d3717d786919e094781e",
+      "bytes": 5836
+    },
+    {
+      "path": "Assets/Scripts/PicoDoorBleLink.cs.meta",
+      "sha256": "c7077ba4b6105d68a10e444bec550f7add24560350cf5e4e00f3e4ef59ae3304",
+      "bytes": 243
+    },
+    {
+      "path": "Assets/Scripts/PortalGuideView.cs",
+      "sha256": "8c566bcc07ae78fb4aed545945ccb857b25cad44e1ee3e27140c63a70dd72c2d",
+      "bytes": 3153
+    },
+    {
+      "path": "Assets/Scripts/PortalGuideView.cs.meta",
+      "sha256": "864c672890212314849b09ef2d72aaa67c4bd1ad2773c5a743afa4c8f0270596",
+      "bytes": 243
+    },
+    {
+      "path": "Assets/Scripts/PortalManager.cs",
+      "sha256": "ac486641194515567d1dfba95b9cd9550932aac1fc8f427b7ba141b773227eb1",
+      "bytes": 35087
+    },
+    {
+      "path": "Assets/Scripts/PortalManager.cs.meta",
+      "sha256": "01c89e8a76ae1d0c74e9f5fc98ac026f2d7e67a31e6c5fab696ce1349f7f227e",
+      "bytes": 243
+    },
+    {
+      "path": "Assets/Scripts/PortalQuadWarp.cs",
+      "sha256": "7628b3d135a8ea652b08e8d8d9ab791899ecea11483a02c5bcb8cb61e75b45bd",
+      "bytes": 2475
+    },
+    {
+      "path": "Assets/Scripts/PortalQuadWarp.cs.meta",
+      "sha256": "94d42d9cc2810f38aba588cdd3489bd6237b2037dc2f9d51478413e406035580",
+      "bytes": 243
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "5b3aa7e24628ca962407c307a6ec3b4df83f1a53d2f1e0311c82070c527ed107",
+      "bytes": 21578
+    }
+  ]
+}

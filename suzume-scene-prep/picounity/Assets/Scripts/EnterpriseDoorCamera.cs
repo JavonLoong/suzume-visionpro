@@ -126,7 +126,39 @@ public sealed class EnterpriseDoorCamera : IDisposable
         }
     }
 
-    public bool TryAcquire(Matrix4x4 headToWorld, float time, DoorCameraFrame frame)
+    public DoorCameraPoseSample SamplePose(Matrix4x4 headToWorld, float time)
+    {
+        var sample=new DoorCameraPoseSample { headToWorld=headToWorld, time=time };
+        try
+        {
+            sample.displayTimeMilliseconds=PXR_Enterprise.GetPredictedDisplayTime();
+            var state=PXR_Enterprise.GetPredictedMainSensorState(sample.displayTimeMilliseconds,false);
+            sample.nativeHead=state.pose;
+            sample.nativeValid=state.status==1 && sample.displayTimeMilliseconds>0
+                && !double.IsInfinity(sample.displayTimeMilliseconds)
+                && TryCapturePose(headToWorld,state.pose,state.pose,out _);
+        }
+        catch(Exception e)
+        { if(!poseFallbackLogged)Debug.LogWarning("[DoorCamera] reference pose unavailable: "+e.Message); }
+        return sample;
+    }
+
+    // No query of a newer native 'current' pose is allowed here: it would be paired
+    // with an older Unity pose if the worker was delayed or grey conversion was slow.
+    public static bool TryCaptureFramePose(DoorCameraPoseSample sample,UnityEngine.Pose captured,double capturedMilliseconds,
+        out Matrix4x4 captureHead,out float captureTime,out float age)
+    {
+        captureHead=sample.headToWorld;captureTime=sample.time;age=0;
+        double seconds=(sample.displayTimeMilliseconds-capturedMilliseconds)/1000.0;
+        if(!sample.nativeValid || double.IsNaN(seconds) || double.IsInfinity(seconds)
+            || capturedMilliseconds<=0 || seconds<-.01 || seconds>.3
+            || float.IsNaN(sample.time) || float.IsInfinity(sample.time)
+            || !TryCapturePose(sample.headToWorld,captured,sample.nativeHead,out captureHead)) return false;
+        age=(float)Math.Max(0,seconds);captureTime=sample.time-age;
+        return true;
+    }
+
+    public bool TryAcquire(DoorCameraPoseSample sample, DoorCameraFrame frame)
     {
         lock(gate)
         {
@@ -135,30 +167,33 @@ public sealed class EnterpriseDoorCamera : IDisposable
             if(age>.25) return false;
             if(frame.gray==null || frame.gray.Length!=Width*Height) frame.gray=new byte[Width*Height];
             RgbaToGray(latest, frame.gray, Width, Height);
-            frame.width=Width; frame.height=Height; frame.time=time;
+            frame.width=Width; frame.height=Height; frame.time=sample.time;
             frame.fx=fx; frame.fy=fy; frame.cx=cx; frame.cy=cy;
             // Relate capture pose to the predicted display pose in the SAME native tracking
             // origin, then apply that relative motion to OpenXR's sampled world pose. This avoids
             // assuming that native tracking and the application's world origin coincide.
             // Keep the verified 1.12.8 capture path when native sensor timing is unavailable.
             // In particular, some OpenXR configurations expose the camera but not this sensor API.
-            frame.cameraToWorld=headToWorld*headToCamera;frame.poseCorrected=false;frame.captureAge=(float)age;
+            frame.cameraToWorld=sample.headToWorld*headToCamera;frame.poseCorrected=false;frame.captureAge=(float)age;
             try
             {
-                double displayTime=PXR_Enterprise.GetPredictedDisplayTime();
                 double capturedTime=timestamp/1000000.0; // keep nanoseconds -> milliseconds in double precision
-                double seconds=(displayTime-capturedTime)/1000.0;
-                var current=PXR_Enterprise.GetPredictedMainSensorState(displayTime,false);
-                var captured=PXR_Enterprise.GetPredictedMainSensorState(capturedTime,false);
-                if(current.status==1&&captured.status==1&&seconds>=-.01&&seconds<=.3
-                    &&TryCapturePose(headToWorld,captured.pose,current.pose,out var captureHead))
+                if(sample.nativeValid)
                 {
-                    frame.cameraToWorld=captureHead*headToCamera;frame.time=time-(float)System.Math.Max(0,seconds);
-                    frame.poseCorrected=true;frame.captureAge=(float)System.Math.Max(0,seconds);
-                    if(!poseLogged){poseLogged=true;Debug.Log($"[DoorCamera] capture-time pose correction active age={seconds*1000:F1}ms");}
+                    var captured=PXR_Enterprise.GetPredictedMainSensorState(capturedTime,false);
+                    if(captured.status!=1 || !TryCaptureFramePose(sample,captured.pose,capturedTime,
+                        out var captureHead,out var captureTime,out var captureAge))
+                    { consumed=timestamp; return false; }
+                    frame.cameraToWorld=captureHead*headToCamera;frame.time=captureTime;
+                    frame.poseCorrected=true;frame.captureAge=captureAge;
+                    if(!poseLogged){poseLogged=true;Debug.Log($"[DoorCamera] paired capture-time pose correction active age={captureAge*1000:F1}ms");}
                 }
             }
-            catch(Exception e){if(!poseFallbackLogged)Debug.LogWarning("[DoorCamera] native pose correction unavailable: "+e.Message);}
+            catch(Exception e)
+            {
+                if(!poseFallbackLogged)Debug.LogWarning("[DoorCamera] native pose correction unavailable: "+e.Message);
+                if(sample.nativeValid){consumed=timestamp;return false;}
+            }
             if(!frame.poseCorrected&&!poseFallbackLogged)
             {poseFallbackLogged=true;Debug.LogWarning("[DoorCamera] using sampled head pose; capture stream remains available, capture-time correction is unverified");}
             consumed=timestamp;

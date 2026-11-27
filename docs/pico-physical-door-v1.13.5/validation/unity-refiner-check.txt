@@ -1,0 +1,4 @@
+CPU Burst: fixtures=86 acceptance matched all; accepted=16; max coordinate difference=0.000183px max confidence difference=0.000022; warm median inference=29.435ms on PC, not headset.
+Async PC sample: total=52.572ms maximum main-thread slice=0.570ms; not headset latency.
+PASS: sync/async agreement, cooperative yields, invalidation/cancel, worker reuse, all-original fallback.
+PASS: actual DoorAutoLocator pipeline feeds refined points into pose fitting; retarget/cancel during refinement cannot publish them.

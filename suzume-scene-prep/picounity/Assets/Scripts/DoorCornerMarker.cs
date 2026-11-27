@@ -27,6 +27,8 @@ public class DoorCornerMarker : MonoBehaviour
     public bool CanRunGuided => IsGuiding && !_busy && !_paused && _focused;
     public string ProgressSummary => $"mode={_mode} corners={_count} firstRay={_hasFirstRay}";
     bool _paused, _focused = true;
+    public bool IsInitialized { get; private set; }
+    public bool CanControlPhysicalDoor => IsInitialized && IsBrowsing && !_busy && !_paused && _focused;
     PortalManager _portal;
     Mode _mode;
     PreviousPlacement _previous;
@@ -42,6 +44,7 @@ public class DoorCornerMarker : MonoBehaviour
     float _candidateUntil;
     Vector3[] _candidateCorners, _tuneBefore;
     Mode _tuneModeBefore;
+    bool _tuneHiddenBefore;
     int _tuneTarget;
     bool _fine=true, _tuneTriggerReleased, _stickNeutral=true, _leftStickReady, _rightStickReady;
     float _repeatAt;
@@ -77,6 +80,7 @@ public class DoorCornerMarker : MonoBehaviour
     {
         Instance = this;
         _portal = FindObjectOfType<PortalManager>();
+        if(_portal==null) { Debug.LogError("[DoorCorner] PortalManager missing; initialization stopped"); enabled=false; return; }
         _selectedMountain=_portal.mountainLandscape;
         _portal.calibrationHidden=true;
         _portal.UpdatePortalState();
@@ -108,16 +112,19 @@ public class DoorCornerMarker : MonoBehaviour
         _imageCandidate.positionCount=5;_imageCandidate.enabled=false;
         _guide = new GameObject("PortalGuide").AddComponent<PortalGuideView>();
         if (Camera.main != null) _guide.Initialize(Camera.main);
+        IsInitialized=true;
+        Debug.Log("[DoorCorner] initialized Ready; left X enters manual placement");
         _prepareTask = Prepare();
     }
     void Update()
     {
         if (_imageCandidate != null && (!CanRunGuided || Time.unscaledTime > _candidateUntil)) _imageCandidate.enabled=false;
-        if (_portal == null) return;
+        if (_portal == null || !IsInitialized) return;
         ProcessInput(PortalControllerInput.Read(true),PortalControllerInput.Read(false));
     }
     void ProcessInput(PortalControllerInput.Hand right,PortalControllerInput.Hand left)
     {
+        if(!IsInitialized)return;
         // Preserve the selected corners/ray across sleep or a system dialog.
         if (_paused || !_focused) { _rayFresh=false; return; }
         if (_mode == Mode.Preview && _automatic && right.tracked && !right.trigger) _automaticPreviewReleased = true;
@@ -133,7 +140,7 @@ public class DoorCornerMarker : MonoBehaviour
         UpdateRay(right);
         if (!_busy)
         {
-            if (Rise(right.primary, _lastRight.primary, right.tracked, _lastRight.tracked))
+            if (!(IsBrowsing && PicoDoorBleLink.Active) && Rise(right.primary, _lastRight.primary, right.tracked, _lastRight.tracked))
             {
                 _selectedMountain=!_selectedMountain;
                 // During placement, choose the next landscape without rebuilding geometry
@@ -142,13 +149,14 @@ public class DoorCornerMarker : MonoBehaviour
                 PortalControllerInput.Pulse(true);
             }
             if (Rise(left.primary, _lastLeft.primary, left.tracked, _lastLeft.tracked)) Begin();
-            if (Rise(right.secondary, _lastRight.secondary, right.tracked, _lastRight.tracked))
+            if (!(IsBrowsing && PicoDoorBleLink.Active) && Rise(right.secondary, _lastRight.secondary, right.tracked, _lastRight.tracked))
             {
                 if (IsEditing || IsGuiding) Cancel(); else _help = !_help;
             }
             if (Rise(left.secondary, _lastLeft.secondary, left.tracked, _lastLeft.tracked) && !IsEditing && !IsGuiding)
             {
                 if(_mode==Mode.Ready) RestoreSaved();
+                else if(_portal.physicalOpeningOnly) { _help=!_help; }
                 else
                 {
                     _portal.frameMode = _portal.frameMode == PortalConfig.FrameMode.Reference ? PortalConfig.FrameMode.Occlusion : PortalConfig.FrameMode.Reference;
@@ -200,6 +208,7 @@ public class DoorCornerMarker : MonoBehaviour
     }
     void UpdateRay(PortalControllerInput.Hand hand)
     {
+        if(_firstLine==null||_laser==null||_tip==null||_firstNearest==null||_secondNearest==null||_nearestBridge==null)return;
         bool active=(_mode==Mode.Ready || IsGuiding || _mode==Mode.Collect) && _count<4 && !_busy;
         _rayFresh=false;
         if(!_hasFirstRay) _rayHit=false;
@@ -392,6 +401,9 @@ public class DoorCornerMarker : MonoBehaviour
             Array.Copy(_portal.GetWorldCorners(),_corners,4);
         }
         if(!DoorQuadPlacement.TryFit(_corners,out _fit))return;
+        _tuneHiddenBefore=_portal.calibrationHidden;
+        _portal.calibrationHidden=false;
+        _portal.UpdatePortalState();
         _tuneBefore=(Vector3[])_corners.Clone();_tuneTarget=0;_fine=true;_count=4;
         _tuneTriggerReleased=false;_stickNeutral=false;_leftStickReady=false;_rightStickReady=false;_repeatAt=0;_noticeUntil=0;
         _adjustForward=Camera.main!=null?Vector3.ProjectOnPlane(Camera.main.transform.forward,Vector3.up).normalized:Vector3.forward;
@@ -409,6 +421,7 @@ public class DoorCornerMarker : MonoBehaviour
             Array.Copy(_tuneBefore,_corners,4);DoorQuadPlacement.TryFit(_corners,out _fit);
             Apply(_fit.center,_fit.rotation,_fit.width,_fit.height);_portal.SetWorldCorners(_corners);
             _mode=_tuneModeBefore;_noticeUntil=0;
+            _portal.calibrationHidden=_tuneHiddenBefore;_portal.UpdatePortalState();
             if(IsBrowsing)HideMarks();else UpdateAdjustmentOutline(false);
             return;
         }
@@ -424,7 +437,7 @@ public class DoorCornerMarker : MonoBehaviour
         if(axis==Vector3.zero){_stickNeutral=true;_repeatAt=0;}
         else if(_stickNeutral||(_repeatAt>0&&Time.unscaledTime>=_repeatAt))
         {
-            Vector3 delta=axis*(_fine?.0005f:.005f);
+            Vector3 delta=axis*(_fine?.0001f:.0005f);
             TryAdjust(_tuneTarget,delta);
             _repeatAt=Time.unscaledTime+(_stickNeutral?.35f:.09f);_stickNeutral=false;
         }
@@ -443,10 +456,10 @@ public class DoorCornerMarker : MonoBehaviour
     void UpdateAdjustmentOutline(bool marks)
     {
         _outline.SetPositions(new[]{_corners[0],_corners[1],_corners[3],_corners[2],_corners[0]});
-        _outline.startWidth=_outline.endWidth=Mathf.Clamp(_fit.width*.025f,.0007f,.003f);_outline.enabled=true;
+        _outline.startWidth=_outline.endWidth=Mathf.Clamp(_fit.width*.003f,.00008f,.0003f);_outline.enabled=true;
         for(int i=0;i<4;i++)
         {
-            _marks[i].position=_corners[i];_marks[i].localScale=Vector3.one*Mathf.Clamp(_fit.width*.09f,.0015f,.012f);
+            _marks[i].position=_corners[i];_marks[i].localScale=Vector3.one*Mathf.Clamp(_fit.width*.02f,.0005f,.003f);
             _marks[i].GetComponent<Renderer>().sharedMaterial.color=(_tuneTarget==0||_tuneTarget==i+1)?new Color(1f,.7f,.15f):new Color(.55f,.65f,.7f);
             _marks[i].gameObject.SetActive(marks);
         }

@@ -2,7 +2,9 @@
 
 这里是项目的统一协作入口，包含 Pico / Unity 源码、场景、模型、贴图、Vision Pro 工程、场景制作脚本，以及 Blender 和打印资料的下载索引。
 
-**2026-11-24 最新更新：PICO 1.13.0（11.18 版，待头显实测）。** [下载 APK](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/SuzumePortal-PICO-v1.13.0.apk) · [本次发布说明](docs/PICO-v1.13.0-project-update.md) · [最新模型与制作资料](https://github.com/JavonLoong/suzume-visionpro/releases/tag/project-update-2026-11-24)。加入识别结果按键固定、整体和四角前后左右上下调整、保存与取消；后台识别和位置求解继续优化。电脑回归与打包已完成，最新包尚未进行头显现场验证。同步更新九块底座、500 毫米底座和内藏轴试配资料，具体试制状态见说明。
+**2026-11-27 最新软件：PICO 1.13.5 实体门联调（预发布，待实机验收）。** [下载 APK](https://github.com/JavonLoong/suzume-visionpro/releases/download/pico-v1.13.5-physical-door-2026-11-27/SuzumePortal-PICO-PhysicalDoor-v1.13.5.apk) · [发布说明与验证边界](docs/PICO-v1.13.5.md) · [Release 附件](https://github.com/JavonLoong/suzume-visionpro/releases/tag/pico-v1.13.5-physical-door-2026-11-27)。包含冷启动定位修复、实体主控 BLE、门洞内沿裁切、相机姿态配对和四角局部模型。包名 `com.suzume.portal.bletrial`，不覆盖 11.18 主应用。电脑检查已通过，实际门洞精度、头显延迟和实体门动作仍需现场验证。
+
+**2026-11-24 项目更新：PICO 1.13.0（11.18 版，待头显实测）。** [下载 APK](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/SuzumePortal-PICO-v1.13.0.apk) · [本次发布说明](docs/PICO-v1.13.0-project-update.md) · [最新模型与制作资料](https://github.com/JavonLoong/suzume-visionpro/releases/tag/project-update-2026-11-24)。加入识别结果按键固定、整体和四角前后左右上下调整、保存与取消；后台识别和位置求解继续优化。电脑回归与打包已完成，最新包尚未进行头显现场验证。同步更新九块底座、500 毫米底座和内藏轴试配资料，具体试制状态见说明。
 
 以下为历史版本记录。
 

@@ -1,0 +1,30 @@
+{
+  "goal_status": "active",
+  "goal_complete": false,
+  "version": "1.13.5",
+  "version_code": 27,
+  "apk_bytes": 112982600,
+  "apk_sha256": "38bd1975e4e0b7f05d896416735d6ebc4cc6a1245b0239156e64989271c8173d",
+  "global_model_sha256": "d8f9c1fe9dfa985822ae266a817b8804c71a3cfa8d85e480d91d15437246775f",
+  "local_model_sha256": "04f4115f70b92b0890dbe99cf1d11d103c205f95574c36e1bf642c001652e1d1",
+  "local_training_steps": 6000,
+  "local_model_integrated": true,
+  "headset_installed": false,
+  "headset_tested": false,
+  "physical_controller_tested": false,
+  "real_corner_precision_verified": false,
+  "github_pushed": false,
+  "source_files": [
+    "Assets/Scripts/DoorAutoLocator.cs",
+    "Assets/Scripts/DoorCornerRefiner.cs",
+    "Assets/Scripts/DoorCornerRefiner.cs.meta",
+    "Assets/Editor/BuildPicoApk.cs",
+    "Assets/Editor/DoorCornerRefinerCheck.cs",
+    "Assets/Editor/DoorCornerRefinerCheck.cs.meta",
+    "Assets/Editor/DoorCornerReleaseCheck.cs",
+    "Assets/Editor/DoorCornerReleaseCheck.cs.meta",
+    "Assets/Resources/DoorNet/door_corner.onnx",
+    "Assets/Resources/DoorNet/door_corner.onnx.meta"
+  ],
+  "note": "Original build-time record; github_pushed=false describes the time the package was built, not publication status."
+}

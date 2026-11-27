@@ -43,6 +43,7 @@ public sealed class DoorPoseStabilizer
     public void Reset()
     {
         _window.Clear(); _recent.Clear(); _driftCount = 0; CurrentState = State.Searching;
+        _lastSeen=float.NegativeInfinity;Current=LockedSolution=default;
     }
 
     public void MarkMissing(float time)
@@ -52,19 +53,23 @@ public sealed class DoorPoseStabilizer
 
     public Event Add(DoorPoseSolver.Observation observation, float width, float height)
     {
+        if(!DoorPoseSolver.ValidObservation(observation)||observation.time<=_lastSeen)return Event.None;
+        if(!DoorPoseSolver.SolveSingle(observation,width,height,out var solution))return Event.None;
         _lastSeen = observation.time;
         _window.Add(observation);
         _window.RemoveAll(o => observation.time - o.time > maximumAge);
         while (_window.Count > windowSize) _window.RemoveAt(0);
         if (CurrentState == State.Searching) CurrentState = State.Sampling;
 
-        if (!DoorPoseSolver.SolveSingle(observation, width, height, out var solution)) return Event.None;
         if (assumeUpright)
         {
             var start = _recent.Count > 0 ? _recent[_recent.Count - 1] : solution;
             if (!DoorPoseSolver.SolveUpright(_window, width, height, start, out solution)) return Event.None;
         }
-        else if (_window.Count > 1) solution = Average(width, height, solution);
+        else if (_window.Count > 1)
+        {
+            if(!DoorPoseSolver.SolveMultiView(_window,width,height,solution,out solution)){_recent.Clear();return Event.None;}
+        }
         Current = solution;
         float tolerance = Mathf.Max(minimumPositionTolerance, height * positionToleranceRatio);
 
@@ -92,20 +97,4 @@ public sealed class DoorPoseStabilizer
         return Event.Locked;
     }
 
-    DoorPoseSolver.Solution Average(float width, float height, DoorPoseSolver.Solution latest)
-    {
-        Vector3 position = Vector3.zero, forward = Vector3.zero, up = Vector3.zero;
-        float rms = 0; int count = 0;
-        foreach (var o in _window)
-        {
-            if (!DoorPoseSolver.SolveSingle(o, width, height, out var s)) continue;
-            position += s.position; forward += s.rotation * Vector3.forward; up += s.rotation * Vector3.up; rms += s.rmsPixels; count++;
-        }
-        if (count == 0 || forward.sqrMagnitude < 1e-6f) return latest;
-        latest.position = position / count;
-        latest.rotation = Quaternion.LookRotation(forward, up);
-        latest.yawDegrees = latest.rotation.eulerAngles.y;
-        latest.rmsPixels = rms / count;
-        return latest;
-    }
 }

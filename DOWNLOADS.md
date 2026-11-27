@@ -1,5 +1,10 @@
 # 完整项目下载
 
+## 最新软件：PICO 实体门联调 1.13.5
+
+[下载 APK](https://github.com/JavonLoong/suzume-visionpro/releases/download/pico-v1.13.5-physical-door-2026-11-27/SuzumePortal-PICO-PhysicalDoor-v1.13.5.apk) · [发布说明](docs/PICO-v1.13.5.md)。2026-11-27 预发布，待头显与实体门验收；不覆盖正式主应用。
+
+
 ## 2026-11-24 · 最新源码、模型与 PICO 1.13.0
 
 [本次 Release](https://github.com/JavonLoong/suzume-visionpro/releases/tag/project-update-2026-11-24) · [发布和测试说明](docs/PICO-v1.13.0-project-update.md) · [SHA-256](https://github.com/JavonLoong/suzume-visionpro/releases/download/project-update-2026-11-24/SHA256SUMS.txt)

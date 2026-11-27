@@ -39,7 +39,8 @@ Shader "Suzume/PortalTarget"
 
         Cull Off
         ZWrite On
-        Blend SrcAlpha OneMinusSrcAlpha
+        // Keep an opaque portal background opaque when translucent motes overlap it.
+        Blend SrcAlpha OneMinusSrcAlpha, One OneMinusSrcAlpha
 
         Stencil
         {

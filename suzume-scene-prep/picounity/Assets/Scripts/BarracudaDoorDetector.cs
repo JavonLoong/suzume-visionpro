@@ -10,6 +10,7 @@ using UnityEngine;
 // measured at close to the camera's own resolution.
 public sealed class BarracudaDoorDetector : IDoorKeypointDetector, IDoorGuidedDetector, IDisposable
 {
+    public const WorkerFactory.Type HeadsetWorkerType = WorkerFactory.Type.CSharpBurst;
     public const int InputWidth = 384, InputHeight = 288, Stride = 4;
     const int OutputWidth = InputWidth / Stride, OutputHeight = InputHeight / Stride, Channels = 12;
     const float Fill = .45f; // door's larger extent / crop height in the close-up passes
@@ -36,7 +37,7 @@ public sealed class BarracudaDoorDetector : IDoorKeypointDetector, IDoorGuidedDe
         var asset = Resources.Load<NNModel>("DoorNet/door_net");
         if (asset == null) { Debug.LogWarning("[DoorDetector] Resources/DoorNet/door_net is missing"); return null; }
         // Android Vulkan results must match recorded-frame CPU results before enabling GPU inference.
-        var chosen = type ?? (Application.platform == RuntimePlatform.Android ? WorkerFactory.Type.CSharpBurst
+        var chosen = type ?? (Application.platform == RuntimePlatform.Android ? HeadsetWorkerType
             : (SystemInfo.supportsComputeShaders ? WorkerFactory.Type.ComputePrecompiled : WorkerFactory.Type.CSharpBurst));
         try { return new BarracudaDoorDetector(ModelLoader.Load(asset), chosen); }
         catch (Exception e) { Debug.LogWarning("[DoorDetector] cannot start: " + e.Message); return null; }

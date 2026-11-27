@@ -19,6 +19,8 @@ using System.Collections.Generic;
 [ExecuteAlways]
 public class PortalManager : MonoBehaviour
 {
+    [Tooltip("Keep scenery inside the physical inner opening; never draw a replacement frame or switch to full VR.")]
+    public bool physicalOpeningOnly = true;
     [Header("门户核心材质")]
     public Material portalMaskMaterial;
     public Material portalTargetMaterial;
@@ -54,14 +56,15 @@ public class PortalManager : MonoBehaviour
     PortalQuadWarp _quadWarp;
     public Vector3[] GetWorldCorners()
     {
-        if(adjustedOpening!=null&&adjustedOpening.Length==4)
+        if(DoorQuadPlacement.HasFourFiniteCorners(adjustedOpening))
         { var p=new Vector3[4];for(int i=0;i<4;i++)p[i]=transform.TransformPoint(adjustedOpening[i]);return p; }
         return DoorQuadPlacement.Rectangle(portalPosition,transform.rotation,portalWidth>0?portalWidth:PortalConfig.BaseDoorWidth*portalHeight/PortalConfig.BaseDoorHeight,portalHeight);
     }
     public void SetWorldCorners(Vector3[] points)
     {
-        adjustedOpening=points==null?null:new Vector3[4];
-        if(points!=null)for(int i=0;i<4;i++)adjustedOpening[i]=transform.InverseTransformPoint(points[i]);
+        bool valid=DoorQuadPlacement.HasFourFiniteCorners(points);
+        adjustedOpening=valid?new Vector3[4]:null;
+        if(valid)for(int i=0;i<4;i++)adjustedOpening[i]=transform.InverseTransformPoint(points[i]);
         if(_quadWarp==null)_quadWarp=GetComponent<PortalQuadWarp>()??gameObject.AddComponent<PortalQuadWarp>();
         _quadWarp.Apply(adjustedOpening);
     }
@@ -373,7 +376,10 @@ public class PortalManager : MonoBehaviour
         transform.rotation = useFullRotation ? portalRotation : Quaternion.Euler(0f, portalYaw, 0f);
         float widthScale = portalWidth > 0f ? portalWidth / PortalConfig.BaseDoorWidth : uniformScale;
         transform.localScale = new Vector3(widthScale, uniformScale, uniformScale);
-        if(adjustedOpening!=null) { if(_quadWarp==null)_quadWarp=GetComponent<PortalQuadWarp>()??gameObject.AddComponent<PortalQuadWarp>(); _quadWarp.Apply(adjustedOpening); }
+        // Unity may deserialize an unset array as empty. Reset a previous warp as well.
+        if(!DoorQuadPlacement.HasFourFiniteCorners(adjustedOpening))adjustedOpening=null;
+        if(adjustedOpening!=null && _quadWarp==null)_quadWarp=GetComponent<PortalQuadWarp>()??gameObject.AddComponent<PortalQuadWarp>();
+        if(_quadWarp!=null)_quadWarp.Apply(adjustedOpening);
         if (_dreamGo != null)
         {
             float sc = dreamWorldScale > 0f ? dreamWorldScale : PortalConfig.DreamWorldScale;
@@ -389,9 +395,9 @@ public class PortalManager : MonoBehaviour
             Vector3 localCam = transform.InverseTransformPoint(mainCam.transform.position);
             cameraBehindPortal = localCam.z <= 0.02f;
         }
-        bool effectiveFullMeadow = fullMeadowView || cameraBehindPortal;
+        bool effectiveFullMeadow = !physicalOpeningOnly && (fullMeadowView || cameraBehindPortal);
 
-        bool useStencil = !effectiveFullMeadow && (Application.isPlaying || !PortalConfig.DisableStencilInEditMode);
+        bool useStencil = !effectiveFullMeadow && (physicalOpeningOnly || Application.isPlaying || !PortalConfig.DisableStencilInEditMode);
         bool useClip = !effectiveFullMeadow;
         Vector4 otherworldClipPlane = ComputeWorldClipPlane();
         // 庭院侧半平面（法线指向门外 +Z，与异世界半平面严格互补）
@@ -404,7 +410,7 @@ public class PortalManager : MonoBehaviour
 
         if (_doorGo != null)
         {
-            _doorGo.SetActive(!fullMeadowView && !calibrationHidden && frameMode != PortalConfig.FrameMode.Hidden);
+            _doorGo.SetActive(!physicalOpeningOnly && !fullMeadowView && !calibrationHidden && frameMode != PortalConfig.FrameMode.Hidden);
             if (_doorGo.activeSelf)
             {
                 MaterialMapper.ApplyDoorMaterials(_doorGo, frameMode);
@@ -413,7 +419,7 @@ public class PortalManager : MonoBehaviour
 
         if (_rigidHingeCompGo != null)
         {
-            bool leafActive = !fullMeadowView && showDoorLeaf && !calibrationHidden && frameMode != PortalConfig.FrameMode.Hidden;
+            bool leafActive = !physicalOpeningOnly && !fullMeadowView && showDoorLeaf && !calibrationHidden && frameMode != PortalConfig.FrameMode.Hidden;
             _rigidHingeCompGo.SetActive(leafActive);
             if (leafActive)
             {
@@ -472,7 +478,7 @@ public class PortalManager : MonoBehaviour
         if (_outsideFloorGo != null)
         {
             bool isHeadsetDevice = Application.platform == RuntimePlatform.Android && !Application.isEditor;
-            bool showFloor = showOutsideReferenceFloor && !effectiveFullMeadow && !isHeadsetDevice && !calibrationHidden;
+            bool showFloor = !physicalOpeningOnly && showOutsideReferenceFloor && !effectiveFullMeadow && !isHeadsetDevice && !calibrationHidden;
             _outsideFloorGo.SetActive(showFloor);
             if (showFloor)
             {
@@ -504,8 +510,8 @@ public class PortalManager : MonoBehaviour
     public Vector4 ComputeWorldClipPlane()
     {
         Vector3 normalIntoPortal = -transform.forward.normalized;
-        Vector3 planePoint = transform.position + normalIntoPortal * 0.005f;
-        if(adjustedOpening!=null&&adjustedOpening.Length==4)
+        Vector3 planePoint = transform.position + normalIntoPortal * (physicalOpeningOnly ? .0002f : .005f);
+        if(DoorQuadPlacement.HasFourFiniteCorners(adjustedOpening))
         {
             float front=float.NegativeInfinity;
             foreach(var p in adjustedOpening)front=Mathf.Max(front,p.z*transform.lossyScale.z);
@@ -601,7 +607,7 @@ public class PortalManager : MonoBehaviour
         portalPosition = new Vector3(data.x, data.y, data.z);
         portalYaw = data.yaw;
         useFullRotation=data.fullRotation&&Quaternion.Dot(data.rotation,data.rotation)>.5f; portalRotation=data.rotation;
-        adjustedOpening=data.corners!=null&&data.corners.Length==4?data.corners:null;
+        adjustedOpening=DoorQuadPlacement.HasFourFiniteCorners(data.corners)?data.corners:null;
         lightMultiplier = data.light > 0.1f ? data.light : PortalConfig.LightMultiplier;
         atmosphereIntensity = data.atmosphere > 0.1f ? data.atmosphere : PortalConfig.AtmosphereIntensity;
         windStrength = data.wind >= 0f ? data.wind : PortalConfig.WindStrength;

@@ -1,0 +1,16 @@
+[DoorCornerRefinerCheck] PASS: sync/async agreement, cooperative yields, invalidation/cancel, worker reuse, all-original fallback.
+[DoorCornerRefinerCheck] PASS: actual DoorAutoLocator pipeline feeds refined points into pose fitting; retarget/cancel during refinement cannot publish them.
+[PhysicalDoorTrialCheck] protocol and press-release guards PASS
+[ControllerTrialCheck] ALL CHECKS PASSED
+[PortalRayTrialCheck] ALL TWO-RAY CHECKS PASSED
+[PassthroughTrialCheck] ALL CHECKS PASSED
+[ContinuousRayTrialCheck] ALL CHECKS PASSED
+[StablePlacementTrialCheck] ALL CHECKS PASSED
+[GuidedDoorTrialCheck] ALL CHECKS PASSED
+[EnterpriseCameraTrialCheck] PASS; hardware stream still requires device verification
+[AsyncDoorTrialCheck] upsample exact copies PASS: 2 batches, 3 scales, 3 channel counts
+[AsyncDoorTrialCheck] PASS: exact output parity, reset/focus invalidation, worker reuse, cooperative yields=22
+[DoorAdjustmentTrialCheck] ALL CHECKS PASSED
+[PhysicalDoorTrialCheck] ALL CHECKS PASSED
+[PhysicalApertureTrialCheck] ALL CHECKS PASSED: six raster views, no interior gaps or outside spill beyond 2px raster boundary; controller/save regression passed. PC only.
+[DoorCornerReleaseCheck] local model, pipeline and aperture checks passed; hardware accuracy/latency remains unverified.
